@@ -5,16 +5,19 @@
 # 
 # Translators:
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2024
+# Omar Al-Ithawi <i@omardo.com>, 2023
+# Brian Smith, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 00:22+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
-"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/147691/fr_CA/)\n"
+"POT-Creation-Date: 2024-05-22 00:22+0000\n"
+"PO-Revision-Date: 2023-01-26 15:39+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2024\n"
+"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -445,39 +448,43 @@ msgstr "(sauvegarder et continuer l'édition pour créer un lien)"
 msgid "Successfully %(status)s %(count)d %(items)s."
 msgstr "Avec succès %(status)s %(count)d %(items)s."
 
-#: apps/course_metadata/algolia_models.py:95
-#: apps/course_metadata/algolia_models.py:637
+#: apps/course_metadata/algolia_models.py:54
+msgid "Certificates"
+msgstr "Attestations"
+
+#: apps/course_metadata/algolia_models.py:55
+msgid "Pathways to Degrees"
+msgstr "Parcours vers les diplômes"
+
+#: apps/course_metadata/algolia_models.py:58
+msgid "Boot Camps"
+msgstr "Camps d'entraînement"
+
+#: apps/course_metadata/algolia_models.py:65
+msgid "Bachelor’s"
+msgstr "Baccalauréat"
+
+#: apps/course_metadata/algolia_models.py:66
+msgid "Master’s"
+msgstr "Maîtrise"
+
+#: apps/course_metadata/algolia_models.py:114
+#: apps/course_metadata/algolia_models.py:627
 msgid "Available now"
 msgstr "Disponible maintenant"
 
-#: apps/course_metadata/algolia_models.py:97
+#: apps/course_metadata/algolia_models.py:116
 #: apps/course_metadata/models.py:2556
 msgid "Upcoming"
 msgstr "Prochainement"
 
-#: apps/course_metadata/algolia_models.py:99
+#: apps/course_metadata/algolia_models.py:118
 #: apps/course_metadata/choices.py:71 apps/course_metadata/models.py:2550
 #: apps/course_metadata/models.py:2566
 msgid "Archived"
 msgstr "Archivé"
 
-#: apps/course_metadata/algolia_models.py:304
-#: apps/course_metadata/algolia_models.py:314
-#: apps/course_metadata/algolia_models.py:581
-msgid "Certificate courses"
-msgstr "Cours certifiants"
-
-#: apps/course_metadata/algolia_models.py:316
-#: apps/course_metadata/algolia_models.py:587
-msgid "Degrees"
-msgstr "Diplômes"
-
-#: apps/course_metadata/algolia_models.py:318
-#: apps/course_metadata/algolia_models.py:589
-msgid "Paths to degrees"
-msgstr "Chemins vers les diplômes"
-
-#: apps/course_metadata/algolia_models.py:648
+#: apps/course_metadata/algolia_models.py:638
 msgid "Available by subscription"
 msgstr "Disponible par abonnement"
 
