@@ -4,17 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Lu Luo Heng, 2024
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Wu SiMin, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 00:27+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Lu Luo Heng, 2024\n"
-"Language-Team: Chinese (Hong Kong) (https://app.transifex.com/open-edx/teams/147691/zh_HK/)\n"
+"POT-Creation-Date: 2024-05-22 00:33+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
+"Last-Translator: Wu SiMin, 2024\n"
+"Language-Team: Chinese (Hong Kong) (https://app.transifex.com/open-edx/teams/6205/zh_HK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +25,11 @@ msgstr ""
 #: api.py:125
 msgid ""
 "The CSV does not match this problem. Check that you uploaded the right CSV."
+<<<<<<< HEAD
 msgstr "CSV 不匹配此問題。 檢查您是否上載了正確的 CSV。"
+=======
+msgstr "CSV 不符合此問題。檢查您是否上傳了正確的 CSV。"
+>>>>>>> c7cf34483 (chore: Translate django.po in zh_HK)
 
 #: api.py:130
 msgid "Points must be numbers."
@@ -48,12 +53,12 @@ msgstr "重複的 user_id: "
 
 #: api.py:385
 msgid "Grade must be a number"
-msgstr "等級必須是數字"
+msgstr "成績必須是數字"
 
 #: api.py:388
 msgid "Grade must not be negative"
-msgstr "等級不得為負數"
+msgstr "成績不得為負數"
 
 #: api.py:642
 msgid "score must be positive"
-msgstr "分數必須為正數"
+msgstr "分數必須為正"
