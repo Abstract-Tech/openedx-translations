@@ -1,5 +1,6 @@
 {
   "profile.page.title": "ངོ་སྤྲོད་སྙིང་བསྡུས། | {siteName}",
+  "profile.age.cannotShare": "ཁྱེད་ཀྱི་ངོ་སྤྲོད་བརྒྱུད་སྐུར་བྱེད་མི་ཐུབ།",
   "profile.age.details": "ཁྱེད་ཀྱི་ངོ་སྤྲོད་སྙིང་བསྡུས་དེ་གཞན་ {siteName} ཡི་སློབ་གཉེར་བ་ཚོར་བརྒྱུད་སྐུར་བྱེད་པ་ལ་ཁྱེད་ཀྱིས་ངེས་པར་དུ་རང་ཉིད་དགོང་ལོ་བཅུ་གསུམ་ལོན་ཟིན་པ་གཏན་འཁེལ་བྱ་དགོས།",
   "profile.age.set.date": "ཁྱེད་ཀྱི་སྐྱེས་ཚེས་སྒྲིག",
   "profile.datejoined.member.since": "{year} ནས་བཟུང་ཁོངས་མི་ཡིན།",
@@ -16,7 +17,7 @@
   "profile.certificates.view.certificate": "ལག་འཁྱེར་སྟོན།",
   "profile.certificates.types.verified": "ཁུངས་སྐྱེལ་ཡོད་པའི་ལག་ཁྱེར།",
   "profile.certificates.types.professional": "ཆེད་ལས་ལག་ཁྱེར།",
-  "profile.certificates.types.unknown": "ལག་ཁྱེར།",
+  "profile.certificates.types.unknown": "ལག་འཁྱེར།",
   "profile.country.label": "ས་གནས།",
   "profile.country.empty": "ས་གནས་སྣོན།",
   "profile.education.empty": "ཤེས་ཚད་སྣོན།",
