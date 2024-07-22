@@ -36,11 +36,11 @@ msgid ""
 msgstr ""
 "הצג תצוגה מקדימה של דף ההסכמה לשיתוף נתונים המוצג בהקשר של הרשמה לתוכנית."
 
-#: consent/admin/__init__.py:119 enterprise/admin/__init__.py:689
+#: consent/admin/__init__.py:119 enterprise/admin/__init__.py:691
 msgid "Preview (course)"
 msgstr "תצוגה מקדימה (קורס)"
 
-#: consent/admin/__init__.py:120 enterprise/admin/__init__.py:702
+#: consent/admin/__init__.py:120 enterprise/admin/__init__.py:704
 msgid "Preview (program)"
 msgstr "תצוגה מקדימה (תוכנית)"
 
@@ -199,24 +199,6 @@ msgstr "טקסט של קישור ביטול דחייה בתיבת הדו-שיח 
 #: consent/models.py:390
 msgid "Specifies whether data sharing consent page is published."
 msgstr "מציין אם דף ההסכמה לשיתוף נתונים פורסם."
-
-#: enterprise_learner_portal/api/v1/serializers.py:40
-msgid ""
-"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
-"installed in an Open edX environment."
-msgstr ""
-"כדי להשתמש ב-EnterpriseEnrollmentSerializer זה, חבילה זו חייבת להיות מותקנת "
-"בסביבת Open edX."
-
-#: enterprise_learner_portal/api/v1/views.py:69
-#: enterprise_learner_portal/api/v1/views.py:132
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:477
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:531
-msgid ""
-"To use this endpoint, this package must be installed in an Open edX "
-"environment."
-msgstr ""
-"כדי להשתמש בנקודת קצה זו, חבילה זו חייבת להיות מותקנת בסביבת Open edX."
 
 #: integrated_channels/canvas/models.py:42
 msgid ""
@@ -515,8 +497,8 @@ msgstr ""
 "כאשר מוגדר כ-True, הלקוח המוגדר לא יקבל עוד שידורי נתונים של לומד, הן "
 "מתוזמנות והן מבוססות אותות"
 
-#: integrated_channels/integrated_channel/models.py:533
-#: integrated_channels/integrated_channel/models.py:709
+#: integrated_channels/integrated_channel/models.py:534
+#: integrated_channels/integrated_channel/models.py:710
 msgid "Data pertaining to the transmissions API request response."
 msgstr "נתונים הקשורים לתגובת בקשת API של שידורים."
 
@@ -655,12 +637,12 @@ msgstr "מפתח של xAPI LRS."
 msgid "secret of xAPI LRS."
 msgstr "הסוד של xAPI LRS."
 
-#: enterprise/admin/__init__.py:680
+#: enterprise/admin/__init__.py:682
 msgid ""
 "Preview the HTML template rendered in the context of a course enrollment."
 msgstr "הצג תצוגה מקדימה של תבנית ה-HTML המעובדת בהקשר של הרשמה לקורס."
 
-#: enterprise/admin/__init__.py:693
+#: enterprise/admin/__init__.py:695
 msgid ""
 "Preview the HTML template rendered in the context of a program enrollment."
 msgstr "הצג תצוגה מקדימה של תבנית ה-HTML המעובדת בהקשר של הרשמה לתוכנית."
@@ -700,6 +682,7 @@ msgstr "כדי לרשום לומדים לקורס, הזן מזהה קורס."
 msgid "Course enrollment track"
 msgstr "מסלול הרשמה לקורס"
 
+<<<<<<< HEAD
 #: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1407
 msgid "Audit"
 msgstr "שומע חופשי"
@@ -725,6 +708,33 @@ msgid "Honor"
 msgstr "כבוד"
 
 #: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1413
+=======
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1412
+msgid "Audit"
+msgstr "שומע חופשי"
+
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1413
+msgid "Verified"
+msgstr "מאומת"
+
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1414
+msgid "Professional Education"
+msgstr "השכלה מקצועית"
+
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1415
+msgid "Professional Education (no ID)"
+msgstr "השכלה מקצועית (ללא תעודת זהות)"
+
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1416
+msgid "Credit"
+msgstr "נקודות זכות"
+
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1417
+msgid "Honor"
+msgstr "כבוד"
+
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1418
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid "Unpaid Executive Education"
 msgstr "השכלת מנהלים ללא תשלום"
 
@@ -772,26 +782,26 @@ msgstr "קורס"
 msgid "Enter the course run key."
 msgstr "הזן את מפתח ריצת הקורס."
 
-#: enterprise/admin/forms.py:434
+#: enterprise/admin/forms.py:436
 msgid "Preview"
 msgstr "תצוגה מקדימה"
 
-#: enterprise/admin/forms.py:435
+#: enterprise/admin/forms.py:437
 msgid "Hold Ctrl when clicking on button to open Preview in new tab"
 msgstr ""
 "החזק את Ctrl בעת לחיצה על הכפתור כדי לפתוח תצוגה מקדימה בכרטיסייה חדשה"
 
-#: enterprise/admin/forms.py:498
+#: enterprise/admin/forms.py:500
 msgid "Identity Provider"
 msgstr "ספק זהות"
 
-#: enterprise/admin/forms.py:522
+#: enterprise/admin/forms.py:524
 msgid ""
 "The specified Identity Provider does not exist. For more information, "
 "contact a system administrator."
 msgstr "ספק הזהות שצוין אינו קיים. למידע נוסף, פנה למנהל מערכת."
 
-#: enterprise/admin/forms.py:533
+#: enterprise/admin/forms.py:535
 #, python-brace-format
 msgid ""
 "The site for the selected identity provider ({identity_provider_site}) does "
@@ -805,7 +815,7 @@ msgstr ""
 "דומיין של &#39; {identity_provider_site} &#39;, או עדכן את ספק הזהות ל- "
 "&#39; {enterprise_customer_site} &#39;."
 
-#: enterprise/admin/forms.py:611
+#: enterprise/admin/forms.py:613
 #, python-brace-format
 msgid ""
 "\"{data_type}\" data type is not supported for enterprise customer "
@@ -814,7 +824,7 @@ msgstr ""
 "סוג הנתונים &quot;{data_type}&quot; אינו נתמך עבור לקוח ארגוני "
 "&quot;{enterprise_customer.name}&quot;. אנא בחר סוג נתונים אחר."
 
-#: enterprise/admin/forms.py:628
+#: enterprise/admin/forms.py:630
 #, python-brace-format
 msgid ""
 "These catalogs for reporting do not match enterprisecustomer "
@@ -823,11 +833,11 @@ msgstr ""
 "קטלוגים אלה לדיווח אינם תואמים ללקוח ארגוני {enterprise_customer} : "
 "{invalid_catalogs}"
 
-#: enterprise/admin/forms.py:652
+#: enterprise/admin/forms.py:654
 msgid "Enter enterprise channel worker username."
 msgstr "הזן שם משתמש של עובד ערוץ ארגוני."
 
-#: enterprise/admin/forms.py:721
+#: enterprise/admin/forms.py:723
 msgid ""
 "User specified is not linked to an active Enterprise Customer. Select "
 "`Applies to all contexts` or choose a different user."
@@ -835,7 +845,7 @@ msgstr ""
 "המשתמש שצוין אינו מקושר ללקוח Enterprise פעיל. בחר &#39;חל על כל "
 "ההקשרים&#39; או בחר משתמש אחר."
 
-#: enterprise/admin/forms.py:782
+#: enterprise/admin/forms.py:783
 msgid ""
 "Please select different date range. There is another notification scheduled "
 "in this date range."
@@ -954,6 +964,7 @@ msgid ""
 msgstr ""
 "{token_email} מ- {token_enterprise_name} ביקש קודים נוספים. נא לפנות אליהם."
 
+<<<<<<< HEAD
 #: enterprise/api/v1/serializers.py:70
 msgid "Total count of items."
 msgstr "סך הכל של פריטים."
@@ -967,6 +978,21 @@ msgid "URL to fetch previous page of items."
 msgstr "כתובת אתר לאחזר דף קודם של פריטים."
 
 #: enterprise/api/v1/serializers.py:73
+=======
+#: enterprise/api/v1/serializers.py:72
+msgid "Total count of items."
+msgstr "סך הכל של פריטים."
+
+#: enterprise/api/v1/serializers.py:73
+msgid "URL to fetch next page of items."
+msgstr "כתובת אתר לאחזור הדף הבא של פריטים."
+
+#: enterprise/api/v1/serializers.py:74
+msgid "URL to fetch previous page of items."
+msgstr "כתובת אתר לאחזר דף קודם של פריטים."
+
+#: enterprise/api/v1/serializers.py:75
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid "List of items."
 msgstr "רשימת פריטים."
 
@@ -1013,8 +1039,22 @@ msgstr ""
 "[Enterprise API] התוכנית לא נמצאה בקטלוג. תוכנית: {program_uuid} , קטלוג: "
 "{catalog_id}"
 
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:497
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:551
+#: enterprise_learner_portal/api/v1/views.py:69
+#: enterprise_learner_portal/api/v1/views.py:132
+msgid ""
+"To use this endpoint, this package must be installed in an Open edX "
+"environment."
+msgstr ""
+"כדי להשתמש בנקודת קצה זו, חבילה זו חייבת להיות מותקנת בסביבת Open edX."
+
 #: enterprise/api_client/discovery.py:60
+<<<<<<< HEAD
 #: enterprise/api_client/discovery.py:399 enterprise/utils.py:1607
+=======
+#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1608
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "To get a CatalogIntegration object, this package must be installed in an "
 "Open edX environment."
@@ -1043,7 +1083,11 @@ msgid ""
 msgstr ""
 "כדי לקבל ecommerce_api_client, חבילה זו חייבת להיות מותקנת בסביבת Open edX."
 
+<<<<<<< HEAD
 #: enterprise/constants.py:13
+=======
+#: enterprise/constants.py:15
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "To log in using this SSO identity provider and access special course offers,"
@@ -1053,7 +1097,7 @@ msgstr ""
 "כדי להתחבר באמצעות ספק זהות SSO זה ולגשת להצעות מיוחדות לקורסים, תחילה עליך "
 "להסכים לשתף את הישגי הלמידה שלך עם {enterprise_customer_name} ."
 
-#: enterprise/constants.py:17
+#: enterprise/constants.py:19
 #, python-brace-format
 msgid ""
 "In order to sign in and access special offers, you must consent to share "
@@ -1062,7 +1106,7 @@ msgstr ""
 "על מנת להיכנס ולגשת למבצעים מיוחדים, עליך להסכים לשתף את נתוני הקורס שלך עם "
 "{enterprise_customer_name} ."
 
-#: enterprise/constants.py:21
+#: enterprise/constants.py:23
 #, python-brace-format
 msgid ""
 "If you do not consent to share your course data, that information may be "
@@ -1071,12 +1115,12 @@ msgstr ""
 "אם אינך מסכים לשתף את נתוני הקורס שלך, מידע זה עשוי להיות משותף עם "
 "{enterprise_customer_name} ."
 
-#: enterprise/constants.py:24
+#: enterprise/constants.py:26
 #, python-brace-format
 msgid "Welcome to {platform_name}."
 msgstr "ברוכים הבאים ל- {platform_name} ."
 
-#: enterprise/constants.py:26
+#: enterprise/constants.py:28
 #, python-brace-format
 msgid ""
 "You have left the {strong_start}{enterprise_customer_name}{strong_end} "
@@ -1094,7 +1138,7 @@ msgstr ""
 "מדיניות פרטיות שונה של {privacy_policy_link_start} {privacy_policy_link_end}"
 " מ- {enterprise_customer_name} ."
 
-#: enterprise/constants.py:92
+#: enterprise/constants.py:94
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -1105,7 +1149,7 @@ msgstr ""
 "מובילות ומוכרות על ידי חברות. תוכניות MicroMasters זכאיות לאשראי, מספקות ידע"
 " מבוקש וניתן ליישם אותן כדי להאיץ תואר שני."
 
-#: enterprise/constants.py:98
+#: enterprise/constants.py:100
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1116,7 +1160,7 @@ msgstr ""
 "מקצועיות, תעודות מקצועיות מפתחות את המיומנות והמומחיות שמעסיקים מחפשים עם "
 "הכשרה מיוחדת והשכלה מקצועית."
 
-#: enterprise/constants.py:104
+#: enterprise/constants.py:106
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1241,7 +1285,11 @@ msgstr "סוגי לקוחות ארגוניים"
 msgid "Specifies enterprise customer type."
 msgstr "מציין סוג לקוח ארגוני."
 
+<<<<<<< HEAD
 #: enterprise/models.py:206 enterprise/models.py:2926
+=======
+#: enterprise/models.py:206 enterprise/models.py:2949
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid "Enterprise Customer"
 msgstr "לקוח ארגוני"
 
@@ -1304,26 +1352,55 @@ msgstr "מציין אם הלקוח יכול להקצות לומדים לקבוצ
 msgid "Customer Type"
 msgstr "סוג לקוח"
 
+<<<<<<< HEAD
 #: enterprise/models.py:323
+=======
+#: enterprise/models.py:318
+msgid ""
+"If checked, learners and admins will not receive notifications leading up to"
+" the expiration date for learner credit plans. This includes removing the "
+"expiration date from the subsidy box for upcoming expirations. The subsidy "
+"summary box will not display for expired plans. Other notifications "
+"signaling the expiration (and loss of usability) itself will still appear."
+msgstr ""
+"אם מסומן, הלומדים והמנהלים לא יקבלו הודעות לקראת תאריך התפוגה של תוכניות "
+"אשראי ללומדים. זה כולל הסרת תאריך התפוגה מתיבת הסובסידיה לתפוגות הקרובות. "
+"תיבת סיכום הסובסידיה לא תוצג עבור תוכניות שפג תוקפן. התראות אחרות המאותתות "
+"על התפוגה (ואובדן השימושיות) עצמה עדיין יופיעו."
+
+#: enterprise/models.py:332
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Enables the scheduled reporting configurations screen on the administrator "
 "portal."
 msgstr "מפעיל את מסך תצורות הדיווח המתוזמנות בפורטל המנהל."
 
+<<<<<<< HEAD
 #: enterprise/models.py:334
+=======
+#: enterprise/models.py:343
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Enables the Single Sign On (SSO) configuration screen on the administrator "
 "portal. "
 msgstr "מפעיל את מסך התצורה של כניסה יחידה (SSO) בפורטל המנהל. "
 
+<<<<<<< HEAD
 #: enterprise/models.py:349
+=======
+#: enterprise/models.py:358
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Automatically enabled. If unchecked, learners won't have access to the "
 "learner portal."
 msgstr ""
 "מופעל באופן אוטומטי. אם לא מסומן, ללומדים לא תהיה גישה לפורטל הלומדים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:355
+=======
+#: enterprise/models.py:364
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether enterprise offers will be made known to learners in the "
 "learner portal. This only applies to customers with “offers”, the old "
@@ -1332,7 +1409,11 @@ msgstr ""
 "מציין אם הצעות ארגוניות יפורסמו ללומדים בפורטל הלומדים. זה חל רק על לקוחות "
 "עם &quot;הצעות&quot;, הגרסה הישנה של אשראי לומדים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:367
+=======
+#: enterprise/models.py:376
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Hides labor market data from learners (populated by features using Lightcast"
 " integration). "
@@ -1340,49 +1421,83 @@ msgstr ""
 "מסתיר נתוני שוק העבודה מהלומדים (מאוכלסים בתכונות המשתמשות באינטגרציה של "
 "Lightcast). "
 
+<<<<<<< HEAD
 #: enterprise/models.py:374
+=======
+#: enterprise/models.py:383
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Automatically enabled. If unchecked, the learners won't be able to search "
 "for a course on the learner portal."
 msgstr ""
 "מופעל באופן אוטומטי. אם לא מסומן, הלומדים לא יוכלו לחפש קורס בפורטל הלומדים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:383
+=======
+#: enterprise/models.py:392
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
-"If checked, the learners will be able to see the link to CEN on the learner "
-"portal dashboard."
+"If checked, learners will be able to see content in the Learner Portal "
+"Sidebar found in the HTML box."
 msgstr ""
-"אם מסומן, הלומדים יוכלו לראות את הקישור ל-CEN בלוח המחוונים של פורטל "
-"הלומדים."
+"אם מסומן, הלומדים יוכלו לראות תוכן בסרגל הצידי של פורטל הלומדים שנמצא בתיבת "
+"ה-HTML."
 
+<<<<<<< HEAD
 #: enterprise/models.py:391
+=======
+#: enterprise/models.py:400
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "If checked, the learners will be able to see the pathways on the learner "
 "portal dashboard."
 msgstr ""
 "אם מסומן, הלומדים יוכלו לראות את המסלולים בלוח המחוונים של פורטל הלומדים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:399
+=======
+#: enterprise/models.py:408
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "If checked, the learners will be able to see the programs on the learner "
 "portal dashboard."
 msgstr ""
 "אם מסומן, הלומדים יוכלו לראות את התוכניות בלוח המחוונים של פורטל הלומדים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:407
+=======
+#: enterprise/models.py:416
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "If checked, the learners will be able to see the academies on the learner "
 "portal dashboard."
 msgstr ""
 "אם מסומן, הלומדים יוכלו לראות את האקדמיות בלוח המחוונים של פורטל הלומדים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:414
+=======
+#: enterprise/models.py:423
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "If checked, search will be replaced with one academy on enterprise learner "
 "portal."
 msgstr "אם מסומן, החיפוש יוחלף באקדמיה אחת בפורטל הלומדים הארגוני."
 
+<<<<<<< HEAD
 #: enterprise/models.py:421
+=======
+#: enterprise/models.py:430
+msgid ""
+"If checked, videos will be displayed in the search results on the learner "
+"portal."
+msgstr "אם מסומן, סרטונים יוצגו בתוצאות החיפוש בפורטל הלומדים."
+
+#: enterprise/models.py:436
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Automatically enabled. Displays advanced analytics page on the administrator"
 " portal, which includes skill and labor market data."
@@ -1390,13 +1505,21 @@ msgstr ""
 "מופעל באופן אוטומטי. מציג עמוד ניתוח מתקדם בפורטל המנהל, הכולל נתוני מיומנות"
 " ושוק העבודה."
 
+<<<<<<< HEAD
 #: enterprise/models.py:429
+=======
+#: enterprise/models.py:444
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Enables the learning platform configuration screen on the administrator "
 "portal."
 msgstr "מאפשר את מסך תצורת פלטפורמת הלמידה בפורטל המנהל."
 
+<<<<<<< HEAD
 #: enterprise/models.py:435
+=======
+#: enterprise/models.py:450
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Allows a learner to input customer slug to identify their org in the SSO "
 "process. Should be enabled for customers that leverage SSO."
@@ -1404,19 +1527,31 @@ msgstr ""
 "מאפשר ללומד להזין שבלול לקוח כדי לזהות את הארגון שלו בתהליך SSO. צריך להיות "
 "מופעל עבור לקוחות הממנפים SSO."
 
+<<<<<<< HEAD
 #: enterprise/models.py:441
+=======
+#: enterprise/models.py:456
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether the organization should have access to executive education"
 " 2U content."
 msgstr "מציין אם לארגון צריכה להיות גישה לתוכן חינוך מנהלים 2U."
 
+<<<<<<< HEAD
 #: enterprise/models.py:447
+=======
+#: enterprise/models.py:462
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Display Demo data from analyitcs and learner progress report for demo "
 "customer."
 msgstr "הצג נתוני הדגמה מניתוחים ודוח התקדמות לומד עבור לקוח הדגמה."
 
+<<<<<<< HEAD
 #: enterprise/models.py:454
+=======
+#: enterprise/models.py:469
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Email linked on learner portal as public point of contact, will default to "
 "all admin users associated with this customer if left blank."
@@ -1424,7 +1559,11 @@ msgstr ""
 "דוא&quot;ל המקושר בפורטל הלומדים כנקודת קשר ציבורית, יוגדר כברירת מחדל לכל "
 "משתמשי המנהל המשויכים ללקוח זה אם יישאר ריק."
 
+<<<<<<< HEAD
 #: enterprise/models.py:464
+=======
+#: enterprise/models.py:479
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies the discount percent used for enrollments from the enrollment API "
 "where capturing the discount per order is not possible. This is passed to "
@@ -1434,6 +1573,7 @@ msgstr ""
 "ההנחה לכל הזמנה. זה מועבר למסחר אלקטרוני בעת יצירת הזמנות לדיווח נתונים "
 "פיננסיים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:478
 msgid "Specifies the default language for learners of the organization."
 msgstr "מציין את שפת ברירת המחדל עבור לומדי הארגון."
@@ -1443,17 +1583,38 @@ msgid "Specifies the sender alias for automated emails from the edX system."
 msgstr "מציין את כינוי השולח עבור הודעות דוא&quot;ל אוטומטיות ממערכת edX."
 
 #: enterprise/models.py:496
+=======
+#: enterprise/models.py:493
+msgid "Specifies the default language for learners of the organization."
+msgstr "מציין את שפת ברירת המחדל עבור לומדי הארגון."
+
+#: enterprise/models.py:503
+msgid "Specifies the sender alias for automated emails from the edX system."
+msgstr "מציין את כינוי השולח עבור הודעות דוא&quot;ל אוטומטיות ממערכת edX."
+
+#: enterprise/models.py:511
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Email address that will receive learner replies to automated edX emails."
 msgstr "כתובת דוא&quot;ל שתקבל תשובות ללומדים למיילים אוטומטיים של edX."
 
+<<<<<<< HEAD
 #: enterprise/models.py:507
+=======
+#: enterprise/models.py:522
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
-"Message text shown on the learner portal dashboard for career engagement "
-"network."
-msgstr "טקסט הודעה המוצג בלוח המחוונים של פורטל הלומדים לרשת מעורבות בקריירה."
+"Text shown on the learner portal dashboard for customer specific purposes. "
+"Open HTML field."
+msgstr ""
+"טקסט המוצג בלוח המחוונים של פורטל הלומדים למטרות ספציפיות ללקוח. פתח את שדה "
+"HTML."
 
+<<<<<<< HEAD
 #: enterprise/models.py:836
+=======
+#: enterprise/models.py:851
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Course details were not found for course key {} - Course Catalog API "
 "returned nothing. Proceeding with enrollment, but notifications won't be "
@@ -1462,7 +1623,11 @@ msgstr ""
 "פרטי הקורס לא נמצאו עבור מפתח הקורס {} - ממשק API של קטלוג קורסים לא החזיר "
 "דבר. ממשיך בהרשמה, אך הודעות לא יישלחו"
 
+<<<<<<< HEAD
 #: enterprise/models.py:1061
+=======
+#: enterprise/models.py:1076
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "When enabled along with `active`, all other linked enterprise customers for "
 "this user will be marked as inactive upon save."
@@ -1470,6 +1635,7 @@ msgstr ""
 "כאשר מופעל יחד עם &#39;פעיל&#39;, כל שאר הלקוחות הארגוניים המקושרים עבור "
 "משתמש זה יסומנו כלא פעילים בעת השמירה."
 
+<<<<<<< HEAD
 #: enterprise/models.py:1068
 msgid "Enterprise Customer Learner"
 msgstr "לומד לקוח ארגוני"
@@ -1495,10 +1661,38 @@ msgid "Specifies whether this is default provider for enterprise customer."
 msgstr "מציין אם זהו ספק ברירת המחדל עבור לקוחות ארגוניים."
 
 #: enterprise/models.py:1865
+=======
+#: enterprise/models.py:1083
+msgid "Enterprise Customer Learner"
+msgstr "לומד לקוח ארגוני"
+
+#: enterprise/models.py:1084
+msgid "Enterprise Customer Learners"
+msgstr "לומדי לקוחות ארגוניים"
+
+#: enterprise/models.py:1693
+msgid "Logo images must be in .png format."
+msgstr "תמונות הלוגו חייבות להיות בפורמט .png."
+
+#: enterprise/models.py:1720
+msgid "Branding Configuration"
+msgstr "תצורת מיתוג"
+
+#: enterprise/models.py:1721
+msgid "Branding Configurations"
+msgstr "תצורות מיתוג"
+
+#: enterprise/models.py:1803
+msgid "Specifies whether this is default provider for enterprise customer."
+msgstr "מציין אם זהו ספק ברירת המחדל עבור לקוחות ארגוניים."
+
+#: enterprise/models.py:1886
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr "ה-UUID של הקורס (לא הרצה) בו זכאי הלומד."
 
+<<<<<<< HEAD
 #: enterprise/models.py:1875
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "הלומד המיזם לו מצורפת זכאות זו."
@@ -1512,23 +1706,47 @@ msgid "The ID of the course in which the learner was enrolled."
 msgstr "תעודת הזהות של הקורס אליו נרשם הלומד."
 
 #: enterprise/models.py:2012
+=======
+#: enterprise/models.py:1896
+msgid "The enterprise learner to which this entitlement is attached."
+msgstr "הלומד המיזם לו מצורפת זכאות זו."
+
+#: enterprise/models.py:2019
+msgid "The enterprise learner to which this enrollment is attached."
+msgstr "הלומד הארגוני שאליו מצורפת הרשמה זו."
+
+#: enterprise/models.py:2026
+msgid "The ID of the course in which the learner was enrolled."
+msgstr "תעודת הזהות של הקורס אליו נרשם הלומד."
+
+#: enterprise/models.py:2033
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
 msgstr "מציין אם משתמש סימן קורס זה כשמור למועד מאוחר יותר בפורטל הלומדים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2028
+=======
+#: enterprise/models.py:2049
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
 msgstr "מציין אם אובייקט ההרשמה לקורס של הקורס הארגוני בוטל."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2038
+=======
+#: enterprise/models.py:2059
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
 msgstr "מציין מתי בוטל ההרשמה של אובייקט ההרשמה לקורס של ארגון לקורס."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2220
 msgid "The course entitlement the associated subsidy is for."
 msgstr "זכאות הקורס שעבורה מיועדת הסבסוד הנלווה."
@@ -1538,12 +1756,27 @@ msgid "The course enrollment the associated subsidy is for."
 msgstr "ההרשמה לקורס עבורו מיועדת הסבסוד הקשור."
 
 #: enterprise/models.py:2238
+=======
+#: enterprise/models.py:2241
+msgid "The course entitlement the associated subsidy is for."
+msgstr "זכאות הקורס שעבורה מיועדת הסבסוד הנלווה."
+
+#: enterprise/models.py:2252
+msgid "The course enrollment the associated subsidy is for."
+msgstr "ההרשמה לקורס עבורו מיועדת הסבסוד הקשור."
+
+#: enterprise/models.py:2259
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
 msgstr "האם הסובסידיה הארגונית בוטלה, למשל, כאשר רישיון משתמש נשלל."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2369
+=======
+#: enterprise/models.py:2392
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
@@ -1554,7 +1787,11 @@ msgstr ""
 "שצוינו כאובייקט JSON. אובייקט JSON ריק פירושו שכל פריטי התוכן הזמינים ייכללו"
 " בקטלוג."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2384
+=======
+#: enterprise/models.py:2407
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1565,6 +1802,7 @@ msgstr ""
 "ה-content_filter מציין שסוגי תוכן &#39;קורס&#39; צריכים להיכלל בקטלוג, סוגי "
 "קורס executive-education-2u לא יוחרגו מהתוכן של הקטלוג המשויך."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2391
 msgid "Enterprise Catalog Query"
 msgstr "שאילתת קטלוג ארגוני"
@@ -1574,6 +1812,17 @@ msgid "Enterprise Catalog Queries"
 msgstr "שאילתות בקטלוג ארגוני"
 
 #: enterprise/models.py:2479
+=======
+#: enterprise/models.py:2414
+msgid "Enterprise Catalog Query"
+msgstr "שאילתת קטלוג ארגוני"
+
+#: enterprise/models.py:2415
+msgid "Enterprise Catalog Queries"
+msgstr "שאילתות בקטלוג ארגוני"
+
+#: enterprise/models.py:2502
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1584,19 +1833,28 @@ msgstr ""
 "שצוינו כאובייקט Json. אובייקט Json ריק פירושו שכל פריטי התוכן הזמינים ייכללו"
 " בקטלוג."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2487
+=======
+#: enterprise/models.py:2510
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
 msgstr ""
 "רשימה מסודרת של מצבי הרשמה שניתן להציג ללומדים להרצת קורסים בקטלוג זה."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2493
+=======
+#: enterprise/models.py:2516
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
 msgstr "מציין אם יש לפרסם קורסים עם כתובות URL של הרשמה ישירה לביקורת."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2500
 msgid "Enterprise Customer Catalog"
 msgstr "קטלוג לקוחות ארגוני"
@@ -1606,6 +1864,17 @@ msgid "Enterprise Customer Catalogs"
 msgstr "קטלוגי לקוחות ארגוניים"
 
 #: enterprise/models.py:2768
+=======
+#: enterprise/models.py:2523
+msgid "Enterprise Customer Catalog"
+msgstr "קטלוג לקוחות ארגוני"
+
+#: enterprise/models.py:2524 enterprise/models.py:3071
+msgid "Enterprise Customer Catalogs"
+msgstr "קטלוגי לקוחות ארגוניים"
+
+#: enterprise/models.py:2791
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -1613,7 +1882,11 @@ msgstr ""
 "מלא תבנית Django סטנדרטית, שעם רינדור מייצרת את האימייל שברצונך לשלוח ללומדי Enterprise Customer שנרשמו לאחרונה. המשתנים הבאים עשויים להיות זמינים:\n"
 "<ul><li> user_name: שם הניתן לקריאה על ידי אדם עבור האדם שנשלח לדוא&quot;ל. הקפד לטפל במקרה שבו זה לא מוגדר, מכיוון שהוא עשוי להיות חסר במקרים מסוימים. זה יכול להיות גם שם משתמש, אם הלומד לא הגדיר את השם ה&quot;אמיתי&quot; שלו במערכת.</li><li> organisation_name: שם הארגון המממן את ההרשמה.</li><li> enrolled_in: פרטי הקורס או התוכנית שנרשמו אליו. הם עשויים להכיל:<ul><li> name: שם הפריט הניתן לרישום (למשל, &quot;קורס הדגמה&quot;).</li><li> url: קישור לדף הבית של הפריט הרשום.</li><li> מיתוג: שם מיתוג מותאם אישית עבור הפריט הרשום. לדוגמה, המיתוג של תוכנית MicroMasters יהיה &quot;MicroMasters&quot;.</li><li> התחלה: התאריך שבו הפריט הרשום הופך לזמין. עבד את זה לטקסט באמצעות מסנן תבנית &#39;תאריך&#39; של Django (ראה <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">תיעוד של Django</a> ).</li><li> סוג: האם הפריט הרשום הוא קורס, תוכנית או משהו אחר.</li></ul></ul>"
 
+<<<<<<< HEAD
 #: enterprise/models.py:2786
+=======
+#: enterprise/models.py:2809
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1624,6 +1897,7 @@ msgstr ""
 "דוא&quot;ל. מציין המיקום {course_name} יוחלף בשם הקורס או התוכנית שנרשמו "
 "אליו."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2928
 msgid "Active"
 msgstr "פעיל"
@@ -1645,12 +1919,36 @@ msgid "The method in which the data should be sent."
 msgstr "השיטה שבה יש לשלוח את הנתונים."
 
 #: enterprise/models.py:2942
+=======
+#: enterprise/models.py:2951
+msgid "Active"
+msgstr "פעיל"
+
+#: enterprise/models.py:2952
+msgid "Include Date"
+msgstr "כלול תאריך"
+
+#: enterprise/models.py:2953
+msgid "Include date in the report file name"
+msgstr "כלול תאריך בשם קובץ הדוח"
+
+#: enterprise/models.py:2959
+msgid "Delivery Method"
+msgstr "שיטת אספקה"
+
+#: enterprise/models.py:2960
+msgid "The method in which the data should be sent."
+msgstr "השיטה שבה יש לשלוח את הנתונים."
+
+#: enterprise/models.py:2965
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
 msgstr ""
 "מציין אם יש לדחוס את הדוח. ללא דחיסה קבצים לא יהיו מוגנים בסיסמה או מוצפנים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2949
 msgid "PGP Encryption Key"
 msgstr "מפתח הצפנה PGP"
@@ -1688,49 +1986,117 @@ msgid "Frequency"
 msgstr "תדירות"
 
 #: enterprise/models.py:2980
+=======
+#: enterprise/models.py:2972
+msgid "PGP Encryption Key"
+msgstr "מפתח הצפנה PGP"
+
+#: enterprise/models.py:2973
+msgid "The key for encryption, if PGP encrypted file is required."
+msgstr "המפתח להצפנה, אם נדרש קובץ מוצפן PGP."
+
+#: enterprise/models.py:2981
+msgid "Data Type"
+msgstr "סוג מידע"
+
+#: enterprise/models.py:2982
+msgid "The type of data this report should contain."
+msgstr "סוג הנתונים שדוח זה צריך להכיל."
+
+#: enterprise/models.py:2989
+msgid "Report Type"
+msgstr "סוג דוח"
+
+#: enterprise/models.py:2990
+msgid "The type this report should be sent as, e.g. CSV."
+msgstr "סוג הדוח הזה צריך להישלח, למשל CSV."
+
+#: enterprise/models.py:2994
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: enterprise/models.py:2995
+msgid "The email(s), one per line, where the report should be sent."
+msgstr "המייל/ים, אחד בכל שורה, שאליהם יש לשלוח את הדוח."
+
+#: enterprise/models.py:3002
+msgid "Frequency"
+msgstr "תדירות"
+
+#: enterprise/models.py:3003
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
 msgstr "מרווח התדירות (יומי, שבועי או חודשי) שבו יש לשלוח את הדוח."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2985
 msgid "Day of Month"
 msgstr "יום בחודש"
 
 #: enterprise/models.py:2986
+=======
+#: enterprise/models.py:3008
+msgid "Day of Month"
+msgstr "יום בחודש"
+
+#: enterprise/models.py:3009
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
 msgstr "היום בחודש לשליחת הדוח. שדה זה חובה ותקף רק כאשר התדירות היא חודשית."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2994
 msgid "Day of Week"
 msgstr "יום בשבוע"
 
 #: enterprise/models.py:2995
+=======
+#: enterprise/models.py:3017
+msgid "Day of Week"
+msgstr "יום בשבוע"
+
+#: enterprise/models.py:3018
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
 msgstr "היום בשבוע לשליחת הדוח. שדה זה חובה ותקף רק כאשר התדירות היא שבועית."
 
+<<<<<<< HEAD
 #: enterprise/models.py:2999
 msgid "Hour of Day"
 msgstr "שעה ביום"
 
 #: enterprise/models.py:3000
+=======
+#: enterprise/models.py:3022
+msgid "Hour of Day"
+msgstr "שעה ביום"
+
+#: enterprise/models.py:3023
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
 msgstr ""
 "השעה ביום לשליחת הדוח, בשעון תקן מזרחי (EST). זה נדרש עבור כל הגדרות התדר."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3008
+=======
+#: enterprise/models.py:3031
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
 msgstr ""
 "סיסמה זו תשמש לאבטחת קובץ ה-zip. זה יהיה מוצפן כאשר הוא מאוחסן במסד הנתונים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3015
 msgid "SFTP Host name"
 msgstr "שם מארח SFTP"
@@ -1752,6 +2118,29 @@ msgid "SFTP username"
 msgstr "שם משתמש SFTP"
 
 #: enterprise/models.py:3030
+=======
+#: enterprise/models.py:3038
+msgid "SFTP Host name"
+msgstr "שם מארח SFTP"
+
+#: enterprise/models.py:3039
+msgid "If the delivery method is sftp, the host to deliver the report to."
+msgstr "אם שיטת המסירה היא sftp, המארח שאליו יש לשלוח את הדוח."
+
+#: enterprise/models.py:3044
+msgid "SFTP Port"
+msgstr "יציאת SFTP"
+
+#: enterprise/models.py:3045
+msgid "If the delivery method is sftp, the port on the host to connect to."
+msgstr "אם שיטת המסירה היא sftp, היציאה של המארח שאליו יש להתחבר."
+
+#: enterprise/models.py:3052
+msgid "SFTP username"
+msgstr "שם משתמש SFTP"
+
+#: enterprise/models.py:3053
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -1759,7 +2148,11 @@ msgstr ""
 "אם שיטת המסירה היא sftp, שם המשתמש שבו יש להשתמש כדי לגשת בצורה מאובטחת "
 "למארח."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3036
+=======
+#: enterprise/models.py:3059
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -1767,16 +2160,25 @@ msgstr ""
 "אם שיטת המסירה היא sftp, הסיסמה שבה יש להשתמש כדי לגשת בצורה מאובטחת למארח. "
 "הסיסמה תוצפן כאשר היא מאוחסנת במסד הנתונים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3043
 msgid "SFTP file path"
 msgstr "נתיב קובץ SFTP"
 
 #: enterprise/models.py:3044
+=======
+#: enterprise/models.py:3066
+msgid "SFTP file path"
+msgstr "נתיב קובץ SFTP"
+
+#: enterprise/models.py:3067
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
 msgstr "אם שיטת המסירה היא sftp, הנתיב במארח שאליו יש לשלוח את הדוח."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3152
 msgid "Delivery method cannot be updated"
 msgstr "לא ניתן לעדכן את שיטת המשלוח"
@@ -1818,6 +2220,49 @@ msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr "יש להגדיר סיסמת SFTP מפוענחת אם שיטת המסירה היא SFTP."
 
 #: enterprise/models.py:3259
+=======
+#: enterprise/models.py:3175
+msgid "Delivery method cannot be updated"
+msgstr "לא ניתן לעדכן את שיטת המשלוח"
+
+#: enterprise/models.py:3191
+msgid "Day of week must be set if the frequency is weekly."
+msgstr "יש להגדיר יום בשבוע אם התדירות היא שבועית."
+
+#: enterprise/models.py:3195
+msgid "Day of month must be set if the frequency is monthly."
+msgstr "יש להגדיר יום בחודש אם התדירות היא חודשית."
+
+#: enterprise/models.py:3198
+msgid "Frequency must be set to either daily, weekly, or monthly."
+msgstr "יש להגדיר את התדירות ליום, שבועי או חודשי."
+
+#: enterprise/models.py:3204
+msgid "Email(s) must be set if the delivery method is email."
+msgstr "יש להגדיר דוא&quot;ל אם שיטת המשלוח היא דוא&quot;ל."
+
+#: enterprise/models.py:3208
+msgid "Decrypted password must be set if the delivery method is email."
+msgstr "יש להגדיר סיסמה מפוענחת אם שיטת המסירה היא דואר אלקטרוני."
+
+#: enterprise/models.py:3212
+msgid "SFTP Hostname must be set if the delivery method is sftp."
+msgstr "יש להגדיר שם מארח SFTP אם שיטת המסירה היא sftp."
+
+#: enterprise/models.py:3214
+msgid "SFTP username must be set if the delivery method is sftp."
+msgstr "יש להגדיר שם משתמש SFTP אם שיטת המסירה היא sftp."
+
+#: enterprise/models.py:3216
+msgid "SFTP File Path must be set if the delivery method is sftp."
+msgstr "יש להגדיר נתיב קובץ SFTP אם שיטת המסירה היא sftp."
+
+#: enterprise/models.py:3219
+msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
+msgstr "יש להגדיר סיסמת SFTP מפוענחת אם שיטת המסירה היא SFTP."
+
+#: enterprise/models.py:3282
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -1830,6 +2275,7 @@ msgstr ""
 "ארגוני, אנא צור תחילה את הרשומה ולאחר מכן שנה את שדה הלקוח הארגוני באמצעות "
 "התפריט הנפתח."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3548
 msgid "Filters to show banner notifications conditionally."
 msgstr "מסננים להצגת התראות באנר באופן מותנה."
@@ -1843,12 +2289,31 @@ msgid "Admin Notification Filters"
 msgstr "מסנני הודעות מנהל"
 
 #: enterprise/models.py:3580
+=======
+#: enterprise/models.py:3571
+msgid "Filters to show banner notifications conditionally."
+msgstr "מסננים להצגת התראות באנר באופן מותנה."
+
+#: enterprise/models.py:3576
+msgid "Admin Notification Filter"
+msgstr "מסנן הודעות מנהל"
+
+#: enterprise/models.py:3577
+msgid "Admin Notification Filters"
+msgstr "מסנני הודעות מנהל"
+
+#: enterprise/models.py:3603
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
 msgstr "כותרת באנר של התראות שתופיע למנהל הארגון בפורטל הניהול."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3588
+=======
+#: enterprise/models.py:3611
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -1858,6 +2323,7 @@ msgstr ""
 "תווים. טקסט זה תומך בסימון. ראה https://commonmark.org/help/ עבור תכונות "
 "הסימון הנתמכות."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3605
 msgid "Admin Notification"
 msgstr "הודעת מנהל"
@@ -1888,6 +2354,38 @@ msgid "The key will no longer be valid after this date."
 msgstr "המפתח לא יהיה תקף יותר לאחר תאריך זה."
 
 #: enterprise/models.py:3705
+=======
+#: enterprise/models.py:3628
+msgid "Admin Notification"
+msgstr "הודעת מנהל"
+
+#: enterprise/models.py:3629
+msgid "Admin Notifications"
+msgstr "הודעות מנהל"
+
+#: enterprise/models.py:3667
+msgid "Admin Notification Read"
+msgstr "קריאה של הודעת מנהל"
+
+#: enterprise/models.py:3668
+msgid "Admin Notifications Read"
+msgstr "הודעות מנהל קריאה"
+
+#: enterprise/models.py:3701 enterprise/models.py:3805
+#: enterprise/models.py:3948
+msgid "The enterprise that can be linked using this key."
+msgstr "הארגון שניתן לקשר באמצעות מפתח זה."
+
+#: enterprise/models.py:3710
+msgid "The number of times this key can be used to link a learner."
+msgstr "מספר הפעמים שניתן להשתמש במפתח זה לקישור לומד."
+
+#: enterprise/models.py:3719
+msgid "The key will no longer be valid after this date."
+msgstr "המפתח לא יהיה תקף יותר לאחר תאריך זה."
+
+#: enterprise/models.py:3728
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -1895,6 +2393,7 @@ msgstr ""
 "מציין אם המפתח פעיל. לאחר ביטול ההפעלה, המפתח אינו תקף יותר ולא ניתן להפעילו"
 " מחדש."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3786
 msgid "ChatGPT prompt."
 msgstr "הודעת ChatGPT."
@@ -1928,10 +2427,46 @@ msgid "The display name of the SSO configuration."
 msgstr "שם התצוגה של תצורת SSO."
 
 #: enterprise/models.py:3934
+=======
+#: enterprise/models.py:3809
+msgid "ChatGPT prompt."
+msgstr "הודעת ChatGPT."
+
+#: enterprise/models.py:3811
+msgid "ChatGPT response."
+msgstr "תגובת ChatGPT."
+
+#: enterprise/models.py:3812
+msgid "Prompt type."
+msgstr "סוג הנחיה."
+
+#: enterprise/models.py:3816
+msgid "ChatGPT Response"
+msgstr "תגובת ChatGPT"
+
+#: enterprise/models.py:3817
+msgid "ChatGPT Responses"
+msgstr "תגובות ChatGPT"
+
+#: enterprise/models.py:3925
+msgid "Enterprise Customer SSO Configuration"
+msgstr "תצורת SSO של לקוח ארגוני"
+
+#: enterprise/models.py:3926
+msgid "Enterprise Customer SSO Configurations"
+msgstr "תצורות SSO של לקוחות ארגוניים"
+
+#: enterprise/models.py:3935
+msgid "The display name of the SSO configuration."
+msgstr "שם התצוגה של תצורת SSO."
+
+#: enterprise/models.py:3957
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr "מציין אם השילוב עם תזמור SSO פעיל."
 
+<<<<<<< HEAD
 #: enterprise/models.py:3943
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr "ספק הזהות המשולב על ידי מתזמר SSO."
@@ -1949,47 +2484,91 @@ msgid "The entity id of the identity provider."
 msgstr "מזהה הישות של ספק הזהות."
 
 #: enterprise/models.py:3978
+=======
+#: enterprise/models.py:3966
+msgid "The identity provider integrated with by the SSO orchestrator ."
+msgstr "ספק הזהות המשולב על ידי מתזמר SSO."
+
+#: enterprise/models.py:3975
+msgid "The metadata url of the identity provider."
+msgstr "כתובת האתר של המטא נתונים של ספק הזהות."
+
+#: enterprise/models.py:3983
+msgid "The metadata xml of the identity provider."
+msgstr "המטא נתונים xml של ספק הזהות."
+
+#: enterprise/models.py:3992
+msgid "The entity id of the identity provider."
+msgstr "מזהה הישות של ספק הזהות."
+
+#: enterprise/models.py:4001
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
 msgstr ""
 "מציין אם האינטגרציה עם ספק הזהות של הלקוח צריכה לעדכן אוטומטית מטא נתונים."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4032
+=======
+#: enterprise/models.py:4055
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr "התאריך והשעה שבהם התצורה הוגשה לתזמור SSO."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4040
+=======
+#: enterprise/models.py:4063
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
 msgstr "התאריך והשעה שבהם התצורה הושלמה על ידי תזמורת SSO."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4048
+=======
+#: enterprise/models.py:4071
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
 msgstr "התאריך והשעה שבהם התצורה אומתה והשתמשו בה בפעם הראשונה."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4056
+=======
+#: enterprise/models.py:4079
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr "התאריך והשעה שבהם התזמר נתקל בשגיאה במהלך ההגדרה."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4065
+=======
+#: enterprise/models.py:4088
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr "אם מנהל המערכת ציין שמטא נתונים של ספק השירות הועלו."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4075 enterprise/models.py:4111
+=======
+#: enterprise/models.py:4098 enterprise/models.py:4134
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
 msgstr "תצורה ספציפית ל-SAP: מרווח הזמן הקצוב עבור OData API בשניות."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4085
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "תצורה ספציפית ל-SAP: כתובת ה-URL של ה-API של OData."
@@ -1999,17 +2578,33 @@ msgid "SAP specific configuration: the company id of the OData API."
 msgstr "תצורה ספציפית ל-SAP: מזהה החברה של OData API."
 
 #: enterprise/models.py:4103
+=======
+#: enterprise/models.py:4108
+msgid "SAP specific configuration: the root url of the OData API."
+msgstr "תצורה ספציפית ל-SAP: כתובת ה-URL של ה-API של OData."
+
+#: enterprise/models.py:4117
+msgid "SAP specific configuration: the company id of the OData API."
+msgstr "תצורה ספציפית ל-SAP: מזהה החברה של OData API."
+
+#: enterprise/models.py:4126
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr ""
 "תצורה ספציפית ל-SAP: כתובת ה-URL של ה-API של SAP SuccessFactors OAuth."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4120
+=======
+#: enterprise/models.py:4143
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr "תצורה ספציפית ל-SAP: המפתח הפרטי המשמש לחתימה על הצהרת SAML."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4129
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "תצורה ספציפית ל-SAP: מזהה הלקוח של OData API."
@@ -2031,10 +2626,34 @@ msgid "Specifies enterprise group name."
 msgstr "מציין את שם קבוצת הארגון."
 
 #: enterprise/models.py:4262
+=======
+#: enterprise/models.py:4152
+msgid "SAP specific configuration: the client id of the OData API."
+msgstr "תצורה ספציפית ל-SAP: מזהה הלקוח של OData API."
+
+#: enterprise/models.py:4161
+msgid "SAP specific configuration: the user id of the OAuth API."
+msgstr "תצורה ספציפית ל-SAP: מזהה המשתמש של OAuth API."
+
+#: enterprise/models.py:4183
+msgid "Field is locked as the configuration has already been submitted."
+msgstr "השדה נעול מכיוון שהתצורה כבר נשלחה."
+
+#: enterprise/models.py:4221
+msgid "Record has already been submitted for configuration."
+msgstr "הרשומה כבר נשלחה להגדרה."
+
+#: enterprise/models.py:4271
+msgid "Specifies enterprise group name."
+msgstr "מציין את שם קבוצת הארגון."
+
+#: enterprise/models.py:4285
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "When enabled, all learners connected to the org will be considered a member."
 msgstr "כאשר מופעל, כל הלומדים המחוברים לארגון ייחשבו כחבר."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4269
 msgid "Enterprise Group"
 msgstr "קבוצת ארגונים"
@@ -2044,26 +2663,60 @@ msgid "Enterprise Groups"
 msgstr "קבוצות ארגוניות"
 
 #: enterprise/models.py:4419
+=======
+#: enterprise/models.py:4292
+msgid "Enterprise Group"
+msgstr "קבוצת ארגונים"
+
+#: enterprise/models.py:4293
+msgid "Enterprise Groups"
+msgstr "קבוצות ארגוניות"
+
+#: enterprise/models.py:4442
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
 msgstr "הרגע שבו רשומת החברות נכתבת עם רשומת משתמש לקוח ארגוני."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4429
 msgid "Current status of the membership record"
 msgstr "המצב הנוכחי של רשומת החברות"
 
 #: enterprise/models.py:4436
+=======
+#: enterprise/models.py:4452
+msgid "Current status of the membership record"
+msgstr "המצב הנוכחי של רשומת החברות"
+
+#: enterprise/models.py:4459
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
 msgstr "הרגע שבו בוטלה רשומת החברות על ידי מנהל ארגון Enterprise."
 
+<<<<<<< HEAD
 #: enterprise/models.py:4442
 msgid "Enterprise Group Membership"
 msgstr "חברות בקבוצת ארגונים"
 
 #: enterprise/models.py:4443
+=======
+#: enterprise/models.py:4467
+msgid ""
+"The last time the membership action was in an error state. Null means the "
+"membership is not errored."
+msgstr ""
+"בפעם האחרונה פעולת החברות הייתה במצב שגיאה. Null פירושו שהחברות אינה שגויה."
+
+#: enterprise/models.py:4472
+msgid "Enterprise Group Membership"
+msgstr "חברות בקבוצת ארגונים"
+
+#: enterprise/models.py:4473
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid "Enterprise Group Memberships"
 msgstr "חברות בקבוצת ארגונים"
 
@@ -2146,7 +2799,11 @@ msgstr "העברת מטא נתונים של קורסים"
 msgid "Continue"
 msgstr "המשך"
 
+<<<<<<< HEAD
 #: enterprise/utils.py:145
+=======
+#: enterprise/utils.py:146
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "both were."
@@ -2154,28 +2811,48 @@ msgstr ""
 "יש לציין &quot;אימייל או שם משתמש&quot; או &quot;העלאת CSV בכמות "
 "גדולה&quot;, אבל שניהם היו."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:148
 msgid "Error: Learners could not be added. Correct the following errors."
 msgstr "שגיאה: לא ניתן להוסיף לומדים. תקן את השגיאות הבאות."
 
 #: enterprise/utils.py:150
+=======
+#: enterprise/utils.py:149
+msgid "Error: Learners could not be added. Correct the following errors."
+msgstr "שגיאה: לא ניתן להוסיף לומדים. תקן את השגיאות הבאות."
+
+#: enterprise/utils.py:151
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
 msgstr "מסלול ההרשמה {course_mode} אינו זמין לקורס {course_id} ."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:152
 msgid "Select a course enrollment track for the given course(s)."
 msgstr "בחר מסלול הרשמה לקורס עבור הקורס/ים הנתונים."
 
 #: enterprise/utils.py:154
+=======
+#: enterprise/utils.py:153
+msgid "Select a course enrollment track for the given course(s)."
+msgstr "בחר מסלול הרשמה לקורס עבור הקורס/ים הנתונים."
+
+#: enterprise/utils.py:155
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
 "ID."
 msgstr "לא ניתן היה לאחזר פרטים עבור מזהה הקורס {course_id} . ציין מזהה חוקי."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:157
+=======
+#: enterprise/utils.py:158
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
@@ -2183,18 +2860,30 @@ msgstr ""
 "ניתן להשתמש ב&quot;העלאת CSV בכמות גדולה&quot; או במזהה יחיד של קורס עבור "
 "הרשמות ידניות, אך לא בשניהם יחד."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:161
+=======
+#: enterprise/utils.py:162
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid "{argument} does not appear to be a valid email address."
 msgstr "נראה כי {argument} אינה כתובת דוא&quot;ל חוקית."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:163
+=======
+#: enterprise/utils.py:164
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "{argument} does not appear to be a valid email address or known username"
 msgstr "נראה כי {argument} אינו כתובת דוא&quot;ל חוקית או שם משתמש ידוע"
 
+<<<<<<< HEAD
 #: enterprise/utils.py:166
+=======
+#: enterprise/utils.py:167
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "Expected a CSV file with [{expected_columns}] columns, but found "
@@ -2203,11 +2892,19 @@ msgstr ""
 "צפי לקובץ CSV עם עמודות [ {expected_columns} ] אך נמצאו עמודות [ "
 "{actual_columns} ] במקום זאת."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:170
 msgid "Reason field is required but was not filled."
 msgstr "שדה סיבה נדרש אך לא מולא."
 
 #: enterprise/utils.py:173
+=======
+#: enterprise/utils.py:171
+msgid "Reason field is required but was not filled."
+msgstr "שדה סיבה נדרש אך לא מולא."
+
+#: enterprise/utils.py:174
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "neither were."
@@ -2215,7 +2912,11 @@ msgstr ""
 "יש לציין &quot;אימייל או שם משתמש&quot; או &quot;העלאה בכמות גדולה של "
 "CSV&quot;, אך לא היו."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:176
+=======
+#: enterprise/utils.py:177
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "User with email address {email} is already registered with Enterprise "
@@ -2223,21 +2924,37 @@ msgid ""
 msgstr ""
 "משתמש עם כתובת דוא&quot;ל {email} כבר רשום אצל לקוח Enterprise {ec_name}"
 
+<<<<<<< HEAD
 #: enterprise/utils.py:178
 msgid "User is not linked with Enterprise Customer"
 msgstr "המשתמש אינו מקושר ללקוח הארגוני"
 
 #: enterprise/utils.py:179
+=======
+#: enterprise/utils.py:179
+msgid "User is not linked with Enterprise Customer"
+msgstr "המשתמש אינו מקושר ללקוח הארגוני"
+
+#: enterprise/utils.py:180
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid "User with email address {email} doesn't exist."
 msgstr "משתמש עם כתובת דוא&quot;ל {email} אינו קיים."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:180
+=======
+#: enterprise/utils.py:181
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 msgstr "מזהה הקורס {course_id} אינו קיים בקטלוג הלקוח הארגוני"
 
+<<<<<<< HEAD
 #: enterprise/utils.py:182
+=======
+#: enterprise/utils.py:183
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid ""
 "Enterprise channel worker user with the username "
@@ -2246,21 +2963,37 @@ msgstr ""
 "לא נמצא משתמש ערוץ ארגוני עם שם המשתמש &quot; {channel_worker_username} "
 "&quot;."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:185
+=======
+#: enterprise/utils.py:186
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid ""
 "Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
 msgstr "לא ניתן לנתח קובץ CSV. אנא ודא שזהו קובץ מקודד CSV &#39;utf-8&#39;."
 
+<<<<<<< HEAD
 #: enterprise/utils.py:188
 msgid "Discount percentage should be from 0 to 100."
 msgstr "אחוז ההנחה צריך להיות בין 0 ל-100."
 
 #: enterprise/utils.py:398
+=======
+#: enterprise/utils.py:189
+msgid "Discount percentage should be from 0 to 100."
+msgstr "אחוז ההנחה צריך להיות בין 0 ל-100."
+
+#: enterprise/utils.py:399
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #, python-brace-format
 msgid "You've been enrolled in {course_name}!"
 msgstr "נרשמת ל- {course_name} !"
 
+<<<<<<< HEAD
 #: enterprise/utils.py:557 enterprise/utils.py:636
+=======
+#: enterprise/utils.py:558 enterprise/utils.py:637
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 msgid "`user` must have one of either `email` or `user_email`."
 msgstr ""
 "ל-&#39;user&#39; חייב להיות אחד של &#39;email&#39; או &#39;user_email&#39;."
@@ -2701,6 +3434,17 @@ msgstr "בקצב אישי; ניתן ללמוד את הקורסים בכל סדר
 msgid "{purchase_action} for"
 msgstr "{purchase_action} עבור"
 
+<<<<<<< HEAD
+=======
+#: enterprise_learner_portal/api/v1/serializers.py:40
+msgid ""
+"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
+"installed in an Open edX environment."
+msgstr ""
+"כדי להשתמש ב-EnterpriseEnrollmentSerializer זה, חבילה זו חייבת להיות מותקנת "
+"בסביבת Open edX."
+
+>>>>>>> 7755dae9c (chore: Translate django.po in he)
 #: enterprise/config/models.py:39
 msgid ""
 "Specifies which user role assignments to update.  If unspecified, will "
