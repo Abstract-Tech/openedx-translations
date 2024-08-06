@@ -5,16 +5,17 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
+# Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 00:31+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
+"POT-Creation-Date: 2024-08-06 00:29+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Hoang Truong <truonganhhoang@gmail.com>, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/147691/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -75,7 +76,7 @@ msgstr "Hết giờ"
 
 #: admin.py:399
 msgid "Submitted"
-msgstr "Đã gửi"
+msgstr "Đã nộp"
 
 #: admin.py:400
 msgid "Second Review Required"
@@ -153,7 +154,7 @@ msgstr "Tùy chọn được giám sát không còn khả dụng"
 
 #: api.py:2283
 msgid "Ungraded Practice Exam"
-msgstr "Bài thi thực hành không chấm điểm"
+msgstr "Bài kiểm tra thực hành không chấm điểm"
 
 #: api.py:2288
 msgid "Practice Exam Completed"
@@ -169,7 +170,7 @@ msgstr "Kỳ thi có tính giờ"
 
 #: api.py:2884
 msgid "Onboarding status question"
-msgstr "Câu hỏi về trạng thái giới thiệu"
+msgstr "Câu hỏi về trạng thái tham gia"
 
 #: models.py:391
 msgid "Taking as Proctored"
@@ -650,7 +651,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Đã xảy ra sự cố với buổi giám sát thực hành của bạn\n"
+"Đã xảy ra sự cố với phiên giám sát thực hành của bạn\n"
 "      "
 
 #: templates/practice_exam/error.html:13
@@ -714,7 +715,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Nếu bạn thực hiện bài kiểm tra này mà không giám sát, bạn sẽ không đủ điều kiện nhận tín chỉ khóa học hoặc chứng chỉ MicroMasters nếu áp dụng cho khóa học này.\n"
+"Nếu bạn thực hiện bài kiểm tra này mà không giám thị, bạn sẽ không đủ điều kiện nhận tín chỉ khóa học hoặc chứng chỉ MicroMasters nếu áp dụng cho khóa học này.\n"
 "      "
 
 #: templates/proctored_exam/confirm-decline.html:16
@@ -855,7 +856,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Vì đã quá hạn nộp hồ sơ nên bạn không thể tham gia kỳ thi này được nữa.\n"
+"Vì đã quá hạn nộp nên bạn không thể tham gia kỳ thi này được nữa.\n"
 "    "
 
 #: templates/proctored_exam/failed-prerequisites.html:9
@@ -965,7 +966,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Nếu bạn không thể tìm thấy email này, bạn có thể đặt lại mật khẩu để kích hoạt tài khoản của mình.\n"
+"Nếu không tìm thấy email này, bạn có thể đặt lại mật khẩu để kích hoạt tài khoản của mình.\n"
 "      "
 
 #: templates/proctored_exam/inactive_account.html:32
@@ -1017,7 +1018,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Nếu gặp vấn đề liên quan đến việc giám sát, bạn có thể liên hệ với bộ phận hỗ trợ kỹ thuật %(provider_name)s bằng cách gửi email %(provider_tech_support_email)s hoặc gọi tới %(provider_tech_support_phone)s .\n"
+"Nếu gặp vấn đề liên quan đến giám sát, bạn có thể liên hệ với bộ phận hỗ trợ kỹ thuật %(provider_name)s bằng cách gửi email %(provider_tech_support_email)s hoặc gọi tới %(provider_tech_support_phone)s .\n"
 "          "
 
 #: templates/proctored_exam/instructions.html:33
@@ -1126,7 +1127,7 @@ msgstr ""
 #: templates/proctored_exam/instructions.html:100
 #: templates/proctored_exam/proctoring_opt_out_button.html:5
 msgid "Take this exam without proctoring."
-msgstr "Làm bài kiểm tra này mà không cần giám sát."
+msgstr "Làm bài kiểm tra này mà không cần giám thị."
 
 #: templates/proctored_exam/onboarding_error.html:4
 msgid ""
@@ -1231,8 +1232,8 @@ msgid ""
 msgstr ""
 " Kể từ thời điểm này, bạn phải tuân theo các <a "
 "href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">quy tắc "
-"giám sát trực tuyến</a> để vượt qua bài đánh giá giám sát cho kỳ thi của "
-"mình. "
+"giám sát trực tuyến</a> để vượt qua bài đánh giá giám thị cho bài kiểm tra "
+"của mình. "
 
 #: templates/proctored_exam/proctoring_launch_callback.html:168
 msgid ""
@@ -1670,7 +1671,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Sau khi hết hạn, bạn có thể xem lại bài thi nhưng không thể thay đổi câu trả lời của mình.\n"
+"Sau khi hết hạn nộp bài, bạn có thể xem lại bài thi nhưng không thể thay đổi câu trả lời của mình.\n"
 "            "
 
 #: utils.py:87
