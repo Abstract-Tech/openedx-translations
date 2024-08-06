@@ -4,16 +4,16 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
-# Hoang Truong <truonganhhoang@gmail.com>, 2024
+# Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Hoang Truong <truonganhhoang@gmail.com>, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/147691/vi/)\n"
+"PO-Revision-Date: 2023-06-03 00:54+0000\n"
+"Last-Translator: Hoàng Trương <hoangta@vnu.edu.vn>, 2024\n"
+"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -189,7 +189,7 @@ msgid ""
 "useful to them"
 msgstr ""
 "Cung cấp mô tả có ý nghĩa để các học sinh khác biết liệu điều này có hữu ích"
-" với họ không"
+" với họ hay không"
 
 #: templates/recommender.html:200
 msgid "Preview screenshot:"
@@ -209,7 +209,7 @@ msgstr "Cung cấp mô tả tài nguyên"
 
 #: templates/recommender.html:225
 msgid "Provide a file of resource screenshot"
-msgstr "Cung cấp một tập tin ảnh chụp màn hình tài nguyên"
+msgstr "Cung cấp tệp ảnh chụp màn hình tài nguyên"
 
 #: templates/recommender.html:226
 msgid "Add resource"
@@ -433,8 +433,8 @@ msgid ""
 "Edit the resource and make it more helpful for other students with this "
 "problem. Please do not give the answer directly."
 msgstr ""
-"Chỉnh sửa tài nguyên và làm cho nó hữu ích hơn cho những học sinh khác gặp "
-"vấn đề này. Vui lòng không đưa ra câu trả lời trực tiếp."
+"Chỉnh sửa tài nguyên và làm cho nó hữu ích hơn cho những học sinh khác đang "
+"gặp vấn đề này. Vui lòng không đưa ra câu trả lời trực tiếp."
 
 #: static/js/src/cats.js:119
 msgid ""
