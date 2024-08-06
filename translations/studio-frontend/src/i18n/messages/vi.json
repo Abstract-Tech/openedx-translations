@@ -1,11 +1,7 @@
 {
   "a11yBodyPolicyLink": "Chính sách truy cập trang web",
   "a11yBodyPageHeader": "Quy trình tiếp cận được cá nhân hóa dành cho người tạo khóa học",
-<<<<<<< HEAD
-  "a11yBodyIntroGraph": "Tại edX, chúng tôi tìm cách hiểu và tôn trọng những nhu cầu cũng như quan điểm riêng của cộng đồng edX toàn cầu. Chúng tôi đánh giá cao mọi nhóm khóa học và cam kết mở rộng quyền truy cập cho tất cả mọi người, bao gồm cả những người tạo nhóm khóa học và tác giả khuyết tật. Vì mục đích đó, chúng tôi đã áp dụng {communityAccessibilityElement} và quy trình này cho phép những người tạo và tác giả nhóm khóa học yêu cầu hỗ trợ nếu họ không thể phát triển và đăng nội dung trên nền tảng của chúng tôi thông qua Studio vì khuyết tật của họ.",
-=======
   "a11yBodyIntroGraph": "Tại edX, chúng tôi tìm cách hiểu và tôn trọng những nhu cầu cũng như quan điểm riêng của cộng đồng edX toàn cầu. Chúng tôi đánh giá cao mọi nhóm khóa học và cam kết mở rộng quyền truy cập cho tất cả mọi người, bao gồm cả những người tạo nhóm khóa học và tác giả khuyết tật. Vì mục đích đó, chúng tôi đã áp dụng {communityAccessibilityElement} và quy trình này cho phép những người sáng tạo và tác giả nhóm khóa học yêu cầu hỗ trợ nếu họ không thể phát triển và đăng nội dung trên nền tảng của chúng tôi thông qua Studio do khuyết tật của họ.",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "a11yBodyStepsHeader": "Những người sáng tạo và tác giả nhóm khóa học cần sự hỗ trợ như vậy nên thực hiện các bước sau:",
   "a11yBodyEdxResponse": "Chúng tôi sẽ trao đổi với bạn về sở thích và nhu cầu của bạn trong việc xác định giải pháp thích hợp, mặc dù quyết định cuối cùng sẽ thuộc về chúng tôi, miễn là giải pháp đó hiệu quả và kịp thời. Các yếu tố chúng tôi sẽ xem xét khi lựa chọn giải pháp tiếp cận là: tính hiệu quả; tính kịp thời (liên quan đến thời hạn của bạn); dễ thực hiện; và dễ sử dụng cho bạn. Chúng tôi sẽ thông báo cho bạn về quyết định và giải thích cơ sở cho quyết định của chúng tôi trong vòng 10 ngày làm việc kể từ khi thảo luận với bạn.",
   "a11yBodyEdxFollowUp": "Sau đó, chúng tôi sẽ liên lạc với bạn hàng tuần về đánh giá, quyết định và tiến độ của chúng tôi trong việc triển khai giải pháp hỗ trợ tiếp cận. Chúng tôi sẽ thông báo cho bạn khi quá trình triển khai giải pháp trợ năng của bạn hoàn tất và sẽ liên hệ với bạn khi cần thiết để xem giải pháp đó có hiệu quả hay không.",
@@ -17,11 +13,7 @@
   "a11yBodyInstitution": "tổ chức thành viên edX mà bạn liên kết;",
   "a11yBodyBarrier": "mô tả ngắn gọn về thách thức hoặc rào cản tiếp cận mà bạn đang gặp phải; Và",
   "a11yBodyTimeConstraints": "bạn cần truy cập trong bao lâu và trong bao lâu (ví dụ: ngày bắt đầu khóa học theo kế hoạch hoặc liên quan đến thời hạn liên quan đến khóa học, chẳng hạn như bài luận cuối kỳ).",
-<<<<<<< HEAD
-  "a11yBodyReceipt": "Nhóm hỗ trợ edX sẽ phản hồi để xác nhận đã nhận được và chuyển tiếp yêu cầu của bạn tới Người quản lý đối tác edX của tổ chức của bạn và Chuyên gia hỗ trợ truy cập trang web edX.",
-=======
   "a11yBodyReceipt": "Nhóm hỗ trợ edX sẽ phản hồi để xác nhận đã nhận được và chuyển tiếp yêu cầu của bạn tới Người quản lý đối tác edX của tổ chức của bạn và Chuyên gia về khả năng truy cập trang web edX.",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "a11yBodyExtraInfo": "Với sự hướng dẫn của Chuyên gia về khả năng truy cập trang web, edX sẽ liên hệ với bạn để thảo luận về yêu cầu của bạn và thu thập thông tin bổ sung từ bạn về sở thích và nhu cầu của bạn, để xác định xem có giải pháp khả thi nào mà edX có thể hỗ trợ hay không.",
   "a11yBodyFixesListHeader": "EdX sẽ hỗ trợ bạn nhanh chóng và kỹ lưỡng để bạn có thể tạo nội dung trên CMS trong thời gian hạn chế. Những nỗ lực như vậy có thể bao gồm, nhưng không giới hạn ở:",
   "a11yBodyThirdParty": "Mua công cụ hoặc phần mềm của bên thứ ba để sử dụng cho cá nhân nhằm hỗ trợ bạn sử dụng Studio;",
@@ -89,11 +81,7 @@
   "assetsTableLockedObject": "Đã khóa {object}",
   "assetsTableUnlockedObject": "Đã mở khóa {object}",
   "assetsTableUpdateLock": "Đang cập nhật trạng thái khóa cho {assetName} .",
-<<<<<<< HEAD
-  "assetsTableStudioLink": "Phòng thu",
-=======
   "assetsTableStudioLink": "Studio",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "assetsTableWebLink": "Web",
   "assetsTableCopiedStatus": "Đã sao chép",
   "assetsTableDetailedCopyLink": "{displayName} sao chép URL {label}",
@@ -124,21 +112,13 @@
   "mobileFriendlyVideoShortDescription": "Tạo video thân thiện với thiết bị di động",
   "mobileFriendlyVideoLongDescription": "Video thân thiện với thiết bị di động có thể được xem trên tất cả các thiết bị được hỗ trợ. Đảm bảo rằng ít nhất 90% video của khóa học thân thiện với thiết bị di động bằng cách tải video khóa học lên hệ thống video edX.",
   "diverseSequencesShortDescription": "Xây dựng trình tự học tập đa dạng",
-<<<<<<< HEAD
-  "diverseSequencesLongDescription": "Nghiên cứu cho thấy trải nghiệm nội dung đa dạng thúc đẩy sự tham gia của người học. Chúng tôi khuyến nghị rằng 80% hoặc nhiều hơn trình tự hoặc phần học tập của bạn nên bao gồm nhiều loại nội dung (chẳng hạn như video, thảo luận hoặc vấn đề).",
-=======
   "diverseSequencesLongDescription": "Nghiên cứu cho thấy trải nghiệm nội dung đa dạng thúc đẩy sự tham gia của người học. Chúng tôi khuyến nghị rằng 80% hoặc nhiều hơn trình tự hoặc phần phụ học tập của bạn nên bao gồm nhiều loại nội dung (chẳng hạn như video, thảo luận hoặc vấn đề).",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "weeklyHighlightsShortDescription": "Đặt điểm nổi bật hàng tuần",
   "weeklyHighlightsLongDescription": "Bật và chỉ định các điểm nổi bật hàng tuần để thu hút người học tham gia và đi đúng hướng trong khóa học của bạn.",
   "unitDepthShortDescription": "Quản lý độ sâu đơn vị",
   "unitDepthLongDescription": "Việc chia nhỏ nội dung khóa học thành các phần có thể quản lý được sẽ thúc đẩy sự tham gia của người học. Chúng tôi khuyến nghị các đơn vị chứa không quá ba thành phần.",
   "proctoringEmailShortDescription": "Thêm email báo cáo Proctortrack",
-<<<<<<< HEAD
-  "proctoringEmailLongDescription": "Các khóa học sử dụng Proctortrack yêu cầu email báo cáo. Đảm bảo người học và Bộ phận hỗ trợ có thể liên hệ với nhóm khóa học của bạn về các vấn đề giám sát (ví dụ: khiếu nại, đặt lại bài kiểm tra, v.v.).",
-=======
   "proctoringEmailLongDescription": "Các khóa học sử dụng Proctortrack yêu cầu email báo cáo. Đảm bảo người học và bộ phận Hỗ trợ có thể liên hệ với nhóm khóa học của bạn về các vấn đề giám sát (ví dụ: khiếu nại, đặt lại bài kiểm tra, v.v.).",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "updateLinkLabel": "Cập nhật",
   "completionCountLabel": "{completed} / {total} đã hoàn thành",
   "completedItemLabel": "hoàn thành",
@@ -148,11 +128,7 @@
   "bestPracticesChecklistLabel": "Danh sách kiểm tra các phương pháp hay nhất",
   "doneLoadingChecklistStatusLabel": "Đang tải dữ liệu Danh sách kiểm tra khởi chạy",
   "launchChecklistDoneLoadingLabel": "Khởi chạy dữ liệu Danh sách kiểm tra đã tải xong",
-<<<<<<< HEAD
-  "bestPracticesChecklistLoadingLabel": "Đang tải dữ liệu Danh sách kiểm tra các phương pháp hay nhất",
-=======
   "bestPracticesChecklistLoadingLabel": "Đang tải dữ liệu Danh sách kiểm tra các biện pháp thực hành tốt nhất",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "bestPracticesChecklistDoneLoadingLabel": "Đã tải xong dữ liệu Danh sách kiểm tra các biện pháp thực hành tốt nhất",
   "checklistsStatusLabel": "Danh sách kiểm tra",
   "checklistStatusLoadingLabel": "Đang tải dữ liệu danh sách kiểm tra",
@@ -161,11 +137,7 @@
   "startDateStatusLabel": "Ngày bắt đầu",
   "pacingTypeStatusLabel": "Loại nhịp độ",
   "pacingTypeInstructorPaced": "Nhịp độ của người hướng dẫn",
-<<<<<<< HEAD
-  "pacingTypeSelfPaced": "tự nhịp độ",
-=======
   "pacingTypeSelfPaced": "tự chủ",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "editImageModalAssetsListLoadingSpinner": "Đang tải vòng quay",
   "editImageModalAssetsListNoAssetsMessage": "0 hình ảnh được tải lên",
   "editImageModalAssetsListNoResultsMessage": "0 hình ảnh được tìm thấy",
@@ -190,21 +162,13 @@
   "editImageModalInsertHeader": "Chọn hình ảnh đã tải lên trước đó",
   "editImageModalEditTitle": "Chỉnh sửa cài đặt hình ảnh",
   "editImageModalImageOrFields": "hoặc",
-<<<<<<< HEAD
-  "editImageModalNextPageButton": "Kế tiếp",
-=======
   "editImageModalNextPageButton": "Tiếp theo",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "editImageModalPreviousPageButton": "Mặt sau",
   "editImageModalInvalidFileType": "Tệp phải là hình ảnh, chẳng hạn như tệp .jpg, .png và .tiff. Không co tập tin nao được tải lên.",
   "editImageModalTooManyFiles": "Mỗi lần chỉ có thể tải lên một tệp. Không co tập tin nao được tải lên.",
   "paginationAriaLabel": "Phân trang nội dung",
   "paginationButtonDisabled": "nút bị vô hiệu hóa",
-<<<<<<< HEAD
-  "paginationNext": "Kế tiếp",
-=======
   "paginationNext": "Tiếp theo",
->>>>>>> ab04d506f (chore: Translate transifex_input.json in vi)
   "paginationPrevious": "trước",
   "paginationPage": "trang",
   "paginationCurrentPage": "trang hiện tại",
