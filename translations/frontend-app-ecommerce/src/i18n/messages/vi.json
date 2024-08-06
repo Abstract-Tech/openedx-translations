@@ -1,7 +1,11 @@
 {
   "ecommerce.order.history.basic.alert.title": "Đã xảy ra lỗi.",
   "ecommerce.order.history.basic.alert.body": "Hãy làm mới trang này và thử lại. Nếu sự cố này vẫn tiếp diễn, {supportLink} .",
+<<<<<<< HEAD
   "ecommerce.order.history.basic.alert.button": "Miễn nhiệm",
+=======
+  "ecommerce.order.history.basic.alert.button": "Loại bỏ",
+>>>>>>> 0bb4a6ceb (chore: Translate transifex_input.json in vi)
   "error.notfound.message": "Trang bạn đang tìm kiếm không tồn tại hoặc có lỗi trong URL. Vui lòng kiểm tra URL và thử lại.",
   "ecommerce.order.history.support.fragment": "liên hệ hỗ trợ",
   "ecommerce.order.history.page.heading": "lịch sử đơn hàng",
