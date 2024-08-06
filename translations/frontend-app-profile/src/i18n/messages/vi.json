@@ -1,5 +1,9 @@
 {
   "profile.page.title": "Hồ sơ | {siteName}",
+<<<<<<< HEAD
+=======
+  "profile.age.cannotShare": "Hồ sơ của bạn không thể được chia sẻ.",
+>>>>>>> 8d92f7a5e (chore: Translate transifex_input.json in vi)
   "profile.age.details": "Để chia sẻ hồ sơ của bạn với những người học {siteName} khác, bạn phải xác nhận rằng bạn trên 13 tuổi.",
   "profile.age.set.date": "Đặt ngày sinh của bạn",
   "profile.datejoined.member.since": "Thành viên từ {year}",
@@ -21,7 +25,11 @@
   "profile.country.empty": "Thêm vị trí",
   "profile.education.empty": "Thêm giáo dục",
   "profile.education.education": "Giáo dục",
+<<<<<<< HEAD
   "profile.education.levels.p": "tiến sĩ",
+=======
+  "profile.education.levels.p": "Tiến sĩ",
+>>>>>>> 8d92f7a5e (chore: Translate transifex_input.json in vi)
   "profile.education.levels.m": "Bằng thạc sĩ hoặc chuyên nghiệp",
   "profile.education.levels.b": "Bằng cử nhân",
   "profile.education.levels.a": "Mức độ",
@@ -41,16 +49,28 @@
   "profile.preferredlanguage.empty": "Thêm ngôn ngữ",
   "profile.preferredlanguage.label": "Ngôn ngữ chính nói",
   "profile.profileavatar.upload-button": "Tải ảnh lên",
+<<<<<<< HEAD
   "profile.profileavatar.remove.button": "Di dời",
+=======
+  "profile.profileavatar.remove.button": "Bỏ ra",
+>>>>>>> 8d92f7a5e (chore: Translate transifex_input.json in vi)
   "profile.image.alt.attribute": "hình đại diện hồ sơ",
   "profile.profileavatar.change-button": "Thay đổi",
   "profile.sociallinks.add": "Thêm {network}",
   "profile.sociallinks.social.links": "đường liên kết mạng xã hội",
+<<<<<<< HEAD
   "profile.editbutton.edit": "Sửa",
   "profile.formcontrols.who.can.see": "Ai có thể thấy điều này:",
   "profile.formcontrols.button.cancel": "Hủy bỏ",
   "profile.formcontrols.button.save": "Lưu",
   "profile.formcontrols.button.saving": "Tiết kiệm",
+=======
+  "profile.editbutton.edit": "Biên tập",
+  "profile.formcontrols.who.can.see": "Ai có thể thấy điều này:",
+  "profile.formcontrols.button.cancel": "Hủy bỏ",
+  "profile.formcontrols.button.save": "Lưu",
+  "profile.formcontrols.button.saving": "Đang lưu",
+>>>>>>> 8d92f7a5e (chore: Translate transifex_input.json in vi)
   "profile.formcontrols.button.saved": "Đã lưu",
   "profile.visibility.who.just.me": "Chỉ mình tôi",
   "profile.visibility.who.everyone": "Mọi người trên {siteName}"
