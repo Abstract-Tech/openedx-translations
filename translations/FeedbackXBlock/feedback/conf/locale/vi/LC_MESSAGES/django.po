@@ -4,6 +4,7 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
+# Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
 # 
 msgid ""
@@ -11,32 +12,32 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
+"PO-Revision-Date: 2023-06-06 00:53+0000\n"
 "Last-Translator: Hoang Truong <truonganhhoang@gmail.com>, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/147691/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: feedback.py:28
+#: feedback.py:30
 msgid "What did you learn from this? What was missing?"
 msgstr "Bạn đã học được gì từ điều này? Cái gì thiếu?"
 
-#: feedback.py:29
+#: feedback.py:31
 msgid "How would you rate this as a learning experience?"
 msgstr "Bạn đánh giá đây như một kinh nghiệm học tập như thế nào?"
 
-#: feedback.py:31
+#: feedback.py:33
 msgid ""
 "Think about the material, and try to synthesize key lessons learned, as well"
 " as key gaps in our presentation."
 msgstr ""
-"Hãy suy nghĩ về tài liệu và cố gắng tổng hợp các bài học chính đã học cũng "
-"như những lỗ hổng chính trong bài thuyết trình của chúng ta."
+"Hãy suy nghĩ về tài liệu và cố gắng tổng hợp những bài học chính đã học cũng"
+" như những lỗ hổng chính trong bài thuyết trình của chúng ta."
 
-#: feedback.py:35
+#: feedback.py:37
 msgid ""
 "Take a little bit of time to reflect here. Research shows that a meaningful "
 "synthesis will help you better understand and remember material from this "
@@ -46,83 +47,83 @@ msgstr ""
 "tổng hợp có ý nghĩa sẽ giúp bạn hiểu và ghi nhớ tốt hơn nội dung từ khóa học"
 " này."
 
-#: feedback.py:41 feedback.py:163
+#: feedback.py:43 feedback.py:164
 msgid "Excellent"
 msgstr "Xuất sắc"
 
-#: feedback.py:41 feedback.py:164
+#: feedback.py:43 feedback.py:165
 msgid "Good"
 msgstr "Tốt"
 
-#: feedback.py:41 feedback.py:165
+#: feedback.py:43 feedback.py:166
 msgid "Average"
 msgstr "Trung bình"
 
-#: feedback.py:41 feedback.py:166
+#: feedback.py:43 feedback.py:167
 msgid "Fair"
 msgstr "Hội chợ"
 
-#: feedback.py:41 feedback.py:167
+#: feedback.py:43 feedback.py:168
 msgid "Poor"
 msgstr "Nghèo"
 
-#: feedback.py:76
+#: feedback.py:78
 msgid "Freeform user prompt"
 msgstr "Lời nhắc người dùng dạng tự do"
 
-#: feedback.py:82 feedback.py:98
+#: feedback.py:84 feedback.py:100
 msgid "Random number generated for p. -1 if uninitialized"
 msgstr "Số ngẫu nhiên được tạo cho p. -1 nếu chưa được khởi tạo"
 
-#: feedback.py:87
+#: feedback.py:89
 msgid "How user voted. -1 if didn't vote"
 msgstr "Cách người dùng bình chọn. -1 nếu không bỏ phiếu"
 
-#: feedback.py:93
+#: feedback.py:95
 msgid "What percent of the time should this show?"
 msgstr "Điều này sẽ hiển thị bao nhiêu phần trăm thời gian?"
 
-#: feedback.py:103
+#: feedback.py:105
 msgid "A list of user votes"
 msgstr "Danh sách bình chọn của người dùng"
 
-#: feedback.py:107
+#: feedback.py:109
 msgid "Feedback"
 msgstr "Nhận xét"
 
-#: feedback.py:110
+#: feedback.py:112
 msgid "Display Name"
 msgstr "Tên hiển thị"
 
-#: feedback.py:111
+#: feedback.py:113
 msgid "Provide Feedback"
 msgstr "Cung cấp phản hồi"
 
-#: feedback.py:116 templates/html/studio_view.html:17
+#: feedback.py:118 templates/html/studio_view.html:17
 msgid "Voting message"
 msgstr "Tin nhắn biểu quyết"
 
-#: feedback.py:117
+#: feedback.py:119
 msgid "Thank you for voting!"
 msgstr "Cảm ơn bạn về sự biểu quyết!"
 
-#: feedback.py:122 templates/html/studio_view.html:25
+#: feedback.py:124 templates/html/studio_view.html:25
 msgid "Feedback message"
 msgstr "Tin nhắn phản hồi"
 
-#: feedback.py:123
+#: feedback.py:125
 msgid "Thank you for your feedback!"
 msgstr "Cảm ơn phản hôi của bạn!"
 
-#: feedback.py:128
+#: feedback.py:130
 msgid "Show aggregate to students"
 msgstr "Hiển thị tổng hợp cho sinh viên"
 
-#: feedback.py:158
+#: feedback.py:159
 msgid "Please reflect on this course material"
 msgstr "Hãy suy ngẫm về tài liệu khóa học này"
 
-#: feedback.py:159
+#: feedback.py:160
 msgid ""
 "Please take time to meaningfully reflect on your experience with this course"
 " material."
@@ -130,15 +131,15 @@ msgstr ""
 "Hãy dành thời gian để suy ngẫm một cách có ý nghĩa về trải nghiệm của bạn "
 "với tài liệu khóa học này."
 
-#: feedback.py:162
+#: feedback.py:163
 msgid "Please rate your overall experience"
 msgstr "Vui lòng đánh giá trải nghiệm tổng thể của bạn"
 
-#: feedback.py:169
+#: feedback.py:170
 msgid "Please take a moment to thoughtfully reflect."
 msgstr "Xin hãy dành chút thời gian để suy ngẫm sâu sắc."
 
-#: feedback.py:388
+#: feedback.py:389
 msgid "Please vote!"
 msgstr "Hãy bỏ phiếu!"
 
@@ -214,7 +215,7 @@ msgstr "ĐÚNG VẬY"
 
 #: templates/html/studio_view.html:39
 msgid "Wheter to show the aggregate report to students."
-msgstr "Có nên hiển thị báo cáo tổng hợp cho sinh viên hay không."
+msgstr "Có thể hiển thị báo cáo tổng hợp cho sinh viên hay không."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
@@ -232,7 +233,8 @@ msgstr "Trình giữ chỗ dạng tự do"
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
 msgstr ""
-"Điều này được hiển thị dưới dạng văn bản màu xám trước khi học sinh trả lời."
+"Nội dung này được hiển thị dưới dạng văn bản màu xám trước khi học sinh trả "
+"lời."
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"
@@ -248,7 +250,7 @@ msgstr "Khuôn mặt (buồn đến vui đến buồn)"
 
 #: templates/html/studio_view.html:64
 msgid "Numeric"
-msgstr "Số"
+msgstr "số"
 
 #: templates/html/studio_view.html:65
 msgid "Stars"
