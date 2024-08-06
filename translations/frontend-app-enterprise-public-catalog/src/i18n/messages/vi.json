@@ -45,7 +45,11 @@
   "catalogSelectionDeck.edxForOnlineEdu.labelDetail": "Giá đơn, mỗi người học",
   "catalogSelectionDeck.edxForBusiness.bullet1": "Truy cập không giới hạn vào hơn 2.000 khóa học",
   "catalogSelectionDeck.edxForBusiness.bullet2": "Chứng chỉ chuyên môn và các chương trình chọn lọc",
+<<<<<<< HEAD
   "catalogSelectionDeck.edxForBusiness.bullet3": "Các khóa học tự điều chỉnh",
+=======
+  "catalogSelectionDeck.edxForBusiness.bullet3": "Các khóa học tự chủ",
+>>>>>>> 36992d635 (chore: Translate transifex_input.json in vi)
   "catalogSelectionDeck.aLaCarte.badge": "Dành cho mọi tổ chức",
   "catalogSelectionDeck.aLaCarte.label": "gọi món",
   "catalogSelectionDeck.aLaCarte.labelDetail": "Các khóa học và chương trình có giá riêng",
@@ -63,9 +67,16 @@
   "ProgramCard.priceNotAvailable": "Không có sẵn",
   "catalogs.askXpert.result.card.heading": "chuyên gia",
   "catalogs.askXpert.result.card.label.for.results": "Kết quả: {query}",
+<<<<<<< HEAD
   "catalogs.askXpert.result.card.label.for.self.paced.courses": "Các khóa học tự điều chỉnh",
   "catalogs.askXpert.result.card.label.for.self.paced.programs": "Các chương trình tự điều chỉnh",
   "catalogs.askXpert.result.card.label.for.executive.education.courses": "Các khóa học giáo dục điều hành",
   "catalogs.askXpert.result.card.error.label": "Đã xảy ra lỗi. Hãy thử một tìm kiếm mới",
   "catalogs.askXpert.result.card.no.data.found.error.message": "Không tìm thấy khóa học/chương trình nào theo tiêu chí lọc của bạn, vui lòng chọn trọng tâm rộng hơn để nhận kết quả"
+=======
+  "catalogs.askXpert.result.card.label.for.self.paced.courses": "Các khóa học tự chủ",
+  "catalogs.askXpert.result.card.label.for.self.paced.programs": "Các chương trình tự chủ",
+  "catalogs.askXpert.result.card.label.for.executive.education.courses": "Các khóa học giáo dục điều hành",
+  "catalogs.askXpert.result.card.error.label": "Đã xảy ra lỗi. Hãy thử một tìm kiếm mới"
+>>>>>>> 36992d635 (chore: Translate transifex_input.json in vi)
 }
