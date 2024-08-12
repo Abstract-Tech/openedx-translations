@@ -64,6 +64,7 @@
   "learner-dash.selectSession.confirmSession": "Apstipriniet sesiju",
   "WidgetSidebar.lookingForChallengePrompt": "Vai meklējat jaunu izaicinājumu?",
   "WidgetSidebar.findCoursesButton": "Atrodiet kursu {arrow}",
+<<<<<<< HEAD
   "ProductRecommendations.recommendationsHeading": "Jums varētu arī patikt",
   "ProductRecommendations.executiveEducationHeading": "Vadītāju izglītība",
   "ProductRecommendations.executiveEducationDescription": "Īsie kursi līderības prasmju attīstīšanai",
@@ -71,6 +72,8 @@
   "ProductRecommendations.bootcampDescription": "Intensīva, praktiska, uz projektiem balstīta apmācība",
   "ProductRecommendations.courseHeading": "Kursi",
   "ProductRecommendations.courseDescription": "Atrodiet jaunas intereses un veiciniet karjeru",
+=======
+>>>>>>> c60fc5089 (chore: Translate transifex_input.json in lv)
   "RecommendationsPanel.recommendationsHeading": "Ieteikumi jums",
   "RecommendationsPanel.popularCoursesHeading": "Populāri kursi",
   "RecommendationsPanel.exploreCoursesButton": "Izpētiet kursus",
