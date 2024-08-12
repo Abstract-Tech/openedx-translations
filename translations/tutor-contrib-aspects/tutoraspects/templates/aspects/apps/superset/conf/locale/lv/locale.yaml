@@ -1,5 +1,7 @@
 en:
-  '': ''
+  ? '## Help<br>* [Aspects Reference](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br>*
+    [Superset Resources](https://github.com/apache/superset#resources)<br>'
+  : '## Palīdzība<br> * [Aspektu atsauce](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br> * [Superset Resources](https://github.com/apache/superset#resources)<br>'
   '% Correct': '% Pareizi'
   '% Incorrect': '% nepareizi'
   Action: Darbība
@@ -11,16 +13,10 @@ en:
   Active Users Per Organization: Aktīvie lietotāji katrā organizācijā
   Actor ID: Aktiera ID
   Actor Id: Aktieris Id
-  All Pages Viewed: Visas skatītās lapas
-  All Videos Viewed: Visi skatītie videoklipi
-  At Leat One Page Viewed: Vismaz viena skatītā lappuse
-  At Leat One Viewed: At Least One Skatīts
+  Actors Count: Aktieru skaits
   At-Risk Learners: Riska kursa dalībnieki
-  At-risk Enrollees per Enrollment Track: Riska grupā uzņemtie dalībnieki katrā uzņemšanas ceļā
-  At-risk Enrollment Dates: Riska grupas uzņemšanas datumi
-  At-risk learners: Riska grupas dalībnieki
   Attempted All Problems: Mēģināja visas uzdevumi
-  Attempted at Least One Problem: Izmēģināta vismaz viena problēma
+  Attempted At Least One Problem: Mēģināja atrisināt vismaz vienu uzdevumu
   Attempts: Mēģinājumi
   Avg Attempts: vid. mēģinājumi
   Avg Course Grade: Vidējā kursa vērtējums
@@ -42,29 +38,32 @@ en:
   Course Dashboard: Kursu informācijas panelis
   Course Data JSON: Kursa datu JSON
   Course End: Kursa beigas
+  Course Enrollment Mode Status Cnt: Kursu uzņemšanas režīma statuss Cnt
   Course Enrollments Over Time: Kursu pieteikšanās laika gaitā
   Course Grade: Kursa vērtējums
+  Course Grade %: Kursa vērtējums %
   Course ID: Kursa ID
   Course Information: Informācija par kursu
   Course Key: Kursa atslēga
   Course Key Short: Īsā kursa atslēga
   Course Name: Kursa nosaukums
+  Course Order: Kursu pasūtījums
   Course Run: Kursa norise
   Course Start: Kursa sākums
   Course grade: Kursa vērtējums
-  Course key: Kursa atslēga
   Course name: Kursa nosaukums
   Course run: Kursa norise
   Courses: Kursi
+  Courses Cnt: Kursi Cnt
   Courses Per Organization: Kursi katrai organizācijai
   Created: Izveidots
   Created By Fk: Izveidoja Fk
   Created On: Izveidots
   Cumulative Enrollments by Track: Kopējais reģistrācijas skaits pa celiņiem
   Cumulative Interactions: Kumulatīvā mijiedarbība
-  Cumulative Interactions (at-risk): Kumulatīvā mijiedarbība (riska grupa)
   Current Active Enrollments By Mode: Pašreizējā aktīvā reģistrācija pēc režīma
   Current Enrollees: Pašreizējie reģistrētie
+  Currently Enrolled Users: Pašlaik reģistrētie lietotāji
   Dashboard ID: Informācijas paneļa ID
   Dashboard Status: Informācijas paneļa statuss
   Dashboard Title: Informācijas paneļa nosaukums
@@ -79,15 +78,21 @@ en:
   Dump ID: Datu izmešanas ID
   Duration (Seconds): Ilgums (sekundes)
   Email: E-pasts
+  Emission Day: Emisijas diena
+  Emission Hour: Emisijas stunda
   Emission Time: Emisijas laiks
   Engagement: Saderināšanās
   Enrolled At: Reģistrēts plkst
+  Enrollees by Enrollment Track: Reģistrētie pēc reģistrācijas ceļa
   Enrollees per Enrollment Track: Reģistrētie katrā reģistrācijas maršrutā
   Enrollment: Reģistrācija
+  Enrollment Date: Reģistrācijas datums
+  Enrollment Dates: Reģistrācijas datumi
   Enrollment End: Reģistrācijas beigas
   Enrollment Mode: Reģistrācijas režīms
   Enrollment Start: Reģistrācijas sākums
   Enrollment Status: Reģistrācijas statuss
+  Enrollment Track: Reģistrācijas trase
   Enrollment status: Reģistrācijas statuss
   Enrollment track: Reģistrācijas trase
   Enrollments: Reģistrācijas
@@ -95,40 +100,43 @@ en:
   Event ID: Pasākuma ID
   Event String: Notikumu virkne
   Event Time: Pasākuma laiks
-  Evolution of Engagement (at-risk): Iesaistīšanās attīstība (riska grupā)
-  Evolution of engagement: Iesaistīšanās attīstība
-  External User ID: Ārējais lietotāja ID
+  Events Cnt: Pasākumi Cnt
   Fail Login Count: Neizdevušos pieteikšanās skaits
   First Name: Vārds
   Full Views: Pilni skati
   Grade Bucket: Vērtējumu kopne
+  Grade Range: Vērtējuma diapazons
   Grade range: Vērtējuma diapazons
   Graded: Novērtēts
   Graded Learners: Novērtētie kursa dalībnieki
   Help: Palīdzība
+  Http User Agent: HTTP lietotāja aģents
   Id: Id
   Incorrect Attempts: Nepareizi mēģinājumi
-  Individual Learner Dashboard: Individuālais kursa dalībnieku informācijas panelis
-  Individual Learner Reports: Individuāli ziņojumi
+  Individual Learner: Individuāls kursa dalībnieks
   Instance Health: Versija Veselība
   Interaction Type: Mijiedarbības veids
+  Last Course Published: Pēdējais kurss publicēts
   Last Login: Pēdējā pieteikšanās
   Last Name: Uzvārds
   Last Received Event: Pēdējais saņemtais notikums
+  Last Visit Date: Pēdējā apmeklējuma datums
   Last Visited: Pēdējo reizi apmeklēts
   Last course syncronized: Pēdējais kurss sinhronizēts
-  Last visit date: Pēdējā apmeklējuma datums
+  Learner Summary: Kursa dalībnieku kopsavilkums
+  Learners: Kursa dalībnieki
   Learners with Passing Grade: Kursa dalībnieki ar sekmīgu vērtējumu
   Login Count: Pieteikšanās skaits
+  Median Attempts: Vidējie mēģinājumi
   Median Course Grade: Kursa vidējā vērtējums
-  Median of Attempts: Mēģinājumu mediāna
   Memory Usage (KB): Atmiņas lietojums (KB)
+  Memory Usage Mb: Atmiņas lietojums Mb
   Modified: Pārveidots
   Most-used Charts: Visbiežāk izmantotās diagrammas
   Most-used Dashboards: Visbiežāk izmantotie informācijas paneļi
   Name: Nosaukums
   Number of Learners: Kursa dalībnieku skaits
-  Number of Learners who attemped the problem: "To kursa dalībnieku skaits, kuri risināja problēmu"
+  Number of Learners who Attempted the Problem: "To kursa dalībnieku skaits, kuri mēģināja atrisināt uzdevumu"
   Object ID: Objekta ID
   Object Type: Objekta tips
   Operator Dashboard: Operatora informācijas panelis
@@ -137,41 +145,46 @@ en:
   Organizations: Organizācijas
   Overview: Pārskats
   Page Count: Lapu skaits
-  Page views per section/subsection: Lapas skatījumi uz sadaļu/apakšsadaļu
-  Page views per section/subsection (at-risk): Lapas skatījumu skaits uz sadaļu/apakšsadaļu (riska grupā)
+  Page Engagement Over Time: Lapas iesaistīšanās laika gaitā
+  Page Engagement per Section: Lapas iesaiste katrā sadaļā
+  Page Engagement per Section/Subsection: Lapas iesaiste katrā sadaļā/apakšsadaļā
+  Page Engagement per Subsection: Lapas iesaiste katrā apakšsadaļā
   Pages: Lapas
   Partial Views: Daļēji skati
-  Partial and Full Views Per Video (at-risk): Daļēji un pilni skatījumi uz vienu videoklipu (ar risku)
-  Partial and full views per video: Daļēji un pilni skatījumi katram videoklipam
+  Partial and Full Video Views: Daļēji un pilni video skatījumi
   Passed/Failed: Nokārtots/neizdevies
   Password: Parole
   Performance: Performance
+  Problem Attempts: Uzdevumu mēģinājumi
+  Problem Engagement per Section: Uzdevumu iesaiste katrā sadaļā
+  Problem Engagement per Section/Subsection: Uzdevumu iesaiste katrā sadaļā/apakšsadaļā
+  Problem Engagement per Subsection: Uzdevumu iesaistīšanās katrā apakšsadaļā
+  Problem ID: Uzdevumi ID
   Problem Id: Uzdevums ID
-  Problem Interactions (at-risk): Problēmas mijiedarbība (riska grupa)
   Problem Link: Uzdevumi saite
+  Problem Location and Name: Uzdevumu vieta un nosaukums
   Problem Name: Uzdevuma nosaukums
+  Problem Name With Location: Uzdevumi nosaukums ar atrašanās vietu
   Problem Results: Uzdevumu rezultāti
-  Problem Results (at-risk): Problēmas rezultāti (riska grupa)
-  Problem interactions: Problēmas mijiedarbība
-  Problem name with location: Problēmas nosaukums ar atrašanās vietu
   Problems: Uzdevumi
-  Problems attempted per section/subsection: Katrā sadaļā/apakšsadaļā risinātie uzdevumi
-  Problems attempted per section/subsection (at-risk): "Problēmas, kas mēģinātas katrā sadaļā/apakšsadaļā (riska grupā)"
   Query: Vaicājums
+  Query Duration Ms: Vaicājuma ilgums Ms
   Query performance: Vaicājuma veiktspēja
   Read Rows: Lasīt rindas
   Repeat Views: Atkārtoti skati
   Responses: Atbildes
   Result: Rezultāts
+  Result Rows: Rezultātu rindas
+  Section Location and Name: Sadaļas atrašanās vieta un nosaukums
   Section Name: Sadaļas nosaukums
+  Section Subsection Video Engagement: Sadaļa Apakšsadaļa Video iesaistīšanās
   Section Summary: Sadaļas kopsavilkums
-  Section Summary (at-risk): Sadaļas kopsavilkums (riska grupa)
   Section With Name: Sadaļa ar nosaukumu
-  Section with Name: Sadaļa ar nosaukumu
   Section with name: Sadaļa ar nosaukumu
   Section/Subsection Name: Sadaļas/apakšsadaļas nosaukums
-  Section/Subsection Page Engagement: Sadaļa/apakšsadaļa Lapas iesaiste
+  Section/Subsection Page Enggagement: Sadaļas/apakšsadaļas lapas piesaiste
   Section/Subsection Problem Engagement: Sadaļa/apakšnodaļa Uzdevumu iesaistīšanās
+  Section/Subsection Video Engagement: Sadaļa/apakšsadaļa Video iesaistīšanās
   Segment Range: Segmentu diapazons
   Segment Start: Segmenta sākums
   Self Paced: Pašmācības
@@ -180,26 +193,24 @@ en:
   Slowest ClickHouse Queries: Lēnākie ClickHouse vaicājumi
   Start Position: Sākuma pozīcija
   Started At: Sākās plkst
+  Subsection Location and Name: Apakšsadaļas atrašanās vieta un nosaukums
   Subsection Name: Apakšsadaļas nosaukums
   Subsection Summary: Apakšsadaļas kopsavilkums
-  Subsection Summary (at-risk): Apakšnodaļas kopsavilkums (riska grupa)
   Subsection With Name: Apakšsadaļa ar nosaukumu
-  Subsection with Name: Apakšiedaļa ar nosaukumu
   Subsection with name: Apakšsadaļa ar nosaukumu
   Success: Panākumi
   Superset: Superset
   Superset Active Users: Aktīvo lietotāju superkomlekts
   Superset Active Users Over Time: Superset Active Users Laika gaitā
   Superset Registered Users Over Time: Reģistrēto lietotāju supersets laika gaitā
+  Tables: Tabulas
   Time Grain: Laiks Grauds
   Time Last Dumped: Pēdējās datu izmešanas darbības laiks
   Time Range: Laika diapazons
+  Total Courses: Kopējais kursi
   Total Organizations: Organizācijas kopā
-  Total Users: Lietotāju kopskaits
   Total Views: Kopējais skatījumu skaits
-  Total plays: Kopējais atskaņojumu skaits
   Unique Viewers: Unikālie skatītāji
-  Unique Watchers: Unikāli vērotāji
   User ID: Lietotāja ID
   User Info: Lietotāja informācija
   User Name: Lietotājvārds
@@ -209,29 +220,40 @@ en:
   Verb: Darbības vārds
   Verb ID: Darbības vārda ID
   Video Duration: Video ilgums
+  Video Engagement: Video iesaistīšanās
+  Video Engagement per Section: Video iesaiste katrā sadaļā
+  Video Engagement per Section/Subsection: Video iesaiste katrā sadaļā/apakšsadaļā
+  Video Engagement per Subsection: Video iesaiste katrā apakšsadaļā
   Video Event: Video pasākums
   Video ID: Video ID
   Video Link: Video saite
+  Video Location and Name: Videoklipa atrašanās vieta un nosaukums
   Video Name: Videoklipa nosaukums
   Video Name With Location: Video nosaukums ar atrašanās vietu
   Video Position: Video pozīcija
-  Video Views by Section/Subsection (at-risk): Video skatījumi pēc sadaļas/apakšsadaļas (riska grupā)
-  Video Views per Section/Subsection (at-risk): Video skatījumi uz sadaļu/apakšsadaļu (riska grupā)
-  Video name: Video nosaukums
-  Video views by section/subsection: Video skatījumi pēc sadaļas/apakšsadaļas
-  Video views per section/subsection: Video skatījumi uz sadaļu/apakšsadaļu
+  Video Segment Count: Video segmentu skaits
   Videos: Videoklipi
-  Views: Skati
+  Viewed All Pages: Skatītas visas lapas
+  Viewed All Videos: Skatīti visi video
+  Viewed At Least One Page: Apskatīta vismaz viena lapa
+  Viewed At Least One Video: Noskatīts Vismaz Viens Video
   Visited On: "Apmeklēja:"
   Visualization Bucket: Vizualizācijas spainis
   Watched Entire Video: Noskatījies visu video
   Watched Segment Count: Noskatīto segmentu skaits
   Watched Video Segments: Noskatītie video segmenti
-  Watched Video Segments (at-risk): Noskatītie video segmenti (riska grupā)
   audit: audits
+  failed: neizdevās
+  graded: novērtēts
   honor: gods
+  passed: pagājis
   registered: reģistrēts
+  section_subsection_name: section_subsection_name
+  section_subsection_page_engagement: section_subsection_page_engagement
+  section_subsection_problem_engagement: section_subsection_problem_engagement
+  ungraded: nenovērtēts
   unregistered: nereģistrēts
   verified: verificēts
+  '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}'
+  '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}': '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}'
   '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'
-  ⏲️ Use the ‘Time Grain’ filter to update the time frame intervals shown in the following graph(s): "⏲️ Izmantojiet filtru \"Laika graudi\", lai atjauninātu laika intervālus, kas parādīti nākamajā(-os) grafikā(-os)."
