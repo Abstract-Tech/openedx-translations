@@ -5,11 +5,7 @@
   "VideoUploadEditor.uploadInfo": "Tải lên tệp MP4 hoặc MOV (tối đa 5 GB)",
   "authoring.editorContainer.cancelConfirm.title": "Thoát trình chỉnh sửa?",
   "authoring.editorContainer.cancelConfirm.description": "Bạn có chắc chắn muốn thoát khỏi trình chỉnh sửa không? Mọi thay đổi chưa được lưu sẽ bị mất.",
-<<<<<<< HEAD
-  "authoring.editorContainer.okButton.label": "ĐƯỢC RỒI",
-=======
   "authoring.editorContainer.okButton.label": "OK",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.problemEditor.blockFailed": "Sự cố không tải được",
   "authoring.texteditor.load.error": "Lỗi: Không thể tải nội dung văn bản",
   "authoring.texteditor.spinnerScreenReaderText": "đang tải",
@@ -45,11 +41,7 @@
   "authoring.texteditor.imagesettingsmodal.error.altTextLocalFeedback": "Nhập văn bản thay thế",
   "authoring.texteditor.imagesettingsmodal.error.dimensionError": "Giá trị thứ nguyên phải nhỏ hơn hoặc bằng 100.",
   "authoring.texteditor.imagesettingsmodal.error.dimensionFeedback": "Nhập giá trị nhỏ hơn hoặc bằng 100.",
-<<<<<<< HEAD
-  "authoring.texteditor.selectimagemodal.next.label": "Kế tiếp",
-=======
   "authoring.texteditor.selectimagemodal.next.label": "Tiếp theo",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.texteditor.selectimagemodal.upload.label": "Tải lên hình ảnh mới (tối đa 10 MB)",
   "authoring.texteditor.selectimagemodal.title.label": "Thêm một hình ảnh",
   "authoring.texteditor.selectimagemodal.sort.datenewest.label": "Theo ngày thêm (mới nhất)",
@@ -72,21 +64,13 @@
   "authoring.texteditor.header.cancelTitleEdit": "Hủy bỏ",
   "authoring.texteditor.header.saveTitleEdit": "Lưu",
   "authoring.problemEditor.editProblemView.saveWarningModal.cancelButton.label": "Hủy bỏ",
-<<<<<<< HEAD
-  "authoring.problemEditor.editProblemView.saveWarningModal.saveButton.label": "Được rồi",
-=======
   "authoring.problemEditor.editProblemView.saveWarningModal.saveButton.label": "OK",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.problemEditor.editProblemView.saveWarningModal.body.question": "Bạn có chắc chắn muốn thoát khỏi trình chỉnh sửa không?",
   "authoring.problemEditor.editProblemView.saveWarningModal.noAnswer.title": "Không có câu trả lời cụ thể",
   "authoring.problemEditor.editProblemView.saveWarningModal.noAnswer.body.explanation": "Không có câu trả lời đúng đã được chỉ định.",
   "authoring.problemEditor.editProblemView.saveWarningModal.olxSettingDiscrepancy.title": "Sự khác biệt trong cài đặt OLX",
   "authoring.problemEditor.editProblemView.saveWarningModal.olxSettingDiscrepancy.body.explanation": "Đã tìm thấy sự khác biệt giữa cài đặt được xác định trong thẻ sự cố của OLX và cài đặt được chọn trong thanh bên. Các cài đặt được xác định trong thẻ sự cố của OLX sẽ được lưu và các giá trị tương ứng trong thanh bên sẽ bị loại bỏ.",
-<<<<<<< HEAD
-  "authoring.answerwidget.answer.answerWidgetTitle": "Câu trả lời",
-=======
   "authoring.answerwidget.answer.answerWidgetTitle": "câu trả lời",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.problemEditor.answerWidget.answer.answerHelperText": "{helperText}",
   "authoring.answerwidget.answer.addAnswerButton": "Thêm câu trả lời",
   "authoring.answerwidget.answer.placeholder": "Nhập câu trả lời",
@@ -123,11 +107,7 @@
   "authoring.problemeditor.settings.scoring.unlimited": "Số lần thử không giới hạn",
   "authoring.problemeditor.settings.scoring.attempts": "{lần thử, số nhiều, =1 {# lần thử} khác {# lần thử}}",
   "authoring.problemeditor.settings.scoring.attempts.unlimitedCheckbox": "Số lần thử không giới hạn",
-<<<<<<< HEAD
-  "authoring.problemeditor.settings.scoring.weight": "{trọng lượng, số nhiều, =0 {Chưa được xếp loại} khác {# điểm}}",
-=======
   "authoring.problemeditor.settings.scoring.weight": "{trọng lượng, số nhiều, =0 {Chưa chấm} khác {# điểm}}",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.problemeditor.settings.scoring.label": "Chỉ định trọng số điểm và số lần trả lời",
   "authoring.problemeditor.settings.scoring.attempts.hint": "Nếu giá trị mặc định không được đặt trong cài đặt nâng cao, số lần thử không giới hạn sẽ được phép",
   "authoring.problemeditor.settings.scoring.weight.hint": "Nếu giá trị không được đặt, bài toán có giá trị một điểm",
@@ -182,11 +162,7 @@
   "authoring.videoeditor.handout.error.uploadHandoutError": "Không tải được bài tập lên. Vui lòng thử lại.",
   "authoring.videoeditor.handout.error.fileSizeError": "Tệp bài tập phải có dung lượng từ 20 MB trở xuống. Vui lòng thay đổi kích thước tệp và thử lại.",
   "authoring.videoeditor.handout.handoutHelpMessage": "Người học có thể tải xuống tệp này bằng cách nhấp vào &quot;Tải xuống bài tập&quot; bên dưới video.",
-<<<<<<< HEAD
-  "authoring.videoeditor.handout.deleteHandout": "Xóa",
-=======
   "authoring.videoeditor.handout.deleteHandout": "Xóa bỏ",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.videoeditor.handout.replaceHandout": "Thay thế",
   "authoring.videoeditor.handout.downloadHandout": "Tải xuống",
   "authoring.videoeditor.license.title": "Giấy phép",
@@ -230,11 +206,7 @@
   "authoring.videoeditor.thumbnail.upload.message": "Tải lên hình ảnh để người học xem trước khi phát video.",
   "authoring.videoeditor.thumbnail.upload.aspectRequirements": "Hình ảnh phải có tỷ lệ khung hình 16:9 (khuyên dùng 1280x720 px)",
   "authoring.videoeditor.thumbnail.altText": "Hình ảnh được sử dụng làm hình thu nhỏ cho video",
-<<<<<<< HEAD
-  "authoring.videoeditor.thumbnail.deleteThumbnail": "Xóa",
-=======
   "authoring.videoeditor.thumbnail.deleteThumbnail": "Xóa bỏ",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.videoeditor.thumbnail.error.fileSizeError": "Kích thước tệp hình thu nhỏ phải lớn hơn 2 KB hoặc nhỏ hơn 2 MB. Vui lòng thay đổi kích thước hình ảnh của bạn và thử lại.",
   "authoring.videoeditor.transcripts.title": "bảng điểm",
   "authoring.videoeditor.transcripts.upload.label": "Thêm bản ghi",
@@ -245,22 +217,14 @@
   "authoring.videoeditor.transcript.error.transcriptTypeError": "Chỉ có thể tải lên tệp SRT",
   "authoring.videoeditor.transcript.error.uploadTranscriptError": "Không thể tải lên bản ghi. Vui lòng thử lại.",
   "authoring.videoeditor.transcript.error.fileSizeError": "Kích thước tệp bản ghi vượt quá mức tối đa. Vui lòng thử lại.",
-<<<<<<< HEAD
-  "authoring.videoeditor.transcript.deleteTranscript": "Xóa",
-=======
   "authoring.videoeditor.transcript.deleteTranscript": "Xóa bỏ",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.videoeditor.transcript.error.deleteTranscriptError": "Không xóa được bản ghi. Vui lòng thử lại.",
   "authoring.videoeditor.transcript.replaceTranscript": "Thay thế",
   "authoring.videoeditor.transcript.downloadTranscript": "Tải xuống",
   "authoring.videoeditor.transcripts.languageSelectLabel": "Ngôn ngữ",
   "authoring.videoeditor.transcripts.languageSelectPlaceholder": "Chọn ngôn ngữ",
   "authoring.videoeditor.transcripts.cancelDeleteLabel": "Hủy bỏ",
-<<<<<<< HEAD
-  "authoring.videoeditor.transcripts.confirmDeleteLabel": "Xóa",
-=======
   "authoring.videoeditor.transcripts.confirmDeleteLabel": "Xóa bỏ",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.videoeditor.transcripts.deleteConfirmationMessage": "Bạn có chắc chắn muốn xóa bản ghi này không?",
   "authoring.videoeditor.transcripts.deleteConfirmationTitle": "Xóa bản ghi này?",
   "authoring.videoeditor.transcripts.fileTypeWarning": "Chỉ có thể tải lên các tệp SRT. Vui lòng chọn tệp có đuôi .srt để tải lên.",
@@ -276,11 +240,7 @@
   "authoring.videoeditor.videoSource.fallbackVideo.title": "Video dự phòng",
   "authoring.videoeditor.videoSource.fallbackVideo.message": "Để đảm bảo tất cả người học đều có thể truy cập video, edX khuyên bạn nên cung cấp thêm video ở cả định dạng .mp4 và .webm. Video được liệt kê đầu tiên tương thích với thiết bị của người học sẽ phát.",
   "authoring.videoeditor.videoSource.fallbackVideo.label": "URL video",
-<<<<<<< HEAD
-  "authoring.videoeditor.videoSource.deleteFallbackVideo": "Xóa",
-=======
   "authoring.videoeditor.videoSource.deleteFallbackVideo": "Xóa bỏ",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.videoeditor.videoSource.allowDownloadCheckboxLabel": "Cho phép tải xuống video",
   "authoring.videoeditor.videoSource.allowDownloadTooltipMessage": "Cho phép người học tải xuống các phiên bản của video này ở các định dạng khác nhau nếu họ không thể sử dụng trình phát video edX hoặc không có quyền truy cập YouTube.",
   "authoring.videoeditor.videoSource.allowVideoSharingCheckboxLabel": "Cho phép chia sẻ video này trên phương tiện truyền thông xã hội.",
@@ -295,11 +255,7 @@
   "authoring.problemeditor.settings.addGroupFeedbackButtonText": "Thêm phản hồi của nhóm",
   "authoring.problemeditor.settings.GroupFeedbackInputLabel": "Phản hồi của nhóm sẽ xuất hiện khi học sinh chọn một bộ câu trả lời cụ thể.",
   "authoring.problemeditor.settings.GroupFeedbackSettingTitle": "Phản hồi của nhóm",
-<<<<<<< HEAD
-  "authoring.problemeditor.settings.randomization.SettingTitle": "Ngẫu nhiên hóa",
-=======
   "authoring.problemeditor.settings.randomization.SettingTitle": "Ngẫu nhiên",
->>>>>>> d2dc89952 (chore: Translate transifex_input.json in vi)
   "authoring.problemeditor.settings.randomization.SettingText": "{randomization, select, null {Không có sự ngẫu nhiên dựa trên Python trong vấn đề này.} other {Xác định thời điểm ngẫu nhiên hóa các biến được chỉ định trong tập lệnh Python được liên kết. Đối với các bài toán không ngẫu nhiên hóa giá trị, hãy chỉ định &quot;Không bao giờ&quot;.} }",
   "problemEditor.settings.tolerance.title": "Sức chịu đựng",
   "problemEditor.settings.tolerance.summary.none": "Không có",
