@@ -65,6 +65,7 @@
   "WidgetSidebar.lookingForChallengePrompt": "Vai meklējat jaunu izaicinājumu?",
   "WidgetSidebar.findCoursesButton": "Atrodiet kursu {arrow}",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "ProductRecommendations.recommendationsHeading": "Jums varētu arī patikt",
   "ProductRecommendations.executiveEducationHeading": "Vadītāju izglītība",
   "ProductRecommendations.executiveEducationDescription": "Īsie kursi līderības prasmju attīstīšanai",
@@ -77,6 +78,8 @@
   "RecommendationsPanel.recommendationsHeading": "Ieteikumi jums",
   "RecommendationsPanel.popularCoursesHeading": "Populāri kursi",
   "RecommendationsPanel.exploreCoursesButton": "Izpētiet kursus",
+=======
+>>>>>>> 39c11fc2d (chore: Translate transifex_input.json in lv)
   "Dashboard.NoCoursesView.lookingForChallengePrompt": "Vai meklējat jaunu izaicinājumu?",
   "Dashboard.NoCoursesView.exploreCoursesPrompt": "Izpētiet mūsu kursus, lai pievienotu tos savam informācijas panelim.",
   "Dashboard.NoCoursesView.exploreCoursesButton": "Izpētiet kursus",
