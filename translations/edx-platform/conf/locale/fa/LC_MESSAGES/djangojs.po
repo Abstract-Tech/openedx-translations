@@ -6728,6 +6728,7 @@ msgid ""
 "of the task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "کار بازیابی مشکل برای مشکل '<%- problem_id %>' و دانش آموز '<%- student_id "
 "%>' آغاز شد. برای مشاهده وضعیت کار، روی دکمه &quot;نمایش وضعیت کار&quot; "
 "کلیک کنید."
@@ -6735,6 +6736,10 @@ msgstr ""
 "کار بازیابی مشکل برای سوال '<%- problem_id %>' و  '<%- problem_id %>' آغاز "
 "شد. برای مشاهدۀ وضعیت کار، روی دکمۀ «نمایش وضعیت کار» بزنید."
 >>>>>>> d38d2696e (chore: Translate djangojs.po in fa)
+=======
+"کار بازیابی مشکل برای سوال '<%- problem_id %>' و  دانشجو '<%- student_id %>'"
+"  آغاز شد. برای مشاهدۀ وضعیت کار، روی دکمۀ «نمایش وضعیت کار» بزنید."
+>>>>>>> 128ab1ac0 (chore: Translate djangojs.po in fa)
 
 #: lms/static/js/instructor_dashboard/student_admin.js:508
 msgid ""
