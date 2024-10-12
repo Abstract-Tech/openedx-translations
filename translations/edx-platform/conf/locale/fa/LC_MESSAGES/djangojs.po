@@ -754,12 +754,17 @@ msgid ""
 "<%- (fileExtensions) %> to upload."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "فقط فایل های <%- fileTypes %> را می توان آپلود کرد. لطفاً فایلی را که به  "
 "<%- (fileExtensions) %> ختم می شود را برای آپلود انتخاب کنید."
 =======
 "فقط فایل‌های &lt;%- fileTypes %&gt; را می‌توان بارگذاری کرد. لطفاً فایلی را "
 "که به &lt;%- (FileExtensions) %&gt; ختم می‌شود را برای بارگذاری انتخاب کنید."
 >>>>>>> d38d2696e (chore: Translate djangojs.po in fa)
+=======
+"فقط فایل‌های <%- fileTypes %> را می‌توان بارگذاری کرد. لطفاً فایلی را که به "
+"<%- (fileExtensions) %> ختم می‌شود را برای بارگذاری انتخاب کنید."
+>>>>>>> f008a9d84 (chore: Translate djangojs.po in fa)
 
 #: cms/static/js/models/uploads.js:63
 #: lms/templates/student_account/hinted_login.underscore:21
