@@ -14,15 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2024-05-09 00:28+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
-"Language-Team: Portuguese (Portugal) (https://app.transifex.com/open-edx/teams/147691/pt_PT/)\n"
-"POT-Creation-Date: 2024-05-15 00:35+0000\n"
-=======
 "POT-Creation-Date: 2024-11-13 17:55-0500\n"
->>>>>>> f2b5976e5 (chore: Translate django.po in pt_PT)
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Ivo Branco <ivo.branco@fccn.pt>, 2024\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/open-edx/teams/6205/pt_PT/)\n"
