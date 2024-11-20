@@ -26452,3 +26452,19 @@ msgstr "Tuliskan Hak Cipta anda disini!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Kode Editor"
+
+
+msgid "Welcome to the IEA online courses on Energy Efficiency"
+msgstr "Selamat datang di kursus online IEA tentang Efisiensi Energi"
+
+msgid "By joining our first online professional courses, you will come face-to-face with the IEA's work to train and build capacity, allow experiences to be shared and global progress to be tracked."
+msgstr "Dengan bergabung di kursus profesional online pertama kami, Anda akan langsung berhadapan dengan pekerjaan IEA dalam pelatihan dan pembangunan kapasitas, memungkinkan berbagi pengalaman dan melacak kemajuan global."
+
+msgid "© IEA Platform. All rights reserved except where noted. edX, Open edX and their respective logos are registered trademarks of edX Inc."
+msgstr "© Platform IEA. Semua hak dilindungi undang-undang kecuali disebutkan lain. edX, Open edX, dan logo terkait adalah merek dagang terdaftar dari edX Inc."
+
+msgid ""
+"The views expressed on this website do not necessarily reflect the views or policy of the International Energy Agency (IEA) Secretariat or of the individual IEA member countries. The IEA makes no representation or warranty, express or implied, in respect to the content on the site (including its completeness or accuracy) and shall not be responsible for any use of, or reliance on, the website. The maps featured throughout the two courses are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area."
+msgstr ""
+"Pandangan yang diungkapkan di situs web ini tidak serta-merta mencerminkan pandangan atau kebijakan Sekretariat Badan Energi Internasional (IEA) atau negara anggota IEA secara individu. IEA tidak memberikan pernyataan atau jaminan, baik secara eksplisit maupun implisit, terkait konten di situs ini (termasuk kelengkapannya atau akurasi) dan tidak bertanggung jawab atas penggunaan atau ketergantungan pada situs web ini. Peta yang ditampilkan di seluruh dua kursus ini tidak mempengaruhi status atau kedaulatan suatu wilayah,
+
