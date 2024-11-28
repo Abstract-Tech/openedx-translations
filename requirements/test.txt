@@ -26,11 +26,7 @@ click==8.1.7
     #   transifex-python
 coverage[toml]==7.6.1
     # via pytest-cov
-<<<<<<< HEAD
-django==3.2.25
-=======
 django==4.2.16
->>>>>>> 90faff7ce (build: Run `make upgrade` with Python 3.11)
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/translations.txt

@@ -211,11 +211,7 @@ msgstr "ད་དུང་འགོ་རྩོམ་མེད།"
 
 #: static/proctoring/js/views/proctored_exam_info.js:14
 msgid "You have not started your onboarding exam."
-<<<<<<< HEAD
-msgstr "ཁྱེད་ཀྱི་སྔོན་འགྲོའི་ཚོད་ལྟའི་རྒྱུགས་ད་དུང་མགོ་བཙུགས་མི་འདུག"
-=======
 msgstr "ཁྱེད་ཀྱི་སྔོན་འགྲོའི་ཚོད་ལྟའི་རྒྱུགས་ད་དུང་མགོ་བརྩམས་མི་འདུག"
->>>>>>> ca33abf33 (chore: Translate djangojs.po in bo)
 
 #: static/proctoring/js/views/proctored_exam_info.js:18
 msgid "You have started your onboarding exam."
@@ -262,11 +258,7 @@ msgstr ""
 "གལ་སྲིད་ཁྱེད་ཀྱི་འཕྲུལ་ཆས་བརྗེ་བོ་བརྒྱབ་ཡོད་ན། "
 "ལྟ་རྟོགས་ཡོད་པའི་རྒྱུགས་སྤྲོད་ཀྱི་ཆ་རྐྱེན་རྣམས་ད་དུང་ཚང་ཡོད་མེད་ངེས་བརྟན་བཟོ་ཆེད།"
 " "
-<<<<<<< HEAD
-"ང་ཚོས་ཁྱེད་ལ་སློབ་ཚན་འདིའི་སྔོན་འགྲོ་ཚོད་ལྟའི་རྒྱུགས་སྤྲོད་མཐའ་སྐྱེལ་དགོས་པའི་ལམ་སྟོན་བྱ་རྒྱུ་ཡིན།"
-=======
 "ང་ཚོས་ཁྱེད་ལ་སློབ་ཚན་འདིའི་སྔོན་འགྲོའི་རྒྱུགས་སྤྲོད་མཐའ་སྐྱེལ་དགོས་པའི་ལམ་སྟོན་བྱ་རྒྱུ་ཡིན།"
->>>>>>> ca33abf33 (chore: Translate djangojs.po in bo)
 " "
 
 #: static/proctoring/js/views/proctored_exam_info.js:55

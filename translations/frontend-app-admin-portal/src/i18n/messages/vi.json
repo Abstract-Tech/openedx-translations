@@ -347,24 +347,6 @@
   "lcm.budget.detail.page.overview.budget.actions.auto.allocate": "Kinh phí từ ngân sách này được đặt để tự động phân bổ cho những người học đã đăng ký dựa trên cài đặt được định cấu hình với nhóm hỗ trợ của bạn.",
   "lcm.budget.detail.page.overview.budget.actions.contact.support": "Liên hệ hỗ trợ",
   "lcm.budget.detail.page.overview.budget.actions.lead.learning": "Dẫn đường cho việc học tập quan trọng",
-<<<<<<< HEAD
-  "lcm.budget.detail.page.overview.budget.actions.assign.content": "Chỉ định nội dung cho những người sử dụng ngân sách sẵn có để trang trải chi phí đăng ký.",
-  "lcm.budget.detail.page.overview.budget.actions.new.assignment": "Nhiệm vụ mới",
-  "lcm.budget.detail.page.overview.utilization.collapsible.title": "Chi tiết sử dụng",
-  "lcm.budget.detail.page.overview.utilization.title": "Đã sử dụng",
-  "lcm.budget.detail.page.overview.utilization.description": "Tổng mức sử dụng của bạn bao gồm cả số tiền được chỉ định (dành riêng cho việc đăng ký trong tương lai) và số tiền đã chi tiêu.\n tiền (được đổi để đăng ký)",
-  "lcm.budget.detail.page.overview.utilization.assigned": "Số tiền được giao",
-  "lcm.budget.detail.page.overview.utilization.spent": "Số tiền chi",
-  "lcm.budget.detail.page.spent.heading": "Đã tiêu",
-  "lcm.budget.detail.page.spent.description": "Hoạt động chi tiêu được thúc đẩy bởi số lượng đăng ký đã hoàn thành.",
-  "lcm.budget.detail.page.spent.description.enterprise": "Dữ liệu tuyển sinh được cập nhật tự động 12 giờ một lần. Hãy quay lại sau để xem thêm các tuyển sinh gần đây.",
-  "lcm.budget.detail.page.spent.description.learn.more": "<a>Tìm hiểu thêm</a>",
-  "lcm.budget.detail.page.overview.loading": "Đang tải dữ liệu tiêu đề ngân sách",
-  "lcm.budget.detail.page.catalog.tab.cancel.assignment.modal.title": "Hủy nhiệm vụ?",
-  "lcm.budget.detail.page.catalog.tab.cancel.assignment.modal.body": "Hành động này không thể được hoàn tác.",
-  "lcm.budget.detail.page.catalog.tab.cancel.assignment.modal.body2": "Người học sẽ được thông báo rằng bạn đã hủy bài tập. Số tiền liên quan đến nhiệm vụ khóa học này sẽ chuyển từ {doubleQoute} được chỉ định {doubleQoute} trở lại {doubleQoute} có sẵn {doubleQoute} .",
-  "lcm.budget.detail.page.catalog.tab.cancel.assignment.modal.close.button": "Đóng",
-=======
   "lcm.budget.detail.page.overview.budget.actions.assign.content": "Chỉ định nội dung cho những người sử dụng ngân sách sẵn có để trang trải chi phí ghi danh.",
   "lcm.budget.detail.page.overview.budget.actions.new.assignment": "Nhiệm vụ mới",
   "lcm.budget.detail.page.overview.utilization.view.assigned": "Xem hoạt động được chỉ định",
@@ -641,33 +623,15 @@
   "lcm.budget.detail.page.catalog.tab.assignment.modal.assign.button.pending": "Đang chỉ định...",
   "lcm.budget.detail.page.catalog.tab.assignment.modal.assign.button.complete": "Giao",
   "lcm.budget.detail.page.catalog.tab.assignment.modal.assign.button.error": "Thử lại",
-<<<<<<< HEAD
->>>>>>> 238340e7e (chore: Translate transifex_input.json in vi)
-=======
   "lcm.budget.detail.page.catalog.search.results.assign.dropdown.header.by-date": "Theo ngày",
   "lcm.budget.detail.page.catalog.search.results.assign.dropdown.header.no-available-dates": "Không có ngày nào có sẵn",
   "lcm.budget.detail.page.catalog.search.results.assign.dropdown.enroll-by-date-item": "Đăng ký bằng {enrollByDate}",
   "lcm.budget.detail.page.catalog.search.results.assign.dropdown.starts-date-item": "{startLabel} {startDate}",
->>>>>>> aa39691e0 (chore: Translate transifex_input.json in vi)
   "lcm.budget.detail.page.catalog.tab.course.card.price.per.learner": "Giá mỗi người học",
   "lcm.budget.detail.page.catalog.tab.course.card.executive.education": "Giáo dục điều hành",
   "lcm.budget.detail.page.catalog.tab.course.card.course": "Khóa học",
   "lcm.budget.detail.page.catalog.tab.course.card.view.course": "Xem khóa học",
   "lcm.budget.detail.page.catalog.tab.course.card.assign": "Giao phó",
-<<<<<<< HEAD
-  "lcm.budget.detail.page.catalog.tab.remind.assignment.modal.title": "Nhắc nhở người học?",
-  "lcm.budget.detail.page.catalog.tab.remind.assignment.modal.body": "Bạn đang gửi email nhắc nhở tới người học đã chọn để thực hiện bước tiếp theo trong khóa học bạn đã chỉ định.",
-  "lcm.budget.detail.page.catalog.tab.remind.assignment.modal.body2": "Khi người học của bạn hoàn tất đăng ký, số tiền {doubleQoute} được chỉ định {doubleQoute} liên quan sẽ được đánh dấu là {doubleQoute} đã chi tiêu {doubleQoute} .",
-  "lcm.budget.detail.page.catalog.tab.remind.assignment.modal.close": "Quay lại",
-  "catalogs.enterpriseCatalogs.header.subsidyAccessPolicyName": "Danh mục {subsidyAccessPolicyName}",
-  "catalogs.enterpriseCatalogs.header": "Tổng quan",
-  "catalogs.catalogSearchResults.error": "{message} : {fullError}",
-  "admin.portal.not.found.page.message": "Rất tiếc, chúng tôi không thể tìm thấy trang đó {apostrophe} !",
-  "admin.portal.not.found.page.message2": "Có thể đã xảy ra lỗi hoặc trang {apostrophe} không tồn tại nữa.",
-  "adminPortal.account.activation.success": "Tài khoản quản trị viên edX của bạn đã được kích hoạt thành công.",
-  "adminPortal.account.activation.required": "Để tiếp tục, bạn phải xác minh địa chỉ email của mình để kích hoạt tài khoản {platform_name} . Xin vui lòng khi tài khoản của bạn được kích hoạt.",
-  "adminPortal.account.activation.support": "Nếu bạn gặp phải vấn đề khác, vui lòng liên hệ với {support_name} theo {support_link} ."
-=======
   "lcm.budgets.budget.card.status.active": "Tích cực",
   "lcm.budgets.budget.card.status.expiring": "Hết hạn",
   "lcm.budgets.budget.card.status.expired": "Hết hạn",
@@ -969,5 +933,4 @@
   "admin.portal.license.management.filter.choice.pending": "Chưa giải quyết",
   "admin.portal.license.management.filter.choice.revoked": "Đã thu hồi",
   "admin.portal.license.management.table.column.recent.action": "Hành động gần đây"
->>>>>>> 238340e7e (chore: Translate transifex_input.json in vi)
 }

@@ -747,33 +747,6 @@ msgstr ""
 msgid "Course enrollment track"
 msgstr "Parcours d'inscription au cours"
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1407
-msgid "Audit"
-msgstr "Audit"
-
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1408
-msgid "Verified"
-msgstr "Vérifié"
-
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1409
-msgid "Professional Education"
-msgstr "Formation professionnelle"
-
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1410
-msgid "Professional Education (no ID)"
-msgstr "Formation professionnelle (sans identification)"
-
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1411
-msgid "Credit"
-msgstr "Crédit"
-
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1412
-msgid "Honor"
-msgstr "Honneur"
-
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1413
-=======
 #: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1412
 msgid "Audit"
 msgstr "Audit"
@@ -799,7 +772,6 @@ msgid "Honor"
 msgstr "Honneur"
 
 #: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1418
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid "Unpaid Executive Education"
 msgstr "Formation des cadres non rémunérée"
 
@@ -1051,21 +1023,6 @@ msgstr ""
 "{token_email} de {token_enterprise_name} a demandé des codes additionnels. "
 "Veuillez les contacter."
 
-<<<<<<< HEAD
-#: enterprise/api/v1/serializers.py:70
-msgid "Total count of items."
-msgstr "Nombre total d'éléments."
-
-#: enterprise/api/v1/serializers.py:71
-msgid "URL to fetch next page of items."
-msgstr "URL pour récupérer la page suivante des éléments."
-
-#: enterprise/api/v1/serializers.py:72
-msgid "URL to fetch previous page of items."
-msgstr "URL pour récupérer la page précédente des éléments."
-
-#: enterprise/api/v1/serializers.py:73
-=======
 #: enterprise/api/v1/serializers.py:72
 msgid "Total count of items."
 msgstr "Nombre total d'éléments."
@@ -1079,7 +1036,6 @@ msgid "URL to fetch previous page of items."
 msgstr "URL pour récupérer la page précédente des éléments."
 
 #: enterprise/api/v1/serializers.py:75
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid "List of items."
 msgstr "Liste des éléments."
 
@@ -1138,11 +1094,7 @@ msgstr ""
 " environnement Open edX."
 
 #: enterprise/api_client/discovery.py:60
-<<<<<<< HEAD
-#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1607
-=======
 #: enterprise/api_client/discovery.py:399 enterprise/utils.py:1608
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid ""
 "To get a CatalogIntegration object, this package must be installed in an "
 "Open edX environment."
@@ -2447,11 +2399,7 @@ msgstr "Transmettre les métadonnées des cours"
 msgid "Continue"
 msgstr "Continuer"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:145
-=======
 #: enterprise/utils.py:146
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "both were."
@@ -2459,21 +2407,13 @@ msgstr ""
 "Soit \"courriel ou nom d'utilisateur\" soit \"transfert groupé CSV\" doivent"
 " être spécifiés, mais les deux l'étaient."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:148
-=======
 #: enterprise/utils.py:149
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid "Error: Learners could not be added. Correct the following errors."
 msgstr ""
 "Erreur : Les apprenants n'ont pu être ajoutés. Corrigez les erreurs "
 "suivantes."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:150
-=======
 #: enterprise/utils.py:151
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
@@ -2481,20 +2421,12 @@ msgstr ""
 "Le parcours d'inscription {course_mode} n'est pas disponible pour le cours "
 "{course_id}."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:152
-=======
 #: enterprise/utils.py:153
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid "Select a course enrollment track for the given course(s)."
 msgstr ""
 "Sélectionnez un parcours d'inscription à un cours pour le(s) cours donné(s)."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:154
-=======
 #: enterprise/utils.py:155
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
@@ -2503,11 +2435,7 @@ msgstr ""
 "Impossible de récupérer les détails de l'identifiant de cours {course_id}. "
 "Spécifiez un identifiant valide."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:157
-=======
 #: enterprise/utils.py:158
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
@@ -2515,20 +2443,12 @@ msgstr ""
 "Le \"téléchargement groupé CSV\" ou un identifiant de cours unique peuvent "
 "être utilisés pour les inscriptions manuelles, mais pas les deux ensemble."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:161
-=======
 #: enterprise/utils.py:162
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid "{argument} does not appear to be a valid email address."
 msgstr "{argument} ne semble pas être une adresse courriel valide."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:163
-=======
 #: enterprise/utils.py:164
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid ""
 "{argument} does not appear to be a valid email address or known username"
@@ -2536,11 +2456,7 @@ msgstr ""
 "{argument} ne semble pas être une adresse courriel valide ou un nom "
 "d'utilisateur connu"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:166
-=======
 #: enterprise/utils.py:167
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid ""
 "Expected a CSV file with [{expected_columns}] columns, but found "
@@ -2549,19 +2465,11 @@ msgstr ""
 "Un fichier CSV avec des colonnes de [{expected_columns}] était attendu, mais"
 " nous avons reçu un fichier de [{actual_columns}] colonnes à la place."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:170
-msgid "Reason field is required but was not filled."
-msgstr "Le champ raison est obligatoire mais n’a pas été rempli."
-
-#: enterprise/utils.py:173
-=======
 #: enterprise/utils.py:171
 msgid "Reason field is required but was not filled."
 msgstr "Le champ raison est obligatoire mais n’a pas été rempli."
 
 #: enterprise/utils.py:174
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "neither were."
@@ -2569,11 +2477,7 @@ msgstr ""
 "Soit \"courriel ou nom d'utilisateur\" soit \"téléchargement groupé CSV\" "
 "doivent être spécifiés, mais aucun ne l'a été."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:176
-=======
 #: enterprise/utils.py:177
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid ""
 "User with email address {email} is already registered with Enterprise "
@@ -2582,39 +2486,23 @@ msgstr ""
 "L'utilisateur avec l'adresse courriel {email} est déjà enregistré auprès du "
 "client d'entreprise {ec_name}."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:178
-msgid "User is not linked with Enterprise Customer"
-msgstr "L'utilisateur n'est pas lié au client d'entreprise"
-
-#: enterprise/utils.py:179
-=======
 #: enterprise/utils.py:179
 msgid "User is not linked with Enterprise Customer"
 msgstr "L'utilisateur n'est pas lié au client d'entreprise"
 
 #: enterprise/utils.py:180
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid "User with email address {email} doesn't exist."
 msgstr "L'utilisateur avec l'adresse courriel {email} n'existe pas."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:180
-=======
 #: enterprise/utils.py:181
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 msgstr ""
 "L'ID de cours {course_id} n'existe pas dans le catalogue du client "
 "d'entreprise."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:182
-=======
 #: enterprise/utils.py:183
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid ""
 "Enterprise channel worker user with the username "
@@ -2623,39 +2511,23 @@ msgstr ""
 "L'utilisateur de service du canal entreprise portant le nom d'utilisateur "
 "\"{channel_worker_username}\" est introuvable."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:185
-=======
 #: enterprise/utils.py:186
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid ""
 "Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
 msgstr ""
 "Impossible d'analyser le fichier CSV. Veuillez vous assurer qu'il s'agit "
 "d'un fichier CSV codé 'utf-8'."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:188
-msgid "Discount percentage should be from 0 to 100."
-msgstr "Le pourcentage de remise doit être compris entre 0 et 100."
-
-#: enterprise/utils.py:398
-=======
 #: enterprise/utils.py:189
 msgid "Discount percentage should be from 0 to 100."
 msgstr "Le pourcentage de remise doit être compris entre 0 et 100."
 
 #: enterprise/utils.py:399
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 #, python-brace-format
 msgid "You've been enrolled in {course_name}!"
 msgstr "Vous avez été inscrit à {course_name}!"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:557 enterprise/utils.py:636
-=======
 #: enterprise/utils.py:558 enterprise/utils.py:637
->>>>>>> dcf6739d0 (chore: Translate django.po in fr_CA)
 msgid "`user` must have one of either `email` or `user_email`."
 msgstr "`user` doit avoir l'un des deux `email` ou `user_email`."
 

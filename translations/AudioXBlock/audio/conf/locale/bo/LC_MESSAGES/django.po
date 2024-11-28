@@ -23,15 +23,7 @@ msgstr ""
 
 #: audio.py:32
 msgid "URL for MP3 file to play"
-<<<<<<< HEAD
-<<<<<<< HEAD
 msgstr "MP3 རྣམ་པ་ཅན་གྱི་སྒྲ་གཏོང་རྒྱུའི་དྲྭ་ཐག URL"
-=======
-msgstr "MP3 རྣམ་པ་ཅན་གྱི་སྒྲ་གཏོང་རྒྱུའི་དྲ་ཐག URL"
->>>>>>> 48826f790 (chore: Translate django.po in bo)
-=======
-msgstr "MP3 རྣམ་པ་ཅན་གྱི་སྒྲ་གཏོང་རྒྱུའི་དྲྭ་ཐག URL"
->>>>>>> 46c8597c7 (chore: Translate django.po in bo)
 
 #: templates/html/audio_edit.html:7
 msgid "Audio Source Location"
