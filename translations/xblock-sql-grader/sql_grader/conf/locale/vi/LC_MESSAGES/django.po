@@ -12,15 +12,9 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Hoang Truong <truonganhhoang@gmail.com>, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/147691/vi/)\n"
-=======
 "PO-Revision-Date: 2023-05-31 00:54+0000\n"
 "Last-Translator: Hoang Truong <truonganhhoang@gmail.com>, 2024\n"
 "Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
->>>>>>> dfbd1c270 (chore: Translate django.po in vi)
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -135,11 +129,7 @@ msgstr[0] ""
 
 #: templates/view.html:12
 msgid "0 points (ungraded)"
-<<<<<<< HEAD
-msgstr "0 điểm (không tính điểm)"
-=======
 msgstr "0 điểm (chưa chấm)"
->>>>>>> dfbd1c270 (chore: Translate django.po in vi)
 
 #: templates/view.html:21
 msgid "Note:"

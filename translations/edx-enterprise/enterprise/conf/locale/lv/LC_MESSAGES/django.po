@@ -4,10 +4,7 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
-<<<<<<< HEAD
-=======
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 # Elita Leilande, 2024
 # 
 msgid ""
@@ -15,15 +12,9 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Elita Leilande, 2024\n"
-"Language-Team: Latvian (https://app.transifex.com/open-edx/teams/147691/lv/)\n"
-=======
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Elita Leilande, 2024\n"
 "Language-Team: Latvian (https://app.transifex.com/open-edx/teams/6205/lv/)\n"
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,19 +37,11 @@ msgstr ""
 "Priekšskatiet datu kopīgošanas piekrišanas lapu, kas tiek rādīta saistībā ar"
 " reģistrāciju programmā."
 
-<<<<<<< HEAD
-#: consent/admin/__init__.py:119 enterprise/admin/__init__.py:689
-msgid "Preview (course)"
-msgstr "Priekšskatījums (kurss)"
-
-#: consent/admin/__init__.py:120 enterprise/admin/__init__.py:702
-=======
 #: consent/admin/__init__.py:119 enterprise/admin/__init__.py:691
 msgid "Preview (course)"
 msgstr "Priekšskatījums (kurss)"
 
 #: consent/admin/__init__.py:120 enterprise/admin/__init__.py:704
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Preview (program)"
 msgstr "Priekšskatījums (programma)"
 
@@ -230,13 +213,8 @@ msgstr ""
 
 #: enterprise_learner_portal/api/v1/views.py:69
 #: enterprise_learner_portal/api/v1/views.py:132
-<<<<<<< HEAD
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:477
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:531
-=======
 #: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:497
 #: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:551
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "To use this endpoint, this package must be installed in an Open edX "
 "environment."
@@ -293,28 +271,16 @@ msgstr ""
 "Maksimālais datu vienību skaits, kas jāpārsūta uz integrēto kanālu ar katru "
 "pieprasījumu."
 
-<<<<<<< HEAD
-#: integrated_channels/canvas/models.py:195
-msgid "The amount of points that the learner scored on the subsection."
-msgstr "Punktu daudzums, ko kursa dalībnieks ieguva apakšsadaļā."
-
-#: integrated_channels/canvas/models.py:201
-=======
 #: integrated_channels/canvas/models.py:197
 msgid "The amount of points that the learner scored on the subsection."
 msgstr "Punktu daudzums, ko kursa dalībnieks ieguva apakšsadaļā."
 
 #: integrated_channels/canvas/models.py:203
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The total amount of points that the learner could score on the subsection."
 msgstr "Kopējais punktu skaits, ko kursa dalībnieks varēja iegūt apakšsadaļā."
 
-<<<<<<< HEAD
-#: integrated_channels/canvas/models.py:274
-=======
 #: integrated_channels/canvas/models.py:276
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Represents the canvas representation of a timestamp: yyyy-mm-dd, which is "
 "always 10 characters. Can be left unset for audit transmissions."
@@ -567,13 +533,8 @@ msgstr ""
 "Ja iestatīts uz True, konfigurētais klients vairs nesaņems kursa dalībnieku "
 "datu pārraides, gan ieplānotās, gan signāla bāzes"
 
-<<<<<<< HEAD
-#: integrated_channels/integrated_channel/models.py:533
-#: integrated_channels/integrated_channel/models.py:709
-=======
 #: integrated_channels/integrated_channel/models.py:535
 #: integrated_channels/integrated_channel/models.py:711
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Data pertaining to the transmissions API request response."
 msgstr "Dati, kas attiecas uz pārraides API pieprasījuma atbildi."
 
@@ -713,22 +674,14 @@ msgstr "xAPI LRS atslēga."
 msgid "secret of xAPI LRS."
 msgstr "xAPI LRS noslēpums."
 
-<<<<<<< HEAD
-#: enterprise/admin/__init__.py:680
-=======
 #: enterprise/admin/__init__.py:682
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Preview the HTML template rendered in the context of a course enrollment."
 msgstr ""
 "Priekšskatiet HTML veidni, kas tiek renderēta saistībā ar pieteikšanos "
 "kursam."
 
-<<<<<<< HEAD
-#: enterprise/admin/__init__.py:693
-=======
 #: enterprise/admin/__init__.py:695
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Preview the HTML template rendered in the context of a program enrollment."
 msgstr ""
@@ -773,43 +726,16 @@ msgstr "Lai reģistrētu dalībniekus kursā, ievadiet kursa ID."
 msgid "Course enrollment track"
 msgstr "Kursu uzņemšanas trase"
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1407
-msgid "Audit"
-msgstr "Audits"
-
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1408
-=======
 #: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1446
 msgid "Audit"
 msgstr "Audits"
 
 #: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1447
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Verified"
 msgstr ""
 "Iegūstiet akadēmiskos kredītpunktus, izmantojot verificētu sertifikātu "
 "(Verified Certificate)"
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1409
-msgid "Professional Education"
-msgstr "Profesionālā izglītība"
-
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1410
-msgid "Professional Education (no ID)"
-msgstr "Profesionālā izglītība (bez ID)"
-
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1411
-msgid "Credit"
-msgstr "Kredīti"
-
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1412
-msgid "Honor"
-msgstr "Gods"
-
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1413
-=======
 #: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1448
 msgid "Professional Education"
 msgstr "Profesionālā izglītība"
@@ -827,7 +753,6 @@ msgid "Honor"
 msgstr "Gods"
 
 #: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1452
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Unpaid Executive Education"
 msgstr "Neapmaksāta vadītāju izglītība"
 
@@ -875,37 +800,21 @@ msgstr "Kurss"
 msgid "Enter the course run key."
 msgstr "Ievadiet kursa izpildes atslēgu."
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:434
-msgid "Preview"
-msgstr "Priekšskatījums"
-
-#: enterprise/admin/forms.py:435
-=======
 #: enterprise/admin/forms.py:436
 msgid "Preview"
 msgstr "Priekšskatījums"
 
 #: enterprise/admin/forms.py:437
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Hold Ctrl when clicking on button to open Preview in new tab"
 msgstr ""
 "Turiet nospiestu Ctrl, noklikšķinot uz pogas, lai atvērtu priekšskatījumu "
 "jaunā cilnē"
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:498
-msgid "Identity Provider"
-msgstr "Identitātes nodrošinātājs"
-
-#: enterprise/admin/forms.py:522
-=======
 #: enterprise/admin/forms.py:500
 msgid "Identity Provider"
 msgstr "Identitātes nodrošinātājs"
 
 #: enterprise/admin/forms.py:524
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The specified Identity Provider does not exist. For more information, "
 "contact a system administrator."
@@ -913,11 +822,7 @@ msgstr ""
 "Norādītais identitātes nodrošinātājs neeksistē. Lai iegūtu "
 "papildinformāciju, sazinieties ar sistēmas administratoru."
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:533
-=======
 #: enterprise/admin/forms.py:535
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "The site for the selected identity provider ({identity_provider_site}) does "
@@ -932,11 +837,7 @@ msgstr ""
 "\"{identity_provider_site}\", vai atjauniniet identitātes nodrošinātāju uz "
 "\"{enterprise_customer_site}\"."
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:611
-=======
 #: enterprise/admin/forms.py:613
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "\"{data_type}\" data type is not supported for enterprise customer "
@@ -945,11 +846,7 @@ msgstr ""
 "Datu tips “{data_type}” netiek atbalstīts uzņēmuma klientam "
 "“{enterprise_customer.name}”. Lūdzu, atlasiet citu datu veidu."
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:628
-=======
 #: enterprise/admin/forms.py:630
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "These catalogs for reporting do not match enterprisecustomer "
@@ -958,19 +855,11 @@ msgstr ""
 "Šie pārskatu sniegšanas katalogi neatbilst uzņēmuma klientam "
 "{enterprise_customer} : {invalid_catalogs}"
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:652
-msgid "Enter enterprise channel worker username."
-msgstr "Ievadiet uzņēmuma kanāla darbinieka lietotājvārdu."
-
-#: enterprise/admin/forms.py:721
-=======
 #: enterprise/admin/forms.py:654
 msgid "Enter enterprise channel worker username."
 msgstr "Ievadiet uzņēmuma kanāla darbinieka lietotājvārdu."
 
 #: enterprise/admin/forms.py:723
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "User specified is not linked to an active Enterprise Customer. Select "
 "`Applies to all contexts` or choose a different user."
@@ -978,11 +867,7 @@ msgstr ""
 "Norādītais lietotājs nav saistīts ar aktīvu uzņēmuma klientu. Izvēlieties "
 "`attiecas uz visiem kontekstiem` vai izvēlieties citu lietotāju."
 
-<<<<<<< HEAD
-#: enterprise/admin/forms.py:782
-=======
 #: enterprise/admin/forms.py:783
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Please select different date range. There is another notification scheduled "
 "in this date range."
@@ -1115,21 +1000,6 @@ msgstr ""
 "{token_email} no {token_enterprise_name} ir pieprasījis papildu kodus. "
 "Lūdzu, sazinieties ar viņiem."
 
-<<<<<<< HEAD
-#: enterprise/api/v1/serializers.py:70
-msgid "Total count of items."
-msgstr "Kopējais vienumu skaits."
-
-#: enterprise/api/v1/serializers.py:71
-msgid "URL to fetch next page of items."
-msgstr "URL, lai ielādētu nākamo vienumu lapu."
-
-#: enterprise/api/v1/serializers.py:72
-msgid "URL to fetch previous page of items."
-msgstr "URL, lai ielādētu iepriekšējo vienumu lapu."
-
-#: enterprise/api/v1/serializers.py:73
-=======
 #: enterprise/api/v1/serializers.py:74
 msgid "Total count of items."
 msgstr "Kopējais vienumu skaits."
@@ -1143,7 +1013,6 @@ msgid "URL to fetch previous page of items."
 msgstr "URL, lai ielādētu iepriekšējo vienumu lapu."
 
 #: enterprise/api/v1/serializers.py:77
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "List of items."
 msgstr "Vienumu saraksts."
 
@@ -1191,11 +1060,7 @@ msgstr ""
 " Katalogs: {catalog_id}"
 
 #: enterprise/api_client/discovery.py:60
-<<<<<<< HEAD
-#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1607
-=======
 #: enterprise/api_client/discovery.py:399 enterprise/utils.py:1622
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "To get a CatalogIntegration object, this package must be installed in an "
 "Open edX environment."
@@ -1225,9 +1090,6 @@ msgid ""
 msgstr ""
 "Lai iegūtu ecommerce_api_client, šī pakotne ir jāinstalē Open edX vidē."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:13
-=======
 #: enterprise/config/models.py:39
 msgid ""
 "Specifies which user role assignments to update.  If unspecified, will "
@@ -1254,7 +1116,6 @@ msgstr ""
 "iterācija pa uzdevumiem, kas tiks mainīti vai izveidoti."
 
 #: enterprise/constants.py:15
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "To log in using this SSO identity provider and access special course offers,"
@@ -1265,11 +1126,7 @@ msgstr ""
 "īpašiem kursu piedāvājumiem, jums vispirms ir jāsniedz piekrišana kopīgot "
 "savus mācību sasniegumus ar {enterprise_customer_name}."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:17
-=======
 #: enterprise/constants.py:19
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "In order to sign in and access special offers, you must consent to share "
@@ -1278,11 +1135,7 @@ msgstr ""
 "Lai pierakstītos un piekļūtu īpašajiem piedāvājumiem, jums ir jāpiekrīt, ka "
 "jūsu kursa dati tiek kopīgoti ar {enterprise_customer_name}."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:21
-=======
 #: enterprise/constants.py:23
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "If you do not consent to share your course data, that information may be "
@@ -1291,20 +1144,12 @@ msgstr ""
 "Ja nepiekrītat, ka jūsu kursa dati tiek kopīgoti, šī informācija var tikt "
 "kopīgota ar {enterprise_customer_name}."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:24
-=======
 #: enterprise/constants.py:26
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid "Welcome to {platform_name}."
 msgstr "Laipni lūdzam vietnē {platform_name} ."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:26
-=======
 #: enterprise/constants.py:28
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "You have left the {strong_start}{enterprise_customer_name}{strong_end} "
@@ -1323,11 +1168,7 @@ msgstr ""
 " atšķirīga {privacy_policy_link_start} konfidencialitātes politika "
 "{privacy_policy_link_end} no {enterprise_customer_name} ."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:92
-=======
 #: enterprise/constants.py:94
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -1339,11 +1180,7 @@ msgstr ""
 "kreditējamas, sniedz pieprasītas zināšanas un var tikt piemērotas, lai "
 "paātrinātu maģistra grāda iegūšanu."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:98
-=======
 #: enterprise/constants.py:100
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1355,11 +1192,7 @@ msgstr ""
 "zināšanas, ko darba devēji meklē, izmantojot specializētu apmācību un "
 "profesionālo izglītību."
 
-<<<<<<< HEAD
-#: enterprise/constants.py:104
-=======
 #: enterprise/constants.py:106
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1481,37 +1314,6 @@ msgstr ""
 "palīdzēt.{span_end}{span_start} Kļūdas kods: "
 "{error_code}{span_end}{span_start}Lietotājvārds: {username}{span_end}"
 
-<<<<<<< HEAD
-#: enterprise/models.py:138
-msgid "Enterprise Customer Type"
-msgstr "Uzņēmuma klienta tips"
-
-#: enterprise/models.py:139
-msgid "Enterprise Customer Types"
-msgstr "Uzņēmuma klientu veidi"
-
-#: enterprise/models.py:146
-msgid "Specifies enterprise customer type."
-msgstr "Norāda uzņēmuma klienta veidu."
-
-#: enterprise/models.py:206 enterprise/models.py:2926
-msgid "Enterprise Customer"
-msgstr "Uzņēmuma klients"
-
-#: enterprise/models.py:207
-msgid "Enterprise Customers"
-msgstr "Uzņēmuma klienti"
-
-#: enterprise/models.py:214
-msgid "Enterprise Customer name."
-msgstr "Uzņēmuma klienta vārds."
-
-#: enterprise/models.py:234
-msgid "Hides course price on learning platform course confirmation screen."
-msgstr "Paslēpj kursa cenu mācību platformas kursa apstiprinājuma ekrānā."
-
-#: enterprise/models.py:257
-=======
 #: enterprise/models.py:139
 msgid "Enterprise Customer Type"
 msgstr "Uzņēmuma klienta tips"
@@ -1541,7 +1343,6 @@ msgid "Hides course price on learning platform course confirmation screen."
 msgstr "Paslēpj kursa cenu mācību platformas kursa apstiprinājuma ekrānā."
 
 #: enterprise/models.py:258
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Enables data sharing consent prompt for learners each time they enroll in a "
 "course. If left unchecked, the prompt will not appear and relevant data will"
@@ -1552,11 +1353,7 @@ msgstr ""
 "izvēles rūtiņa nav atzīmēta, aicinājums netiks parādīts un attiecīgie dati "
 "netiks kopīgoti."
 
-<<<<<<< HEAD
-#: enterprise/models.py:269
-=======
 #: enterprise/models.py:270
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Setting to either require learners to accept data sharing consent at course "
 "enrollment, or through an external process."
@@ -1564,11 +1361,7 @@ msgstr ""
 "Iestatījums, lai kursa dalībniekiem ir jāpieņem datu koplietošanas "
 "piekrišana, reģistrējoties kursā, vai izmantojot ārēju procesu."
 
-<<<<<<< HEAD
-#: enterprise/models.py:278
-=======
 #: enterprise/models.py:279
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Allows learners enrolling through learning platforms to select the audit "
 "track."
@@ -1576,22 +1369,14 @@ msgstr ""
 "Ļauj kursa dalībniekiem, kuri reģistrējas, izmantojot mācību platformas, "
 "atlasīt audita ceļu."
 
-<<<<<<< HEAD
-#: enterprise/models.py:286
-=======
 #: enterprise/models.py:287
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Enables transmission of audit enrollment data from learning platform "
 "learners."
 msgstr ""
 "Ļauj pārsūtīt audita reģistrācijas datus no mācību platformas dalībniekiem."
 
-<<<<<<< HEAD
-#: enterprise/models.py:294
-=======
 #: enterprise/models.py:295
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether to replace the display of potentially sensitive SSO "
 "usernames with a more generic name, e.g. EnterpriseLearner."
@@ -1599,24 +1384,13 @@ msgstr ""
 "Norāda, vai potenciāli sensitīvo SSO lietotājvārdu rādīšanu aizstāt ar "
 "vispārīgāku nosaukumu, piemēram, EnterpriseLearner."
 
-<<<<<<< HEAD
-#: enterprise/models.py:305
-=======
 #: enterprise/models.py:306
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether the customer is able to assign learners to cohorts upon "
 "enrollment."
 msgstr ""
 "Norāda, vai klients pēc reģistrācijas var piešķirt kursa dalībniekus grupām."
 
-<<<<<<< HEAD
-#: enterprise/models.py:310
-msgid "Customer Type"
-msgstr "Klienta veids"
-
-#: enterprise/models.py:323
-=======
 #: enterprise/models.py:311
 msgid "Customer Type"
 msgstr "Klienta veids"
@@ -1637,18 +1411,13 @@ msgstr ""
 "beigšanos (un lietošanas iespēju zaudēšanu), joprojām tiks rādīti."
 
 #: enterprise/models.py:333
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Enables the scheduled reporting configurations screen on the administrator "
 "portal."
 msgstr ""
 "Iespējo ieplānoto pārskatu konfigurāciju ekrānu administratora portālā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:334
-=======
 #: enterprise/models.py:344
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Enables the Single Sign On (SSO) configuration screen on the administrator "
 "portal. "
@@ -1656,11 +1425,7 @@ msgstr ""
 "Iespējo vienreizējās pierakstīšanās (SSO) konfigurācijas ekrānu "
 "administratora portālā. "
 
-<<<<<<< HEAD
-#: enterprise/models.py:349
-=======
 #: enterprise/models.py:359
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Automatically enabled. If unchecked, learners won't have access to the "
 "learner portal."
@@ -1668,11 +1433,7 @@ msgstr ""
 "Automātiski iespējots. Ja šī izvēles rūtiņa nav atzīmēta, kursa dalībniekiem"
 " nebūs piekļuves kursa dalībnieku portālam."
 
-<<<<<<< HEAD
-#: enterprise/models.py:355
-=======
 #: enterprise/models.py:365
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether enterprise offers will be made known to learners in the "
 "learner portal. This only applies to customers with “offers”, the old "
@@ -1682,11 +1443,7 @@ msgstr ""
 "mācību portālā. Tas attiecas tikai uz klientiem, kuriem ir “piedāvājumi”, "
 "kas ir vecā studentu kredīta versija."
 
-<<<<<<< HEAD
-#: enterprise/models.py:367
-=======
 #: enterprise/models.py:377
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Hides labor market data from learners (populated by features using Lightcast"
 " integration). "
@@ -1694,11 +1451,7 @@ msgstr ""
 "Slēpj darba tirgus datus no kursa dalībniekiem (aizpilda funkcijas, "
 "izmantojot Lightcast integrāciju). "
 
-<<<<<<< HEAD
-#: enterprise/models.py:374
-=======
 #: enterprise/models.py:384
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Automatically enabled. If unchecked, the learners won't be able to search "
 "for a course on the learner portal."
@@ -1706,17 +1459,6 @@ msgstr ""
 "Automātiski iespējots. Ja šī izvēles rūtiņa nav atzīmēta, kursa dalībniek "
 "nevarēs meklēt kursu mācību portālā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:383
-msgid ""
-"If checked, the learners will be able to see the link to CEN on the learner "
-"portal dashboard."
-msgstr ""
-"Ja ir atzīmēts, kursu dalībnieki varēs redzēt saiti uz CEN portāla vadības "
-"panelī."
-
-#: enterprise/models.py:391
-=======
 #: enterprise/models.py:393
 msgid ""
 "If checked, learners will be able to see content in the Learner Portal "
@@ -1726,7 +1468,6 @@ msgstr ""
 "portāla sānu joslā, kas atrodas HTML lodziņā."
 
 #: enterprise/models.py:401
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "If checked, the learners will be able to see the pathways on the learner "
 "portal dashboard."
@@ -1734,11 +1475,7 @@ msgstr ""
 "Ja šī izvēles rūtiņa ir atzīmēta, kursa dalībniek varēs redzēt ceļus mācību "
 "portāla informācijas panelī."
 
-<<<<<<< HEAD
-#: enterprise/models.py:399
-=======
 #: enterprise/models.py:409
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "If checked, the learners will be able to see the programs on the learner "
 "portal dashboard."
@@ -1746,11 +1483,7 @@ msgstr ""
 "Ja ir atzīmēta izvēles rūtiņa, kursa dalībniek varēs redzēt programmas "
 "mācību portāla informācijas panelī."
 
-<<<<<<< HEAD
-#: enterprise/models.py:407
-=======
 #: enterprise/models.py:417
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "If checked, the learners will be able to see the academies on the learner "
 "portal dashboard."
@@ -1758,11 +1491,7 @@ msgstr ""
 "Ja šī izvēles rūtiņa ir atzīmēta, kursa dalībniek varēs redzēt akadēmijas "
 "mācī portāla informācijas panelī."
 
-<<<<<<< HEAD
-#: enterprise/models.py:414
-=======
 #: enterprise/models.py:424
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "If checked, search will be replaced with one academy on enterprise learner "
 "portal."
@@ -1770,9 +1499,6 @@ msgstr ""
 "Ja atzīmēta, meklēšana tiks aizstāta ar vienu akadēmiju uzņēmuma mācību "
 "portālā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:421
-=======
 #: enterprise/models.py:431
 msgid ""
 "If checked, videos will be displayed in the search results on the learner "
@@ -1782,7 +1508,6 @@ msgstr ""
 "portāla meklēšanas rezultātos."
 
 #: enterprise/models.py:437
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Automatically enabled. Displays advanced analytics page on the administrator"
 " portal, which includes skill and labor market data."
@@ -1790,22 +1515,14 @@ msgstr ""
 "Automātiski iespējots. Administratora portālā tiek parādīta uzlabotās "
 "analīzes lapa, kurā iekļauti prasmju un darba tirgus dati."
 
-<<<<<<< HEAD
-#: enterprise/models.py:429
-=======
 #: enterprise/models.py:445
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Enables the learning platform configuration screen on the administrator "
 "portal."
 msgstr ""
 "Iespējo mācību platformas konfigurācijas ekrānu administratora portālā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:435
-=======
 #: enterprise/models.py:451
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Allows a learner to input customer slug to identify their org in the SSO "
 "process. Should be enabled for customers that leverage SSO."
@@ -1813,22 +1530,14 @@ msgstr ""
 "Ļauj izglītojamajam ievadīt klienta pāradresi, lai identificētu savu org SSO"
 " procesā. Jāieslēdz klientiem, kas izmanto SSO."
 
-<<<<<<< HEAD
-#: enterprise/models.py:441
-=======
 #: enterprise/models.py:457
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether the organization should have access to executive education"
 " 2U content."
 msgstr ""
 "Norāda, vai organizācijai ir jābūt piekļuvei vadītāju izglītības 2U saturam."
 
-<<<<<<< HEAD
-#: enterprise/models.py:447
-=======
 #: enterprise/models.py:463
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Display Demo data from analyitcs and learner progress report for demo "
 "customer."
@@ -1836,11 +1545,7 @@ msgstr ""
 "Parādiet demonstrācijas datus no analītikas un kursa dalībnieka progresa "
 "ziņojumu demonstrācijas klientam."
 
-<<<<<<< HEAD
-#: enterprise/models.py:454
-=======
 #: enterprise/models.py:470
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Email linked on learner portal as public point of contact, will default to "
 "all admin users associated with this customer if left blank."
@@ -1849,11 +1554,7 @@ msgstr ""
 "noklusējuma tiks nosūtīts visiem administratoriem, kas ir saistīti ar šo "
 "klientu, ja tas būs atstāts tukšs."
 
-<<<<<<< HEAD
-#: enterprise/models.py:464
-=======
 #: enterprise/models.py:480
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies the discount percent used for enrollments from the enrollment API "
 "where capturing the discount per order is not possible. This is passed to "
@@ -1863,46 +1564,23 @@ msgstr ""
 "reģistrēšanas API, ja atlaides noteikšana katram pasūtījumam nav iespējama. "
 "Tas tiek nodots e-komercijai, veidojot pasūtījumus finanšu datu ziņošanai."
 
-<<<<<<< HEAD
-#: enterprise/models.py:478
-msgid "Specifies the default language for learners of the organization."
-msgstr "Norāda noklusējuma valodu organizācijas kursa dalībniekiem."
-
-#: enterprise/models.py:488
-=======
 #: enterprise/models.py:494
 msgid "Specifies the default language for learners of the organization."
 msgstr "Norāda noklusējuma valodu organizācijas kursa dalībniekiem."
 
 #: enterprise/models.py:504
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Specifies the sender alias for automated emails from the edX system."
 msgstr ""
 "Norāda sūtītāja aizstājvārdu automatizētajiem e-pasta ziņojumiem no edX "
 "sistēmas."
 
-<<<<<<< HEAD
-#: enterprise/models.py:496
-=======
 #: enterprise/models.py:512
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Email address that will receive learner replies to automated edX emails."
 msgstr ""
 "E-pasta adrese, kas saņems kursa dalībnieku atbildes uz automatizētiem edX "
 "e-pastiem."
 
-<<<<<<< HEAD
-#: enterprise/models.py:507
-msgid ""
-"Message text shown on the learner portal dashboard for career engagement "
-"network."
-msgstr ""
-"Karjeras iesaistes tīkla ziņojuma teksts, kas redzams kursa dalībnieka "
-"portāla paneļa panelī."
-
-#: enterprise/models.py:836
-=======
 #: enterprise/models.py:523
 msgid ""
 "Text shown on the learner portal dashboard for customer specific purposes. "
@@ -1912,7 +1590,6 @@ msgstr ""
 "specifiskiem nolūkiem. Atveriet HTML lauku."
 
 #: enterprise/models.py:852
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Course details were not found for course key {} - Course Catalog API "
 "returned nothing. Proceeding with enrollment, but notifications won't be "
@@ -1921,11 +1598,7 @@ msgstr ""
 "Kursa informācija netika atrasta kursa atslēgai {} - ourse Catalog API neko "
 "neatgrieza. Turpinām reģistrāciju, bet paziņojumi netiks nosūtīti."
 
-<<<<<<< HEAD
-#: enterprise/models.py:1061
-=======
 #: enterprise/models.py:1077
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "When enabled along with `active`, all other linked enterprise customers for "
 "this user will be marked as inactive upon save."
@@ -1933,33 +1606,6 @@ msgstr ""
 "Ja šī opcija ir iespējota kopā ar `aktīvs`, visi pārējie šā lietotāja "
 "saistītie uzņēmuma klienti pēc saglabāšanas tiks atzīmēti kā neaktīvi."
 
-<<<<<<< HEAD
-#: enterprise/models.py:1068
-msgid "Enterprise Customer Learner"
-msgstr "Uzņēmuma klientu kursa dalībnieks"
-
-#: enterprise/models.py:1069
-msgid "Enterprise Customer Learners"
-msgstr "Uzņēmuma klientu kursa dalībnieki"
-
-#: enterprise/models.py:1672
-msgid "Logo images must be in .png format."
-msgstr "Logotipa attēliem jābūt .png formātā."
-
-#: enterprise/models.py:1699
-msgid "Branding Configuration"
-msgstr "Zīmola konfigurācija"
-
-#: enterprise/models.py:1700
-msgid "Branding Configurations"
-msgstr "Zīmola konfigurācijas"
-
-#: enterprise/models.py:1782
-msgid "Specifies whether this is default provider for enterprise customer."
-msgstr "Norāda, vai tas ir uzņēmuma klienta noklusējuma nodrošinātājs."
-
-#: enterprise/models.py:1865
-=======
 #: enterprise/models.py:1084
 msgid "Enterprise Customer Learner"
 msgstr "Uzņēmuma klientu kursa dalībnieks"
@@ -1985,27 +1631,11 @@ msgid "Specifies whether this is default provider for enterprise customer."
 msgstr "Norāda, vai tas ir uzņēmuma klienta noklusējuma nodrošinātājs."
 
 #: enterprise/models.py:1887
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
 "Kursa (nevis kursa izpildes) UUID, uz kuru kursa dalībniekam ir tiesības."
 
-<<<<<<< HEAD
-#: enterprise/models.py:1875
-msgid "The enterprise learner to which this entitlement is attached."
-msgstr "Uzņēmuma kursa dalībnieks, kuram ir piešķirtas šīs tiesības."
-
-#: enterprise/models.py:1998
-msgid "The enterprise learner to which this enrollment is attached."
-msgstr "Uzņēmuma kursa dalībnieks, kuram ir pievienota šī reģistrācija."
-
-#: enterprise/models.py:2005
-msgid "The ID of the course in which the learner was enrolled."
-msgstr "Kursa ID, kurā kursa dalībnieks bija reģistrēts."
-
-#: enterprise/models.py:2012
-=======
 #: enterprise/models.py:1897
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "Uzņēmuma kursa dalībnieks, kuram ir piešķirtas šīs tiesības."
@@ -2019,7 +1649,6 @@ msgid "The ID of the course in which the learner was enrolled."
 msgstr "Kursa ID, kurā kursa dalībnieks bija reģistrēts."
 
 #: enterprise/models.py:2034
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
@@ -2027,11 +1656,7 @@ msgstr ""
 "Norāda, vai lietotājs ir atzīmējis šo kursu kā saglabātu vēlākai lietošanai "
 "mācību portālā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2028
-=======
 #: enterprise/models.py:2050
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
@@ -2039,11 +1664,7 @@ msgstr ""
 "Norāda, vai uzņēmuma kursu reģistrācijas kursa reģistrācijas objekts tika "
 "atcelts."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2038
-=======
 #: enterprise/models.py:2060
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
@@ -2051,17 +1672,6 @@ msgstr ""
 "Norāda, kad uzņēmuma kursa reģistrācijas kursa reģistrācijas objekts tika "
 "atcelts."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2220
-msgid "The course entitlement the associated subsidy is for."
-msgstr "Kursa tiesības ir saistītas ar subsīdiju."
-
-#: enterprise/models.py:2231
-msgid "The course enrollment the associated subsidy is for."
-msgstr "Kursa uzņemšana, kurai ir paredzēta saistītā subsīdija."
-
-#: enterprise/models.py:2238
-=======
 #: enterprise/models.py:2242
 msgid "The course entitlement the associated subsidy is for."
 msgstr "Kursa tiesības ir saistītas ar subsīdiju."
@@ -2071,7 +1681,6 @@ msgid "The course enrollment the associated subsidy is for."
 msgstr "Kursa uzņemšana, kurai ir paredzēta saistītā subsīdija."
 
 #: enterprise/models.py:2260
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
@@ -2079,24 +1688,11 @@ msgstr ""
 "Vai uzņēmuma subsīdija tiek atsaukta, piemēram, kad tiek atsaukta lietotāja "
 "licence."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2369
-=======
 #: enterprise/models.py:2393
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
 "object means that all available content items will be included in the "
-<<<<<<< HEAD
-"catalog."
-msgstr ""
-"Vaicājuma parametri, kas tiks izmantoti, lai filtrētu meklēšanas pakalpojuma"
-" meklēšanas/visu galapunktu rezultātus, norādīti kā JSON objekts. Tukšs JSON"
-" objekts nozīmē, ka katalogā tiks iekļauti visi pieejamie satura elementi."
-
-#: enterprise/models.py:2384
-=======
 "catalog.  Must be unique."
 msgstr ""
 "Vaicājuma parametri, kas tiks izmantoti, lai filtrētu meklēšanas pakalpojuma"
@@ -2105,7 +1701,6 @@ msgstr ""
 "Jābūt unikālam."
 
 #: enterprise/models.py:2408
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -2117,17 +1712,6 @@ msgstr ""
 "veidi, executive-education-2u kursu veidi netiks izslēgti no saistītā "
 "kataloga satura."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2391
-msgid "Enterprise Catalog Query"
-msgstr "Uzņēmuma kataloga vaicājums"
-
-#: enterprise/models.py:2392
-msgid "Enterprise Catalog Queries"
-msgstr "Uzņēmuma kataloga vaicājumi"
-
-#: enterprise/models.py:2479
-=======
 #: enterprise/models.py:2415
 msgid "Enterprise Catalog Query"
 msgstr "Uzņēmuma kataloga vaicājums"
@@ -2137,7 +1721,6 @@ msgid "Enterprise Catalog Queries"
 msgstr "Uzņēmuma kataloga vaicājumi"
 
 #: enterprise/models.py:2530
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -2149,11 +1732,7 @@ msgstr ""
 "Json objekts nozīmē, ka visi pieejamie satura vienumi tiks iekļauti "
 "katalogā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2487
-=======
 #: enterprise/models.py:2538
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
@@ -2161,11 +1740,7 @@ msgstr ""
 "Sakārtots reģistrācijas režīmu saraksts, kas var tikt parādīts kursa "
 "dalībniekiem šī kataloga kursiem."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2493
-=======
 #: enterprise/models.py:2544
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
@@ -2173,17 +1748,6 @@ msgstr ""
 "Norāda, vai kursi ir jāpublicē ar tiešās revīzijas reģistrācijas "
 "vietrāžiem URL."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2500
-msgid "Enterprise Customer Catalog"
-msgstr "Uzņēmumu klientu katalogs"
-
-#: enterprise/models.py:2501 enterprise/models.py:3048
-msgid "Enterprise Customer Catalogs"
-msgstr "Uzņēmumu klientu katalogi"
-
-#: enterprise/models.py:2768
-=======
 #: enterprise/models.py:2551
 msgid "Enterprise Customer Catalog"
 msgstr "Uzņēmumu klientu katalogs"
@@ -2193,7 +1757,6 @@ msgid "Enterprise Customer Catalogs"
 msgstr "Uzņēmumu klientu katalogi"
 
 #: enterprise/models.py:2819
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -2201,11 +1764,7 @@ msgstr ""
 "Aizpildiet standarta Django veidni, kas pēc atveidošanas izveido e-pastu, kuru vēlaties nosūtīt tikko reģistrētajiem Enterprise Customer kursa dalībniekiem. Var būt pieejami šādi mainīgie:\n"
 "<ul><li> user_name: cilvēkam salasāms vārds personai, kurai tiek nosūtīts e-pasts. Noteikti rīkojieties gadījumā, ja tas nav definēts, jo dažos gadījumos tā var nebūt. Tas var būt arī lietotājvārds, ja kursa dalībnieks sistēmā nav konfigurējis savu &quot;īsto&quot; vārdu.</li><li> organizācijas_nosaukums: tās organizācijas nosaukums, kas sponsorē uzņemšanu.</li><li> enrolled_in: informācija par kursu vai programmu, kurā tika reģistrēts. Tajā var būt:<ul><li> nosaukums: reģistrējamās preces nosaukums (piemēram, &quot;Demokurss&quot;).</li><li> url: saite uz reģistrētā vienuma sākumlapu.</li><li> zīmols: pielāgots zīmola nosaukums reģistrētajam vienumam. Piemēram, MicroMasters programmas zīmols būtu &quot;MicroMasters&quot;.</li><li> sākums: datums, kad reģistrētā prece kļūst pieejama. Atveidojiet to tekstā, izmantojot Django datuma veidnes filtru (skatiet <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">Django dokumentāciju</a> ).</li><li> veids: vai reģistrētais vienums ir kurss, programma vai kas cits.</li></ul></ul>"
 
-<<<<<<< HEAD
-#: enterprise/models.py:2786
-=======
 #: enterprise/models.py:2837
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -2216,29 +1775,6 @@ msgstr ""
 "e-pastiem. Vietturis {course_name} tiks aizstāts ar tā kursa vai programmas "
 "nosaukumu, kurā tika reģistrēts."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2928
-msgid "Active"
-msgstr "Aktīvs"
-
-#: enterprise/models.py:2929
-msgid "Include Date"
-msgstr "Iekļaut datumu"
-
-#: enterprise/models.py:2930
-msgid "Include date in the report file name"
-msgstr "Pārskata faila nosaukumā iekļaujiet datumu"
-
-#: enterprise/models.py:2936
-msgid "Delivery Method"
-msgstr "Piegāde metode"
-
-#: enterprise/models.py:2937
-msgid "The method in which the data should be sent."
-msgstr "Metode, kādā dati jānosūta."
-
-#: enterprise/models.py:2942
-=======
 #: enterprise/models.py:2979
 msgid "Active"
 msgstr "Aktīvs"
@@ -2260,7 +1796,6 @@ msgid "The method in which the data should be sent."
 msgstr "Metode, kādā dati jānosūta."
 
 #: enterprise/models.py:2993
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
@@ -2268,45 +1803,6 @@ msgstr ""
 "Norāda, vai atskaite ir jāsaspiež. Bez saspiešanas faili netiks aizsargāti "
 "ar paroli vai šifrēti."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2949
-msgid "PGP Encryption Key"
-msgstr "PGP šifrēšanas atslēga"
-
-#: enterprise/models.py:2950
-msgid "The key for encryption, if PGP encrypted file is required."
-msgstr "Šifrēšanas atslēga, ja nepieciešams PGP šifrēts fails."
-
-#: enterprise/models.py:2958
-msgid "Data Type"
-msgstr "Datu tips"
-
-#: enterprise/models.py:2959
-msgid "The type of data this report should contain."
-msgstr "Šajā pārskatā jāiekļauj datu veids."
-
-#: enterprise/models.py:2966
-msgid "Report Type"
-msgstr "Pārskata veids"
-
-#: enterprise/models.py:2967
-msgid "The type this report should be sent as, e.g. CSV."
-msgstr "Šis pārskats ir jānosūta, piemēram, CSV formātā."
-
-#: enterprise/models.py:2971
-msgid "Email"
-msgstr "E-pasts"
-
-#: enterprise/models.py:2972
-msgid "The email(s), one per line, where the report should be sent."
-msgstr "E-pasts(-i), pa vienam katrā rindiņā, kur jānosūta pārskats."
-
-#: enterprise/models.py:2979
-msgid "Frequency"
-msgstr "Biežums"
-
-#: enterprise/models.py:2980
-=======
 #: enterprise/models.py:3000
 msgid "PGP Encryption Key"
 msgstr "PGP šifrēšanas atslēga"
@@ -2344,26 +1840,17 @@ msgid "Frequency"
 msgstr "Biežums"
 
 #: enterprise/models.py:3031
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
 msgstr ""
 "Pārskata nosūtīšanas biežuma intervāls (katru dienu, nedēļu vai mēnesi)."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2985
-msgid "Day of Month"
-msgstr "Mēneša diena"
-
-#: enterprise/models.py:2986
-=======
 #: enterprise/models.py:3036
 msgid "Day of Month"
 msgstr "Mēneša diena"
 
 #: enterprise/models.py:3037
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
@@ -2371,19 +1858,11 @@ msgstr ""
 "Mēneša diena, kurā jānosūta ziņojums. Šis lauks ir obligāts un derīgs tikai "
 "tad, ja biežums ir reizi mēnesī."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2994
-msgid "Day of Week"
-msgstr "Nedēļas diena"
-
-#: enterprise/models.py:2995
-=======
 #: enterprise/models.py:3045
 msgid "Day of Week"
 msgstr "Nedēļas diena"
 
 #: enterprise/models.py:3046
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
@@ -2391,19 +1870,11 @@ msgstr ""
 "Nedēļas diena, kurā jānosūta ziņojums. Šis lauks ir obligāts un derīgs tikai"
 " tad, ja biežums ir reizi nedēļā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:2999
-msgid "Hour of Day"
-msgstr "Dienas stunda"
-
-#: enterprise/models.py:3000
-=======
 #: enterprise/models.py:3050
 msgid "Hour of Day"
 msgstr "Dienas stunda"
 
 #: enterprise/models.py:3051
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
@@ -2411,11 +1882,7 @@ msgstr ""
 "Dienas stunda, kurā jānosūta ziņojums, pēc austrumu standarta laika (EST). "
 "Tas ir nepieciešams visiem biežuma iestatījumiem."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3008
-=======
 #: enterprise/models.py:3059
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
@@ -2423,21 +1890,6 @@ msgstr ""
 "Šī parole tiks izmantota, lai nodrošinātu zip faila drošību. Tā tiks "
 "šifrēta, kad tiks saglabāta datubāzē."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3015
-msgid "SFTP Host name"
-msgstr "SFTP resursdatora nosaukums"
-
-#: enterprise/models.py:3016
-msgid "If the delivery method is sftp, the host to deliver the report to."
-msgstr "Ja piegādes metode ir sftp, resursdators, kuram jānogādā ziņojums."
-
-#: enterprise/models.py:3021
-msgid "SFTP Port"
-msgstr "SFTP ports"
-
-#: enterprise/models.py:3022
-=======
 #: enterprise/models.py:3066
 msgid "SFTP Host name"
 msgstr "SFTP resursdatora nosaukums"
@@ -2451,25 +1903,16 @@ msgid "SFTP Port"
 msgstr "SFTP ports"
 
 #: enterprise/models.py:3073
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr ""
 "Ja piegādes metode ir sftp, resursdatora ports, ar kuru izveidot "
 "savienojumu."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3029
-msgid "SFTP username"
-msgstr "SFTP lietotājvārds"
-
-#: enterprise/models.py:3030
-=======
 #: enterprise/models.py:3080
 msgid "SFTP username"
 msgstr "SFTP lietotājvārds"
 
 #: enterprise/models.py:3081
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -2477,11 +1920,7 @@ msgstr ""
 "Ja piegādes metode ir sftp, lietotājvārds, kas jāizmanto, lai droši piekļūtu"
 " resursdatoram."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3036
-=======
 #: enterprise/models.py:3087
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -2489,68 +1928,17 @@ msgstr ""
 "Ja piegādes metode ir sftp, parole, kas jāizmanto, lai droši piekļūtu "
 "miteklim. Uzglabājot datu bāzē, parole tiks šifrēta."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3043
-msgid "SFTP file path"
-msgstr "SFTP faila ceļš"
-
-#: enterprise/models.py:3044
-=======
 #: enterprise/models.py:3094
 msgid "SFTP file path"
 msgstr "SFTP faila ceļš"
 
 #: enterprise/models.py:3095
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
 msgstr ""
 "Ja piegādes metode ir sftp, resursdatora ceļš, uz kuru jānogādā atskaite."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3152
-msgid "Delivery method cannot be updated"
-msgstr "Piegādes metodi nevar atjaunināt"
-
-#: enterprise/models.py:3168
-msgid "Day of week must be set if the frequency is weekly."
-msgstr "Ja biežums ir ik nedēļu, ir jāiestata nedēļas diena."
-
-#: enterprise/models.py:3172
-msgid "Day of month must be set if the frequency is monthly."
-msgstr "Ja biežums ir ik mēnesi, ir jāiestata mēneša diena."
-
-#: enterprise/models.py:3175
-msgid "Frequency must be set to either daily, weekly, or monthly."
-msgstr "Biežums ir jāiestata uz dienu, nedēļu vai mēnesi."
-
-#: enterprise/models.py:3181
-msgid "Email(s) must be set if the delivery method is email."
-msgstr "E-pasts(-i) ir jāiestata, ja piegādes veids ir e-pasts."
-
-#: enterprise/models.py:3185
-msgid "Decrypted password must be set if the delivery method is email."
-msgstr "Ja piegādes veids ir e-pasts, ir jāiestata atšifrēta parole."
-
-#: enterprise/models.py:3189
-msgid "SFTP Hostname must be set if the delivery method is sftp."
-msgstr "Ja piegādes metode ir sftp, ir jāiestata SFTP resursdatora nosaukums."
-
-#: enterprise/models.py:3191
-msgid "SFTP username must be set if the delivery method is sftp."
-msgstr "Ja piegādes metode ir sftp, ir jāiestata SFTP lietotājvārds."
-
-#: enterprise/models.py:3193
-msgid "SFTP File Path must be set if the delivery method is sftp."
-msgstr "Ja piegādes metode ir sftp, ir jāiestata SFTP faila ceļš."
-
-#: enterprise/models.py:3196
-msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
-msgstr "Ja piegādes metode ir SFTP, ir jāiestata atšifrēta SFTP parole."
-
-#: enterprise/models.py:3259
-=======
 #: enterprise/models.py:3203
 msgid "Delivery method cannot be updated"
 msgstr "Piegādes metodi nevar atjaunināt"
@@ -2592,7 +1980,6 @@ msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr "Ja piegādes metode ir SFTP, ir jāiestata atšifrēta SFTP parole."
 
 #: enterprise/models.py:3310
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -2606,21 +1993,6 @@ msgstr ""
 "ierakstu un pēc tam mainiet uzņēmuma klienta lauku, izmantojot nolaižamo "
 "izvēlni."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3548
-msgid "Filters to show banner notifications conditionally."
-msgstr "Filtri, lai nosacīti rādītu reklāmkarogu paziņojumus."
-
-#: enterprise/models.py:3553
-msgid "Admin Notification Filter"
-msgstr "Administratora paziņojumu filtrs"
-
-#: enterprise/models.py:3554
-msgid "Admin Notification Filters"
-msgstr "Administratora paziņojumu filtri"
-
-#: enterprise/models.py:3580
-=======
 #: enterprise/models.py:3599
 msgid "Filters to show banner notifications conditionally."
 msgstr "Filtri, lai nosacīti rādītu reklāmkarogu paziņojumus."
@@ -2634,7 +2006,6 @@ msgid "Admin Notification Filters"
 msgstr "Administratora paziņojumu filtri"
 
 #: enterprise/models.py:3631
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
@@ -2642,11 +2013,7 @@ msgstr ""
 "Paziņojuma reklāmkaroga nosaukums, kas parādīsies uzņēmuma administratoram "
 "administrēšanas portālā."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3588
-=======
 #: enterprise/models.py:3639
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -2657,38 +2024,6 @@ msgstr ""
 "teksts atbalsta iezīmēšanu. Skatiet https://commonmark.org/help/, lai "
 "uzzinātu atbalstītās marķēšanas funkcijas."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3605
-msgid "Admin Notification"
-msgstr "Administratora paziņojums"
-
-#: enterprise/models.py:3606
-msgid "Admin Notifications"
-msgstr "Administratora paziņojumi"
-
-#: enterprise/models.py:3644
-msgid "Admin Notification Read"
-msgstr "Lasīt administratora paziņojumu"
-
-#: enterprise/models.py:3645
-msgid "Admin Notifications Read"
-msgstr "Lasīt administratora paziņojumus"
-
-#: enterprise/models.py:3678 enterprise/models.py:3782
-#: enterprise/models.py:3925
-msgid "The enterprise that can be linked using this key."
-msgstr "Uzņēmums, kuru var saistīt, izmantojot šo atslēgu."
-
-#: enterprise/models.py:3687
-msgid "The number of times this key can be used to link a learner."
-msgstr "Cik reižu šo atslēgu var izmantot, lai piesaistītu kursa dalībnieku."
-
-#: enterprise/models.py:3696
-msgid "The key will no longer be valid after this date."
-msgstr "Pēc šī datuma atslēga vairs nebūs derīga."
-
-#: enterprise/models.py:3705
-=======
 #: enterprise/models.py:3656
 msgid "Admin Notification"
 msgstr "Administratora paziņojums"
@@ -2719,7 +2054,6 @@ msgid "The key will no longer be valid after this date."
 msgstr "Pēc šī datuma atslēga vairs nebūs derīga."
 
 #: enterprise/models.py:3756
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -2727,41 +2061,6 @@ msgstr ""
 "Norāda, vai taustiņš ir aktīvs. Kad atslēga ir deaktivizēta, tā vairs nav "
 "derīga, un to nevar aktivizēt atkārtoti."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3786
-msgid "ChatGPT prompt."
-msgstr "ChatGPT uzvedne."
-
-#: enterprise/models.py:3788
-msgid "ChatGPT response."
-msgstr "ChatGPT atbilde."
-
-#: enterprise/models.py:3789
-msgid "Prompt type."
-msgstr "Uzvednes veids."
-
-#: enterprise/models.py:3793
-msgid "ChatGPT Response"
-msgstr "ChatGPT atbilde"
-
-#: enterprise/models.py:3794
-msgid "ChatGPT Responses"
-msgstr "ChatGPT atbildes"
-
-#: enterprise/models.py:3902
-msgid "Enterprise Customer SSO Configuration"
-msgstr "Uzņēmuma klienta SSO konfigurācija"
-
-#: enterprise/models.py:3903
-msgid "Enterprise Customer SSO Configurations"
-msgstr "Uzņēmuma klientu SSO konfigurācijas"
-
-#: enterprise/models.py:3912
-msgid "The display name of the SSO configuration."
-msgstr "SSO konfigurācijas parādāmais nosaukums."
-
-#: enterprise/models.py:3934
-=======
 #: enterprise/models.py:3837
 msgid "ChatGPT prompt."
 msgstr "ChatGPT uzvedne."
@@ -2795,30 +2094,10 @@ msgid "The display name of the SSO configuration."
 msgstr "SSO konfigurācijas parādāmais nosaukums."
 
 #: enterprise/models.py:3985
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr "Norāda, vai ir aktīva integrācija ar SSO orķestrēšanu."
 
-<<<<<<< HEAD
-#: enterprise/models.py:3943
-msgid "The identity provider integrated with by the SSO orchestrator ."
-msgstr "Identitātes nodrošinātājs, ko integrējis SSO orķestrētājs ."
-
-#: enterprise/models.py:3952
-msgid "The metadata url of the identity provider."
-msgstr "Identitātes nodrošinātāja metadatu URL."
-
-#: enterprise/models.py:3960
-msgid "The metadata xml of the identity provider."
-msgstr "Identitātes nodrošinātāja metadatu xml."
-
-#: enterprise/models.py:3969
-msgid "The entity id of the identity provider."
-msgstr "Identitātes nodrošinātāja subjekta id."
-
-#: enterprise/models.py:3978
-=======
 #: enterprise/models.py:3994
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr "Identitātes nodrošinātājs, ko integrējis SSO orķestrētājs ."
@@ -2836,7 +2115,6 @@ msgid "The entity id of the identity provider."
 msgstr "Identitātes nodrošinātāja subjekta id."
 
 #: enterprise/models.py:4029
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
@@ -2844,31 +2122,19 @@ msgstr ""
 "Norāda, vai integrācijai ar klienta identitātes nodrošinātāju ir automātiski"
 " jāatjaunina metadati."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4032
-=======
 #: enterprise/models.py:4083
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr "Datums un laiks, kad konfigurācija tika iesniegta SSO orķestrēšanai."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4040
-=======
 #: enterprise/models.py:4091
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
 msgstr "Datums un laiks, kad SSO orķestrēšana pabeidza konfigurāciju."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4048
-=======
 #: enterprise/models.py:4099
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
@@ -2876,49 +2142,26 @@ msgstr ""
 "Datums un laiks, kad konfigurācija tika apstiprināta un izmantota pirmo "
 "reizi."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4056
-=======
 #: enterprise/models.py:4107
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr ""
 "Datums un laiks, kad orķestrētājs konfigurācijas laikā saskārās ar kļūdu."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4065
-=======
 #: enterprise/models.py:4116
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 "Vai administrators ir norādījis, ka pakalpojuma sniedzēja metadati ir "
 "augšupielādēti."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4075 enterprise/models.py:4111
-=======
 #: enterprise/models.py:4126 enterprise/models.py:4162
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
 msgstr "SAP specifiska konfigurācija: OData API taimauta intervāls sekundēs."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4085
-msgid "SAP specific configuration: the root url of the OData API."
-msgstr "SAP specifiska konfigurācija: OData API saknes URL."
-
-#: enterprise/models.py:4094
-msgid "SAP specific configuration: the company id of the OData API."
-msgstr "SAP specifiskā konfigurācija: OData API uzņēmuma ID."
-
-#: enterprise/models.py:4103
-=======
 #: enterprise/models.py:4136
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "SAP specifiska konfigurācija: OData API saknes URL."
@@ -2928,47 +2171,19 @@ msgid "SAP specific configuration: the company id of the OData API."
 msgstr "SAP specifiskā konfigurācija: OData API uzņēmuma ID."
 
 #: enterprise/models.py:4154
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr ""
 "SAP specifiska konfigurācija: SAP SuccessFactors OAuth API saknes URL."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4120
-=======
 #: enterprise/models.py:4171
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr ""
 "SAP specifiskā konfigurācija: privātā atslēga, ko izmanto SAML apgalvojuma "
 "parakstīšanai."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4129
-msgid "SAP specific configuration: the client id of the OData API."
-msgstr "SAP specifiskā konfigurācija: OData API klienta ID."
-
-#: enterprise/models.py:4138
-msgid "SAP specific configuration: the user id of the OAuth API."
-msgstr "SAP specifiskā konfigurācija: OAuth API lietotāja ID."
-
-#: enterprise/models.py:4160
-msgid "Field is locked as the configuration has already been submitted."
-msgstr "Lauks ir bloķēts, jo konfigurācija jau ir iesniegta."
-
-#: enterprise/models.py:4198
-msgid "Record has already been submitted for configuration."
-msgstr "Ieraksts jau ir iesniegts konfigurācijai."
-
-#: enterprise/models.py:4248
-msgid "Specifies enterprise group name."
-msgstr "Norāda uzņēmuma grupas nosaukumu."
-
-#: enterprise/models.py:4262
-=======
 #: enterprise/models.py:4180
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "SAP specifiskā konfigurācija: OData API klienta ID."
@@ -2990,24 +2205,12 @@ msgid "Specifies enterprise group name."
 msgstr "Norāda uzņēmuma grupas nosaukumu."
 
 #: enterprise/models.py:4313
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "When enabled, all learners connected to the org will be considered a member."
 msgstr ""
 "Ja tas ir iespējots, visi dalībnieki, kas ir saistīti ar organizāciju, tiks "
 "uzskatīti par dalībniekiem."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4269
-msgid "Enterprise Group"
-msgstr "Uzņēmumu grupa"
-
-#: enterprise/models.py:4270
-msgid "Enterprise Groups"
-msgstr "Uzņēmumu grupas"
-
-#: enterprise/models.py:4419
-=======
 #: enterprise/models.py:4320
 msgid "Enterprise Group"
 msgstr "Uzņēmumu grupa"
@@ -3017,7 +2220,6 @@ msgid "Enterprise Groups"
 msgstr "Uzņēmumu grupas"
 
 #: enterprise/models.py:4470
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
@@ -3025,31 +2227,16 @@ msgstr ""
 "Brīdis, kurā dalības ieraksts tiek rakstīts ar uzņēmuma klienta lietotāja "
 "ierakstu."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4429
-msgid "Current status of the membership record"
-msgstr "Pašreizējais dalības ieraksta statuss"
-
-#: enterprise/models.py:4436
-=======
 #: enterprise/models.py:4480
 msgid "Current status of the membership record"
 msgstr "Pašreizējais dalības ieraksta statuss"
 
 #: enterprise/models.py:4487
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
 msgstr "Brīdis, kad uzņēmuma administrators atsauca dalības ierakstu."
 
-<<<<<<< HEAD
-#: enterprise/models.py:4442
-msgid "Enterprise Group Membership"
-msgstr "Dalība uzņēmumu grupā"
-
-#: enterprise/models.py:4443
-=======
 #: enterprise/models.py:4495
 msgid ""
 "The last time the membership action was in an error state. Null means the "
@@ -3063,7 +2250,6 @@ msgid "Enterprise Group Membership"
 msgstr "Dalība uzņēmumu grupā"
 
 #: enterprise/models.py:4501
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Enterprise Group Memberships"
 msgstr "Dalība uzņēmumu grupā"
 
@@ -3146,11 +2332,7 @@ msgstr "Pārsūtīt kursu metadatus"
 msgid "Continue"
 msgstr "Turpināt"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:145
-=======
 #: enterprise/utils.py:146
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "both were."
@@ -3158,39 +2340,23 @@ msgstr ""
 "Jānorāda vai nu &quot;E-pasts vai lietotājvārds&quot;, vai &quot;CSV "
 "lielapjoma augšupielāde&quot;, taču abi bija."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:148
-=======
 #: enterprise/utils.py:149
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "Error: Learners could not be added. Correct the following errors."
 msgstr ""
 "Kļūda: kursa dalībniekus nevarēja pievienot. Izlabojiet tālāk norādītās "
 "kļūdas."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:150
-=======
 #: enterprise/utils.py:151
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
 msgstr "Reģistrācijas ceļš {course_mode} nav pieejams kursam {course_id}."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:152
-msgid "Select a course enrollment track for the given course(s)."
-msgstr "Izvēlieties konkrētā kursa(-u) uzņemšanas ceļu."
-
-#: enterprise/utils.py:154
-=======
 #: enterprise/utils.py:153
 msgid "Select a course enrollment track for the given course(s)."
 msgstr "Izvēlieties konkrētā kursa(-u) uzņemšanas ceļu."
 
 #: enterprise/utils.py:155
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
@@ -3198,11 +2364,7 @@ msgid ""
 msgstr ""
 "Nevarēja izgūt informāciju par kursa ID {course_id} . Norādiet derīgu ID."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:157
-=======
 #: enterprise/utils.py:158
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
@@ -3210,31 +2372,19 @@ msgstr ""
 "Manuālai reģistrēšanai var izmantot vai nu \"CSV masveida augšupielādi\", "
 "vai arī atsevišķu kursa ID, bet ne abus kopā."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:161
-=======
 #: enterprise/utils.py:162
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid "{argument} does not appear to be a valid email address."
 msgstr "Šķiet, ka {argument} nav derīga e-pasta adrese."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:163
-=======
 #: enterprise/utils.py:164
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "{argument} does not appear to be a valid email address or known username"
 msgstr ""
 "Šķiet, ka {argument} nav derīga e-pasta adrese vai zināms lietotājvārds"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:166
-=======
 #: enterprise/utils.py:167
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "Expected a CSV file with [{expected_columns}] columns, but found "
@@ -3243,19 +2393,11 @@ msgstr ""
 "Tika gaidīts CSV fails ar [ {expected_columns} ] kolonnām, bet tā vietā tika"
 " atrastas [ {actual_columns} ] kolonnas."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:170
-msgid "Reason field is required but was not filled."
-msgstr "Iemesla lauks ir obligāts, bet nav aizpildīts."
-
-#: enterprise/utils.py:173
-=======
 #: enterprise/utils.py:171
 msgid "Reason field is required but was not filled."
 msgstr "Iemesla lauks ir obligāts, bet nav aizpildīts."
 
 #: enterprise/utils.py:174
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "neither were."
@@ -3263,11 +2405,7 @@ msgstr ""
 "Jānorāda vai nu “E-pasts vai lietotājvārds”, vai “CSV lielapjoma "
 "augšupielāde”, taču neviena no tām nebija norādīta."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:176
-=======
 #: enterprise/utils.py:177
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "User with email address {email} is already registered with Enterprise "
@@ -3276,37 +2414,21 @@ msgstr ""
 "Lietotājs ar e-pasta adresi {email} jau ir reģistrēts uzņēmuma klientam "
 "{ec_name}"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:178
-msgid "User is not linked with Enterprise Customer"
-msgstr "Lietotājs nav saistīts ar uzņēmuma klientu"
-
-#: enterprise/utils.py:179
-=======
 #: enterprise/utils.py:179
 msgid "User is not linked with Enterprise Customer"
 msgstr "Lietotājs nav saistīts ar uzņēmuma klientu"
 
 #: enterprise/utils.py:180
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid "User with email address {email} doesn't exist."
 msgstr "Lietotājs ar e-pasta adresi {email} neeksistē."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:180
-=======
 #: enterprise/utils.py:181
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 msgstr "Kursa ID {course_id} uzņēmuma klienta katalogā nepastāv"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:182
-=======
 #: enterprise/utils.py:183
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid ""
 "Enterprise channel worker user with the username "
@@ -3315,39 +2437,23 @@ msgstr ""
 "Uzņēmuma kanāla darbinieka lietotājs ar lietotājvārdu &quot; "
 "{channel_worker_username} &quot; netika atrasts."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:185
-=======
 #: enterprise/utils.py:186
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid ""
 "Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
 msgstr ""
 "Nevar parsēt CSV failu. Lūdzu, pārliecinieties, vai tas ir CSV utf-8 kodēts "
 "fails."
 
-<<<<<<< HEAD
-#: enterprise/utils.py:188
-msgid "Discount percentage should be from 0 to 100."
-msgstr "Atlaides procentam jābūt no 0 līdz 100."
-
-#: enterprise/utils.py:398
-=======
 #: enterprise/utils.py:189
 msgid "Discount percentage should be from 0 to 100."
 msgstr "Atlaides procentam jābūt no 0 līdz 100."
 
 #: enterprise/utils.py:399
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 #, python-brace-format
 msgid "You've been enrolled in {course_name}!"
 msgstr "Jūs esat reģistrēti {course_name} !"
 
-<<<<<<< HEAD
-#: enterprise/utils.py:557 enterprise/utils.py:636
-=======
 #: enterprise/utils.py:558 enterprise/utils.py:637
->>>>>>> e2935c988 (chore: Translate django.po in lv)
 msgid "`user` must have one of either `email` or `user_email`."
 msgstr "Laukā “user” ir jābūt vienam no “email” vai “user_email”."
 
@@ -3799,31 +2905,3 @@ msgstr "Pašmācības; kursus var apgūt jebkurā secībā"
 #, python-brace-format
 msgid "{purchase_action} for"
 msgstr "{purchase_action} priekš"
-<<<<<<< HEAD
-
-#: enterprise/config/models.py:39
-msgid ""
-"Specifies which user role assignments to update.  If unspecified, will "
-"update for all roles."
-msgstr ""
-"Norāda, kuri lietotāja lomu uzdevumi jāatjaunina. Ja tas nav norādīts, tiks "
-"atjaunināts visām lomām."
-
-#: enterprise/config/models.py:43
-msgid "Number of user role asssignments to update in each batch of updates."
-msgstr ""
-"Atjaunināmo lietotāju lomu piešķiršanas skaits katrā atjauninājumu paketē."
-
-#: enterprise/config/models.py:48
-msgid "The enterprise customer to limit role assignments to."
-msgstr "Uzņēmuma klients, kuram jāierobežo lomu piešķiršana."
-
-#: enterprise/config/models.py:53
-msgid ""
-"If set, no updates or creates will occur; will instead iterate over the "
-"assignments that would be modified or created"
-msgstr ""
-"Ja iestatīts, netiks veikta atjaunināšana vai izveide; tā vietā tiks veikta "
-"iterācija pa uzdevumiem, kas tiks mainīti vai izveidoti."
-=======
->>>>>>> e2935c988 (chore: Translate django.po in lv)

@@ -8,20 +8,12 @@
   "bulk.email.form.dateTime.error": "Ngày và giờ không được để trống và phải là ngày trong tương lai",
   "bulk.email.submit.button.default": "Gửi email",
   "bulk.email.submit.button.schedule": "Lên lịch gửi email",
-<<<<<<< HEAD
-  "bulk.email.submit.button.pending": "Đang gửi",
-=======
   "bulk.email.submit.button.pending": "Đang nộp",
->>>>>>> 1550b244d (chore: Translate transifex_input.json in vi)
   "bulk.email.submit.button.send.complete": "Email đã được tạo",
   "bulk.email.submit.button.error": "Lỗi",
   "bulk.email.submit.button.schedule.complete": "Lên lịch xong",
   "bulk.email.task.alert.recipients": "Bạn đang gửi một email có chủ đề {subject} tới những người nhận sau:",
-<<<<<<< HEAD
-  "bulk.email.tool.label": "E-mail",
-=======
   "bulk.email.tool.label": "Email",
->>>>>>> 1550b244d (chore: Translate transifex_input.json in vi)
   "bulk.email.subject.label": "Chủ thể",
   "bulk.email.form.subject.tip": "(Tối đa 128 ký tự)",
   "bulk.email.form.subject.error": "Một chủ đề là bắt buộc",
@@ -74,11 +66,7 @@
   "bulk.email.task.history.table.column.header.taskInputs": "Đầu vào nhiệm vụ",
   "bulk.email.task.history.table.column.header.taskId": "Id nhiệm vụ",
   "bulk.email.task.history.table.column.header.taskRequester": "Người yêu cầu",
-<<<<<<< HEAD
-  "bulk.email.task.history.table.column.header.taskSubmittedDate": "Đã gửi",
-=======
   "bulk.email.task.history.table.column.header.taskSubmittedDate": "Đã nộp",
->>>>>>> 1550b244d (chore: Translate transifex_input.json in vi)
   "bulk.email.task.history.table.column.header.taskDuration": "Thời lượng (giây)",
   "bulk.email.task.history.table.column.header.taskState": "Tình trạng",
   "bulk.email.task.history.table.column.header.taskStatus": "Trạng thái",
