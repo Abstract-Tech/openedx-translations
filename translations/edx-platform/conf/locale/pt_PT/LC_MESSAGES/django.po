@@ -27007,3 +27007,23 @@ msgstr "Coloque aqui o seu Texto de Direitos de Autor!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Editor de Código"
+
+msgid "Welcome to the IEA online courses on Energy Efficiency"
+msgstr "Bem-vindo(a) aos cursos online da IEA sobre Eficiência Energética"
+
+msgid "By joining our first online professional courses, you will come face-to-face with the IEA's work to train and build capacity, allow experiences to be shared and global progress to be tracked."
+msgstr "Ao participar dos nossos primeiros cursos profissionais online, você terá contato direto com o trabalho da IEA para capacitar e formar profissionais, permitindo a troca de experiências e o acompanhamento do progresso global."
+
+msgid "© IEA Platform. All rights reserved except where noted. edX, Open edX and their respective logos are registered trademarks of edX Inc."
+msgstr "© Plataforma IEA. Todos os direitos reservados, exceto onde indicado. edX, Open edX e seus respectivos logotipos são marcas registradas da edX Inc."
+
+msgid ""
+"The views expressed on this website do not necessarily reflect the views or policy of the International Energy Agency (IEA) Secretariat or of the individual IEA member countries. The IEA makes no representation or warranty, express or implied, in respect to the content on the site (including its completeness or accuracy) and shall not be responsible for any use of, or reliance on, the website. The maps featured throughout the two courses are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area."
+msgstr ""
+"As opiniões expressas neste site não refletem necessariamente as opiniões ou a política do Secretariado da Agência Internacional de Energia (IEA) ou dos países membros individuais da IEA. A IEA não faz nenhuma representação ou garantia, expressa ou implícita, em relação ao conteúdo do site (incluindo sua integridade ou precisão) e não será responsável por qualquer uso ou confiança no site. Os mapas apresentados ao longo dos dois cursos não prejudicam o status ou soberania de qualquer território, a delimitação de fronteiras internacionais e os limites, nem o nome de qualquer território, cidade ou área. © OCDE/IEA 2018,"
+
+msgid "Select a language"
+msgstr "Selecione um idioma"
+
+msgid "Create an account for free"
+msgstr "Crie uma conta gratuitamente"
