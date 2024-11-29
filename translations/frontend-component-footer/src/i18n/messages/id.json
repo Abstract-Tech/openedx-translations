@@ -39,5 +39,8 @@
   "authoring.footer.termsOfService.link.label": "Terms of Service",
   "authoring.footer.privacyPolicy.link.label": "Privacy Policy",
   "authoring.footer.accessibilityRequest.link.label": "Accessibility Accomodation Request",
-  "authoring.footer.trademark.message": "edX and Open edX, and the edX and Open edX logos are registered trademarks of"
+  "authoring.footer.trademark.message": "edX and Open edX, and the edX and Open edX logos are registered trademarks of",
+  "iea.legal.1":"© Platform IEA. Semua hak dilindungi undang-undang kecuali disebutkan lain. edX, Open edX, dan logo terkait adalah merek dagang terdaftar dari edX Inc.",
+  "iea.legal.2":"Pandangan yang diungkapkan di situs web ini tidak serta-merta mencerminkan pandangan atau kebijakan Sekretariat Badan Energi Internasional (IEA) atau negara anggota IEA secara individu. IEA tidak memberikan pernyataan atau jaminan, baik secara eksplisit maupun implisit, terkait konten di situs ini (termasuk kelengkapannya atau akurasi) dan tidak bertanggung jawab atas penggunaan atau ketergantungan pada situs web ini. Peta yang ditampilkan di seluruh dua kursus ini tidak mempengaruhi status atau kedaulatan suatu wilayah, delimitasi perbatasan internasional dan batas-batasnya, atau nama wilayah, kota, atau area mana pun."
+
 }

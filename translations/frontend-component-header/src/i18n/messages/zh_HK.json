@@ -31,5 +31,8 @@
   "header.menu.signOut.label": "登出",
   "header.user.menu.studio": "工作室主頁",
   "header.label.courseOutline": "返回工作室中的課程大綱",
-  "header.label.search.nav": "搜尋內容"
+  "header.label.search.nav": "搜尋內容",
+  "iea.legal.1":"© IEA 平台。除另有说明外，保留所有权利。edX、Open edX 及其相关标志是 edX Inc. 的注册商标。",
+  "iea.legal.2":"本网站所表达的观点不一定反映国际能源署（IEA）秘书处或各个IEA成员国的观点或政策。IEA 对网站内容（包括其完整性或准确性）不做任何明示或暗示的陈述或保证，也不对因使用或依赖该网站而产生的任何后果负责。本课程中使用的地图未影响任何领土的地位或主权、国际边界和边界的划定，也未影响任何领土、城市或地区的名称。"
+
 }

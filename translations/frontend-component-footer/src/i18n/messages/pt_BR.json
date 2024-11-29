@@ -39,5 +39,8 @@
   "authoring.footer.termsOfService.link.label": "Termos de Serviço",
   "authoring.footer.privacyPolicy.link.label": "Política de privacidade",
   "authoring.footer.accessibilityRequest.link.label": "Solicitação de acomodação de acessibilidade",
-  "authoring.footer.trademark.message": "edX e Open edX, e os logotipos edX e Open edX são marcas registradas da"
+  "authoring.footer.trademark.message": "edX e Open edX, e os logotipos edX e Open edX são marcas registradas da",
+  "iea.legal.1":"© Plataforma IEA. Todos os direitos reservados, exceto onde indicado. edX, Open edX e seus respectivos logotipos são marcas registradas da edX Inc.",
+  "iea.legal.2":"As opiniões expressas neste site não refletem necessariamente as opiniões ou a política do Secretariado da Agência Internacional de Energia (IEA) ou dos países membros individuais da IEA. A IEA não faz nenhuma representação ou garantia, expressa ou implícita, em relação ao conteúdo do site (incluindo sua integridade ou precisão) e não será responsável por qualquer uso ou confiança no site. Os mapas apresentados ao longo dos dois cursos não prejudicam o status ou soberania de qualquer território, a delimitação de fronteiras internacionais e os limites, nem o nome de qualquer território, cidade ou área."
+
 }
