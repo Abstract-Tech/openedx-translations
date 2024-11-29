@@ -35,3 +35,80 @@ msgstr "Guardar"
 #: templates/html/audio_edit.html:14
 msgid "Cancel"
 msgstr "Cancelar"
+
+msgid "Welcome to the IEA online courses on Energy Efficiency"
+msgstr "Bienvenido(a) a los cursos en línea de eficiencia energética de la IEA"
+
+msgid "By joining our first online professional courses, you will come face-to-face with the IEA's work to train and build capacity, allow experiences to be shared and global progress to be tracked."
+msgstr "Al participar en nuestros primeros cursos profesionales en línea, conocerás de cerca el trabajo de la IEA para capacitar y desarrollar habilidades, permitir el intercambio de experiencias y monitorear el progreso global."
+
+msgid "© IEA Platform. All rights reserved except where noted. edX, Open edX and their respective logos are registered trademarks of edX Inc."
+msgstr "© Plataforma IEA. Todos los derechos reservados, excepto donde se indique. edX, Open edX y sus respectivos logotipos son marcas registradas de edX Inc."
+
+msgid ""
+"The views expressed on this website do not necessarily reflect the views or policy of the International Energy Agency (IEA) Secretariat or of the individual IEA member countries. The IEA makes no representation or warranty, express or implied, in respect to the content on the site (including its completeness or accuracy) and shall not be responsible for any use of, or reliance on, the website. The maps featured throughout the two courses are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area."
+msgstr ""
+"Las opiniones expresadas en este sitio web no reflejan necesariamente las opiniones o políticas del Secretariado de la Agencia Internacional de Energía (IEA) o de los países miembros individuales de la IEA. La IEA no hace ninguna representación ni garantía, expresa o implícita, con respecto al contenido del sitio (incluida su integridad o precisión) y no será responsable de ningún uso o dependencia del sitio web. Los mapas presentados a lo largo de los dos cursos no prejuzgan el estatus o la soberanía de ningún territorio, la delimitación de fronteras internacionales y los límites, ni el nombre de ningún territorio, ciudad o área."
+
+msgid "Register for free"
+msgstr "Regístrate gratis"
+
+msgid "Sign in"
+msgstr "Iniciar sesión"
+
+msgid "Select a language"
+msgstr "Selecciona un idioma"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Contact"
+msgstr "Contacto"
+
+msgid "Donate"
+msgstr "Donar"
+
+msgid "Register"
+msgstr "Registrarse"
+
+msgid "Full name"
+msgstr "Nombre completo"
+
+msgid "Email"
+msgstr "Correo electrónico"
+
+msgid "Organisation"
+msgstr "Organización"
+
+msgid "Sector"
+msgstr "Sector"
+
+msgid "Public username"
+msgstr "Nombre de usuario público"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "City"
+msgstr "Ciudad"
+
+msgid "Highest level of education completed"
+msgstr "Nivel más alto de educación completado"
+
+msgid "Gender"
+msgstr "Género"
+
+msgid "Country/Region"
+msgstr "País/Región"
+
+msgid "Create an account for free"
+msgstr "Crea una cuenta gratis"
+
+msgid "Username or email"
+msgstr "Nombre de usuario o correo electrónico"
+
+msgid "Forgot password"
+msgstr "¿Olvidaste tu contraseña?"
