@@ -11409,9 +11409,6 @@ msgid "To continue learning with this account, sign in below."
 msgstr ""
 "Para continuar aprendiendo con esta cuenta, regístrese a continuación."
 
-#: lms/templates/student_account/login.underscore:27
-msgid "Sign In"
-msgstr "Iniciar sesión"
 
 #: lms/templates/student_account/login.underscore:34
 msgid ""
