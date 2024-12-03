@@ -3196,6 +3196,7 @@ msgstr "Donar"
 #: lms/templates/footer.html:18 lms/templates/footer.html:92
 #: lms/templates/static_templates/about.html:5
 #: lms/templates/static_templates/about.html:10
+#: lms/templates/static_templates/about.html:9
 #: themes/red-theme/lms/templates/footer.html:20
 #: themes/red-theme/lms/templates/footer.html:24
 #: themes/stanford-style/lms/templates/footer.html:15
@@ -3203,7 +3204,19 @@ msgstr "Donar"
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
 msgid "About"
-msgstr "Acerca de"
+msgstr "Sobre"
+
+#: lms/templates/static_templates/about.html:12
+msgid "Welcome to the IEA's first online courses on energy efficiency indicators; which aligns perfectly with the Agency's modernisation agenda - to open our doors to work at becoming a truly global hub for clean energy and energy efficiency"
+msgstr "Le damos la bienvenida a los primeros cursos en línea de la Agencia Internacional de Energía sobre los indicadores de eficiencia energética, que concuerdan perfectamente con la agenda de modernización de la Agencia, con el fin de abrir nuestras puertas para convertirnos en un verdadero centro mundial de la energía limpia y la eficiencia energética"
+
+#: lms/templates/static_templates/about.html:15
+msgid "Energy efficiency is critical to overcoming the challenges facing the global energy system as we seek to ensure a secure, sustainable and affordable energy supply for citizens the world over. This is why the IEA is placing efficiency at heart of the global energy agenda. It is the one energy resource that every country possesses in abundance and is essential to addressing energy security, environmental and economic challenges. As such, energy efficiency is becoming a growing priority for policymakers around the world. Yet actions lag behind intentions and there is still vast untapped potential for realizing energy efficiency globally"
+msgstr "La eficiencia energética es fundamental para superar las dificultades a las que se enfrenta el sistema energético mundial a la hora de garantizar un suministro de energía seguro, sostenible y asequible a los ciudadanos de todo el mundo. De ahí que la AIE situé la eficiencia como aspecto central de la agenda energética internacional. Es el único recurso energético del que todos los países disponen en abundancia y resulta fundamental para afrontar los problemas económicos, ambientales y de seguridad energética. Por eso, la eficiencia energética está adquiriendo de por sí cada vez más prioridad entre los responsables de la formulación de políticas de todo el mundo. No obstante, las intenciones no se traducen suficientemente en acciones y todavía existe un gran potencial desaprovechado a la hora de convertir la eficiencia energética en una realidad"
+
+#: lms/templates/static_templates/about.html:18
+msgid "It has been proved that well-designed policy works well but we need strong data in order to implement good policy and drive energy efficiency improvements at a rate that is not currently happening. Better collection and analysis of energy efficiency data leads to better policy outcomes. The IEA works to train and build capacity, allow experiences to be shared and global progress to be tracked. In order to achieve this; training is required at a global scale"
+msgstr "Aunque está demostrado que una política bien diseñada es capaz de lograr buenos resultados, es necesario contar con datos sólidos que permitan implementar una política adecuada e impulsar mejoras en materia de eficiencia energética a un ritmo que, en la actualidad, no consigue alcanzarse. La mejora de los procesos de recopilación y análisis de los datos de eficiencia energética se traduce en una mejora de los resultados de las políticas. Las actividades de la AIE se centran en la formación y el desarrollo de la capacidad, así como en posibilitar el intercambio de experiencias y el seguimiento del progreso mundial. El logro de estos objetivos exige una labor de capacitación a escala global"
 
 #: lms/djangoapps/branding/api.py:289 lms/djangoapps/branding/api.py:365
 #, python-brace-format
@@ -3213,11 +3226,20 @@ msgstr "{platform_name} para Negocios"
 #: lms/djangoapps/branding/api.py:293
 #: lms/templates/static_templates/contact.html:5
 #: lms/templates/static_templates/contact.html:10
+#: lms/templates/static_templates/contact.html:9
 #: themes/red-theme/lms/templates/footer.html:48
 #: themes/stanford-style/lms/templates/footer.html:17
 #: themes/stanford-style/lms/templates/static_templates/about.html:43
 msgid "Contact"
 msgstr "Contacto"
+
+#: lms/templates/static_templates/contact.html:14
+msgid "Help desk"
+msgstr "Helpdesk"
+
+#: lms/templates/static_templates/contact.html:12
+msgid "Contact IEA"
+msgstr "Contactar a AIE"
 
 #: lms/djangoapps/branding/api.py:294 lms/djangoapps/branding/api.py:373
 #: themes/stanford-style/lms/templates/footer.html:16

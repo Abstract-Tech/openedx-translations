@@ -3174,6 +3174,7 @@ msgstr "Faça um donativo"
 #: lms/templates/footer.html:18 lms/templates/footer.html:92
 #: lms/templates/static_templates/about.html:5
 #: lms/templates/static_templates/about.html:10
+#: lms/templates/static_templates/about.html:9
 #: themes/red-theme/lms/templates/footer.html:20
 #: themes/red-theme/lms/templates/footer.html:24
 #: themes/stanford-style/lms/templates/footer.html:15
@@ -3183,6 +3184,19 @@ msgstr "Faça um donativo"
 msgid "About"
 msgstr "Sobre"
 
+#: lms/templates/static_templates/about.html:12
+msgid "Welcome to the IEA's first online courses on energy efficiency indicators; which aligns perfectly with the Agency's modernisation agenda - to open our doors to work at becoming a truly global hub for clean energy and energy efficiency"
+msgstr "Bem-vindo aos primeiros cursos online da AIE sobre indicadores de eficiência energética; que se alinham perfeitamente à agenda de modernização da Agência – de maneira a abrir as portas para trabalharmos e nos tornarmos um verdadeiro centro global de energia limpa e eficiência energética"
+
+#: lms/templates/static_templates/about.html:15
+msgid "Energy efficiency is critical to overcoming the challenges facing the global energy system as we seek to ensure a secure, sustainable and affordable energy supply for citizens the world over. This is why the IEA is placing efficiency at heart of the global energy agenda. It is the one energy resource that every country possesses in abundance and is essential to addressing energy security, environmental and economic challenges. As such, energy efficiency is becoming a growing priority for policymakers around the world. Yet actions lag behind intentions and there is still vast untapped potential for realizing energy efficiency globally"
+msgstr "A eficiência energética é fundamental para superar os desafios enfrentados pelo sistema global de energia, à medida que procuramos garantir um fornecimento de energia seguro, sustentável e acessível para os cidadãos em todo o mundo.É por esta razão que a AIE está colocando a eficiência no centro da agenda global de energia. É o único recurso energético que todo país possui em abundância e essencial para enfrentarmos os desafios ambientais, econômicos e de segurança energética.Sendo assim, a eficiência energética está se tornando uma prioridade crescente para os formuladores de políticas públicas em todo o mundo. No entanto, as ações ficam atrás das intenções e ainda há um vasto potencial inexplorado para a materialização da eficiência energética de forma global"
+
+#: lms/templates/static_templates/about.html:18
+msgid "It has been proved that well-designed policy works well but we need strong data in order to implement good policy and drive energy efficiency improvements at a rate that is not currently happening. Better collection and analysis of energy efficiency data leads to better policy outcomes. The IEA works to train and build capacity, allow experiences to be shared and global progress to be tracked. In order to achieve this; training is required at a global scale"
+msgstr "Ficou provado que uma política bem elabora funciona bem, entretanto precisamos de dados sólidos para implementar boas políticas e impulsionar melhorias na eficiência energética a um nível que, atualmente, não está ocorrendo. Uma melhor coleta e análise de dados de eficiência energética fazem com que as políticas tenham melhores resulados. A AIE trabalha para treinar e capacitar, permitir que experiências sejam compartilhadas e que o progresso global seja monitorado. Para se atingir esse resultado, é necessário um treinamento em escala global"
+
+
 #: lms/djangoapps/branding/api.py:289 lms/djangoapps/branding/api.py:365
 #, python-brace-format
 msgid "{platform_name} for Business"
@@ -3191,11 +3205,20 @@ msgstr "{platform_name} para Negócios"
 #: lms/djangoapps/branding/api.py:293
 #: lms/templates/static_templates/contact.html:5
 #: lms/templates/static_templates/contact.html:10
+#: lms/templates/static_templates/contact.html:9
 #: themes/red-theme/lms/templates/footer.html:48
 #: themes/stanford-style/lms/templates/footer.html:17
 #: themes/stanford-style/lms/templates/static_templates/about.html:43
 msgid "Contact"
 msgstr "Contacto"
+
+#: lms/templates/static_templates/contact.html:14
+msgid "Help desk"
+msgstr "Help desk"
+
+#: lms/templates/static_templates/contact.html:12
+msgid "Contact IEA"
+msgstr "Contacto AIE"
 
 #: lms/djangoapps/branding/api.py:294 lms/djangoapps/branding/api.py:373
 #: themes/stanford-style/lms/templates/footer.html:16

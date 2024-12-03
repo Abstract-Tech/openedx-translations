@@ -2866,6 +2866,7 @@ msgstr "捐助"
 #: lms/templates/footer.html:18 lms/templates/footer.html:92
 #: lms/templates/static_templates/about.html:5
 #: lms/templates/static_templates/about.html:10
+#: lms/templates/static_templates/about.html:9
 #: themes/red-theme/lms/templates/footer.html:20
 #: themes/red-theme/lms/templates/footer.html:24
 #: themes/stanford-style/lms/templates/footer.html:15
@@ -2883,11 +2884,20 @@ msgstr "企业{platform_name} "
 #: lms/djangoapps/branding/api.py:293
 #: lms/templates/static_templates/contact.html:5
 #: lms/templates/static_templates/contact.html:10
+#: lms/templates/static_templates/contact.html:9
 #: themes/red-theme/lms/templates/footer.html:48
 #: themes/stanford-style/lms/templates/footer.html:17
 #: themes/stanford-style/lms/templates/static_templates/about.html:43
 msgid "Contact"
 msgstr "联系我们"
+
+#: lms/templates/static_templates/contact.html:14
+msgid "Help desk"
+msgstr "Help desk"
+
+#: lms/templates/static_templates/contact.html:12
+msgid "Contact IEA"
+msgstr "Contact IEA"
 
 #: lms/djangoapps/branding/api.py:294 lms/djangoapps/branding/api.py:373
 #: themes/stanford-style/lms/templates/footer.html:16
