@@ -1,134 +1,134 @@
 {
   "dropzone.Dropzone.invalidSizeLessError": {
-    "developer_comment": "A message shown when a file with less than minimum allowed size is being uploaded in Dropzone.",
-    "string": "File must be larger than {size}."
+    "developer_comment": "Pesan yang ditampilkan ketika file dengan ukuran kurang dari ukuran minimum yang diizinkan sedang diunggah di Dropzone.",
+    "string": "File harus lebih besar dari {size}."
   },
   "dropzone.Dropzone.invalidSizeMoreError": {
-    "developer_comment": "A message shown when a file with more than maximum allowed size is being uploaded in Dropzone.",
-    "string": "File must be less than {size}."
+    "developer_comment": "Pesan yang ditampilkan ketika file dengan ukuran lebih dari maksimum yang diizinkan sedang diunggah di Dropzone.",
+    "string": "File harus kurang dari {size}."
   },
   "dropzone.Dropzone.invalidType": {
-    "developer_comment": "A message shown when a file with wrong MIME type is being uploaded.",
-    "string": "The file type must be {count, plural, one {{typeString} file} other {one of {typeString} files}}."
+    "developer_comment": "Pesan yang ditampilkan ketika file dengan jenis MIME yang salah sedang diunggah.",
+    "string": "Jenis file harus {count, plural, one {{typeString} file} other {one of {typeString} files}}."
   },
   "dropzone.Dropzone.multipleDraggedError": {
-    "developer_comment": "A message shown when multiple files are dragged over Dropzone.",
-    "string": "Only one upload permitted."
+    "developer_comment": "Pesan yang ditampilkan ketika beberapa file diseret ke Dropzone.",
+    "string": "Hanya satu unggahan yang diizinkan."
   },
   "dropzone.Dropzone.unexpectedValidationError": {
-    "developer_comment": "A message shown in case file validation in Dropzone component for unknown reason.",
-    "string": "An unexpected problem occured during file validation. Please try again."
+    "developer_comment": "Pesan yang ditampilkan dalam validasi file kasus di komponen Dropzone untuk alasan yang tidak diketahui.",
+    "string": "Masalah tak terduga terjadi selama validasi file. Silakan coba lagi."
   },
   "dropzone.Dropzone.uploadError": {
-    "developer_comment": "A message shown in case file upload in Dropzone component results in an error.",
-    "string": "A problem occured while uploading your file. Please try again."
+    "developer_comment": "Pesan yang ditampilkan jika unggahan file di komponen Dropzone menghasilkan kesalahan.",
+    "string": "Terjadi masalah saat mengunggah file Anda. Silakan coba lagi."
   },
   "pgn.Alert.closeLabel": {
-    "developer_comment": "Label of a close button on Alert component",
-    "string": "Dismiss"
+    "developer_comment": "Label tombol tutup pada komponen Alert",
+    "string": "Membubarkan"
   },
   "pgn.CardCarousel.scrollToNext": {
-    "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the next element",
-    "string": "Scroll to next"
+    "developer_comment": "Teks aksesibilitas yang menjelaskan tindakan untuk menavigasi carousel yang dapat di-scroll ke elemen berikutnya",
+    "string": "Gulir ke berikutnya"
   },
   "pgn.CardCarousel.scrollToPrevious": {
-    "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the previous element",
-    "string": "Scroll to previous"
+    "developer_comment": "Teks aksesibilitas yang menjelaskan tindakan untuk menavigasi carousel yang dapat di-scroll ke elemen sebelumnya",
+    "string": "Gulir ke sebelumnya"
   },
   "pgn.ChipCarousel.scrollToNext": {
-    "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the next element",
-    "string": "Scroll to next"
+    "developer_comment": "Teks aksesibilitas yang menjelaskan tindakan untuk menavigasi carousel yang dapat di-scroll ke elemen berikutnya",
+    "string": "Gulir ke berikutnya"
   },
   "pgn.ChipCarousel.scrollToPrevious": {
-    "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the previous element",
-    "string": "Scroll to previous"
+    "developer_comment": "Teks aksesibilitas yang menjelaskan tindakan untuk menavigasi carousel yang dapat di-scroll ke elemen sebelumnya",
+    "string": "Gulir ke sebelumnya"
   },
   "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
-    "developer_comment": "Text for all selected label",
-    "string": "All {numSelectedRows} selected"
+    "developer_comment": "Teks untuk semua label yang dipilih",
+    "string": "Semua {numSelectedRows} dipilih"
   },
   "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
-    "developer_comment": "A label of clear all selection button.",
-    "string": "Clear selection"
+    "developer_comment": "Label tombol hapus semua pilihan.",
+    "string": "Hapus pilihan"
   },
   "pgn.DataTable.BaseSelectionStatus.selectAllText": {
-    "developer_comment": "A label for select all button.",
-    "string": "Select all {itemCount}"
+    "developer_comment": "Label untuk tombol pilih semua.",
+    "string": "Pilih semua {itemCount}"
   },
   "pgn.DataTable.BaseSelectionStatus.selectedText": {
-    "developer_comment": "Text for selected label",
-    "string": "{numSelectedRows} selected"
+    "developer_comment": "Teks untuk label yang dipilih",
+    "string": "{numSelectedRows} terpilih"
   },
   "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": {
-    "developer_comment": "Text for selected label when table is paginated",
-    "string": "{numSelectedRows} selected ({numSelectedRowsOnPage} shown below)"
+    "developer_comment": "Teks untuk label yang dipilih ketika tabel diberi nomor halaman",
+    "string": "{numSelectedRows} terpilih ({numSelectedRowsOnPage} ditunjukkan di bawah ini)"
   },
   "pgn.DataTable.ExpandAll.collapseAllLabel": {
-    "developer_comment": "Label of an action button that collapses all expandable rows of DataTable.",
-    "string": "Collapse all"
+    "developer_comment": "Label tombol tindakan yang menciutkan semua baris DataTable yang dapat diperluas.",
+    "string": "Ciutkan semuanya"
   },
   "pgn.DataTable.ExpandAll.expandAllLabel": {
-    "developer_comment": "Label of an action button that expands all expandable rows of DataTable.",
-    "string": "Expand all"
+    "developer_comment": "Label tombol tindakan yang memperluas semua baris DataTable yang dapat diperluas.",
+    "string": "Perluas semuanya"
   },
   "pgn.DataTable.FilterStatus.clearFiltersText": {
-    "developer_comment": "A text that appears on the `Clear filters` button",
-    "string": "Clear filters"
+    "developer_comment": "Teks yang muncul di tombol `Clear filters`",
+    "string": "Hapus filter"
   },
   "pgn.DataTable.RowStatus.statusText": {
-    "developer_comment": "A text describing how many rows is shown in the table",
-    "string": "Showing {firstRow} - {lastRow} of {itemCount}."
+    "developer_comment": "Teks yang menjelaskan berapa banyak baris yang ditampilkan dalam tabel",
+    "string": "Menampilkan {firstRow} - {lastRow} dari {itemCount}."
   },
   "pgn.DataTable.SidebarFilters.title": {
-    "developer_comment": "Title for the sidebar filters component",
+    "developer_comment": "Judul untuk komponen filter sidebar",
     "string": "Filters"
   },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
-    "developer_comment": "A message shown when uploaded file's size must be in given range.",
-    "string": "Between {sizeMin} and {sizeMax}"
+    "developer_comment": "Pesan yang ditampilkan ketika ukuran file yang diunggah harus berada dalam kisaran tertentu.",
+    "string": "Di antara {sizeMin} dan {sizeMax}"
   },
   "pgn.Dropzone.DefaultContent.fileSizeMax": {
-    "developer_comment": "A message shown when uploaded file's size must be more than some value.",
+    "developer_comment": "Pesan yang ditampilkan ketika ukuran file yang diunggah harus lebih dari nilai tertentu.",
     "string": "Max {sizeMax}"
   },
   "pgn.Dropzone.DefaultContent.fileSizeMin": {
-    "developer_comment": "A message shown when uploaded file's size must be more than some value.",
+    "developer_comment": "Pesan yang ditampilkan ketika ukuran file yang diunggah harus lebih dari nilai tertentu.",
     "string": "Min {sizeMin}"
   },
   "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
-    "developer_comment": "A message shown when uploaded file must be of certain type(s).",
-    "string": "Upload {count, plural, one {{firstPart} files} other {{firstPart} or {secondPart} files}}"
+    "developer_comment": "Pesan yang ditampilkan ketika file yang diunggah harus berjenis tertentu.",
+    "string": "Unggah {count, plural, one {{firstPart} files} other {{firstPart} atau {secondPart} files}}"
   },
   "pgn.Dropzone.DefaultContent.label": {
-    "developer_comment": "A text that appears as a label for input of Dropzone component.",
-    "string": "Drag and drop your file here or click to upload."
+    "developer_comment": "Teks yang muncul sebagai label untuk input komponen Dropzone.",
+    "string": "Seret dan lepas file Anda di sini atau klik untuk mengunggah."
   },
   "pgn.Dropzone.UploadProgress.cancelLabel": {
-    "developer_comment": "Label of a cancel button that is shown during file upload in Dropzone component.",
-    "string": "Cancel"
+    "developer_comment": "Label tombol batal yang ditampilkan saat pengunggahan file di komponen Dropzone.",
+    "string": "Membatalkan"
   },
   "pgn.Dropzone.UploadProgress.uploadLabel": {
-    "developer_comment": "A text that is shown near a progress bar during file upload in Dropzone component.",
-    "string": "Uploading {filename}."
+    "developer_comment": "Teks yang ditampilkan di dekat bilah kemajuan selama pengunggahan file di komponen Dropzone.",
+    "string": "Mengunggah {filename}."
   },
   "pgn.FormAutosuggest.iconButtonClosed": {
-    "developer_comment": "A message shown in case when the autosuggest menu is opened.",
-    "string": "Close the options menu"
+    "developer_comment": "Pesan yang ditampilkan jika menu saran otomatis dibuka.",
+    "string": "Tutup menu opsi"
   },
   "pgn.FormAutosuggest.iconButtonOpened": {
-    "developer_comment": "A message shown in case when the autosuggest menu is closed.",
-    "string": "Open the options menu"
+    "developer_comment": "Pesan yang ditampilkan jika menu saran otomatis ditutup.",
+    "string": "Buka menu opsi"
   },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
-    "developer_comment": "Screen-reader message to notify user that they are located at the bottom of the product tour step.",
-    "string": "Bottom of step {step}"
+    "developer_comment": "Pesan pembaca layar untuk memberi tahu pengguna bahwa mereka berada di bagian bawah langkah tur produk.",
+    "string": "Langkah terbawah {step}"
   },
   "pgn.ProductTour.Checkpoint.top-position-text": {
-    "developer_comment": "Screen-reader message to notify user that they are located at the bottom of the product tour step.",
-    "string": "Top of step {step}"
+    "developer_comment": "Pesan pembaca layar untuk memberi tahu pengguna bahwa mereka berada di bagian bawah langkah tur produk.",
+    "string": "Langkah teratas {step}"
   },
   "pgn.Toast.closeLabel": {
-    "developer_comment": "Close label for Toast component",
-    "string": "Close"
+    "developer_comment": "Tutup label untuk komponen Toast",
+    "string": "Tutup"
   }
 }
