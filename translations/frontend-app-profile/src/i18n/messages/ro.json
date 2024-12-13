@@ -1,6 +1,7 @@
 {
-  "profile.page.title": "Profil | {siteName}",
+  "profile.page.title": "Profil | {siteName}", 
   "profile.age.cannotShare": "Profilul dvs. nu poate fi distribuit.",
+  "profile.age.headline": "Profilul dvs. nu poate fi distribuit.",
   "profile.age.details": "Pentru a vă partaja profilul cu alți cursanți {siteName} , trebuie să confirmați că aveți peste 13 ani.",
   "profile.age.set.date": "Setează-ți data nașterii",
   "profile.datejoined.member.since": "Membru din {year}",
