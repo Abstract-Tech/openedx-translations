@@ -12091,3 +12091,21 @@ msgid ""
 "The views expressed on this website do not necessarily reflect the views or policy of the International Energy Agency (IEA) Secretariat or of the individual IEA member countries. The IEA makes no representation or warranty, express or implied, in respect to the content on the site (including its completeness or accuracy) and shall not be responsible for any use of, or reliance on, the website. The maps featured throughout the two courses are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area."
 msgstr ""
 "Погляди, висловлені на цьому вебсайті, не обов'язково відображають думки чи політику Секретаріату Міжнародного енергетичного агентства (IEA) або окремих країн-членів IEA. IEA не надає жодних заяв чи гарантій, явних чи неявних, щодо змісту сайту (включно з його повнотою чи точністю) і не несе відповідальності за будь-яке використання або покладання на цей вебсайт. Карти, представлені впродовж двох курсів, не завдають шкоди статусу чи суверенітету будь-якої території, визначенню міжнародних кордонів і меж, а також назві будь-якої території, міста чи області."
+
+msgid "About"
+msgstr "про"
+
+msgid "Blog"
+msgstr "Блог"
+
+msgid "Contact"
+msgstr "контакт"
+
+msgid "Register for free"
+msgstr "Зареєструватися безкоштовно"
+
+msgid "Select a language"
+msgstr "Виберіть мову"
+
+msgid "Discover New"
+msgstr "Відкрийте для себе нове"
