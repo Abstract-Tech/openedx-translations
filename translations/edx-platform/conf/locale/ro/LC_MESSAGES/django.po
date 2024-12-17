@@ -7774,7 +7774,7 @@ msgid ""
 "Course team members with the Staff role help you manage your course. Staff "
 "can enroll and unenroll learners, as well as modify their grades and access "
 "all course data. Staff also have access to your course in Studio and "
-"Insights. You can only give course team roles to enrolled users."
+"Insights. Any users not yet enrolled in the course will be automatically enrolled when added as Staff."
 msgstr ""
 "Membrii echipei de curs cu rolul de personal vă ajută să vă gestionați "
 "cursul. Personalul se poate înscrie și anula înscrierea cursanților, precum "
@@ -22385,3 +22385,15 @@ msgstr "Educație socială"
 
 msgid "This discussion does not exist in this course"
 msgstr "Discuția căutată nu a fost găsită în acest curs. Verifică ID-ul discuției!"
+
+msgid ""
+"After the course ends, the course content will be archived and no longer "
+"active."
+msgstr "după încheierea cursului, conținutul cursului va fi arhivat și nu va mai fi"
+
+msgid "Course ends"
+msgstr "Cursul se termină"
+
+msgid "No tasks currently running."
+msgstr "Nicio sarcină nu rulează momentan"
+
