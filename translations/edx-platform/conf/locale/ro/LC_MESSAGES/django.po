@@ -16251,8 +16251,8 @@ msgstr "Instrument de verificare ale înscrierilor în programe"
 #~ "să verifici dacă numele de utilizator / e-mailul cursantului și cursul "
 #~ "selectat sunt corecte și să încerci din nou."
 
-#~ msgid "Instructor"
-#~ msgstr "Facilitator"
+msgid "Instructor"
+msgstr "Facilitator"
 
 #~ msgid ""
 #~ "To gain insights into student enrollment and participation {link_start}"
@@ -16275,29 +16275,29 @@ msgstr "Instrument de verificare ale înscrierilor în programe"
 #~ msgid "CourseMode price updated successfully"
 #~ msgstr "Prețul Modulului de Curs a fost actualizat cu succes"
 
-#~ msgid "Course Info"
-#~ msgstr "Informații despre curs"
+msgid "Course Info"
+msgstr "Informații despre curs"
 
-#~ msgid "Enrollment data is now available in {dashboard_link}."
-#~ msgstr "Datele de înscriere sunt acum disponibile în {dashboard_link}."
+msgid "Enrollment data is now available in {dashboard_link}."
+msgstr "Datele de înscriere sunt acum disponibile în {dashboard_link}."
 
-#~ msgid "Membership"
-#~ msgstr "Calitate de membru"
+msgid "Membership"
+msgstr "Calitate de membru"
 
-#~ msgid "Cohorts"
-#~ msgstr "Cohorte"
+msgid "Cohorts"
+msgstr "Cohorte"
 
-#~ msgid "Extensions"
-#~ msgstr "Extensii"
+msgid "Extensions"
+msgstr "Extensii"
 
-#~ msgid "Data Download"
-#~ msgstr "Descărcare date"
+msgid "Data Download"
+msgstr "Descărcare date"
 
-#~ msgid "Analytics"
-#~ msgstr "Analize date"
+msgid "Analytics"
+msgstr "Analize date"
 
-#~ msgid "Open Responses"
-#~ msgstr "Răspunsuri deschise"
+msgid "Open Responses"
+msgstr "Răspunsuri deschise"
 
 #~ msgid "0 sent"
 #~ msgstr "0 trimise"

@@ -9515,3 +9515,33 @@ msgstr ""
 #: frontend-customizations/src/reports/DiscussionsReport/index.js:31
 msgid "Download discussions report"
 msgstr "Descarcă raportul pentru discuții"
+
+msgid "Course Info"
+msgstr "Informații despre curs"
+
+msgid "Enrollment data is now available in {dashboard_link}."
+msgstr "Datele de înscriere sunt acum disponibile în {dashboard_link}."
+
+msgid "Cohorts"
+msgstr "Cohorte"
+
+msgid "Extensions"
+msgstr "Extensii"
+
+msgid "Data Download"
+msgstr "Descărcare date"
+
+msgid "Analytics"
+msgstr "Analize date"
+
+msgid "Open Responses"
+msgstr "Răspunsuri deschise"
+
+msgid ""
+"After the course ends, the course content will be archived and no longer "
+"active."
+msgstr "după încheierea cursului, conținutul cursului va fi arhivat și nu va mai fi"
+
+msgid "Course ends"
+msgstr "Cursul se termină"
+
