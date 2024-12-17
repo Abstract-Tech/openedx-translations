@@ -32,6 +32,9 @@
     "header.menu.signOut.label": "Ieșire",
     "header.user.menu.studio": "Studio Acasă",
     "header.user.menu.maintenance": "Mentenanță tehnică",
-    "header.label.courseOutline": "Întoarcere la planul cursului în Studio"
+    "header.label.courseOutline": "Întoarcere la planul cursului în Studio",
+    "header.links.aboutUS": "Despre Noi",
+    "expandedHeader.continueLearning": "Continuați să învățați",
+    "header.links.discover": "Descoperi noi"
   }
   
