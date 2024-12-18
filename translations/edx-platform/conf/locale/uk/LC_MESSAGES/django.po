@@ -12109,3 +12109,18 @@ msgstr "Виберіть мову"
 
 msgid "Discover New"
 msgstr "Відкрийте для себе нове"
+
+msgid "Bookmarks"
+msgstr "Закладки"
+
+msgid "Updates"
+msgstr "Оновлення"
+
+msgid "Progress"
+msgstr "Прогрес"
+
+msgid "Dates"
+msgstr "дати"
+
+msgid "Instructor"
+msgstr "Інструктор"
