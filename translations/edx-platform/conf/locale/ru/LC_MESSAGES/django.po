@@ -12172,3 +12172,12 @@ msgstr "Закладки"
 
 msgid "Updates"
 msgstr "Обновления"
+
+msgid "Progress"
+msgstr "Прогресс"
+
+msgid "Dates"
+msgstr "Даты"
+
+msgid "Instructor"
+msgstr "Инструктор"
