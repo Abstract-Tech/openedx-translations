@@ -6341,8 +6341,8 @@ msgstr ""
 #~ msgid "Message:"
 #~ msgstr "Mesaj:"
 
-#~ msgid "No tasks currently running."
-#~ msgstr "Nicio sarcină nu rulează momentan"
+msgid "No tasks currently running."
+msgstr "Nicio sarcină nu rulează momentan"
 
 #~ msgid "File Name"
 #~ msgstr "Nume fișier"
