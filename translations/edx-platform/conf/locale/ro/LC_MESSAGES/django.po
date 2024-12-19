@@ -2279,6 +2279,9 @@ msgstr "Vizualizarea cursului"
 msgid "View this course as:"
 msgstr "Vizualizați acest curs ca:"
 
+msgid "View course in:"
+msgstr "Vizualizați cursul în:"
+
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:156
 #: lms/templates/preview_menu.html:61
 msgid "Staff"
@@ -22396,4 +22399,45 @@ msgstr "Cursul se termină"
 
 msgid "No tasks currently running."
 msgstr "Nicio sarcină nu rulează momentan"
+
+#: frontend-customizations/src/support/SupportForm/index.js:51
+msgid "Preferable email for communication*"
+msgstr "Email preferat pentru comunicare"
+
+#: frontend-customizations/src/support/SupportForm/index.js:52
+msgid "Enter your email"
+msgstr "Adaugă email"
+
+#: frontend-customizations/src/support/SupportForm/index.js:57
+msgid "Send"
+msgstr "Trimite"
+
+msgid "Contact us"
+msgstr "Contactează-ne"
+
+msgid "Subject*"
+msgstr "Subiect"
+
+msgid "Description*"
+msgstr "Descriere"
+
+#: frontend-customizations/src/support/SupportForm/index.js:11
+msgid "This field is required"
+msgstr "Acest câmp este obligatoriu"
+
+#: frontend-customizations/src/support/SupportForm/index.js:14
+msgid "Invalid email format"
+msgstr "Emailul este invalid. Verifică adresa de email introdusă"
+
+#: frontend-customizations/src/support/SupportForm/index.js:30
+msgid "Enter the subject of your request"
+msgstr "Adaugă aici subiectul solicitării tale de suport"
+
+#: frontend-customizations/src/support/SupportForm/index.js:41
+msgid "Enter the description of your request"
+msgstr ""
+"Descrie aici, cât mai detaliat, problema pentru care ai nevoie de asistență "
+"și suport"
+
+
 

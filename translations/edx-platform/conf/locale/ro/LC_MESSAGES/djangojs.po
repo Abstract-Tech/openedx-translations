@@ -2990,11 +2990,11 @@ msgid "Warning"
 msgstr "Atenție"
 
 #: frontend-customizations/src/support/SupportForm/index.js:40
-msgid "Description"
+msgid "Description*"
 msgstr "Descriere"
 
 #: frontend-customizations/src/support/SupportForm/index.js:29
-msgid "Subject"
+msgid "Subject*"
 msgstr "Subiect"
 
 #: frontend-customizations/src/accountAddon/basicInfo/index.js:32
@@ -3313,7 +3313,7 @@ msgstr ""
 "și suport"
 
 #: frontend-customizations/src/support/SupportForm/index.js:51
-msgid "Preferable email for communication"
+msgid "Preferable email for communication*"
 msgstr "Email preferat pentru comunicare"
 
 #: frontend-customizations/src/support/SupportForm/index.js:52
@@ -9006,6 +9006,12 @@ msgstr "Facilitator curs"
 msgid "Final Grade Received"
 msgstr "Punctaj final obținut"
 
+msgid "Staff Grader"
+msgstr "Grader personalului"
+
+msgid "View and grade responses"
+msgstr "Vizualizați și notați răspunsurile"
+
 #: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
 #: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:154
 msgid "List of Open Assessments is unavailable"
@@ -9544,4 +9550,7 @@ msgstr "după încheierea cursului, conținutul cursului va fi arhivat și nu va
 
 msgid "Course ends"
 msgstr "Cursul se termină"
+
+msgid "Open Response Assessment"
+msgstr "Evaluare a răspunsului deschis"
 
