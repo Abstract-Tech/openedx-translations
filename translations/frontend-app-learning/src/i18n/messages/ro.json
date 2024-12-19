@@ -482,5 +482,8 @@
   "courseOutline.tray.title": "Programa cursului ",
   "courseOutline.completedUnit": "Unitate finalizată",
   "courseOutline.incompleteUnit": "Unitate incompletă",
-  "discussions.sidebar.open.button": "Afișați tava de discuții"
+  "discussions.sidebar.open.button": "Afișați tava de discuții",
+  "instructor.toolbar.view.course.in": "Vizualizați cursul în:",
+  "instructor.toolbar.insights": "Perspective",
+  "instructor.toolbar.view.as": "Vezi acest curs ca:"
 }
