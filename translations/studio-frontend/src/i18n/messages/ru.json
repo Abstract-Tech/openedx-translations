@@ -90,7 +90,7 @@
   "assetsTablePermaDelete": "Удалить навсегда",
   "assetsTableLearnMore": "Узнать больше.",
   "assetsTableDeleteWarning": "Удаление {displayName} невозможно будет отменить.",
-  "assetsTableDeleteConsequences": "Сыылки на данных файл не смогут работать эсловите\n",
+  "assetsTableDeleteConsequences": "Любые ссылки на этот файл больше не будут работать\n",
   "assetsUploadConfirmMessage": "Следующие файлы будут перезаписаны: {listOfFiles} .",
   "assetsUploadConfirmTitle": "Перезаписать файлы",
   "assetsUploadConfirmOverwrite": "Перезаписать",
