@@ -15385,8 +15385,8 @@ msgstr "Instrument de verificare ale înscrierilor în programe"
 #~ msgid "in {relative} - {absolute}"
 #~ msgstr "în {relative} - {absolute}"
 
-#~ msgid "Course Starts"
-#~ msgstr "Cursul începe"
+msgid "Course Starts"
+msgstr "Cursul începe"
 
 msgid "Course starts"
 msgstr "Cursul începe"
@@ -15401,8 +15401,11 @@ msgstr "Cursul începe"
 #~ msgid "Course starts in {time_remaining_string} at {course_start_time}."
 #~ msgstr "Cursul începe în {time_remaining_string} la {course_start_time}."
 
-#~ msgid "Course End"
-#~ msgstr "Finalizare curs"
+msgid "Course End"
+msgstr "Finalizare curs"
+
+msgid "Course end"
+msgstr "Finalizare curs"
 
 #~ msgid ""
 #~ "To earn a certificate, you must complete all requirements before this "
@@ -15413,13 +15416,6 @@ msgstr "Cursul începe"
 
 #~ msgid "After this date, course content will be archived."
 #~ msgstr "După această dată, conținutul cursului va fi arhivat."
-
-#~ msgid ""
-#~ "This course is archived, which means you can review course content but it "
-#~ "is no longer active."
-#~ msgstr ""
-#~ "Acest curs este arhivat, ceea ce înseamnă că puteți revizui conținutul "
-#~ "cursului, dar nu mai este activ."
 
 #~ msgid ""
 #~ "This course is ending in {time_remaining_string} on {course_end_date}."
