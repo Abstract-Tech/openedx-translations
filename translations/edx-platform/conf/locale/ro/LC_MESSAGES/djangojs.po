@@ -9551,6 +9551,9 @@ msgstr "după încheierea cursului, conținutul cursului va fi arhivat și nu va
 msgid "Course ends"
 msgstr "Cursul se termină"
 
+msgid "Course starts"
+msgstr "Cursul începe"
+
 msgid "Open Response Assessment"
 msgstr "Evaluare a răspunsului deschis"
 

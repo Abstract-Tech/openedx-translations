@@ -15388,6 +15388,9 @@ msgstr "Instrument de verificare ale înscrierilor în programe"
 #~ msgid "Course Starts"
 #~ msgstr "Cursul începe"
 
+msgid "Course starts"
+msgstr "Cursul începe"
+
 #~ msgid "Don't forget to add a calendar reminder!"
 #~ msgstr "Nu uitați să adăugați un reminder calendaristic!"
 
@@ -22397,6 +22400,8 @@ msgstr "după încheierea cursului, conținutul cursului va fi arhivat și nu va
 msgid "Course ends"
 msgstr "Cursul se termină"
 
+
+
 msgid "No tasks currently running."
 msgstr "Nicio sarcină nu rulează momentan"
 
@@ -22439,5 +22444,13 @@ msgstr ""
 "Descrie aici, cât mai detaliat, problema pentru care ai nevoie de asistență "
 "și suport"
 
+msgid "Register for free"
+msgstr "Înregistrează-te gratuit"
 
+msgid ""
+"This course is archived, which means you can review course content but it is"
+" no longer active."
+msgstr ""
+"Acest curs este arhivat, ceea ce înseamnă că puteți revizui conținutul cursului, dar este"
+"nu mai este activ."
 
