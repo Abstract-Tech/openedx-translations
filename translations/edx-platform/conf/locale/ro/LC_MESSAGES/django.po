@@ -22339,27 +22339,19 @@ msgid "Your highest score is {score}"
 msgstr "Cel mai bun punctaj obținut este {score}"
 
 msgid "Correctly placed {correct_count} item."
-msgid_plural "Correctly placed {correct_count} items."
-msgstr[0] "Ai plasat corect {correct_count} răspuns."
-msgstr[1] "Ai plasat corect {correct_count} răspunsuri."
+msgstr "Ai plasat corect {correct_count} răspuns."
 
 msgid "Did not place {missing_count} required item."
-msgid_plural "Did not place {missing_count} required items."
-msgstr[0] "Nu ai plasat deloc {missing_count} răspuns."
-msgstr[1] "Nu ai plasat deloc {missing_count} răspunsuri."
+msgstr "Nu ai plasat deloc {missing_count} răspuns."
 
 msgid "Final attempt was used, highest score is {score}"
 msgstr "Ai utilizat ultima încercare, cel mai bun punctaj este {score}"
 
 msgid "Misplaced {misplaced_count} item."
-msgid_plural "Misplaced {misplaced_count} items."
-msgstr[0] "Nu ai plasat corect {misplaced_count} răspuns."
-msgstr[1] "Nu ai plasat corect {misplaced_count} răspunsuri."
+msgstr "Nu ai plasat corect {misplaced_count} răspuns."
 
 msgid "Misplaced {misplaced_count} item. Misplaced item was returned to item bank."
-msgid_plural "Misplaced {misplaced_count} items. Misplaced items were returned to the item bank."
-msgstr[0] "Nu ai plasat corect {misplaced_count} răspuns. Răspunsurile greșite au fost resetate."
-msgstr[1] "Nu ai plasat corect {misplaced_count} răspunsuri. Răspunsurile greșite au fost resetate."
+msgstr "Nu ai plasat corect {misplaced_count} răspuns. Răspunsurile greșite au fost resetate."
 
 msgid "Some of your answers were not correct."
 msgstr "Unele răspunsuri sunt greșite."
