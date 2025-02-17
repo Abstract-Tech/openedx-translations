@@ -467,21 +467,10 @@ msgstr "Generează imaginea și zonele"
 msgid "Background description"
 msgstr "Descrierea imaginii de fundal"
 
-#: templates/html/drag_and_drop_edit.html:189
-msgid ""
-"\n"
-"                            Please provide a description of the image for non-visual users.\n"
-"                            The description should provide sufficient information to allow anyone\n"
-"                            to solve the problem even without seeing the image.\n"
-"                        "
-msgstr ""
-"Vă rugăm să furnizați o descriere a imaginii pentru utilizatorii cu "
-"deficiențe de vedere. Descrierea ar trebui să ofere suficiente informații "
-"pentru ca oricine să poată rezolva exercițiul fără să vadă imaginea."
-
 #: templates/html/drag_and_drop_edit.html:199
 msgid "Zone labels"
 msgstr "Etichetele zonelor"
+
 
 #: templates/html/drag_and_drop_edit.html:202
 msgid "Display label names on the image"
