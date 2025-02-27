@@ -1743,11 +1743,14 @@ msgid_plural "\n"
 "                                    "
 msgstr[0] "\n"
 "                                        %(assessment_label)s - %(points)s punct\n"
-"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+"                                    "
 msgstr[1] "\n"
 "                                        %(assessment_label)s - %(points)s puncte\n"
-"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
-msgstr[2] ""
+"                                    "
+msgstr[2] "\n"
+"                                        %(assessment_label)s - %(points)s puncte\n"
+"                                    "
+
 
 #: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:154
 msgid "Feedback Recorded"
