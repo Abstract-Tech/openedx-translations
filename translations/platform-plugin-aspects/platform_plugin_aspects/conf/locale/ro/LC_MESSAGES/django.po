@@ -1,0 +1,110 @@
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+
+#: extensions/filters.py:66
+msgid "Reports"
+msgstr "Rapoarte"
+
+#: settings/common.py:31
+msgid "Course Dashboard"
+msgstr "Tablou de bord al cursului"
+
+#: settings/common.py:37
+msgid "Individual Learner Dashboard"
+msgstr "Tablou de bord al cursantului individual"
+
+#: settings/common.py:43
+msgid "At-Risk Learners Dashboard"
+msgstr "Tablou de bord pentru cursanţii în situaţie de risc"
+
+#: static/html/superset.html:9
+msgid ""
+"Superset is not configured properly. Please contact your system "
+"administrator."
+msgstr "Superset nu este configurat corect. Vă rugăm să contactaţi administratorul de sistem."
+
+#: static/html/superset_student.html:4
+msgid ""
+"Superset is only visible to course staff and instructors. Please contact "
+"your system administrator."
+msgstr "Superset este vizibil doar pentru personalul cursului şi instructori. Vă rugăm să contactaţi administratorul de sistem."
+
+#: utils.py:162
+#, python-brace-format
+msgid ""
+"Unable to fetch Superset guest token, Superset server error {server_response}"
+msgstr "Nu s-a putut prelua tokenul de invitat Superset, eroare de server Superset {server_response}"
+
+#: utils.py:171
+msgid ""
+"Unable to fetch Superset guest token, mostly likely due to invalid settings."
+"SUPERSET_CONFIG"
+msgstr "Nu s-a putut prelua tokenul de invitat Superset, cel mai probabil din cauza unor setări nevalide. SUPERSET_CONFIG"
+
+#: views.py:83
+#, python-brace-format
+msgid "Invalid course id: '{course_id}'"
+msgstr "ID-ul cursului este invalid: '{course_id}'"
+
+#: views.py:95
+#, python-brace-format
+msgid "Course not found: '{course_id}'"
+msgstr "Cursul nu a fost găsit: '{course_id}'"
+
+#: xblock.py:47 xblock.py:48
+msgid "Display name"
+msgstr "Nume de afişare"
+
+#: xblock.py:49
+msgid "Superset Dashboard"
+msgstr "Tablou de bord Superset"
+
+#: xblock.py:54
+msgid "Dashboard UUID"
+msgstr "UUID-ul tabloului de bord"
+
+#: xblock.py:63
+msgid "Filters"
+msgstr "Filtre"
+
+msgid "View dashboards in Superset"
+msgstr "Vizualizați tablourile de bord în Superset"
+
+msgid "Enrollment"
+msgstr "Înscriere"
+
+msgid "Engagement"
+msgstr "Logodnă"
+
+msgid "Performance"
+msgstr "Performanţă"
+
+msgid "Help"
+msgstr "Ajutor"
+
+msgid "Enrollees per Enrollment Track"
+msgstr "Înscriși pe pistă de înscriere"
+
+msgid "Cumulative Enrollments by Track"
+msgstr "Înscrieri cumulate pe pistă"
+
+msgid "No results were returned for this query"
+msgstr "Nu au fost returnate rezultate pentru această interogare"
