@@ -1,4 +1,3 @@
-# #-#-#-#-#  platform.djangojs.po (0.2)  #-#-#-#-#
 # #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
 # edX translation file.
 # Copyright (C) 2021 EdX
@@ -54,16 +53,8 @@
 # Adela Beca, 2022
 # Ana Stamatescu, 2022
 #
-# #-#-#-#-#  rg-customizations.djangojs.po (Open Edx customizations)  #-#-#-#-#
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  platform.djangojs.po (0.2)  #-#-#-#-#\n"
 "Project-Id-Version: 0.2\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2022-09-21 21:57+0000\n"
@@ -77,21 +68,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1));\n"
 "Generated-By: Babel 2.9.0\n"
-"X-Generator: Poedit 3.1.1\n"
-"#-#-#-#-#  rg-customizations.djangojs.po (Open Edx customizations)  #-#-#-#-"
-"#\n"
-"Project-Id-Version: Open Edx customizations\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-21 22:49+0300\n"
-"PO-Revision-Date: 2022-09-26 22:08+0200\n"
-"Last-Translator: Elena Coman <elena.coman@gmail.com>\n"
-"Language-Team: \n"
-"Language: ro_RO\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n"
-"%100<=19) ? 1 : 2);\n"
 "X-Generator: Poedit 3.1.1\n"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:55
@@ -114,9 +90,6 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:55
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:149
 #: lms/templates/learner_dashboard/verification_popover.underscore:10
-#: frontend-customizations/src/components/Buttons/index.js:8
-#: frontend-customizations/src/components/Dialog/index.js:12
-#: frontend-customizations/src/core/modals/WarningModal/index.js:14
 msgid "Cancel"
 msgstr "Anulează"
 
@@ -228,7 +201,6 @@ msgstr "Închideți"
 
 #: cms/templates/js/move-xblock-modal.underscore:6
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
-#: frontend-customizations/src/components/AccountField/index.js:42
 msgid "Loading"
 msgstr "Se încarcă"
 
@@ -458,6 +430,10 @@ msgstr "întrebare fără răspuns"
 #: common/static/common/templates/discussion/templates.underscore:337
 msgid "Following"
 msgstr "Urmărește"
+
+#: common/static/common/templates/discussion/templates.underscore:344
+msgid "Staff"
+msgstr "Personal"
 
 #: common/static/common/templates/discussion/templates.underscore:351
 msgid "Community TA"
@@ -2972,404 +2948,6 @@ msgstr ""
 "clic, salvați ca){link_end} și apoi {upload_link_start}încărcă{link_end} în "
 "rucsac."
 
-#: frontend-customizations/src/components/AccountField/index.js:45
-msgid "Saving"
-msgstr "Se salvează"
-
-#: frontend-customizations/src/components/Buttons/index.js:7
-#: frontend-customizations/src/components/Dialog/index.js:13
-msgid "Ok"
-msgstr "Ok"
-
-#: frontend-customizations/src/components/AccountField/index.js:48
-msgid "Your changes have been saved."
-msgstr "Modificările tale au fost salvate."
-
-#: frontend-customizations/src/core/modals/WarningModal/index.js:11
-msgid "Warning"
-msgstr "Atenție"
-
-#: frontend-customizations/src/support/SupportForm/index.js:40
-msgid "Description*"
-msgstr "Descriere"
-
-#: frontend-customizations/src/support/SupportForm/index.js:29
-msgid "Subject*"
-msgstr "Subiect"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:32
-msgid "Year of Birth"
-msgstr "Anul nașterii"
-
-#: frontend-customizations/src/core/modals/WarningModal/index.js:15
-msgid "Change"
-msgstr "Modifică"
-
-#: frontend-customizations/src/core/modals/IncompleteAccountWarning/index.js:32
-msgid "Account"
-msgstr "Cont"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:24
-msgid "Sex"
-msgstr "Sex"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:40
-msgid "Phone number"
-msgstr ""
-"Număr de telefon mobil (inclusiv prefixul de țară, de exemplu: 40712123123)"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:48
-msgid "Country where I'm studying or teaching."
-msgstr "Țara în care predau sau studiez."
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:50
-msgid "Select Country"
-msgstr "Alege țara"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:58
-msgid "Region"
-msgstr "Județul școlii în care predau sau studiez"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:60
-msgid "Select Region"
-msgstr "Alege județul"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:69
-msgid "Town"
-msgstr "Localitatea școlii în care predau sau studiez"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:71
-msgid "Select Town"
-msgstr "Alege localitate"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:80
-msgid "Occupation"
-msgstr "Ocupație"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:82
-msgid "Select Occupation"
-msgstr "Alege ocupație"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:53
-msgid "Education Information"
-msgstr "Informații despre studii"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:61
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:73
-msgid "University (last graduated)"
-msgstr "Universitate (ultima absolvită)"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:62
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:112
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:138
-msgid "Select University"
-msgstr "Alege universitate"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:74
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:127
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:150
-msgid "University Name"
-msgstr "Introdu numele universității"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:84
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:100
-msgid "High-School"
-msgstr "Liceu / Colegiu"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:85
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:101
-msgid "Select High School"
-msgstr "Alege liceu / colegiu"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:111
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:126
-msgid "University"
-msgstr "Universitate"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:137
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:149
-msgid "University (currently studying)"
-msgstr "Universitatea (în care studiezi în acest moment, dacă este cazul)"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:160
-msgid "Graduated studies"
-msgstr "Studii finalizate"
-
-#: frontend-customizations/src/components/AccountSelect/index.js:19
-#: frontend-customizations/src/questionnaire/body/SelectField/index.js:7
-msgid "There are no options"
-msgstr "Nu există opțiuni"
-
-#: frontend-customizations/src/components/AccountSelect/index.js:20
-#: frontend-customizations/src/questionnaire/body/SelectField/index.js:8
-msgid "Nothing found"
-msgstr "Nu am găsit nimic"
-
-#: frontend-customizations/src/components/Section/index.js:10
-msgid "Section Heading"
-msgstr "Titlu de secțiune"
-
-#: frontend-customizations/src/core/modals/CountryChangeWarning/index.js:8
-msgid "Country warning"
-msgstr "Avertisment despre câmpul ”țară”"
-
-#: frontend-customizations/src/core/modals/CountryChangeWarning/index.js:12
-msgid "Are you sure you want to change country?"
-msgstr "Ești sigur că vrei să schimbi țara în care predai sau studiezi?"
-
-#: frontend-customizations/src/core/modals/IncompleteAccountWarning/index.js:27
-msgid "Account Modal"
-msgstr "Date de cont"
-
-#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:37
-msgid "Questionnaire Modal"
-msgstr "Date de chestionar"
-
-#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:39
-msgid ""
-"This course is absolutely free for all users. Please, share with us the "
-"general information we need for statistics by filling in a simple "
-"questionnaire."
-msgstr ""
-"Acest curs este gratuit pentru toți utilizatorii. Pentru a putea analiza "
-"impactul lui, vă rugăm să completați și chestionarul din secțiunea ”cont”."
-
-#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:41
-msgid "Fill in the questionnaire"
-msgstr "Completează acum chestionarul din contul tău"
-
-#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:42
-#: frontend-customizations/src/core/notifications/QuestionnaireCompletedNotification/index.js:9
-#: frontend-customizations/src/questionnaire/header/index.js:11
-#: frontend-customizations/src/questionnaire/index.js:27
-msgid "Questionnaire"
-msgstr "Chestionar"
-
-#: frontend-customizations/src/core/modals/OccupationChangeWarning/index.js:8
-msgid "Occupation warning"
-msgstr "Avertisment despre câmpul ”ocupație”"
-
-#: frontend-customizations/src/core/modals/OccupationChangeWarning/index.js:12
-msgid "Are you sure you want to change occupation?"
-msgstr "Ești sigur că vrei să schimbi ocupația aleasă?"
-
-#: frontend-customizations/src/core/modals/RegionChangeWarning/index.js:8
-msgid "Region warning"
-msgstr "Avertisment despre câmpul ”județ”"
-
-#: frontend-customizations/src/core/modals/RegionChangeWarning/index.js:10
-msgid ""
-"Changing the region will affect your account information. You will need to "
-"update information related to your region."
-msgstr ""
-"Alegerea unui alt județ va reseta datele contului tău. Va fi nevoie să îl "
-"completezi din nou cu datele actualizate."
-
-#: frontend-customizations/src/core/modals/RegionChangeWarning/index.js:12
-msgid "Are you sure you want to change region?"
-msgstr "Ești sigur că vrei să schimbi județul în care predai sau studiezi?"
-
-#: frontend-customizations/src/core/modals/TownChangeWarning/index.js:8
-msgid "Town warning"
-msgstr "Avertisment despre câmpul ”localitate”"
-
-#: frontend-customizations/src/core/modals/TownChangeWarning/index.js:10
-msgid ""
-"Changing the town will affect your account information. You will need to "
-"update information related to your town."
-msgstr ""
-"Alegerea unei alte localități va reseta datele contului tău. Va fi nevoie să "
-"îl completezi din nou cu datele actualizate."
-
-#: frontend-customizations/src/core/modals/TownChangeWarning/index.js:12
-msgid "Are you sure you want to change town?"
-msgstr "Ești sigur că vrei să schimbi localitatea în care predai sau studiezi?"
-
-#: frontend-customizations/src/core/notifications/AccountActivationNotification/index.js:17
-msgid "Account activation"
-msgstr "Activare cont"
-
-#: frontend-customizations/src/core/notifications/AccountIncompleteNotification/index.js:16
-msgid ""
-"To start learning please complete all required information on your account "
-"page."
-msgstr ""
-"Pentru a putea începe și parcurge cursul, este necesar să completați toate "
-"informațiile obligatorii din secțiunea ”cont”."
-
-#: frontend-customizations/src/core/notifications/QuestionnaireIncompleteNotification/index.js:9
-#: frontend-customizations/src/core/notifications/QuestionnairePartialNotification/index.js:9
-msgid "Complete your questionnaire"
-msgstr "Completează chestionarul"
-
-#: frontend-customizations/src/core/notifications/QuestionnaireIncompleteNotification/index.js:15
-msgid "Share information"
-msgstr "Completează chestionarul"
-
-#: frontend-customizations/src/core/notifications/QuestionnairePartialNotification/index.js:15
-msgid "Continue sharing"
-msgstr "Completează chestionarul"
-
-#: frontend-customizations/src/questionnaire/body/MultiWidget/index.js:82
-msgid "This field cannot be displayed."
-msgstr "Acest câmp nu poate fi vizualizat."
-
-#: frontend-customizations/src/questionnaire/body/index.js:18
-msgid "There are no questions."
-msgstr "Nu există întrebări."
-
-#: frontend-customizations/src/questionnaire/footer/index.js:30
-msgid "Next tab"
-msgstr "Următoarea secțiune"
-
-#: frontend-customizations/src/questionnaire/footer/index.js:34
-msgid "Previous tab"
-msgstr "Secțiunea anterioară"
-
-#: frontend-customizations/src/reports/GlobalReport/index.js:24
-msgid "Global Report"
-msgstr "Raport global"
-
-#: frontend-customizations/src/reports/GlobalReport/index.js:27
-msgid ""
-"In this report, you will find information about all registered users on the "
-"platform with their data from their accounts and a questionnaire they have "
-"to fill in before starting learning."
-msgstr ""
-"În acest raport vei găsi informații despre toți utilizații înregistrați pe "
-"platformă, împreună cu date din contul lor și chestionarul completat."
-
-#: frontend-customizations/src/reports/GlobalReport/index.js:33
-msgid "All registered users on the platform"
-msgstr "Toți utilizatorii înregistrați pe platforma"
-
-#: frontend-customizations/src/reports/GlobalReport/index.js:37
-msgid ""
-"Click to generate a CSV file. The report generation process can take a while."
-msgstr ""
-"Click aici pentru a genera un fișier CSV. Procesul de generare al raportului "
-"poate dura."
-
-#: frontend-customizations/src/reports/ProfileInformationReport/index.js:20
-msgid ""
-"Click to generate a CSV file of all students enrolled in this course, along "
-"with profile information such as email address and username:"
-msgstr ""
-"Click aici pentru a genera un fișier CSV cu toți cursanții din acest curs, "
-"împreună cu informații ca adresă de email și nume de utilizator:"
-
-#: frontend-customizations/src/reports/ProfileInformationReport/index.js:26
-msgid "Download profile information as a CSV"
-msgstr "Descarcă informațiile de profil ca CSV"
-
-#: frontend-customizations/src/support/AuthenticatedSupport/index.js:34
-#: frontend-customizations/src/support/GuestSupport/index.js:11
-msgid "Contact us"
-msgstr "Contactează-ne"
-
-#: frontend-customizations/src/support/AuthenticatedSupport/index.js:38
-msgid "Something went wrong."
-msgstr "Ceva nu a funcționat."
-
-#: frontend-customizations/src/support/GuestSupport/index.js:6
-msgid ""
-"You need to register or log in to send us an email via support form. If you "
-"have problems with log in or registration process - contact us on {0}."
-msgstr ""
-"E nevoie să te înregistrezi sau să fii autentificat pe platformă pentru a ne "
-"putea contacta prin formularul de suport. Dacă nu te poți înregistra sau nu "
-"te poți autentifica, scrie-ne la {0}."
-
-#: frontend-customizations/src/support/SuccessModal/index.js:9
-msgid "Success Modal"
-msgstr "Mesaj de succes"
-
-#: frontend-customizations/src/support/SuccessModal/index.js:10
-msgid "Thank you! Your request has been successfully sent."
-msgstr ""
-"Solicitarea ta de suport a fost trimisă către echipa noastră. Te vom "
-"contacta prin email în cel mai scurt timp posibil în următoarele 48 de ore."
-
-#: frontend-customizations/src/support/SuccessModal/index.js:11
-msgid "Okay"
-msgstr "Am înțeles"
-
-#: frontend-customizations/src/support/SupportForm/index.js:11
-msgid "This field is required"
-msgstr "Acest câmp este obligatoriu"
-
-#: frontend-customizations/src/support/SupportForm/index.js:14
-msgid "Invalid email format"
-msgstr "Emailul este invalid. Verifică adresa de email introdusă"
-
-#: frontend-customizations/src/support/SupportForm/index.js:30
-msgid "Enter the subject of your request"
-msgstr "Adaugă aici subiectul solicitării tale de suport"
-
-#: frontend-customizations/src/support/SupportForm/index.js:41
-msgid "Enter the description of your request"
-msgstr ""
-"Descrie aici, cât mai detaliat, problema pentru care ai nevoie de asistență "
-"și suport"
-
-#: frontend-customizations/src/support/SupportForm/index.js:51
-msgid "Preferable email for communication*"
-msgstr "Email preferat pentru comunicare"
-
-#: frontend-customizations/src/support/SupportForm/index.js:52
-msgid "Enter your email"
-msgstr "Adaugă email"
-
-#: frontend-customizations/src/support/SupportForm/index.js:57
-msgid "Send"
-msgstr "Trimite"
-
-#. Translators: added manually from a shared docx
-msgid "I want to receive the announcements and newsletters from the Predau Viitor eLearning platform"
-msgstr "Mă abonez: vreau să primesc pe email noutăți despre cursurile organizate pe această platformă și alte informații despre activitatea Predau Viitor"
-
-msgid ""
-"Check your {email_start}{email}{email_end} inbox for an account "
-"activation link from {platform_name}. If you need help, contact "
-"{link_start}{platform_name} Support{link_end}."
-msgstr ""
-"Verificați-vă {email_start}{email}{email_end} inbox-ul pentru un link de "
-"activare a contului de la  {platform_name}. Dacă aveți nevoie de ajutor, "
-"contactați {link_start}{platform_name} echipa de suport {link_end}."
-
-msgid "Check your email inbox for an account activation link. If you need help, contact the Support."
-msgstr "Verificați-vă e-mail inbox-ul pentru un link de activare a contului. "
-"Dacă aveți nevoie de ajutor, contactați echipa de suport."
-
-msgid "You have successfully completed all the requirements for the %(title)s %(type)s."
-msgstr "Ai îndeplinit cu succes toate cerințele pentru certificatul %(title)s %(type)s."
-
-msgid "Joined"
-msgstr "Înscris"
-
-#: common/static/bundles/StudentAccountDeletion.js
-#: common/static/bundles/StudentAccountDeletionInitializer.js
-#: lms/static/js/student_account/components/StudentAccountDeletion.jsx
-msgid ""
-"{strongStart}Warning: deletion of the account is a definitive and "
-"irreversible action{strongEnd}, which will lead to the definitive loss of "
-"access to the account associated with this email address, the history of the"
-" course that has already been completed, and the certificate obtained on the"
-" Predau Viitor Cursuri Platform, on www.predauviitor.ro or "
-"www.indreptardigital.ro. By pressing the \"Delete My Account\" button below,"
-" you confirm that you have read all the information related to deleting the "
-"account, also described here: "
-"{htmlStart}https://cursuri.predauviitor.ro/faq{htmlEnd}."
-msgstr ""
-"{strongStart}Avertisment: ștergerea contului este o acțiune definitivă și "
-"ireversibilă{strongEnd}, care va duce la pierderea definitivă a accesului în "
-"contul asociat acestei adrese de email, la istoricul cursurilor începute sau "
-"absolvite și la orice certificat obținut pe Platforma de Cursuri Predau Viitor, "
-"pe www.predauviitor.ro sau www.indreptardigital.ro. Prin apăsarea butonului de "
-"mai jos ”Șterge contul meu”, confirmați că ați luat la cunoștință toate "
-"informațiile legate de ștergerea contului, descrise și aici: {htmlStart}"
-"https://cursuri.predauviitor.ro/faq{htmlEnd}."
-
 #~ msgid ""
 #~ "This may be happening because of an error with our server or your "
 #~ "internet connection. Try refreshing the page or making sure you are "
@@ -3384,6 +2962,9 @@ msgstr ""
 
 #~ msgid "OpenAssessment Save Error"
 #~ msgstr "Eroare în a salva evaluările."
+
+#~ msgid "Saving"
+#~ msgstr "Se salvează"
 
 #~ msgid "This link will open in a new browser window/tab"
 #~ msgstr ""
@@ -3576,8 +3157,14 @@ msgstr ""
 #~ "identică cu licența aplicabilă pentru munca dumneavoastră. Această "
 #~ "opțiune este incompatibilă cu „Fără derivate”."
 
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
 #~ msgid "Unknown"
 #~ msgstr "Necunoscut"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Ești sigur?"
 
 #~ msgid "Upload File"
 #~ msgstr "Încarcă un fișier"
@@ -3608,6 +3195,9 @@ msgstr ""
 
 #~ msgid "Subsections"
 #~ msgstr "Subsecțiuni"
+
+#~ msgid "Units"
+#~ msgstr "Elemente"
 
 #~ msgid "Components"
 #~ msgstr "Componente"
@@ -3785,6 +3375,9 @@ msgstr ""
 #~ msgid "unit"
 #~ msgstr "unitate"
 
+#~ msgid "Your changes have been saved."
+#~ msgstr "Schimbările tale au fost salvate."
+
 #~ msgid "Please select a file in .srt format."
 #~ msgstr "Vă rugăm selectați un fișier în format .srt."
 
@@ -3837,6 +3430,12 @@ msgstr ""
 
 #~ msgid "New {component_type}"
 #~ msgstr "{component_type} nouă"
+
+#~ msgid "Warning"
+#~ msgstr "Atenție"
+
+#~ msgid "Error"
+#~ msgstr "Eroare"
 
 #~ msgid "Updating with latest library content"
 #~ msgstr "Actualizare cu cel mai recent conținut din bibliotecă"
@@ -3929,6 +3528,24 @@ msgstr ""
 #~ msgstr ""
 #~ "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}"
 #~ "=h5;{heading6}=h6"
+
+#~ msgid "Paragraph"
+#~ msgstr "Paragraf"
+
+#~ msgid "Preformatted"
+#~ msgstr "Preformatat"
+
+#~ msgid "Heading 3"
+#~ msgstr "Titlu 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Titlu 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Titlu 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Titlu 6"
 
 #~ msgid "Add to Dictionary"
 #~ msgstr "Adaugă în dicționar"
@@ -4065,6 +3682,9 @@ msgstr ""
 #~ msgid "Delete table"
 #~ msgstr "Șterge tabel"
 
+#~ msgid "Description"
+#~ msgstr "Descriere"
+
 #~ msgid "Dimensions"
 #~ msgstr "Dimensiuni"
 
@@ -4103,6 +3723,9 @@ msgstr ""
 
 #~ msgid "Find"
 #~ msgstr "Gasește"
+
+#~ msgid "Finish"
+#~ msgstr "Terminare"
 
 #~ msgid "Font Family"
 #~ msgstr "Grupă fonturi"
@@ -4999,6 +4622,9 @@ msgstr ""
 #~ msgid "Not specific to a course"
 #~ msgstr "Nu este specific unui curs"
 
+#~ msgid "Subject"
+#~ msgstr "Subiect"
+
 #~ msgid "Select a category"
 #~ msgstr "Selectează categorie"
 
@@ -5572,6 +5198,9 @@ msgstr ""
 
 #~ msgid "Language"
 #~ msgstr "Limba"
+
+#~ msgid "Country"
+#~ msgstr "Țară"
 
 #~ msgid "An error occurred. Please try again."
 #~ msgstr "A apărut o eroare. Te rugăm să încerci din nou."
@@ -6341,8 +5970,8 @@ msgstr ""
 #~ msgid "Message:"
 #~ msgstr "Mesaj:"
 
-msgid "No tasks currently running."
-msgstr "Nicio sarcină nu rulează momentan"
+#~ msgid "No tasks currently running."
+#~ msgstr "Nicio sarcină nu rulează momentan"
 
 #~ msgid "File Name"
 #~ msgstr "Nume fișier"
@@ -6482,12 +6111,13 @@ msgstr "Nicio sarcină nu rulează momentan"
 #~ msgid "Full Name"
 #~ msgstr "Nume complet"
 
-msgid ""
-"Please, put your first name at the first place. The name that is used for "
-"ID verification and that appears on your certificate."
-msgstr ""
-"Numele folosit pentru verificarea identității și care apare pe "
-"certificatele tale."
+#, fuzzy
+#~ msgid ""
+#~ "Please, put your first name at the first place. The name that is used for "
+#~ "ID verification and that appears on your certificate."
+#~ msgstr ""
+#~ "Numele folosit pentru verificarea identității și care apare pe "
+#~ "certificatele tale."
 
 #~ msgid "Country or Region of Residence"
 #~ msgstr "Țara sau Regiunea de reședință"
@@ -6497,6 +6127,9 @@ msgstr ""
 
 #~ msgid "Basic Account Information"
 #~ msgstr "Informații de bază"
+
+#~ msgid "These settings include basic information about your account."
+#~ msgstr "Aceste setări includ informații de bază despre contul tău."
 
 #~ msgid ""
 #~ "The name that identifies you on {platform_name}. You cannot change your "
@@ -6890,6 +6523,9 @@ msgstr ""
 #~ msgid "Gender"
 #~ msgstr "Gen"
 
+#~ msgid "Year of Birth"
+#~ msgstr "Anul nașterii"
+
 #~ msgid "Certificate name is required."
 #~ msgstr "Este necesar numele certificatului. "
 
@@ -7176,6 +6812,9 @@ msgstr ""
 #~ msgid "Last updated"
 #~ msgstr "Ultima actualizare"
 
+#~ msgid "Required"
+#~ msgstr "Obligatoriu"
+
 #~ msgid "Automatic transcripts are disabled."
 #~ msgstr "Transcrierile automate sunt dezactivate."
 
@@ -7424,6 +7063,9 @@ msgstr ""
 
 #~ msgid "Updating Tags"
 #~ msgstr "Actualizarea etichetelor"
+
+#~ msgid "Account Information"
+#~ msgstr "Informații cont"
 
 #~ msgid "Order History"
 #~ msgstr "Istoricul comenzilor"
@@ -7912,6 +7554,9 @@ msgstr ""
 
 #~ msgid "Transcript Provider"
 #~ msgstr "Provider transcript"
+
+#~ msgid "Change"
+#~ msgstr "Modifică"
 
 #~ msgid "Press change to change selected transcript provider."
 #~ msgstr ""
@@ -8589,6 +8234,9 @@ msgstr ""
 #~ "calculatoare. Aceste reguli specificate sunt vizibile pentru cursanți "
 #~ "înainte ca cursanții să înceapă examenul."
 
+#~ msgid "Account"
+#~ msgstr "Cont"
+
 #~ msgid ""
 #~ "This action updates the {provider} information for your entire "
 #~ "organization."
@@ -8818,742 +8466,3 @@ msgstr ""
 
 #~ msgid "Use Current Transcript"
 #~ msgstr "Utilizați transcrierea curentă"
-
-msgid "Check your {0}{1}{2} inbox for an account activation link from {3}. If you need help, contact {4}{5} Support{6}."
-msgstr "Verifică-ți adresa de email {0}{1}{2} cu care te-ai înregistrat pentru linkul de activare al contului tău {3}. Verifică și folderele de spam sau bulk din căsuța de email. Dacă ai nevoie de ajutor, contactează-ne prin formularul de contact {4}{5}{6}."
-
-msgid "Finish"
-msgstr "Finalizează"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:77
-#: openassessment/xblock/static/js/src/oa_server.js:113
-#: openassessment/xblock/static/js/src/oa_server.js:137
-msgid "This section could not be loaded."
-msgstr "Această secțiune nu s-a încărcat."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:158
-msgid "The staff assessment form could not be loaded."
-msgstr "Evaluarea de la facilitatorul cursului nu s-a încărcat."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:180
-msgid "The display of ungraded and checked out responses could not be loaded."
-msgstr "Afișarea rezolvărilor fără punctaj și a celor care sunt în curs de evaluare, nu s-a încărcat."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:214
-msgid "This response could not be submitted."
-msgstr "Rezolvarea nu poate fi trimisă."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:237
-msgid "This response could not be saved."
-msgstr "Rezolvarea nu poate fi salvată."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:262
-msgid "This feedback could not be submitted."
-msgstr "Feedback-ul nu poate fi trimis."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:287
-#: openassessment/xblock/static/js/src/oa_server.js:378
-#: openassessment/xblock/static/js/src/oa_server.js:401
-msgid "This assessment could not be submitted."
-msgstr "Evaluarea nu poate fi trimisă."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:424
-msgid "One or more rescheduling tasks failed."
-msgstr "Una sau mai multe reprogramări nu s-au realizat."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:483
-msgid "This problem could not be saved."
-msgstr "Activitatea nu poate fi salvată."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:504
-msgid "The server could not be contacted."
-msgstr "Serverul nu a putut fi contactat."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:530
-msgid "Could not retrieve upload url."
-msgstr "Nu s-a putut prelua adresa URL de încărcare."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:549
-#: openassessment/xblock/static/js/src/oa_server.js:568
-msgid "Server error."
-msgstr "Eroare de server."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:588
-msgid "Could not retrieve download url."
-msgstr "Nu s-a putut prelua adresa URL de descărcare."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:614
-msgid "The submission could not be removed from the grading pool."
-msgstr "Rezolvarea nu a putut fi eliminată din punctajele acordate."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:670
-msgid "Multiple teams returned for course"
-msgstr "Mai multe echipe au revenit pentru curs"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:677
-msgid "Could not load teams information."
-msgstr "Informațiile despre echipe nu pot fi încărcate."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:699
-msgid "User lookup failed"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:704
-msgid "Error when looking up username"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/oa_server.js:728
-msgid "Failed to clone rubric"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:58
-msgid "Unit Name"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:59
-msgid "Units"
-msgstr "Elemente"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:66
-msgid "Assessment"
-msgstr "Evaluare"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:67
-msgid "Assessments"
-msgstr "Evaluări"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:74
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:75
-msgid "Total Responses"
-msgstr "Rezolvări totale"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:82
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:83
-msgid "Training"
-msgstr "Antrenament"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:90
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:91
-msgid "Peer"
-msgstr "Între cursanți"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:98
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:99
-msgid "Self"
-msgstr "Auto"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:106
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:107
-msgid "Waiting"
-msgstr "În așteptare"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:114
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:115
-msgid "Staff"
-msgstr "Facilitator curs"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:122
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:123
-msgid "Final Grade Received"
-msgstr "Punctaj final obținut"
-
-msgid "Staff Grader"
-msgstr "Grader personalului"
-
-msgid "View and grade responses"
-msgstr "Vizualizați și notați răspunsurile"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:154
-msgid "List of Open Assessments is unavailable"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:254
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:305
-msgid "Please wait"
-msgstr "Te rugăm să aștepți"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:278
-msgid "Block view is unavailable"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
-#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:290
-msgid "Back to Full List"
-msgstr "Înapoi către lista completă"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Your file "
-msgstr "Fișierul tău␣"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:357
-msgid "Status of Your Response"
-msgstr "Statusul rezolvării tale"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "This response has not been saved."
-msgstr "Rezolvarea nu a fost salvată."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "If you leave this page without saving or submitting your response, you will lose any work you have done on the response."
-msgstr "Dacă părăsești această pagină fără să salvezi sau să trimiți rezolvarea ta, vei pierde ce ai lucrat până acum."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Saving..."
-msgstr "Se salvează..."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "This response has been saved but not submitted."
-msgstr "Rezolvarea a fost salvată, dar nu trimisă."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Error"
-msgstr "Eroare"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Confirm Submit Response"
-msgstr "Confirmă trimiterea rezolvării"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:492
-msgid "You're about to submit your response for this assignment. After you submit this response, you can't change it or submit a new response."
-msgstr "Urmează să trimiți rezolvarea ta pentru această activitate. După ce o trimiți, aceasta nu mai poate fi completată, modificată sau înlocuită."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:567
-msgid "Individual file size must be {max_files_mb}MB or less."
-msgstr "Dimensiunea fiecărui fișier trebuie să fie de maximum {max_files_mb}MB."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:581
-msgid "File upload failed: unsupported file type. Only the supported file types can be uploaded. If you have questions, please reach out to the course team."
-msgstr "Eroare la încărcarea fișierului: format fișier incompatibil. Doar fișierele în formatele acceptate pot fi încărcate. Dacă apar întrebări suplimentare, te rugăm să ne scrii pe adresa de suport."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Only "
-msgstr "Doar␣"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:664
-#: openassessment/xblock/static/js/src/lms/oa_response.js:670
-msgid "Describe "
-msgstr "Descrie fișierul␣"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:664
-msgid "(required):"
-msgstr "(obligatoriu):"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:684
-msgid "Thumbnail view of "
-msgstr "Vizualizare în miniatură a␣"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:770
-msgid "Confirm Delete Uploaded File"
-msgstr "Confirmă ștergerea fișierului încărcat"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_response.js:796
-msgid "Are you sure you want to delete the following file? It cannot be restored.\n"
-"File: "
-msgstr "Ești sigur/ă că vrei să ștergi următorul fișier? După ștergere, nu va putea fi recuperat.\n"
-"Fișier:␣"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_self.js:138
-msgid "If you leave this page without submitting your self assessment, you will lose any work you have done."
-msgstr "Dacă părăsești această pagină fără să trimiți autoevaluarea, vei pierde ce ai lucrat până acum."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:143
-#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:253
-msgid "Unexpected server error."
-msgstr "Eroare de server."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:147
-msgid "You must provide a learner name."
-msgstr "Trebuie să introduci numele unui cursant."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:214
-msgid "This grade will be applied to all members of the team. Do you want to continue?"
-msgstr "Acest punctaj se va aplica tuturor membrilor echipei. Vrei să continui?"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:218
-msgid "Confirm Grade Team Submission"
-msgstr "Confirmă trimiterea punctajului pentru echipă"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:304
-msgid "Error getting the number of ungraded responses"
-msgstr "Eroare la afișarea numărului de rezolvări fără punctaj."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "If you leave this page without submitting your staff assessment, you will lose any work you have done."
-msgstr "Dacă părăsești această pagină fără să trimiți evaluarea ta ca facilitator, vei pierde ce ai lucrat până acum."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_training.js:130
-msgid "Feedback available for selection."
-msgstr "Feedback disponibil pentru a fi selectat."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-#: openassessment/xblock/static/js/src/lms/oa_peer.js:217
-msgid "If you leave this page without submitting your peer assessment, you will lose any work you have done."
-msgstr "Dacă părăsești această pagină fără să trimiți evaluarea altor cursanți, vei pierde ce ai lucrat până acum."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Peers Assessed"
-msgstr "Cursanți evaluați"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Peer Responses Received"
-msgstr "Rezolvări între cursanți primite"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Time Spent On Current Step"
-msgstr "Timpul petrecut în pasul curent"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Staff assessment"
-msgstr "Evaluarea facilitatorului cursului"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Grade Status"
-msgstr "Status punctaj"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Refresh"
-msgstr "Reîncarcă"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "The \"{name}\" problem is configured to require a minimum of {min_grades} peer grades, and asks to review {min_graded} peers."
-msgstr "Activitatea \"{name}\" necesită minimum {min_grades} punctaj/e de la alți cursanți și presupune să evaluezi la rândul tău și să acorzi punctaj/e pentru minimum {min_graded} cursant/cursanți."
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "There are currently {stuck_learners} learners in the waiting state, meaning they have not yet met all requirements for Peer Assessment. "
-msgstr "Există {stuck_learners} cursanți în așteptare, ceea ce înseamnă că nu au îndeplinit cerințele pentru Evaluarea între cursanți.␣"
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "However, {overwritten_count} of these students have received a grade through the staff grade override tool already."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Error while fetching student data."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
-msgid "Unable to load"
-msgstr "Nu s-a putut încărca"
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_tiny_mce.js:67
-msgid "Preformatted"
-msgstr "Preformatat"
-
-msgid "Heading 3"
-msgstr "Titlu 3"
-
-msgid "Heading 4"
-msgstr "Titlu 4"
-
-msgid "Heading 5"
-msgstr "Titlu 5"
-
-msgid "Heading 6"
-msgstr "Titlu 6"
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_container_item.js:43
-msgid "Unnamed Option"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_container_item.js:53
-msgid "Not Selected"
-msgstr "Nu a fost selectat"
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_rubric.js:124
-msgid "Problem cloning rubric"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:100
-msgid "Criterion Added"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:102
-msgid "You have added a criterion. You will need to select an option for the criterion in the Learner Training step. To do this, click the Assessment Steps tab."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:150
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:186
-msgid "Option Deleted"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:152
-msgid "You have deleted an option. That option has been removed from its criterion in the sample responses in the Learner Training step. You might have to select a new option for the criterion."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:188
-msgid "You have deleted all the options for this criterion. The criterion has been removed from the sample responses in the Learner Training step."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:214
-msgid "Criterion Deleted"
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:216
-msgid "You have deleted a criterion. The criterion has been removed from the example responses in the Learner Training step."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:395
-msgid "Changes to steps that are not selected as part of the assignment will not be saved."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:91
-msgid "File types can not be empty."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:101
-msgid "The following file types are not allowed: "
-msgstr "Următoarele formate de fișiere nu sunt acceptate:␣"
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-#: openassessment/xblock/static/js/src/studio/oa_edit.js:182
-msgid "Save Unsuccessful"
-msgstr "Salvare nereușită"
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-msgid "We've detected errors on the following tabs: "
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-msgid "This ORA has already been released. Changes will only affect learners making new submissions. Existing submissions will not be modified by this change."
-msgstr ""
-
-#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
-msgid "has "
-msgstr "are␣"
-
-#: openassessment/xblock/static/js/src/studio/oa_edit.js:183
-msgid "ve detected errors on the following tabs: ${tabNames.join("
-msgstr ""
-
-msgid "Paragraph"
-msgstr "Paragraf"
-
-#: frontend-customizations/src/accountAddon/AccountForm/validators.js:5
-#: frontend-customizations/src/questionnaire/body/QuestionnaireForm/validators.js:5
-msgid "Required"
-msgstr "Câmp obligatoriu"
-
-#: frontend-customizations/src/accountAddon/basicInfo/index.js:47
-msgid "Country"
-msgstr "Țara în care predau sau studiez"
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:54
-msgid "These settings include basic information about your account."
-msgstr ""
-"Aici completezi informații de bază despre tine și contul tău. Toate "
-"informațiile sunt salvate automat de îndată ce sunt introduse."
-
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:88
-#: frontend-customizations/src/accountAddon/educationInfo/index.js:116
-msgid ""
-"If you don't see an establishment on the list, please check your region and "
-"town information or contact our support."
-msgstr ""
-"Dacă nu îți găsești școala pe listă afișată, verifică în contul tău că ai "
-"selectat județul și localitatea în care se află școala în care predai sau "
-"studiezi."
-
-#: frontend-customizations/src/core/modals/CountryChangeWarning/index.js:10
-msgid ""
-"Changing the country will affect your account information. You will need to "
-"update information related to your country."
-msgstr ""
-"Alegerea unei alte țări va reseta contul tău. Va fi nevoie să actualizezi "
-"informațiile completate deja."
-
-#: frontend-customizations/src/core/modals/IncompleteAccountWarning/index.js:29
-msgid ""
-"To start the course please add all of the required information about the "
-"user on your account page."
-msgstr ""
-"Pentru a putea începe cursul este necesar să completați toate informațiile "
-"din secțiunea ”Cont”."
-
-#: frontend-customizations/src/core/modals/IncompleteAccountWarning/index.js:31
-#: frontend-customizations/src/core/notifications/AccountIncompleteNotification/index.js:14
-msgid "Complete your account information"
-msgstr "Completează acum contul tău"
-
-#: frontend-customizations/src/core/modals/OccupationChangeWarning/index.js:10
-msgid ""
-"Changing the occupation will affect your account information. You will need "
-"to update information related to your occupation."
-msgstr ""
-"Alegerea unei alte ocupații va reseta contul tău. Va fi nevoie să "
-"actualizezi informațiile completate deja."
-
-#: frontend-customizations/src/core/notifications/AccountIncompleteNotification/index.js:20
-msgid "Account Information"
-msgstr "Completează informațiile din cont"
-
-#: frontend-customizations/src/core/notifications/QuestionnaireCompletedNotification/index.js:11
-msgid ""
-"Thank you for sharing with us information about your work. You can update "
-"this information anytime. Enjoy our courses!"
-msgstr ""
-"Mulțumim pentru informațiile transmise. Poți actualiza oricând aceste "
-"informații. Mult succes în învățare!"
-
-#: frontend-customizations/src/core/notifications/QuestionnaireCompletedNotification/index.js:15
-msgid "Update information"
-msgstr "Actualizează chestionarul"
-
-#: frontend-customizations/src/core/notifications/QuestionnaireIncompleteNotification/index.js:11
-#: frontend-customizations/src/core/notifications/QuestionnairePartialNotification/index.js:11
-msgid ""
-"Please share with us the general information that we need for statistics by "
-"filling out a simple questionnaire. After that, hundreds of different "
-"courses on our platform will become available to you."
-msgstr ""
-"Răspunde tuturor întrebărilor din chestionar. Cursurile din platformă pot fi "
-"urmate doar după completarea chestionarului."
-
-#: frontend-customizations/src/questionnaire/header/index.js:13
-msgid ""
-"Please share with us the general information that we need for statistics by "
-"filling out a simple questionnaire."
-msgstr ""
-"Toate cursurile din platformă sunt disponibile doar după completarea "
-"chestionarului din cont."
-
-#: edx-platform/lms/static/js/student_account/views/account_settings_factory.js:353
-msgid "Password change"
-msgstr "Schimbare parolă"
-
-#: edx-platform/lms/static/js/student_account/views/account_settings_factory.js:366
-msgid "If you chose to change your password, you can find the instructions on your email address."
-msgstr "Dacă ai optat pentru schimbarea parolei, găsești instrucțiunile pe adresa de e-mail."
-
-msgid "{num_points} point possible (graded)"
-msgid_plural "{num_points} points possible (graded)"
-msgstr[0] "{num_points} puncte posibile (cu punctaj pentru absolvire)"
-msgstr[1] "{num_points} puncte posibile (cu punctaj pentru absolvire)"
-
-msgid "{num_points} point possible (ungraded)"
-msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] "{num_points} puncte posibile (fără punctaj pentru absolvire)"
-msgstr[1] "{num_points} puncte posibile (fără punctaj pentru absolvire)"
-
-msgid "{earned}/{possible} point (graded)"
-msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned}/{possible} puncte (cu punctaj pentru absolvire)"
-msgstr[1] "{earned}/{possible} puncte (cu punctaj pentru absolvire)"
-
-msgid "{earned}/{possible} point (ungraded)"
-msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "{earned}/{possible} puncte (fără punctaj pentru absolvire)"
-msgstr[1] "{earned}/{possible} puncte (fără punctaj pentru absolvire)"
-
-msgid "Reset"
-msgstr "Resetează"
-
-msgid "Show Answer"
-msgstr "Arată răspunsul"
-
-msgid "You have used {used} of {total} attempts."
-msgstr "Ai utilizat {used} din {total} încercări."
-
-#: lms/static/js/discovery/views/search_form.js
-#, javascript-format
-msgid "Viewing %s course"
-msgid_plural "Viewing %s courses"
-msgstr[0] "Descoperă %s curs"
-msgstr[1] "Descoperă %s cursuri"
-
-msgid "Cannot be a negative number"
-msgstr "Nu poate fi un număr negativ"
-
-msgid "Are you sure?"
-msgstr "Ești sigur/ă?"
-
-msgid ""
-"You have selected “Delete my account.” Account deletion is a permanent and "
-"irreversible action. You will not be able to recover your account or the "
-"data that is deleted."
-msgstr ""
-"Ai selectat “Șterge contul meu”. Ștergerea contului este o acțiune "
-"definitivă și ireversibilă. Contul sau datele șterse nu vor putea fi "
-"recuperate."
-
-msgid "Hints:"
-msgstr "Indicii:"
-
-msgid "Some of your answers were not correct."
-msgstr "Unele răspunsuri sunt greșite."
-
-msgid "Text above the certificate"
-msgstr "Text deasupra certificatului"
-
-msgid "text in English"
-msgstr "text în engleză"
-
-msgid "Text displayed above the certificate in English (max 64 characters)"
-msgstr "Titlu afișat sub certificat în engleză (max 64 caractere)"
-
-msgid "text in Romanian"
-msgstr "text în română"
-
-msgid "Text displayed above the certificate in Romanian (max 64 characters)"
-msgstr "Titlu afișat sub certificat în română (max 64 caractere)"
-
-msgid "Title and body text under the certificate"
-msgstr "Titlu și text sub certificat"
-
-msgid "title in English"
-msgstr "titlu în engleză"
-
-msgid "Title displayed under the certificate in English (max 64 characters)"
-msgstr "Titlu afișat sub certificat în engleză (max 64 caractere)"
-
-msgid "title in Romanian"
-msgstr "titlu în română"
-
-msgid "Title displayed under the certificate in Romanian (max 64 characters)"
-msgstr "Titlu afișat sub certificat în română (max 64 caractere)"
-
-msgid "Text displayed under the certificate in English"
-msgstr "Text afișat sub certificat în engleză"
-
-msgid "Text displayed under the certificate in Romanian"
-msgstr "Text afișat sub certificat în română"
-
-msgid "Certificate logo"
-msgstr "Logo certificat"
-
-msgid "Certificate logo image (.png, .jpg and logo size limit of 5MB)"
-msgstr "Imagine logo certificat (.png, .jpg limita de mărime a logo-ului de 5MB)"
-
-#: frontend-customizations/src/reports/DiscussionsReport/index.js:21
-msgid "Discussions report"
-msgstr "Raport pentru discuții"
-
-#: frontend-customizations/src/reports/DiscussionsReport/index.js:24
-msgid ""
-"In this report, you will download the content of all discussions or a specific "
-"discussion within this course. To download a specific discussion, enter the "
-"discussion ID below. Otherwise, leave the field blank."
-msgstr ""
-"În acest raport, vei avea acces la conținutul tuturor discuțiilor sau al unei "
-"discuții specifice din acest curs. Pentru a descărca o discuție specifică, "
-"introdu mai jos ID-ul discuției. În caz contrar, lasă câmpul necompletat."
-
-#: frontend-customizations/src/reports/DiscussionsReport/index.js:31
-msgid "Download discussions report"
-msgstr "Descarcă raportul pentru discuții"
-
-msgid "Course Info"
-msgstr "Informații despre curs"
-
-msgid "Enrollment data is now available in {dashboard_link}."
-msgstr "Datele de înscriere sunt acum disponibile în {dashboard_link}."
-
-msgid "Cohorts"
-msgstr "Cohorte"
-
-msgid "Extensions"
-msgstr "Extensii"
-
-msgid "Data Download"
-msgstr "Descărcare date"
-
-msgid "Analytics"
-msgstr "Analize date"
-
-msgid "Open Responses"
-msgstr "Răspunsuri deschise"
-
-msgid ""
-"After the course ends, the course content will be archived and no longer "
-"active."
-msgstr "după încheierea cursului, conținutul cursului va fi arhivat și nu va mai fi"
-
-msgid "Course ends"
-msgstr "Cursul se termină"
-
-msgid "Course starts"
-msgstr "Cursul începe"
-
-msgid "Open Response Assessment"
-msgstr "Evaluare a răspunsului deschis"
-

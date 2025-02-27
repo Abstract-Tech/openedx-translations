@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: ORA - djangoJS.po\n"
+"Language: ro\n"
+
+#. @Lesia
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:77
+#: openassessment/xblock/static/js/src/oa_server.js:113
+#: openassessment/xblock/static/js/src/oa_server.js:137
+#, fuzzy
+msgid "This section could not be loaded."
+msgstr "Această secțiune nu s-a încărcat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:158
+msgid "The staff assessment form could not be loaded."
+msgstr "Evaluarea de la facilitatorul cursului nu s-a încărcat."
+
+#. Checked out responses are responses that are currently being graded by you or another course team member.
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:180
+msgid "The display of ungraded and checked out responses could not be loaded."
+msgstr "Afișarea rezolvărilor fără punctaj și a celor care sunt în curs de evaluare, nu s-a încărcat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:214
+msgid "This response could not be submitted."
+msgstr "Rezolvarea nu poate fi trimisă."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:237
+msgid "This response could not be saved."
+msgstr "Rezolvarea nu poate fi salvată."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:262
+msgid "This feedback could not be submitted."
+msgstr "Feedback-ul nu poate fi trimis."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:287
+#: openassessment/xblock/static/js/src/oa_server.js:378
+#: openassessment/xblock/static/js/src/oa_server.js:401
+msgid "This assessment could not be submitted."
+msgstr "Evaluarea nu poate fi trimisă."
+
+#. ?
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:424
+msgid "One or more rescheduling tasks failed."
+msgstr "Una sau mai multe sarcini de reprogramare nu s-au realizat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:483
+msgid "This problem could not be saved."
+msgstr "Activitatea nu poate fi salvată."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:504
+msgid "The server could not be contacted."
+msgstr "Serverul nu a putut fi contactat."
+
+#. ok?
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:530
+msgid "Could not retrieve upload url."
+msgstr "Nu s-a putut prelua adresa URL de încărcare."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:549
+#: openassessment/xblock/static/js/src/oa_server.js:568
+msgid "Server error."
+msgstr "Eroare de server."
+
+#. ok?
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:588
+msgid "Could not retrieve download url."
+msgstr "Nu s-a putut prelua adresa URL de descărcare."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:614
+msgid "The submission could not be removed from the grading pool."
+msgstr "Rezolvarea nu a putut fi eliminată din punctajele acordate."
+
+#. for Lesia, context?
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:670
+#, fuzzy
+msgid "Multiple teams returned for course"
+msgstr "Mai multe echipe au revenit pentru curs"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:677
+msgid "Could not load teams information."
+msgstr "Informațiile despre echipe nu pot fi încărcate."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:699
+msgid "User lookup failed"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:704
+msgid "Error when looking up username"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:728
+msgid "Failed to clone rubric"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:58
+msgid "Unit Name"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:59
+msgid "Units"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:66
+msgid "Assessment"
+msgstr "Evaluare"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:67
+msgid "Assessments"
+msgstr "Evaluări"
+
+#. Număr total de rezolvări
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:74
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:75
+#, fuzzy
+msgid "Total Responses"
+msgstr "Rezolvări totale"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:82
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:83
+msgid "Training"
+msgstr "Antrenament"
+
+#. for RG, do we know where ”Peer” string appears separately? My concern is that if the platform associates peer and assessment, in Romanian would be ”Între cursanți evaluare” which is not the correct topic. The correct topic would be ”Evaluare între cursanți”
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:90
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:91
+#, fuzzy
+msgid "Peer"
+msgstr "Între cursanți"
+
+#. @RG, same as the Peer concern
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:98
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:99
+#, fuzzy
+msgid "Self"
+msgstr "Auto"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:106
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:107
+msgid "Waiting"
+msgstr "În așteptarea"
+
+#. @RG, same as Peer and Self
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:114
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:115
+#, fuzzy
+msgid "Staff"
+msgstr "Facilitator curs"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:122
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:123
+msgid "Final Grade Received"
+msgstr "Punctaj final obținut"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:154
+msgid "List of Open Assessments is unavailable"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:254
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:305
+msgid "Please wait"
+msgstr "Te rugăm să aștepți"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:278
+msgid "Block view is unavailable"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:290
+msgid "Back to Full List"
+msgstr "Înapoi către lista completă"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_confirmation_alert.js:5
+msgid "Confirm"
+msgstr "Confirmă"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_confirmation_alert.js:7
+msgid "Cancel"
+msgstr "Anulează"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Your file "
+msgstr "Fișierul tău␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:357
+msgid "Status of Your Response"
+msgstr "Statusul rezolvării tale"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "This response has not been saved."
+msgstr "Rezolvarea nu a fost salvată."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "If you leave this page without saving or submitting your response, you will lose any work you have done on the response."
+msgstr "Dacă părăsești această pagină fără să salvezi sau să trimiți rezolvarea ta, vei pierde ce ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Saving..."
+msgstr "Se salvează..."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "This response has been saved but not submitted."
+msgstr "Rezolvarea a fost salvată, dar nu trimisă."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Error"
+msgstr "Eroare"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Confirm Submit Response"
+msgstr "Confirmă trimiterea rezolvării"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:492
+msgid "You're about to submit your response for this assignment. After you submit this response, you can't change it or submit a new response."
+msgstr "Urmează să trimiți rezolvarea ta pentru această activitate. După ce o trimiți, aceasta nu mai poate fi completată, modificată sau înlocuită."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:567
+msgid "Individual file size must be {max_files_mb}MB or less."
+msgstr "Dimensiunea fiecărui fișier trebuie să fie de maximum {max_files_mb}MB."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:581
+msgid "File upload failed: unsupported file type. Only the supported file types can be uploaded. If you have questions, please reach out to the course team."
+msgstr "Eroare la încărcarea fișierului: format fișier incompatibil. Doar fișierele în formatele acceptate pot fi încărcate. Dacă apar întrebări suplimentare, te rugăm să ne scrii pe adresa de suport."
+
+#. ?
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#, fuzzy
+msgid "Only "
+msgstr "Doar␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:664
+#: openassessment/xblock/static/js/src/lms/oa_response.js:670
+msgid "Describe "
+msgstr "Descrie fișierul␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:664
+msgid "(required):"
+msgstr "(obligatoriu):"
+
+#. don't know what follows to check if articulated correctly
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:684
+#, fuzzy
+msgid "Thumbnail view of "
+msgstr "Vizualizare în miniatură a␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:770
+msgid "Confirm Delete Uploaded File"
+msgstr "Confirmă ștergerea fișierului încărcat"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:796
+msgid "Are you sure you want to delete the following file? It cannot be restored.\n"
+"File: "
+msgstr "Ești sigur/ă că vrei să ștergi următorul fișier? După ștergere, nu va putea fi recuperat.\n"
+"Fișier:␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_self.js:138
+msgid "If you leave this page without submitting your self assessment, you will lose any work you have done."
+msgstr "Dacă părăsești această pagină fără să trimiți autoevaluarea, vei pierde ce ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:143
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:253
+msgid "Unexpected server error."
+msgstr "Eroare de server."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:147
+msgid "You must provide a learner name."
+msgstr "Trebuie să introduci numele unui cursant."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:214
+msgid "This grade will be applied to all members of the team. Do you want to continue?"
+msgstr "Acest punctaj se va aplica tuturor membrilor echipei. Vrei să continui?"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:218
+msgid "Confirm Grade Team Submission"
+msgstr "Confirmă trimiterea punctajului pentru echipă"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:304
+msgid "Error getting the number of ungraded responses"
+msgstr "Eroare la afișarea numărului de rezolvări fără punctaj."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "If you leave this page without submitting your staff assessment, you will lose any work you have done."
+msgstr "Dacă părăsești această pagină fără să trimiți evaluarea ta ca facilitator, vei pierde ce ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_training.js:130
+msgid "Feedback available for selection."
+msgstr "Feedback disponibil pentru a fi selectat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_peer.js:217
+msgid "If you leave this page without submitting your peer assessment, you will lose any work you have done."
+msgstr "Dacă părăsești această pagină fără să trimiți evaluarea altor cursanți, vei pierde ce ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Username"
+msgstr "Nume de utilizator"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Peers Assessed"
+msgstr "Cursanți evaluați"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Peer Responses Received"
+msgstr "Rezolvări între cursanți primite"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Time Spent On Current Step"
+msgstr "Timpul petrecut în pasul curent"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Staff assessment"
+msgstr "Evaluarea facilitatorului cursului"
+
+#. ok sau Statusul punctajului?
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Grade Status"
+msgstr "Status punctaj"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Refresh"
+msgstr "Reîncarcă"
+
+#. @RG, can we use ”/” to match our plural needs, even if it is not found in the initial English string?
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#, fuzzy
+msgid "The \"{name}\" problem is configured to require a minimum of {min_grades} peer grades, and asks to review {min_graded} peers."
+msgstr "Activitatea \"{name}\" necesită minimum {min_grades} punctaj/e de la alți cursanți și presupune să evaluezi la rândul tău și să acorzi punctaj/e pentru minimum {min_graded} cursant/cursanți."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "There are currently {stuck_learners} learners in the waiting state, meaning they have not yet met all requirements for Peer Assessment. "
+msgstr "Există {stuck_learners} cursanți în așteptare, ceea ce înseamnă că nu au îndeplinit cerințele pentru Evaluarea între cursanți.␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "However, {overwritten_count} of these students have received a grade through the staff grade override tool already."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Error while fetching student data."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Unable to load"
+msgstr "Nu s-a putut încărca"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_tiny_mce.js:66
+msgid "Paragraph"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_tiny_mce.js:67
+msgid "Preformatted"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_tiny_mce.js:68
+msgid "Heading 3"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_tiny_mce.js:69
+msgid "Heading 4"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_tiny_mce.js:70
+msgid "Heading 5"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_tiny_mce.js:71
+msgid "Heading 6"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_container_item.js:43
+msgid "Unnamed Option"
+msgstr ""
+
+#. for Lesia
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_container_item.js:53
+#, fuzzy
+msgid "Not Selected"
+msgstr "Nu a fost selectat"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_rubric.js:124
+msgid "Problem cloning rubric"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:100
+msgid "Criterion Added"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:102
+msgid "You have added a criterion. You will need to select an option for the criterion in the Learner Training step. To do this, click the Assessment Steps tab."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:150
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:186
+msgid "Option Deleted"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:152
+msgid "You have deleted an option. That option has been removed from its criterion in the sample responses in the Learner Training step. You might have to select a new option for the criterion."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:188
+msgid "You have deleted all the options for this criterion. The criterion has been removed from the sample responses in the Learner Training step."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:214
+msgid "Criterion Deleted"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:216
+msgid "You have deleted a criterion. The criterion has been removed from the example responses in the Learner Training step."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:394
+msgid "Warning"
+msgstr "Atenție"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:395
+msgid "Changes to steps that are not selected as part of the assignment will not be saved."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:91
+msgid "File types can not be empty."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:101
+msgid "The following file types are not allowed: "
+msgstr "Următoarele formate de fișiere nu sunt acceptate:␣"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:182
+msgid "Save Unsuccessful"
+msgstr "Salvare nereușită"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+msgid "We've detected errors on the following tabs: "
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+msgid "This ORA has already been released. Changes will only affect learners making new submissions. Existing submissions will not be modified by this change."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#, fuzzy
+msgid "has "
+msgstr "are␣"
+
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:183
+msgid "ve detected errors on the following tabs: ${tabNames.join("
+msgstr ""
+

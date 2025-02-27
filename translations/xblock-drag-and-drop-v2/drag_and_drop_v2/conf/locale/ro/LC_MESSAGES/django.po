@@ -523,27 +523,27 @@ msgstr "Anulează"
 #: utils.py:120
 #, python-brace-format
 msgid "Your highest score is {score}"
-msgstr "Cel mai mare scor al dvs. este {score}."
+msgstr "Cel mai bun punctaj obținut este {score}."
 
 #: utils.py:121
 #, python-brace-format
 msgid "Final attempt was used, highest score is {score}"
 msgstr ""
-"Ultima încercare a fost folosită, cel mai mare scor este {score}."
+"Ai utilizat ultima încercare, cel mai bun punctaj este {score}."
 
 #: utils.py:129
 #, python-brace-format
 msgid "Correctly placed {correct_count} item"
 msgid_plural "Correctly placed {correct_count} items"
-msgstr[0] "Ați plasat corect {correct_count} element"
-msgstr[1] "Ați plasat corect {correct_count} elemente"
+msgstr[0] "Ai plasat corect {correct_count} răspuns(uri)"
+msgstr[1] "Ai plasat corect {correct_count} răspuns(uri)"
 
 #: utils.py:140
 #, python-brace-format
 msgid "Misplaced {misplaced_count} item"
 msgid_plural "Misplaced {misplaced_count} items"
-msgstr[0] "Ați plasat greșit {misplaced_count} element"
-msgstr[1] "Ați plasat greșit {misplaced_count} elemente"
+msgstr[0] "Nu ai plasat corect {misplaced_count} răspuns(uri)"
+msgstr[1] "Nu ai plasat corect {misplaced_count} răspuns(uri)"
 
 #: utils.py:151
 #, python-brace-format
@@ -554,18 +554,16 @@ msgid_plural ""
 "Misplaced {misplaced_count} items (misplaced items were returned to the item"
 " bank)"
 msgstr[0] ""
-"Ați plasat greșit {misplaced_count} element (elementul plasat greșit a fost "
-"returnat la banca de elemente)"
+"Nu ai plasat corect {misplaced_count} răspuns(uri) (Răspunsurile greșite au fost resetate.)"
 msgstr[1] ""
-"Ați plasat greșit {misplaced_count} elemente (elementele plasate greșit au "
-"fost returnate la banca de elemente)"
+"Nu ai plasat corect {misplaced_count} răspuns(uri) (Răspunsurile greșite au fost resetate.)"
 
 #: utils.py:162
 #, python-brace-format
 msgid "Did not place {missing_count} required item"
 msgid_plural "Did not place {missing_count} required items"
-msgstr[0] "Nu ați plasat {missing_count} element necesar"
-msgstr[1] "Nu ați plasat {missing_count} elemente necesare"
+msgstr[0] "Nu ai plasat deloc {missing_count} răspuns(uri)"
+msgstr[1] "Nu ai plasat deloc {missing_count} răspuns(uri)"
 
 #: public/js/drag_and_drop.js:48 public/js/drag_and_drop.js:399
 msgid "Submitting"
@@ -686,7 +684,7 @@ msgstr ""
 
 #: public/js/drag_and_drop.js:389
 msgid "You have used {used} of {total} attempts."
-msgstr "Ați folosit {used} din {total} încercări."
+msgstr "Ai utilizat {used} din {total} încercări."
 
 #: public/js/drag_and_drop.js:412
 msgid "Submit"
@@ -710,11 +708,11 @@ msgstr "Resetează"
 
 #: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1233
 msgid "Some of your answers were not correct."
-msgstr "Unele dintre răspunsurile dvs. nu au fost corecte."
+msgstr "Unele răspunsuri sunt greșite."
 
 #: public/js/drag_and_drop.js:507 public/js/drag_and_drop.js:1236
 msgid "Hints:"
-msgstr "Sugestii:"
+msgstr "Indicii:"
 
 #: public/js/drag_and_drop.js:577
 msgid "Correct"

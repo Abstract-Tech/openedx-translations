@@ -1,0 +1,2425 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: ORA - django.po\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+
+#: openassessment/assessment/api/student_training.py:178
+msgid "Could not parse serialized rubric"
+msgstr ""
+
+#: openassessment/assessment/api/student_training.py:190
+msgid "If your assignment includes a learner training step, the rubric must have at least one criterion, and that criterion must have at least one option."
+msgstr ""
+
+#: openassessment/assessment/api/student_training.py:202
+msgid "Example {example_number} has a validation error: {error}"
+msgstr ""
+
+#: openassessment/assessment/api/student_training.py:216
+msgid "Example {example_number} has an invalid option for \"{criterion_name}\": \"{option_name}\""
+msgstr ""
+
+#: openassessment/assessment/api/student_training.py:226
+msgid "Example {example_number} has an extra option for \"{criterion_name}\""
+msgstr ""
+
+#: openassessment/assessment/api/student_training.py:239
+msgid "Example {example_number} is missing an option for \"{criterion_name}\""
+msgstr ""
+
+#: openassessment/data.py:531
+msgid "Criterion {number}: {label}"
+msgstr ""
+
+#: openassessment/data.py:533
+msgid "Points {number}"
+msgstr "Puncte {number}"
+
+#: openassessment/data.py:534
+msgid "Median Score {number}"
+msgstr "Punctaj median {number}"
+
+#: openassessment/data.py:535
+msgid "Feedback {number}"
+msgstr "Feedback {number}"
+
+#: openassessment/data.py:862
+msgid "Item ID"
+msgstr ""
+
+#: openassessment/data.py:863
+msgid "Submission ID"
+msgstr ""
+
+#: openassessment/data.py:875
+msgid "Anonymized Student ID"
+msgstr ""
+
+#: openassessment/data.py:906
+msgid "Assessment ID"
+msgstr "ID-ul evaluării"
+
+#: openassessment/data.py:907
+msgid "Assessment Scored Date"
+msgstr "Data evaluării"
+
+#: openassessment/data.py:908
+msgid "Assessment Scored Time"
+msgstr "Ora evaluării"
+
+#: openassessment/data.py:909
+msgid "Assessment Type"
+msgstr "Tipul de evaluare"
+
+#: openassessment/data.py:910
+msgid "Anonymous Scorer Id"
+msgstr ""
+
+#: openassessment/data.py:912
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:59
+msgid "Overall Feedback"
+msgstr "Feedback general"
+
+#: openassessment/data.py:913
+msgid "Assessment Score Earned"
+msgstr "Punctaj obținut"
+
+#: openassessment/data.py:914
+msgid "Assessment Scored At"
+msgstr "Punctaj acordat la"
+
+#: openassessment/data.py:915
+msgid "Date/Time Final Score Given"
+msgstr "Data/ora acordării punctajului final"
+
+#: openassessment/data.py:916
+msgid "Final Score Earned"
+msgstr "Punctaj final obținut"
+
+#: openassessment/data.py:917
+msgid "Final Score Possible"
+msgstr "Punctaj final posibil"
+
+#: openassessment/data.py:918
+msgid "Feedback Statements Selected"
+msgstr "Mesaje de feedback selectate"
+
+#: openassessment/data.py:919
+msgid "Feedback on Assessment"
+msgstr "Feedback despre evaluare"
+
+#: openassessment/data.py:921
+msgid "Response Files"
+msgstr "Fișierele rezolvării"
+
+#: openassessment/data.py:1363
+msgid "No description provided."
+msgstr "Nu a fost furnizată nicio descriere."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:28
+msgid "Save"
+msgstr "Salvează"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:32
+msgid "Cancel"
+msgstr "Anulează"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_assessment_steps.html:6
+msgid "Open Response Assessments allow you to configure single or multiple steps in a rubric based open response assessment sequence. The steps available below can be enabled, disable, and ordered for a flexible set of pedagogical needs."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:5
+msgid "Display Name "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:8
+msgid "The display name for this component."
+msgstr "Numele afișat pentru această componentă."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:12
+msgid "Text Response"
+msgstr "Răspuns text"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:20
+msgid "Specify whether learners must include a text based response to this problem's prompt."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:25
+msgid "Response Editor"
+msgstr "Editorul rezolvării"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:33
+msgid "Select which editor learners will use to include a text based response to this problem's prompt."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:38
+msgid "File Uploads Response"
+msgstr "Fișierele încărcate pentru rezolvare"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:46
+msgid "Specify whether learners are able to upload files as a part of their response."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:50
+msgid "Allow Multiple Files"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:52
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:93
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:131
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:157
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:45
+msgid "False"
+msgstr "Fals"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:53
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:94
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:132
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:158
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:46
+msgid "True"
+msgstr "Adevărat"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:56
+msgid "Specify whether learners can upload more than one file. This has no effect if File Uploads Response is set to None. This is automatically set to True for Team Assignments. "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:58
+msgid "File Upload Types"
+msgstr "Formate acceptate de fișiere"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:60
+msgid "PDF or Image Files"
+msgstr "PDF sau fișiere imagine"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:61
+msgid "Image Files"
+msgstr "Fișiere imagine"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:62
+msgid "Custom File Types"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:66
+msgid "Specify whether learners can submit files along with their text responses."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:70
+msgid "File Types"
+msgstr "Formate de fișiere"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:79
+msgid "Enter the file extensions, separated by commas, that you want learners to be able to upload. For example: pdf,doc,docx."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
+msgid "To add more file extensions, select Custom File Types and enter the full list of acceptable file extensions to be included."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:91
+msgid "Allow LaTeX Responses"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:97
+msgid "Specify whether learners can write LaTeX formatted strings"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:102
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_show.html:8
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_waiting.html:10
+msgid "Top Responses"
+msgstr "Rezolvări cu cele mai bune punctaje"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:104
+msgid " (Disabled)"
+msgstr " (Dezactivat)"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:117
+msgid "Specify the number of top scoring responses to display. Valid numbers are 0 to 99. If the number is 0, the Top Responses section does not appear to learners."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:122
+msgid "When Teams Enabled is set to true, Top Responses will be disabled."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:129
+msgid "Teams Enabled"
+msgstr "Echipe active"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:136
+msgid "Specify whether team submissions are allowed for this response."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:141
+msgid "Select Team-Set"
+msgstr "Selectează subiectul echipei"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:155
+msgid "Show Rubric During Response"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:162
+msgid "Specify whether learners can see the rubric while they are working on their response."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:6
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:122
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:25
+msgid "Criterion"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:7
+msgid "You cannot delete a criterion after the assignment has been released."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:9
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:7
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompt.html:10
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:10
+msgid "Remove"
+msgstr "Elimină"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:17
+msgid "Criterion Name"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:29
+msgid "Criterion Prompt"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:44
+msgid "Add Option"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:52
+msgid "Feedback for This Criterion"
+msgstr "Feedback pentru acest criteriu"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:54
+#: openassessment/xblock/studio_mixin.py:51
+msgid "None"
+msgstr "Nimic"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:55
+#: openassessment/xblock/studio_mixin.py:50
+msgid "Optional"
+msgstr "Opțional"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:56
+#: openassessment/templates/openassessmentblock/oa_rubric.html:13
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:93
+#: openassessment/xblock/studio_mixin.py:49
+msgid "Required"
+msgstr "Obligatoriu"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:61
+msgid "Select one of the options above. This describes whether or not the reviewer will have to provide criterion feedback."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:3
+msgid "Open Response Assessment"
+msgstr "Evaluare cu răspuns deschis"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:8
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompt.html:7
+msgid "Prompt"
+msgstr "Cerințe temă"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:15
+msgid "Rubric"
+msgstr "Grila de evaluare"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:22
+msgid "Schedule"
+msgstr "Program"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:29
+msgid "Assessment steps"
+msgstr "Pașii evaluării"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:36
+msgid "Settings"
+msgstr "Setări"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:5
+msgid "Option"
+msgstr "Opțiune"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:16
+msgid "Option Name"
+msgstr "Numele opțiunii"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:29
+msgid "Option Points"
+msgstr "Punctele opțiunii"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:42
+msgid "Option Explanation"
+msgstr "Explicația opțiunii"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:10
+msgid "Step: Peer Assessment"
+msgstr "Pas: Evaluare între cursanți"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:15
+msgid "Peer Assessment allows students to provide feedback to other students and also receive feedback from others in their final grade. Often, though not always, this step is preceded by Self Assessment or Learner Training steps."
+msgstr "Evaluarea între cursanți le permite cursanților să își ofere feedback unii altora. Uneori, acest pas de evaluare este precedat de antrenamentul pentru evaluare sau de o autoevaluare."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:18
+msgid "Configuration: For this step to be configured you must specify the number of peer reviews a student will be assessed with, and the number of peer a student must grade. Additional options can be specified."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:23
+msgid "View Options & Configuration"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:29
+msgid "Must Grade"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:32
+msgid "Specify the number of peer assessments that each learner must complete. Valid numbers are 1 to 99."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:36
+msgid "Graded By"
+msgstr "Evaluat de"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:39
+msgid "Specify the number of learners that each response must be assessed by. Valid numbers are 1 to 99."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:43
+msgid "Enable Flexible Peer Grade Averaging"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:49
+msgid "When enabled, learners who have received at least 30%% of the required \\"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment_schedule.html:5
+msgid "Peer Assessment Deadlines"
+msgstr "Termenele limită pentru evaluarea între cursanți"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment_schedule.html:10
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment_schedule.html:10
+msgid "Start Date"
+msgstr "Data de începere"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment_schedule.html:19
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment_schedule.html:19
+msgid "Start Time"
+msgstr "Ora de începere"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment_schedule.html:27
+msgid "The date and time when learners can begin assessing peer responses."
+msgstr "Data și ora la care cursanții pot începe să evalueze rezolvările altor cursanți."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment_schedule.html:31
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment_schedule.html:31
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:110
+msgid "Due Date"
+msgstr "Termen limită"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment_schedule.html:40
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment_schedule.html:40
+msgid "Due Time"
+msgstr "Ora limită"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment_schedule.html:48
+msgid "The date and time when all peer assessments must be complete."
+msgstr "Data și ora la care toate evaluările între cursanți trebuie finalizate."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompt.html:8
+msgid "You cannot delete a prompt after the assignment has been released."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompts.html:10
+msgid "Prompts. Replace the sample text with your own text. For more information, see the ORA documentation."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompts.html:22
+msgid "Add Prompt"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:14
+msgid "Rubrics are made up of criteria, which usually contain one or more options. Each option has a point value. This template contains two sample criteria and their options. Replace the sample text with your own text. For more information, see the ORA documentation."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:29
+msgid "Add Criterion"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:35
+msgid "Feedback for This Response"
+msgstr "Feedback pentru această rezolvare"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:40
+msgid "Feedback Instructions"
+msgstr "Instrucțiuni de acordare a feedback-ului"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:44
+msgid "Encourage learners to provide feedback on the response they have graded. You can replace the sample text with your own."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:49
+msgid "Default Feedback Text"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:53
+msgid "Enter feedback text that learners will see before they enter their own feedback. Use this text to show learners a good example peer assessment."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:5
+msgid "Course Deadlines"
+msgstr "Termenele limită ale cursului"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:13
+msgid "Response Start Date"
+msgstr "Data de începere a rezolvării"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:26
+msgid "Response Start Time"
+msgstr "Ora de începere a rezolvării"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:35
+msgid "The date and time when learners can begin submitting responses."
+msgstr "Data și ora la care cursanții pot începe să trimită rezolvările."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:43
+msgid "Response Due Date"
+msgstr "Termenul limită al rezolvării"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:56
+msgid "Response Due Time"
+msgstr "Ora limită a rezolvării"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:65
+msgid "The date and time when learners can no longer submit responses."
+msgstr "Data și ora de la care cursanții nu mai pot trimite rezolvări."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:8
+msgid "Step: Self Assessment"
+msgstr "Pas: Autoevaluare"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:12
+msgid "Self Assessment asks learners to grade their own submissions against the rubric."
+msgstr "În pasul de Autoevaluare cursanții își acordă singuri punctajul pentru rezolvarea lor pe baza grilei de evaluare."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment_schedule.html:5
+msgid "Self Assessment Deadlines"
+msgstr "Termenele limită pentru autoevaluare"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment_schedule.html:27
+msgid "The date and time when learners can begin assessing their responses."
+msgstr "Data și ora la care cursanții pot începe să-și autoevalueze rezolvările."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment_schedule.html:48
+msgid "The date and time when all self assessments must be complete."
+msgstr "Data și ora la care toate autoevaluările trebuie finalizate."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_staff_assessment.html:8
+msgid "Step: Staff Assessment"
+msgstr "Pas: Evaluare de la facilitatorul cursului"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_staff_assessment.html:12
+msgid "Staff Assessment gates sets the final grade for students if enabled with other steps, though it can also be used as a standalone step."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:9
+msgid "Step: Learner Training"
+msgstr "Pasul: Antrenament pentru evaluare"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:14
+msgid "Learner Training is used to help students practice grading a simulated peer submission in order to train them on the rubric and ensure learner's understand the rubric for either Self or Peer Assessment steps."
+msgstr "Antrenamentul pentru evaluare îi ajută pe cursanți să simuleze evaluarea unei rezolvări, cu scopul de a se antrena în aplicarea grilei de evaluare. Astfel cursantul înțelege grila de evaluare și o poate aplica mai departe în curs atât pentru o autoevaluare, cât și pentru o evaluare între cursanți."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:17
+msgid "Configuration: For this step to be fully configured you must provide one or more graded sample responses. Learners must then match this instructor score to advance and are provided feedback when their score doesn't match the sample response."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:22
+msgid "View / Add Sample Responses"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:32
+msgid "Add Sample Response"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_rubric_reuse.html:4
+msgid "Clone Rubric"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_rubric_reuse.html:7
+msgid "To clone a rubric from an existing published or unpublished draft, you can search by the Block ID. Note that cloning is one-way, meaning changes made after cloning will only affect the rubric being modified, and will not modify any rubric it was cloned from."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_rubric_reuse.html:9
+msgid "Block ID For this ORA:"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_rubric_reuse.html:19
+msgid "Block ID"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_rubric_reuse.html:21
+msgid "No other Open Response Assessments found in course"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_rubric_reuse.html:31
+msgid "Clone"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_rubric_reuse.html:37
+msgid "Rubric Successfully Cloned from Block ID: "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:7
+msgid "Scored Response"
+msgstr "Rezolvare cu punctaj"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:16
+msgid "Response Score"
+msgstr "Punctajul rezolvării"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:27
+msgid "Response"
+msgstr "Rezolvare"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example_criterion.html:10
+msgid "Not Selected"
+msgstr "Nu a fost selectat"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example_criterion.html:15
+#: openassessment/templates/openassessmentblock/oa_rubric.html:43
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:128
+msgid "points"
+msgstr "puncte"
+
+#: openassessment/templates/openassessmentblock/grade/oa_assessment_feedback.html:8
+msgid "\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
+"              "
+msgstr "\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/grade/oa_assessment_title.html:7
+msgid "\n"
+"                      %(assessment_title)s - %(points)s point\n"
+"                  "
+msgid_plural "\n"
+"                      %(assessment_title)s - %(points)s points\n"
+"                  "
+msgstr[0] "\n"
+"                      %(assessment_title)s - %(points)s punct\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr[1] "\n"
+"                      %(assessment_title)s - %(points)s puncte\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr[2] "\n"
+"                      %(assessment_title)s - %(points)s de puncte\n"
+"                  "
+
+#: openassessment/templates/openassessmentblock/grade/oa_assessment_title.html:24
+msgid "More information about %(name)s"
+msgstr "Mai multe informații despre %(name)s"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_cancelled.html:14
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:15
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:26
+#: openassessment/templates/openassessmentblock/grade/oa_grade_incomplete.html:14
+#: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html:14
+#: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html:14
+msgid "Your Grade"
+msgstr "Punctajul tău"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_cancelled.html:19
+msgid "\n"
+"                                        %(points_earned)s out of %(points_possible)s\n"
+"                                    "
+msgstr "\n"
+"                                        %(points_earned)s din %(points_possible)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_cancelled.html:38
+msgid "Your submission has been cancelled."
+msgstr "Rezolvarea ta fost anulată."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:19
+msgid "\n"
+"                                            %(points_earned)s out of %(points_possible)s\n"
+"                                        "
+msgstr "\n"
+"                                            %(points_earned)s din %(points_possible)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:38
+#: openassessment/templates/openassessmentblock/response/oa_response.html:29
+msgid "Your Response"
+msgstr "Rezolvarea ta"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:41
+msgid "Your Upload"
+msgstr "Fișiere încărcate"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:46
+msgid "Assessments of Your Response"
+msgstr "Evaluările rezolvării tale"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:50
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:132
+#: openassessment/templates/openassessmentblock/grade/oa_grade_incomplete.html:28
+#: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html:28
+#: openassessment/templates/openassessmentblock/message/oa_message_cancelled.html:4
+#: openassessment/templates/openassessmentblock/message/oa_message_closed.html:4
+#: openassessment/templates/openassessmentblock/message/oa_message_complete.html:4
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:4
+#: openassessment/templates/openassessmentblock/peer/oa_peer_closed.html:33
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:30
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:40
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:34
+#: openassessment/templates/openassessmentblock/peer/oa_peer_waiting.html:34
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:31
+#: openassessment/templates/openassessmentblock/response/oa_response_closed.html:29
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:30
+#: openassessment/templates/openassessmentblock/response/oa_response_team_already_submitted.html:25
+#: openassessment/templates/openassessmentblock/self/oa_self_closed.html:30
+#: openassessment/templates/openassessmentblock/student_training/student_training_closed.html:27
+msgid "Status"
+msgstr "Status"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:65
+msgid "Overall Grade"
+msgstr "Punctaj general"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:70
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:28
+msgid "Points"
+msgstr "Puncte"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:96
+msgid "Additional comments on your response"
+msgstr "Observații suplimentare la rezolvarea ta"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:117
+msgid "Provide feedback on peer assessments"
+msgstr "Oferă feedback despre cum ai fost evaluat de alți cursanți."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:126
+msgid "Submitting Feedback"
+msgstr "Trimiterea feedback-ului"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:134
+msgid "Your feedback has been submitted. Course staff will be able to see this feedback when they review course records."
+msgstr "Feedback-ul tău a fost trimis. Facilitatorul cursului va vedea feedback-ul tău atunci când verifică activitățile din curs."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:140
+msgid "Course staff will be able to see any feedback that you provide here when they review course records."
+msgstr "Facilitatorul cursului va vedea feedback-ul tău atunci când verifică activitățile din curs."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:146
+msgid "Select the statements below that best reflect your experience with peer assessments."
+msgstr "Alege dintre afirmațiile de mai jos pe cele care descriu cel mai bine experiența ta cu evaluarea între cursanți."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:155
+msgid "These assessments were useful."
+msgstr "Aceste evaluări au fost utile."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:164
+msgid "These assessments were not useful."
+msgstr "Aceste evaluări nu au fost utile."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:173
+msgid "I disagree with one or more of the peer assessments of my response."
+msgstr "Nu sunt de acord cu una sau mai multe dintre evaluările rezolvării mele, primite de la alți cursanți."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:182
+msgid "Some comments I received were inappropriate."
+msgstr "Unele observații pe care le-am primit au fost nepotrivite."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:187
+msgid "Provide feedback on the grade or comments that you received from your peers."
+msgstr "Oferă feedback despre punctajul sau observațiile pe care le-ai primit de la alți cursanți."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:190
+msgid "I feel the feedback I received was..."
+msgstr "Consider că feedback-ul primit a fost..."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:200
+msgid "We could not submit your feedback"
+msgstr "Nu am putut trimite feedback-ul tău"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:206
+msgid "Submit feedback on peer assessments"
+msgstr "Trimite feedback despre cum ai fost evaluat de alți cursanți."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_incomplete.html:16
+msgid "Not Completed"
+msgstr "Nu e finalizat"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_incomplete.html:33
+msgid "You have not completed all the steps of this problem."
+msgstr "Nu ai finalizat toți pașii acestei activități."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html:16
+msgid "Not Started"
+msgstr "Nu ai început"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html:27
+msgid "You have not started this problem yet."
+msgstr "Trebuie să începi activitatea ca să poți obține un punctaj."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html:16
+msgid "Waiting for Assessments"
+msgstr "În așteptarea evaluărilor"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html:33
+msgid "You have completed your steps in the assignment, but some assessments still need to be done on your response. When the assessments of your response are complete, you will see feedback from everyone who assessed your response, and you will receive your final grade."
+msgstr "Ai finalizat pașii tăi pentru această activitate, dar evaluările rezolvării tale nu au fost încă finalizate. Vei primi punctajul de îndată ce evaluările rezolvării tale vor fi finalizate."
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_grade_available_responses.html:15
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:15
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:144
+msgid "Grade Available Responses"
+msgstr "Acordă punctaj rezolvărilor disponibile"
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_grade_available_responses.html:26
+msgid "Grade Available Responses is unavailable. This item is not configured for Staff Assessment."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_listing.html:6
+msgid "Please wait"
+msgstr "Te rugăm să aștepți"
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_waiting_step_details.html:15
+msgid "Waiting Step Details"
+msgstr "Detaliile pasului În așteptare"
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_waiting_step_details.html:24
+msgid "Waiting Step details view is unavailable. This item is not configured for peer assessments."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_show.html:20
+msgid "%(num_points)s points"
+msgstr "%(num_points)s puncte"
+
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_show.html:24
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:74
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:53
+msgid "Your peer's response to the prompt above"
+msgstr "Rezolvarea unui alt cursant la cerințele temei de mai sus"
+
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_waiting.html:19
+msgid "After you complete all the steps of this assignment, you can see the top-scoring responses from your peers."
+msgstr "După ce finalizezi toți pașii acestei activități, poți vedea câteva rezolvări ale altor cursanți care au obținut cele mai bune punctaje."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_cancelled.html:8
+msgid "Your team’s submission has been cancelled. Your team will receive a grade of zero unless course staff resets your assessment to allow the team to resubmit a response."
+msgstr "Rezolvarea echipei tale a fost anulată. Echipa ta va primi punctaj 0 / zero dacă facilitatorul cursului nu va reseta evaluarea pentru a vă permite să trimiteți rezolvarea din nou."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_cancelled.html:10
+msgid "Your submission has been cancelled. You will receive a grade of zero unless course staff resets your assessment to allow you to resubmit a response."
+msgstr "Rezolvarea ta a fost anulată. Vei primi punctaj 0 / zero dacă facilitatorul cursului nu va reseta evaluarea pentru a-ți permite să trimiți rezolvarea din nou."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_closed.html:8
+msgid "This task is not yet available. Check back to complete the assignment once this section has opened."
+msgstr "Această activitate nu este încă disponibilă. Revino pentru a finaliza activitatea de îndată ce acest pas va fi deschis."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_closed.html:10
+msgid "This assignment has closed. One or more deadlines for this assignment have passed. You will receive an incomplete grade for this assignment."
+msgstr "Această activitate s-a încheiat. Unul sau mai multe termene limită au expirat. Punctajul pe care îl vei primi pentru această activitate va fi incomplet."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_complete.html:8
+msgid "You have completed this assignment. Your final grade will be available when the assessments of your response are complete."
+msgstr "Ai finalizat această activitate. Punctajul tău va fi disponibil de îndată ce evaluările rezolvării tale vor fi finalizate."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_complete.html:10
+msgid "You have completed this assignment. Review your grade and your assessment details."
+msgstr "Ai finalizat această activitate. Verifică mai jos detaliile despre evaluare și despre punctajul obținut."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:9
+msgid "This assignment is in progress. Learner training will close soon. Complete the learner training step to move on."
+msgstr "Această activitate este în curs de realizare. Antrenamentul pentru evaluare al cursanților se va încheia în curând. Finalizează antrenamentul pentru a merge mai departe."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:11
+msgid "This assignment is in progress. Complete the learner training step to move on."
+msgstr "Această activitate este în curs de realizare. Finalizează pasul de antrenament pentru evaluare ca să treci mai departe."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:15
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:33
+msgid "This assignment is in progress. Check back later when the assessment period has started."
+msgstr "Această activitate este în curs de realizare. Revino la acest pas în perioada următoare, când e planificată să înceapă evaluarea."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:20
+msgid "\n"
+"                                    %(start_strong)sThis assignment is in progress. The self assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                "
+msgstr "\n"
+"                                    %(start_strong)sAceastă activitate este în curs de realizare. Pasul de autoevaluare se va încheia în curând.%(end_strong)s Mai este nevoie să finalizezi pasul de %(start_link)sautoevaluare%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:24
+msgid "\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                "
+msgstr "\n"
+"                                    Această activitate este în curs de realizare. Mai este nevoie să finalizezi pasul de %(start_link)sautoevaluare%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:38
+msgid "\n"
+"                                    This assignment is in progress.%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr "\n"
+"                                    Această activitate este în curs de realizare.%(start_strong)sPasul de evaluare între cursanți se va încheia în curând.%(end_strong)s Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:42
+msgid "\n"
+"                                    This assignment is in progress. All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr "\n"
+"                                    Această activitate este în curs de realizare. Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:46
+msgid "\n"
+"                                    This assignment is in progress. %(start_strong)sThe peer assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr "\n"
+"                                    Această activitate este în curs de realizare. %(start_strong)sPasul de evaluare între cursanți se va încheia în curând.%(end_strong)s Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:50
+msgid "\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr "\n"
+"                                    Această activitate este în curs de realizare. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_no_team.html:4
+msgid "Team membership is required to view this assignment"
+msgstr "Trebuie să fii membru al echipei pentru a vedea această activitate"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_no_team.html:7
+msgid "\n"
+"            This is a team assignment for team-set \"%(teamset_name)s\".\n"
+"            You are currently not on a team in team-set \"%(teamset_name)s\".\n"
+"            You must be on a team in team-set \"%(teamset_name)s\" to access this team assignment.\n"
+"            "
+msgstr "\n"
+"            Aceasta este o activitate de echipă în cadrul subiectului \"%(teamset_name)s\".\n"
+"            Momentan nu faci parte dintr-o echipă din cadrul subiectului \"%(teamset_name)s\".\n"
+"            Este nevoie să fii într-o echipă din cadrul subiectului \"%(teamset_name)s\" pentru a avea acces la aceasta activitate a echipei.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:7
+msgid "\n"
+"                    Assignment submissions will close soon. To receive a grade, first provide a response to the prompt, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr "\n"
+"                    Perioada de trimitere a rezolvărilor pentru această activitate se va încheia în curând. Pentru a obține un punctaj, trimite Rezolvarea ta la Cerințele temei, apoi finalizează pașii care urmează sub %(start_tag)sRezolvarea ta%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:11
+msgid "\n"
+"                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr "\n"
+"                    Această activitate se realizează în mai mulți pași. În primul pas, vei trimite Rezolvarea ta la Cerințele temei. Ceilalți pași apar mai jos sub %(start_tag)sRezolvarea ta%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_unavailable.html:4
+msgid "Instructions Unavailable"
+msgstr "Instrucțiuni indisponibile"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_unavailable.html:6
+msgid "The instructions for this step could not be loaded."
+msgstr "Instrucțiunile pentru acest pas nu au putut fi încărcate."
+
+#: openassessment/templates/openassessmentblock/oa_base.html:15
+msgid "This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the Your Response field."
+msgstr "Această activitate se realizează în mai mulți pași. În primul pas, vei trimite Rezolvarea ta la Cerințele temei de mai jos. Ceilalți pași apar mai jos și pot fi parcurși pe măsură ce devin disponibili."
+
+#: openassessment/templates/openassessmentblock/oa_base.html:36
+msgid "Loading"
+msgstr "Se încarcă"
+
+#: openassessment/templates/openassessmentblock/oa_latex_preview.html:7
+msgid "Preview in LaTeX"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/oa_latex_preview.html:10
+msgid "Click to preview your submission in LaTeX."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/oa_latex_preview.html:15
+msgid "Preview Response"
+msgstr "Previzualizează rezolvarea"
+
+#: openassessment/templates/openassessmentblock/oa_rubric.html:53
+msgid "Comments"
+msgstr "Observații"
+
+#: openassessment/templates/openassessmentblock/oa_submission_answer.html:8
+msgid "The question for this section"
+msgstr "Cerințele temei"
+
+#: openassessment/templates/openassessmentblock/oa_team_uploaded_files.html:8
+msgid "Files that were uploaded by your teammates:"
+msgstr "Fișierele încărcate de colegii tăi de echipă:"
+
+#: openassessment/templates/openassessmentblock/oa_team_uploaded_files.html:27
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:34
+msgid "View the files associated with this submission:"
+msgstr "Vezi fișierele încărcate pentru această rezolvare:"
+
+#: openassessment/templates/openassessmentblock/oa_team_uploaded_files.html:31
+msgid "Uploaded by"
+msgstr "Încărcat de"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:16
+msgid "Files that were uploaded by you:"
+msgstr "Fișierele încărcate de tine:"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:48
+msgid "Caution: These files were uploaded by another course learner and have not been verified, screened, approved, reviewed, or endorsed by the site administrator. If you access the files, you do so at your own risk.)"
+msgstr "Atenție: Aceste fișiere au fost încărcate de un alt cursant și NU au fost verificate, scanate, analizate sau aprobate de facilitatorul cursului. Accesarea fișierelor se face pe proprie răspundere."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:26
+msgid "Assess Peers"
+msgstr "Evaluează alți cursanți"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:34
+msgid "\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
+msgstr "\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:41
+msgid "\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
+msgstr "\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:51
+msgid "\n"
+"                    In Progress (%(review_number)s of %(num_must_grade)s)\n"
+"                "
+msgstr "\n"
+"                    În lucru (%(review_number)s din %(num_must_grade)s)\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:65
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:45
+msgid "Read and assess the following response from one of your peers."
+msgstr "Parcurge și evaluează următoarea rezolvare trimisă de un alt cursant."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:77
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:56
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:60
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:45
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:38
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:63
+msgid "Associated Files"
+msgstr "Fișiere încărcate"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:91
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:70
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:71
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:57
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:50
+msgid "We could not submit your assessment"
+msgstr "Nu am putut trimite evaluarea ta"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_cancelled.html:19
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:21
+#: openassessment/templates/openassessmentblock/self/oa_self_cancelled.html:21
+#: openassessment/templates/openassessmentblock/student_training/student_training_cancelled.html:18
+#: openassessment/xblock/staff_assessment_mixin.py:210
+msgid "Cancelled"
+msgstr "Anulat"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_closed.html:20
+msgid "\n"
+"            Incomplete (%(num_graded)s of %(num_must_grade)s)\n"
+"        "
+msgstr "\n"
+"            Nefinalizat (%(num_graded)s din %(num_must_grade)s)\n"
+"␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_closed.html:35
+msgid "The due date for this step has passed. This step is now closed. You can no longer complete peer assessments or continue with this assignment, and you will receive a grade of Incomplete."
+msgstr "Termenul limită pentru acest pas a expirat. Acest pas este acum închis. Deoarece nu mai poți finaliza evaluarea între cursanți și nu poți continua această activitate, punctajul tău va fi Incomplet."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:13
+msgid "Completed"
+msgstr "Finalizat"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:31
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:41
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:36
+msgid "You have successfully completed all of the required peer assessments for this assignment. You may assess additional peer responses if you want to. Completing additional assessments will not affect your final grade."
+msgstr "Ai finalizat de evaluat toate rezolvările necesare pentru această activitate. Opțional, poți evalua suplimentar și alte rezolvări. Evaluarea suplimentară nu va influența în niciun fel punctajul tău final."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:36
+msgid "We could not retrieve additional submissions for assessment"
+msgstr "Nu am putut prelua rezolvări suplimentare pentru evaluare"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:43
+msgid "Continue Assessing Peers"
+msgstr "Continuă evaluarea altor cursanți"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:26
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:20
+msgid "\n"
+"        Complete (%(num_graded)s)\n"
+"      "
+msgstr "\n"
+"        Finalizat (%(num_graded)s)\n"
+"␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:38
+msgid "All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses."
+msgstr "Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_unavailable.html:16
+#: openassessment/templates/openassessmentblock/response/oa_response_unavailable.html:17
+#: openassessment/templates/openassessmentblock/self/oa_self_unavailable.html:17
+#: openassessment/templates/openassessmentblock/student_training/student_training_unavailable.html:16
+#: openassessment/xblock/staff_assessment_mixin.py:203
+#: openassessment/xblock/staff_assessment_mixin.py:227
+msgid "Not Available"
+msgstr "Pas închis momentan"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_waiting.html:20
+msgid "\n"
+"          In Progress (%(review_number)s of %(num_must_grade)s)\n"
+"        "
+msgstr "\n"
+"          În lucru (%(review_number)s din %(num_must_grade)s)\n"
+"␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_waiting.html:37
+msgid "All available peer responses have been assessed. Check back later to see if more learners have submitted responses. You will receive your grade after you've completed all the steps for this problem and your peers have assessed your response."
+msgstr "Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Vei primi punctajul după ce finalizezi toți pașii din activitate și rezolvarea ta este evaluată complet de numărul necesar de cursanți."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:27
+msgid "Your Team's Response"
+msgstr "Rezolvarea echipei tale"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:39
+msgid "\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
+msgstr "\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:46
+msgid "\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
+msgstr "\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:54
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:46
+msgid "In Progress"
+msgstr "Pas în lucru"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:66
+msgid "Enter your team's response to the prompt."
+msgstr "Completează rezolvarea echipei tale la cerințele temei."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:68
+msgid "\n"
+"                        You can save your progress and return to complete your team's response at any time before the due date\n"
+"                      "
+msgstr "\n"
+"                        Poți salva ce ai lucrat, apoi poți reveni pentru a finaliza rezolvarea echipei tale oricând până la termenul limită\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:81
+msgid "\n"
+"                        You can save your progress and return to complete your team's response at any time.\n"
+"                      "
+msgstr "\n"
+"                        Poți salva ce ai lucrat, apoi poți reveni oricând pentru a finaliza rezolvarea echipei tale.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:86
+msgid "After you submit a response on behalf of your team, it cannot be edited"
+msgstr "După ce trimiți o rezolvare din partea echipei tale, aceasta nu mai poate fi modificată"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:89
+msgid "Enter your response to the prompt."
+msgstr "Completează rezolvarea ta la cerințele temei."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:91
+msgid "\n"
+"                        You can save your progress and return to complete your response at any time before the due date\n"
+"                      "
+msgstr "\n"
+"                        Poți salva ce ai lucrat, apoi poți reveni pentru a finaliza rezolvarea ta oricând până la termenul limită\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:104
+msgid "You can save your progress and return to complete your response at any time."
+msgstr "Poți salva ce ai lucrat, apoi poți reveni oricând pentru a finaliza rezolvarea ta."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:106
+msgid "After you submit your response, you cannot edit it"
+msgstr "După ce trimiți rezolvarea ta, nu o mai poți modifica"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:116
+msgid "What will this assignment be graded on?"
+msgstr "Care sunt criteriile de evaluare ale activității?"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:130
+msgid "The prompt for this section"
+msgstr "Cerințele temei"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:144
+msgid "You are on team "
+msgstr "Faci parte din echipa␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:146
+msgid "Team Members: "
+msgstr "Membrii echipei: "
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:151
+msgid "\n"
+"                                              %(team_members_with_external_submissions)s\n"
+"                                              have/has already submitted a response to this assignment with another team,\n"
+"                                              and will not be a part of your team's submission or assignment grade.\n"
+"                                          "
+msgstr "\n"
+"                                              %(team_members_with_external_submissions)s\n"
+"                                              a/au trimis deja o rezolvare la această activitate cu o altă echipă,\n"
+"                                              astfel că nu va/vor contribui la rezolvarea sau punctajul echipei tale.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:167
+msgid "Team Response "
+msgstr "Rezolvarea echipei␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:169
+msgid "Your Response "
+msgstr "Rezolvarea ta␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:173
+#: openassessment/templates/openassessmentblock/response/oa_response.html:244
+msgid "(Required)"
+msgstr "(Obligatoriu)"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:175
+#: openassessment/templates/openassessmentblock/response/oa_response.html:246
+msgid "(Optional)"
+msgstr "(Opțional)"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:179
+msgid "\n"
+"                                              Teams should designate one team member to submit a response on behalf of the\n"
+"                                              entire team.  All team members can use this space to work on draft responses,\n"
+"                                              but you will not be able to see your teammates' drafts made in this space, so\n"
+"                                              please coordinate with them to decide on the final response the designated team\n"
+"                                              member should submit.\n"
+"                                          "
+msgstr "\n"
+"                                              Echipele ar trebui să desemneze un membru al echipei care să trimită rezolvarea din partea\n"
+"                                              întregii echipe. Fiecare membru din echipă poate folosi acest spațiu pentru a lucra la rezolvările intermediare /draft,\n"
+"                                              însă nu veți putea vedea ce ați lucrat fiecare. De aceea, este\n"
+"                                              nevoie să vă coordonați pentru a stabili cine este persoana desemnată să trimită o singură rezolvare finală\n"
+"                                              din partea echipei.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:194
+msgid "Enter your response to the prompt above."
+msgstr "Completează rezolvarea ta la cerințele temei de mai sus."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:208
+msgid "\n"
+"                                      You are currently on Team %(team_name)s. Since you were on Team %(previous_team_name)s\n"
+"                                      when they submitted a response to this assignment, you are seeing Team %(previous_team_name)s’s\n"
+"                                      response and will receive the same grade for this assignment as your former teammates.\n"
+"                                      You will not be part of Team %(team_name)s’s submission for this assignment and will not\n"
+"                                      receive a grade for their submission.\n"
+"                                  "
+msgstr "\n"
+"                                      Acum ești membru în Echipa %(team_name)s. Deoarece făceai parte din Echipa %(previous_team_name)s\n"
+"                                      atunci când s-a trimis rezolvarea pentru această activitate, vezi în continuare rezolvarea Echipei %(previous_team_name)s\n"
+"                                      și vei primi același punctaj ca foștii tăi colegi.\n"
+"                                      Nu vei putea participa la rezolvarea Echipei %(team_name)s pentru această activitate\n"
+"                                      și nu vei primi punctaj aferent acesteia.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:221
+msgid "We could not save your progress"
+msgstr "Nu am putut salva ce ai lucrat"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:228
+msgid "Save your progress"
+msgstr "Salvează ce ai lucrat"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:232
+msgid "Your Submission Status"
+msgstr "Statusul rezolvării tale"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:242
+msgid "File Uploads "
+msgstr "Încărcare de fișiere␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:250
+msgid "\n"
+"                                  Upload files and review files uploaded by you and your teammates below. Be sure to add\n"
+"                                  descriptions to your files to help your teammates identify them.\n"
+"                              "
+msgstr "\n"
+"                                  Încarcă fișierele tale și ale colegilor tăi de echipă mai jos apoi verifică-le. Asigură-te că adaugi descrieri sugestive \n"
+"                                  pentru fișierele tale pentru a-i ajuta pe colegii tăi să le identifice, de exemplu: Proiect de lectie - tema modul 5 etc.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:258
+msgid "We could not upload files"
+msgstr "Nu am putut încărca fișierele"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:264
+msgid "We could not delete files"
+msgstr "Nu am putut șterge fișierele"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:271
+msgid "Select one or more files to upload for this submission."
+msgstr "Selectează unul sau mai multe fișiere pe care vrei să le încarci pentru această rezolvare."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:273
+msgid "Select a file to upload for this submission."
+msgstr "Selectează un fișier pe care vrei să îl încarci pentru această rezolvare."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:278
+msgid "Supported file types: "
+msgstr "Formate acceptate de fișiere:␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:282
+msgid "Upload files"
+msgstr "Încarcă fișiere"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:284
+msgid "Upload file"
+msgstr "Încarcă fișier"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:300
+msgid "You may continue to work on your response until you submit it."
+msgstr "Poți continua să lucrezi la rezolvarea ta până o trimiți."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:306
+msgid "This is a team submission."
+msgstr "Aceasta este o rezolvare de echipă."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:308
+msgid "One team member should submit a response with the team’s shared files and a text response on behalf of the entire team."
+msgstr "Un membru al echipei trebuie să trimită o rezolvare care să conțină toate fișierele și răspunsul text, din partea întregii echipe."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:310
+msgid "One team member should submit a response with the team’s shared files on behalf of the entire team."
+msgstr "Un membru al echipei trebuie să trimită o rezolvare care să conțină toate fișierele, din partea întregii echipe."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:312
+msgid "One team member should submit a text response on behalf of the entire team."
+msgstr "Un membru al echipei trebuie să trimită un răspuns text din partea întregii echipe."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:314
+msgid "One team member should submit on behalf of the entire team."
+msgstr "Un membru al echipei trebuie să trimită o rezolvare din partea întregii echipe."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:316
+msgid "\n"
+"                  Learn more about team assignments here: (<a href=\"\" >link</a>)\n"
+"                  "
+msgstr "\n"
+"                  Descoperă mai multe despre activitățile echipei aici: (<a href=\"\" >link</a>)\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:324
+msgid "We could not submit your response"
+msgstr "Nu am putut trimite rezolvarea ta"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:334
+msgid "Submit your response and move to the next step"
+msgstr "Trimite rezolvarea și mergi la pasul următor"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:34
+msgid "Your submission was cancelled. "
+msgstr "Rezolvarea ta a fost anulată.␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:37
+msgid "\n"
+"                                Your submission has been cancelled by %(removed_by_username)s on %(removed_datetime)s\n"
+"                            "
+msgstr "\n"
+"                                Rezolvarea ta a fost anulată de %(removed_by_username)s pe %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:41
+msgid "\n"
+"                               Your submission was cancelled on %(removed_datetime)s\n"
+"                            "
+msgstr "\n"
+"                               Rezolvarea ta a fost anulată pe %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:48
+msgid "\n"
+"                            Comments: %(comments)s\n"
+"                        "
+msgstr "\n"
+"                            Observații: %(comments)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_closed.html:19
+#: openassessment/templates/openassessmentblock/self/oa_self_closed.html:20
+#: openassessment/templates/openassessmentblock/student_training/student_training_closed.html:17
+msgid "Incomplete"
+msgstr "Incomplet"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_closed.html:32
+msgid "The due date for this step has passed. This step is now closed. You can no longer submit a response or continue with this problem, and you will receive a grade of Incomplete. If you saved but did not submit a response, the response appears in the course records."
+msgstr "Termenul limită pentru acest pas a expirat. Acest pas este acum închis. \n"
+"Deoarece nu mai poți trimite rezolvarea ta și nu poți continua această activitate, punctajul tău va fi Incomplet. Dacă ai salvat, dar nu ai trimis rezolvarea, aceasta apare înregistrată în curs."
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:20
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:20
+#: openassessment/templates/openassessmentblock/self/oa_self_complete.html:18
+#: openassessment/templates/openassessmentblock/student_training/student_training_complete.html:17
+#: openassessment/xblock/staff_assessment_mixin.py:217
+#: openassessment/xblock/staff_assessment_mixin.py:240
+msgid "Complete"
+msgstr "Pas finalizat"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:30
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:51
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:57
+msgid "Your response"
+msgstr "Rezolvarea ta"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:33
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:54
+msgid "Your Uploaded Files"
+msgstr "Fișierele tale încărcate"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:32
+msgid "Your response has been submitted. You will receive your grade after all steps are complete and your response is fully assessed."
+msgstr "Rezolvarea ta a fost trimisă. Vei primi punctajul după ce finalizezi toți pașii din activitate și rezolvarea ta este evaluată complet."
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:34
+msgid "\n"
+"                        You still need to complete the %(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself assessment%(end_tag)s steps.\n"
+"                    "
+msgstr "\n"
+"                        Mai trebuie să finalizezi pașii de %(peer_start_tag)sevaluare între cursanți%(end_tag)s și %(self_start_tag)sautoevaluare%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:38
+msgid "\n"
+"                        You still need to complete the %(start_tag)speer assessment%(end_tag)s step.\n"
+"                    "
+msgstr "\n"
+"                        Mai trebuie să finalizezi pasul de %(start_tag)sevaluare între cursanți%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:42
+msgid "\n"
+"                        You still need to complete the %(start_tag)sself assessment%(end_tag)s step.\n"
+"                    "
+msgstr "\n"
+"                        Mai trebuie să finalizezi pasul de %(start_tag)sautoevaluare%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_team_already_submitted.html:15
+msgid "Error"
+msgstr "Eroare"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_team_already_submitted.html:29
+msgid "\n"
+"                            You joined Team %(team_name)s after they submitted a response for this assignment\n"
+"                            and you will not receive a grade for their response. You have also not previously submitted\n"
+"                            a response to this assignment with another team. Please contact course staff to discuss your\n"
+"                            options for this assignment.\n"
+"                        "
+msgstr "\n"
+"                            Te-ai alăturat Echipei %(team_name)s după ce a fost trimisă rezolvarea pentru această activitate,\n"
+"                            astfel că nu vei putea primi punctajul pentru rezolvarea lor. De asemenea, observăm că nu ai trimis anterior\n"
+"                            nicio altă rezolvare alături de o altă echipă. Te rugăm să iei legătura cu echipa cursului pentru a verifica opțiunile rămase pentru \n"
+"                            această activitate.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:23
+msgid "Assess Your Response"
+msgstr "Autoevaluează-ți rezolvarea"
+
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:31
+msgid "\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"           "
+msgstr "\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:38
+msgid "\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"           "
+msgstr "\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:78
+msgid "Submit your assessment"
+msgstr "Trimite evaluarea"
+
+#: openassessment/templates/openassessmentblock/self/oa_self_closed.html:32
+msgid "The due date for this step has passed. This step is now closed. You can no longer complete a self assessment or continue with this assignment, and you will receive a grade of Incomplete."
+msgstr "Termenul limită pentru acest pas a trecut. Acest pas este acum închis. Deoarece nu mai poți finaliza autoevaluarea, nu poți continua această activitate. Punctajul tău va fi Incomplet."
+
+#: openassessment/templates/openassessmentblock/staff/oa_staff_grade.html:13
+#: openassessment/xblock/grade_mixin.py:359
+msgid "Staff Grade"
+msgstr "Punctaj de la facilitator"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:8
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:26
+msgid "Manage Individual Learners"
+msgstr "Gestionează cursanții individuali"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:10
+msgid "Manage Team Responses"
+msgstr "Gestionează rezolvările echipei"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:13
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:62
+msgid "View Assignment Statistics"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:17
+msgid "View ORA in Studio"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:22
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:60
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:142
+msgid "Close"
+msgstr "Închide"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:28
+msgid "Manage Teams"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:41
+msgid "Enter an individual learner's username or email"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:43
+msgid "Enter a team member's username or edX email"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:47
+msgid "Submit"
+msgstr "Trimite"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:69
+msgid "Response total"
+msgstr "Total rezolvări"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:75
+msgid "Location"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:81
+msgid "Learner Progress"
+msgstr "Ce a lucrat cursantul"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:85
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:108
+msgid "Problem Step"
+msgstr "Pasul activității"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:86
+msgid "Active Learners in Step"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:104
+msgid "Dates"
+msgstr "Date"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:109
+msgid "Release Date"
+msgstr "Data lansării"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:122
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:128
+msgid "N/A"
+msgstr "N/A"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners.html:7
+msgid "Staff Assessment"
+msgstr "Evaluare de la facilitatorul cursului"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:14
+msgid "Give this team a grade using the problem's rubric."
+msgstr "Acordă acestei echipe un punctaj folosind grila de evaluare a activității."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:16
+msgid "Give this learner a grade using the problem's rubric."
+msgstr "Acordă acestui cursant un punctaj folosind grila de evaluare a activității."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:26
+msgid "\n"
+"                                        Response for: %(team_name)s with %(team_usernames)s\n"
+"                                    "
+msgstr "\n"
+"                                        Rezolvare pentru: %(team_name)s cu %(team_usernames)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:30
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:20
+msgid "\n"
+"                                        Response for: %(student_username)s\n"
+"                                    "
+msgstr "\n"
+"                                        Rezolvare pentru: %(student_username)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:34
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:24
+msgid "Learner Response"
+msgstr "Rezolvare cursant"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:39
+msgid "The teams's response to the prompt above"
+msgstr "Rezolvarea echipelor la cerințele temei de mai sus"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:41
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:32
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:57
+msgid "The learner's response to the prompt above"
+msgstr "Rezolvarea cursantului la cerințele temei de mai sus"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:64
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:57
+msgid "Submit assessment"
+msgstr "Trimite evaluarea"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:70
+msgid "Submit assessment and continue grading"
+msgstr "Trimite evaluarea și continuă acordarea de punctaje"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_count.html:6
+msgid "\n"
+"                %(ungraded)s Available and %(in_progress)s Checked Out\n"
+"            "
+msgstr "\n"
+"                %(ungraded)s Disponibile și %(in_progress)s În curs de verificare\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:7
+msgid "Override this learner's current grade using the problem's rubric."
+msgstr "Re-evaluează punctajul cursantului folosind grila de evaluare."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:9
+msgid "Override this team's current grade using the problem's rubric."
+msgstr "Re-evaluează punctajul echipei folosind grila de evaluare."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:27
+msgid "Team Response"
+msgstr "Rezolvare echipă"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:34
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:59
+msgid "The team's response to the prompt above"
+msgstr "Rezolvarea echipei la cerințele temei de mai sus"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:11
+msgid "\n"
+"                    Viewing learner: %(learner)s\n"
+"                "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:15
+msgid "\n"
+"                    Viewing team: %(team)s\n"
+"                "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:28
+msgid "Learner's Response"
+msgstr "Rezolvarea cursantului"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:30
+msgid "Team's Response"
+msgstr "Rezolvarea echipei"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:39
+msgid "\n"
+"                            Learner submission removed by %(removed_by_username)s on %(removed_datetime)s\n"
+"                        "
+msgstr "\n"
+"                            Rezolvarea cursantului a fost eliminată de %(removed_by_username)s la %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:43
+msgid "\n"
+"                            Learner submission removed on %(removed_datetime)s\n"
+"                        "
+msgstr "\n"
+"                            Rezolvarea cursantului a fost eliminată la %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:50
+msgid "\n"
+"                        Comments: %(comments)s\n"
+"                    "
+msgstr "\n"
+"                        Observații: %(comments)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:71
+msgid "Peer Assessments for This Learner"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:76
+msgid "Peer Assessments Completed by This Learner"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:81
+msgid "Learner's Self Assessment"
+msgstr "Autoevaluarea cursantului"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:87
+msgid "Staff Assessment for This Learner"
+msgstr "Evaluarea de la facilitator pentru acest cursant"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:89
+msgid "Staff Assessment for this Team"
+msgstr "Evaluarea de la facilitator pentru această echipă"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:100
+msgid "Learner's Final Grade"
+msgstr "Punctajul final al cursantului"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:102
+msgid "Team's Final Grade"
+msgstr "Punctajul final al echipei"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:112
+msgid "\n"
+"                            Final grade: %(points_earned)s out of %(points_possible)s\n"
+"                        "
+msgstr "\n"
+"                            Punctaj final: %(points_earned)s din %(points_possible)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:119
+msgid "Final Grade Details"
+msgstr "Detalii despre Punctajul final"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:139
+msgid "\n"
+"                                        %(assessment_label)s - %(points)s point\n"
+"                                    "
+msgid_plural "\n"
+"                                        %(assessment_label)s - %(points)s points\n"
+"                                    "
+msgstr[0] "\n"
+"                                        %(assessment_label)s - %(points)s punct\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr[1] "\n"
+"                                        %(assessment_label)s - %(points)s puncte\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr[2] ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:154
+msgid "Feedback Recorded"
+msgstr "Feedback înregistrat"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:165
+msgid "The submission is waiting for assessments."
+msgstr "Rezolvarea așteaptă să fie evaluată."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:170
+msgid "The learner's submission has been removed from peer assessment. The learner receives a grade of zero unless you delete the learner's state for the problem to allow them to resubmit a response."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:172
+msgid "The team’s submission has been removed from grading. The team receives a grade of zero unless you delete the a team member’s state for the problem to allow the team to resubmit a response."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:177
+msgid "The problem has not been started."
+msgstr "Activitatea nu a fost începută."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:181
+msgid "The problem has not been completed."
+msgstr "Activitatea nu a fost finalizată."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:193
+msgid "Submit Assessment Grade Override"
+msgstr "Trimite punctajul re-evaluat"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:195
+msgid "Submit Team Grade Override"
+msgstr "Trimite punctajul echipei re-evaluat"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:204
+msgid "Unable to perform grade override"
+msgstr "Nu a putut fi re-evaluat punctajul"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:207
+msgid "Grades are frozen. Grades are automatically frozen 30 days after the course end date."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:212
+msgid "This submission has been cancelled and cannot recieve a grade. Refer to documentation for how to delete the learner’s state for this problem to allow them to resubmit."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:230
+msgid "Remove Submission From Peer Grading"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:232
+msgid "Remove Team Submission from Grading"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:242
+msgid "Caution: This Action Cannot Be Undone"
+msgstr "Atenție: Această acțiune este ireversibilă"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:244
+msgid "Removing a learner's submission cannot be undone and should be done with caution."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:246
+msgid "Removing a team's submission cannot be undone and should be done with caution."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:252
+msgid "Comments:"
+msgstr "Observații:"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:261
+msgid "Remove submission"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:276
+msgid "A response was not found for this learner."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:16
+msgid "\n"
+"                            Assessment %(assessment_num)s:\n"
+"                        "
+msgstr "\n"
+"                            Evaluare %(assessment_num)s:\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:22
+msgid "Assessment Details"
+msgstr "Detaliile evaluării"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:26
+msgid "Selected Option"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:27
+msgid "Feedback"
+msgstr "Feedback"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:29
+msgid "Points Possible"
+msgstr "Puncte posibile"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:18
+msgid "Learn to Assess Responses"
+msgstr "Antrenează-te pentru evaluarea rezolvărilor"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:27
+msgid "\n"
+"                      In Progress (%(current_progress_num)s of %(training_available_num)s)\n"
+"                  "
+msgstr "\n"
+"                                    În lucru (%(current_progress_num)s din %(training_available_num)s)\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:38
+msgid "\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
+msgstr "\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:45
+msgid "\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
+msgstr "\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:58
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:66
+msgid "Learning to Assess Responses"
+msgstr "Antrenament pentru evaluare"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:61
+msgid "Before you begin to assess your peers' responses, you'll learn how to complete peer assessments by reviewing responses that instructors have already assessed. If you select the same options for the response that the instructor selected, you'll move to the next step. If you don't select the same options, you'll review the response and try again."
+msgstr "Înainte să evaluezi rezolvările altor cursanți, te vei antrena pentru evaluare. Vei începe prin a evalua o rezolvare care în prealabil a fost evaluată de facilitatorul cursului. Dacă vei evalua fiecare criteriu la fel ca facilitatorul cursului, vei trece mai departe. În schimb, dacă evaluarea ta și a facilitatorului sunt diferite, vei evalua din nou până când evaluările voastre se potrivesc."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:69
+msgid "Your assessment differs from the instructor's assessment of this response. Review the response and consider why the instructor may have assessed it differently. Then, try the assessment again."
+msgstr "Pentru această rezolvare, evaluarea făcută de tine nu se potrivește cu cea a facilitatorului cursului. Verifică rezolvarea din nou și reflectează la de ce facilitatorul a evaluat diferit de tine. Apoi, evaluează din nou."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:76
+msgid "The response to the prompt above:"
+msgstr "Rezolvarea la cerințele temei de mai sus:"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:98
+msgid "Selected Options Agree"
+msgstr "Opțiunile alese se potrivesc"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:101
+msgid "The option you selected is the option that the instructor selected."
+msgstr "Opțiunea aleasă se potrivește cu cea a facilitatorului cursului."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:105
+msgid "Selected Options Differ"
+msgstr "Opțiunile alese nu se potrivesc"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:108
+msgid "The option you selected is not the option that the instructor selected."
+msgstr "Opțiunea aleasă nu se potrivește cu cea a facilitatorului cursului."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:144
+msgid "We could not check your assessment"
+msgstr "Nu am putut verifica evaluarea ta"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:151
+msgid "Compare your selections with the instructor's selections"
+msgstr "Compară opțiunile alese de tine cu cele ale facilitatorului"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training_closed.html:29
+msgid "The due date for this step has passed. This step is now closed. You can no longer continue with this assignment, and you will receive a grade of Incomplete."
+msgstr "Termenul limită pentru acest pas a expirat. Acest pas este acum închis. Deoarece nu poți continua această activitate, punctajul tău va fi Incomplet."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training_error.html:18
+msgid "Error Loading Learner Training Examples"
+msgstr "Eroare la încărcarea exemplelor de antrenament pentru evaluare"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training_error.html:21
+msgid "The Learner Training Step of this assignment could not be loaded."
+msgstr "Pasul de antrenament pentru evaluare al acestei activități nu a putut fi încărcat."
+
+#: openassessment/xblock/data_conversion.py:249
+msgid "Assessment data must be a dictionary/object"
+msgstr ""
+
+#: openassessment/xblock/data_conversion.py:252
+msgid "You must provide options selected in the assessment."
+msgstr "Trebuie să oferi opțiunile alese în evaluare."
+
+#: openassessment/xblock/data_conversion.py:255
+msgid "You must provide overall feedback in the assessment."
+msgstr "Este nevoie să oferi un feedback general în cadrul evaluării."
+
+#: openassessment/xblock/data_conversion.py:258
+msgid "You must provide feedback for criteria in the assessment."
+msgstr "Este nevoie să oferi feedback pentru criteriile din grila evaluare."
+
+#: openassessment/xblock/data_conversion.py:301
+msgid "This view takes only a list as a parameter"
+msgstr ""
+
+#: openassessment/xblock/grade_mixin.py:76
+#: openassessment/xblock/leaderboard_mixin.py:59
+#: openassessment/xblock/self_assessment_mixin.py:42
+#: openassessment/xblock/student_training_mixin.py:56
+#: openassessment/xblock/student_training_mixin.py:264
+msgid "An unexpected error occurred."
+msgstr "A apărut o eroare neașteptată."
+
+#: openassessment/xblock/grade_mixin.py:173
+msgid "Peer Assessment"
+msgstr "Evaluare între cursanți"
+
+#: openassessment/xblock/grade_mixin.py:175
+msgid "Self Assessment"
+msgstr "Autoevaluare"
+
+#: openassessment/xblock/grade_mixin.py:215
+msgid "Assessment feedback could not be saved."
+msgstr "Feedback-ul evaluării nu a putut fi salvat."
+
+#: openassessment/xblock/grade_mixin.py:226
+msgid "Feedback saved."
+msgstr "Feedback salvat."
+
+#: openassessment/xblock/grade_mixin.py:360
+#: openassessment/xblock/grade_mixin.py:506
+msgid "Staff Comments"
+msgstr "Observațiile facilitatorului cursului"
+
+#: openassessment/xblock/grade_mixin.py:366
+msgid "Peer Median Grade"
+msgstr "Mediana punctajelor de la alți cursanți"
+
+#: openassessment/xblock/grade_mixin.py:371
+#: openassessment/xblock/grade_mixin.py:513
+msgid "Peer {peer_index}"
+msgstr "Cursant/ă {peer_index}"
+
+#: openassessment/xblock/grade_mixin.py:372
+msgid "Peer Comments"
+msgstr "Observațiile altor cursanți"
+
+#: openassessment/xblock/grade_mixin.py:382
+msgid "Self Assessment Grade"
+msgstr "Punctaj de autoevaluare"
+
+#: openassessment/xblock/grade_mixin.py:382
+msgid "Your Self Assessment"
+msgstr "Autoevaluarea ta"
+
+#: openassessment/xblock/grade_mixin.py:383
+#: openassessment/xblock/grade_mixin.py:525
+msgid "Your Comments"
+msgstr "Observațiile tale"
+
+#: openassessment/xblock/grade_mixin.py:479
+msgid "Waiting for peer reviews"
+msgstr "În așteptarea evaluărilor de la alți cursanți"
+
+#: openassessment/xblock/grade_mixin.py:518
+msgid "Peer"
+msgstr "Cursant/ă"
+
+#: openassessment/xblock/grade_mixin.py:649
+msgid "The grade for this problem is determined by your Staff Grade."
+msgstr "Punctajul pentru această activitate este determinat de punctajul pe care l-ai obținut de la facilitatorul cursului."
+
+#: openassessment/xblock/grade_mixin.py:651
+msgid "The grade for this problem is determined by the median score of your Peer Assessments."
+msgstr "Punctajul pentru această activitate este determinat de mediana punctajelor obținute de la cursanții care au evaluat rezolvarea ta."
+
+#: openassessment/xblock/grade_mixin.py:654
+msgid "The grade for this problem is determined by your Self Assessment."
+msgstr "Punctajul pentru această activitate este determinat de punctajul tău de la autoevaluare."
+
+#: openassessment/xblock/grade_mixin.py:660
+msgid "You have successfully completed this problem and received a {earned_points}/{total_points}."
+msgstr "Ai finalizat această activitate și ai obținut {earned_points}/{total_points} punct/e."
+
+#: openassessment/xblock/grade_mixin.py:668
+msgid "You have not yet received all necessary peer reviews to determine your final grade."
+msgstr "Nu ai primit încă toate evaluările din partea altor cursanți necesare pentru a determina punctajul tău final."
+
+#: openassessment/xblock/openassesment_template_mixin.py:18
+msgid "Peer Assessment Only"
+msgstr "Doar evaluare între cursanți"
+
+#: openassessment/xblock/openassesment_template_mixin.py:19
+msgid "Self Assessment Only"
+msgstr "Doar autoevaluare"
+
+#: openassessment/xblock/openassesment_template_mixin.py:20
+msgid "Staff Assessment Only"
+msgstr "Doar evaluare de la facilitatorul cursului"
+
+#: openassessment/xblock/openassesment_template_mixin.py:21
+msgid "Self Assessment to Peer Assessment"
+msgstr "De la autoevaluare la evaluarea între cursanți"
+
+#: openassessment/xblock/openassesment_template_mixin.py:22
+msgid "Self Assessment to Staff Assessment"
+msgstr "De la autoevaluare la evaluarea de la facilitator"
+
+#: openassessment/xblock/peer_assessment_mixin.py:61
+msgid "You must submit a response before you can perform a peer assessment."
+msgstr "Trebuie să trimiți o rezolvare înainte să poți face evaluarea altor cursanți."
+
+#: openassessment/xblock/peer_assessment_mixin.py:73
+msgid "This feedback has already been submitted or the submission has been cancelled."
+msgstr "Acest feedback a fost deja trimis sau trimiterea a fost anulată."
+
+#: openassessment/xblock/peer_assessment_mixin.py:99
+#: openassessment/xblock/peer_assessment_mixin.py:105
+msgid "Your peer assessment could not be submitted."
+msgstr "Evaluarea între cursanți nu a putut fi trimisă."
+
+#: openassessment/xblock/peer_assessment_mixin.py:120
+#: openassessment/xblock/student_training_mixin.py:270
+msgid "Could not update workflow status."
+msgstr "Nu s-a putut actualiza statusul procedurii de lucru."
+
+#: openassessment/xblock/peer_assessment_mixin.py:128
+msgid "Could not load peer assessment."
+msgstr "Nu s-a putut încărca evaluarea altor cursanți."
+
+#: openassessment/xblock/peer_assessment_mixin.py:215
+msgid "Submit your assessment and review another response"
+msgstr "Trimite evaluarea și verifică o altă rezolvare"
+
+#: openassessment/xblock/peer_assessment_mixin.py:219
+msgid "Submit your assessment and move to next step"
+msgstr "Trimite evaluarea și mergi la pasul următor"
+
+#: openassessment/xblock/peer_assessment_mixin.py:223
+msgid "Submit your assessment and move to response #{response_number}"
+msgstr "Trimite evaluarea și mergi la rezolvarea #{response_number}"
+
+#: openassessment/xblock/resolve_dates.py:52
+msgid "'{date}' is an invalid date format. Make sure the date is formatted as YYYY-MM-DDTHH:MM:SS."
+msgstr ""
+
+#: openassessment/xblock/resolve_dates.py:57
+msgid "'{date}' must be a date string or datetime"
+msgstr ""
+
+#: openassessment/xblock/resolve_dates.py:210
+msgid "This step's start date '{start}' cannot be earlier than the previous step's start date '{prev}'."
+msgstr ""
+
+#: openassessment/xblock/resolve_dates.py:218
+msgid "This step's due date '{due}' cannot be later than the next step's due date '{prev}'."
+msgstr ""
+
+#: openassessment/xblock/resolve_dates.py:234
+msgid "The start date '{start}' cannot be later than the due date '{due}'"
+msgstr ""
+
+#: openassessment/xblock/rubric_reuse_mixin.py:62
+msgid "You must specify a block id from which to copy a rubric."
+msgstr ""
+
+#: openassessment/xblock/rubric_reuse_mixin.py:66
+msgid "Invalid block id."
+msgstr ""
+
+#: openassessment/xblock/rubric_reuse_mixin.py:72
+msgid "No Open Response Assessment found in {course_id} with block id {block_id}"
+msgstr ""
+
+#: openassessment/xblock/self_assessment_mixin.py:142
+msgid "You must submit a response before you can perform a self-assessment."
+msgstr "Trebuie să trimiți o rezolvare înainte să poți face autoevaluarea."
+
+#: openassessment/xblock/self_assessment_mixin.py:165
+#: openassessment/xblock/self_assessment_mixin.py:173
+msgid "Your self assessment could not be submitted."
+msgstr "Autoevaluarea ta nu a putut fi trimisă."
+
+#: openassessment/xblock/staff_area_mixin.py:42
+msgid "You do not have permission to schedule training"
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:43
+msgid "You do not have permission to reschedule tasks."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:69
+msgid "You do not have permission to access the ORA staff area"
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:70
+msgid "You do not have permission to access ORA learner information."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:71
+msgid "You do not have permission to access ORA staff grading."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:233
+msgid "Pending"
+msgstr "În așteptare"
+
+#: openassessment/xblock/staff_area_mixin.py:234
+msgid "Complete/Overwritten"
+msgstr "Finalizat/Re-evaluat"
+
+#: openassessment/xblock/staff_area_mixin.py:237
+msgid "Not applicable"
+msgstr "Nu se aplică"
+
+#: openassessment/xblock/staff_area_mixin.py:238
+msgid "Not submitted"
+msgstr "Nu a fost trimis"
+
+#: openassessment/xblock/staff_area_mixin.py:239
+msgid "Submitted"
+msgstr "Trimis"
+
+#: openassessment/xblock/staff_area_mixin.py:306
+msgid "Error getting learner information."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:349
+msgid "Error loading the checked out learner response."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:350
+msgid "No other learner responses are available for grading at this time."
+msgstr "În acest moment, nu sunt disponibile pentru evaluare rezolvări ale altor cursanți."
+
+#: openassessment/xblock/staff_area_mixin.py:352
+msgid "Error getting staff grade information."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:373
+msgid "Error getting staff grade ungraded and checked out counts."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:663
+msgid "Please enter valid reason to remove the submission."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:674
+msgid "Submission not found"
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:685
+msgid "Submission for team assignment has no associated team submission"
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:712
+msgid "The learner submission has been removed from peer assessment. The learner receives a grade of zero unless you delete the learner's state for the problem to allow them to resubmit a response."
+msgstr ""
+
+#: openassessment/xblock/staff_area_mixin.py:747
+msgid "The team’s submission has been removed from grading. The team receives a grade of zero unless you delete a team member’s state for the problem to allow the team to resubmit a response."
+msgstr ""
+
+#: openassessment/xblock/staff_assessment_mixin.py:48
+msgid "The submission ID of the submission being assessed was not found."
+msgstr "ID-ul rezolvării în curs de evaluare nu a fost găsit."
+
+#: openassessment/xblock/staff_assessment_mixin.py:75
+#: openassessment/xblock/staff_assessment_mixin.py:83
+msgid "Your staff assessment could not be submitted."
+msgstr "Evaluarea facilitatorului nu a putut fi trimisă."
+
+#: openassessment/xblock/staff_assessment_mixin.py:132
+msgid "There were one or more errors submitting the requested assessments"
+msgstr "Au apărut una sau mai multe erori la trimiterea evaluărilor necesare"
+
+#: openassessment/xblock/staff_assessment_mixin.py:168
+#: openassessment/xblock/staff_assessment_mixin.py:176
+msgid "Your team assessment could not be submitted."
+msgstr "Evaluarea echipei nu a putut fi trimisă."
+
+#: openassessment/xblock/staff_assessment_mixin.py:228
+msgid "Waiting for a Staff Grade"
+msgstr "În așteptarea punctajului de la facilitatorul cursului"
+
+#: openassessment/xblock/staff_assessment_mixin.py:229
+msgid "Check back later to see if a course staff member has assessed your response. You will receive your grade after the assessment is complete."
+msgstr "Revino la acest pas în zilele următoare pentru a vedea dacă facilitatorul cursului ți-a evaluat rezolvarea. Vei primi punctajul după ce evaluarea este finalizată."
+
+#: openassessment/xblock/staff_assessment_mixin.py:242
+msgid "You Must Complete the Steps Above to View Your Grade"
+msgstr "Trebuie să finalizezi pașii de mai sus pentru a vedea punctajul tău"
+
+#: openassessment/xblock/staff_assessment_mixin.py:243
+msgid "Although a course staff member has assessed your response, you will receive your grade only after you have completed all the required steps of this problem."
+msgstr "Deși facilitatorul cursului a evaluat rezolvarea ta, vei primi punctajul doar după ce finalizezi toți pașii necesari pentru această activitate."
+
+#: openassessment/xblock/student_training_mixin.py:227
+msgid "Missing options_selected key in request"
+msgstr ""
+
+#: openassessment/xblock/student_training_mixin.py:229
+msgid "options_selected must be a dictionary"
+msgstr ""
+
+#: openassessment/xblock/student_training_mixin.py:254
+#: openassessment/xblock/student_training_mixin.py:259
+msgid "Your scores could not be checked."
+msgstr "Punctajele tale nu au putut fi verificate."
+
+#: openassessment/xblock/studio_mixin.py:226
+#: openassessment/xblock/studio_mixin.py:238
+msgid "Error updating XBlock configuration"
+msgstr ""
+
+#: openassessment/xblock/studio_mixin.py:243
+msgid "Error: Text Response and File Upload Response cannot both be disabled"
+msgstr ""
+
+#: openassessment/xblock/studio_mixin.py:247
+msgid "Error: When Text Response is disabled, File Upload Response must be Required"
+msgstr ""
+
+#: openassessment/xblock/studio_mixin.py:250
+msgid "Error: When File Upload Response is disabled, Text Response must be Required"
+msgstr ""
+
+#: openassessment/xblock/studio_mixin.py:274
+msgid "Validation error: {error}"
+msgstr "Eroare de validare: {error}"
+
+#: openassessment/xblock/studio_mixin.py:305
+msgid "Successfully updated OpenAssessment XBlock"
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:118
+msgid "\"submission\" required to submit answer."
+msgstr "\"trimitere\" necesară pentru a trimite rezolvarea."
+
+#: openassessment/xblock/submission_mixin.py:139
+msgid "To submit a response, view this component in Preview or Live mode."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:145
+msgid "Multiple submissions are not allowed."
+msgstr "Nu sunt permise trimiteri multiple."
+
+#: openassessment/xblock/submission_mixin.py:190
+msgid "Submission cannot be empty. Please refresh the page and try again."
+msgstr "Rezolvarea trebuie completată. Te rugăm reîncarcă pagina și încearcă din nou."
+
+#: openassessment/xblock/submission_mixin.py:200
+msgid "API returned unclassified exception."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:251
+msgid "This response could not be saved."
+msgstr "Rezolvarea nu a putut fi salvată."
+
+#: openassessment/xblock/submission_mixin.py:255
+msgid "This response was not submitted."
+msgstr "Rezolvarea nu a fost trimisă."
+
+#: openassessment/xblock/submission_mixin.py:271
+msgid "Files descriptions were not submitted."
+msgstr "Nu au fost trimise descrierile fișierelor."
+
+#: openassessment/xblock/submission_mixin.py:310
+msgid "Files metadata could not be saved."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:456
+msgid "There was an error uploading your file."
+msgstr "A apărut o eroare la încărcarea fișierului tău."
+
+#: openassessment/xblock/submission_mixin.py:468
+msgid "Only a single file upload is allowed for this assessment."
+msgstr "Pentru această evaluare este permisă încărcarea unui singur fișier."
+
+#: openassessment/xblock/submission_mixin.py:479
+msgid "File upload failed: unsupported file type.Only the supported file types can be uploaded.If you have questions, please reach out to the course team."
+msgstr "Eroare la încărcarea fișierului: format fișier incompatibil. Doar fișierele în formatele menționate pot fi încărcate. Dacă apar întrebări suplimentare, te rugăm să ne scrii pe adresa de suport."
+
+#: openassessment/xblock/submission_mixin.py:492
+msgid "Error retrieving upload URL."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:767
+msgid "This response has been saved but not submitted."
+msgstr "Rezolvarea a fost salvată, dar nu trimisă."
+
+#: openassessment/xblock/submission_mixin.py:768
+msgid "This response has not been saved."
+msgstr "Rezolvarea nu a fost salvată."
+
+#: openassessment/xblock/validation.py:117
+msgid "This problem must include at least one assessment."
+msgstr "Această activitate trebuie să includă cel puțin o evaluare."
+
+#: openassessment/xblock/validation.py:121
+msgid "The assessment order you selected is invalid."
+msgstr "Ordinea evaluărilor pe care le-ai ales nu este corectă."
+
+#: openassessment/xblock/validation.py:131
+msgid "In peer assessment, the \"Must Grade\" value must be a positive integer."
+msgstr ""
+
+#: openassessment/xblock/validation.py:134
+msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
+msgstr ""
+
+#: openassessment/xblock/validation.py:138
+msgid "In peer assessment, the \"Must Grade\" value must be greater than or equal to the \"Graded By\" value."
+msgstr ""
+
+#: openassessment/xblock/validation.py:147
+msgid "You must provide at least one example response for learner training."
+msgstr ""
+
+#: openassessment/xblock/validation.py:150
+msgid "Each example response for learner training must be unique."
+msgstr ""
+
+#: openassessment/xblock/validation.py:157
+msgid "The \"required\" value must be true if staff assessment is the only step."
+msgstr ""
+
+#: openassessment/xblock/validation.py:161
+msgid "The number of assessments cannot be changed after the problem has been released."
+msgstr ""
+
+#: openassessment/xblock/validation.py:166
+msgid "The assessment type cannot be changed after the problem has been released."
+msgstr ""
+
+#: openassessment/xblock/validation.py:189
+msgid "This rubric definition is not valid."
+msgstr ""
+
+#: openassessment/xblock/validation.py:195
+msgid "Options in '{criterion}' have duplicate name(s): {duplicates}"
+msgstr ""
+
+#: openassessment/xblock/validation.py:203
+msgid "Criteria with no options must require written feedback."
+msgstr ""
+
+#: openassessment/xblock/validation.py:212
+msgid "Prompts cannot be created or deleted after a problem is released."
+msgstr ""
+
+#: openassessment/xblock/validation.py:216
+msgid "The number of criteria cannot be changed after a problem is released."
+msgstr ""
+
+#: openassessment/xblock/validation.py:229
+msgid "Criteria names cannot be changed after a problem is released"
+msgstr ""
+
+#: openassessment/xblock/validation.py:234
+msgid "The number of options cannot be changed after a problem is released."
+msgstr ""
+
+#: openassessment/xblock/validation.py:239
+msgid "Point values cannot be changed after a problem is released."
+msgstr ""
+
+#: openassessment/xblock/validation.py:290
+msgid "Learner training must have at least one training example."
+msgstr ""
+
+#: openassessment/xblock/validation.py:355
+msgid "Leaderboard number is invalid."
+msgstr ""
+
+#: openassessment/xblock/validation.py:378
+msgid "The submission format is invalid."
+msgstr "Formatul rezolvării nu este valid."
