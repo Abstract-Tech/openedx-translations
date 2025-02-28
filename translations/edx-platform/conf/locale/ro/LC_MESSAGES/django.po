@@ -13294,7 +13294,7 @@ msgstr "Nu ești înscris la niciun curs pentru moment."
 #: lms/templates/navigation/navbar-authenticated.html
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "Explore courses"
-msgstr "Descoperă cursuri"
+msgstr "Descoperă cursuri noi"
 
 #: lms/templates/dashboard.html
 #: lms/templates/registration/account_activation_sidebar_notice.html
@@ -19429,7 +19429,7 @@ msgstr ""
 
 #: lms/templates/navigation/navbar-not-authenticated.html
 msgid "Explore Courses"
-msgstr "Descoperă cursuri"
+msgstr "Descoperă cursuri noi"
 
 #: lms/templates/navigation/navigation.html
 msgid "Global"
