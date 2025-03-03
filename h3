@@ -10907,7 +10907,7 @@ index 000000000..928f655d8
 +#: openedx/features/personalized_learner_schedules/call_to_action.py:142
 +#, python-brace-format
 +msgid "You have used {attempts} of {max_attempts} attempts for this problem."
-+msgstr "Usou  {attempts} de {max_attempts} tentativas para este problema."
++msgstr "Usou  {attempts} de {max_attempts} tentativas para este problema." 
 +
 +#: openedx/features/personalized_learner_schedules/call_to_action.py:147
 +msgid "Try again (unlimited attempts)"

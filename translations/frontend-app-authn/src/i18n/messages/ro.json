@@ -149,7 +149,7 @@
     "registration.tpa.session.expired": "Timpul de înregistrare cu {provider} a expirat.",
     "registration.tpa.authentication.failure": "Din păcate, nu aveți acces la {platform_name} prin acest canal. Pentru a accesa {platform_name}, contactați administratorul sau managerul dvs. de formare. {lineBreak} {lineBreak} Detalii despre eroare: {lineBreak} {errorMessage}",
     "terms.of.service.and.honor.code": "Termenii de utilizare și Codul de Onoare",
-    "privacy.policy": "Politica de confidențialitate",
+    "privacy.policy": "Politica de date cu caracter personal",
     "honor.code": "Codul de Onoare",
     "terms.of.service": "Contractul de serviciu",
     "registration.username.suggestion.label": "Sugerat:",

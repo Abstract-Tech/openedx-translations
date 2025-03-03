@@ -14,8 +14,8 @@
     "footer.edxLinks.news": "Știri",
     "footer.legalLinks.heading": "Informații juridice",
     "footer.legalLinks.termsOfService": "Termeni și condiții",
-    "footer.legalLinks.privacyPolicy": "Politica de confidențialitate",
-    "footer.legalLinks.a11yPolicy": "Politica de accesibilitate",
+    "footer.legalLinks.privacyPolicy": "Politica de date cu caracter personal",
+    "footer.legalLinks.a11yPolicy": "Politica de date cu caracter personal",
     "footer.legalLinks.trademarkPolicy": "Politica privind mărcile comerciale",
     "footer.legalLinks.sitemap": "Harta site-ului",
     "footer.connectLinks.heading": "Conectare",
@@ -37,7 +37,7 @@
     "authoring.footer.help.studioX.button.label": "Parcurgeți cursul „Cum să creați un curs în Studio”",
     "authoring.footer.help.contactUs.button.label": "Contactează-ne",
     "authoring.footer.termsOfService.link.label": "Contract de furnizare de servicii",
-    "authoring.footer.privacyPolicy.link.label": "Politica de confidențialitate",
+    "authoring.footer.privacyPolicy.link.label": "Politica de date cu caracter personal",
     "authoring.footer.accessibilityRequest.link.label": "Solicitare pentru adaptare privind accesibilitatea",
     "authoring.footer.trademark.message": "edX și Open edX, precum și siglele edX și Open edX, sunt mărci comerciale înregistrate ale companiei"
   }

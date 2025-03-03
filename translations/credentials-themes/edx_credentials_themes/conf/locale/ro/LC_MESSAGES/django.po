@@ -31,7 +31,7 @@ msgstr "Termeni și condiții și Angajament de Integritate"
 
 #: templates/edx.org/_footer.html:16
 msgid "Privacy Policy"
-msgstr "Politica de confidențialitate"
+msgstr "Politica de date cu caracter personal"
 
 #: templates/edx.org/_footer.html:21
 msgid "Cookie Policy"

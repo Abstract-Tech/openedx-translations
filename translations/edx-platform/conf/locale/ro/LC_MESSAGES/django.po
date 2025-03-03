@@ -5784,7 +5784,7 @@ msgstr "Termeni și condiții și Angajament de Integritate"
 #: themes/stanford-style/lms/templates/footer.html
 #: themes/stanford-style/lms/templates/static_templates/tos.html
 msgid "Privacy Policy"
-msgstr "Politica de confidențialitate"
+msgstr "Politica de date cu caracter personal"
 
 #: lms/djangoapps/branding/api.py
 msgid "Accessibility Policy"
@@ -13815,9 +13815,9 @@ msgstr "Arătați răspunsul"
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Usou {num_used} de {num_total} tentativa"
+msgstr[1] "Usou {num_used} de {num_total} tentativas"
+msgstr[2] "Usou {num_used} de {num_total} tentativas"
 
 #: lms/templates/problem.html
 msgid ""
@@ -17779,7 +17779,7 @@ msgstr ""
 #: lms/templates/header/navbar-authenticated.html
 #: themes/edx.org/lms/templates/header/navbar-authenticated.html
 msgid "Discover New"
-msgstr "Cuprins"
+msgstr "Descoperă cursuri noi"
 
 #: lms/templates/header/navbar-logo-header.html
 msgid "{name} Dashboard"
@@ -25072,3 +25072,12 @@ msgid "Click on the \"Start Proctored Exam\" button below to continue."
 msgstr ""
 "Dați click pe butonul ”Start Examen Supravegheat” de mai jos pentru a "
 "continua."
+
+msgid "About Us"
+msgstr "Despre Noi"
+
+msgid "Continue learning"
+msgstr "Continuă cel mai recent curs"
+
+msgid "Dashboard"
+msgstr "Bord"
