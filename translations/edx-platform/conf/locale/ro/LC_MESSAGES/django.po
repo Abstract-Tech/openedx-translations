@@ -25078,6 +25078,3 @@ msgstr "Despre Noi"
 
 msgid "Continue learning"
 msgstr "Continuă cel mai recent curs"
-
-msgid "Dashboard"
-msgstr "Bord"
