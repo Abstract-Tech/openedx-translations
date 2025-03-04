@@ -13027,3 +13027,6 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr "Utilizați transcrierea curentă"
+
+msgid "Continue learning"
+msgstr "Continuă cel mai recent curs"

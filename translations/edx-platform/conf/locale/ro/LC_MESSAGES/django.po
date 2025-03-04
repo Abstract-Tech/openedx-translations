@@ -6522,6 +6522,9 @@ msgstr "Data înscrierii"
 msgid "Course Starts"
 msgstr "Cursul începe"
 
+msgid "Course starts"
+msgstr "Cursul începe"
+
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Don't forget to add a calendar reminder!"
 msgstr "Nu uitați să adăugați un reminder calendaristic!"
@@ -6539,6 +6542,9 @@ msgstr "Cursul începe în {time_remaining_string} la {course_start_time}."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course End"
+msgstr "Finalizare curs"
+
+msgid "Course end"
 msgstr "Finalizare curs"
 
 #: lms/djangoapps/courseware/date_summary.py
