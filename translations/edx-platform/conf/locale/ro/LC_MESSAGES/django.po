@@ -2472,25 +2472,25 @@ msgstr ""
 #, python-brace-format
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Incorect ({progress} punct)"
+msgstr[1] "Incorect ({progress} puncte)"
+
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Corect ({progress} punct)"
+msgstr[1] "Corect ({progress} puncte)"
+
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Parțial corect ({progress} punct)"
+msgstr[1] "Parțial corect ({progress} puncte)"
+
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Partially Correct"
@@ -13821,9 +13821,9 @@ msgstr "Arătați răspunsul"
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
-msgstr[0] "Usou {num_used} de {num_total} tentativa"
-msgstr[1] "Usou {num_used} de {num_total} tentativas"
-msgstr[2] "Usou {num_used} de {num_total} tentativas"
+msgstr[0] "Ați folosit {num_used} din {num_total} încercare"
+msgstr[1] "Ați folosit {num_used} din {num_total} încercări"
+msgstr[2] "Ați folosit {num_used} din {num_total} încercări"
 
 #: lms/templates/problem.html
 msgid ""
