@@ -25089,5 +25089,10 @@ msgstr "Continuă cel mai recent curs"
 msgid "Export results to CSV"
 msgstr "Exportați rezultatele în CSV"
 
-msgid "Download CSV"
-msgstr "Descărcați CSV"
+msgid "View results"
+msgstr "Vedeți rezultatele"
+
+msgid "Results gathered from {total} respondent."
+msgid_plural "Results gathered from {total} respondents."
+msgstr[0] "Rezultate colectate de la {total} respondent."
+msgstr[1] "Rezultate colectate de la {total} respondenți."
