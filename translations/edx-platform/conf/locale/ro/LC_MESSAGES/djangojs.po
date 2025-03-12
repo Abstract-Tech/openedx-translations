@@ -13054,3 +13054,10 @@ msgstr "rezultate"
 
 msgid "Results"
 msgstr "Rezultate"
+
+
+msgid "Export results to CSV"
+msgstr "Exportați rezultatele în CSV"
+
+msgid "Download CSV"
+msgstr "Descărcați CSV"
