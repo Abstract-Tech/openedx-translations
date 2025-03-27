@@ -13796,8 +13796,8 @@ msgstr "Arătați răspunsul"
 msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
 msgstr[0] "Ați folosit {num_used} din {num_total} încercare"
-msgstr[1] "Ați folosit {num_used} din {num_total} încercări"
-msgstr[2] "Ați folosit {num_used} din {num_total} încercări"
+msgstr[1] "Ați folosit {num_used} din {num_total} încercare"
+msgstr[2] "Ați folosit {num_used} din {num_total} încercare"
 
 #: lms/templates/problem.html
 msgid ""
@@ -17845,7 +17845,7 @@ msgstr ""
 
 #: lms/templates/header/navbar-authenticated.html
 #: themes/edx.org/lms/templates/header/navbar-authenticated.html
-msgid "Discover New"
+msgid "Discover New courses"
 msgstr "Descoperă cursuri noi"
 
 #: lms/templates/header/navbar-logo-header.html
@@ -18975,6 +18975,13 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add CCX Coach"
 msgstr "Adăgați Antrenorii CCX"
+
+msgid "To use the email tool, visit the"
+msgstr "Pentru a folosi instrumentul de email, vizitează"
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:13
+msgid "new experience"
+msgstr "noua experiență"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Send to:"
@@ -29413,3 +29420,12 @@ msgstr ""
 #~ "că {platform_name} și orice partener procesează datele personale așa cum "
 #~ "este specificat în {privacy_policy_link_start}Privacy "
 #~ "Policy{privacy_policy_link_end}."
+
+msgid "Register for free"
+msgstr "Înregistrează-te gratuit"
+
+msgid "Select your year of birth"
+msgstr "Selectează-ți anul nașterii"
+
+msgid "Select your gender"
+msgstr "Selectează-ți sexul"

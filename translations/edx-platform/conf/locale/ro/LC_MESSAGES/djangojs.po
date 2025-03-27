@@ -66,7 +66,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 "Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
 
 #: cms/static/cms/js/main.js cms/static/js/views/active_video_upload_list.js
 #: cms/static/js/views/video_transcripts.js
@@ -80,9 +81,9 @@ msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
 msgstr ""
-"Acest lucru se poate întâmpla din cauza unei erori a serverului nostru sau a"
-" conexiunii de internet. Încercaţi să reactualizaţi pagina, asigurându-vă că"
-" sunteţi online."
+"Acest lucru se poate întâmpla din cauza unei erori a serverului nostru sau a "
+"conexiunii de internet. Încercaţi să reactualizaţi pagina, asigurându-vă că "
+"sunteţi online."
 
 #: cms/static/cms/js/main.js common/static/bundles/Import.js
 #: common/static/bundles/js/factories/container.js
@@ -105,8 +106,7 @@ msgstr "Eroare în a salva evaluările."
 #: cms/static/js/views/asset.js cms/static/js/views/container.js
 #: cms/static/js/views/course_info_handout.js
 #: cms/static/js/views/course_info_update.js
-#: cms/static/js/views/edit_textbook.js
-#: cms/static/js/views/list_item_editor.js
+#: cms/static/js/views/edit_textbook.js cms/static/js/views/list_item_editor.js
 #: cms/static/js/views/modals/edit_xblock.js cms/static/js/views/tabs.js
 #: cms/static/js/views/utils/xblock_utils.js
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
@@ -234,8 +234,7 @@ msgstr "Alegeți un fişier nou"
 
 #: cms/static/js/features/import/factories/import.js
 #: common/static/bundles/Import.js
-msgid ""
-"File format not supported. Please upload a file with a {ext} extension."
+msgid "File format not supported. Please upload a file with a {ext} extension."
 msgstr ""
 "Formatul fișierului nu este suportat. Vă rugăm încărcați un fișier cu "
 "extensia {ext}."
@@ -251,8 +250,7 @@ msgstr ""
 #: common/static/bundles/Import.js
 msgid "There was an error while importing the new course to our database."
 msgstr ""
-"S-a produs o eroare în timpul importării noului curs în baza noastră de "
-"date."
+"S-a produs o eroare în timpul importării noului curs în baza noastră de date."
 
 #: cms/static/js/features/import/factories/import.js
 #: common/static/bundles/Import.js
@@ -413,8 +411,7 @@ msgstr "Închideți"
 #. #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: cms/static/js/views/assets.js
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: cms/static/js/views/assets.js common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/static/bundles/AboutBlockStudio.js
 #: common/static/bundles/CourseInfoBlockStudio.js
 #: common/static/bundles/HtmlBlockStudio.js
@@ -475,8 +472,7 @@ msgstr "OK"
 msgid "None"
 msgstr "Nimic"
 
-#: cms/static/js/views/course_video_settings.js
-#: cms/static/js/views/metadata.js
+#: cms/static/js/views/course_video_settings.js cms/static/js/views/metadata.js
 #: cms/static/js/views/previous_video_upload.js
 #: cms/static/js/views/video_transcripts.js
 #: common/static/bundles/js/factories/container.js
@@ -527,8 +523,8 @@ msgstr "Licență de tipul Creative Commons"
 #: common/static/bundles/js/factories/library.js
 msgid "You waive some rights for your work, such that others can use it too"
 msgstr ""
-"Renunțați la unele drepturi pentru munca proprie, astfel încât și alții să o"
-" poată folosi"
+"Renunțați la unele drepturi pentru munca proprie, astfel încât și alții să o "
+"poată folosi"
 
 #: cms/static/js/views/license.js
 #: common/static/bundles/js/factories/container.js
@@ -553,9 +549,9 @@ msgid ""
 "but only if they give credit the way you request. Currently, this option is "
 "required."
 msgstr ""
-"Permiteți altora să copieze, să distribuie, să afișeze și să realizeze munca"
-" dumneavoastră protejată prin drepturi de autor, dar numai dacă acordă "
-"credit așa cum solicitați. În prezent, această opțiune este necesară."
+"Permiteți altora să copieze, să distribuie, să afișeze și să realizeze munca "
+"dumneavoastră protejată prin drepturi de autor, dar numai dacă acordă credit "
+"așa cum solicitați. În prezent, această opțiune este necesară."
 
 #: cms/static/js/views/license.js
 #: common/static/bundles/js/factories/container.js
@@ -592,8 +588,8 @@ msgid ""
 "of your work, not derivative works based upon it. This option is "
 "incompatible with \"Share Alike\"."
 msgstr ""
-"Permiteți altora să copieze, să distribuie, să afișeze și să realizeze numai"
-" copii textuale ale muncii dumneavoastră, nu lucrări derivate bazate pe "
+"Permiteți altora să copieze, să distribuie, să afișeze și să realizeze numai "
+"copii textuale ale muncii dumneavoastră, nu lucrări derivate bazate pe "
 "aceasta. Această opțiune este incompatibilă cu „Partajare în același mod”."
 
 #: cms/static/js/views/license.js
@@ -609,11 +605,11 @@ msgstr "Împărțit egal"
 #: common/static/bundles/js/factories/library.js
 msgid ""
 "Allow others to distribute derivative works only under a license identical "
-"to the license that governs your work. This option is incompatible with \"No"
-" Derivatives\"."
+"to the license that governs your work. This option is incompatible with \"No "
+"Derivatives\"."
 msgstr ""
-"Permiteți altora să distribuie lucrări derivate numai sub o licență identică"
-" cu licența aplicabilă pentru munca dumneavoastră. Această opțiune este "
+"Permiteți altora să distribuie lucrări derivate numai sub o licență identică "
+"cu licența aplicabilă pentru munca dumneavoastră. Această opțiune este "
 "incompatibilă cu „Fără derivate”."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -920,8 +916,8 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
 msgstr ""
-"Se afișează {currentItemRange} din {totalItemsCount}, sortat descendent după"
-" {sortName}"
+"Se afișează {currentItemRange} din {totalItemsCount}, sortat descendent după "
+"{sortName}"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
@@ -948,11 +944,11 @@ msgstr "Vrei să ștergi “<%- name %>”?"
 #: cms/static/js/views/show_textbook.js
 #: common/static/bundles/js/factories/textbooks.js
 msgid ""
-"Deleting a textbook cannot be undone and once deleted any reference to it in"
-" your courseware's navigation will also be removed."
+"Deleting a textbook cannot be undone and once deleted any reference to it in "
+"your courseware's navigation will also be removed."
 msgstr ""
-"Ştergerea unui manual nu poate fi anulată şi odată ştearsă orice legătura cu"
-" acesta în navigarea cursului va fi, de asemenea, ştearsă. "
+"Ştergerea unui manual nu poate fi anulată şi odată ştearsă orice legătura cu "
+"acesta în navigarea cursului va fi, de asemenea, ştearsă. "
 
 #: cms/static/js/views/tabs.js common/static/bundles/js/factories/edit_tabs.js
 msgid "Delete Page Confirmation"
@@ -1187,8 +1183,8 @@ msgstr "Sunteți sigur că doriți să ștergeți acestă transcriere?"
 #: common/static/bundles/js/factories/edit_tabs.js
 #: common/static/bundles/js/factories/library.js
 msgid ""
-"If you remove this transcript, the transcript will not be available for this"
-" component."
+"If you remove this transcript, the transcript will not be available for this "
+"component."
 msgstr ""
 "Dacă eliminați această transcriere, transcrierea nu va fi valabilă pentru "
 "această componentă."
@@ -1461,9 +1457,11 @@ msgstr "netrimis"
 #: common/static/bundles/HtmlBlockStudio.js
 #: common/static/bundles/StaticTabBlockStudio.js
 msgid ""
-"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
+"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;"
+"{heading6}=h6"
 msgstr ""
-"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
+"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;"
+"{heading6}=h6"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -3503,12 +3501,15 @@ msgstr "Adaugă/Editează Imagine"
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
 #: common/static/bundles/LTIBlockPreview.js common/static/bundles/LTIModule.js
 msgid ""
-"Click OK to have your username and e-mail address sent to a 3rd party application.\n"
+"Click OK to have your username and e-mail address sent to a 3rd party "
+"application.\n"
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
-"Apasă OK pentru ca numele tău de utilizator și adresa de e-mail să fie trimise unei aplicații terțe.\n"
-"Apasă Anulează pentru a te întoarce la pagina aceasta fără a trimite informația ta."
+"Apasă OK pentru ca numele tău de utilizator și adresa de e-mail să fie "
+"trimise unei aplicații terțe.\n"
+"Apasă Anulează pentru a te întoarce la pagina aceasta fără a trimite "
+"informația ta."
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
 #: common/static/bundles/LTIBlockPreview.js common/static/bundles/LTIModule.js
@@ -3517,8 +3518,10 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
-"Apasă OK pentru ca numele tău de utilizator să fie trimis unei aplicații terțe.\n"
-"Apasă Anulează pentru a te întoarce la pagina aceasta fără a trimite informația ta."
+"Apasă OK pentru ca numele tău de utilizator să fie trimis unei aplicații "
+"terțe.\n"
+"Apasă Anulează pentru a te întoarce la pagina aceasta fără a trimite "
+"informația ta."
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
 #: common/static/bundles/LTIBlockPreview.js common/static/bundles/LTIModule.js
@@ -3527,9 +3530,11 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
-"Apasă OK pentru ca numele tău de utilizator și adresa ta de e-mail să fie trimise unei aplicații terțe.\n"
+"Apasă OK pentru ca numele tău de utilizator și adresa ta de e-mail să fie "
+"trimise unei aplicații terțe.\n"
 "\n"
-"Apasă Anulează pentru a te întoarce la această pagină fără a trimite informația ta."
+"Apasă Anulează pentru a te întoarce la această pagină fără a trimite "
+"informația ta."
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/ProblemBlockStudio.js
@@ -3554,11 +3559,13 @@ msgstr "Scurtă explicație"
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/ProblemBlockStudio.js
 msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
+"If you use the Advanced Editor, this problem will be converted to XML and "
+"you will not be able to return to the Simple Editor Interface.\n"
 "\n"
 "Proceed to the Advanced Editor and convert this problem to XML?"
 msgstr ""
-"Dacă folosești Editare Avansată, această problemă va fi transformată în XML și nu vei mai putea să te întorci la Interfața de Editare Simplă.\n"
+"Dacă folosești Editare Avansată, această problemă va fi transformată în XML "
+"și nu vei mai putea să te întorci la Interfața de Editare Simplă.\n"
 "\n"
 "Continui la Editare Avansată și transformi această problemă în XML?"
 
@@ -3830,8 +3837,8 @@ msgstr "Finalul transcript-ului. Sari la început."
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 #: common/static/bundles/VideoBlockPreview.js
 msgid ""
-"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
-" keys to navigate language options. Press ENTER to change to the selected "
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow "
+"keys to navigate language options. Press ENTER to change to the selected "
 "language."
 msgstr ""
 "Apăsați tasta săgeată SUS pentru a intra în meniul de limbă, apoi utilizați "
@@ -3873,8 +3880,8 @@ msgid ""
 "There was an error in setting your goal, please reload the page and try "
 "again."
 msgstr ""
-"A apărut o eroare la setarea obiectivului, vă rugăm să reîncărcați pagina și"
-" încercați din nou."
+"A apărut o eroare la setarea obiectivului, vă rugăm să reîncărcați pagina și "
+"încercați din nou."
 
 #: common/static/bundles/CourseHome.js
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js
@@ -3922,15 +3929,14 @@ msgstr "Ajutați să faceți edX mai bun pentru toată lumea!"
 #: common/static/bundles/DemographicsCollectionBanner.js
 #: common/static/bundles/DemographicsCollectionModal.js
 msgid ""
-"Welcome to edX! Before you get started, please take a few minutes to fill-in"
-" the additional information below to help us understand a bit more about "
-"your background. You can always edit this information later in Account "
-"Settings."
+"Welcome to edX! Before you get started, please take a few minutes to fill-in "
+"the additional information below to help us understand a bit more about your "
+"background. You can always edit this information later in Account Settings."
 msgstr ""
 "Bun venit în edX! Înainte de a începe, te rugăm să acorzi câteva minute "
-"pentru a completa informațiile suplimentare de mai jos, pentru a ne ajuta să"
-" înțelegem puțin mai multe despre tine. Poți edita oricând aceste informații"
-" mai târziu în Setările contului."
+"pentru a completa informațiile suplimentare de mai jos, pentru a ne ajuta să "
+"înțelegem puțin mai multe despre tine. Poți edita oricând aceste informații "
+"mai târziu în Setările contului."
 
 #: common/static/bundles/DemographicsCollectionBanner.js
 #: common/static/bundles/DemographicsCollectionModal.js
@@ -3975,8 +3981,8 @@ msgid ""
 "What was the total combined income, during the last 12 months, of all "
 "members of your family? "
 msgstr ""
-"Care a fost venitul total cumulat, în ultimele 12 luni, al tuturor membrilor"
-" familiei tale?"
+"Care a fost venitul total cumulat, în ultimele 12 luni, al tuturor membrilor "
+"familiei tale?"
 
 #: common/static/bundles/DemographicsCollectionBanner.js
 #: common/static/bundles/DemographicsCollectionModal.js
@@ -4013,8 +4019,8 @@ msgstr "Selectează nivel de educație"
 #: common/static/bundles/DemographicsCollectionModal.js
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
-"What is the highest level of education that any of your parents or guardians"
-" have achieved?"
+"What is the highest level of education that any of your parents or guardians "
+"have achieved?"
 msgstr ""
 "Care este cel mai înalt nivel de educație pe care îl are oricare dintre "
 "părinții sau tutorii tăi?"
@@ -4348,8 +4354,8 @@ msgid ""
 "For inquiries regarding assignments, grades, or structure of a specific "
 "course, please post in the discussion forums for that course directly."
 msgstr ""
-"Pentru întrebări cu privire la teme, note sau structura unui anumit curs, vă"
-" rugăm să postați direct pe forumurile de discuții ale cursului respectiv."
+"Pentru întrebări cu privire la teme, note sau structura unui anumit curs, vă "
+"rugăm să postați direct pe forumurile de discuții ale cursului respectiv."
 
 #: common/static/bundles/SingleSupportForm.js
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
@@ -4434,8 +4440,8 @@ msgid ""
 msgstr ""
 "În timp ce echipa noastră de asistență este bucuroasă să vă ajute cu "
 "platforma edX, echipa cursului are experiența pentru întrebări specifice, "
-"notări sau proceduri adecvate pentru fiecare curs. Vă rugăm să postați toate"
-" întrebările legate de curs în Forumul de discuții, unde echipa cursului "
+"notări sau proceduri adecvate pentru fiecare curs. Vă rugăm să postați toate "
+"întrebările legate de curs în Forumul de discuții, unde echipa cursului "
 "poate răspunde direct."
 
 #: common/static/bundles/SingleSupportForm.js
@@ -4553,11 +4559,11 @@ msgid ""
 "these for your records before proceeding with deletion, follow the "
 "instructions for {htmlStart}printing or downloading a certificate{htmlEnd}."
 msgstr ""
-"De asemenea, este posibil să pierdeți accesul la certificatele verificate și"
-" la alte acreditări ale programului, cum ar fi certificatele MicroMasters. "
-"Dacă doriți să faceți o copie a acestora pentru evidențele personale înainte"
-" de a continua cu ștergerea, urmați instrucțiunile pentru "
-"{htmlStart}tipărirea sau descărcarea unui certificat{htmlEnd}."
+"De asemenea, este posibil să pierdeți accesul la certificatele verificate și "
+"la alte acreditări ale programului, cum ar fi certificatele MicroMasters. "
+"Dacă doriți să faceți o copie a acestora pentru evidențele personale înainte "
+"de a continua cu ștergerea, urmați instrucțiunile pentru {htmlStart}"
+"tipărirea sau descărcarea unui certificat{htmlEnd}."
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -4582,8 +4588,8 @@ msgstr ""
 msgid ""
 "{htmlStart}Want to change your email, name, or password instead?{htmlEnd}"
 msgstr ""
-"{htmlStart} Doriți să vă schimbați adresa de e-mail, numele sau "
-"parola?{htmlEnd}"
+"{htmlStart} Doriți să vă schimbați adresa de e-mail, numele sau parola?"
+"{htmlEnd}"
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -4596,16 +4602,16 @@ msgid ""
 msgstr ""
 "{strongStart}Avertisment: ștergerea contului este definitivă.{strongEnd} Vă "
 "rugăm să citiți cu atenție cele de mai sus înainte de a continua. Aceasta "
-"este o acțiune ireversibilă și {strongStart}nu veți mai putea folosi același"
-" e-mail pe {platformName}.{strongEnd}"
+"este o acțiune ireversibilă și {strongStart}nu veți mai putea folosi același "
+"e-mail pe {platformName}.{strongEnd}"
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
 "Please note: Deletion of your account and personal data is permanent and "
-"cannot be undone. {platformName} will not be able to recover your account or"
-" the data that is deleted."
+"cannot be undone. {platformName} will not be able to recover your account or "
+"the data that is deleted."
 msgstr ""
 "Vă rugăm să rețineți: ștergerea contului și a datelor cu caracter personal "
 "este permanentă și nu poate fi anulată. {platformName} nu vă va putea "
@@ -4684,8 +4690,8 @@ msgstr "Este necesară o parolă"
 #: common/static/bundles/StudentAccountDeletionInitializer.js
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
-"You have selected “Delete my account.” Deletion of your account and personal"
-" data is permanent and cannot be undone. {platformName} will not be able to "
+"You have selected “Delete my account.” Deletion of your account and personal "
+"data is permanent and cannot be undone. {platformName} will not be able to "
 "recover your account or the data that is deleted."
 msgstr ""
 "Ai selectat “Ștergerea contului”. Ștergerea contului și a datelor personale "
@@ -4710,8 +4716,8 @@ msgid ""
 "If you still wish to continue and delete your account, please enter your "
 "account password:"
 msgstr ""
-"Dacă totuși dorești să continui cu ștergerea contului, te rugăm să introduci"
-" parola contului tău:"
+"Dacă totuși dorești să continui cu ștergerea contului, te rugăm să introduci "
+"parola contului tău:"
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -4731,8 +4737,8 @@ msgstr ""
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
 "Account deletion, including removal from email lists, may take a few weeks "
-"to fully process through our system. If you want to opt-out of emails before"
-" then, please unsubscribe from the footer of any email."
+"to fully process through our system. If you want to opt-out of emails before "
+"then, please unsubscribe from the footer of any email."
 msgstr ""
 "Ștergerea contului, inclusiv eliminarea adresei de e-mail din listele "
 "noastre, poate dura câteva săptămâni pentru procesare. Dacă nu vrei să mai "
@@ -4817,8 +4823,7 @@ msgstr "Conținutul se încarcă"
 #: common/static/common/js/discussion/utils.js
 msgid "Your request could not be processed. Refresh the page and try again."
 msgstr ""
-"Solicitarea ta nu a putut fi procesată. Reîncarcă pagina și încearcă din "
-"nou."
+"Solicitarea ta nu a putut fi procesată. Reîncarcă pagina și încearcă din nou."
 
 #: common/static/common/js/discussion/utils.js
 #: common/static/common/templates/discussion/templates.underscore
@@ -4856,8 +4861,7 @@ msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid ""
-"You could not be unsubscribed from this post. Refresh the page and try "
-"again."
+"You could not be unsubscribed from this post. Refresh the page and try again."
 msgstr ""
 "Nu te-ai putut dezabona de la această postare. Reîncarcă pagina și încearcă "
 "din nou."
@@ -4875,8 +4879,8 @@ msgid ""
 "This response could not be unmarked as an answer. Refresh the page and try "
 "again."
 msgstr ""
-"Răspunsul nu a putut fi debifat ca răspuns. Reîncarcă pagina și încearcă din"
-" nou."
+"Răspunsul nu a putut fi debifat ca răspuns. Reîncarcă pagina și încearcă din "
+"nou."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid ""
@@ -4906,8 +4910,8 @@ msgstr ""
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid "This post could not be unpinned. Refresh the page and try again."
 msgstr ""
-"Această postare este în continuare evidențiață pentru vizualizare. Reîncarcă"
-" pagina și încearcă din nou."
+"Această postare este în continuare evidențiață pentru vizualizare. Reîncarcă "
+"pagina și încearcă din nou."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid ""
@@ -4958,8 +4962,7 @@ msgstr "Se încarcă mai multe subiecte."
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "Additional posts could not be loaded. Refresh the page and try again."
 msgstr ""
-"Nu se pot încărca postări suplimentare. Reîncarcă pagina și încearcă din "
-"nou."
+"Nu se pot încărca postări suplimentare. Reîncarcă pagina și încearcă din nou."
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "Current conversation"
@@ -4971,8 +4974,7 @@ msgstr "Se încarcă lista de postări"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid ""
-"No results found for {original_query}. Showing results for "
-"{suggested_query}."
+"No results found for {original_query}. Showing results for {suggested_query}."
 msgstr ""
 "Niciun rezultat găsit pentru {original_query}. Se afișează rezultatele "
 "pentru {suggested_query}."
@@ -5053,8 +5055,7 @@ msgstr "Ești sigur/ă că vrei să ștergi comentariul?"
 
 #: common/static/common/js/discussion/views/response_comment_view.js
 msgid "This comment could not be deleted. Refresh the page and try again."
-msgstr ""
-"Comentariul nu a putut fi șters. Reîncarcă pagina și încearcă din nou."
+msgstr "Comentariul nu a putut fi șters. Reîncarcă pagina și încearcă din nou."
 
 #: common/static/common/js/discussion/views/thread_response_view.js
 msgid "Are you sure you want to delete this response?"
@@ -5205,11 +5206,11 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx
 msgid ""
-"Files that you upload must be PDFs or image files in .gif, .jpg, .jpeg, or "
-".png format."
+"Files that you upload must be PDFs or image files in .gif, .jpg, .jpeg, or ."
+"png format."
 msgstr ""
-"Fișierele pe care le încarci trebuie să fie PDF-uri sau imagini în format "
-".gif, .jpg, .jpeg sau .png."
+"Fișierele pe care le încarci trebuie să fie PDF-uri sau imagini în format ."
+"gif, .jpg, .jpeg sau .png."
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx
 msgid "Add Attachment"
@@ -5477,13 +5478,13 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
-"Your request could not be completed due to a server problem. Reload the page"
-" and try again. If the issue persists, click the Help tab to report the "
+"Your request could not be completed due to a server problem. Reload the page "
+"and try again. If the issue persists, click the Help tab to report the "
 "problem."
 msgstr ""
-"Solicitarea ta nu a putut fi realizată din cauza unei probleme a serverului."
-" Reîncarcă pagina și încearcă din nou. Dacă situația persistă, apasă pe fila"
-" Ajutor și raportează problema."
+"Solicitarea ta nu a putut fi realizată din cauza unei probleme a serverului. "
+"Reîncarcă pagina și încearcă din nou. Dacă situația persistă, apasă pe fila "
+"Ajutor și raportează problema."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Team Search"
@@ -5540,18 +5541,18 @@ msgid ""
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
 msgstr ""
-"Vezi toate echipele din care faci parte și toate echipele publice din cursul"
-" tău, organizate pe subiecte. Alătură-te unei echipe publice pentru a "
-"colabora cu alți cursanți / alte cursante interesate de aceleași subiecte ca"
-" tine."
+"Vezi toate echipele din care faci parte și toate echipele publice din cursul "
+"tău, organizate pe subiecte. Alătură-te unei echipe publice pentru a "
+"colabora cu alți cursanți / alte cursante interesate de aceleași subiecte ca "
+"tine."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic."
 msgstr ""
-"Vezi toate echipele din care faci parte și toate echipele publice din cursul"
-" tău, organizate pe subiecte."
+"Vezi toate echipele din care faci parte și toate echipele publice din cursul "
+"tău, organizate pe subiecte."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "See all teams you belong to."
@@ -5598,8 +5599,8 @@ msgid ""
 msgstr ""
 "{browse_span_start}Navighează echipele de la alte subiecte{span_end} sau "
 "{search_span_start}caută echipe{span_end} în acest subiect. Dacă nu găsești "
-"o echipă căreia să i te alături, {create_span_start}creează o echipă nouă în"
-" acest subiect{span_end}."
+"o echipă căreia să i te alături, {create_span_start}creează o echipă nouă în "
+"acest subiect{span_end}."
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_teams.js
 msgid ""
@@ -5843,8 +5844,8 @@ msgid ""
 "in username/email and then press \"Invalidate Certificate\" button."
 msgstr ""
 "Numele utilizator / câmpul e-mail sunt obligatorii și nu pot rămâne "
-"necompletate. Te rugăm să completezi numele de utilizator / adresa de e-mail"
-" și apoi să apeși butonul \"Invalidează certificatul”."
+"necompletate. Te rugăm să completezi numele de utilizator / adresa de e-mail "
+"și apoi să apeși butonul \"Invalidează certificatul”."
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
@@ -5935,8 +5936,8 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
 msgid ""
-"Could not find Certificate Invalidation in the list. Please refresh the page"
-" and try again"
+"Could not find Certificate Invalidation in the list. Please refresh the page "
+"and try again"
 msgstr ""
 
 #: lms/static/js/certificates/views/certificate_whitelist.js
@@ -6017,8 +6018,8 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
-"Are you sure you want to unenroll from the verified {certNameLong}  track of"
-" {courseName}  ({courseNumber})?"
+"Are you sure you want to unenroll from the verified {certNameLong}  track of "
+"{courseName}  ({courseNumber})?"
 msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
@@ -6042,7 +6043,6 @@ msgid_plural "Viewing %s courses"
 msgstr[0] "Vizualizezi %s curs"
 msgstr[1] "Vizualizezi %s cursuri"
 msgstr[2] "Vizualizezi %s de cursuri"
-
 
 #: lms/static/js/discovery/views/search_form.js
 #, javascript-format
@@ -6122,8 +6122,8 @@ msgstr ""
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 #: lms/static/js/edxnotes/views/search_box.js
 msgid ""
-"An error has occurred. Make sure that you are connected to the Internet, and"
-" then try refreshing the page."
+"An error has occurred. Make sure that you are connected to the Internet, and "
+"then try refreshing the page."
 msgstr ""
 "A apărut o eroare. Asigură-te că ești conectat/ă la internet, apoi încearcă "
 "să reîncarci pagina."
@@ -6163,7 +6163,8 @@ msgstr "Activitate recentă"
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 msgid "No results found for \"{query_string}\". Please try searching again."
-msgstr "Niciun rezultat găsit pentru \"{query_string}\". Te rugăm caută din nou."
+msgstr ""
+"Niciun rezultat găsit pentru \"{query_string}\". Te rugăm caută din nou."
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
@@ -6197,17 +6198,16 @@ msgstr "Nu se poate trimite cererea."
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An error has occurred. Check your Internet connection and try again."
 msgstr ""
-"A apărut o eroare. Asigură-te că ești conectat/ă la internet și încearcă din"
-" nou."
+"A apărut o eroare. Asigură-te că ești conectat/ă la internet și încearcă din "
+"nou."
 
 #: lms/static/js/financial-assistance/views/financial_assistance_form_view.js
 msgid "Choose one"
 msgstr "Alege o variantă"
 
-#: lms/static/js/groups/views/cohort_editor.js
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
 msgid "Selected tab"
-msgstr ""
+msgstr "File selectate"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Saved cohort"
@@ -6248,8 +6248,8 @@ msgstr "{email}"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid ""
-"{numPreassigned} learner was pre-assigned for this cohort. This learner will"
-" automatically be added to the cohort when they enroll in the course."
+"{numPreassigned} learner was pre-assigned for this cohort. This learner will "
+"automatically be added to the cohort when they enroll in the course."
 msgid_plural ""
 "{numPreassigned} learners were pre-assigned for this cohort. These learners "
 "will automatically be added to the cohort when they enroll in the course."
@@ -6300,15 +6300,14 @@ msgstr ""
 msgid "You currently have no cohorts configured"
 msgstr ""
 
-#: lms/static/js/groups/views/cohorts.js
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:22
 msgid "Add Cohort"
-msgstr ""
+msgstr "Adăugă cohortă"
 
 #: lms/static/js/groups/views/cohorts.js
 msgid ""
-"The {cohortGroupName} cohort has been created. You can manually add students"
-" to this cohort below."
+"The {cohortGroupName} cohort has been created. You can manually add students "
+"to this cohort below."
 msgstr ""
 
 #: lms/static/js/groups/views/cohorts.js
@@ -6342,23 +6341,23 @@ msgstr ""
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
-"This course uses automatic cohorting for verified track learners. You cannot"
-" disable cohorts, and you cannot rename the manual cohort named "
+"This course uses automatic cohorting for verified track learners. You cannot "
+"disable cohorts, and you cannot rename the manual cohort named "
 "'{verifiedCohortName}'. To change the configuration for verified track "
 "cohorts, contact your edX partner manager."
 msgstr ""
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
-"This course has automatic cohorting enabled for verified track learners, but"
-" the required cohort does not exist. You must create a manually-assigned "
+"This course has automatic cohorting enabled for verified track learners, but "
+"the required cohort does not exist. You must create a manually-assigned "
 "cohort named '{verifiedCohortName}' for the feature to work."
 msgstr ""
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
-"This course has automatic cohorting enabled for verified track learners, but"
-" cohorts are disabled. You must enable cohorts for the feature to work."
+"This course has automatic cohorting enabled for verified track learners, but "
+"cohorts are disabled. You must enable cohorts for the feature to work."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/certificates.js
@@ -6403,8 +6402,8 @@ msgstr "Eroare la generarea ID-urilor anonime. Te rugăm încearcă din nou."
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
-"Eroare la generarea rezultatelor pentru examenele supravegheate. Te rugăm să"
-" încerci din nou."
+"Eroare la generarea rezultatelor pentru examenele supravegheate. Te rugăm să "
+"încerci din nou."
 
 #: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
@@ -6434,8 +6433,8 @@ msgstr "Eroare la obținerea listei de cursanți."
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
-"Eroare la generarea listei cursanților care ar putea să se înscrie. Te rugăm"
-" să încerci din nou."
+"Eroare la generarea listei cursanților care ar putea să se înscrie. Te rugăm "
+"să încerci din nou."
 
 #: lms/static/js/instructor_dashboard/data_download.js
 msgid "Error retrieving grading configuration."
@@ -6460,8 +6459,8 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid ""
-"There was a problem creating the report. Select \"Create Executive Summary\""
-" to try again."
+"There was a problem creating the report. Select \"Create Executive Summary\" "
+"to try again."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
@@ -6579,8 +6578,7 @@ msgstr ""
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "These users were successfully removed as beta testers:"
-msgstr ""
-"Acești utilizatori au fost șterși cu succes din lista de testeri beta."
+msgstr "Acești utilizatori au fost șterși cu succes din lista de testeri beta."
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
@@ -6631,8 +6629,8 @@ msgid ""
 "Successfully sent enrollment emails to the following users. They will be "
 "allowed to enroll once they register:"
 msgstr ""
-"S-au trimis cu succes e-mailuri de înscriere către următorii utilizatori. Li"
-" se va permite înscrierea odată ce s-au înregistrat:"
+"S-au trimis cu succes e-mailuri de înscriere către următorii utilizatori. Li "
+"se va permite înscrierea odată ce s-au înregistrat:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
@@ -6724,8 +6722,8 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/send_email.js
 msgid ""
-"You are sending an email message with the subject {subject} to the following"
-" recipients."
+"You are sending an email message with the subject {subject} to the following "
+"recipients."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/send_email.js
@@ -6785,9 +6783,9 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Error resetting problem attempts for problem '<%- problem_id %>' and student"
-" '<%- student_id %>'. Make sure that the problem and student identifiers are"
-" complete and correct."
+"Error resetting problem attempts for problem '<%- problem_id %>' and student "
+"'<%- student_id %>'. Make sure that the problem and student identifiers are "
+"complete and correct."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -6797,8 +6795,8 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
-" %>'. Make sure that the problem and student identifiers are complete and "
+"Error deleting student '<%- student_id %>'s state on problem '<%- problem_id "
+"%>'. Make sure that the problem and student identifiers are complete and "
 "correct."
 msgstr ""
 
@@ -6819,8 +6817,8 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Error resetting entrance exam attempts for student '{student_id}'. Make sure"
-" student identifier is correct."
+"Error resetting entrance exam attempts for student '{student_id}'. Make sure "
+"student identifier is correct."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -6829,14 +6827,13 @@ msgstr "Introdu numele de utilizator sau adresa de e-mail a cursantului."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Do you want to allow this student ('{student_id}') to skip the entrance "
-"exam?"
+"Do you want to allow this student ('{student_id}') to skip the entrance exam?"
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"An error occurred. Make sure that the student's username or email address is"
-" correct and try again."
+"An error occurred. Make sure that the student's username or email address is "
+"correct and try again."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -6861,8 +6858,8 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Successfully started task to reset attempts for problem '<%- problem_id %>'."
-" Click the 'Show Task Status' button to see the status of the task."
+"Successfully started task to reset attempts for problem '<%- problem_id %>'. "
+"Click the 'Show Task Status' button to see the status of the task."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -6933,8 +6930,8 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
-" the problem identifier is complete and correct."
+"Error starting a task to rescore problem '<%- problem_id %>'. Make sure that "
+"the problem identifier is complete and correct."
 msgstr ""
 
 #. Translators: a "Task" is a background process such as grading students or
@@ -6993,8 +6990,8 @@ msgstr "Progres sarcină"
 
 #: lms/static/js/instructor_dashboard/util.js
 msgid ""
-"An error occurred retrieving your email. Please try again later, and contact"
-" technical support if the problem persists."
+"An error occurred retrieving your email. Please try again later, and contact "
+"technical support if the problem persists."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/util.js
@@ -7025,7 +7022,9 @@ msgid "Enter the subject of your request"
 msgstr "Adaugă aici subiectul solicitării tale de suport"
 
 msgid "Enter the description of your request"
-msgstr "Descrie aici, cât mai detaliat, problema pentru care ai nevoie de asistență și suport"
+msgstr ""
+"Descrie aici, cât mai detaliat, problema pentru care ai nevoie de asistență "
+"și suport"
 
 msgid "Enter your email"
 msgstr "Adaugă email"
@@ -7062,8 +7061,8 @@ msgid ""
 "Links are generated on demand and expire within 5 minutes due to the "
 "sensitive nature of student information."
 msgstr ""
-"Link-urile sunt generate la cerere și expiră în decurs de 5 minute din cauza"
-" caracterului sensibil al informațiilor despre cursanți."
+"Link-urile sunt generate la cerere și expiră în decurs de 5 minute din cauza "
+"caracterului sensibil al informațiilor despre cursanți."
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Successfully reset the attempts for user {user}"
@@ -7155,20 +7154,20 @@ msgstr "Verifică e-mail-ul"
 msgid ""
 "{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
 "address is associated with your {platform_name} account, we will send a "
-"message with password recovery instructions to this email "
-"address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
-" message after 1 minute, verify that you entered the correct email address, "
-"or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"message with password recovery instructions to this email address."
+"{paragraphEnd}{paragraphStart}If you do not receive a password reset message "
+"after 1 minute, verify that you entered the correct email address, or check "
+"your spam folder.{paragraphEnd}{paragraphStart}If you need further "
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
-"{paragraphStart}Ai introdus {boldStart}{email}{boldEnd}. Dacă această adresă"
-" de e-mail este asociată cu contul tău pe {platform_name}, vom trimite un "
-"mesaj cu instrucțiunile de recuperare a parolei pe această adresă de "
-"e-mail.{paragraphEnd}{paragraphStart}Dacă nu primești un mesaj de resetare a"
-" parolei în decurs de 1 minut, verifică dacă ai introdus adresa corectă de "
-"e-mail sau verifică folderul Spam.{paragraphEnd}{paragraphStart}Dacă ai "
-"nevoie de sprijin suplimentar,{anchorStart}contactează echipa de "
-"suport{anchorEnd}.{paragraphEnd}"
+"{paragraphStart}Ai introdus {boldStart}{email}{boldEnd}. Dacă această adresă "
+"de e-mail este asociată cu contul tău pe {platform_name}, vom trimite un "
+"mesaj cu instrucțiunile de recuperare a parolei pe această adresă de e-mail."
+"{paragraphEnd}{paragraphStart}Dacă nu primești un mesaj de resetare a "
+"parolei în decurs de 1 minut, verifică dacă ai introdus adresa corectă de e-"
+"mail sau verifică folderul Spam.{paragraphEnd}{paragraphStart}Dacă ai nevoie "
+"de sprijin suplimentar,{anchorStart}contactează echipa de suport{anchorEnd}."
+"{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -7180,17 +7179,15 @@ msgstr ""
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
-"In order to sign in, you need to activate your "
-"account.{line_break}{line_break}We just sent an activation link to "
-"{strong_start} {email} {strong_end}. If  you do not receive an email, check "
-"your spam folders or  {anchorStart}contact {platform_name} "
-"Support{anchorEnd}."
+"In order to sign in, you need to activate your account.{line_break}"
+"{line_break}We just sent an activation link to {strong_start} {email} "
+"{strong_end}. If  you do not receive an email, check your spam folders or  "
+"{anchorStart}contact {platform_name} Support{anchorEnd}."
 msgstr ""
-"Pentru a te autentifica, este necesar să îți activezi "
-"contul.{line_break}{line_break}Tocmai ce am trimis un link de activare "
-"pe{strong_start} {email} {strong_end}. Dacă nu primești un e-mail, verifică "
-"folderul Spam sau {anchorStart}contactează-ne pe {platform_name} "
-"suport{anchorEnd}."
+"Pentru a te autentifica, este necesar să îți activezi contul.{line_break}"
+"{line_break}Tocmai ce am trimis un link de activare pe{strong_start} {email} "
+"{strong_end}. Dacă nu primești un e-mail, verifică folderul Spam sau "
+"{anchorStart}contactează-ne pe {platform_name} suport{anchorEnd}."
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An unexpected error has occurred."
@@ -7199,8 +7196,8 @@ msgstr "A apărut o eroare neprevăzută."
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
-"%(currentProvider)s account does not have a linked %(platformName)s account."
-" To link your accounts, sign in now using your %(platformName)s password."
+"%(currentProvider)s account does not have a linked %(platformName)s account. "
+"To link your accounts, sign in now using your %(platformName)s password."
 msgstr ""
 "Te-ai autentificat cu succes în %(currentProvider)s, dar contul tău "
 "%(currentProvider)snu are asociat un cont%(platformName)s. Pentru a-ți "
@@ -7256,11 +7253,11 @@ msgstr "Recuparea adresa de e-mail"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
-"You may access your account with this address if single-sign on or access to"
-" your primary email is not available."
+"You may access your account with this address if single-sign on or access to "
+"your primary email is not available."
 msgstr ""
-"Poți accesa contul tău cu această adresă de e-mail dacă autentificarea unică"
-" sau accesul la e-mailul tău principal nu sunt disponibile."
+"Poți accesa contul tău cu această adresă de e-mail dacă autentificarea unică "
+"sau accesul la e-mailul tău principal nu sunt disponibile."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
@@ -7272,8 +7269,8 @@ msgid ""
 "The name that is used for ID verification and that appears on your "
 "certificates."
 msgstr ""
-"Numele folosit pentru verificarea identității și care apare pe certificatele"
-" tale."
+"Numele folosit pentru verificarea identității și care apare pe certificatele "
+"tale."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Country or Region of Residence"
@@ -7315,8 +7312,8 @@ msgid ""
 "a limited number of languages. Changing the value of this field will cause "
 "the page to refresh."
 msgstr ""
-"Limba folosită pe acest website. Acest site este disponibil momentan într-un"
-" număr limitat de limbi. Modificarea valorii acestui câmp va implica "
+"Limba folosită pe acest website. Acest site este disponibil momentan într-un "
+"număr limitat de limbi. Modificarea valorii acestui câmp va implica "
 "reîncărcarea paginii."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -7329,8 +7326,8 @@ msgid ""
 "time zone, course dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
 msgstr ""
-"Selectează fusul orar pentru afișarea datelor din curs. Dacă nu specifici un"
-" fus orar, datele din curs, incluzând termenele limită ale sarcinilor de "
+"Selectează fusul orar pentru afișarea datelor din curs. Dacă nu specifici un "
+"fus orar, datele din curs, incluzând termenele limită ale sarcinilor de "
 "lucru, vor fi afișate în funcție de fusul orar local al motorului tău de "
 "căutare."
 
@@ -7453,8 +7450,8 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid ""
-"We've sent a message to {email}. Click the link in the message to reset your"
-" password. Didn't receive the message? Contact {anchorStart}technical "
+"We've sent a message to {email}. Click the link in the message to reset your "
+"password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
 msgstr ""
 "Am trimis un mesaj la {email}. Accesează linkul din mesaj pentru resetarea "
@@ -7600,8 +7597,8 @@ msgstr "Nu pare să aveți nici o cameră web conectată. "
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "Double-check that your webcam is connected and working to continue."
 msgstr ""
-"Mai verificați încă o dată dacă ați conectat camera web și dacă funcționează"
-" pentru a continua. "
+"Mai verificați încă o dată dacă ați conectat camera web și dacă funcționează "
+"pentru a continua. "
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "Photo Captured successfully."
@@ -7678,8 +7675,8 @@ msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid ""
-"Removal is in progress. To avoid errors, stay on this page until the process"
-" is complete."
+"Removal is in progress. To avoid errors, stay on this page until the process "
+"is complete."
 msgstr ""
 "Ștergere în progres. Pentru a evita apariția de erori, rămâi pe această "
 "pagină până se termină procesul."
@@ -7741,9 +7738,8 @@ msgstr "Profil Limitat"
 msgid "Full Profile"
 msgstr "Profil Complet"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined"
-msgstr ""
+msgstr "Înscris"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined Date"
@@ -7795,8 +7791,8 @@ msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
 msgstr ""
-"Trebuie să aveți peste 13 ani pentru a partaja un profil complet. Dacă aveți"
-" peste 13 ani, asigurați-vă că ați specificat anul de naștere pe "
+"Trebuie să aveți peste 13 ani pentru a partaja un profil complet. Dacă aveți "
+"peste 13 ani, asigurați-vă că ați specificat anul de naștere pe "
 "{account_settings_page_link}"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
@@ -7924,8 +7920,7 @@ msgid "Already a library team member"
 msgstr "Sunteți deja un membru al echipei de bibliotecă"
 
 #: cms/static/js/factories/manage_users_lib.js
-msgid ""
-"Are you sure you want to delete {email} from the library “{container}”?"
+msgid "Are you sure you want to delete {email} from the library “{container}”?"
 msgstr "Sigur doriți să ștergeți {email} din biblioteca „{container}”?"
 
 #: cms/static/js/factories/manage_users_lib.js
@@ -8135,10 +8130,12 @@ msgstr "Şterge confirmarea fişierului"
 msgid ""
 "Are you sure you wish to delete this item. It cannot be reversed!\n"
 "\n"
-"Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
+"Also any content that links/refers to this item will no longer work (e.g. "
+"broken images and/or links)"
 msgstr ""
 "Sunteţi sigur că vreţi să ştergeţi acest element? Nu poate fi inversat.\n"
-" De asemenea, orice alt conţinut care se referă la acest element nu va mai funcţiona. (e.g. imagini sau linkuri)"
+" De asemenea, orice alt conţinut care se referă la acest element nu va mai "
+"funcţiona. (e.g. imagini sau linkuri)"
 
 #: cms/static/js/views/asset.js
 msgid "Your file has been deleted."
@@ -8172,8 +8169,7 @@ msgstr ""
 msgid "Max file size exceeded"
 msgstr "Dimensiunea maximă a fișierului a fost depășită"
 
-#: cms/static/js/views/assets.js
-#: cms/templates/js/asset-upload-modal.underscore
+#: cms/static/js/views/assets.js cms/templates/js/asset-upload-modal.underscore
 msgid "Upload New File"
 msgstr "Uploadeaza un fișier nou"
 
@@ -8246,8 +8242,8 @@ msgid ""
 "valid and do not display any error messages."
 msgstr ""
 "S-a produs o eroare la exportul în XML a cel puțin unei componente. Este "
-"recomandat să mergeți la pagina de editare și să reparați eroarea înainte de"
-" a încerca un alt export. Vă rugăm să verificați dacă toate componentele de "
+"recomandat să mergeți la pagina de editare și să reparați eroarea înainte de "
+"a încerca un alt export. Vă rugăm să verificați dacă toate componentele de "
 "pe pagină sunt valide și nu afișează nici un mesaj de eroare."
 
 #: cms/static/js/views/export.js
@@ -8274,8 +8270,8 @@ msgstr "Accesează pagina principală a bibliotecii"
 
 #: cms/static/js/views/export.js
 msgid ""
-"Your course could not be exported to XML. There is not enough information to"
-" identify the failed component. Inspect your course to identify any "
+"Your course could not be exported to XML. There is not enough information to "
+"identify the failed component. Inspect your course to identify any "
 "problematic components and try again."
 msgstr ""
 
@@ -8383,8 +8379,8 @@ msgstr "Deja membru"
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid ""
-"{email} is already on the {container} team. Recheck the email address if you"
-" want to add a new member."
+"{email} is already on the {container} team. Recheck the email address if you "
+"want to add a new member."
 msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
@@ -8594,8 +8590,8 @@ msgstr "Încărcarea imaginii a eșuat"
 #. Translators: This is a 3 part text which tells the image requirements.
 #: cms/static/js/views/video_thumbnail.js
 msgid ""
-"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
-" {videoImageSupportedFileFormats}{spanEnd}"
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}"
+"{videoImageResoultion}{lineBreak} {videoImageSupportedFileFormats}{spanEnd}"
 msgstr ""
 
 #. Translators: message will be like 1280x720 pixels
@@ -8716,8 +8712,8 @@ msgid ""
 "If you remove this transcript, the transcript will not be available for any "
 "components that use this video."
 msgstr ""
-"Dacă eliminați această transcriere, transcrierea nu va fi disponibilă pentru"
-" nicio componentă care utilizează acest video."
+"Dacă eliminați această transcriere, transcrierea nu va fi disponibilă pentru "
+"nicio componentă care utilizează acest video."
 
 #: cms/static/js/xblock_asides/structured_tags.js
 msgid "Updating Tags"
@@ -8888,50 +8884,50 @@ msgstr "Editează postarea de mai jos."
 msgid "Update post"
 msgstr "Actualizați postarea"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:154
 #, python-format
 msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Arată comentariu (%(num_comments)s)"
+msgstr[1] "Arată comentariu (%(num_comments)s)"
+msgstr[2] "Arată comentarii (%(num_comments)s)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
 msgstr "Adaugă un comentariu"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:189
 #, python-format
 msgid "marked as answer %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "marcat ca răspuns %(time_ago)s de către %(user)s"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:193
 #, python-format
 msgid "marked as answer %(time_ago)s"
-msgstr ""
+msgstr "marcat ca răspuns %(time_ago)s"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:199
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "susținut %(time_ago)s de %(user)s"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:203
 #, python-format
 msgid "endorsed %(time_ago)s"
-msgstr ""
+msgstr "susținut %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
 msgstr "Editarea răspunsului"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:245
 msgid "Update response"
-msgstr ""
+msgstr "Actualizați răspunsul"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:275
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "întrebare adăugată %(time_ago)s de %(author)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
@@ -8961,21 +8957,23 @@ msgstr "Următorul"
 msgid "Community TA"
 msgstr "Asistent din comunitate"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:379
 msgid "{unread_comments_count} new"
-msgstr ""
+msgstr "{unread_comments_count} nou"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:398
 #, python-format
 msgid ""
 "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
 "unread comments)%(span_close)s"
 msgstr ""
+"%(comments_count)s %(span_sr_open)scomentarii (%(unread_comments_count)s "
+"comentarii necitite)%(span_close)s"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:401
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
-msgstr ""
+msgstr "%(comments_count)s %(span_sr_open)scomentarii %(span_close)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
@@ -8985,11 +8983,13 @@ msgstr "Adaugă o postare"
 msgid "Visible to"
 msgstr "Vizibil pentru"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:443
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
 msgstr ""
+"Administratorii de discuții, moderatorii și asistenții pot face ca mesajele "
+"lor să fie vizibile pentru toți studenții sau pot specifica un singur grup."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "All Groups"
@@ -9030,18 +9030,18 @@ msgstr ""
 "Adaugă postarea ta la un subiect relevant pentru a-i ajuta pe alții să o "
 "găsească. (Necesar)"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:554
 msgid "(Community TA)"
-msgstr ""
+msgstr "(AT comunitar)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Staff)"
 msgstr "(Personal)"
 
-#: common/static/common/templates/discussion/templates.underscore
-#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
+#: common/static/common/templates/discussion/templates.underscore:578
+#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
 msgid "All Posts"
-msgstr ""
+msgstr "Toate postările"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Return to all posts"
@@ -9064,8 +9064,8 @@ msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
 msgstr ""
-"Întrebările ridică probleme care necesită răspunsuri. Discuțiile împărtășesc"
-" idei și încep conversații. (Necesar)"
+"Întrebările ridică probleme care necesită răspunsuri. Discuțiile împărtășesc "
+"idei și încep conversații. (Necesar)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
@@ -9075,13 +9075,14 @@ msgstr "Întrebare"
 msgid "Discussion"
 msgstr "Discuţie"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:742
+#: common/static/common/templates/discussion/templates.underscore:744
 msgid "Endorse"
-msgstr ""
+msgstr "Susține"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:745
 msgid "Unendorse"
-msgstr ""
+msgstr "De-susține"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
@@ -9115,13 +9116,14 @@ msgstr "Raportează"
 msgid "Unreport"
 msgstr "Anulează raportarea"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:812
+#: common/static/common/templates/discussion/templates.underscore:814
 msgid "Pin"
-msgstr ""
+msgstr "Fixați"
 
-#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore:815
 msgid "Unpin"
-msgstr ""
+msgstr "Anulați fixarea"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Open"
@@ -9352,8 +9354,8 @@ msgid ""
 "Enter information to describe your team. You cannot change these details "
 "after you create the team."
 msgstr ""
-"Introduceți informații pentru a vă descrie echipa. Nu puteți modifica aceste"
-" detalii după ce creați echipa."
+"Introduceți informații pentru a vă descrie echipa. Nu puteți modifica aceste "
+"detalii după ce creați echipa."
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Optional Characteristics"
@@ -9457,8 +9459,8 @@ msgstr "Donează"
 
 #: lms/templates/api_admin/catalog-error.underscore
 msgid ""
-"There was an error retrieving preview results for this catalog. Please check"
-" that your query is correct and try again."
+"There was an error retrieving preview results for this catalog. Please check "
+"that your query is correct and try again."
 msgstr ""
 "A apărut o eroare la preluarea rezultatelor previzualizării pentru acest "
 "catalog. Verificați dacă întrebarea este corectă și încercați din nou."
@@ -9508,10 +9510,10 @@ msgstr ""
 msgid "Subsection"
 msgstr "Subsecțiune"
 
-#: lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore:75
 #, python-format
 msgid "Remove subsection %(subsectionDisplayName)s"
-msgstr ""
+msgstr "Eliminați subsecțiunea %(subsectionDisplayName)s"
 
 #: lms/templates/ccx/schedule.underscore
 #, python-format
@@ -9629,11 +9631,13 @@ msgstr "pentru"
 msgid "Product Name"
 msgstr "Nume Produs"
 
-#: lms/templates/fields/field_textarea.underscore
+#: lms/templates/fields/field_textarea.underscore:52
 msgid ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
 "{maxCharacters}"
 msgstr ""
+"{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} din "
+"{maxCharacters}"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore
@@ -9684,9 +9688,9 @@ msgstr ""
 msgid "Go to Dashboard"
 msgstr "Accesați Tabloul de bord"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:1
 msgid "Bulk Exceptions"
-msgstr ""
+msgstr "Excepții bulk"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid ""
@@ -9711,19 +9715,21 @@ msgstr "Încărcați un fișier CSV"
 msgid "Add to Exception List"
 msgstr "Adăugați la Lista de excepții"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:2
 msgid ""
 "To invalidate a certificate for a particular learner, add the username or "
 "email address below."
 msgstr ""
+"Pentru a invalida un certificat pentru un anumit cursant, adăugați numele de "
+"utilizator sau adresa de e-mail mai jos."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:11
 msgid "Add notes about this learner"
-msgstr ""
+msgstr "Adăugați notițe despre acest cursant"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:16
 msgid "Invalidate Certificate"
-msgstr ""
+msgstr "Invalidarea certificatului"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Student"
@@ -9742,19 +9748,21 @@ msgstr "Invalidat"
 msgid "Notes"
 msgstr "Notițe"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:44
 msgid "Remove from Invalidation Table"
-msgstr ""
+msgstr "Eliminarea din tabelul de invalidare"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:1
 msgid "Individual Exceptions"
-msgstr ""
+msgstr "Excepții individuale"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:2
 msgid ""
 "Enter the username or email address of each learner that you want to add as "
 "an exception."
 msgstr ""
+"Introduceți numele de utilizator sau adresa de e-mail a fiecărui cursant pe "
+"care doriți să îl adăugați ca excepție."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Student email or username"
@@ -9764,25 +9772,26 @@ msgstr "Adresa de e-mail a cursantului sau numele de utilizator"
 msgid "Free text notes"
 msgstr "Note text gratuite"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:1
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:13
 msgid "Generate Exception Certificates"
-msgstr ""
+msgstr "Generează excepții la certificate"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:6
 msgid "All users on the Exception list who do not yet have a certificate"
-msgstr ""
+msgstr "Toți utilizatorii din lista de excepție care nu au încă un certificat"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:10
 msgid "All users on the Exception list"
-msgstr ""
+msgstr "Toți utilizatorii din lista de excepții"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "User Email"
 msgstr "E-mail utilizator"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:22
 msgid "Exception Granted"
-msgstr ""
+msgstr "Excepție acordată"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Certificate Generated"
@@ -9796,34 +9805,38 @@ msgstr "Șterge din lista"
 msgid "Divided"
 msgstr "Împărțit"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
 msgid "Manage Learners"
-msgstr ""
+msgstr "Gestionați cursanții"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:12
 msgid "Add learners to this cohort"
-msgstr ""
+msgstr "Adăugați cursanți la această cohortă"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:15
 msgid ""
 "Note: Learners can be in only one cohort. Adding learners to this group "
 "overrides any previous group assignment."
 msgstr ""
+"Notă: Cursanții pot face parte dintr-o singură cohortă. Adăugarea "
+"cursanților în acest grup anulează orice atribuire anterioară a grupului."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:25
 msgid ""
 "Enter email addresses and/or usernames, separated by new lines or commas, "
 "for the learners you want to add. *"
 msgstr ""
+"Introduceți adresele de e-mail și/sau numele de utilizator, separate prin "
+"linii noi sau virgule, pentru cursanții pe care doriți să îi adăugați. *"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "(Required Field)"
 msgstr "(Câmp necesar)"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:30
 msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
-msgstr ""
+msgstr "de exemplu, ioanapopescu@domeniu.com, IoanaPopescu, ioanap@domeniu.ro"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
@@ -9833,25 +9846,25 @@ msgstr ""
 "Nu veți primi notificări pentru e-mailurile care sunt respinse, așa că "
 "verificați ortografia."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
 msgid "Add Learners"
-msgstr ""
+msgstr "Adăugați cursanți"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
 msgid "Add a New Cohort"
-msgstr ""
+msgstr "Adăugă o nouă cohortă"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:19
 msgid "Enter the name of the cohort"
-msgstr ""
+msgstr "Introduceți numele cohortei"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:24
 msgid "Cohort Name"
-msgstr ""
+msgstr "Numele cohortei"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:42
 msgid "Cohort Assignment Method"
-msgstr ""
+msgstr "Metoda de repartizare pe cohorte"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Automatic"
@@ -9861,10 +9874,11 @@ msgstr "Automat"
 msgid "Manual"
 msgstr "Manual"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:54
 msgid ""
 "There must be one cohort to which students can automatically be assigned."
 msgstr ""
+"Trebuie să existe o cohortă la care studenții pot fi repartizați automat."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Associated Content Group"
@@ -9890,78 +9904,89 @@ msgstr "Nu este selectat"
 msgid "Deleted Content Group"
 msgstr "Grup de conținut șters"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:102
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The previously selected "
 "content group was deleted. Select another content group."
 msgstr ""
+"{screen_reader_start}Avertisment:{screen_reader_end} Grupul de conținut "
+"selectat anterior a fost șters. Selectați un alt grup de conținut."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:121
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
 msgstr ""
+"{screen_reader_start}Avertisment:{screen_reader_end} Nu există grupuri de "
+"conținut."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:129
 msgid "Only the parent course staff of a CCX can create content groups."
 msgstr ""
+"Numai personalul cursului părinte al unui CCX poate crea grupuri de conținut."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Create a content group"
 msgstr "Creați un grup de conținut"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
 #, python-format
 msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
-msgstr[0] ""
+msgstr[0] "(conține %(student_count)s student)"
 msgstr[1] ""
 msgstr[2] ""
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
 msgid ""
 "Learners are added to this cohort only when you provide their email "
 "addresses or usernames on this page."
 msgstr ""
+"Cursanții sunt adăugați la această cohortă numai atunci când le furnizați "
+"adresele de e-mail sau numele de utilizator pe această pagină."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid "What does this mean?"
 msgstr "Ce înseamnă aceasta?"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
 msgid "Learners are added to this cohort automatically."
-msgstr ""
+msgstr "Cursanții sunt adăugați automat la această cohortă."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
 msgid "Select a cohort"
 msgstr "Selectați o cohortă"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:7
 #, python-format
 msgid "%(cohort_name)s (%(user_count)s)"
-msgstr ""
+msgstr "%(cohort_name)s (%(user_count)s)"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
 msgid "Enable Cohorts"
-msgstr ""
+msgstr "Activați cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:11
 msgid "Select a cohort to manage"
-msgstr ""
+msgstr "Selectați o cohortă de gestionat"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:16
 msgid "View Cohort"
-msgstr ""
+msgstr "Vezi Cohorta"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
 msgid "Assign learners to cohorts by uploading a CSV file"
-msgstr ""
+msgstr "Atribuiți cursanții în cohorte prin încărcarea unui fișier CSV"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
 msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
 "{link_start}Data Download{link_end} page."
 msgstr ""
+"Pentru a revizui sarcinile cohortei de cursanți sau pentru a vedea "
+"rezultatele încărcării unui fișier CSV, descărcați informațiile despre "
+"profilul cursului sau rezultatele cohortei de pe pagina {link_start}Date "
+"descărcate{link_end}."
 
 #: lms/templates/instructor/instructor_dashboard_2/discussions.underscore
 msgid "Specify whether discussion topics are divided"
@@ -9971,29 +9996,33 @@ msgstr "Specificați dacă subiectele de discuție sunt împărțite"
 msgid "Course-Wide Discussion Topics"
 msgstr "Subiecte de discuție la nivelul întregului curs"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
 msgid "Select the course-wide discussion topics that you want to divide."
 msgstr ""
+"Selectați subiectele de discuție la nivel de curs pe care doriți să le "
+"împărțiți."
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
 msgid "Content-Specific Discussion Topics"
-msgstr ""
+msgstr "Teme de discuție specifice conținutului"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
 msgid "Specify whether content-specific discussion topics are divided."
 msgstr ""
+"Specificați dacă subiectele de discuție specifice conținutului sunt "
+"împărțite."
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
 msgid "Always divide content-specific discussion topics"
-msgstr ""
+msgstr "Împărțiți întotdeauna subiecte de discuție specifice conținutului"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:19
 msgid "Divide the selected content-specific discussion topics"
-msgstr ""
+msgstr "Împărțiți subiectele de discuție selectate, specifice conținutului"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:27
 msgid "No content-specific discussion topics exist."
-msgstr ""
+msgstr "Nu există subiecte de discuție specifice conținutului."
 
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Used"
@@ -10110,13 +10139,15 @@ msgstr ""
 msgid "Explore New Programs"
 msgstr "Explorați programe noi"
 
-#: lms/templates/learner_dashboard/program_card.underscore
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+#: lms/templates/learner_dashboard/program_card.underscore:16
+#: lms/templates/learner_dashboard/program_card.underscore:24
+#: lms/templates/learner_dashboard/program_card.underscore:32
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
 msgid "Course"
 msgid_plural "Courses"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Curs"
+msgstr[1] "ID-ul cursului"
+msgstr[2] "ID-ul cursului"
 
 #: lms/templates/learner_dashboard/program_card.underscore
 msgid "Completed"
@@ -10147,16 +10178,16 @@ msgstr "Istoric program"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid ""
-"Once you complete one of the program requirements you have a program record."
-" This record is marked complete once you meet all program requirements. A "
-"program record can be used to continue your learning journey and demonstrate"
-" your learning to others."
+"Once you complete one of the program requirements you have a program record. "
+"This record is marked complete once you meet all program requirements. A "
+"program record can be used to continue your learning journey and demonstrate "
+"your learning to others."
 msgstr ""
 "Odată ce completați una dintre cerințele programului, aveți un istoric al "
 "programului. Acest istoric este marcat ca finalizat după ce îndepliniți "
-"toate cerințele programului. Istoricul programului poate fi folosit pentru a"
-" vă continua călătoria de învățare și pentru a demonstra altora cunoștințele"
-" acumulate."
+"toate cerințele programului. Istoricul programului poate fi folosit pentru a "
+"vă continua călătoria de învățare și pentru a demonstra altora cunoștințele "
+"acumulate."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "View Program Record"
@@ -10285,8 +10316,7 @@ msgstr "Creează un cont"
 #, python-format
 msgid "Would you like to sign in using your %(providerName)s credentials?"
 msgstr ""
-"Dorești să te conectezi folosind datele de conectare pentru "
-"%(providerName)s?"
+"Dorești să te conectezi folosind datele de conectare pentru %(providerName)s?"
 
 #: lms/templates/student_account/hinted_login.underscore
 #, python-format
@@ -10364,8 +10394,8 @@ msgid ""
 "Sign in here using your email address and password, or use one of the "
 "providers listed below."
 msgstr ""
-"Autentifică-te aici folosind adresa de e-mail și parola setate sau utilizați"
-" unul dintre furnizorii enumerați mai jos."
+"Autentifică-te aici folosind adresa de e-mail și parola setate sau utilizați "
+"unul dintre furnizorii enumerați mai jos."
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign in here using your email address and password."
@@ -10374,8 +10404,7 @@ msgstr "Autentifică-te aici folosind adresa de e-mail și parola."
 #: lms/templates/student_account/login.underscore
 msgid "If you do not yet have an account, use the button below to register."
 msgstr ""
-"Dacă nu ai încă un cont, folosește butonul de mai jos pentru a te "
-"înregistra."
+"Dacă nu ai încă un cont, folosește butonul de mai jos pentru a te înregistra."
 
 #: lms/templates/student_account/login.underscore
 msgid "Use my university info"
@@ -10462,7 +10491,7 @@ msgstr "Du-te la tabloul de bord"
 msgid "Verified Status"
 msgstr "Status aprobat"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:48
 #, python-format
 msgid ""
 "Thank you for submitting your photos. We will review them shortly. You can "
@@ -10470,6 +10499,10 @@ msgid ""
 "certificates. Verification is good for one year. After one year, you must "
 "submit photos for verification again."
 msgstr ""
+"Vă mulțumim că ați trimis fotografiile. Le vom analiza în scurt timp. Acum "
+"vă puteți înscrie la orice curs %(platformName)s care oferă certificate "
+"verificate. Verificarea este valabilă timp de un an. După un an, trebuie să "
+"trimiteți din nou fotografii pentru verificare."
 
 #: lms/templates/verify_student/error.underscore
 msgid "Error:"
@@ -10488,8 +10521,8 @@ msgid ""
 "You need a device that has a webcam. If you receive a browser prompt for "
 "access to your camera, please make sure to click 'Allow'."
 msgstr ""
-"Ai nevoie de un dispozitiv care are o cameră web. Dacă primești o solicitare"
-" de browser pentru acces la camera ta, asigură-te că dai clic pe „Permite”."
+"Ai nevoie de un dispozitiv care are o cameră web. Dacă primești o solicitare "
+"de browser pentru acces la camera ta, asigură-te că dai clic pe „Permite”."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Photo Identification"
@@ -10497,8 +10530,7 @@ msgstr "Identificarea fotografiei"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "You need a valid ID that contains your full name and photo."
-msgstr ""
-"Ai nevoie de un ID valid care să conțină numele tău complet și o poză."
+msgstr "Ai nevoie de un ID valid care să conțină numele tău complet și o poză."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -10530,8 +10562,8 @@ msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
 msgstr ""
-"Pentru a face fotografia feței tale, dă clic pe butonul camerei {icon}. Dacă"
-" trebuie să încercați din nou, faceți clic pe „Reluați fotografia”."
+"Pentru a face fotografia feței tale, dă clic pe butonul camerei {icon}. Dacă "
+"trebuie să încercați din nou, faceți clic pe „Reluați fotografia”."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -10551,8 +10583,8 @@ msgid ""
 "We use your verification photos to confirm your identity and ensure the "
 "validity of your certificate."
 msgstr ""
-"Folosim fotografiile tale de verificare pentru a îți confirma identitatea și"
-" pentru a asigura validitatea certificatului."
+"Folosim fotografiile tale de verificare pentru a îți confirma identitatea și "
+"pentru a asigura validitatea certificatului."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -10570,8 +10602,8 @@ msgid ""
 "%(platformName)s after the verification process is complete."
 msgstr ""
 "Criptăm în siguranță fotografia ta și o trimitem serviciului nostru de "
-"autorizare pentru examinare. Fotografia și informațiile tale nu sunt salvate"
-" sau vizibile nicăieri pe platforma %(platformName)sdupă finalizarea "
+"autorizare pentru examinare. Fotografia și informațiile tale nu sunt salvate "
+"sau vizibile nicăieri pe platforma %(platformName)sdupă finalizarea "
 "procesului de verificare."
 
 #: lms/templates/verify_student/face_photo_step.underscore
@@ -10590,14 +10622,14 @@ msgid ""
 "You may be able to complete the image capture procedure without assistance, "
 "but it may take a couple of submission attempts to get the camera "
 "positioning right.  Optimal camera positioning varies with each computer, "
-"but generally the best position for a headshot is approximately 12-18 inches"
-" (30-45 centimeters) from the camera, with your head centered relative to "
-"the computer screen. "
+"but generally the best position for a headshot is approximately 12-18 inches "
+"(30-45 centimeters) from the camera, with your head centered relative to the "
+"computer screen. "
 msgstr ""
 "Este posibil să poți finaliza procedura de captare a imaginii fără "
 "asistență, dar poate fi nevoie de câteva încercări de trimitere pentru a "
-"obține poziționarea corectă a camerei. Poziționarea optimă a camerei variază"
-" în funcție de computer, dar, în general, cea mai bună poziție pentru o "
+"obține poziționarea corectă a camerei. Poziționarea optimă a camerei variază "
+"în funcție de computer, dar, în general, cea mai bună poziție pentru o "
 "fotografie cu capul tău este de aproximativ 12-18 inchi (30-45 centimetri) "
 "de cameră, cu capul centrat față de ecranul computerului."
 
@@ -10610,15 +10642,14 @@ msgid ""
 "rejection is inability to read the text on the ID card."
 msgstr ""
 "Dacă fotografiile pe care le trimiți sunt respinse, încearcă să muți "
-"orientarea computerului sau a camerei pentru a schimba unghiul de iluminare."
-" Cel mai frecvent motiv de respingere este incapacitatea de a citi textul de"
-" pe cartea de identitate."
+"orientarea computerului sau a camerei pentru a schimba unghiul de iluminare. "
+"Cel mai frecvent motiv de respingere este incapacitatea de a citi textul de "
+"pe cartea de identitate."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
-"What if I have difficulty holding my head in position relative to the "
-"camera?"
+"What if I have difficulty holding my head in position relative to the camera?"
 msgstr ""
 "Ce se întâmpla dacă am dificultăți in menținerea poziției capului față de "
 "cameră?"
@@ -10649,13 +10680,13 @@ msgstr "Faceți o poza unui act de identitate personal."
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Use your webcam to take a photo of your ID."
 msgstr ""
-"Folosește camera web pentru a face o fotografie a actului tău de identitate,"
-" ID."
+"Folosește camera web pentru a face o fotografie a actului tău de identitate, "
+"ID."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
-"You need an ID with your name and photo. A driver's license, passport, or ID"
-" are all acceptable."
+"You need an ID with your name and photo. A driver's license, passport, or ID "
+"are all acceptable."
 msgstr ""
 "Ai nevoie de un act de identitate cu numele și fotografia ta. Un permis de "
 "conducere, un pașaport sau un act de identitate național sunt toate "
@@ -10677,8 +10708,8 @@ msgstr "Asigură-te că actul de identitate este bine iluminat"
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
-"Odată ajuns în poziție, utilizați butonul Faceți fotografii {icon} pentru "
-"a face o poza actului de identitate"
+"Odată ajuns în poziție, utilizați butonul Faceți fotografii {icon} pentru a "
+"face o poza actului de identitate"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -10694,9 +10725,9 @@ msgid ""
 "the photo you take with the photo on your ID."
 msgstr ""
 "Ca parte a procesului de verificare, faceți o fotografie atât a feței, cât "
-"și a unui act de identitate cu fotografie. Serviciul nostru de autorizare vă"
-" confirmă identitatea comparând fotografia pe care o faceți cu fotografia de"
-" pe actul de identitate."
+"și a unui act de identitate cu fotografie. Serviciul nostru de autorizare vă "
+"confirmă identitatea comparând fotografia pe care o faceți cu fotografia de "
+"pe actul de identitate."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
@@ -10709,8 +10740,8 @@ msgid ""
 msgstr ""
 "Este posibil să poți finaliza procedura de captare a imaginii fără "
 "asistență, dar poate fi nevoie de câteva încercări de trimitere pentru a "
-"obține poziționarea corectă a camerei. Poziționarea optimă a camerei variază"
-" în funcție de computer, dar, în general, cea mai bună poziție pentru o "
+"obține poziționarea corectă a camerei. Poziționarea optimă a camerei variază "
+"în funcție de computer, dar, în general, cea mai bună poziție pentru o "
 "fotografie cu capul tău este de aproximativ 12-18 inchi (30-45 centimetri) "
 "de cameră, cu capul centrat față de ecranul computerului."
 
@@ -10751,8 +10782,8 @@ msgstr "Asigură-te că toată fața ta este în interiorul cadrului"
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
 msgstr ""
-"Odată ajuns în poziție, utilizați butonul Faceți fotografii {icon} pentru "
-"a realiza poza."
+"Odată ajuns în poziție, utilizați butonul Faceți fotografii {icon} pentru a "
+"realiza poza."
 
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Can we match the photo you took with the one on your ID?"
@@ -10767,28 +10798,27 @@ msgid ""
 "identity by comparing the photo you take with the photo on your ID."
 msgstr ""
 "Ca parte a procesului de verificare, faceți o fotografie atât a feței, cât "
-"și a unui act de identitate cu fotografie. Serviciul nostru de autorizare vă"
-" confirmă identitatea comparând fotografia pe care o faceți cu fotografia de"
-" pe actul de identitate."
+"și a unui act de identitate cu fotografie. Serviciul nostru de autorizare vă "
+"confirmă identitatea comparând fotografia pe care o faceți cu fotografia de "
+"pe actul de identitate."
 
 #: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid ""
 "We use the highest levels of security available to encrypt your photo and "
 "send it to our authorization service for review. Your photo and information "
-"are not saved or visible anywhere on %(platformName)s after the verification"
-" process is complete."
+"are not saved or visible anywhere on %(platformName)s after the verification "
+"process is complete."
 msgstr ""
 "Criptăm în siguranță fotografia ta și o trimitem serviciului nostru de "
-"autorizare pentru examinare. Fotografia și informațiile tale nu sunt salvate"
-" sau vizibile nicăieri pe platforma %(platformName)sdupă finalizarea "
+"autorizare pentru examinare. Fotografia și informațiile tale nu sunt salvate "
+"sau vizibile nicăieri pe platforma %(platformName)sdupă finalizarea "
 "procesului de verificare."
 
 #: lms/templates/verify_student/intro_step.underscore
 msgid "Thanks for returning to verify your ID in: {courseName}"
 msgstr ""
-"Îți mulțumim că ai revenit pentru a îți verifica identitatea în: "
-"{courseName}"
+"Îți mulțumim că ai revenit pentru a îți verifica identitatea în: {courseName}"
 
 #: lms/templates/verify_student/intro_step.underscore
 msgid ""
@@ -10797,8 +10827,8 @@ msgid ""
 "return and refresh this page."
 msgstr ""
 "Trebuie să îți activezi contul înainte de a te putea înscrie la cursuri. "
-"Verifică-ți căsuța de e-mail pentru un mesaj de activare. După ce finalizezi"
-" activarea, poți reveni și reîmprospăta această pagină."
+"Verifică-ți căsuța de e-mail pentru un mesaj de activare. După ce finalizezi "
+"activarea, poți reveni și reîmprospăta această pagină."
 
 #: lms/templates/verify_student/intro_step.underscore
 msgid "Activate Your Account"
@@ -10835,8 +10865,7 @@ msgstr "Îți actualizezi înscrierea pentru cursul: {courseName}"
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "You can now enter your payment information and complete your enrollment."
-msgstr ""
-"Acum poți introduce informațiile de plată și poți finaliza înscrierea."
+msgstr "Acum poți introduce informațiile de plată și poți finaliza înscrierea."
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
@@ -10882,8 +10911,7 @@ msgid "Government-Issued Photo ID"
 msgstr "Act de identitate național"
 
 #: lms/templates/verify_student/make_payment_step.underscore
-msgid ""
-"ID-Verification is not required for this Professional Education course."
+msgid "ID-Verification is not required for this Professional Education course."
 msgstr ""
 "Verificarea actului de identitate nu este necesară pentru acest curs de "
 "educație profesională."
@@ -10947,8 +10975,8 @@ msgstr "Certificat verificat pentru cursul {courseName}"
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
 msgstr ""
-"Pentru a primi un certificat, trebuie să îți verifici și identitatea înainte"
-" de {date}."
+"Pentru a primi un certificat, trebuie să îți verifici și identitatea înainte "
+"de {date}."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "To receive a certificate, you must also verify your identity."
@@ -10987,9 +11015,9 @@ msgid ""
 "(usually within 5-7 days). In the meantime, you can still access all "
 "available course content."
 msgstr ""
-"Am primit informațiile tale și îți verificăm identitatea. Vei vedea un mesaj"
-" pe tabloul de bord când procesul de verificare este finalizat (de obicei în"
-" termen de 5 zile). Între timp, poți accesa tot conținutul cursului "
+"Am primit informațiile tale și îți verificăm identitatea. Vei vedea un mesaj "
+"pe tabloul de bord când procesul de verificare este finalizat (de obicei în "
+"termen de 5 zile). Între timp, poți accesa tot conținutul cursului "
 "disponibil."
 
 #: lms/templates/verify_student/reverify_success_step.underscore
@@ -11167,13 +11195,13 @@ msgstr ""
 "paginile de cursuri. Pentru a marca o pagină, dă clic pe „Marchează această "
 "pagină” sub titlul paginii."
 
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
 msgid "Load next {num_items} result"
 msgid_plural "Load next {num_items} results"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Încarcă următoarele {numResponses} răspunsuri"
+msgstr[1] "Încarcă următoarele {numResponses} răspunsuri"
+msgstr[2] "Încarcă următoarele {numResponses} răspunsuri"
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
@@ -11224,8 +11252,8 @@ msgid ""
 "Backpack account. Complete the following steps to add your certificate to "
 "Backpack."
 msgstr ""
-"Pentru a distribui certificatul pe Mozilla Backpack, trebuie mai întâi să ai"
-" un cont Backpack. Parcurge următorii pași pentru a adăuga certificatul tău "
+"Pentru a distribui certificatul pe Mozilla Backpack, trebuie mai întâi să ai "
+"un cont Backpack. Parcurge următorii pași pentru a adăuga certificatul tău "
 "la Backpack."
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
@@ -11256,8 +11284,8 @@ msgid ""
 "minimum completion percentage to limit access to this subsection. Allowed "
 "values are 0-100"
 msgstr ""
-"Selectează o subsecțiune prealabilă și introdu un procentaj minim de punctaj"
-" și un procent minim de finalizare pentru a limita accesul la această "
+"Selectează o subsecțiune prealabilă și introdu un procentaj minim de punctaj "
+"și un procent minim de finalizare pentru a limita accesul la această "
 "subsecțiune. Valorile permise sunt 0-100"
 
 #: cms/templates/js/access-editor.underscore
@@ -11442,13 +11470,12 @@ msgstr "Semnatari certificat"
 #: cms/templates/js/certificate-editor.underscore
 msgid ""
 "It is strongly recommended that you include four or fewer signatories. If "
-"you include additional signatories, preview the certificate in Print View to"
-" ensure the certificate will print correctly on one page."
+"you include additional signatories, preview the certificate in Print View to "
+"ensure the certificate will print correctly on one page."
 msgstr ""
 "Este recomandat să includeți patru sau mai puțini semnatari. Dacă includeți "
-"semnatari suplimentari, previzualizați certificatul în Vizualizare imprimare"
-" pentru a vă asigura că certificatul se va tipări corect pe o singură "
-"pagină."
+"semnatari suplimentari, previzualizați certificatul în Vizualizare imprimare "
+"pentru a vă asigura că certificatul se va tipări corect pe o singură pagină."
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Information"
@@ -11515,8 +11542,8 @@ msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
 msgstr ""
-"Accesul la anumite conținuturi din acest {blockType} este limitat la anumite"
-" grupuri de cursanți."
+"Accesul la anumite conținuturi din acest {blockType} este limitat la anumite "
+"grupuri de cursanți."
 
 #: cms/templates/js/container-message.underscore
 msgid ""
@@ -11603,8 +11630,8 @@ msgid ""
 "this subsection become available to learners unless they are explicitly "
 "hidden."
 msgstr ""
-"Dacă selectați o altă opțiune decât „%(hide_label)s”, unitățile publicate în"
-" această subsecțiune devin disponibile pentru cursanți, cu excepția cazului "
+"Dacă selectați o altă opțiune decât „%(hide_label)s”, unitățile publicate în "
+"această subsecțiune devin disponibile pentru cursanți, cu excepția cazului "
 "în care sunt ascunse în mod explicit."
 
 #: cms/templates/js/copy-clipboard-button.underscore
@@ -11681,8 +11708,8 @@ msgid ""
 "Please add a photo of the instructor (Note: only JPEG or PNG format "
 "supported)"
 msgstr ""
-"Vă rugăm să adăugați o fotografie a instructorului (Notă: este acceptat doar"
-" formatul JPEG sau PNG)"
+"Vă rugăm să adăugați o fotografie a instructorului (Notă: este acceptat doar "
+"formatul JPEG sau PNG)"
 
 #: cms/templates/js/course-instructor-details.underscore
 msgid "Upload Photo"
@@ -11831,8 +11858,8 @@ msgstr "Actualizează setări"
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
 msgid "Press update settings to update the information for your organization."
 msgstr ""
-"Apăsă Actualizează setări pentru a actualiza informațiile pentru organizația"
-" ta."
+"Apăsă Actualizează setări pentru a actualiza informațiile pentru organizația "
+"ta."
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore
 msgid "Press discard changes to discard changes."
@@ -11914,8 +11941,8 @@ msgstr "Abreviere"
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid ""
-"This short name for the assignment type (for example, HW or Midterm) appears"
-" next to assignments on a learner's Progress page."
+"This short name for the assignment type (for example, HW or Midterm) appears "
+"next to assignments on a learner's Progress page."
 msgstr ""
 "Acest nume scurt pentru tipul de temă (de exemplu, HW sau Midterm) apare "
 "lângă teme pe pagina de progres a unui cursant."
@@ -11941,8 +11968,7 @@ msgid ""
 "The number of subsections in the course that contain problems of this "
 "assignment type."
 msgstr ""
-"Numărul de subsecțiuni din curs care conțin probleme de acest tip de "
-"sarcină."
+"Numărul de subsecțiuni din curs care conțin probleme de acest tip de sarcină."
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Number of Droppable"
@@ -11966,8 +11992,8 @@ msgstr "Nu aveți documente definite"
 
 #: cms/templates/js/course_info_handouts.underscore
 msgid ""
-"There is invalid code in your content. Please check to make sure it is valid"
-" HTML."
+"There is invalid code in your content. Please check to make sure it is valid "
+"HTML."
 msgstr ""
 "Există un cod nevalid în conținut. Vă rugăm să verificați pentru a vă "
 "asigura că este HTML valid."
@@ -12080,8 +12106,8 @@ msgstr "Această configurație de grup este utilizată în:"
 
 #: cms/templates/js/group-configuration-details.underscore
 msgid ""
-"This Group Configuration is not in use. Start by adding a content experiment"
-" to any Unit via the {linkStart}Course Outline{linkEnd}."
+"This Group Configuration is not in use. Start by adding a content experiment "
+"to any Unit via the {linkStart}Course Outline{linkEnd}."
 msgstr ""
 "Această configurație de grup nu este utilizată. Începeți prin a adăuga un "
 "experiment de conținut la orice unitate prin {linkStart}Schetul "
@@ -12136,8 +12162,8 @@ msgid ""
 "This configuration is currently used in content experiments. If you make "
 "changes to the groups, you may need to edit those experiments."
 msgstr ""
-"Această configurație este utilizată în prezent în experimentele de conținut."
-" Dacă faceți modificări la grupuri, poate fi necesar să editați acele "
+"Această configurație este utilizată în prezent în experimentele de conținut. "
+"Dacă faceți modificări la grupuri, poate fi necesar să editați acele "
 "experimente."
 
 #: cms/templates/js/group-edit.underscore
@@ -12149,8 +12175,8 @@ msgid ""
 "Enter 3-5 highlights to include in the email message that learners receive "
 "for this section (250 character limit)."
 msgstr ""
-"Introduceți 3-5 evidențieri pentru a le include în mesajul de e-mail pe care"
-" cursanții îl primesc pentru această secțiune (limită de 250 de caractere)."
+"Introduceți 3-5 evidențieri pentru a le include în mesajul de e-mail pe care "
+"cursanții îl primesc pentru această secțiune (limită de 250 de caractere)."
 
 #: cms/templates/js/highlights-editor.underscore
 msgid "Highlight {highlight_index}"
@@ -12338,11 +12364,11 @@ msgstr "Status publicare"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid ""
-"Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
-"{editedByStart}{editedBy}{editedByEnd}"
+"Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by {editedByStart}"
+"{editedBy}{editedByEnd}"
 msgstr ""
-"Schiță salvată pe {lastSavedStart}{editedOn}{lastSavedEnd} de "
-"{editedByStart}{editedBy}{editedByEnd}"
+"Schiță salvată pe {lastSavedStart}{editedOn}{lastSavedEnd} de {editedByStart}"
+"{editedBy}{editedByEnd}"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid ""
@@ -12450,8 +12476,8 @@ msgid ""
 "If the course does not have an end date, learners always see their scores "
 "when they submit answers to assessments."
 msgstr ""
-"Dacă cursul nu are o dată de încheiere, cursanții își văd întotdeauna notele"
-" atunci când trimit răspunsurile la evaluări."
+"Dacă cursul nu are o dată de încheiere, cursanții își văd întotdeauna notele "
+"atunci când trimit răspunsurile la evaluări."
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
@@ -12465,11 +12491,11 @@ msgstr ""
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
-"If the subsection does not have a due date, learners always see their scores"
-" when they submit answers to assessments."
+"If the subsection does not have a due date, learners always see their scores "
+"when they submit answers to assessments."
 msgstr ""
-"Dacă subsecțiunea nu are o dată limită, cursanții își văd întotdeauna notele"
-" atunci când trimit răspunsurile la evaluări."
+"Dacă subsecțiunea nu are o dată limită, cursanții își văd întotdeauna notele "
+"atunci când trimit răspunsurile la evaluări."
 
 #: cms/templates/js/show-textbook.underscore
 msgid "PDF Chapters"
@@ -12530,8 +12556,8 @@ msgid ""
 "The organization that this signatory belongs to, as it should appear on "
 "certificates."
 msgstr ""
-"Organizația căreia îi aparține acest semnatar, așa cum ar trebui să apară pe"
-" certificate."
+"Organizația căreia îi aparține acest semnatar, așa cum ar trebui să apară pe "
+"certificate."
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Path to Signature Image"
@@ -12570,8 +12596,8 @@ msgid ""
 "the unit. Only units that are explicitly hidden from learners will remain "
 "hidden after you clear this option for the %(xblockType)s."
 msgstr ""
-"Dacă faceți acest %(xblockType)svizibil pentru cursanți, cursanții vor putea"
-" să-i vadă conținutul după ce data lansării a trecut și ați publicat "
+"Dacă faceți acest %(xblockType)svizibil pentru cursanți, cursanții vor putea "
+"să-i vadă conținutul după ce data lansării a trecut și ați publicat "
 "unitatea. Doar unitățile care sunt ascunse în mod explicit pentru cursanți "
 "vor rămâne ascunse după ce debifați această opțiune pentru %(xblockType)s."
 
@@ -12615,8 +12641,8 @@ msgstr "Tipuri examen"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This subsection was released to learners as a special exam, but was reverted"
-" back to a basic exam. You may not configure it as a special exam now. "
+"This subsection was released to learners as a special exam, but was reverted "
+"back to a basic exam. You may not configure it as a special exam now. "
 "Contact edX Support for assistance."
 msgstr ""
 "Această subsecțiune a fost oferită cursanților ca un examen special, dar a "
@@ -12627,9 +12653,9 @@ msgstr ""
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "This special exam has been released to learners. You may not convert it to "
-"another type of special exam. You may revert this subsection back to being a"
-" basic exam by selecting 'None', but you will NOT be able to configure it as"
-" a special exam in the future."
+"another type of special exam. You may revert this subsection back to being a "
+"basic exam by selecting 'None', but you will NOT be able to configure it as "
+"a special exam in the future."
 msgstr ""
 "Acest examen special a fost oferit cursanților. Nu îl puteți converti într-"
 "un alt tip de examen special. Puteți reveni la această subsecțiune la un "
@@ -12677,8 +12703,8 @@ msgid ""
 "profile step prior to taking a proctored exam. Profile reviews take 2+ "
 "business days."
 msgstr ""
-"Utilizați admiterea pentru a prezenta cursanților supravegherea, pentru a le"
-" verifica identitatea și pentru a crea un profil de admitere. Cursanții "
+"Utilizați admiterea pentru a prezenta cursanților supravegherea, pentru a le "
+"verifica identitatea și pentru a crea un profil de admitere. Cursanții "
 "trebuie să parcurgă pasul profilului de înscriere înainte de a susține un "
 "examen supravegheat. Evaluările profilului durează peste 2 zile lucrătoare."
 
@@ -12702,8 +12728,8 @@ msgstr "Timp alocat (HH:MM):"
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Select a time allotment for the exam. If it is over 24 hours, type in the "
-"amount of time. You can grant individual learners extra time to complete the"
-" exam through the Instructor Dashboard."
+"amount of time. You can grant individual learners extra time to complete the "
+"exam through the Instructor Dashboard."
 msgstr ""
 "Selectați o alocare de timp pentru examen. Dacă este peste 24 de ore, "
 "introduceți durata. Puteți acorda cursanților individuali timp suplimentar "
@@ -12725,9 +12751,9 @@ msgstr ""
 "Specificați orice reguli sau excepții ale regulilor pe care echipa de "
 "examinare cu supraveghere ar trebui să le aplice atunci când examinează "
 "videoclipurile. De exemplu, puteți specifica că sunt permise calculatoare. "
-"Aceste reguli specificate sunt vizibile pentru cursanți înainte ca cursanții"
-" să înceapă examenul, împreună cu {linkStart}regulile generale ale "
-"examenului supravegheat{linkEnd}."
+"Aceste reguli specificate sunt vizibile pentru cursanți înainte ca cursanții "
+"să înceapă examenul, împreună cu {linkStart}regulile generale ale examenului "
+"supravegheat{linkEnd}."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "General Proctored Exam Rules"
@@ -12743,8 +12769,8 @@ msgstr ""
 "Specificați orice reguli sau excepții ale regulilor pe care echipa de "
 "examinare cu supraveghere ar trebui să le aplice atunci când examinează "
 "videoclipurile. De exemplu, puteți specifica că sunt permise calculatoare. "
-"Aceste reguli specificate sunt vizibile pentru cursanți înainte ca cursanții"
-" să înceapă examenul."
+"Aceste reguli specificate sunt vizibile pentru cursanți înainte ca cursanții "
+"să înceapă examenul."
 
 #: cms/templates/js/transcript-organization-credentials.underscore
 msgid "Account"
@@ -12837,8 +12863,8 @@ msgid ""
 "should be {maxFileSize} and format must be one of {supportedImageFormats}."
 msgstr ""
 "Rezoluția recomandată a imaginii este {imageResolution}, dimensiunea maximă "
-"a fișierului imagine trebuie să fie {maxFileSize} și formatul trebuie să fie"
-" unul dintre {supportedImageFormats}."
+"a fișierului imagine trebuie să fie {maxFileSize} și formatul trebuie să fie "
+"unul dintre {supportedImageFormats}."
 
 #: cms/templates/js/video-transcript-upload-status.underscore
 msgid "Read more"
@@ -12863,8 +12889,8 @@ msgstr ""
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore
 msgid ""
-"You have done a dry run of force publishing the course. Nothing has changed."
-" Had you run it, the following course versions would have been change."
+"You have done a dry run of force publishing the course. Nothing has changed. "
+"Had you run it, the following course versions would have been change."
 msgstr ""
 "Ați făcut un test publicând cursul. Nimic nu a fost schimbat. Dacă l-ai fi "
 "rulat, următoarele versiuni de curs s-ar fi schimbat."
@@ -12883,8 +12909,8 @@ msgstr "Adăugați adrese URL pentru versiuni suplimentare"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid ""
-"To be sure all students can access the video, we recommend providing both an"
-" .mp4 and a .webm version of your video. Click below to add a URL for "
+"To be sure all students can access the video, we recommend providing both "
+"an .mp4 and a .webm version of your video. Click below to add a URL for "
 "another version. These URLs cannot be YouTube URLs. The first listed video "
 "that's compatible with the student's computer will play."
 msgstr ""
@@ -12905,8 +12931,8 @@ msgstr "Conflict de transcriere cronometrată"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
 msgid ""
-"The timed transcript for the first video file does not appear to be the same"
-" as the timed transcript for the second video file."
+"The timed transcript for the first video file does not appear to be the same "
+"as the timed transcript for the second video file."
 msgstr ""
 "Transcrierea temporizată pentru primul fișier video nu pare să fie aceeași "
 "cu transcrierea temporizată pentru al doilea fișier video."
@@ -12970,9 +12996,9 @@ msgstr "Fără transcriere programată EdX"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid ""
-"EdX doesn't have a timed transcript for this video in Studio, but we found a"
-" transcript on YouTube. You can import the YouTube transcript or upload your"
-" own .srt transcript file."
+"EdX doesn't have a timed transcript for this video in Studio, but we found a "
+"transcript on YouTube. You can import the YouTube transcript or upload your "
+"own .srt transcript file."
 msgstr ""
 "EdX nu are o transcriere cronometrată pentru acest videoclip în Studio, dar "
 "am găsit o transcriere pe YouTube. Puteți importa transcrierea YouTube sau "
@@ -12996,8 +13022,8 @@ msgstr ""
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid ""
-"The timed transcript for this video on edX is out of date, but YouTube has a"
-" current timed transcript for this video."
+"The timed transcript for this video on edX is out of date, but YouTube has a "
+"current timed transcript for this video."
 msgstr ""
 "Transcrierea cronometrată pentru acest videoclip pe edX este învechită, dar "
 "YouTube are o transcriere cronometrată actuală pentru acest videoclip."
@@ -13032,8 +13058,8 @@ msgstr "Confirmați transcrierea cronometrată"
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid ""
 "You changed a video URL, but did not change the timed transcript file. Do "
-"you want to use the current timed transcript or upload a new .srt transcript"
-" file?"
+"you want to use the current timed transcript or upload a new .srt transcript "
+"file?"
 msgstr ""
 "Ați modificat adresa URL a unui videoclip, dar nu ați modificat fișierul de "
 "transcriere cronometrată. Doriți să utilizați transcrierea cronometrată "
@@ -13055,7 +13081,6 @@ msgstr "rezultate"
 msgid "Results"
 msgstr "Rezultate"
 
-
 msgid "Export results to CSV"
 msgstr "Exportați rezultatele în CSV"
 
@@ -13069,3 +13094,1041 @@ msgstr[1] "Rezultate colectate de la {total} respondenți."
 
 msgid "submit"
 msgstr "Trimite"
+
+#: lms/templates/student_account/policy.underscore:4
+msgid "Privacy Policy"
+msgstr "Politica de date cu caracter personal"
+
+#: lms/templates/student_account/policy.underscore:9
+msgid "Accept"
+msgstr "Acceptă"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:24
+msgid "Sex"
+msgstr "Sex"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:40
+msgid "Phone number"
+msgstr ""
+"Număr de telefon mobil (inclusiv prefixul de țară, de exemplu: 40712123123)"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:48
+msgid "Country where I'm studying or teaching."
+msgstr "Țara în care predau sau studiez."
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:50
+msgid "Select Country"
+msgstr "Alege țara"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:58
+msgid "Region"
+msgstr "Județul școlii în care predau sau studiez"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:60
+msgid "Select Region"
+msgstr "Alege județul"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:69
+msgid "Town"
+msgstr "Localitatea școlii în care predau sau studiez"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:71
+msgid "Select Town"
+msgstr "Alege localitate"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:80
+msgid "Occupation"
+msgstr "Ocupație"
+
+#: frontend-customizations/src/accountAddon/basicInfo/index.js:82
+msgid "Select Occupation"
+msgstr "Alege ocupație"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:53
+msgid "Education Information"
+msgstr "Informații despre studii"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:61
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:73
+msgid "University (last graduated)"
+msgstr "Universitate (ultima absolvită)"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:62
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:112
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:138
+msgid "Select University"
+msgstr "Alege universitate"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:74
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:127
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:150
+msgid "University Name"
+msgstr "Introdu numele universității"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:84
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:100
+msgid "High-School"
+msgstr "Liceu / Colegiu"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:85
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:101
+msgid "Select High School"
+msgstr "Alege liceu / colegiu"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:111
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:126
+msgid "University"
+msgstr "Universitate"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:137
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:149
+msgid "University (currently studying)"
+msgstr "Universitatea (în care studiezi în acest moment, dacă este cazul)"
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:160
+msgid "Graduated studies"
+msgstr "Studii finalizate"
+
+#: frontend-customizations/src/components/AccountSelect/index.js:19
+#: frontend-customizations/src/questionnaire/body/SelectField/index.js:7
+msgid "There are no options"
+msgstr "Nu există opțiuni"
+
+#: frontend-customizations/src/components/AccountSelect/index.js:20
+#: frontend-customizations/src/questionnaire/body/SelectField/index.js:8
+msgid "Nothing found"
+msgstr "Nu am găsit nimic"
+
+#: frontend-customizations/src/components/Section/index.js:10
+msgid "Section Heading"
+msgstr "Titlu de secțiune"
+
+#: frontend-customizations/src/core/modals/CountryChangeWarning/index.js:8
+msgid "Country warning"
+msgstr "Avertisment despre câmpul ”țară”"
+
+#: frontend-customizations/src/core/modals/CountryChangeWarning/index.js:12
+msgid "Are you sure you want to change country?"
+msgstr "Ești sigur că vrei să schimbi țara în care predai sau studiezi?"
+
+#: frontend-customizations/src/core/modals/IncompleteAccountWarning/index.js:27
+msgid "Account Modal"
+msgstr "Date de cont"
+
+#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:37
+msgid "Questionnaire Modal"
+msgstr "Date de chestionar"
+
+#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:39
+msgid ""
+"This course is absolutely free for all users. Please, share with us the "
+"general information we need for statistics by filling in a simple "
+"questionnaire."
+msgstr ""
+"Acest curs este gratuit pentru toți utilizatorii. Pentru a putea analiza "
+"impactul lui, vă rugăm să completați și chestionarul din secțiunea ”cont”."
+
+#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:41
+msgid "Fill in the questionnaire"
+msgstr "Completează acum chestionarul din contul tău"
+
+#: frontend-customizations/src/core/modals/IncompleteQuestionnaireWarning/index.js:42
+#: frontend-customizations/src/core/notifications/QuestionnaireCompletedNotification/index.js:9
+#: frontend-customizations/src/questionnaire/header/index.js:11
+#: frontend-customizations/src/questionnaire/index.js:27
+msgid "Questionnaire"
+msgstr "Chestionar"
+
+#: frontend-customizations/src/core/modals/OccupationChangeWarning/index.js:8
+msgid "Occupation warning"
+msgstr "Avertisment despre câmpul ”ocupație”"
+
+#: frontend-customizations/src/core/modals/OccupationChangeWarning/index.js:12
+msgid "Are you sure you want to change occupation?"
+msgstr "Ești sigur că vrei să schimbi ocupația aleasă?"
+
+#: frontend-customizations/src/core/modals/RegionChangeWarning/index.js:8
+msgid "Region warning"
+msgstr "Avertisment despre câmpul ”județ”"
+
+#: frontend-customizations/src/core/modals/RegionChangeWarning/index.js:10
+msgid ""
+"Changing the region will affect your account information. You will need to "
+"update information related to your region."
+msgstr ""
+"Alegerea unui alt județ va reseta datele contului tău. Va fi nevoie să îl "
+"completezi din nou cu datele actualizate."
+
+#: frontend-customizations/src/core/modals/RegionChangeWarning/index.js:12
+msgid "Are you sure you want to change region?"
+msgstr "Ești sigur că vrei să schimbi județul în care predai sau studiezi?"
+
+#: frontend-customizations/src/core/modals/TownChangeWarning/index.js:8
+msgid "Town warning"
+msgstr "Avertisment despre câmpul ”localitate”"
+
+#: frontend-customizations/src/core/modals/TownChangeWarning/index.js:10
+msgid ""
+"Changing the town will affect your account information. You will need to "
+"update information related to your town."
+msgstr ""
+"Alegerea unei alte localități va reseta datele contului tău. Va fi nevoie să "
+"îl completezi din nou cu datele actualizate."
+
+#: frontend-customizations/src/core/modals/TownChangeWarning/index.js:12
+msgid "Are you sure you want to change town?"
+msgstr "Ești sigur că vrei să schimbi localitatea în care predai sau studiezi?"
+
+#: frontend-customizations/src/core/notifications/AccountActivationNotification/index.js:17
+msgid "Account activation"
+msgstr "Activare cont"
+
+#: frontend-customizations/src/core/notifications/AccountIncompleteNotification/index.js:16
+msgid ""
+"To start learning please complete all required information on your account "
+"page."
+msgstr ""
+"Pentru a putea începe și parcurge cursul, este necesar să completați toate "
+"informațiile obligatorii din secțiunea ”cont”."
+
+#: frontend-customizations/src/core/notifications/QuestionnaireIncompleteNotification/index.js:9
+#: frontend-customizations/src/core/notifications/QuestionnairePartialNotification/index.js:9
+msgid "Complete your questionnaire"
+msgstr "Completează chestionarul"
+
+#: frontend-customizations/src/core/notifications/QuestionnaireIncompleteNotification/index.js:15
+msgid "Share information"
+msgstr "Completează chestionarul"
+
+#: frontend-customizations/src/core/notifications/QuestionnairePartialNotification/index.js:15
+msgid "Continue sharing"
+msgstr "Completează chestionarul"
+
+#: frontend-customizations/src/questionnaire/body/MultiWidget/index.js:82
+msgid "This field cannot be displayed."
+msgstr "Acest câmp nu poate fi vizualizat."
+
+#: frontend-customizations/src/questionnaire/body/index.js:18
+msgid "There are no questions."
+msgstr "Nu există întrebări."
+
+#: frontend-customizations/src/questionnaire/footer/index.js:30
+msgid "Next tab"
+msgstr "Următoarea secțiune"
+
+#: frontend-customizations/src/questionnaire/footer/index.js:34
+msgid "Previous tab"
+msgstr "Secțiunea anterioară"
+
+#: frontend-customizations/src/reports/GlobalReport/index.js:24
+msgid "Global Report"
+msgstr "Raport global"
+
+#: frontend-customizations/src/reports/GlobalReport/index.js:27
+msgid ""
+"In this report, you will find information about all registered users on the "
+"platform with their data from their accounts and a questionnaire they have "
+"to fill in before starting learning."
+msgstr ""
+"În acest raport vei găsi informații despre toți utilizații înregistrați pe "
+"platformă, împreună cu date din contul lor și chestionarul completat."
+
+#: frontend-customizations/src/reports/GlobalReport/index.js:33
+msgid "All registered users on the platform"
+msgstr "Toți utilizatorii înregistrați pe platforma"
+
+#: frontend-customizations/src/reports/GlobalReport/index.js:37
+msgid ""
+"Click to generate a CSV file. The report generation process can take a while."
+msgstr ""
+"Click aici pentru a genera un fișier CSV. Procesul de generare al raportului "
+"poate dura."
+
+#: frontend-customizations/src/reports/ProfileInformationReport/index.js:20
+msgid ""
+"Click to generate a CSV file of all students enrolled in this course, along "
+"with profile information such as email address and username:"
+msgstr ""
+"Click aici pentru a genera un fișier CSV cu toți cursanții din acest curs, "
+"împreună cu informații ca adresă de email și nume de utilizator:"
+
+#: frontend-customizations/src/reports/ProfileInformationReport/index.js:26
+msgid "Download profile information as a CSV"
+msgstr "Descarcă informațiile de profil ca CSV"
+
+#: frontend-customizations/src/support/AuthenticatedSupport/index.js:38
+msgid "Something went wrong."
+msgstr "Ceva nu a funcționat."
+
+#: frontend-customizations/src/support/GuestSupport/index.js:6
+msgid ""
+"You need to register or log in to send us an email via support form. If you "
+"have problems with log in or registration process - contact us on {0}."
+msgstr ""
+"E nevoie să te înregistrezi sau să fii autentificat pe platformă pentru a ne "
+"putea contacta prin formularul de suport. Dacă nu te poți înregistra sau nu "
+"te poți autentifica, scrie-ne la {0}."
+
+#: frontend-customizations/src/support/SuccessModal/index.js:9
+msgid "Success Modal"
+msgstr "Mesaj de succes"
+
+#: frontend-customizations/src/support/SuccessModal/index.js:10
+msgid "Thank you! Your request has been successfully sent."
+msgstr ""
+"Solicitarea ta de suport a fost trimisă către echipa noastră. Te vom "
+"contacta prin email în cel mai scurt timp posibil în următoarele 48 de ore."
+
+#: frontend-customizations/src/support/SuccessModal/index.js:11
+msgid "Okay"
+msgstr "Am înțeles"
+
+#: frontend-customizations/src/support/SupportForm/index.js:11
+msgid "This field is required"
+msgstr "Acest câmp este obligatoriu"
+
+#: frontend-customizations/src/support/SupportForm/index.js:14
+msgid "Invalid email format"
+msgstr "Emailul este invalid. Verifică adresa de email introdusă"
+
+#. Translators: added manually from a shared docx
+msgid ""
+"I want to receive the announcements and newsletters from the Predau Viitor "
+"eLearning platform"
+msgstr ""
+"Mă abonez: vreau să primesc pe email noutăți despre cursurile organizate pe "
+"această platformă și alte informații despre activitatea Predau Viitor"
+
+msgid ""
+"Check your {email_start}{email}{email_end} inbox for an account activation "
+"link from {platform_name}. If you need help, contact {link_start}"
+"{platform_name} Support{link_end}."
+msgstr ""
+"Verificați-vă {email_start}{email}{email_end} inbox-ul pentru un link de "
+"activare a contului de la  {platform_name}. Dacă aveți nevoie de ajutor, "
+"contactați {link_start}{platform_name} echipa de suport {link_end}."
+
+msgid ""
+"Check your email inbox for an account activation link. If you need help, "
+"contact the Support."
+msgstr ""
+"Verificați-vă e-mail inbox-ul pentru un link de activare a contului. Dacă "
+"aveți nevoie de ajutor, contactați echipa de suport."
+
+msgid ""
+"You have successfully completed all the requirements for the %(title)s "
+"%(type)s."
+msgstr ""
+"Ai îndeplinit cu succes toate cerințele pentru certificatul %(title)s "
+"%(type)s."
+
+#: common/static/bundles/StudentAccountDeletion.js
+#: common/static/bundles/StudentAccountDeletionInitializer.js
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx
+msgid ""
+"{strongStart}Warning: deletion of the account is a definitive and "
+"irreversible action{strongEnd}, which will lead to the definitive loss of "
+"access to the account associated with this email address, the history of the "
+"course that has already been completed, and the certificate obtained on the "
+"Predau Viitor Cursuri Platform, on www.predauviitor.ro or www."
+"indreptardigital.ro. By pressing the \"Delete My Account\" button below, you "
+"confirm that you have read all the information related to deleting the "
+"account, also described here: {htmlStart}https://cursuri.predauviitor.ro/"
+"faq{htmlEnd}."
+msgstr ""
+"{strongStart}Avertisment: ștergerea contului este o acțiune definitivă și "
+"ireversibilă{strongEnd}, care va duce la pierderea definitivă a accesului în "
+"contul asociat acestei adrese de email, la istoricul cursurilor începute sau "
+"absolvite și la orice certificat obținut pe Platforma de Cursuri Predau "
+"Viitor, pe www.predauviitor.ro sau www.indreptardigital.ro. Prin apăsarea "
+"butonului de mai jos ”Șterge contul meu”, confirmați că ați luat la "
+"cunoștință toate informațiile legate de ștergerea contului, descrise și "
+"aici: {htmlStart}https://cursuri.predauviitor.ro/faq{htmlEnd}."
+
+msgid ""
+"Please, put your first name at the first place. The name that is used for ID "
+"verification and that appears on your certificate."
+msgstr ""
+"Numele folosit pentru verificarea identității și care apare pe certificatele "
+"tale."
+
+msgid ""
+"Check your {0}{1}{2} inbox for an account activation link from {3}. If you "
+"need help, contact {4}{5} Support{6}."
+msgstr ""
+"Verifică-ți adresa de email {0}{1}{2} cu care te-ai înregistrat pentru "
+"linkul de activare al contului tău {3}. Verifică și folderele de spam sau "
+"bulk din căsuța de email. Dacă ai nevoie de ajutor, contactează-ne prin "
+"formularul de contact {4}{5}{6}."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:77
+#: openassessment/xblock/static/js/src/oa_server.js:113
+#: openassessment/xblock/static/js/src/oa_server.js:137
+msgid "This section could not be loaded."
+msgstr "Această secțiune nu s-a încărcat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:158
+msgid "The staff assessment form could not be loaded."
+msgstr "Evaluarea de la facilitatorul cursului nu s-a încărcat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:180
+msgid "The display of ungraded and checked out responses could not be loaded."
+msgstr ""
+"Afișarea rezolvărilor fără punctaj și a celor care sunt în curs de evaluare, "
+"nu s-a încărcat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:214
+msgid "This response could not be submitted."
+msgstr "Rezolvarea nu poate fi trimisă."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:237
+msgid "This response could not be saved."
+msgstr "Rezolvarea nu poate fi salvată."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:262
+msgid "This feedback could not be submitted."
+msgstr "Feedback-ul nu poate fi trimis."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:287
+#: openassessment/xblock/static/js/src/oa_server.js:378
+#: openassessment/xblock/static/js/src/oa_server.js:401
+msgid "This assessment could not be submitted."
+msgstr "Evaluarea nu poate fi trimisă."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:424
+msgid "One or more rescheduling tasks failed."
+msgstr "Una sau mai multe reprogramări nu s-au realizat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:483
+msgid "This problem could not be saved."
+msgstr "Activitatea nu poate fi salvată."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:504
+msgid "The server could not be contacted."
+msgstr "Serverul nu a putut fi contactat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:530
+msgid "Could not retrieve upload url."
+msgstr "Nu s-a putut prelua adresa URL de încărcare."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:549
+#: openassessment/xblock/static/js/src/oa_server.js:568
+msgid "Server error."
+msgstr "Eroare de server."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:588
+msgid "Could not retrieve download url."
+msgstr "Nu s-a putut prelua adresa URL de descărcare."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:614
+msgid "The submission could not be removed from the grading pool."
+msgstr "Rezolvarea nu a putut fi eliminată din punctajele acordate."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:670
+msgid "Multiple teams returned for course"
+msgstr "Mai multe echipe au revenit pentru curs"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:677
+msgid "Could not load teams information."
+msgstr "Informațiile despre echipe nu pot fi încărcate."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:699
+msgid "User lookup failed"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:704
+msgid "Error when looking up username"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:8
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/oa_server.js:728
+msgid "Failed to clone rubric"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:58
+msgid "Unit Name"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:66
+msgid "Assessment"
+msgstr "Evaluare"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:67
+msgid "Assessments"
+msgstr "Evaluări"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:74
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:75
+msgid "Total Responses"
+msgstr "Rezolvări totale"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:82
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:83
+msgid "Training"
+msgstr "Antrenament"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:90
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:91
+msgid "Peer"
+msgstr "Între cursanți"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:98
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:99
+msgid "Self"
+msgstr "Auto"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:106
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:107
+msgid "Waiting"
+msgstr "În așteptare"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:122
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:123
+msgid "Final Grade Received"
+msgstr "Punctaj final obținut"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:154
+msgid "List of Open Assessments is unavailable"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:254
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:305
+msgid "Please wait"
+msgstr "Te rugăm să aștepți"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:278
+msgid "Block view is unavailable"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:314
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:290
+msgid "Back to Full List"
+msgstr "Înapoi către lista completă"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Your file "
+msgstr "Fișierul tău␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:357
+msgid "Status of Your Response"
+msgstr "Statusul rezolvării tale"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "This response has not been saved."
+msgstr "Rezolvarea nu a fost salvată."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid ""
+"If you leave this page without saving or submitting your response, you will "
+"lose any work you have done on the response."
+msgstr ""
+"Dacă părăsești această pagină fără să salvezi sau să trimiți rezolvarea ta, "
+"vei pierde ce ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Saving..."
+msgstr "Se salvează..."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "This response has been saved but not submitted."
+msgstr "Rezolvarea a fost salvată, dar nu trimisă."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Confirm Submit Response"
+msgstr "Confirmă trimiterea rezolvării"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:492
+msgid ""
+"You're about to submit your response for this assignment. After you submit "
+"this response, you can't change it or submit a new response."
+msgstr ""
+"Urmează să trimiți rezolvarea ta pentru această activitate. După ce o "
+"trimiți, aceasta nu mai poate fi completată, modificată sau înlocuită."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:567
+msgid "Individual file size must be {max_files_mb}MB or less."
+msgstr ""
+"Dimensiunea fiecărui fișier trebuie să fie de maximum {max_files_mb}MB."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:581
+msgid ""
+"File upload failed: unsupported file type. Only the supported file types can "
+"be uploaded. If you have questions, please reach out to the course team."
+msgstr ""
+"Eroare la încărcarea fișierului: format fișier incompatibil. Doar fișierele "
+"în formatele acceptate pot fi încărcate. Dacă apar întrebări suplimentare, "
+"te rugăm să ne scrii pe adresa de suport."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Only "
+msgstr "Doar␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:664
+#: openassessment/xblock/static/js/src/lms/oa_response.js:670
+msgid "Describe "
+msgstr "Descrie fișierul␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:664
+msgid "(required):"
+msgstr "(obligatoriu):"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:684
+msgid "Thumbnail view of "
+msgstr "Vizualizare în miniatură a␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:770
+msgid "Confirm Delete Uploaded File"
+msgstr "Confirmă ștergerea fișierului încărcat"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_response.js:796
+msgid ""
+"Are you sure you want to delete the following file? It cannot be restored.\n"
+"File: "
+msgstr ""
+"Ești sigur/ă că vrei să ștergi următorul fișier? După ștergere, nu va putea "
+"fi recuperat.\n"
+"Fișier:␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_self.js:138
+msgid ""
+"If you leave this page without submitting your self assessment, you will "
+"lose any work you have done."
+msgstr ""
+"Dacă părăsești această pagină fără să trimiți autoevaluarea, vei pierde ce "
+"ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:143
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:253
+msgid "Unexpected server error."
+msgstr "Eroare de server."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:147
+msgid "You must provide a learner name."
+msgstr "Trebuie să introduci numele unui cursant."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:214
+msgid ""
+"This grade will be applied to all members of the team. Do you want to "
+"continue?"
+msgstr ""
+"Acest punctaj se va aplica tuturor membrilor echipei. Vrei să continui?"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:218
+msgid "Confirm Grade Team Submission"
+msgstr "Confirmă trimiterea punctajului pentru echipă"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:304
+msgid "Error getting the number of ungraded responses"
+msgstr "Eroare la afișarea numărului de rezolvări fără punctaj."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid ""
+"If you leave this page without submitting your staff assessment, you will "
+"lose any work you have done."
+msgstr ""
+"Dacă părăsești această pagină fără să trimiți evaluarea ta ca facilitator, "
+"vei pierde ce ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_training.js:130
+msgid "Feedback available for selection."
+msgstr "Feedback disponibil pentru a fi selectat."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+#: openassessment/xblock/static/js/src/lms/oa_peer.js:217
+msgid ""
+"If you leave this page without submitting your peer assessment, you will "
+"lose any work you have done."
+msgstr ""
+"Dacă părăsești această pagină fără să trimiți evaluarea altor cursanți, vei "
+"pierde ce ai lucrat până acum."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Peers Assessed"
+msgstr "Cursanți evaluați"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Peer Responses Received"
+msgstr "Rezolvări între cursanți primite"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Time Spent On Current Step"
+msgstr "Timpul petrecut în pasul curent"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Staff assessment"
+msgstr "Evaluarea facilitatorului cursului"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Grade Status"
+msgstr "Status punctaj"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Refresh"
+msgstr "Reîncarcă"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid ""
+"The \"{name}\" problem is configured to require a minimum of {min_grades} "
+"peer grades, and asks to review {min_graded} peers."
+msgstr ""
+"Activitatea \"{name}\" necesită minimum {min_grades} punctaj/e de la alți "
+"cursanți și presupune să evaluezi la rândul tău și să acorzi punctaj/e "
+"pentru minimum {min_graded} cursant/cursanți."
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid ""
+"There are currently {stuck_learners} learners in the waiting state, meaning "
+"they have not yet met all requirements for Peer Assessment. "
+msgstr ""
+"Există {stuck_learners} cursanți în așteptare, ceea ce înseamnă că nu au "
+"îndeplinit cerințele pentru Evaluarea între cursanți.␣"
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid ""
+"However, {overwritten_count} of these students have received a grade through "
+"the staff grade override tool already."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Error while fetching student data."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-lms.35c106273f308e26fb0e.js:361
+msgid "Unable to load"
+msgstr "Nu s-a putut încărca"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_container_item.js:43
+msgid "Unnamed Option"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_container_item.js:53
+msgid "Not Selected"
+msgstr "Nu a fost selectat"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_rubric.js:124
+msgid "Problem cloning rubric"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:100
+msgid "Criterion Added"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:102
+msgid ""
+"You have added a criterion. You will need to select an option for the "
+"criterion in the Learner Training step. To do this, click the Assessment "
+"Steps tab."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:150
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:186
+msgid "Option Deleted"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:152
+msgid ""
+"You have deleted an option. That option has been removed from its criterion "
+"in the sample responses in the Learner Training step. You might have to "
+"select a new option for the criterion."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:188
+msgid ""
+"You have deleted all the options for this criterion. The criterion has been "
+"removed from the sample responses in the Learner Training step."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:214
+msgid "Criterion Deleted"
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:216
+msgid ""
+"You have deleted a criterion. The criterion has been removed from the "
+"example responses in the Learner Training step."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:395
+msgid ""
+"Changes to steps that are not selected as part of the assignment will not be "
+"saved."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:91
+msgid "File types can not be empty."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:101
+msgid "The following file types are not allowed: "
+msgstr "Următoarele formate de fișiere nu sunt acceptate:␣"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:182
+msgid "Save Unsuccessful"
+msgstr "Salvare nereușită"
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+msgid "We've detected errors on the following tabs: "
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+msgid ""
+"This ORA has already been released. Changes will only affect learners making "
+"new submissions. Existing submissions will not be modified by this change."
+msgstr ""
+
+#: openassessment/xblock/static/dist/openassessment-studio.f14c76a9ea883a7a1aa3.js:32
+msgid "has "
+msgstr "are␣"
+
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:183
+msgid "ve detected errors on the following tabs: ${tabNames.join("
+msgstr ""
+
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:88
+#: frontend-customizations/src/accountAddon/educationInfo/index.js:116
+msgid ""
+"If you don't see an establishment on the list, please check your region and "
+"town information or contact our support."
+msgstr ""
+"Dacă nu îți găsești școala pe listă afișată, verifică în contul tău că ai "
+"selectat județul și localitatea în care se află școala în care predai sau "
+"studiezi."
+
+#: frontend-customizations/src/core/modals/CountryChangeWarning/index.js:10
+msgid ""
+"Changing the country will affect your account information. You will need to "
+"update information related to your country."
+msgstr ""
+"Alegerea unei alte țări va reseta contul tău. Va fi nevoie să actualizezi "
+"informațiile completate deja."
+
+#: frontend-customizations/src/core/modals/IncompleteAccountWarning/index.js:29
+msgid ""
+"To start the course please add all of the required information about the "
+"user on your account page."
+msgstr ""
+"Pentru a putea începe cursul este necesar să completați toate informațiile "
+"din secțiunea ”Cont”."
+
+#: frontend-customizations/src/core/modals/IncompleteAccountWarning/index.js:31
+#: frontend-customizations/src/core/notifications/AccountIncompleteNotification/index.js:14
+msgid "Complete your account information"
+msgstr "Completează acum contul tău"
+
+#: frontend-customizations/src/core/modals/OccupationChangeWarning/index.js:10
+msgid ""
+"Changing the occupation will affect your account information. You will need "
+"to update information related to your occupation."
+msgstr ""
+"Alegerea unei alte ocupații va reseta contul tău. Va fi nevoie să "
+"actualizezi informațiile completate deja."
+
+#: frontend-customizations/src/core/notifications/QuestionnaireCompletedNotification/index.js:11
+msgid ""
+"Thank you for sharing with us information about your work. You can update "
+"this information anytime. Enjoy our courses!"
+msgstr ""
+"Mulțumim pentru informațiile transmise. Poți actualiza oricând aceste "
+"informații. Mult succes în învățare!"
+
+#: frontend-customizations/src/core/notifications/QuestionnaireCompletedNotification/index.js:15
+msgid "Update information"
+msgstr "Actualizează chestionarul"
+
+#: frontend-customizations/src/core/notifications/QuestionnaireIncompleteNotification/index.js:11
+#: frontend-customizations/src/core/notifications/QuestionnairePartialNotification/index.js:11
+msgid ""
+"Please share with us the general information that we need for statistics by "
+"filling out a simple questionnaire. After that, hundreds of different "
+"courses on our platform will become available to you."
+msgstr ""
+"Răspunde tuturor întrebărilor din chestionar. Cursurile din platformă pot fi "
+"urmate doar după completarea chestionarului."
+
+#: frontend-customizations/src/questionnaire/header/index.js:13
+msgid ""
+"Please share with us the general information that we need for statistics by "
+"filling out a simple questionnaire."
+msgstr ""
+"Toate cursurile din platformă sunt disponibile doar după completarea "
+"chestionarului din cont."
+
+#: edx-platform/lms/static/js/student_account/views/account_settings_factory.js:353
+msgid "Password change"
+msgstr "Schimbare parolă"
+
+#: edx-platform/lms/static/js/student_account/views/account_settings_factory.js:366
+msgid ""
+"If you chose to change your password, you can find the instructions on your "
+"email address."
+msgstr ""
+"Dacă ai optat pentru schimbarea parolei, găsești instrucțiunile pe adresa de "
+"e-mail."
+
+msgid "Reset"
+msgstr "Resetează"
+
+msgid "Show Answer"
+msgstr "Arată răspunsul"
+
+msgid "You have used {used} of {total} attempts."
+msgstr "Ai utilizat {used} din {total} încercări."
+
+msgid "Cannot be a negative number"
+msgstr "Nu poate fi un număr negativ"
+
+msgid ""
+"You have selected “Delete my account.” Account deletion is a permanent and "
+"irreversible action. You will not be able to recover your account or the "
+"data that is deleted."
+msgstr ""
+"Ai selectat “Șterge contul meu”. Ștergerea contului este o acțiune "
+"definitivă și ireversibilă. Contul sau datele șterse nu vor putea fi "
+"recuperate."
+
+msgid "Hints:"
+msgstr "Indicii:"
+
+msgid "Some of your answers were not correct."
+msgstr "Unele răspunsuri sunt greșite."
+
+msgid "Text above the certificate"
+msgstr "Text deasupra certificatului"
+
+msgid "text in English"
+msgstr "text în engleză"
+
+msgid "Text displayed above the certificate in English (max 64 characters)"
+msgstr "Titlu afișat sub certificat în engleză (max 64 caractere)"
+
+msgid "text in Romanian"
+msgstr "text în română"
+
+msgid "Text displayed above the certificate in Romanian (max 64 characters)"
+msgstr "Titlu afișat sub certificat în română (max 64 caractere)"
+
+msgid "Title and body text under the certificate"
+msgstr "Titlu și text sub certificat"
+
+msgid "title in English"
+msgstr "titlu în engleză"
+
+msgid "Title displayed under the certificate in English (max 64 characters)"
+msgstr "Titlu afișat sub certificat în engleză (max 64 caractere)"
+
+msgid "title in Romanian"
+msgstr "titlu în română"
+
+msgid "Title displayed under the certificate in Romanian (max 64 characters)"
+msgstr "Titlu afișat sub certificat în română (max 64 caractere)"
+
+msgid "Text displayed under the certificate in English"
+msgstr "Text afișat sub certificat în engleză"
+
+msgid "Text displayed under the certificate in Romanian"
+msgstr "Text afișat sub certificat în română"
+
+msgid "Certificate logo"
+msgstr "Logo certificat"
+
+msgid "Certificate logo image (.png, .jpg and logo size limit of 5MB)"
+msgstr ""
+"Imagine logo certificat (.png, .jpg limita de mărime a logo-ului de 5MB)"
+
+#: frontend-customizations/src/reports/DiscussionsReport/index.js:21
+msgid "Discussions report"
+msgstr "Raport pentru discuții"
+
+#: frontend-customizations/src/reports/DiscussionsReport/index.js:24
+msgid ""
+"In this report, you will download the content of all discussions or a "
+"specific discussion within this course. To download a specific discussion, "
+"enter the discussion ID below. Otherwise, leave the field blank."
+msgstr ""
+"În acest raport, vei avea acces la conținutul tuturor discuțiilor sau al "
+"unei discuții specifice din acest curs. Pentru a descărca o discuție "
+"specifică, introdu mai jos ID-ul discuției. În caz contrar, lasă câmpul "
+"necompletat."
+
+#: frontend-customizations/src/reports/DiscussionsReport/index.js:31
+msgid "Download discussions report"
+msgstr "Descarcă raportul pentru discuții"
