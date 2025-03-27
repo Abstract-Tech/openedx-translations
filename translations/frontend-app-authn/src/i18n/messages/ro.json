@@ -177,6 +177,7 @@
   "complete.your.profile.2": "profilul dvs.",
   "register.page.terms.of.service.and.honor.code": "Prin crearea unui cont, sunteți de acord cu {tosAndHonorCode} și confirmați că {platformName} și fiecare membru tratează datele dvs. personale în conformitate cu {privacyPolicy}.",
   "register.page.honor.code": "Sunt de acord cu {platformName} {tosAndHonorCode}",
+  "register.page.error.honor.code": "Trebuie să fii de acord cu Codul de Onoare {platformName}",
   "register.page.terms.of.service": "Sunt de acord cu {platformName} {termsOfService}",
   "phone": "Introduceți telefonul dvs",
   "empty.phone.field.error": "Câmpul de telefon este obligatoriu",

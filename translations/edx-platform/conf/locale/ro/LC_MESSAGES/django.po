@@ -29432,3 +29432,6 @@ msgstr "Selectează-ți anul nașterii"
 
 msgid "Select your gender"
 msgstr "Selectează-ți sexul"
+
+msgid "Continue learning "
+msgstr "Continuați să învățați"
