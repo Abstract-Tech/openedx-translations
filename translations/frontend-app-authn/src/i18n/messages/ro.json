@@ -39,7 +39,7 @@
   "confirmation.message.title": "Verificați-vă e-mailul",
   "confirmation.support.link": "contactați asistența tehnică",
   "need.help.sign.in.text": "Aveți nevoie de ajutor la autentificare?",
-  "additional.help.text": "Pentru asistență suplimentară, contactați echipa de asistență {platformName} la",
+  "additional.help.text": "Pentru asistență suplimentară, contactați echipa de asistență {platformName} la ",
   "sign.in.text": "Autentificare",
   "extend.field.errors": "{emailError} mai jos.",
   "invalid.token.heading": "Link de resetare a parolei invalid",
