@@ -26180,6 +26180,12 @@ msgstr "C1"
 msgid "C2"
 msgstr "C2"
 
+msgid "University (last graduated)"
+msgstr "Universitate (ultima absolvită)"
+
+msgid "Select University"
+msgstr "Selectează Universitatea"
+
 #: questionnaire/models.py:133
 msgid "Language and communication"
 msgstr "Limbă și comunicare"
