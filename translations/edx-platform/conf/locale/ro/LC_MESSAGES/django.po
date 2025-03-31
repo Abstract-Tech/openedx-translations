@@ -25442,10 +25442,6 @@ msgstr ""
 "Această valoare va fi afișată pe certificatele cursanților. Introduceți doar "
 "numere."
 
-#: themes/edx-theme/lms/templates/dashboard.html:160
-msgid "Continue Learning"
-msgstr "Continuă cel mai recent curs"
-
 #: themes/edx-theme/lms/templates/footer.html:44
 msgid "Indreptar Digital"
 msgstr "Îndrepta Digital"
