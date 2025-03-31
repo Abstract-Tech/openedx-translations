@@ -25291,9 +25291,6 @@ msgstr ""
 msgid "About Us"
 msgstr "Despre Noi"
 
-msgid "Continue learning"
-msgstr "Continuă cel mai recent curs"
-
 msgid "Export results to CSV"
 msgstr "Exportați rezultatele în CSV"
 
@@ -29448,26 +29445,6 @@ msgstr "Selectează-ți sexul"
 msgid "Continue learning "
 msgstr "Continuă cel mai recent curs "
 
-# edX translation file.
-# Copyright (C) 2024 EdX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: 0.1a\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
-"Last-Translator: \n"
-"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: ro\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-
 #: settings/common.py:31
 msgid "Course Dashboard"
 msgstr "Tablou de bord al cursului"
@@ -29533,17 +29510,9 @@ msgstr "Filtre"
 msgid "View dashboards in Superset"
 msgstr "Vizualizați tablourile de bord în Superset"
 
-msgid "Enrollment"
-msgstr "Înscriere"
-
 msgid "Engagement"
 msgstr "Logodnă"
 
-msgid "Performance"
-msgstr "Performanţă"
-
-msgid "Help"
-msgstr "Ajutor"
 
 msgid "Enrollees per Enrollment Track"
 msgstr "Înscriși pe pistă de înscriere"
