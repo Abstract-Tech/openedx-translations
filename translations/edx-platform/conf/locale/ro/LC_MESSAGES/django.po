@@ -29528,3 +29528,9 @@ msgstr "România"
 
 msgid "Moldova, Republic of"
 msgstr "Moldova, Republica"
+
+msgid "CONTINUE LEARNING"
+msgstr "Continuă cel mai recent curs "
+
+msgid "Continue Learning"
+msgstr "Continuă cel mai recent curs"

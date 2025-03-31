@@ -7290,7 +7290,7 @@ msgstr "Informații de bază"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "These settings include basic information about your account."
-msgstr "Aceste setări includ informații de bază despre contul tău."
+msgstr "Aici completezi informații de bază despre tine și contul tău. Toate informațiile sunt salvate automat de îndată ce sunt introduse."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -14137,5 +14137,8 @@ msgstr ""
 msgid "Download discussions report"
 msgstr "Descarcă raportul pentru discuții"
 
-msgid "Continue learning "
+msgid "CONTINUE LEARNING"
 msgstr "Continuă cel mai recent curs "
+
+msgid "Continue Learning"
+msgstr "Continuă cel mai recent curs"
