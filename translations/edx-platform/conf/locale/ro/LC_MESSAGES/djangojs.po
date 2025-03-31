@@ -4628,6 +4628,10 @@ msgstr ""
 "cursuri în aplicația {platformName}, {siteName} sau orice alt site găzduit "
 "de {platformName}."
 
+msgid "You may also lose access to verified certificates and other program credentials. You can make a copy of these for your records before proceeding with deletion."
+msgstr "De asemenea, puteți pierde accesul la certificate verificate și alte acreditări. Puteți face o copie înainte de a continua."
+
+
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
@@ -14132,3 +14136,6 @@ msgstr ""
 #: frontend-customizations/src/reports/DiscussionsReport/index.js:31
 msgid "Download discussions report"
 msgstr "Descarcă raportul pentru discuții"
+
+msgid "Continue learning "
+msgstr "Continuă cel mai recent curs "
