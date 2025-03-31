@@ -18003,9 +18003,6 @@ msgstr "Activități în așteptare"
 msgid "The status for any active tasks appears in a table below."
 msgstr "Starea pentru orice sarcini active apare într-un tabel de mai jos."
 
-msgid "Certificate"
-msgstr "Certificat"
-
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate Certificates"
 msgstr "Generează din nou certificatele de absolvire"
