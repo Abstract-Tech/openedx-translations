@@ -6884,7 +6884,7 @@ msgstr "{sign_in_link} sau {register_link}."
 #: lms/templates/navigation/navbar-not-authenticated.html
 #: themes/edx.org/lms/templates/header/navbar-not-authenticated.html
 msgid "Sign in"
-msgstr "Autentificați-vă"
+msgstr "Autentificare"
 
 #: lms/djangoapps/courseware/views/views.py
 #, python-brace-format
@@ -29442,7 +29442,7 @@ msgstr "Selectează-ți anul nașterii"
 msgid "Select your gender"
 msgstr "Selectează-ți sexul"
 
-msgid "Continue learning "
+msgid "Continue learning"
 msgstr "Continuă cel mai recent curs "
 
 #: settings/common.py:31
