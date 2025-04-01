@@ -18108,6 +18108,9 @@ msgstr "Master"
 msgid "Basic Course Information"
 msgstr "Informații de bază ale Cursului"
 
+msgid "Course Information"
+msgstr "Informații despre curs"
+
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Course Name:"
 msgstr "Nume curs:"
@@ -18180,6 +18183,11 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Reports"
 msgstr "Rapoarte"
+
+msgid "Current Enrollees"
+msgstr "Elevii înregistrați actuali"
+
+msgid ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
