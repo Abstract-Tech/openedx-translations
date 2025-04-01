@@ -39,6 +39,7 @@
     "authoring.footer.termsOfService.link.label": "Contract de furnizare de servicii",
     "authoring.footer.privacyPolicy.link.label": "Politica de date cu caracter personal",
     "authoring.footer.accessibilityRequest.link.label": "Solicitare pentru adaptare privind accesibilitatea",
-    "authoring.footer.trademark.message": "edX și Open edX, precum și siglele edX și Open edX, sunt mărci comerciale înregistrate ale companiei"
+    "authoring.footer.trademark.message": "edX și Open edX, precum și siglele edX și Open edX, sunt mărci comerciale înregistrate ale companiei",
+    "footer.connectLinks.support": "Suport"
   }
   
