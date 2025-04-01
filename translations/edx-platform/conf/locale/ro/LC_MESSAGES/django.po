@@ -18187,7 +18187,6 @@ msgstr "Rapoarte"
 msgid "Current Enrollees"
 msgstr "Elevii înregistrați actuali"
 
-msgid ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
