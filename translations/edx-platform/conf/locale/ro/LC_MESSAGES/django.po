@@ -9267,7 +9267,7 @@ msgstr "Înapoi la editor"
 #: wiki/plugins/images/templates/wiki/plugins/images/index.html
 #: wiki/templates/wiki/history.html
 msgid "History"
-msgstr "Istoric"
+msgstr "Istorie"
 
 #: lms/templates/wiki/history.html wiki/templates/wiki/history.html
 msgid ""
@@ -17218,7 +17218,7 @@ msgstr "Ceva nu a funcționat"
 
 #: lms/templates/dashboard/_reason_survey.html
 msgid "Other"
-msgstr "Altul"
+msgstr "Altă ocupație"
 
 #: lms/templates/debug/run_python_form.html
 msgid "Results:"
@@ -25945,7 +25945,7 @@ msgstr "Elev la profil vocațional - pedagogic"
 #: account_extras/models.py:132
 msgid "College student"
 msgstr ""
-"Student PIPP, psihologie sau științele educației, masterat didactic, etc"
+"Student științele educației"
 
 #: account_extras/models.py:143
 msgid "Pedagogical high-school"

@@ -4423,7 +4423,7 @@ msgstr "Supraveghere"
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: cms/templates/js/asset-library.underscore
 msgid "Other"
-msgstr "Altul"
+msgstr "Altă ocupație"
 
 #: common/static/bundles/SingleSupportForm.js
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
