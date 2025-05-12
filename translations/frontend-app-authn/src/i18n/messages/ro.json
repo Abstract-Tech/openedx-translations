@@ -1,223 +1,1991 @@
-{
-  "error.notfound.message": "Pagina căutată este indisponibilă sau nu există. Te rugăm să verifici linkul și să încerci din nou.",
-  "institution.login.page.sub.heading": "Alegeți-vă instituția din lista de mai jos",
-  "logistration.sign.in": "Intră în cont",
-  "logistration.register": "Creează cont",
-  "enterprisetpa.title.heading": "Doriți să vă conectați folosind datele de conectare {providerName} ?",
-  "enterprisetpa.login.button.text": "Arată-mi și alte modalități de conectare sau de înregistrare",
-  "enterprisetpa.login.button.text.public.account.creation.disabled": "Arată-mi și alte modalități de conectare",
-  "sso.sign.in.with": "Intră în cont cu {providerName}",
-  "sso.create.account.using": "Creați un cont folosind {providerName}",
-  "show.password": "Afișează parola",
-  "hide.password": "Ascunde parola",
-  "one.letter": "1 litera",
-  "one.number": "1 număr",
-  "eight.characters": "8 caractere",
-  "password.sr.only.helping.text": "Parola trebuie să conțină cel puțin 8 caractere, cel puțin o literă și cel puțin un număr",
-  "tpa.alert.heading": "Aproape gata!",
-  "login.third.party.auth.account.not.linked": "V-ați conectat cu succes la {currentProvider} , dar contul dvs. {currentProvider} nu are un cont {platformName} conectat. Pentru a vă conecta conturile, conectați-vă acum folosind parola {platformName} .",
-  "register.third.party.auth.account.not.linked": "V-ați conectat cu succes la {currentProvider} ! Avem nevoie doar de puține informații înainte de a începe să învățați cu {platformName} .",
-  "registration.using.tpa.form.heading": "Finalizați crearea contului",
-  "zendesk.supportTitle": "Suport edX",
-  "zendesk.selectTicketForm": "Vă rugăm să alegeți tipul de solicitare:",
-  "registration.other.options.heading": "Sau creează cont la:",
-  "institution.login.button": "Acreditări ale instituției/campusului",
-  "login.other.options.heading": "Sau intră în cont cu:",
-  "enterprise.login.btn.text": "Acreditări ale companiei sau ale școlii",
-  "forgot.password.confirmation.message": "Am trimis un e-mail la {email} cu instrucțiuni pentru a-ți schimba parola. Dacă nu primești un mesaj de schimbare a parolei după 1 minut, verifică dacă ai introdus adresa corectă de e-mail sau verifică folderul de spam/bulk. Dacă ai nevoie de ajutor suplimentar, contactează-ne la {supportLink} .",
-  "forgot.password.page.title": "Am uitat parola | {siteName}",
-  "forgot.password.page.heading": "Schimbă parola",
-  "forgot.password.page.instructions": "Introdu mai jos adresa de e-mail cu care ți-ai creat cont și îți vom trimite un e-mail cu instrucțiuni despre cum să schimbi parola.",
-  "forgot.password.page.invalid.email.message": "Introdu o adresă de e-mail validă",
-  "forgot.password.page.email.field.label": "E-mail",
-  "forgot.password.page.submit.button": "Trimite",
-  "forgot.password.error.alert.title.": "Nu am putut să vă contactam.",
-  "forgot.password.error.message.title": "A apărut o eroare.",
-  "forgot.password.request.in.progress.message": "Solicitarea dvs. anterioară este în curs, vă rugăm să încercați din nou peste câteva momente.",
-  "forgot.password.empty.email.field.error": "Introdu e-mailul",
-  "forgot.password.email.help.text": "Adresa de e-mail pe care ai folosit-o pentru a-ți crea cont pe {platformName}",
-  "confirmation.message.title": "Verifică-ți e-mailul",
-  "confirmation.support.link": "contactați suportul tehnic",
-  "need.help.sign.in.text": "Ai nevoie de ajutor pentru a intra în cont?",
-  "additional.help.text": "Dacă ai nevoie de ajutor suplimentar, contactează {platformName} la",
-  "sign.in.text": "Intră în cont",
-  "extend.field.errors": "{emailError} mai jos.",
-  "invalid.token.heading": "Link nevalid de resetare a parolei",
-  "invalid.token.error.message": "Acest link de schimbare parolei este invalid. Poate că a fost deja folosit. Introdu mai jos adresa de e-mail pentru a primi un nou link.",
-  "token.validation.rate.limit.error.heading": "Prea multe cereri",
-  "token.validation.rate.limit.error": "A apărut o eroare din cauza prea multor solicitări. Vă rugăm să încercați din nou după ceva timp.",
-  "token.validation.internal.sever.error.heading": "Eșec de validare a simbolului",
-  "token.validation.internal.sever.error": "A apărut o eroare. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet.",
-  "internal.server.error": "A apărut o eroare. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet.",
-  "account.activation.error.message": "Ceva a mers prost, vă rugăm {supportLink} pentru a rezolva această problemă.",
-  "login.inactive.user.error": "Pentru a vă conecta, trebuie să vă activați contul. {lineBreak} {lineBreak} Tocmai am trimis un link de activare la {email} . Dacă nu primiți un e-mail, verificați dosarele de spam sau {supportLink} .",
-  "allowed.domain.login.error": "În calitate de utilizator {allowedDomain} , trebuie să vă conectați cu {allowedDomain} {tpaLink} .",
-  "login.incorrect.credentials.error.attempts.text.1": "Numele de utilizator, adresa de e-mail sau parola introduse sunt incorecte. Mai ai {remainingAttempts} încercări de a intra în cont înainte ca contul tău să fie blocat temporar.",
-  "login.incorrect.credentials.error.attempts.text.2": "Dacă v-ați uitat parola, {resetLink}",
-  "account.locked.out.message.2": "Pentru a fi în siguranță, puteți {resetLink} înainte de a încerca din nou.",
-  "login.incorrect.credentials.error.with.reset.link": "Numele de utilizator, adresa de e-mail sau parola pe care le-ați introdus sunt incorecte. Vă rugăm să încercați din nou sau {resetLink} .",
-  "login.page.title": "Intră în site | {siteName}",
-  "login.user.identity.label": "Nume de utilizator sau e-mail",
-  "login.password.label": "Parolă",
-  "sign.in.button": "Intră în cont",
-  "forgot.password": "Ai uitat parola",
-  "institution.login.page.title": "Conectați-vă cu acreditările instituției/campusului",
-  "non.compliant.password.title": "Ne-am schimbat recent cerințele privind parola",
-  "non.compliant.password.message": "Parola dvs. actuală nu îndeplinește noile cerințe de securitate. Tocmai am trimis un mesaj de resetare a parolei la adresa de e-mail asociată acestui cont. Vă mulțumim că ne ajutați să vă păstrăm datele în siguranță.",
-  "account.locked.out.message.1": "Pentru a vă proteja contul, acesta a fost blocat temporar. Încercați din nou peste 30 de minute.",
-  "username.or.email.format.validation.less.chars.message": "Numele de utilizator sau adresa de e-mail trebuie să aibă cel puțin 2 caractere.",
-  "email.validation.message": "Introdu numele de utilizator sau e-mailul",
-  "password.validation.message": "Parola ta nu îndeplinește criteriile de securitate ale parolei",
-  "account.activation.success.message.title": "Succes! Ți-ai activat contul.",
-  "account.activation.success.message": "Acum veți primi actualizări prin e-mail și alerte de la noi legate de cursurile la care sunteți înscris. Conectați-vă pentru a continua.",
-  "account.activation.info.message": "Acest cont a fost deja luat.",
-  "account.activation.error.message.title": "Contul dvs. nu a putut fi activat",
-  "account.activation.support.link": "contactați asistența",
-  "account.confirmation.success.message.title": "Ai reușit! Ți-ai confirmat adresa de e-mail.",
-  "account.confirmation.success.message": "Intră în cont pentru a continua.",
-  "account.confirmation.info.message": "Această adresă de e-mail a fost deja confirmată.",
-  "account.confirmation.error.message.title": "Adresa ta de e-mail nu a putut fi confirmată.",
-  "tpa.account.link": "cont {provider}",
-  "internal.server.error.message": "A apărut o eroare. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet.",
-  "login.rate.limit.reached.message": "Prea multe încercări eșuate de conectare. Încercați din nou mai târziu.",
-  "login.failure.header.title": "Nu te-am putut autentifica în cont.",
-  "contact.support.link": "contactați asistența {platformName}",
-  "login.incorrect.credentials.error": "Numele de utilizator, adresa de e-mail sau parola pe care le-ai introdus sunt incorecte. Te rugăm să încerci din nou.",
-  "login.form.invalid.error.message": "Te rugăm să completezi câmpurile de mai jos.",
-  "login.incorrect.credentials.error.reset.link.text": "schimbă parola",
-  "login.incorrect.credentials.error.before.account.blocked.text": "faceți clic aici pentru a-l reseta.",
-  "password.security.nudge.title": "Nivelul de securitate al parolei",
-  "password.security.block.title": "Este necesară schimbarea parolei",
-  "password.security.nudge.body": "Sistemul nostru a detectat că parola dvs. este vulnerabilă. Vă recomandăm să îl schimbați astfel încât contul dvs. să rămână în siguranță.",
-  "password.security.block.body": "Sistemul nostru a detectat că parola dvs. este vulnerabilă. Schimbați-vă parola, astfel încât contul dvs. să rămână în siguranță.",
-  "password.security.close.button": "Închideți",
-  "password.security.redirect.to.reset.password.button": "Schimbă parola",
-  "login.tpa.authentication.failure": "Ne pare rău, nu sunteți autorizat să accesați {platform_name} prin acest canal. Vă rugăm să contactați administratorul sau managerul de învățare pentru a accesa {platform_name} . {lineBreak} {lineBreak} Detalii eroare: {lineBreak} {errorMessage}",
-  "progressive.profiling.page.title": "Bun venit | {siteName}",
-  "progressive.profiling.page.heading": "Câteva întrebări pentru tine ne vor ajuta să devenim mai deștepți.",
-  "optional.fields.information.link": "Aflați mai multe despre cum folosim aceste informații.",
-  "optional.fields.submit.button": "Trimite",
-  "optional.fields.skip.button": "Sari peste moment",
-  "optional.fields.next.button": "Următor",
-  "continue.to.platform": "Continuați la {platformName}",
-  "modal.title": "Vă mulțumim că ne-ați anunțat.",
-  "modal.description": "Vă puteți completa oricând profilul în setări dacă vă răzgândiți.",
-  "welcome.page.error.heading": "Nu v-am putut actualiza profilul",
-  "welcome.page.error.message": "A apărut o eroare. Îți poți completa oricând profilul din setări.",
-  "recommendation.page.title": "Recomandări | {siteName}",
-  "recommendation.page.heading": "Avem câteva recomandări pentru a începe.",
-  "recommendation.skip.button": "Sari peste moment",
-  "recommendation.option.trending": "În tendințe acum",
-  "recommendation.option.popular": "Cele mai populare",
-  "recommendation.option.recommended.for.you": "Recomandat pentru tine",
-  "recommendation.product-card.pill-text.course": "Curs",
-  "recommendation.product-card.pill-text.professional-certificate": "Certificat profesional",
-  "recommendation.product-card.pill-text.emeritus": "Oferit pe emerit",
-  "recommendation.product-card.pill-text.shorelight": "Oferit prin Shorelight",
-  "recommendation.product-card.footer-text.number-of-courses": "{length} {label}",
-  "recommendation.product-card.footer-text.subscription": "Abonament",
-  "recommendation.product-card.launch-icon.sr-text": "Deschide un link într-o filă nouă",
-  "register.page.title": "Creează cont | {siteName}",
-  "registration.fullname.label": "Nume complet",
-  "registration.email.label": "E-mail",
-  "registration.username.label": "Nume public de utilizator",
-  "registration.password.label": "Parolă",
-  "registration.country.label": "Țară",
-  "registration.opt.in.label": "Sunt de acord că {siteName} îmi poate trimite mesaje de marketing.",
-  "help.text.name": "Acest nume va fi folosit de orice certificate pe care le obțineți.",
-  "help.text.username.1": "Este numele cu care te vei identifica în cursuri. ",
-  "help.text.username.2": "Acest lucru nu poate fi schimbat mai târziu.",
-  "help.text.email": "Pentru activarea contului și noutăți importante",
-  "create.account.for.free.button": "Creează cont gratuit",
-  "create.account.cta.button": "{label}",
-  "register.institution.login.page.title": "Înregistrați-vă cu acreditările instituției/campusului",
-  "empty.name.field.error": "Introduceți numele dvs. complet",
-  "empty.email.field.error": "Introdu e-mailul",
-  "empty.username.field.error": "Numele de utilizator nu poate fi schimbat ulterior, trebuie să aibă între 2 și 30 de caractere și nu poate conține spații.",
-  "empty.password.field.error": "Parola ta nu îndeplinește criteriile de securitate ale parolei",
-  "empty.country.field.error": "Selectează țara",
-  "invalid.country.field.error": "Țara trebuie să se potrivească cu o opțiune disponibilă în meniul drop-down.",
-  "email.do.not.match": "Adresele de e-mail nu se potrivesc.",
-  "email.invalid.format.error": "Introdu o adresă de e-mail validă",
-  "username.validation.message": "Numele de utilizator nu poate fi schimbat ulterior, trebuie să aibă între 2 și 30 de caractere și nu poate conține spații.",
-  "name.validation.message": "Introduceți un nume valid",
-  "username.format.validation.message": "Numele de utilizator pot conține numai litere (AZ, az), cifre (0-9), liniuțe de subliniere (_) și cratime (-). Numele de utilizator nu pot conține spații",
-  "registration.request.failure.header": "Nu v-am putut crea contul.",
-  "registration.empty.form.submission.error": "Vă rugăm să vă verificați răspunsurile și să încercați din nou.",
-  "registration.request.server.error": "A apărut o eroare. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet.",
-  "registration.rate.limit.error": "Prea multe încercări eșuate de înregistrare. Încercați din nou mai târziu.",
-  "registration.tpa.session.expired": "Înregistrarea utilizând {provider} a expirat.",
-  "registration.tpa.authentication.failure": "Ne pare rău, nu sunteți autorizat să accesați {platform_name} prin acest canal. Vă rugăm să contactați administratorul sau managerul de învățare pentru a accesa {platform_name} . {lineBreak} {lineBreak} Detalii eroare: {lineBreak} {errorMessage}",
-  "terms.of.service.and.honor.code": "Termeni și condiții și Angajament de Integritate",
-  "privacy.policy": "Politica de confidențialitate",
-  "honor.code": "Cod de distincție",
-  "terms.of.service": "Termeni și condiții",
-  "registration.username.suggestion.label": "Sugerat:",
-  "did.you.mean.alert.text": "Ai vrut să spui",
-  "sign.in": "Intră în cont",
-  "reset.password.page.title": "Resetează parola | {siteName}",
-  "reset.password": "Schimbă parola",
-  "reset.password.page.instructions": "Introduceți și confirmați noua parolă.",
-  "new.password.label": "Parolă nouă",
-  "confirm.password.label": "Confirmă parola",
-  "passwords.do.not.match": "Parolele nu se potrivesc",
-  "confirm.your.password": "Confirmă parola",
-  "reset.password.failure.heading": "Nu am putut schimba parola",
-  "reset.password.form.submission.error": "Vă rugăm să vă verificați răspunsurile și să încercați din nou.",
-  "reset.server.rate.limit.error": "Prea multe cereri.",
-  "reset.password.success.heading": "Schimbarea parolei este finalizată.",
-  "reset.password.success": "Parola dvs. a fost resetată. Conectați-vă la contul dvs.",
-  "rate.limit.error": "A apărut o eroare din cauza prea multor solicitări. Vă rugăm să încercați din nou după ceva timp.",
-  "start.learning": "Începeți să învățați",
-  "with.site.name": "cu {siteName}",
-  "your.career.turning.point": "Punctul de cotitură al carierei tale",
-  "is.here": "este aici.",
-  "welcome.to.platform": "Bun venit la {siteName} , {fullName} !",
-  "complete.your.profile.1": "Complet",
-  "complete.your.profile.2": "profilul tău",
-  "register.page.terms.of.service.and.honor.code": "Prin crearea unui cont, îți afirmi acordul cu {tosAndHonorCode} și iei la cunoștință că {platformName} îți prelucrează datele personale în conformitate cu {privacyPolicy} .",
-  "register.page.honor.code": "Sunt de acord cu {platformName} {tosAndHonorCode}",
-  "register.page.error.honor.code": "Trebuie să fii de acord cu Codul de Onoare {platformName}",
-  "register.page.terms.of.service": "Sunt de acord cu {platformName} {termsOfService}",
-  "phone": "Telefon",
-  "empty.phone.field.error": "Câmpul telefon este obligatoriu",
-  "empty.occupation.field.error": "Câmpul ocupație este obligatoriu și trebuie selectat din listă",
-  "occupation": "Ocupaţie",
-  "occupation.placeholder": "Alegeți Ocupația",
-  "teacher": "Profesor învățământ preuniversitar",
-  "registration.country.other": "Alt răspuns",
-  "newsletter": "Doresc sa primesc anunturile si newsletterele de pe platforma online Predau Viitor eLearning.",
-  "pupil": "Elev la profil vocațional - pedagogic",
-  "student": "Student științele educației",
-  "other": "Alt răspuns",
-  "school_teacher_ro": "Selectează școala unde predai",
-  "school_teacher_intl": "Introdu școala unde predai",
-  "education.university.last": "Universitatea (ultima absolvită)",
-  "education.university.select": "Selectează universitatea",
-  "education.university.last.intl": "Tip Universitate (ultima absolvită)",
-  "education.university.intl": "Tip Universitate",
-  "education.university.placeholder": "Numele Universității",
-  "education.graduated_studies": "Studii absolvite",
-  "pedagogical_high_school": "Liceu pedagogic",
-  "college_degree": "diplomă de facultate",
-  "master_degree": "Maestru",
-  "phd": "Phd",
-  "professional_conversion": "Conversie profesională",
-  "region": "Județ",
-  "town": "Localitate",
-  "region_teacher": "Județul (unde predai)",
-  "town_teacher": "Localitatea (unde predai)",
-  "region_student": "Județul (unde studiezi)",
-  "town_student": "Localitatea (unde studiezi)",
-  "school.select.ro": "Selectează liceul",
-  "school.type.intl": "Scrie numele liceului",
-  "empty.region.field.error": "Câmpul județ este obligatoriu și trebuie selectat din listă",
-  "empty.town.field.error": "Câmpul localitate este obligatoriu și trebuie selectat din listă",
-  "empty.studies.field.error": "Trebuie să selectați cel puțin un program de studii",
-  "empty.university.field.list.error": "Câmpul universitate este obligatoriu și trebuie selectat din listă",
-  "empty.university.field.text.error": "Câmpul universitate este obligatoriu",
-  "empty.highschool.field.list.error": "Câmpul liceu este obligatoriu și trebuie selectat din listă",
-  "empty.highschool.field.text.error": "Câmpul liceu este obligatoriu",
-  "empty.school_teach.field.list.error": "Selectează din listă școala unde predai",
-  "empty.school_teach.field.text.error": "Introdu școala unde predai"
-}
+[
+    {
+        "term": "error.notfound.message",
+        "definition": "Pagina c\u0103utat\u0103 este indisponibil\u0103 sau nu exist\u0103. Te rug\u0103m s\u0103 verifici linkul \u0219i s\u0103 \u00eencerci din nou.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "institution.login.page.sub.heading",
+        "definition": "Alege\u021bi-v\u0103 institu\u021bia din lista de mai jos",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "logistration.sign.in",
+        "definition": "Intr\u0103 \u00een cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "logistration.register",
+        "definition": "Creeaz\u0103 cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "enterprisetpa.title.heading",
+        "definition": "Dori\u021bi s\u0103 v\u0103 conecta\u021bi folosind datele de conectare {providerName} ?",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "enterprisetpa.login.button.text",
+        "definition": "Arat\u0103-mi \u0219i alte modalit\u0103\u021bi de conectare sau de \u00eenregistrare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "enterprisetpa.login.button.text.public.account.creation.disabled",
+        "definition": "Arat\u0103-mi \u0219i alte modalit\u0103\u021bi de conectare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "sso.sign.in.with",
+        "definition": "Intr\u0103 \u00een cont cu {providerName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "sso.create.account.using",
+        "definition": "Crea\u021bi un cont folosind {providerName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "show.password",
+        "definition": "Afi\u0219eaz\u0103 parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "hide.password",
+        "definition": "Ascunde parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "one.letter",
+        "definition": "1 litera",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "one.number",
+        "definition": "1 num\u0103r",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "eight.characters",
+        "definition": "8 caractere",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.sr.only.helping.text",
+        "definition": "Parola trebuie s\u0103 con\u021bin\u0103 cel pu\u021bin 8 caractere, cel pu\u021bin o liter\u0103 \u0219i cel pu\u021bin un num\u0103r",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tpa.alert.heading",
+        "definition": "Aproape gata!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.third.party.auth.account.not.linked",
+        "definition": "V-a\u021bi conectat cu succes la {currentProvider} , dar contul dvs. {currentProvider} nu are un cont {platformName} conectat. Pentru a v\u0103 conecta conturile, conecta\u021bi-v\u0103 acum folosind parola {platformName} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "register.third.party.auth.account.not.linked",
+        "definition": "V-a\u021bi conectat cu succes la {currentProvider} ! Avem nevoie doar de pu\u021bine informa\u021bii \u00eenainte de a \u00eencepe s\u0103 \u00eenv\u0103\u021ba\u021bi cu {platformName} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.using.tpa.form.heading",
+        "definition": "Finaliza\u021bi crearea contului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "zendesk.supportTitle",
+        "definition": "Suport edX",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "zendesk.selectTicketForm",
+        "definition": "Te rug\u0103m s\u0103 alegi tipul de solicitare:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.other.options.heading",
+        "definition": "Sau creeaz\u0103 cont la:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "institution.login.button",
+        "definition": "Acredit\u0103ri ale institu\u021biei\/campusului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.other.options.heading",
+        "definition": "Sau intr\u0103 \u00een cont cu:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "enterprise.login.btn.text",
+        "definition": "Acredit\u0103ri ale companiei sau ale \u0219colii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.confirmation.message",
+        "definition": "Am trimis un e-mail la {email} cu instruc\u021biuni pentru a-\u021bi schimba parola. Dac\u0103 nu prime\u0219ti un mesaj de schimbare a parolei dup\u0103 1 minut, verific\u0103 dac\u0103 ai introdus adresa de e-mail corect\u0103 sau verific\u0103 folderul de spam\/bulk. Dac\u0103 ai nevoie de ajutor suplimentar, contacteaz\u0103-ne la {supportLink}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.page.title",
+        "definition": "Am uitat parola | {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.page.heading",
+        "definition": "Schimb\u0103 parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.page.instructions",
+        "definition": "Introdu mai jos adresa de e-mail cu care \u021bi-ai creat cont \u0219i \u00ee\u021bi vom trimite un e-mail cu instruc\u021biuni despre cum s\u0103 schimbi parola.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.page.invalid.email.message",
+        "definition": "Introdu o adres\u0103 de e-mail valid\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.page.email.field.label",
+        "definition": "E-mail",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.page.submit.button",
+        "definition": "Trimite",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.error.alert.title.",
+        "definition": "Nu am putut s\u0103 te contactam pe e-mail.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.error.message.title",
+        "definition": "A ap\u0103rut o eroare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.request.in.progress.message",
+        "definition": "Solicitarea dvs. anterioar\u0103 este \u00een curs, v\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou peste c\u00e2teva momente.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.empty.email.field.error",
+        "definition": "Introdu e-mailul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password.email.help.text",
+        "definition": "Adresa de e-mail pe care ai folosit-o pentru a-\u021bi crea cont pe {platformName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "confirmation.message.title",
+        "definition": "Verific\u0103-\u021bi e-mailul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "confirmation.support.link",
+        "definition": "contacta\u021bi suportul tehnic",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "need.help.sign.in.text",
+        "definition": "Ai nevoie de ajutor pentru a intra \u00een cont?",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "additional.help.text",
+        "definition": "Dac\u0103 ai nevoie de ajutor suplimentar, contacteaz\u0103 {platformName} la ",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "sign.in.text",
+        "definition": "Intr\u0103 \u00een cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "extend.field.errors",
+        "definition": "{emailError} mai jos.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "invalid.token.heading",
+        "definition": "Link invalid de schimbare a parolei",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "invalid.token.error.message",
+        "definition": "Acest link de schimbare parolei este invalid. Poate c\u0103 a fost deja folosit. Introdu mai jos adresa de e-mail pentru a primi un nou link.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "token.validation.rate.limit.error.heading",
+        "definition": "Prea multe cereri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "token.validation.rate.limit.error",
+        "definition": "A ap\u0103rut o eroare din cauza prea multor solicit\u0103ri. V\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou dup\u0103 ceva timp.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "token.validation.internal.sever.error.heading",
+        "definition": "E\u0219ec de validare a simbolului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "token.validation.internal.sever.error",
+        "definition": "A ap\u0103rut o eroare. \u00cencerca\u021bi s\u0103 re\u00eemprosp\u0103ta\u021bi pagina sau verifica\u021bi-v\u0103 conexiunea la internet.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "internal.server.error",
+        "definition": "A ap\u0103rut o eroare. \u00cencerca\u021bi s\u0103 re\u00eemprosp\u0103ta\u021bi pagina sau verifica\u021bi-v\u0103 conexiunea la internet.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.activation.error.message",
+        "definition": "Ceva a mers prost, v\u0103 rug\u0103m {supportLink} pentru a rezolva aceast\u0103 problem\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.inactive.user.error",
+        "definition": "Pentru a v\u0103 conecta, trebuie s\u0103 v\u0103 activa\u021bi contul. {lineBreak} {lineBreak} Tocmai am trimis un link de activare la {email} . Dac\u0103 nu primi\u021bi un e-mail, verifica\u021bi dosarele de spam sau {supportLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "allowed.domain.login.error",
+        "definition": "\u00cen calitate de utilizator {allowedDomain} , trebuie s\u0103 v\u0103 conecta\u021bi cu {allowedDomain} {tpaLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.incorrect.credentials.error.attempts.text.1",
+        "definition": "Numele de utilizator, adresa de e-mail sau parola introduse sunt incorecte. Mai ai {remainingAttempts} \u00eencerc\u0103ri de a intra \u00een cont \u00eenainte ca contul t\u0103u s\u0103 fie blocat temporar.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.incorrect.credentials.error.attempts.text.2",
+        "definition": "Dac\u0103 \u021bi-ai uitat parola, {resetLink}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.locked.out.message.2",
+        "definition": "Pentru a fi \u00een siguran\u021b\u0103, pute\u021bi {resetLink} \u00eenainte de a \u00eencerca din nou.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.incorrect.credentials.error.with.reset.link",
+        "definition": "Numele de utilizator, adresa de e-mail sau parola pe care le-a\u021bi introdus sunt incorecte. V\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou sau {resetLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.page.title",
+        "definition": "Autentificare | {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.user.identity.label",
+        "definition": "Nume de utilizator sau e-mail",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.password.label",
+        "definition": "Parol\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "sign.in.button",
+        "definition": "Intr\u0103 \u00een cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "forgot.password",
+        "definition": "Ai uitat parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "institution.login.page.title",
+        "definition": "Conecta\u021bi-v\u0103 cu acredit\u0103rile institu\u021biei\/campusului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "non.compliant.password.title",
+        "definition": "Ne-am schimbat recent cerin\u021bele privind parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "non.compliant.password.message",
+        "definition": "Parola actual\u0103 nu \u00eendepline\u0219te noile cerin\u021be de securitate. Tocmai am trimis un mesaj de schimbare a parolei la adresa de e-mail asociat\u0103 acestui cont. \u00ce\u021bi mul\u021bumim c\u0103 ne aju\u021bi s\u0103 \u00ee\u021bi p\u0103str\u0103m datele \u00een siguran\u021b\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.locked.out.message.1",
+        "definition": "Pentru a-\u021bi proteja contul, acesta a fost blocat temporar. \u00cencearc\u0103 din nou peste 30 de minute.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "username.or.email.format.validation.less.chars.message",
+        "definition": "Numele de utilizator sau adresa de e-mail trebuie s\u0103 aib\u0103 cel pu\u021bin 2 caractere.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "email.validation.message",
+        "definition": "Introdu numele de utilizator sau e-mailul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.validation.message",
+        "definition": "Parola nu \u00eendepline\u0219te cerin\u021bele de securitate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.activation.success.message.title",
+        "definition": "Succes! \u021ai-ai activat contul.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.activation.success.message",
+        "definition": "Acum ve\u021bi primi actualiz\u0103ri prin e-mail \u0219i alerte de la noi legate de cursurile la care sunte\u021bi \u00eenscris. Conecta\u021bi-v\u0103 pentru a continua.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.activation.info.message",
+        "definition": "Acest cont a fost deja luat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.activation.error.message.title",
+        "definition": "Contul dvs. nu a putut fi activat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.activation.support.link",
+        "definition": "contacta\u021bi asisten\u021ba",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.confirmation.success.message.title",
+        "definition": "Ai reu\u0219it! \u021ai-ai confirmat adresa de e-mail.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.confirmation.success.message",
+        "definition": "Intr\u0103 \u00een cont pentru a continua.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.confirmation.info.message",
+        "definition": "Aceast\u0103 adres\u0103 de e-mail a fost deja confirmat\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account.confirmation.error.message.title",
+        "definition": "Adresa ta de e-mail nu a putut fi confirmat\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tpa.account.link",
+        "definition": "cont {provider}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "internal.server.error.message",
+        "definition": "A ap\u0103rut o eroare. \u00cencerca\u021bi s\u0103 re\u00eemprosp\u0103ta\u021bi pagina sau verifica\u021bi-v\u0103 conexiunea la internet.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.rate.limit.reached.message",
+        "definition": "Prea multe \u00eencerc\u0103ri e\u0219uate de autentificare \u00een cont. \u00cencearc\u0103 din nou mai t\u00e2rziu.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.failure.header.title",
+        "definition": "Nu te-am putut autentifica \u00een cont.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "contact.support.link",
+        "definition": "contacta\u021bi asisten\u021ba {platformName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.incorrect.credentials.error",
+        "definition": "Numele de utilizator, adresa de e-mail sau parola pe care le-ai introdus sunt incorecte. Te rug\u0103m s\u0103 \u00eencerci din nou.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.form.invalid.error.message",
+        "definition": "Te rug\u0103m s\u0103 completezi c\u00e2mpurile de mai jos.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.incorrect.credentials.error.reset.link.text",
+        "definition": "schimb\u0103 parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.incorrect.credentials.error.before.account.blocked.text",
+        "definition": "face\u021bi clic aici pentru a-l reseta.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.security.nudge.title",
+        "definition": "Nivelul de securitate al parolei",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.security.block.title",
+        "definition": "Este necesar\u0103 schimbarea parolei",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.security.nudge.body",
+        "definition": "Sistemul nostru a detectat c\u0103 parola dvs. este vulnerabil\u0103. V\u0103 recomand\u0103m s\u0103 \u00eel schimba\u021bi astfel \u00eenc\u00e2t contul dvs. s\u0103 r\u0103m\u00e2n\u0103 \u00een siguran\u021b\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.security.block.body",
+        "definition": "Sistemul nostru a detectat c\u0103 parola dvs. este vulnerabil\u0103. Schimba\u021bi-v\u0103 parola, astfel \u00eenc\u00e2t contul dvs. s\u0103 r\u0103m\u00e2n\u0103 \u00een siguran\u021b\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.security.close.button",
+        "definition": "\u00cenchide\u021bi",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "password.security.redirect.to.reset.password.button",
+        "definition": "Schimb\u0103 parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "login.tpa.authentication.failure",
+        "definition": "Ne pare r\u0103u, nu sunte\u021bi autorizat s\u0103 accesa\u021bi {platform_name} prin acest canal. V\u0103 rug\u0103m s\u0103 contacta\u021bi administratorul sau managerul de \u00eenv\u0103\u021bare pentru a accesa {platform_name} . {lineBreak} {lineBreak} Detalii eroare: {lineBreak} {errorMessage}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progressive.profiling.page.title",
+        "definition": "Bun venit | {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progressive.profiling.page.heading",
+        "definition": "C\u00e2teva \u00eentreb\u0103ri pentru tine ne vor ajuta s\u0103 devenim mai de\u0219tep\u021bi.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "optional.fields.information.link",
+        "definition": "Afla\u021bi mai multe despre cum folosim aceste informa\u021bii.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "optional.fields.submit.button",
+        "definition": "Trimite",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "optional.fields.skip.button",
+        "definition": "Mai t\u00e2rziu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "optional.fields.next.button",
+        "definition": "Urm\u0103tor",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "continue.to.platform",
+        "definition": "Continua\u021bi la {platformName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "modal.title",
+        "definition": "V\u0103 mul\u021bumim c\u0103 ne-a\u021bi anun\u021bat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "modal.description",
+        "definition": "V\u0103 pute\u021bi completa oric\u00e2nd profilul \u00een set\u0103ri dac\u0103 v\u0103 r\u0103zg\u00e2ndi\u021bi.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "welcome.page.error.heading",
+        "definition": "Nu v-am putut actualiza profilul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "welcome.page.error.message",
+        "definition": "A ap\u0103rut o eroare. \u00ce\u021bi po\u021bi completa oric\u00e2nd profilul din set\u0103ri.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.page.title",
+        "definition": "Recomand\u0103ri | {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.page.heading",
+        "definition": "Avem c\u00e2teva recomand\u0103ri pentru a \u00eencepe.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.skip.button",
+        "definition": "Mai t\u00e2rziu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.option.trending",
+        "definition": "\u00cen tendin\u021be acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.option.popular",
+        "definition": "Cele mai populare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.option.recommended.for.you",
+        "definition": "Recomandat pentru tine",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.product-card.pill-text.course",
+        "definition": "Curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.product-card.pill-text.professional-certificate",
+        "definition": "Certificat profesional",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.product-card.pill-text.emeritus",
+        "definition": "Oferit pe emerit",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.product-card.pill-text.shorelight",
+        "definition": "Oferit prin Shorelight",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.product-card.footer-text.number-of-courses",
+        "definition": "{length} {label}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.product-card.footer-text.subscription",
+        "definition": "Abonament",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "recommendation.product-card.launch-icon.sr-text",
+        "definition": "Deschide un link \u00eentr-o fil\u0103 nou\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "register.page.title",
+        "definition": "Creeaz\u0103 cont | {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.fullname.label",
+        "definition": "Nume complet",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.email.label",
+        "definition": "E-mail",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.username.label",
+        "definition": "Nume public de utilizator",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.password.label",
+        "definition": "Parol\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.country.label",
+        "definition": "\u021aar\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.opt.in.label",
+        "definition": "Sunt de acord c\u0103 {siteName} \u00eemi poate trimite mesaje de marketing.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "help.text.name",
+        "definition": "Acest nume complet va fi folosit pentru certificatele pe care le ob\u021bii.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "help.text.username.1",
+        "definition": "Este numele cu care te vei identifica \u00een cursuri. ",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "help.text.username.2",
+        "definition": "Acesta nu poate fi schimbat ulterior.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "help.text.email",
+        "definition": "Pentru activarea contului \u0219i nout\u0103\u021bi importante",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "create.account.for.free.button",
+        "definition": "Creeaz\u0103 cont gratuit",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "create.account.cta.button",
+        "definition": "{label}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "register.institution.login.page.title",
+        "definition": "\u00cenregistra\u021bi-v\u0103 cu acredit\u0103rile institu\u021biei\/campusului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.name.field.error",
+        "definition": "Introdu numele t\u0103u complet",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.email.field.error",
+        "definition": "Introdu e-mailul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.username.field.error",
+        "definition": "Numele de utilizator nu poate fi schimbat ulterior, trebuie s\u0103 aib\u0103 \u00eentre 2 \u0219i 30 de caractere \u0219i nu poate con\u021bine spa\u021bii.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.password.field.error",
+        "definition": "Parola nu \u00eendepline\u0219te cerin\u021bele de securitate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.country.field.error",
+        "definition": "Selecteaz\u0103 \u021bara",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "invalid.country.field.error",
+        "definition": "\u021aara trebuie s\u0103 se potriveasc\u0103 cu o op\u021biune disponibil\u0103 \u00een meniul drop-down.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "email.do.not.match",
+        "definition": "Adresele de e-mail nu se potrivesc.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "email.invalid.format.error",
+        "definition": "Introdu o adres\u0103 de e-mail valid\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "username.validation.message",
+        "definition": "Numele de utilizator nu poate fi schimbat ulterior, trebuie s\u0103 aib\u0103 \u00eentre 2 \u0219i 30 de caractere \u0219i nu poate con\u021bine spa\u021bii.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "name.validation.message",
+        "definition": "Introduce\u021bi un nume valid",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "username.format.validation.message",
+        "definition": "Numele de utilizator pot con\u021bine numai litere (AZ, az), cifre (0-9), liniu\u021be de subliniere (_) \u0219i cratime (-). Numele de utilizator nu pot con\u021bine spa\u021bii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.request.failure.header",
+        "definition": "Nu \u021bi-am putut crea contul.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.empty.form.submission.error",
+        "definition": "Verific\u0103 dac\u0103 ai completat corect fiecare c\u00e2mp \u0219i \u00eencearc\u0103 din nou.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.request.server.error",
+        "definition": "A ap\u0103rut o eroare. \u00cencerca\u021bi s\u0103 re\u00eemprosp\u0103ta\u021bi pagina sau verifica\u021bi-v\u0103 conexiunea la internet.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.rate.limit.error",
+        "definition": "Prea multe \u00eencerc\u0103ri e\u0219uate de a crea contul. \u00cencearc\u0103 din nou mai t\u00e2rziu.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.tpa.session.expired",
+        "definition": "\u00cenregistrarea utiliz\u00e2nd {provider} a expirat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.tpa.authentication.failure",
+        "definition": "Ne pare r\u0103u, nu sunte\u021bi autorizat s\u0103 accesa\u021bi {platform_name} prin acest canal. V\u0103 rug\u0103m s\u0103 contacta\u021bi administratorul sau managerul de \u00eenv\u0103\u021bare pentru a accesa {platform_name} . {lineBreak} {lineBreak} Detalii eroare: {lineBreak} {errorMessage}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "terms.of.service.and.honor.code",
+        "definition": "Termeni \u0219i condi\u021bii \u0219i Angajament de Integritate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "privacy.policy",
+        "definition": "Politica de confiden\u021bialitate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "honor.code",
+        "definition": "Cod de distinc\u021bie",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "terms.of.service",
+        "definition": "Termeni \u0219i condi\u021bii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.username.suggestion.label",
+        "definition": "Sugerat:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "did.you.mean.alert.text",
+        "definition": "Ai vrut s\u0103 spui",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "sign.in",
+        "definition": "Intr\u0103 \u00een cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.password.page.title",
+        "definition": "Reseteaz\u0103 parola | {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.password",
+        "definition": "Schimb\u0103 parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.password.page.instructions",
+        "definition": "Introdu \u0219i confirm\u0103 noua parol\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "new.password.label",
+        "definition": "Parola nou\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "confirm.password.label",
+        "definition": "Confirm\u0103 parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "passwords.do.not.match",
+        "definition": "Parolele nu se potrivesc",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "confirm.your.password",
+        "definition": "Confirm\u0103 parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.password.failure.heading",
+        "definition": "Nu am putut schimba parola",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.password.form.submission.error",
+        "definition": "Verific\u0103 dac\u0103 ai completat corect fiecare c\u00e2mp \u0219i \u00eencearc\u0103 din nou.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.server.rate.limit.error",
+        "definition": "Prea multe cereri.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.password.success.heading",
+        "definition": "Schimbarea parolei este finalizat\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "reset.password.success",
+        "definition": "Parola ta a fost schimbat\u0103. Intr\u0103 \u00een contul t\u0103u.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "rate.limit.error",
+        "definition": "A ap\u0103rut o eroare din cauza prea multor solicit\u0103ri. V\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou dup\u0103 ceva timp.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "start.learning",
+        "definition": "\u00cencepe\u021bi s\u0103 \u00eenv\u0103\u021ba\u021bi",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "with.site.name",
+        "definition": "cu {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "your.career.turning.point",
+        "definition": "Punctul de cotitur\u0103 al carierei tale",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "is.here",
+        "definition": "este aici.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "welcome.to.platform",
+        "definition": "Bun venit la {siteName} , {fullName} !",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "complete.your.profile.1",
+        "definition": "Complet",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "complete.your.profile.2",
+        "definition": "profilul t\u0103u",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "register.page.terms.of.service.and.honor.code",
+        "definition": "Prin crearea unui cont, sunt de acord cu {tos} \u0219i iei la cuno\u0219tin\u021b\u0103 c\u0103 {platformName} \u00ee\u021bi prelucreaz\u0103 datele personale \u00een conformitate cu {privacyPolicy} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "register.page.honor.code",
+        "definition": "Sunt de acord cu {platformName} {tosAndHonorCode}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "register.page.error.honor.code",
+        "definition": "Pentru a continua trebuie s\u0103 \u00ee\u021bi dai acordul pentru Termeni \u0219i condi\u021bii pe platforma {platformName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "register.page.terms.of.service",
+        "definition": "Sunt de acord cu {platformName} {termsOfService}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "phone",
+        "definition": "Telefon",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.phone.field.error",
+        "definition": "C\u00e2mpul telefon este obligatoriu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.occupation.field.error",
+        "definition": "C\u00e2mpul ocupa\u021bie este obligatoriu \u0219i trebuie selectat din list\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "occupation",
+        "definition": "Ocupa\u0163ie",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "occupation.placeholder",
+        "definition": "Alege\u021bi Ocupa\u021bia",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "teacher",
+        "definition": "Profesor \u00eenv\u0103\u021b\u0103m\u00e2nt preuniversitar",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "registration.country.other",
+        "definition": "Alt r\u0103spuns",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "newsletter",
+        "definition": "Doresc sa primesc anunturile si newsletterele de pe platforma online Predau Viitor eLearning.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "pupil",
+        "definition": "Elev la profil voca\u021bional - pedagogic",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "student",
+        "definition": "Student \u0219tiin\u021bele educa\u021biei",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "other",
+        "definition": "Alt r\u0103spuns",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "school_teacher_ro",
+        "definition": "Selecteaz\u0103 \u0219coala unde predai",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "school_teacher_intl",
+        "definition": "Introdu \u0219coala unde predai",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "education.university.last",
+        "definition": "Universitatea (ultima absolvit\u0103)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "education.university.select",
+        "definition": "Selecteaz\u0103 universitatea",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "education.university.last.intl",
+        "definition": "Universitate (ultima absolvit\u0103)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "education.university.intl",
+        "definition": "Scrie Universitatea",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "education.university.placeholder",
+        "definition": "Numele Universit\u0103\u021bii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "education.graduated_studies",
+        "definition": "Studii absolvite",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "pedagogical_high_school",
+        "definition": "Liceu pedagogic",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "college_degree",
+        "definition": "diplom\u0103 de facultate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "master_degree",
+        "definition": "Maestru",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "phd",
+        "definition": "Phd",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "professional_conversion",
+        "definition": "Conversie profesional\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "region",
+        "definition": "Jude\u021b",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "town",
+        "definition": "Localitate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "region_teacher",
+        "definition": "Jude\u021bul (unde predai)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "town_teacher",
+        "definition": "Localitatea (unde predai)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "region_student",
+        "definition": "Jude\u021bul (unde studiezi)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "town_student",
+        "definition": "Localitatea (unde studiezi)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "school.select.ro",
+        "definition": "Selecteaz\u0103 liceul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "school.type.intl",
+        "definition": "Scrie numele liceului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.region.field.error",
+        "definition": "C\u00e2mpul jude\u021b este obligatoriu \u0219i trebuie selectat din list\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.town.field.error",
+        "definition": "C\u00e2mpul localitate este obligatoriu \u0219i trebuie selectat din list\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.studies.field.error",
+        "definition": "Trebuie s\u0103 selecta\u021bi cel pu\u021bin un program de studii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.university.field.list.error",
+        "definition": "C\u00e2mpul universitate este obligatoriu \u0219i trebuie selectat din list\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.university.field.text.error",
+        "definition": "C\u00e2mpul universitate este obligatoriu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.highschool.field.list.error",
+        "definition": "C\u00e2mpul liceu este obligatoriu \u0219i trebuie selectat din list\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.highschool.field.text.error",
+        "definition": "C\u00e2mpul liceu este obligatoriu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.school_teach.field.list.error",
+        "definition": "Selecteaz\u0103 din list\u0103 \u0219coala unde predai",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "empty.school_teach.field.text.error",
+        "definition": "Introdu \u0219coala unde predai",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    }
+]

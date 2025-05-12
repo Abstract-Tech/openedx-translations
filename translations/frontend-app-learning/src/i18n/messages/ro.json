@@ -1,489 +1,4385 @@
-{
-  "learn.navigation.course.tabs.label": "Material de Curs",
-  "learn.redirect.interstitial.message": "Redirecționare ...",
-  "learn.loading.error": "Eroare: {error}",
-  "general.altText.close": "Închideți",
-  "learning.logistration.register": "înscrie-te",
-  "learning.logistration.login": "conectați-vă",
-  "general.signIn.sentenceCase": "Conectați-vă",
-  "learning.notification.preferences.unsubscribe.preferenceCenterUrl": "pagina de preferințe",
-  "learning.notification.preferences.unsubscribe.loading": "Se încarcă",
-  "learning.notification.preferences.unsubscribe.successHeading": "Dezabonare reușită",
-  "learning.notification.preferences.unsubscribe.successMessage": "V-ați dezabonat cu succes de la rezumatele prin e-mail pentru activitatea de învățare",
-  "learning.notification.preferences.unsubscribe.failedHeading": "Eroare la dezabonarea de la preferințe",
-  "learning.notification.preferences.unsubscribe.failedMessage": "Adresa URL sau simbolul nevalid a expirat",
-  "tours.abandonTour.launchTourCheckpoint.body": "Te simți pierdut? Lansează turul oricând pentru câteva sfaturi rapide și pentru a profita la maximum de experiență.",
-  "tours.sequenceNavigationCheckpoint.body": "Bara de sus a cursului vă permite să săriți cu ușurință la diferite secțiuni și vă arată ce urmează.",
-  "tours.existingUserTour.launchTourCheckpoint.body": "Am adăugat recent câteva funcții noi în experiența cursului. Vrei ajutor pentru a explora? Fă un tur pentru a afla mai multe.",
-  "tours.button.dismiss": "Închide",
-  "tours.button.next": "Următor",
-  "tours.button.okay": "Bine",
-  "tours.button.beginTour": "Începe turul",
-  "tours.button.launchTour": "Turneu de lansare",
-  "tours.newUserModal.body": "Să facem un tur rapid al {siteName} , astfel încât să puteți profita la maximum de cursul dvs.",
-  "tours.newUserModal.title.welcome": "Bine ați venit la",
-  "tours.button.skipForNow": "Sari peste pentru moment",
-  "learning.loading.failure": "A apărut o eroare la încărcarea acestui curs.",
-  "learning.loading": "Se încarcă pagina cursului...",
-  "learning.accessExpiration.deadline": "Faceți upgrade prin {date} pentru a obține acces nelimitat la curs atâta timp cât acesta există pe site.",
-  "learning.accessExpiration.header": "Accesul de audit Expiră {date}",
-  "learning.accessExpiration.body": "Pierzi tot accesul la acest curs, inclusiv progresul tău, pe {date} .",
-  "instructorToolbar.pageBanner.courseHasExpired": "Acest cursant nu mai are acces la acest curs. Accesul lor a expirat pe {date} .",
-  "learning.accessExpiration.upgradeNow": "Actualizați acum",
-  "learning.activeEnterprise.alert": "{changeActiveEnterprise} .",
-  "learning.activeEnterprise.change.alert": "schimba întreprinderea acum",
-  "learning.outline.alert.start.short": "Începutul cursului {time Remaining} la {Course Start Time}.",
-  "learning.outline.alert.start.long": "Începutul cursului {time Remaining} în {Course Start Date}.",
-  "learning.outline.alert.start.calendar": "Nu uitați să adăugați un memento de calendar!",
-  "instructorToolbar.pageBanner.courseHasNotStarted": "Acest cursant nu are încă acces la acest curs. Cursul începe pe {date} .",
-  "learning.enrollment.alert": "Trebuie să fiți înscris la curs pentru a vedea conținutul cursului.",
-  "learning.staff.enrollment.alert": "Vizualizați acest curs ca personal și nu sunteți înscris.",
-  "learning.enrollment.enrollNow.Inline": "Înscrie-te acum",
-  "learning.enrollment.enrollNow.Sentence": "Înscrie-te acum.",
-  "learning.enrollment.success": "Te-ai înscris cu succes la acest curs!",
-  "account-activation.alert.button": "Continuați la {siteName}",
-  "account-activation.alert.message": "Am trimis un e-mail la {boldEmail} cu un link pentru a vă activa contul. Nu o gasesti? Verificați folderul de spam sau {sendEmailTag} .",
-  "account-activation.resend.link": "retrimite e-mailul",
-  "learning.logistration.alert": "Pentru a vedea conținutul cursului, {signIn} sau {register} .",
-  "account-activation.alert.title": "Activați-vă contul pentru a vă putea conecta din nou",
-  "learn.sequence.entranceExamTextNotPassing": "Pentru a accesa materialele de curs, trebuie să obțineți un punctaj {entranceExamMinimumScorePct} % sau mai mare la acest examen. Scorul dvs. actual este {entranceExamCurrentScore} %.",
-  "learn.sequence.entranceExamTextPassed": "Scorul tău este {entranceExamCurrentScore} %. Ați promovat examenul de admitere.",
-  "learn.coursewareSearch.openAction": "Căutați în cadrul acestui curs",
-  "learn.coursewareSearch.contentSearchButton": "Căutare de conținut",
-  "learn.coursewareSearch.submitLabel": "Caută",
-  "learn.coursewareSearch.clearAction": "Ștergeți căutarea",
-  "learn.coursewareSearch.closeAction": "Închideți formularul de căutare",
-  "learn.coursewareSearch.searchModuleTitle": "Căutați acest curs",
-  "learn.coursewareSearch.searchBarPlaceholderText": "Caută",
-  "learn.coursewareSearch.loading": "Se caută...",
-  "learn.coursewareSearch.searchResultsNone": "Nu s-au găsit rezultate.",
-  "learn.coursewareSearch.searchResultsLabel": "Rezultate pentru \"{keyword}\"",
-  "learn.coursewareSearch.searchResultsError": "A apărut o eroare în procesul de căutare. Vă rugăm să încercați din nou peste câteva minute. Dacă problema persistă, vă rugăm să contactați echipa de asistență.",
-  "learn.coursewareSearch.filter:all": "Tot conținutul",
-  "learn.coursewareSearch.filter:text": "Text",
-  "learn.coursewareSearch.filter:video": "Video",
-  "learn.coursewareSearch.filter:sequence": "Secțiune",
-  "learn.coursewareSearch.filter:other": "Alte",
-  "learning.dates.badge.completed": "Completat",
-  "learning.dates.badge.dueNext": "Următoarea scadență",
-  "learning.dates.badge.pastDue": "Ulterior",
-  "learning.dates.title": "Date importante",
-  "learning.dates.badge.today": "Astăzi",
-  "learning.dates.badge.unreleased": "Neeliberat incă",
-  "learning.dates.badge.verifiedOnly": "Numai verificat",
-  "learning.goals.unsubscribe.errorDescription": "Nu am putut să vă dezabonăm de la e-mailurile cu mementouri privind obiectivele. Vă rugăm să încercați din nou mai târziu sau {contactSupport} pentru ajutor.",
-  "learning.goals.unsubscribe.contact": "contactați asistența",
-  "learning.goals.unsubscribe.description": "Nu veți mai primi mementouri prin e-mail despre obiectivul dvs. pentru {courseTitle} .",
-  "learning.goals.unsubscribe.errorHeader": "Ceva nu a mers bine",
-  "learning.goals.unsubscribe.goToDashboard": "Accesați panoul de control",
-  "learning.goals.unsubscribe.header": "V-ați dezabonat de la mementourile pentru obiective",
-  "learning.goals.unsubscribe.loading": "Se dezabonează...",
-  "learning.outline.sequence-due-date-set": "{description} scadent {assignmentDue}",
-  "learning.outline.sequence-due-date-not-set": "{description}",
-  "learning.outline.dates.all": "Vezi toate datele cursurilor",
-  "learning.outline.goalButton.casual.text": "1 zi pe săptămână",
-  "learning.outline.goalButton.screenReader.text": "Casual",
-  "learning.outline.certificateAlt": "Exemplu de certificat",
-  "learning.outline.collapseAll": "Restrângeți totul",
-  "learning.outline.completedAssignment": "Completat",
-  "learning.outline.completedSection": "Secțiunea completată",
-  "learning.outline.hiddenSection": "Ascuns în Schema cursului, accesibil prin link",
-  "learning.outline.hiddenSequenceLink": "Subsecțiunile nu sunt navigabile între ele, ele pot fi accesate doar prin link-ul lor.",
-  "learning.outline.dates": "Date importante",
-  "learning.outline.editGoal": "Editați obiectivul",
-  "learning.outline.expandAll": "Extindeți-le pe toate",
-  "learning.outline.goal": "Obiectiv",
-  "learning.outline.goalReminderDetail": "Dacă observăm că nu vă atingeți deloc obiectivul, vă vom trimite un memento prin e-mail.",
-  "learning.outline.goalUnsure": "Încă nu este sigur",
-  "learning.outline.handouts": "Notițele Cursului",
-  "learning.outline.incompleteAssignment": "Incomplet",
-  "learning.outline.incompleteSection": "Secțiune incompletă",
-  "learning.outline.goalButton.intense.text": "5 zile pe săptămână",
-  "learning.outline.goalButton.intense.title": "Intens",
-  "learning.outline.learnMore": "Află mai multe",
-  "learning.outline.altText.openSection": "Deschide",
-  "learning.proctoringPanel.header": "Acest curs conține examene supravegheate",
-  "learning.outline.goalButton.regular.text": "3 zile pe săptămână",
-  "learning.outline.goalButton.regular.title": "Regulat",
-  "learning.outline.resumeBlurb": "Reluați de unde ați rămas",
-  "learning.outline.resume": "Reluați cursul",
-  "learning.outline.setGoal": "Pentru a începe, setați un obiectiv al cursului selectând opțiunea de mai jos care descrie cel mai bun plan de învățare pentru dumneavoastră.",
-  "learning.outline.setGoalReminder": "Setați un memento pentru obiectiv",
-  "learning.outline.goalButton.casual.title": "Stabiliți un stil de obiectiv de învățare.",
-  "learning.outline.setWeeklyGoal": "Stabiliți un obiectiv de învățare săptămânal",
-  "learning.outline.setWeeklyGoalDetail": "Stabilirea unui obiectiv te motivează să termini cursul. Îl poți schimba oricând mai târziu.",
-  "learning.outline.start": "Începeți cursul",
-  "learning.outline.startBlurb": "Începeți-vă cursul astăzi",
-  "learning.outline.tools": "Unelte de Curs",
-  "learning.outline.upgradeButton": "Actualizați ({symbol}{price})",
-  "learning.outline.upgradeTitle": "Urmăriți un certificat verificat",
-  "learning.outline.welcomeMessage": "Mesaj de întâmpinare",
-  "learning.outline.welcomeMessageShowMoreButton": "Arată mai mult",
-  "learning.outline.welcomeMessageShowLessButton": "Arată mai puțin",
-  "learning.outline.goalWelcome": "Bine ați venit la",
-  "learning.proctoringPanel.status.notStarted": "Nu a început",
-  "learning.proctoringPanel.status.started": "A început",
-  "learning.proctoringPanel.status.submitted": "Trimis",
-  "learning.proctoringPanel.status.verified": "Verificat",
-  "learning.proctoringPanel.status.rejected": "Respins",
-  "learning.proctoringPanel.status.error": "Eroare",
-  "learning.proctoringPanel.status.otherCourseApproved": "Aprobat într-un alt curs",
-  "learning.proctoringPanel.status.expiringSoon": "Expiră în curând",
-  "learning.proctoringPanel.status.expired": "Expirat",
-  "learning.proctoringPanel.status": "Starea curentă de integrare:",
-  "learning.proctoringPanel.message.notStarted": "Nu ați început examenul de înscriere.",
-  "learning.proctoringPanel.message.started": "Ați început examenul de înscriere.",
-  "learning.proctoringPanel.message.submitted": "Ați trimis examenul de înscriere.",
-  "learning.proctoringPanel.message.verified": "Examenul dvs. de înscriere a fost aprobat în acest curs.",
-  "learning.proctoringPanel.message.rejected": "Examenul dvs. de onboarding a fost respins. Vă rugăm să încercați din nou înscrierea.",
-  "learning.proctoringPanel.message.error": "A apărut o eroare în timpul examenului de înscriere. Vă rugăm să reîncercați integrarea.",
-  "learning.proctoringPanel.message.otherCourseApproved": "Examenul dvs. de integrare a fost aprobat într-un alt curs.",
-  "learning.proctoringPanel.detail.otherCourseApproved": "Dacă dispozitivul dvs. s-a schimbat, vă recomandăm să finalizați examenul de înscriere al acestui curs pentru a vă asigura că configurația dvs. îndeplinește în continuare cerințele pentru supraveghere.",
-  "learning.proctoringPanel.message.expiringSoon": "Profilul dvs. de înscriere a fost aprobat. Cu toate acestea, starea dvs. de înscriere expiră în curând. Vă rugăm să finalizați din nou înscrierea pentru a vă asigura că veți putea continua să susțineți examenele supravegheate.",
-  "learning.proctoringPanel.message.expired": "Starea dvs. de înscriere a expirat. Vă rugăm să finalizați din nou înscrierea pentru a continua să susțineți examenele supravegheate.",
-  "learning.proctoringPanel.generalInfo": "Trebuie să finalizați procesul de înscriere înainte de a susține orice examen supravegheat.",
-  "learning.proctoringPanel.generalInfoSubmitted": "Profilul trimis este în curs de revizuire.",
-  "learning.proctoringPanel.generalTime": "Examinarea profilului de înscriere poate dura peste 2 zile lucrătoare.",
-  "learning.proctoringPanel.onboardingButton": "Finalizează înscriera",
-  "learning.proctoringPanel.onboardingPracticeButton": "Vizualizați examenul de înscriere",
-  "learning.proctoringPanel.onboardingButtonNotOpen": "Se deschide integrarea: {releaseDate}",
-  "learning.proctoringPanel.reviewRequirementsButton": "Consultați instrucțiunile și cerințele de sistem",
-  "learning.proctoringPanel.onboardingButtonPastDue": "Înscrierea a depășit termenul limită",
-  "progress.header": "Progresul tău",
-  "progress.header.targetUser": "Progresul cursului pentru {username}",
-  "progress.link.studio": "Vedeți notarea în Studio",
-  "datesBanner.suggestedSchedule": "Am creat un program sugerat pentru a vă ajuta să rămâneți pe drumul cel bun. Dar nu vă faceți griji – este flexibil, astfel încât să puteți învăța în propriul ritm.",
-  "datesBanner.upgradeToCompleteGradedBanner.header": "Actualiează pentru a debloca.",
-  "datesBanner.upgradeToCompleteGradedBanner.body": "Audiați acest curs, ceea ce înseamnă că nu puteți participa la temele evaluate. Pentru a finaliza teme notate ca parte a acestui curs, puteți face upgrade astăzi.",
-  "datesBanner.upgradeToCompleteGradedBanner.button": "Actualizați acum",
-  "datesBanner.upgradeToResetBanner.body": "Pentru a vă menține pe drumul cel bun, puteți actualiza acest program și puteți muta sarcinile restante în viitor. Nu vă faceți griji - nu veți pierde nimic din progresul pe care l-ați făcut atunci când vă schimbați datele scadente.",
-  "datesBanner.upgradeToResetBanner.button": "Upgrade pentru a schimba datele scadente",
-  "datesBanner.resetDatesBanner.header": "Se pare că ați ratat niște termene limită importante pe baza programului nostru sugerat.",
-  "datesBanner.resetDatesBanner.body": "Pentru a vă menține pe drumul cel bun, puteți actualiza acest program și puteți muta sarcinile restante în viitor. Nu vă faceți griji - nu veți pierde nimic din progresul pe care l-ați făcut atunci când vă schimbați datele scadente.",
-  "datesBanner.resetDatesBanner.button": "Schimbă datele scadente",
-  "learn.breadcrumb.navigation.course.home": "Curs",
-  "notification.tray.container": "Tava de notificări",
-  "notification.open.button": "Afișează tava de notificări",
-  "notification.close.button": "Închideți tava de notificări",
-  "responsive.close.notification": "Înapoi la curs",
-  "notification.tray.title": "Notificări",
-  "notification.tray.no.message": "Nu aveți notificări noi în acest moment.",
-  "learning.celebration.emailBody": "Pe ce îți concentrezi timpul pentru a învăța? ",
-  "learning.social.shareEmail": "Partajați-vă progresul prin e-mail.",
-  "learning.social.shareService": "Distribuiți progresul dumneavoastră pe {service}.",
-  "learn.course.tabs.navigation.overflow.menu": "Mai mult...",
-  "learning.upgradeButton.buttonText": "Upgrade pentru {pricing}",
-  "learning.upgradeNowButton.buttonText": "Faceți upgrade acum pentru {pricing}",
-  "learning.offer.screenReaderPrices": "Preț original: {originalPrice} , preț redus: {discountedPrice}",
-  "learning.upgradeButton.screenReaderInlinePrices": "Preț original: {originalPrice}",
-  "learning.generic.upgradeNotification.expirationAccessLoss.progress": "inclusiv orice progres",
-  "learning.generic.upgradeNotification.expirationVerifiedCert.benefits": "beneficiile upgrade-ului",
-  "learning.generic.upgradeNotification.expirationAccessLoss": "Veți pierde tot accesul la acest curs, {includingAnyProgress} , pe {date} .",
-  "learning.generic.upgradeNotification.expirationVerifiedCert": "Actualizarea cursului vă permite să obțineți un certificat verificat și deblochează numeroase funcții. Aflați mai multe despre {benefitsOfUpgrading} .",
-  "learning.generic.upgradeNotification.pastExpiration.content": "Termenul limită de actualizare pentru acest curs a trecut. Pentru a face upgrade, înscrieți-vă la următoarea sesiune disponibilă.",
-  "learning.generic.upgradeNotification.expirationDays": "{dayCount, number} {dayCount, plural, încă o {zi} încă {zile}}",
-  "learning.generic.upgradeNotification.expirationHours": "{hourCount, number} {hourCount, plural, o {oră} other {hours}} rămase",
-  "learning.generic.upgradeNotification.expirationMinutes": "Mai puțin de 1 oră rămasă",
-  "learning.generic.upgradeNotification.expiration": "Accesul la curs va expira {date}",
-  "learning.generic.upgradeNotification.pastExpiration.banner": "Termenul limită de actualizare a trecut pe {date}",
-  "learning.generic.upgradeNotification.firstTimeLearnerDiscount": "{percentage} % Reducere pentru primul cursant",
-  "learning.generic.upgradeNotification.accessExpiration": "Actualizați-vă cursul astăzi",
-  "learning.generic.upgradeNotification.accessExpirationUrgent": "Expirarea accesului la curs",
-  "learning.generic.upgradeNotification.accessExpirationPast": "Expirarea accesului la curs",
-  "learning.generic.upgradeNotification.pursueAverifiedCertificate": "Urmăriți un certificat verificat",
-  "learning.generic.upgradeNotification.code": "Utilizați codul {code} la finalizarea comenzii",
-  "learning.generic.upsell.verifiedCertBullet.verifiedCert": "certificat verificat",
-  "learning.generic.upsell.verifiedCertBullet": "Câștigați un {verifiedCertLink} de finalizare pentru a fi afișat în CV-ul dvs.",
-  "learning.generic.upsell.unlockGradedBullet.gradedAssignments": "teme evalutate",
-  "learning.generic.upsell.unlockGradedBullet": "Deblocați-vă accesul la toate activitățile cursului, inclusiv {gradedAssignmentsInBoldText}",
-  "learning.generic.upsell.fullAccessBullet.fullAccess": "Acces complet",
-  "learning.generic.upsell.fullAccessBullet": "{fullAccessInBoldText} la conținutul și materialele cursului, chiar și după încheierea cursului",
-  "learning.generic.upsell.supportMissionBullet.mission": "misiune",
-  "learning.generic.upsell.supportMissionBullet": "Susține-ne {missionInBoldText} la {siteName}",
-  "masquerade-widget.userName.error.generic": "A avut loc o eroare; vă rugăm să încercați din nou.",
-  "masquerade-widget.userName.input.placeholder": "Nume de utilizator sau email",
-  "masquerade-widget.userName.input.label": "Mascarați ca acest utilizator",
-  "tours.datesCheckpoint.body": "Datele importante vă pot ajuta să rămâneți pe drumul cel bun.",
-  "tours.datesCheckpoint.title": "Fiți la curent cu datele cheie",
-  "tours.outlineCheckpoint.body": "Puteți explora secțiuni ale cursului folosind schița de mai jos.",
-  "tours.outlineCheckpoint.title": "Urmează cursul!",
-  "tours.tabNavigationCheckpoint.body": "Aceste file pot fi folosite pentru a accesa alte materiale ale cursului, cum ar fi progresul, programa etc.",
-  "tours.tabNavigationCheckpoint.title": "Resurse suplimentare ale cursului",
-  "tours.upgradeCheckpoint.body": "Lucrați pentru obținerea unui certificat și obțineți acces deplin la materialele de curs. Upgrade acum!",
-  "tours.upgradeCheckpoint.title": "Deblocați-vă cursul",
-  "tours.weeklyGoalsCheckpoint.body": "Stabilirea unui obiectiv vă face mai probabil să vă finalizați cursul.",
-  "tours.weeklyGoalsCheckpoint.title": "Stabiliți un obiectiv de curs",
-  "tours.newUserModal.title": "{welcome} {siteName} curs!",
-  "learning.effortEstimation.combinedEstimate": "{minutes} + {activities}",
-  "learning.effortEstimation.activities": "{activityCount, plural, one {# activitate} few {# activități} other {# activități}}",
-  "learning.effortEstimation.minutesAbbreviated": "{minuteCount, plural, one {# min} few {# min} other {# min}}",
-  "learning.effortEstimation.minutesFull": "{minuteCount, plural, one {# minut} few {# minute} other {# minute}}",
-  "learning.streakcelebration.factoida": "Utilizatorii care învață {streak_length} zile la rând {bolded_section} decât cei care nu învață.",
-  "learning.streakcelebration.factoidb": "Utilizatorii care învață {streak_length} zile la rând {bolded_section} vs. cei care nu învață.",
-  "learning.streakCelebration.streakCelebrationCouponEndDateMessage": "Se termină {date} .",
-  "learning.streakCelebration.congratulations": "Felicitări!",
-  "learning.streakCelebration.body": "Tine-o tot asa, esti pe un val!",
-  "learning.streakCelebration.button": "Ține-o așa",
-  "learning.streakCelebration.buttonSrOnly": "Închideți modal și continuați",
-  "learning.streakCelebration.buttonAA759": "Continuați cu cursul",
-  "learning.streakCelebration.header": "sira zilei",
-  "learning.streakCelebration.factoidABoldedSection": "au șanse de 20 de ori mai mari să-și promoveze cursul",
-  "learning.streakCelebration.factoidBBoldedSection": "completați în medie de 5 ori mai mult conținut de curs",
-  "learning.streakCelebration.streakDiscountMessage": "Ați deblocat o reducere de 0 % {percent} atunci când faceți upgrade la acest curs doar pentru o perioadă limitată.",
-  "progress.certificateStatus.unverifiedBody": "Pentru a genera un certificat, trebuie să finalizați verificarea ID. {idVerificationSupportLink} .",
-  "progress.certificateStatus.downloadableBody": "Prezentați-vă realizările pe LinkedIn sau CV-ul dvs. astăzi. Vă puteți descărca certificatul acum și îl puteți accesa oricând de pe {dashboardLink} și {profileLink} .",
-  "progress.certificateStatus.notAvailable.endDate": "Acest curs se încheie pe {endDate} . Notele finale și orice certificate obținute sunt programate să fie disponibile după {certAvailabilityDate} .",
-  "progress.certificateStatus.notPassingHeader": "Statutul certificatului",
-  "progress.certificateStatus.notPassingBody": "Pentru a vă califica pentru un certificat, trebuie să aveți o notă de trecere.",
-  "progress.certificateStatus.inProgressHeader": "Mai mult conținut vine în curând!",
-  "progress.certificateStatus.inProgressBody": "Se pare că există mai mult conținut în acest curs care va fi lansat în viitor. Căutați actualizări prin e-mail sau verificați din nou cursul dvs. pentru a afla când va fi disponibil acest conținut.",
-  "progress.certificateStatus.requestableHeader": "Statutul certificatului",
-  "progress.certificateStatus.requestableBody": "Felicitări, v-ați calificat pentru un certificat! Pentru a vă accesa certificatul, solicitați-l mai jos.",
-  "progress.certificateStatus.requestableButton": "Solicitați certificatul",
-  "progress.certificateStatus.unverifiedHeader": "Statutul certificatului",
-  "progress.certificateStatus.unverifiedButton": "Verificați ID-ul",
-  "progress.certificateStatus.courseCelebration.verificationPending": "Verificarea dvs. de identitate este în așteptare și certificatul dvs. va fi disponibil după aprobare.",
-  "progress.certificateStatus.downloadableHeader": "Certificatul dumneavoastră este disponibil!",
-  "progress.certificateStatus.viewableButton": "Vizualizați certificatul meu",
-  "progress.certificateStatus.notAvailableHeader": "Statutul certificatului",
-  "progress.certificateBody.notAvailable.endDate": "Notele finale și orice certificate obținute sunt programate să fie disponibile după {endDate} .",
-  "progress.certificateStatus.upgradeHeader": "Obțineți un certificat",
-  "progress.certificateStatus.upgradeBody": "Sunteți într-o pistă de audit și nu vă calificați pentru un certificat. Pentru a obține un certificat, actualizați-vă cursul astăzi.",
-  "progress.certificateStatus.upgradeButton": "Actualizați acum",
-  "progress.certificateStatus.unverifiedHomeHeader.v2": "Verificați-vă identitatea pentru a vă califica pentru un certificat.",
-  "progress.certificateStatus.unverifiedHomeButton": "Verificați-mi identitatea",
-  "progress.certificateStatus.unverifiedHomeBody": "Pentru a genera un certificat pentru acest curs, trebuie să finalizați procesul de verificare a actului de identitate.",
-  "progress.completion.donut.label": "finalizat",
-  "progress.completion.body": "Aceasta reprezintă cât de mult din conținutul cursului ați finalizat. Rețineți că este posibil ca unele conținuturi să nu fie încă lansate.",
-  "progress.completion.tooltip.locked": "Conținut pe care l-ați completat.",
-  "progress.completion.header": "Finalizarea cursului",
-  "progress.completion.tooltip": "Conținut la care aveți acces și pe care nu l-ați completat.",
-  "progress.completion.tooltip.complete": "Conținut care este blocat și disponibil numai pentru cei care fac upgrade.",
-  "progress.completion.donut.percentComplete": "Ați finalizat {percent} % din conținutul acestui curs.",
-  "progress.completion.donut.percentIncomplete": "Nu ați finalizat {percent} % din conținutul acestui curs la care aveți acces.",
-  "progress.completion.donut.percentLocked": "{percent} % din conținutul acestui curs este blocat și disponibil numai pentru cei care fac upgrade.",
-  "progress.creditInformation.creditNotEligible": "Nu mai sunteți eligibil pentru credit la acest curs. Aflați mai multe despre {creditLink} .",
-  "progress.creditInformation.creditEligible": "Ați îndeplinit cerințele pentru credit în acest curs. Accesați {dashboardLink} pentru a cumpăra credit de curs. Sau aflați mai multe despre {creditLink} .",
-  "progress.creditInformation.creditPartialEligible": "Încă nu ați îndeplinit cerințele pentru credit. Aflați mai multe despre {creditLink} .",
-  "progress.creditInformation.completed": "Completat",
-  "progress.creditInformation.courseCredit": "credit de curs",
-  "progress.creditInformation.minimumGrade": "Nota minimă pentru credit ( {minGrade} %)",
-  "progress.creditInformation.requirementsHeader": "Cerințe pentru creditul de curs",
-  "progress.creditInformation.upcoming": "Viitoare",
-  "progress.creditInformation.verificationFailed": "Verificarea a eșuat",
-  "progress.creditInformation.verificationSubmitted": "Verificare trimisă",
-  "progress.assignmentType": "Tipul misiunii",
-  "progress.footnotes.backToContent": "Înapoi la conținut",
-  "progress.courseGrade.body": "Aceasta reprezintă nota dvs. ponderată față de nota necesară pentru a promova acest curs.",
-  "progress.courseGrade.gradeBar.altText": "Nota dvs. actuală este {currentGrade} %. Este necesară o notă ponderată de {passingGrade} % pentru a promova acest curs.",
-  "progress.courseGrade.footer.generic.passing": "În prezent promovați acest curs",
-  "progress.courseGrade.footer.nonPassing": "Este necesară o notă ponderată de {passingGrade} % pentru a promova acest curs",
-  "progress.courseGrade.footer.passing": "În prezent promovați acest curs cu o notă de {letterGrade} ( {minGrade} - {maxGrade} %)",
-  "progress.courseGrade.preview.headerLocked": "caracteristică blocată",
-  "progress.courseGrade.preview.headerLimited": "caracteristică limitată",
-  "progress.courseGrade.preview.header.ariaHidden": "Previzualizare a unui",
-  "progress.courseGrade.preview.body.unlockCertificate": "Deblocați pentru a vedea notele și pentru a obține un certificat.",
-  "progress.courseGrade.partialpreview.body.unlockCertificate": "Deblocați pentru a obține un certificat.",
-  "progress.courseGrade.preview.body.upgradeDeadlinePassed": "Termenul limită de upgrade la acest curs a trecut.",
-  "progress.courseGrade.preview.button.upgrade": "Actualizați acum",
-  "progress.courseGrade.gradeRange.tooltip": "Intervalele de notare pentru acest curs:",
-  "progress.courseOutline": "Programa cursului ",
-  "progress.courseGrade.label.currentGrade": "Nota dvs. actuală",
-  "progress.detailedGrades": "Note detaliate",
-  "progress.detailedGrades.emptyTable": "În prezent, nu aveți scoruri notate pentru probleme.",
-  "progress.footnotes.title": "Note de subsol rezumate",
-  "progress.gradeSummary.grade": "Notă",
-  "progress.courseGrade.grades": "Note",
-  "progress.courseGrade.gradesAndCredit": "Note și credit",
-  "progress.courseGrade.gradeRange.Tooltip": "Indicator pentru intervalul de note",
-  "progress.gradeSummary": "Rezumatul notei",
-  "progress.gradeSummary.limitedAccessExplanation": "Aveți acces limitat la temele evaluate ca parte a pistei de audit din acest curs.",
-  "progress.gradeSummary.tooltip.alt": "Indicator explicativ pentru rezumatul notelor",
-  "progress.gradeSummary.tooltip.body": "Greutatea sarcinii tale de curs este determinată de instructorul tău. Înmulțind nota dvs. cu ponderea pentru acel tip de sarcină, se calculează nota dvs. ponderată. Nota dvs. ponderată este cea care este folosită pentru a determina dacă promovați cursul.",
-  "progress.noAcessToAssignmentType": "Nu aveți acces la sarcini de tip {assignmentType}",
-  "progress.noAcessToSubsection": "Nu aveți acces la subsecțiunea {displayName}",
-  "progress.courseGrade.label.passingGrade": "Nota de trecere",
-  "progress.detailedGrades.problemScore.label": "Scoruri probleme:",
-  "progress.detailedGrades.problemScore.toggleButton": "Comutați scorurile individuale ale problemelor pentru {subsectionTitle}",
-  "progress.detailedGrades.overridden": "Secția de note a fost asuprată.",
-  "progress.score": "Scor",
-  "progress.weight": "Greutate",
-  "progress.weightedGrade": "Nota ponderată",
-  "progress.weightedGradeSummary": "Rezumatul actual al notelor ponderate",
-  "progress.relatedLinks.datesCard.description": "O vizualizare a programului cu datele limită ale cursului și sarcinile viitoare.",
-  "progress.relatedLinks.datesCard.link": "Datele",
-  "progress.relatedLinks.outlineCard.description": "O vedere generală a conținutului cursului.",
-  "progress.relatedLinks.outlineCard.link": "Programa cursului ",
-  "progress.relatedLinks": "Linkuri conexe",
-  "unit.bookmark.button.add.bookmark": "Marcați această pagină",
-  "unit.bookmark.button.remove.bookmark": "Marcat",
-  "learning.celebration.goalCongrats": "Felicitări, v-ați îndeplinit obiectivul de învățare de {nTimes} pe săptămână.",
-  "learning.celebration.setGoal": "Stabilirea unui obiectiv vă poate ajuta {strongText} în cursul dvs.",
-  "learning.celebration.completed": "Tocmai ați finalizat prima secțiune a cursului.",
-  "learning.celebration.congrats": "Felicitări!",
-  "learning.celebration.earned": "Ai câștigat-o!",
-  "learning.celebration.emailSubject": "Sunt pe drum spre completarea {titlului} on-line cu {platforma}!",
-  "learning.celebration.forward": "Continuă",
-  "learning.celebration.goalMet": "Ți-ai atins obiectivul!",
-  "learning.celebration.keepItUp": "Ține-o așa",
-  "learning.celebration.share": "Luați un moment pentru a sărbători și a împărtăși progresul dumneavoastră.",
-  "learning.celebration.social": "Sunt pe cale să completez {titlu} online cu {platforma}. La ce înveti în timpul liber?",
-  "courseExit.catalogSearchSuggestion": "Doriți să aflați mai multe? {searchOurCatalogLink} pentru a găsi mai multe cursuri și programe de explorat.",
-  "courseCelebration.certificateBody.available": "Prezentați-vă realizările pe LinkedIn sau CV-ul dvs. astăzi. Puteți descărca acum certificatul și îl puteți accesa oricând de pe {dashboardLink} și {profileLink} .",
-  "courseCelebration.certificateBody.notAvailable.endDate.v2": "Acest curs se încheie pe {endDate} . Notele finale și orice certificate obținute sunt programate să fie disponibile după {certAvailableDate} .",
-  "courseCelebration.certificateBody.unverified": "Pentru a genera un certificat, trebuie să finalizați verificarea ID-ului. {idVerificationSupportLink} acum.",
-  "courseCelebration.certificateBody.upgradable": "Nu este prea târziu pentru upgrade. Pentru {price} veți debloca accesul la toate temele notate din acest curs. La finalizare, veți primi un certificat verificat, care este o acreditare valoroasă pentru a vă îmbunătăți perspectivele de angajare și pentru a vă avansa în carieră sau pentru a vă evidenția certificatul în aplicațiile școlare.",
-  "courseCelebration.upgradeDiscountCodePrompt": "Utilizați codul {code} la finalizarea comenzii pentru {percent} % reducere!",
-  "courseCelebration.recommendations.heading": "Continuați să vă dezvoltați abilitățile cu aceste cursuri!",
-  "courseCelebration.recommendations.label": "Curs",
-  "courseCelebration.recommendations.browse_catalog": "Explorați mai multe cursuri",
-  "courseCelebration.recommendations.loading_recommendations": "Se încarcă recomandări",
-  "courseCelebration.recommendations.card.schools.label": "Școli și parteneri",
-  "courseCelebration.dashboardInfo": "Puteți accesa acest curs și materialele acestuia pe {dashboardLink} .",
-  "courseExit.programCompletion.dashboardMessage": "Pentru a vizualiza starea certificatului dumneavoastră, verificați secțiunea Programe din {programLink}.",
-  "courseExit.upgradeFootnote": "Accesul la acest curs și materialele sale sunt disponibile pe tabloul de bord până la {expirationDate}. Pentru a extinde accesul, {upgradeLink}.",
-  "courseExit.programs.applyForCredit": "Aplicați pentru credit",
-  "courseCelebration.certificateHeader.downloadable": "Certificatul dumneavoastră este disponibil!",
-  "courseCelebration.certificateHeader.notAvailable": "Nota dvs. și statutul certificatului vor fi disponibile în curând.",
-  "courseCelebration.certificateBody.notAvailable.accessCertificate": "Dacă ați obținut o notă de trecere, certificatul dvs. va fi eliberat automat.",
-  "courseCelebration.certificateBody.notAvailable.endDate": "Notele finale și orice certificate obținute sunt programate să fie disponibile după {endDate} .",
-  "courseCelebration.certificateHeader.unverified": "Trebuie să finalizați verificarea pentru a primi certificatul.",
-  "courseCelebration.certificateHeader.requestable": "Felicitări, v-ați calificat pentru un Certificat!",
-  "courseCelebration.certificateHeader.upgradable": "Faceți upgrade pentru a obține un certificat verificat",
-  "courseCelebration.certificateImage": "Exemplu de certificat",
-  "courseCelebration.completedCourseHeader": "Ți-ai terminat cursul.",
-  "courseCelebration.congratulationsHeader": "Felicitări!",
-  "courseCelebration.congratulationsImage": "Patru oameni ridicând mâinile în semn de sărbătoare",
-  "courseExit.courseInProgressDescription": "Se pare că există mai mult conținut în acest curs care va fi lansat în viitor. Căutați actualizări prin e-mail sau verificați din nou cursul dvs. pentru a afla când va fi disponibil acest conținut.",
-  "courseExit.courseInProgressHeader": "Mai mult conținut vine în curând!",
-  "courseExit.dashboardLink": "Bord",
-  "courseExit.endOfCourseDescription": "Din păcate, în prezent nu sunteți eligibil pentru un certificat. Trebuie să primiți o notă de promovare pentru a fi eligibil pentru un certificat.",
-  "courseExit.endOfCourseHeader": "Ați ajuns la finalul cursului!",
-  "courseExit.endOfCourseTitle": "Sfârșitul cursului",
-  "courseExit.idVerificationSupportLink": "Aflați mai multe despre verificarea ID-ului",
-  "courseCelebration.linkedinAddToProfileButton": "Adaugă profilului de LinkedIn",
-  "courseExit.programs.microBachelors.learnMore": "Aflați mai multe despre modul în care acreditarea dumneavoastră MicroBachelors poate fi solicitată pentru credit.",
-  "courseExit.programs.microMasters.learnMore": "Aflați mai multe despre procesul de aplicare a certificatelor MicroMasters la diplome de master.",
-  "courseExit.programs.microMasters.mastersMessage": "Dacă sunteți interesat să utilizați certificatul MicroMasters pentru un program de masterat, puteți începe astăzi!",
-  "learn.sequence.navigation.complete.button": "Finalizează cursul",
-  "courseExit.nextButton.endOfCourse": "Următorul (sfârșitul cursului)",
-  "courseExit.profileLink": "Profil",
-  "courseExit.programs.lastCourse": "Ai terminat ultimul curs în {title} !",
-  "courseCelebration.requestCertificateBodyText": "Pentru a vă accesa certificatul, solicitați-l mai jos.",
-  "courseCelebration.requestCertificateButton": "Solicitați certificatul",
-  "courseExit.searchOurCatalogLink": "Căutați în catalogul nostru",
-  "courseCelebration.shareMessage": "Împărtășește-ți succesul pe rețelele sociale sau prin e-mail.",
-  "courseExit.social.shareCompletionMessage": "Tocmai am completat {titlu} cu {platforma}!",
-  "courseExit.upgradeButton": "Actualizați acum",
-  "courseExit.upgradeLink": "îmbunătățește acum",
-  "courseCelebration.verificationPending": "Verificarea dvs. de identitate este în așteptare și certificatul dvs. va fi disponibil după aprobare.",
-  "courseExit.verifiedCertificateSupportLink": "Aflați mai multe despre certificatele verificate",
-  "courseCelebration.verifyIdentityButton": "Verificați ID-ul acum",
-  "courseCelebration.viewCertificateButton": "Vizualizați certificatul meu",
-  "courseExit.viewCourseScheduleButton": "Vezi orarul cursurilor",
-  "courseExit.viewCoursesButton": "Vizualizați cursurile mele",
-  "courseExit.viewGradesButton": "Vedeți notele",
-  "learn.course.license.allRightsReserved.text": "Toate drepturile rezervate",
-  "learn.course.license.creativeCommons.terms.preamble": "Conținut licențiat Creative Commons, cu următorii termeni:",
-  "learn.course.license.creativeCommons.terms.by": "Atribuire",
-  "learn.course.license.creativeCommons.terms.nc": "Necomercial",
-  "learn.course.license.creativeCommons.terms.nd": "Fără derivate",
-  "learn.course.license.creativeCommons.terms.sa": "Împărțit egal",
-  "learn.course.license.creativeCommons.terms.zero": "Fără termeni",
-  "learn.course.license.creativeCommons.text": "Unele drepturi rezervate",
-  "discussions.sidebar.title": "Discuții",
-  "discussions.notification.tray.container": "Tava de discuții și notificări",
-  "tray.close.button": "Închideți tava",
-  "sidebar.open.button": "Afișați tava din bara laterală",
-  "responsive.close.sidebar": "Înapoi la curs",
-  "learn.header.h2.placeholder": "Titlurile de nivelul 2 pot fi create de furnizorii de cursuri în viitor.",
-  "learn.course.load.failure": "A apărut o eroare la încărcarea acestui curs.",
-  "learn.loading.honor.codk": "Se încarcă mesajele cu codul de onoare...",
-  "learn.loading.content.lock": "Se încarcă mesaje de conținut blocat ...",
-  "learn.loading.learning.sequence": "Se încarcă secvența de învățare ...",
-  "learn.sequence.no.content": "Nu există conținut aici.",
-  "learn.sequence.share.button": "Distribuiți acest conținut",
-  "learn.sequence.share.modal.title": "Titlu",
-  "learn.sequence.share.modal.body": "Copiați linkul de mai jos pentru a partaja acest conținut.",
-  "learn.sequence.share.quote": "Iată un clip distractiv de la o clasă pe care o iau la @edXonline.",
-  "learning.outline.alert.cert.earnedNotAvailable": "Acest curs se încheie pe {courseEndDateFormatted} . Notele finale și orice certificate obținute sunt programate să fie disponibile după {certificateAvailableDate} .",
-  "cert.alert.earned.unavailable.header.v2": "Nota dvs. și statutul certificatului vor fi disponibile în curând.",
-  "cert.alert.earned.ready.header": "Felicitări! Certificatul dvs. este gata.",
-  "cert.alert.notPassing.header": "Nu sunteți încă eligibil pentru un certificat",
-  "cert.alert.notPassing.button": "Vedeți notele",
-  "learning.outline.alert.end.short": "Acest curs se încheie {time Remaining} la {courseEndTime}.",
-  "learning.outline.alert.end.long": "Acest curs se încheie {timeRemaining} pe {courseEndDate} .",
-  "learning.privateCourse.signInOrRegister": "{signIn} sau {register} și apoi înscrieți-vă la acest curs.",
-  "alert.enroll": "pentru a accesa cursul complet.",
-  "learning.outline.alert.scheduled-content.heading": "Mai mult conținut vine în curând!",
-  "learning.outline.alert.scheduled-content.body": "Acest curs va avea mai mult conținut lansat la o dată viitoare. Fiți atenți la actualizări prin e-mail sau verificați din nou acest curs pentru actualizări.",
-  "learning.outline.alert.scheduled-content.button": "Vezi orarul cursurilor",
-  "progress.ungradedAlert": "Pentru progresul asupra aspectelor neevaluate ale cursului, vizualizați {outlineLink} .",
-  "progress.footnotes.droppableAssignments": "Cel mai mic {numDroppable, plural, one{# {assignmentType} scor is} other{# {assignmentType} scors are}} a scăzut.",
-  "calculator.instructions.button.label": "Instrucțiuni pentru calculator",
-  "calculator.instructions": "Pentru informații detaliate, consultați {link-ul expresiilor}.",
-  "calculator.instructions.support.title": " Ajutor",
-  "calculator.instructions.useful.tips": "Sfaturi folositoare:",
-  "calculator.hint1": "Folosiți parantezele () pentru a clarifica expresiile. Puteți folosi paranteze în interiorul altor paranteze.",
-  "calculator.hint2": "Nu folosiți spații în expresii.",
-  "calculator.hint3": "Pentru constante, indicați înmulțirea în mod explicit (exemplu: 5*c).",
-  "calculator.hint4": "Pentru afixe, introduceți numărul și afixați fără spațiu (exemplu: 5c).",
-  "calculator.hint5": "Pentru funcții, tastați numele funcției, apoi expresia dintre paranteze.",
-  "calculator.instruction.table.to.use.heading": "Pentru a utiliza",
-  "calculator.instruction.table.type.heading": "Tip",
-  "calculator.instruction.table.examples.heading": "Exemple",
-  "calculator.instruction.table.to.use.numbers": "Numerele",
-  "calculator.instruction.table.to.use.numbers.type1": "numere întregi",
-  "calculator.instruction.table.to.use.numbers.type2": "Fracții",
-  "calculator.instruction.table.to.use.numbers.type3": "zecimale",
-  "calculator.instruction.table.to.use.operators": "Operatori",
-  "calculator.instruction.table.to.use.operators.type1": "(adunare, scadere, inmultire, impartire)",
-  "calculator.instruction.table.to.use.operators.type2": "(ridicați la putere)",
-  "calculator.instruction.table.to.use.operators.type3": "(rezistențe paralele)",
-  "calculator.instruction.table.to.use.constants": "Constante",
-  "calculator.instruction.table.to.use.affixes": "Afixele",
-  "calculator.instruction.table.to.use.affixes.type": "Semn procentual (%)",
-  "calculator.instruction.table.to.use.basic.functions": "Funcții de bază",
-  "calculator.instruction.table.to.use.trig.functions": "Funcții trigonometrice",
-  "calculator.instruction.table.to.use.scientific.notation": "Notație științifică",
-  "calculator.instruction.table.to.use.scientific.notation.type1": "{exponent Syntax} și exponentul",
-  "calculator.instruction.table.to.use.scientific.notation.type2": "{notation Syntax} notație",
-  "calculator.instruction.table.to.use.scientific.notation.type3": "{Notation Syntax} și exponentul",
-  "calculator.button.label": "Calculator",
-  "calculator.input.field.label": "Intrare calculator",
-  "calculator.submit.button.label": "Calcula",
-  "calculator.result.field.label": "Rezultatul Calculatorului",
-  "calculator.result.field.placeholder": "Rezultat",
-  "notes.button.show": "Arată notițe",
-  "notes.button.hide": "Ascunde notițe",
-  "learn.contentLock.content.locked": "Conținut blocat",
-  "learn.contentLock.complete.prerequisite": "Trebuie să completați condiția prealabilă: &#39;&#39; {prereqSectionName} &#39;&#39; pentru a accesa acest conținut.",
-  "learn.contentLock.goToSection": "Accesați secțiunea Cerințe preliminare",
-  "learn.hiddenAfterDue.header": "Data limită pentru această temă a fost depășită.",
-  "learn.hiddenAfterDue.description": "Deoarece scadența a trecut, această sarcină nu mai este disponibilă.",
-  "learn.hiddenAfterDue.gradeAvailable": "Dacă ați finalizat această temă, nota dvs. este disponibilă pe {progressPage} .",
-  "learn.hiddenAfterDue.progressPage": "pagina de progres",
-  "learn.honorCode.content": "Onestitatea și integritatea academică sunt importante pentru {siteName} și pentru instituțiile care oferă cursuri și programe pe site-ul {siteName} . Făcând clic pe „Sunt de acord” de mai jos, confirm că am citit, înțeles și că voi respecta {link} pentru site-ul {siteName} .",
-  "learn.honorCode.name": "Cod de distincție",
-  "learn.honorCode.cancel": "Anulează",
-  "learn.honorCode.agree": "Sunt de acord",
-  "learn.lockPaywall.title": "Temele notate sunt blocate",
-  "learn.lockPaywall.content": "Faceți upgrade pentru a obține acces la funcții blocate precum aceasta și pentru a profita la maximum de cursul dvs.",
-  "learn.lockPaywall.content.pastExpiration": "Termenul limită de actualizare pentru acest curs a trecut. Pentru a face upgrade, înscrieți-vă la următoarea sesiune disponibilă.",
-  "learn.lockPaywall.courseDetails": "Vedeți detaliile cursului",
-  "learn.lockPaywall.example.alt": "Exemplu de certificat",
-  "learn.lockPaywall.list.intro": "Când faceți upgrade, aveți:",
-  "learn.course.sequence.navigation.mobile.menu": "{current} din {total}",
-  "learn.sequence.navigation.next.button": "Următor",
-  "learn.sequence.navigation.next.up.button": "Următorul: {title}",
-  "learn.sequence.navigation.previous.button": "Anterior",
-  "courseOutline.loading": "Se încarcă...",
-  "courseOutline.toggle.button": "Comutați tava de contur al cursului",
-  "courseOutline.tray.title": "Programa cursului ",
-  "courseOutline.completedUnit": "Unitate finalizată",
-  "courseOutline.incompleteUnit": "Unitate incompletă",
-  "discussions.sidebar.open.button": "Afișați tava de discuții",
-  "instructor.toolbar.view.course.in": "Vizualizați cursul în:",
-  "instructor.toolbar.insights": "Perspective",
-  "instructor.toolbar.view.as": "Vezi acest curs ca:"
-}
+[
+    {
+        "term": "learn.navigation.course.tabs.label",
+        "definition": "Material de curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.redirect.interstitial.message",
+        "definition": "Te redirec\u021bion\u0103m...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.loading.error",
+        "definition": "Eroare: {error}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "general.altText.close",
+        "definition": "\u00cenchide",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.logistration.register",
+        "definition": "creeaz\u0103 cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.logistration.login",
+        "definition": "intr\u0103 \u00een cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "general.signIn.sentenceCase",
+        "definition": "Intr\u0103 \u00een cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.notification.preferences.unsubscribe.preferenceCenterUrl",
+        "definition": "pagina de preferin\u021be",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.notification.preferences.unsubscribe.loading",
+        "definition": "Se \u00eencarc\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.notification.preferences.unsubscribe.successHeading",
+        "definition": "Dezabonare reu\u0219it\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.notification.preferences.unsubscribe.successMessage",
+        "definition": "V-a\u021bi dezabonat cu succes de la rezumatele prin e-mail pentru activitatea de \u00eenv\u0103\u021bare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.notification.preferences.unsubscribe.failedHeading",
+        "definition": "Eroare la dezabonarea de la preferin\u021be",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.notification.preferences.unsubscribe.failedMessage",
+        "definition": "Adresa URL sau simbolul nevalid a expirat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.abandonTour.launchTourCheckpoint.body",
+        "definition": "Te-ai r\u0103t\u0103cit? Lanseaz\u0103 turul de explorare oric\u00e2nd pentru c\u00e2teva sfaturi rapide ca s\u0103 profi\u021bi la maximum de experien\u021ba de \u00eenv\u0103\u021bare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.sequenceNavigationCheckpoint.body",
+        "definition": "\u00cen meniul de sus din curs ajungi cu u\u0219urin\u021b\u0103 la diferite pagini \u0219i resurse.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.existingUserTour.launchTourCheckpoint.body",
+        "definition": "Am ad\u0103ugat recent c\u00e2teva func\u021bionalit\u0103\u021bi noi \u00een curs. Ai nevoie de ajutor pentru a le descoperi? F\u0103 un tur pentru a afla mai multe.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.button.dismiss",
+        "definition": "\u00cenchide",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.button.next",
+        "definition": "Mai departe",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.button.okay",
+        "definition": "Am \u00een\u021beles",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.button.beginTour",
+        "definition": "\u00cencepe turul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.button.launchTour",
+        "definition": "Exploreaz\u0103 platforma",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.newUserModal.body",
+        "definition": "Te invit\u0103m la un tur rapid de explorare a Platformei de Cursuri {siteName}, pentru o experien\u021b\u0103 de \u00eenv\u0103\u021bare valoroas\u0103 \u00een curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.newUserModal.title.welcome",
+        "definition": "Bun venit la",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.button.skipForNow",
+        "definition": "Mai t\u00e2rziu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.loading.failure",
+        "definition": "A ap\u0103rut o eroare la \u00eenc\u0103rcarea acestui curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.loading",
+        "definition": "Se \u00eencarc\u0103 pagina cursului...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.accessExpiration.deadline",
+        "definition": "Actualizeaz\u0103 p\u00e2n\u0103 \u00een {date} pentru a ob\u021bine acces nelimitat la curs at\u00e2ta timp c\u00e2t acesta exist\u0103 pe site.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.accessExpiration.header",
+        "definition": "Accesul de audit Expir\u0103 {date}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.accessExpiration.body",
+        "definition": "Pierzi tot accesul la acest curs, inclusiv progresul t\u0103u, \u00een {date}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "instructorToolbar.pageBanner.courseHasExpired",
+        "definition": "Acest cursant nu mai are acces la acest curs. Accesul expirat \u00een {date} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.accessExpiration.upgradeNow",
+        "definition": "Actualizeaz\u0103 acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.activeEnterprise.alert",
+        "definition": "{changeActiveEnterprise}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.activeEnterprise.change.alert",
+        "definition": "schimba intreprinderea acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.start.short",
+        "definition": "Cursul \u00eencepe \u00een {time Remaining} la {Course Start Time}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.start.long",
+        "definition": "Cursul \u00eencepe \u00een {time Remaining} \u00een {Course Start Date}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.start.calendar",
+        "definition": "Nu uita s\u0103 ad\u0103ugi o notificare \u00een calendar!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "instructorToolbar.pageBanner.courseHasNotStarted",
+        "definition": "Acest cursant nu are \u00eenc\u0103 acces la acest curs. Cursul \u00eencepe \u00een {date}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.enrollment.alert",
+        "definition": "Trebuie s\u0103 fii \u00eenscris\/\u0103 la curs pentru a vedea con\u021binutul cursului.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.staff.enrollment.alert",
+        "definition": "Vizualiza\u021bi acest curs ca personal \u0219i nu sunte\u021bi \u00eenscris.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.enrollment.enrollNow.Inline",
+        "definition": "\u00censcrie-te acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.enrollment.enrollNow.Sentence",
+        "definition": "\u00censcrie-te acum.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.enrollment.success",
+        "definition": "Te-ai \u00eenscris cu succes la acest curs!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account-activation.alert.button",
+        "definition": "Continu\u0103 pe {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account-activation.alert.message",
+        "definition": "Am trimis un e-mail la adresa {boldEmail} cu un link pentru activarea contului. Nu \u00eel g\u0103se\u0219ti? Verific\u0103 folderul de spam sau retrimite {sendEmailTag} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account-activation.resend.link",
+        "definition": "retrimite e-mailul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.logistration.alert",
+        "definition": "Pentru a parcurge cursul, {signIn} sau {register}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "account-activation.alert.title",
+        "definition": "Activeaz\u0103-\u021bi contul pentru a putea intra din nou \u00een cont",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.entranceExamTextNotPassing",
+        "definition": "Pentru a accesa materialele de curs, trebuie s\u0103 ob\u021bii la acest examen un punctaj minimum de {entranceExamMinimumScorePct}%. Punctajul t\u0103u actual este {entranceExamCurrentScore}%.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.entranceExamTextPassed",
+        "definition": "Punctajul t\u0103u este {entranceExamCurrentScore}%. Ai promovat examenul de admitere.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.openAction",
+        "definition": "C\u0103uta\u021bi \u00een cadrul acestui curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.contentSearchButton",
+        "definition": "C\u0103utare de con\u021binut",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.submitLabel",
+        "definition": "Caut\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.clearAction",
+        "definition": "\u0218terge\u021bi c\u0103utarea",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.closeAction",
+        "definition": "\u00cenchide\u021bi formularul de c\u0103utare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.searchModuleTitle",
+        "definition": "C\u0103uta\u021bi acest curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.searchBarPlaceholderText",
+        "definition": "Caut\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.loading",
+        "definition": "Se caut\u0103...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.searchResultsNone",
+        "definition": "Nu s-au g\u0103sit rezultate.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.searchResultsLabel",
+        "definition": "Rezultate pentru \"{keyword}\"",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.searchResultsError",
+        "definition": "A ap\u0103rut o eroare \u00een procesul de c\u0103utare. V\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou peste c\u00e2teva minute. Dac\u0103 problema persist\u0103, v\u0103 rug\u0103m s\u0103 contacta\u021bi echipa de asisten\u021b\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.filter:all",
+        "definition": "Tot con\u021binutul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.filter:text",
+        "definition": "Text",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.filter:video",
+        "definition": "Video",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.filter:sequence",
+        "definition": "Sec\u021biune",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.coursewareSearch.filter:other",
+        "definition": "Alte",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.dates.badge.completed",
+        "definition": "Completat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.dates.badge.dueNext",
+        "definition": "Urm\u0103torul termen limit\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.dates.badge.pastDue",
+        "definition": "Termen limit\u0103 expirat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.dates.title",
+        "definition": "Date importante",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.dates.badge.today",
+        "definition": "Ast\u0103zi",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.dates.badge.unreleased",
+        "definition": "Nu e lansat \u00eenc\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.dates.badge.verifiedOnly",
+        "definition": "Numai verificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.goals.unsubscribe.errorDescription",
+        "definition": "Nu am putut s\u0103 te dezabon\u0103m de la e-mailurile cu notific\u0103ri privind obiectivele. Te rug\u0103m s\u0103 \u00eencerci din nou mai t\u00e2rziu sau {contactSupport} pentru ajutor.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.goals.unsubscribe.contact",
+        "definition": "contacteaz\u0103 suportul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.goals.unsubscribe.description",
+        "definition": "Nu vei mai primi notific\u0103ri prin e-mail despre obiectivul t\u0103u pentru {courseTitle} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.goals.unsubscribe.errorHeader",
+        "definition": "A ap\u0103rut o eroare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.goals.unsubscribe.goToDashboard",
+        "definition": "Acceseaz\u0103 pagina ta de cursant",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.goals.unsubscribe.header",
+        "definition": "Te-ai dezabonat de la notific\u0103rile despre obiectivele tale de \u00eenv\u0103\u021bare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.goals.unsubscribe.loading",
+        "definition": "Te dezabon\u0103m...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.sequence-due-date-set",
+        "definition": "{description} termen limit\u0103 {assignmentDue}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.sequence-due-date-not-set",
+        "definition": "{description}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.dates.all",
+        "definition": "Vezi datele importante",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalButton.casual.text",
+        "definition": "1 zi pe s\u0103pt\u0103m\u00e2n\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalButton.screenReader.text",
+        "definition": "Casual",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.certificateAlt",
+        "definition": "Exemplu de certificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.collapseAll",
+        "definition": "Restr\u00e2nge con\u021binutul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.completedAssignment",
+        "definition": "Completat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.completedSection",
+        "definition": "Sec\u021biune finalizat\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.hiddenSection",
+        "definition": "Ascuns \u00een structura cursului, accesibil prin link",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.hiddenSequenceLink",
+        "definition": "Subsec\u021biunile nu sunt navigabile \u00eentre ele, ele pot fi accesate doar prin link-ul lor.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.dates",
+        "definition": "Date importante",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.editGoal",
+        "definition": "Editeaz\u0103 obiectivul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.expandAll",
+        "definition": "Extinde con\u021binutul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goal",
+        "definition": "Obiectiv de \u00eenv\u0103\u021bare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalReminderDetail",
+        "definition": "Dac\u0103 observ\u0103m c\u0103 nu ai ajuns \u00eenc\u0103 la obiectivul t\u0103u, \u00ee\u021bi vom trimite o notificare pe e-mail.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalUnsure",
+        "definition": "\u00cenc\u0103 nu este sigur",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.handouts",
+        "definition": "Resurse la \u00eendem\u00e2n\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.incompleteAssignment",
+        "definition": "Incomplet",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.incompleteSection",
+        "definition": "Sec\u021biune incomplet\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalButton.intense.text",
+        "definition": "5 zile pe s\u0103pt\u0103m\u00e2n\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalButton.intense.title",
+        "definition": "Intensiv",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.learnMore",
+        "definition": "Afl\u0103 mai multe",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.altText.openSection",
+        "definition": "Deschide",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.header",
+        "definition": "Acest curs con\u021bine examene supravegheate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalButton.regular.text",
+        "definition": "3 zile pe s\u0103pt\u0103m\u00e2n\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalButton.regular.title",
+        "definition": "Normal",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.resumeBlurb",
+        "definition": "Continu\u0103 de unde ai r\u0103mas",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.resume",
+        "definition": "Continu\u0103 cursul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.setGoal",
+        "definition": "Pentru a \u00eencepe, seteaz\u0103 un obiectiv de \u00eenv\u0103\u021bare pentru curs. Selecteaz\u0103 mai jos op\u021biunea care descrie cel mai bun plan de \u00eenv\u0103\u021bare pentru tine.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.setGoalReminder",
+        "definition": "Seteaz\u0103 o notificare pentru obiectiv",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalButton.casual.title",
+        "definition": "Alege un ritm pentru obiectivele de \u00eenv\u0103\u021bare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.setWeeklyGoal",
+        "definition": "Stabile\u0219te un obiectiv de \u00eenv\u0103\u021bare s\u0103pt\u0103m\u00e2nal",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.setWeeklyGoalDetail",
+        "definition": "Stabilirea unui obiectiv te motiveaz\u0103 s\u0103 termini cursul. \u00cel po\u021bi schimba oric\u00e2nd mai t\u00e2rziu.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.start",
+        "definition": "\u00cencepe cursul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.startBlurb",
+        "definition": "\u00cencepe cursul ast\u0103zi",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.tools",
+        "definition": "Utile pentru curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.upgradeButton",
+        "definition": "Actualizeaz\u0103 ({symbol}{price})",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.upgradeTitle",
+        "definition": "\u021ainte\u0219te un certificat verificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.welcomeMessage",
+        "definition": "Mesaj de \u00eent\u00e2mpinare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.welcomeMessageShowMoreButton",
+        "definition": "Arat\u0103 mai mult",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.welcomeMessageShowLessButton",
+        "definition": "Arat\u0103 mai pu\u021bin",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.goalWelcome",
+        "definition": "Bine ai venit \u00een",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.notStarted",
+        "definition": "Nu a \u00eenceput",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.started",
+        "definition": "A \u00eenceput",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.submitted",
+        "definition": "Trimis",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.verified",
+        "definition": "Verificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.rejected",
+        "definition": "Respins",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.error",
+        "definition": "Eroare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.otherCourseApproved",
+        "definition": "Aprobat \u00eentr-un alt curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.expiringSoon",
+        "definition": "Expir\u0103 \u00een cur\u00e2nd",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status.expired",
+        "definition": "Expirat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.status",
+        "definition": "Starea actual\u0103 de integrare:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.notStarted",
+        "definition": "Nu ai \u00eenceput examenul de \u00eenscriere.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.started",
+        "definition": "Ai \u00eenceput examenul de \u00eenscriere.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.submitted",
+        "definition": "Ai trimis examenul de \u00eenscriere.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.verified",
+        "definition": "Examenul dvs. de integrare a fost aprobat \u00een acest curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.rejected",
+        "definition": "Examenul dvs. de \u00eenscriere a fost respins. V\u0103 rug\u0103m s\u0103 re\u00eencerca\u021bi integrarea.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.error",
+        "definition": "A ap\u0103rut o eroare \u00een timpul examenului de \u00eenscriere. V\u0103 rug\u0103m s\u0103 re\u00eencerca\u021bi integrarea.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.otherCourseApproved",
+        "definition": "Examenul dvs. de integrare a fost aprobat \u00eentr-un alt curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.detail.otherCourseApproved",
+        "definition": "Dac\u0103 dispozitivul dvs. s-a schimbat, v\u0103 recomand\u0103m s\u0103 finaliza\u021bi examenul de integrare al acestui curs pentru a v\u0103 asigura c\u0103 configura\u021bia dvs. \u00eendepline\u0219te \u00een continuare cerin\u021bele pentru supraveghere.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.expiringSoon",
+        "definition": "Profilul dvs. de \u00eenscriere a fost aprobat. Cu toate acestea, starea dvs. de \u00eenscriere expir\u0103 \u00een cur\u00e2nd. V\u0103 rug\u0103m s\u0103 finaliza\u021bi din nou \u00eenscrierea pentru a v\u0103 asigura c\u0103 ve\u021bi putea continua s\u0103 sus\u021bine\u021bi examenele supravegheate.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.message.expired",
+        "definition": "Starea dvs. de \u00eenscriere a expirat. V\u0103 rug\u0103m s\u0103 finaliza\u021bi din nou \u00eenscrierea pentru a continua s\u0103 sus\u021bine\u021bi examenele supravegheate.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.generalInfo",
+        "definition": "Trebuie s\u0103 finaliza\u021bi procesul de \u00eenscriere \u00eenainte de a sus\u021bine orice examen supravegheat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.generalInfoSubmitted",
+        "definition": "Profilul trimis este \u00een curs de revizuire.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.generalTime",
+        "definition": "Examinarea profilului de integrare poate dura peste 2 zile lucr\u0103toare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.onboardingButton",
+        "definition": "Integrare complet\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.onboardingPracticeButton",
+        "definition": "Vizualiza\u021bi examenul de integrare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.onboardingButtonNotOpen",
+        "definition": "Se deschide integrarea: {releaseDate}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.reviewRequirementsButton",
+        "definition": "Consulta\u021bi instruc\u021biunile \u0219i cerin\u021bele de sistem",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.proctoringPanel.onboardingButtonPastDue",
+        "definition": "\u00cencadrare \u00een trecut",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.header",
+        "definition": "Progresul t\u0103u",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.header.targetUser",
+        "definition": "Progresul cursului pentru {username}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.link.studio",
+        "definition": "Vede\u021bi notarea \u00een Studio",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.suggestedSchedule",
+        "definition": "Am creat un program sugerat pentru a v\u0103 ajuta s\u0103 r\u0103m\u00e2ne\u021bi pe drumul cel bun. Dar nu v\u0103 face\u021bi griji \u2013 este flexibil, astfel \u00eenc\u00e2t s\u0103 pute\u021bi \u00eenv\u0103\u021ba \u00een propriul ritm.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.upgradeToCompleteGradedBanner.header",
+        "definition": "Upgrade pentru a debloca",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.upgradeToCompleteGradedBanner.body",
+        "definition": "Audia\u021bi acest curs, ceea ce \u00eenseamn\u0103 c\u0103 nu pute\u021bi participa la temele evaluate. Pentru a finaliza teme notate ca parte a acestui curs, pute\u021bi face upgrade ast\u0103zi.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.upgradeToCompleteGradedBanner.button",
+        "definition": "Actualiza\u021bi acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.upgradeToResetBanner.body",
+        "definition": "Pentru a v\u0103 men\u021bine pe drumul cel bun, pute\u021bi actualiza acest program \u0219i pute\u021bi muta sarcinile restante \u00een viitor. Nu v\u0103 face\u021bi griji - nu ve\u021bi pierde nimic din progresul pe care l-a\u021bi f\u0103cut atunci c\u00e2nd v\u0103 schimba\u021bi datele scadente.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.upgradeToResetBanner.button",
+        "definition": "Upgrade pentru a schimba datele scadente",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.resetDatesBanner.header",
+        "definition": "Se pare c\u0103 a\u021bi ratat ni\u0219te termene limit\u0103 importante pe baza programului nostru sugerat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.resetDatesBanner.body",
+        "definition": "Pentru a v\u0103 men\u021bine pe drumul cel bun, pute\u021bi actualiza acest program \u0219i pute\u021bi muta sarcinile restante \u00een viitor. Nu v\u0103 face\u021bi griji - nu ve\u021bi pierde nimic din progresul pe care l-a\u021bi f\u0103cut atunci c\u00e2nd v\u0103 schimba\u021bi datele scadente.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "datesBanner.resetDatesBanner.button",
+        "definition": "Schimba\u021bi datele scadente",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.breadcrumb.navigation.course.home",
+        "definition": "Curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "notification.tray.container",
+        "definition": "Tava de notific\u0103ri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "notification.open.button",
+        "definition": "Afi\u0219a\u021bi tava de notific\u0103ri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "notification.close.button",
+        "definition": "\u00cenchide\u021bi tava de notific\u0103ri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "responsive.close.notification",
+        "definition": "\u00cenapoi la curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "notification.tray.title",
+        "definition": "Notific\u0103ri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "notification.tray.no.message",
+        "definition": "Nu sunt notific\u0103ri noi \u00een acest moment.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.emailBody",
+        "definition": "Ce \u00ee\u021bi petreci timpul \u00eenv\u0103\u021b\u00e2nd?",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.social.shareEmail",
+        "definition": "Trimite progresul t\u0103u din curs prin e-mail.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.social.shareService",
+        "definition": "Distribui\u021bi progresul dumneavoastr\u0103 pe {service}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.tabs.navigation.overflow.menu",
+        "definition": "Mai mult...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.upgradeButton.buttonText",
+        "definition": "Upgrade pentru {pricing}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.upgradeNowButton.buttonText",
+        "definition": "Face\u021bi upgrade acum pentru {pricing}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.offer.screenReaderPrices",
+        "definition": "Pre\u021b original: {originalPrice} , pre\u021b redus: {discountedPrice}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.upgradeButton.screenReaderInlinePrices",
+        "definition": "Pret original: {originalPrice}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expirationAccessLoss.progress",
+        "definition": "inclusiv orice progres",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expirationVerifiedCert.benefits",
+        "definition": "beneficiile upgrade-ului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expirationAccessLoss",
+        "definition": "Ve\u021bi pierde tot accesul la acest curs, {includingAnyProgress} , pe {date} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expirationVerifiedCert",
+        "definition": "Actualizarea cursului v\u0103 permite s\u0103 ob\u021bine\u021bi un certificat verificat \u0219i deblocheaz\u0103 numeroase func\u021bii. Afla\u021bi mai multe despre {benefitsOfUpgrading} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.pastExpiration.content",
+        "definition": "Termenul limit\u0103 de actualizare pentru acest curs a trecut. Pentru a face upgrade, \u00eenscrie\u021bi-v\u0103 la urm\u0103toarea sesiune disponibil\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expirationDays",
+        "definition": "{dayCount, number} {dayCount, plural, \u00eenc\u0103 o {zi} \u00eenc\u0103 {zile}}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expirationHours",
+        "definition": "{hourCount, number} {hourCount, plural, o {or\u0103} \u00eenc\u0103 {hours}} r\u0103mase",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expirationMinutes",
+        "definition": "Mai pu\u021bin de 1 or\u0103 r\u0103mas\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.expiration",
+        "definition": "Accesul la curs va expira {date}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.pastExpiration.banner",
+        "definition": "Termenul limit\u0103 de actualizare a trecut pe {date}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.firstTimeLearnerDiscount",
+        "definition": "{percentage} % Reducere pentru primul cursant",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.accessExpiration",
+        "definition": "Actualiza\u021bi-v\u0103 cursul ast\u0103zi",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.accessExpirationUrgent",
+        "definition": "Expirarea accesului la curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.accessExpirationPast",
+        "definition": "Expirarea accesului la curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.pursueAverifiedCertificate",
+        "definition": "Urm\u0103ri\u021bi un certificat verificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upgradeNotification.code",
+        "definition": "Utiliza\u021bi codul {code} la finalizarea comenzii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.verifiedCertBullet.verifiedCert",
+        "definition": "certificat verificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.verifiedCertBullet",
+        "definition": "C\u00e2\u0219tiga\u021bi un {verifiedCertLink} de finalizare pentru a fi afi\u0219at \u00een CV-ul dvs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.unlockGradedBullet.gradedAssignments",
+        "definition": "teme notate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.unlockGradedBullet",
+        "definition": "Debloca\u021bi-v\u0103 accesul la toate activit\u0103\u021bile cursului, inclusiv {gradedAssignmentsInBoldText}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.fullAccessBullet.fullAccess",
+        "definition": "Acces complet",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.fullAccessBullet",
+        "definition": "{fullAccessInBoldText} la con\u021binutul \u0219i materialele cursului, chiar \u0219i dup\u0103 \u00eencheierea cursului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.supportMissionBullet.mission",
+        "definition": "misiune",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.generic.upsell.supportMissionBullet",
+        "definition": "Sus\u021bine-ne {missionInBoldText} la {siteName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "masquerade-widget.userName.error.generic",
+        "definition": "A avut loc o eroare; v\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "masquerade-widget.userName.input.placeholder",
+        "definition": "Nume de utilizator sau e-mail",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "masquerade-widget.userName.input.label",
+        "definition": "Mascara\u021bi ca acest utilizator",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.datesCheckpoint.body",
+        "definition": "Datele importante te vor ajuta s\u0103 \u00ee\u021bi atingi obiectivele de \u00eenv\u0103\u021bare \u0219i s\u0103 finalizezi cursul.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.datesCheckpoint.title",
+        "definition": "Urm\u0103re\u0219te cu aten\u021bie datele importante",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.outlineCheckpoint.body",
+        "definition": "Po\u021bi explora sec\u021biunile cursului folosind structura cursului de mai jos.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.outlineCheckpoint.title",
+        "definition": "Consult\u0103 structura cursului!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.tabNavigationCheckpoint.body",
+        "definition": "Aceste file pot fi folosite pentru a accesa alte materiale ale cursului, cum ar fi progresul, programa etc.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.tabNavigationCheckpoint.title",
+        "definition": "Pagini \u0219i resurse \u00een curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.upgradeCheckpoint.body",
+        "definition": "Lucra\u021bi pentru ob\u021binerea unui certificat \u0219i ob\u021bine\u021bi acces deplin la materialele de curs. Upgrade acum!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.upgradeCheckpoint.title",
+        "definition": "Debloca\u021bi-v\u0103 cursul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.weeklyGoalsCheckpoint.body",
+        "definition": "Stabilirea unui obiectiv v\u0103 face mai probabil s\u0103 v\u0103 finaliza\u021bi cursul.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.weeklyGoalsCheckpoint.title",
+        "definition": "Stabili\u021bi un obiectiv de curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tours.newUserModal.title",
+        "definition": "{welcome} {siteName}!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.effortEstimation.combinedEstimate",
+        "definition": "{minutes} + {activities}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.effortEstimation.activities",
+        "definition": "{activityCount, plural, one {# activitate} few {# activit\u0103\u021bi} other {# activit\u0103\u021bi}}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.effortEstimation.minutesAbbreviated",
+        "definition": "{minuteCount, plural, one {# min} few {# min} other {# min}}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.effortEstimation.minutesFull",
+        "definition": "{minuteCount, plural, one {# minut} few {# minute} other {# minute}}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakcelebration.factoida",
+        "definition": "Utilizatorii care \u00eenva\u021b\u0103 {streak_length} zile la r\u00e2nd {bolded_section} dec\u00e2t cei care nu \u00eenva\u021b\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakcelebration.factoidb",
+        "definition": "Utilizatorii care \u00eenva\u021b\u0103 {streak_length} zile la r\u00e2nd {bolded_section} vs. cei care nu \u00eenva\u021b\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.streakCelebrationCouponEndDateMessage",
+        "definition": "Se termin\u0103 {date} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.congratulations",
+        "definition": "Felicit\u0103ri!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.body",
+        "definition": "Tine-o tot asa, esti pe un val!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.button",
+        "definition": "\u021aine-o a\u0219a",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.buttonSrOnly",
+        "definition": "\u00cenchide\u021bi modal \u0219i continua\u021bi",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.buttonAA759",
+        "definition": "Continua\u021bi cu cursul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.header",
+        "definition": "sira zilei",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.factoidABoldedSection",
+        "definition": "au \u0219anse de 20 de ori mai mari s\u0103-\u0219i promoveze cursul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.factoidBBoldedSection",
+        "definition": "completa\u021bi \u00een medie de 5 ori mai mult con\u021binut de curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.streakCelebration.streakDiscountMessage",
+        "definition": "A\u021bi deblocat o reducere de 0 % {percent} atunci c\u00e2nd face\u021bi upgrade la acest curs doar pentru o perioad\u0103 limitat\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.unverifiedBody",
+        "definition": "Pentru a genera un certificat, trebuie s\u0103 finaliza\u021bi verificarea ID. {idVerificationSupportLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.downloadableBody",
+        "definition": "Prezenta\u021bi-v\u0103 realiz\u0103rile pe LinkedIn sau CV-ul dvs. ast\u0103zi. Pute\u021bi desc\u0103rca acum certificatul \u0219i \u00eel pute\u021bi accesa oric\u00e2nd de pe {dashboardLink} \u0219i {profileLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.notAvailable.endDate",
+        "definition": "Acest curs se \u00eencheie pe {endDate} . Notele finale \u0219i orice certificate ob\u021binute sunt programate s\u0103 fie disponibile dup\u0103 {certAvailabilityDate} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.notPassingHeader",
+        "definition": "Despre Certificatul de absolvire",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.notPassingBody",
+        "definition": "Ca s\u0103 ob\u021bii certificatul de absolvire, trebuie s\u0103 ob\u021bii punctajul minim de trecere.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.inProgressHeader",
+        "definition": "Mai mult con\u021binut vine \u00een cur\u00e2nd!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.inProgressBody",
+        "definition": "Se pare c\u0103 exist\u0103 mai mult con\u021binut \u00een acest curs care va fi lansat \u00een viitor. C\u0103uta\u021bi actualiz\u0103ri prin e-mail sau verifica\u021bi din nou cursul dvs. pentru a afla c\u00e2nd va fi disponibil acest con\u021binut.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.requestableHeader",
+        "definition": "Despre Certificatul de absolvire",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.requestableBody",
+        "definition": "Felicit\u0103ri, v-a\u021bi calificat pentru un certificat! Pentru a v\u0103 accesa certificatul, solicita\u021bi-l mai jos.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.requestableButton",
+        "definition": "Solicita\u021bi certificatul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.unverifiedHeader",
+        "definition": "Despre Certificatul de absolvire",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.unverifiedButton",
+        "definition": "Verifica\u021bi ID-ul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.courseCelebration.verificationPending",
+        "definition": "Verificarea dvs. de identitate este \u00een a\u0219teptare \u0219i certificatul dvs. va fi disponibil dup\u0103 aprobare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.downloadableHeader",
+        "definition": "Certificatul dumneavoastr\u0103 este disponibil!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.viewableButton",
+        "definition": "Vezi certificatul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.notAvailableHeader",
+        "definition": "Despre Certificatul de absolvire",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateBody.notAvailable.endDate",
+        "definition": "Notele finale \u0219i orice certificate ob\u021binute sunt programate s\u0103 fie disponibile dup\u0103 {endDate} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.upgradeHeader",
+        "definition": "C\u00e2\u0219tiga\u021bi un certificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.upgradeBody",
+        "definition": "Sunte\u021bi \u00eentr-o pist\u0103 de audit \u0219i nu v\u0103 califica\u021bi pentru un certificat. Pentru a ob\u021bine un certificat, actualiza\u021bi-v\u0103 cursul ast\u0103zi.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.upgradeButton",
+        "definition": "Actualiza\u021bi acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.unverifiedHomeHeader.v2",
+        "definition": "Verifica\u021bi-v\u0103 identitatea pentru a v\u0103 califica pentru un certificat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.unverifiedHomeButton",
+        "definition": "Verifica\u021bi-mi identitatea",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.certificateStatus.unverifiedHomeBody",
+        "definition": "Pentru a genera un certificat pentru acest curs, trebuie s\u0103 finaliza\u021bi procesul de verificare a actului de identitate.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.donut.label",
+        "definition": "finalizat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.body",
+        "definition": "Procentul arat\u0103 c\u00e2t de mult ai parcurs din con\u021binutul cursului. Re\u021bine c\u0103 unele lec\u021bii pot deveni disponibile pe parcurs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.tooltip.locked",
+        "definition": "Con\u021binut pe care l-a\u021bi completat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.header",
+        "definition": "C\u00e2t ai parcurs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.tooltip",
+        "definition": "Con\u021binut la care ave\u021bi acces \u0219i pe care nu l-a\u021bi completat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.tooltip.complete",
+        "definition": "Con\u021binut care este blocat \u0219i disponibil numai pentru cei care fac upgrade.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.donut.percentComplete",
+        "definition": "A\u021bi finalizat {percent} % din con\u021binutul acestui curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.donut.percentIncomplete",
+        "definition": "Nu a\u021bi finalizat {percent} % din con\u021binutul acestui curs la care ave\u021bi acces.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.completion.donut.percentLocked",
+        "definition": "{percent} % din con\u021binutul acestui curs este blocat \u0219i disponibil numai pentru cei care fac upgrade.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.creditNotEligible",
+        "definition": "Nu mai sunte\u021bi eligibil pentru credit la acest curs. Afla\u021bi mai multe despre {creditLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.creditEligible",
+        "definition": "A\u021bi \u00eendeplinit cerin\u021bele pentru credit \u00een acest curs. Accesa\u021bi {dashboardLink} pentru a achizi\u021biona credit de curs. Sau afla\u021bi mai multe despre {creditLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.creditPartialEligible",
+        "definition": "\u00cenc\u0103 nu a\u021bi \u00eendeplinit cerin\u021bele pentru credit. Afla\u021bi mai multe despre {creditLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.completed",
+        "definition": "Completat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.courseCredit",
+        "definition": "credit de curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.minimumGrade",
+        "definition": "Nota minim\u0103 pentru credit ( {minGrade} %)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.requirementsHeader",
+        "definition": "Cerin\u021be pentru creditul de curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.upcoming",
+        "definition": "Viitoare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.verificationFailed",
+        "definition": "Verificarea a e\u0219uat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.creditInformation.verificationSubmitted",
+        "definition": "Verificare trimis\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.assignmentType",
+        "definition": "Tipul evalu\u0103rii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.footnotes.backToContent",
+        "definition": "\u00cenapoi la con\u021binut",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.body",
+        "definition": "Reprezint\u0103 punctajul ponderat ob\u021binut din punctajul necesar pentru a absolvi acest curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.gradeBar.altText",
+        "definition": "Punctajul t\u0103u actual este {currentGrade}%. Ai nevoie de un punctaj ponderat de {passingGrade}% pentru a absolvi acest curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.footer.generic.passing",
+        "definition": "\u00cen prezent promova\u021bi acest curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.footer.nonPassing",
+        "definition": "Este necesar\u0103 o not\u0103 ponderat\u0103 de {passingGrade} % pentru a promova acest curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.footer.passing",
+        "definition": "\u00cen prezent promova\u021bi acest curs cu o not\u0103 de {letterGrade} ( {minGrade} - {maxGrade} %)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.preview.headerLocked",
+        "definition": "caracteristic\u0103 blocat\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.preview.headerLimited",
+        "definition": "caracteristic\u0103 limitat\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.preview.header.ariaHidden",
+        "definition": "Previzualizare a unui",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.preview.body.unlockCertificate",
+        "definition": "Debloca\u021bi pentru a vedea notele \u0219i pentru a ob\u021bine un certificat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.partialpreview.body.unlockCertificate",
+        "definition": "Debloca\u021bi pentru a ob\u021bine un certificat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.preview.body.upgradeDeadlinePassed",
+        "definition": "Termenul limit\u0103 de upgrade la acest curs a trecut.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.preview.button.upgrade",
+        "definition": "Actualiza\u021bi acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.gradeRange.tooltip",
+        "definition": "Gama de note pentru acest curs:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseOutline",
+        "definition": "Structura cursului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.label.currentGrade",
+        "definition": "Nota dvs. actual\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.detailedGrades",
+        "definition": "Punctaj detaliat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.detailedGrades.emptyTable",
+        "definition": "\u00cen prezent, nu ave\u021bi scoruri notate pentru probleme.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.footnotes.title",
+        "definition": "Note de subsol rezumate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.gradeSummary.grade",
+        "definition": "Punctaj",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.grades",
+        "definition": "Punctaj",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.gradesAndCredit",
+        "definition": "Note \u0219i credit",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.gradeRange.Tooltip",
+        "definition": "Indicator pentru intervalul de note",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.gradeSummary",
+        "definition": "Rezumatul punctajului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.gradeSummary.limitedAccessExplanation",
+        "definition": "Ave\u021bi acces limitat la temele evaluate ca parte a pistei de audit din acest curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.gradeSummary.tooltip.alt",
+        "definition": "Indicator explicativ pentru rezumatul notelor",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.gradeSummary.tooltip.body",
+        "definition": "Ponderea evalu\u0103rii tale de curs este stabilit\u0103 de c\u0103tre echip cursului. Punctajul \/ Nota ponderat(\u0103) se calculeaz\u0103 \u00eenmul\u021bind punctele ob\u021binute cu ponderea asociat\u0103 acelui tip de evaluare. Punctajul ponderat este folosit pentru a determina dac\u0103 ai absolvit cursul.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.noAcessToAssignmentType",
+        "definition": "Nu ave\u021bi acces la sarcini de tip {assignmentType}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.noAcessToSubsection",
+        "definition": "Nu ave\u021bi acces la subsec\u021biunea {displayName}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.courseGrade.label.passingGrade",
+        "definition": "Nota de trecere",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.detailedGrades.problemScore.label",
+        "definition": "Puncte probleme:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.detailedGrades.problemScore.toggleButton",
+        "definition": "Comuta\u021bi scorurile individuale ale problemelor pentru {subsectionTitle}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.detailedGrades.overridden",
+        "definition": "Sec\u021bia de note a fost asuprat\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.score",
+        "definition": "Puncte",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.weight",
+        "definition": "Pondere",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.weightedGrade",
+        "definition": "Punctaj ponderat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.weightedGradeSummary",
+        "definition": "Rezumatul actual al punctajului ponderat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.relatedLinks.datesCard.description",
+        "definition": "Urm\u0103re\u0219te periodic datele importante, datele limit\u0103 ale cursului \u0219i activit\u0103\u021bile viitoare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.relatedLinks.datesCard.link",
+        "definition": "Date importante",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.relatedLinks.outlineCard.description",
+        "definition": "O vedere general\u0103 a con\u021binutului cursului.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.relatedLinks.outlineCard.link",
+        "definition": "Structura cursului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.relatedLinks",
+        "definition": "Linkuri utile",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "unit.bookmark.button.add.bookmark",
+        "definition": "Salveaz\u0103 pagina",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "unit.bookmark.button.remove.bookmark",
+        "definition": "Salvat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.goalCongrats",
+        "definition": "Felicit\u0103ri, v-a\u021bi \u00eendeplinit obiectivul de \u00eenv\u0103\u021bare de {nTimes} pe s\u0103pt\u0103m\u00e2n\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.setGoal",
+        "definition": "Stabilirea unui obiectiv v\u0103 poate ajuta {strongText} \u00een cursul dvs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.completed",
+        "definition": "Tocmai a\u021bi finalizat prima sec\u021biune a cursului.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.congrats",
+        "definition": "Felicit\u0103ri!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.earned",
+        "definition": "Ai c\u00e2\u0219tigat-o!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.emailSubject",
+        "definition": "Sunt pe drum spre completarea {titlului} on-line cu {platforma}!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.forward",
+        "definition": "Continu\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.goalMet",
+        "definition": "\u021ai-ai atins obiectivul!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.keepItUp",
+        "definition": "\u021aine-o a\u0219a",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.share",
+        "definition": "Lua\u021bi un moment pentru a s\u0103rb\u0103tori \u0219i a \u00eemp\u0103rt\u0103\u0219i progresul dumneavoastr\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.celebration.social",
+        "definition": "Sunt pe cale s\u0103 completez {titlu} online cu {platforma}. La ce \u00eenveti \u00een timpul liber?",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.catalogSearchSuggestion",
+        "definition": "C\u0103uta\u021bi s\u0103 afla\u021bi mai multe? {searchOurCatalogLink} pentru a g\u0103si mai multe cursuri \u0219i programe de explorat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateBody.available",
+        "definition": "Prezenta\u021bi-v\u0103 realiz\u0103rile pe LinkedIn sau CV-ul dvs. ast\u0103zi. Pute\u021bi desc\u0103rca acum certificatul \u0219i \u00eel pute\u021bi accesa oric\u00e2nd de pe {dashboardLink} \u0219i {profileLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateBody.notAvailable.endDate.v2",
+        "definition": "Acest curs se \u00eencheie pe {endDate} . Notele finale \u0219i orice certificate ob\u021binute sunt programate s\u0103 fie disponibile dup\u0103 {certAvailableDate} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateBody.unverified",
+        "definition": "Pentru a genera un certificat, trebuie s\u0103 finaliza\u021bi verificarea ID-ului. {idVerificationSupportLink} acum.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateBody.upgradable",
+        "definition": "Nu este prea t\u00e2rziu pentru upgrade. Pentru {price} ve\u021bi debloca accesul la toate temele notate din acest curs. La finalizare, ve\u021bi primi un certificat verificat, care este o acreditare valoroas\u0103 pentru a v\u0103 \u00eembun\u0103t\u0103\u021bi perspectivele de angajare \u0219i pentru a v\u0103 avansa \u00een carier\u0103 sau pentru a v\u0103 eviden\u021bia certificatul \u00een aplica\u021biile \u0219colare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.upgradeDiscountCodePrompt",
+        "definition": "Utiliza\u021bi codul {code} la finalizarea comenzii pentru {percent} % reducere!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.recommendations.heading",
+        "definition": "Continua\u021bi s\u0103 v\u0103 dezvolta\u021bi abilit\u0103\u021bile cu aceste cursuri!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.recommendations.label",
+        "definition": "Curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.recommendations.browse_catalog",
+        "definition": "Explora\u021bi mai multe cursuri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.recommendations.loading_recommendations",
+        "definition": "Se \u00eencarc\u0103 recomand\u0103ri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.recommendations.card.schools.label",
+        "definition": "\u0218coli \u0219i parteneri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.dashboardInfo",
+        "definition": "Pute\u021bi accesa acest curs \u0219i materialele acestuia pe {dashboardLink} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.programCompletion.dashboardMessage",
+        "definition": "Pentru a vizualiza starea certificatului dumneavoastr\u0103, verifica\u021bi sec\u021biunea Programe din {programLink}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.upgradeFootnote",
+        "definition": "Accesul la acest curs \u0219i materialele sale sunt disponibile pe tabloul de bord p\u00e2n\u0103 la {expirationDate}. Pentru a extinde accesul, {upgradeLink}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.programs.applyForCredit",
+        "definition": "Aplica\u021bi pentru credit",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateHeader.downloadable",
+        "definition": "Certificatul dumneavoastr\u0103 este disponibil!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateHeader.notAvailable",
+        "definition": "Punctajul t\u0103u \u0219i informa\u021bii despre certificat vor fi disponibile \u00een cur\u00e2nd.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateBody.notAvailable.accessCertificate",
+        "definition": "Dac\u0103 a\u021bi ob\u021binut o not\u0103 de trecere, certificatul dvs. va fi eliberat automat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateBody.notAvailable.endDate",
+        "definition": "Notele finale \u0219i orice certificate ob\u021binute sunt programate s\u0103 fie disponibile dup\u0103 {endDate} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateHeader.unverified",
+        "definition": "Trebuie s\u0103 finaliza\u021bi verificarea pentru a primi certificatul.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateHeader.requestable",
+        "definition": "Felicit\u0103ri, v-a\u021bi calificat pentru un Certificat!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateHeader.upgradable",
+        "definition": "Face\u021bi upgrade pentru a ob\u021bine un certificat verificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.certificateImage",
+        "definition": "Exemplu de certificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.completedCourseHeader",
+        "definition": "\u021ai-ai terminat cursul.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.congratulationsHeader",
+        "definition": "Felicit\u0103ri!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.congratulationsImage",
+        "definition": "Patru oameni ridic\u00e2nd m\u00e2inile \u00een semn de s\u0103rb\u0103toare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.courseInProgressDescription",
+        "definition": "Se pare c\u0103 exist\u0103 mai mult con\u021binut \u00een acest curs care va fi lansat \u00een viitor. C\u0103uta\u021bi actualiz\u0103ri prin e-mail sau verifica\u021bi din nou cursul dvs. pentru a afla c\u00e2nd va fi disponibil acest con\u021binut.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.courseInProgressHeader",
+        "definition": "Mai mult con\u021binut vine \u00een cur\u00e2nd!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.dashboardLink",
+        "definition": "Pagina cursantului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.endOfCourseDescription",
+        "definition": "Din p\u0103cate, \u00een prezent nu sunte\u021bi eligibil pentru un certificat. Trebuie s\u0103 primi\u021bi o not\u0103 de promovare pentru a fi eligibil pentru un certificat.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.endOfCourseHeader",
+        "definition": "Ai ajuns la finalul cursului!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.endOfCourseTitle",
+        "definition": "Sf\u00e2r\u0219itul cursului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.idVerificationSupportLink",
+        "definition": "Afla\u021bi mai multe despre verificarea ID-ului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.linkedinAddToProfileButton",
+        "definition": "Adaug\u0103 profilului de LinkedIn",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.programs.microBachelors.learnMore",
+        "definition": "Afla\u021bi mai multe despre modul \u00een care acreditarea dumneavoastr\u0103 MicroBachelors poate fi solicitat\u0103 pentru credit.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.programs.microMasters.learnMore",
+        "definition": "Afla\u021bi mai multe despre procesul de aplicare a certificatelor MicroMasters la diplome de master.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.programs.microMasters.mastersMessage",
+        "definition": "Dac\u0103 sunte\u021bi interesat s\u0103 utiliza\u021bi certificatul MicroMasters pentru un program de masterat, pute\u021bi \u00eencepe ast\u0103zi!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.navigation.complete.button",
+        "definition": "Finalizeaz\u0103 cursul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.nextButton.endOfCourse",
+        "definition": "Urm\u0103torul (sf\u00e2r\u0219itul cursului)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.profileLink",
+        "definition": "Profil",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.programs.lastCourse",
+        "definition": "Ai terminat ultimul curs \u00een {title} !",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.requestCertificateBodyText",
+        "definition": "Pentru a v\u0103 accesa certificatul, solicita\u021bi-l mai jos.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.requestCertificateButton",
+        "definition": "Solicita\u021bi certificatul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.searchOurCatalogLink",
+        "definition": "C\u0103uta\u021bi catalogul nostru",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.shareMessage",
+        "definition": "\u00cemp\u0103rt\u0103\u0219e\u0219te-\u021bi succesul pe re\u021belele sociale sau prin e-mail.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.social.shareCompletionMessage",
+        "definition": "Tocmai am completat {titlu} cu {platforma}!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.upgradeButton",
+        "definition": "Actualiza\u021bi acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.upgradeLink",
+        "definition": "\u00eembun\u0103t\u0103\u021be\u0219te acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.verificationPending",
+        "definition": "Verificarea dvs. de identitate este \u00een a\u0219teptare \u0219i certificatul dvs. va fi disponibil dup\u0103 aprobare.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.verifiedCertificateSupportLink",
+        "definition": "Afla\u021bi mai multe despre certificatele verificate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.verifyIdentityButton",
+        "definition": "Verifica\u021bi ID-ul acum",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseCelebration.viewCertificateButton",
+        "definition": "Vezi certificatul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.viewCourseScheduleButton",
+        "definition": "Vezi orarul cursurilor",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.viewCoursesButton",
+        "definition": "Vizualiza\u021bi cursurile mele",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseExit.viewGradesButton",
+        "definition": "Vede\u021bi notele",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.allRightsReserved.text",
+        "definition": "Toate drepturile rezervate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.creativeCommons.terms.preamble",
+        "definition": "Con\u021binut licen\u021biat Creative Commons, cu urm\u0103torii termeni:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.creativeCommons.terms.by",
+        "definition": "Atribuire",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.creativeCommons.terms.nc",
+        "definition": "Necomercial",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.creativeCommons.terms.nd",
+        "definition": "F\u0103r\u0103 derivate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.creativeCommons.terms.sa",
+        "definition": "\u00cemp\u0103r\u021bit egal",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.creativeCommons.terms.zero",
+        "definition": "F\u0103r\u0103 termeni",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.license.creativeCommons.text",
+        "definition": "Unele drepturi rezervate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "discussions.sidebar.title",
+        "definition": "Discu\u021bii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "discussions.notification.tray.container",
+        "definition": "Tava de discu\u021bii \u0219i notific\u0103ri",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "tray.close.button",
+        "definition": "\u00cenchide\u021bi tava",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "sidebar.open.button",
+        "definition": "Afi\u0219a\u021bi tava din bara lateral\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "responsive.close.sidebar",
+        "definition": "\u00cenapoi la curs",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.header.h2.placeholder",
+        "definition": "Titlurile de nivelul 2 pot fi create de furnizorii de cursuri \u00een viitor.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.load.failure",
+        "definition": "A ap\u0103rut o eroare la \u00eenc\u0103rcarea acestui curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.loading.honor.codk",
+        "definition": "Se \u00eencarc\u0103 mesajele cu codul de onoare...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.loading.content.lock",
+        "definition": "Se \u00eencarc\u0103 mesaje de con\u021binut blocat ...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.loading.learning.sequence",
+        "definition": "Se \u00eencarc\u0103 secven\u021ba de \u00eenv\u0103\u021bare ...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.no.content",
+        "definition": "Nu exist\u0103 con\u021binut aici.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.share.button",
+        "definition": "Distribui\u021bi acest con\u021binut",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.share.modal.title",
+        "definition": "Titlu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.share.modal.body",
+        "definition": "Copia\u021bi linkul de mai jos pentru a partaja acest con\u021binut.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.share.quote",
+        "definition": "Iat\u0103 un clip distractiv de la o clas\u0103 pe care o iau la @edXonline.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.cert.earnedNotAvailable",
+        "definition": "Acest curs se \u00eencheie pe {courseEndDateFormatted} . Notele finale \u0219i orice certificate ob\u021binute sunt programate s\u0103 fie disponibile dup\u0103 {certificateAvailableDate} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "cert.alert.earned.unavailable.header.v2",
+        "definition": "Punctajul t\u0103u \u0219i informa\u021bii despre certificat vor fi disponibile \u00een cur\u00e2nd.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "cert.alert.earned.ready.header",
+        "definition": "Felicit\u0103ri! Certificatul dvs. este gata.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "cert.alert.notPassing.header",
+        "definition": "Nu sunte\u021bi \u00eenc\u0103 eligibil pentru un certificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "cert.alert.notPassing.button",
+        "definition": "Vede\u021bi notele",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.end.short",
+        "definition": "Acest curs se \u00eencheie {time Remaining} la {course EndTime}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.end.long",
+        "definition": "Acest curs se \u00eencheie {timeRemaining} pe {courseEndDate} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.privateCourse.signInOrRegister",
+        "definition": "{signIn} sau {register} \u0219i apoi \u00eenscrie\u021bi-v\u0103 la acest curs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "alert.enroll",
+        "definition": "pentru a accesa cursul complet.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.scheduled-content.heading",
+        "definition": "Mai mult con\u021binut vine \u00een cur\u00e2nd!",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.scheduled-content.body",
+        "definition": "Acest curs va avea mai mult con\u021binut lansat la o dat\u0103 viitoare. Fi\u021bi aten\u021bi la actualiz\u0103ri prin e-mail sau verifica\u021bi din nou acest curs pentru actualiz\u0103ri.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learning.outline.alert.scheduled-content.button",
+        "definition": "Vezi orarul cursurilor",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.ungradedAlert",
+        "definition": "Evalu\u0103rile f\u0103r\u0103 punctaj pentru absolvire le vizualizezi {outlineLink}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "progress.footnotes.droppableAssignments",
+        "definition": "Cel mai mic {numDroppable, plural, one{# {assignmentType} scor is} other{# {assignmentType} scors are}} a sc\u0103zut.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instructions.button.label",
+        "definition": "Instruc\u021biuni pentru calculator",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instructions",
+        "definition": "Pentru informa\u021bii detaliate, consulta\u021bi {link-ul expresiilor}.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instructions.support.title",
+        "definition": " Ajutor",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instructions.useful.tips",
+        "definition": "Sfaturi folositoare:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.hint1",
+        "definition": "Folosi\u021bi parantezele () pentru a clarifica expresiile. Pute\u021bi folosi paranteze \u00een interiorul altor paranteze.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.hint2",
+        "definition": "Nu folosi\u021bi spa\u021bii \u00een expresii.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.hint3",
+        "definition": "Pentru constante, indica\u021bi \u00eenmul\u021birea \u00een mod explicit (exemplu: 5*c).",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.hint4",
+        "definition": "Pentru afixe, introduce\u021bi num\u0103rul \u0219i afixa\u021bi f\u0103r\u0103 spa\u021biu (exemplu: 5c).",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.hint5",
+        "definition": "Pentru func\u021bii, tasta\u021bi numele func\u021biei, apoi expresia dintre paranteze.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.heading",
+        "definition": "Pentru a utiliza",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.type.heading",
+        "definition": "Tip",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.examples.heading",
+        "definition": "Exemple",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.numbers",
+        "definition": "Numerele",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.numbers.type1",
+        "definition": "numere \u00eentregi",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.numbers.type2",
+        "definition": "Frac\u021bii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.numbers.type3",
+        "definition": "zecimale",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.operators",
+        "definition": "Operatori",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.operators.type1",
+        "definition": "(adunare, scadere, inmultire, impartire)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.operators.type2",
+        "definition": "(ridica\u021bi la putere)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.operators.type3",
+        "definition": "(rezisten\u021be paralele)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.constants",
+        "definition": "constante",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.affixes",
+        "definition": "Afixele",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.affixes.type",
+        "definition": "semn procentual (%)",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.basic.functions",
+        "definition": "Func\u021bii de baz\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.trig.functions",
+        "definition": "Func\u021bii trigonometrice",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.scientific.notation",
+        "definition": "Nota\u021bie \u0219tiin\u021bific\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.scientific.notation.type1",
+        "definition": "{exponent Syntax} \u0219i exponentul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.scientific.notation.type2",
+        "definition": "{notation Syntax} nota\u021bie",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.instruction.table.to.use.scientific.notation.type3",
+        "definition": "{Notation Syntax} \u0219i exponentul",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.button.label",
+        "definition": "Calculator",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.input.field.label",
+        "definition": "Intrare calculator",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.submit.button.label",
+        "definition": "Calcula",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.result.field.label",
+        "definition": "Rezultatul Calculatorului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "calculator.result.field.placeholder",
+        "definition": "Rezultat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "notes.button.show",
+        "definition": "Arat\u0103 noti\u021be",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "notes.button.hide",
+        "definition": "Ascunde noti\u021be",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.contentLock.content.locked",
+        "definition": "Con\u021binut blocat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.contentLock.complete.prerequisite",
+        "definition": "Trebuie s\u0103 completa\u021bi condi\u021bia prealabil\u0103: &#39;&#39; {prereqSectionName} &#39;&#39; pentru a accesa acest con\u021binut.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.contentLock.goToSection",
+        "definition": "Accesa\u021bi sec\u021biunea Cerin\u021be preliminare",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.hiddenAfterDue.header",
+        "definition": "Data limit\u0103 pentru aceast\u0103 tem\u0103 a fost dep\u0103\u0219it\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.hiddenAfterDue.description",
+        "definition": "Deoarece scaden\u021ba a trecut, aceast\u0103 sarcin\u0103 nu mai este disponibil\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.hiddenAfterDue.gradeAvailable",
+        "definition": "Dac\u0103 a\u021bi finalizat aceast\u0103 tem\u0103, nota dvs. este disponibil\u0103 pe {progressPage} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.hiddenAfterDue.progressPage",
+        "definition": "pagina de progres",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.honorCode.content",
+        "definition": "Onestitatea \u0219i integritatea academic\u0103 sunt importante pentru {siteName} \u0219i pentru institu\u021biile care ofer\u0103 cursuri \u0219i programe pe site-ul {siteName} . F\u0103c\u00e2nd clic pe \u201eSunt de acord\u201d de mai jos, confirm c\u0103 am citit, \u00een\u021beles \u0219i c\u0103 voi respecta {link} pentru site-ul {siteName} .",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.honorCode.name",
+        "definition": "Cod de distinc\u021bie",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.honorCode.cancel",
+        "definition": "Anuleaz\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.honorCode.agree",
+        "definition": "Sunt de acord",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.lockPaywall.title",
+        "definition": "Temele notate sunt blocate",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.lockPaywall.content",
+        "definition": "Face\u021bi upgrade pentru a ob\u021bine acces la func\u021bii blocate precum aceasta \u0219i pentru a profita la maximum de cursul dvs.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.lockPaywall.content.pastExpiration",
+        "definition": "Termenul limit\u0103 de actualizare pentru acest curs a trecut. Pentru a face upgrade, \u00eenscrie\u021bi-v\u0103 la urm\u0103toarea sesiune disponibil\u0103.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.lockPaywall.courseDetails",
+        "definition": "Vede\u021bi detaliile cursului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.lockPaywall.example.alt",
+        "definition": "Exemplu de certificat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.lockPaywall.list.intro",
+        "definition": "C\u00e2nd face\u021bi upgrade, ave\u021bi:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.course.sequence.navigation.mobile.menu",
+        "definition": "{current} din {total}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.navigation.next.button",
+        "definition": "Urm\u0103tor",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.navigation.next.up.button",
+        "definition": "Urm\u0103torul: {title}",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "learn.sequence.navigation.previous.button",
+        "definition": "Anterior",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseOutline.loading",
+        "definition": "Se \u00eencarc\u0103...",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseOutline.toggle.button",
+        "definition": "Comuta\u021bi tava de contur al cursului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseOutline.tray.title",
+        "definition": "Structura cursului",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseOutline.completedUnit",
+        "definition": "Unitate finalizat\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "courseOutline.incompleteUnit",
+        "definition": "Unitate incomplet\u0103",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "discussions.sidebar.open.button",
+        "definition": "Afi\u0219a\u021bi tava de discu\u021bii",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "instructor.toolbar.view.course.in",
+        "definition": "Vizualiza\u021bi cursul \u00een:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "instructor.toolbar.insights",
+        "definition": "Perspective",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    },
+    {
+        "term": "instructor.toolbar.view.as",
+        "definition": "Vezi acest curs ca:",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": "",
+        "fuzzy": 0
+    }
+]
