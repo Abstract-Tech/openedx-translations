@@ -5250,7 +5250,7 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/subject.txt
 #, python-format
 msgid "Action Required: Activate your %(platform_name)s account"
-msgstr "Acțiune necesară: Activați-vă contul de pe %(platform_name)s"
+msgstr "Activează-ți acum contul de pe %(platform_name)s"
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
 msgid "Create Password"
@@ -11222,7 +11222,7 @@ msgstr "Toate cele bune, %(platform_name)s"
 
 #: openedx/core/djangoapps/user_api/templates/user_api/edx_ace/deletionnotificationmessage/email/subject.txt
 msgid "Your Account Has Been Queued For Deletion"
-msgstr "Contul tău este în curs de a fi șters"
+msgstr "Contul tău va fi șters de pe Predau Viitor Platforma de Cursuri"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 msgid "Password reset"
@@ -11264,7 +11264,7 @@ msgstr "Te rog să mergi la pagina următoare și să setezi o parolă nouă:"
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/subject.txt
 #, python-format
 msgid "Password reset on %(platform_name)s"
-msgstr "Resetarea parolei pe %(platform_name)s"
+msgstr "Schimbă parola pentru %(platform_name)s"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
 msgid "Password reset success"
@@ -11293,7 +11293,7 @@ msgstr "Bună, %(name)s,"
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/subject.txt
 #, python-format
 msgid "Password reset completed on %(platform_name)s"
-msgstr "Resetarea parolei a fost realizată pe %(platform_name)s"
+msgstr "Ți-ai schimbat parola pentru %(platform_name)s"
 
 #: openedx/core/djangoapps/user_authn/views/auto_auth.py
 msgid "Superuser creation not allowed"
