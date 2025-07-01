@@ -12167,6 +12167,7 @@ msgstr "Выберите язык"
 msgid "Discover New"
 msgstr "Откройте для себя новое"
 
+
 msgid "Bookmarks"
 msgstr "Закладки"
 
@@ -12181,3 +12182,30 @@ msgstr "Даты"
 
 msgid "Instructor"
 msgstr "Инструктор"
+
+msgid "Start Course"
+msgstr "Начать курс"
+
+msgid "Course handouts"
+msgstr "Дополнительные материалы"
+
+msgid "Congratulations! Your certificate is ready."
+msgstr "Поздравляем! Ваш сертификат готов."
+
+msgid "View my certificate"
+msgstr "Просмотреть мой сертификат"
+
+msgid "Resume course"
+msgstr "Возобновить курс"
+
+msgid "Pick up where you left off"
+msgstr "Продолжайте с того места, где остановились"
+
+msgid "Course Tools"
+msgid "Инструменты курса"
+
+msgid "Courses"
+msgstr "Курсы"
+
+msgid "Discover new"
+msgstr "Откройте для себя новое"
