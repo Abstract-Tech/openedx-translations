@@ -12202,7 +12202,7 @@ msgid "Pick up where you left off"
 msgstr "Продолжайте с того места, где остановились"
 
 msgid "Course Tools"
-msgid "Инструменты курса"
+msgstr "Инструменты курса"
 
 msgid "Courses"
 msgstr "Курсы"
