@@ -12137,3 +12137,16 @@ msgstr "Доступ к профилю этого пользователя ог�
 
 msgid "Expand all"
 msgstr "Развернуть всё"
+
+msgid "Course handouts"
+msgstr "Дополнительные материалы"
+
+msgid "course handouts"
+msgstr "Дополнительные материалы"
+
+msgid "Resume course"
+msgstr "Возобновить курс"
+
+
+msgid "Pick up where you left off"
+msgstr "Продолжайте с того места, где остановились"

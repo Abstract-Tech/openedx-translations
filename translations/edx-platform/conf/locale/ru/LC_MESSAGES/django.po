@@ -12189,6 +12189,9 @@ msgstr "Начать курс"
 msgid "Course handouts"
 msgstr "Дополнительные материалы"
 
+msgid "course handouts"
+msgstr "Дополнительные материалы"
+
 msgid "Congratulations! Your certificate is ready."
 msgstr "Поздравляем! Ваш сертификат готов."
 
@@ -12209,3 +12212,9 @@ msgstr "Курсы"
 
 msgid "Discover new"
 msgstr "Откройте для себя новое"
+
+msgid "Launch tour"
+msgstr "Стартовый тур"
+
+msgid "Expand all"
+msgstr "Развернуть всё"

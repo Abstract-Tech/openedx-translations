@@ -467,5 +467,7 @@
   "learn.sequence.navigation.next.button": "Вперёд",
   "learn.sequence.navigation.next.up.button": "Следующий: {title}",
   "learn.sequence.navigation.previous.button": "Назад",
-  "discussions.sidebar.open.button": "Показать панель обсуждений"
+  "discussions.sidebar.open.button": "Показать панель обсуждений",
+  "instructor.toolbar.view.as": "Посмотреть этот курс как",
+  "instructor.toolbar.view.course.in": "Посмотреть курс в"
 }
