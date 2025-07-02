@@ -12218,3 +12218,18 @@ msgstr "Стартовый тур"
 
 msgid "Expand all"
 msgstr "Развернуть всё"
+
+msgid "Course Info"
+msgstr "Информация о курсе"
+
+msgid "Extensions"
+msgstr "Расширения"
+
+msgid "Student Admin"
+msgstr "Студенческий администратор"
+
+msgid "Data Download"
+msgstr "Загрузка данных"
+
+msgid "Open Responses"
+msgstr "Открытые ответы"
