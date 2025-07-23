@@ -5860,10 +5860,11 @@ msgstr[3] "{num_points} возможно 0 баллов (без оценки)"
 #: xmodule/js/src/capa/display.js:269
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned} / {possible} балл (оцененный)"
-msgstr[1] "{earned} / {possible} баллов (оценивается)"
-msgstr[2] "{earned} / {possible} баллов (оценивается)"
-msgstr[3] "{earned} / {possible} баллов (оценивается)"
+msgstr[0] "{earned} / {possible} балл (зачёт)"
+msgstr[1] "{earned} / {possible} баллов (зачёт)"
+msgstr[2] "{earned} / {possible} баллов (зачёт)"
+msgstr[3] "{earned} / {possible} баллов (зачёт)"
+
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -12165,3 +12166,6 @@ msgstr "Загрузка данных"
 
 msgid "Open Responses"
 msgstr "Открытые ответы"
+
+msgid "Select an option"
+msgstr "Выбрать вариант"

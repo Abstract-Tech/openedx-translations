@@ -744,10 +744,11 @@ msgstr "Неверных"
 #: public/js/drag_and_drop.js:610
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned} / {possible} балл (оцененный)"
-msgstr[1] "{earned} / {possible} баллов (оценивается)"
-msgstr[2] "{earned} / {possible} баллов (оценивается)"
-msgstr[3] "{earned} / {possible} баллов (оценивается)"
+msgstr[0] "{earned} / {possible} балл (зачёт)"
+msgstr[1] "{earned} / {possible} баллов (зачёт)"
+msgstr[2] "{earned} / {possible} баллов (зачёт)"
+msgstr[3] "{earned} / {possible} баллов (зачёт)"
+
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
