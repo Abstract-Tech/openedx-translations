@@ -12169,3 +12169,6 @@ msgstr "Открытые ответы"
 
 msgid "Select an option"
 msgstr "Выбрать вариант"
+
+msgid "passed"
+msgstr "зачёт"
