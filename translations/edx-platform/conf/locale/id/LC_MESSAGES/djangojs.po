@@ -11896,3 +11896,18 @@ msgstr "Anda sekarang sedang membagi profil yang terbatas"
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
 msgid "This learner is currently sharing a limited profile."
 msgstr "Peserta ini membagikan profil yang terbatas."
+
+msgid "not attempted"
+msgstr "belum dicoba"
+
+msgid "completed"
+msgstr "selesai"
+
+msgid "passed"
+msgstr "lulus"
+
+msgid "failed"
+msgstr "gagal"
+
+msgid "unknown"
+msgstr "tidak diketahui"
