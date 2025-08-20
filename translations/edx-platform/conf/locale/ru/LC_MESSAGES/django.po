@@ -12239,3 +12239,15 @@ msgstr "Выбрать вариант"
 
 msgid "passed"
 msgstr "зачёт"
+
+msgid "not attempted"
+msgstr "не начато"
+
+msgid "completed"
+msgstr "завершено"
+
+msgid "failed"
+msgstr "не зачет"
+
+msgid "unknown"
+msgstr "неизвестно"

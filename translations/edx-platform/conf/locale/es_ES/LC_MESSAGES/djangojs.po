@@ -12167,3 +12167,18 @@ msgstr ""
 
 msgid "Register for free"
 msgstr "Regístrate gratis"
+
+msgid "not attempted"
+msgstr "no intentado"
+
+msgid "completed"
+msgstr "completado"
+
+msgid "passed"
+msgstr "aprobado"
+
+msgid "failed"
+msgstr "reprobado"
+
+msgid "unknown"
+msgstr "desconocido"

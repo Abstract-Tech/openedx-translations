@@ -12170,5 +12170,17 @@ msgstr "Открытые ответы"
 msgid "Select an option"
 msgstr "Выбрать вариант"
 
+msgid "not attempted"
+msgstr "не начато"
+
+msgid "completed"
+msgstr "завершено"
+
 msgid "passed"
-msgstr "зачёт"
+msgstr "зачет"
+
+msgid "failed"
+msgstr "не зачет"
+
+msgid "unknown"
+msgstr "неизвестно"

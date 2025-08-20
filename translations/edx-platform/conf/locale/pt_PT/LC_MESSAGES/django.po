@@ -27050,3 +27050,18 @@ msgstr "Selecione um idioma"
 
 msgid "Create an account for free"
 msgstr "Crie uma conta gratuitamente"
+
+msgid "not attempted"
+msgstr "não tentado"
+
+msgid "completed"
+msgstr "concluído"
+
+msgid "passed"
+msgstr "aprovado"
+
+msgid "failed"
+msgstr "reprovado"
+
+msgid "unknown"
+msgstr "desconhecido"

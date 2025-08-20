@@ -12139,3 +12139,18 @@ msgstr "O seu perfil está atualmente a ser partilhado com restrições."
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
 msgid "This learner is currently sharing a limited profile."
 msgstr "Este estudante está atualmente a partilhar um perfil com restrições."
+
+msgid "not attempted"
+msgstr "não tentado"
+
+msgid "completed"
+msgstr "concluído"
+
+msgid "passed"
+msgstr "aprovado"
+
+msgid "failed"
+msgstr "reprovado"
+
+msgid "unknown"
+msgstr "desconhecido"
