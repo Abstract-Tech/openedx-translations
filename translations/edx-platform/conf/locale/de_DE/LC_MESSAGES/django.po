@@ -3,29 +3,29 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
 # Eden Huthmacher, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -2336,6 +2336,10 @@ msgstr "Blog"
 msgid "Contact Us"
 msgstr "Kontaktieren Sie uns"
 
+#: impower-indigo/tutorindigo/plugin.py:31
+msgid "About Us"
+msgstr "Über uns"
+
 #: lms/djangoapps/branding/api.py:256 lms/djangoapps/branding/api.py:292
 msgid "Help Center"
 msgstr "Hilfe-Center"
@@ -2378,6 +2382,12 @@ msgstr "{platform_name} Für Unternehmen"
 #: themes/stanford-style/lms/templates/static_templates/about.html:43
 msgid "Contact"
 msgstr "Kontakt"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:50
+#: env/build/openedx/themes/impower-theme/lms/templates/header/navbar-not-authenticated.html:53
+#: env/build/openedx/themes/impower-theme/lms/templates/header/navbar-not-authenticated.html:57
+msgid "Register for free"
+msgstr "Kostenlos registrieren"
 
 #: lms/djangoapps/branding/api.py:294 lms/djangoapps/branding/api.py:373
 #: themes/stanford-style/lms/templates/footer.html:16
@@ -22512,6 +22522,9 @@ msgstr "Copyright"
 #, python-brace-format
 msgid "Copyright {year}. All rights reserved."
 msgstr "Copyright {year}. Alle Rechte vorbehalten."
+
+msgid "Copyrights {year}. All Rights Reserved."
+msgstr "Copyrights {year}. Alle Rechte vorbehalten."
 
 #: themes/stanford-style/lms/templates/index.html:16
 msgid "For anyone, anywhere, anytime"

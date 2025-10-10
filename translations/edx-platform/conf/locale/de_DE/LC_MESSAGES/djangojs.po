@@ -3,16 +3,16 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -1197,7 +1197,7 @@ msgstr "Diese {parentCategory} hat keine {childCategory}"
 #: cms/templates/js/group-configuration-details.underscore:88
 #: cms/templates/js/partition-group-details.underscore:63
 msgid "Course Outline"
-msgstr "Kursübersicht"
+msgstr "Kursübersicht sdscs"
 
 #: cms/static/js/views/paged_container.js:260
 msgid "Date added"
