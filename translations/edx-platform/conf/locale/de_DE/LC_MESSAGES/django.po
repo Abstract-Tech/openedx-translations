@@ -22822,10 +22822,6 @@ msgstr "Code Editor"
 msgid "View Schedule"
 msgstr "Zu den Terminen"
 
-#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index.html:24
-msgid "Learn More"
-msgstr "Mehr erfahren"
-
 #: impower-indigo/tutorindigo/templates/indigo/lms/templates/index.html:38
 msgid "Our Webinars"
 msgstr "Unsere Webinare"
