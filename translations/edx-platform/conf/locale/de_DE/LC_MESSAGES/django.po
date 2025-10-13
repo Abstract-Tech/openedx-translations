@@ -5817,7 +5817,7 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:47
 #: themes/stanford-style/lms/templates/index.html:26
 msgid "Search"
-msgstr "Suche"
+msgstr "Suchen"
 
 #: lms/templates/wiki/plugins/attachments/index.html:65
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
@@ -22817,3 +22817,67 @@ msgstr "Geben Sie hier Ihren Copyright-Text ein!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Code Editor"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index.html:23
+msgid "View Schedule"
+msgstr "Zu den Terminen"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index.html:24
+msgid "Learn More"
+msgstr "Mehr erfahren"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index.html:38
+msgid "Our Webinars"
+msgstr "Unsere Webinare"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index_overlay.html:6
+msgid "Learn from the"
+msgstr "Lernen Sie von den"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index_overlay.html:8
+msgid "Industry Experts"
+msgstr "Experten aus der Branche"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Kursübersicht"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Entfalte dein Potenzial: Entdecke noch heute neue Kurse!"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid ""
+"Explore a world of knowledge and enhance your skills with our diverse range "
+"of courses"
+msgstr ""
+"Entdecke eine Welt voller Wissen und erweitere deine Fähigkeiten mit unserem "
+"vielfältigen Kursangebot."
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filter"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:67
+msgid "course"
+msgstr "Kurs"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/header/theme-toggle-button.html:13
+msgid "Switch to Dark Mode"
+msgstr "Zum Dunkelmodus wechseln"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:98
+msgid "Powered by:"
+msgstr "Bereitgestellt von:"
+
+msgid "Runs on Tutor"
+msgstr "Läuft auf Tutor"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:57
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:123
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Urheberrecht ©{year}. Alle Rechte vorbehalten."
+
+msgid "Discover courses"
+msgstr "Entdecken Sie Kurse"
