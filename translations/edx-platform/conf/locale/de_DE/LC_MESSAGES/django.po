@@ -22877,3 +22877,6 @@ msgstr "Urheberrecht ©{year}. Alle Rechte vorbehalten."
 
 msgid "Discover courses"
 msgstr "Entdecken Sie Kurse"
+
+msgid "Discover"
+msgstr "Entdecken Sie Kurse"
