@@ -22880,3 +22880,6 @@ msgstr "Entdecken Sie Kurse"
 
 msgid "Discover"
 msgstr "Entdecken Sie Kurse"
+
+msgid "Explore course"
+msgstr "Kursübersicht"

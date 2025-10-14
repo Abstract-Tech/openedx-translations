@@ -9027,6 +9027,12 @@ msgstr "Verlängere Abgabetermin"
 msgid "Verification Deadline"
 msgstr "Verifizierungsfrist"
 
+#: lms/static/js/learner_dashboard/RenderedContent.js:??
+msgid "Viewing %s course"
+msgid_plural "Viewing %s courses"
+msgstr[0] "%s Kurs wird angezeigt"
+msgstr[1] "%s Kurse werden angezeigt"
+
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:25
 msgid "Enrollment Date"
 msgstr "Einschreibungsdatum"
