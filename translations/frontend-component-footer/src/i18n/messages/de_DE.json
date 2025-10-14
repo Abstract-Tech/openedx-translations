@@ -28,6 +28,8 @@
   "footer.mobileApp.google": "Laden Sie die mobile edX App dem Google Play Store herunter",
   "footer.logo.altText": "edX Logo",
   "footer.logo.ariaLabel": "edX Start",
+  "footer.poweredby.text": "Bereitgestellt von",
+  "footer.copyright.text": "© 2019—2025 Impower GmbH. Alle Rechte vorbehalten, sofern nicht anders angegeben. edX, Open edX und ihre jeweiligen Logos sind eingetragene Marken von edX Inc. Datenschutzrichtlinie",
   "footer.ariaLabel": "Fußzeile der Seite",
   "authoring.footer.help.openHelp.button.label": "",
   "authoring.footer.help.closeHelp.button.label": "",
