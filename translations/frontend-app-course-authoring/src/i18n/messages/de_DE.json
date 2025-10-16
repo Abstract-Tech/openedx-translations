@@ -312,7 +312,7 @@
   "course-authoring.course-outline.card.menu.duplicate": "Dupliziere",
   "course-authoring.course-outline.card.menu.moveup": "Bewegen Sie sich nach oben",
   "course-authoring.course-outline.card.menu.movedown": "Sich abwärts bewegen",
-  "course-authoring.course-outline.card.menu.delete": "In die Zwischenablage kopieren",
+  "course-authoring.course-outline.card.menu.delete": "Löschen",
   "course-authoring.course-outline.card.menu.proctoring-settings": "Überwachungseinstellungen",
   "course-authoring.course-outline.card.menu.proctoring-settings-tooltip": "Überwachungseinstellungen",
   "course-authoring.course-outline.card.badge.discussionEnabled": "Diskussionen aktiviert",
