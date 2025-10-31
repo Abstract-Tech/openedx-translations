@@ -124,6 +124,7 @@
   "registration.password.label": "Parole",
   "registration.country.label": "Valsts/reģions",
   "registration.opt.in.label": "Es piekrītu, ka {siteName} var sūtīt man mārketinga ziņojumus.",
+  "registration.email.spam.notice": "Aktivācijas e-pastam drīzumā vajadzētu nonākt jūsu iesūtnē. Ja to neredzat, lūdzu, pārbaudiet surogātpasta vai nevēlamā pasta mapi. Pēc e-pasta aktivizēšanas varēsiet piekļūt saviem bezmaksas kursiem.",
   "help.text.name": "Šis vārds tiks izmantots visiem jūsu nopelnītajiem sertifikātiem.",
   "help.text.username.1": "Vārds, kas jūs identificēs kursos.",
   "help.text.username.2": "To vēlāk nevar mainīt.",

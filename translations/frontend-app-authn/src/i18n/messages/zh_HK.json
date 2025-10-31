@@ -124,6 +124,7 @@
   "registration.password.label": "密碼",
   "registration.country.label": "國家/地區",
   "registration.opt.in.label": "我同意{siteName}可以向我發送行銷訊息。",
+  "registration.email.spam.notice": "啟用電郵很快會送達你的收件箱。如果找不到，請檢查垃圾郵件或廣告郵件資料夾。啟用電郵後，你就可以存取你的免費課程。",
   "help.text.name": "您獲得的任何證書都將使用此名稱。",
   "help.text.username.1": "該名稱將在您的課程中識別您的身分。",
   "help.text.username.2": "這之後將不能被改變。",

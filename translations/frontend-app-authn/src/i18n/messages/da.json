@@ -124,6 +124,7 @@
   "registration.password.label": "Adgangskode",
   "registration.country.label": "Land/region",
   "registration.opt.in.label": "Jeg accepterer, at {siteName} må sende mig marketingmeddelelser.",
+  "registration.email.spam.notice": "Bekræftelsesmailen burde lande i din indbakke om lidt. Hvis du ikke kan se den, så tjek venligst din spam- eller uønsketmappe. Når du har aktiveret din e-mail, får du adgang til dine gratis kurser.",
   "help.text.name": "Dette navn vil blive brugt af alle certifikater, du optjener.",
   "help.text.username.1": "Navnet, der vil identificere dig på dine kurser.",
   "help.text.username.2": "Dette kan ikke ændres senere.",

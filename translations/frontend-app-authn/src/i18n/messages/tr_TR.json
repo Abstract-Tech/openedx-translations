@@ -124,6 +124,7 @@
   "registration.password.label": "Parola",
   "registration.country.label": "Ülke/Bölge",
   "registration.opt.in.label": "{siteName} platformunun bana pazarlama iletileri göndermesini kabul ediyorum.",
+  "registration.email.spam.notice": "Etkinleştirme e-postası kısa süre içinde gelen kutunuza ulaşacaktır. Onu görmezseniz lütfen spam veya gereksiz klasörünü kontrol edin. E-postanızı etkinleştirdikten sonra ücretsiz kurslarınıza erişebilirsiniz.",
   "help.text.name": "Bu isim kazanacağınız sertifikalarda kullanılacak.",
   "help.text.username.1": "Derslerinizde görüntülenecek ad.",
   "help.text.username.2": "Bu sonradan değiştirilemez.",

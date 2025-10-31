@@ -124,6 +124,7 @@
   "registration.password.label": "Kata Sandi",
   "registration.country.label": "Negara/Wilayah",
   "registration.opt.in.label": "Saya setuju bahwa {siteName} dapat mengirimkan pesan pemasaran kepada saya.",
+  "registration.email.spam.notice": "Email aktivasi akan segera tiba di kotak masuk Anda. Jika tidak menemukannya, harap periksa folder spam atau junk. Setelah mengaktifkan email Anda, Anda bisa mengakses kursus gratis Anda.",
   "help.text.name": "Nama ini akan digunakan oleh sertifikat yang Anda peroleh.",
   "help.text.username.1": "Nama yang akan mengidentifikasi Anda dalam kursus Anda.",
   "help.text.username.2": "Ini tidak dapat diubah nanti.",

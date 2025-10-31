@@ -124,6 +124,7 @@
   "registration.password.label": "密码",
   "registration.country.label": "国家/地区",
   "registration.opt.in.label": "我同意 {siteName} 可以向我发送课程相关推广信息。",
+  "registration.email.spam.notice": "激活邮件很快就会发送到你的收件箱。如果没有看到，请检查垃圾邮件或广告邮件文件夹。激活邮箱后，你就可以访问免费的课程。",
   "help.text.name": "您获得的任何证书都将使用此名称。",
   "help.text.username.1": "此名称将会用于您在课程中的身份识别。",
   "help.text.username.2": "过后无法更改。",

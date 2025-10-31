@@ -124,6 +124,7 @@
   "registration.password.label": "Nenosiri",
   "registration.country.label": "Nchi/Mkoa",
   "registration.opt.in.label": "Ninakubali kwamba {siteName} inaweza kunitumia ujumbe wa uuzaji.",
+  "registration.email.spam.notice": "Barua pepe ya uanzishaji itafika kwenye kisanduku chako cha barua hivi punde. Ikiwa huiyoni, tafadhali angalia folda yako ya barua taka au spam. Baada ya kuamilisha barua pepe yako, unaweza kufikia kozi zako za bure.",
   "help.text.name": "Jina hili litatumiwa na vyeti vyovyote utakavyopata.",
   "help.text.username.1": "Jina litakalokutambulisha katika kozi zako.",
   "help.text.username.2": "Hii haiwezi kubadilishwa baadaye.",

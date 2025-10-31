@@ -124,6 +124,7 @@
   "registration.password.label": "Parol",
   "registration.country.label": "Mamlakat/mintaqa",
   "registration.opt.in.label": "Men {siteName} menga marketing xabarlarini yuborishiga roziman.",
+  "registration.email.spam.notice": "Faollashtirish xati tez orada kiruvchi xabarlar qutingizga yetib boradi. U ko'rinmasa, iltimos, spam yoki keraksiz xatlar papkangizni tekshiring. Elektron pochtangizni faollashtirgach, bepul kurslaringizga kira olasiz.",
   "help.text.name": "Bu nom siz olgan har qanday sertifikatlar tomonidan ishlatiladi.",
   "help.text.username.1": "Kurslaringizda sizni aniqlaydigan ism.",
   "help.text.username.2": "Buni keyinroq o'zgartirib bo'lmaydi.",

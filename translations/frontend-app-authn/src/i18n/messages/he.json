@@ -124,6 +124,7 @@
   "registration.password.label": "סיסמה",
   "registration.country.label": "מדינה/אזור",
   "registration.opt.in.label": "אני מסכים ש- {siteName} עשוי לשלוח לי הודעות שיווקיות.",
+  "registration.email.spam.notice": "דוא\"ל ההפעלה אמור להגיע לתיבת הדואר הנכנס שלך בקרוב. אם אינך רואה אותו, בדוק את תיקיית הספאם או דואר הזבל. לאחר שתפעיל את הדוא\"ל שלך, תוכל לגשת לקורסים החינמיים שלך.",
   "help.text.name": "השם הזה ישמש את כל התעודות שתקבל.",
   "help.text.username.1": "השם שיזהה אותך בקורסים שלך.",
   "help.text.username.2": "לא ניתן לשנות זאת מאוחר יותר.",

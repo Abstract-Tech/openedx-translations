@@ -124,6 +124,7 @@
   "registration.password.label": "Mật khẩu",
   "registration.country.label": "Quốc gia/Khu vực",
   "registration.opt.in.label": "Tôi đồng ý rằng {siteName} có thể gửi cho tôi các tin nhắn tiếp thị.",
+  "registration.email.spam.notice": "Email kích hoạt sẽ sớm được gửi đến hộp thư đến của bạn. Nếu không thấy, vui lòng kiểm tra thư mục spam hoặc thư rác. Sau khi kích hoạt email, bạn có thể truy cập các khóa học miễn phí của mình.",
   "help.text.name": "Tên này sẽ được sử dụng bởi mọi chứng chỉ mà bạn kiếm được.",
   "help.text.username.1": "Tên sẽ nhận dạng bạn trong các khóa học của bạn.",
   "help.text.username.2": "Điều này không thể được thay đổi sau này.",
