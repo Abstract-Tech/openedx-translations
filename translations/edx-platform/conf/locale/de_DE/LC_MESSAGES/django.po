@@ -5926,6 +5926,10 @@ msgstr "ACE gebräuchliche Bezeichnung"
 msgid "Go to %(platform_name)s Home Page"
 msgstr "Zur %(platform_name)s Startseite gehen"
 
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
+msgid "My Account"
+msgstr "Mein Konto"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:156
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:100
 #, python-format
@@ -8073,6 +8077,9 @@ msgstr "Anmelden"
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:176
 msgid "Our mailing address is"
+msgstr "Unsere Postanschrift lautet"
+
+msgid "Our mailing address is:"
 msgstr "Unsere Postanschrift lautet"
 
 #: xmodule/annotatable_block.py:48
@@ -22883,3 +22890,86 @@ msgstr "Entdecken Sie Kurse"
 
 msgid "Explore course"
 msgstr "Kursübersicht"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:13
+#, python-format
+msgid ""
+"This is a routed Account Activation email for %(routed_user)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
+msgstr ""
+"Dies ist eine weitergeleitete Kontoaktivierungs-E-Mail für %(routed_user)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:23
+msgid "Account activation"
+msgstr "Kontoaktivierung"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:27
+#, python-format
+msgid ""
+"You're almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"Fast geschafft! Nutzen Sie den nachfolgenden Link, um Ihr Konto zu "
+"aktivieren und auf die vielseitigen, hochwertigen %(platform_name)s-Kurse "
+"zuzugreifen. Beachten Sie, dass Sie sich erst wieder anmelden können, "
+"nachdem Ihr Konto aktiviert wurde."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:33
+msgid "Activate your account"
+msgstr "Konto aktivieren"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:42
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:6
+#, python-format
+msgid "Enjoy learning with %(platform_name)s."
+msgstr "Viel Spaß beim Lernen mit %(platform_name)s."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:50
+#, python-format, python-brace-format
+msgid ""
+"If you need help, please use our web form at "
+"{start_anchor_web}%(support_url)s{end_anchor} or email "
+"{start_anchor_email}%(support_email)s{end_anchor}."
+msgstr ""
+"Wenn Sie Hilfe benötigen, verwenden Sie bitte unser Webformular unter "
+"{start_anchor_web}%(support_url)s{end_anchor} oder senden Sie eine E-Mail an "
+"{start_anchor_email}%(support_email)s{end_anchor}."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:64
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:10
+#, python-format
+msgid ""
+"This email message was automatically sent by %(lms_url)s because someone "
+"attempted to create an account on %(platform_name)s using this email address."
+msgstr ""
+"Diese E-Mail wurde automatisch von %(lms_url)s gesendet, weil jemand "
+"versucht hat, ein %(platform_name)s-Konto mit dieser E-Mail-Adresse zu "
+"erstellen."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:2
+#, python-format
+msgid ""
+"You’re almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"Fast geschafft! Nutzen Sie den untenstehenden Link, um Ihr Konto zu "
+"aktivieren und auf die vielseitigen, hochwertigen %(platform_name)s-Kurse "
+"zuzugreifen. Beachten Sie, dass Sie sich erst wieder anmelden können, "
+"nachdem Ihr Konto aktiviert wurde."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:8
+#, python-format
+msgid ""
+"If you need help, please use our web form at %(support_url)s or email "
+"%(support_email)s."
+msgstr ""
+"Wenn Sie Hilfe benötigen, verwenden Sie bitte unser Webformular unter "
+"%(support_url)s oder senden Sie eine E-Mail an %(support_email)s."
+
+#: common/templates/student/edx_ace/accountactivation/email/subject.txt:3
+#, python-format
+msgid "Action Required: Activate your %(platform_name)s account"
+msgstr "Aktion erforderlich: Aktivieren Sie Ihr %(platform_name)s-Konto"

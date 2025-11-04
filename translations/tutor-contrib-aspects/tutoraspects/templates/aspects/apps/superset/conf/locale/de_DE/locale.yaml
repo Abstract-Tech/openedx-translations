@@ -33,6 +33,15 @@ en:
   Number of users: Anzahl der Nutzer
   The distribution of grades for a course, out of 100%. Grades are grouped in ranges of 10%.: "Die Verteilung der Noten für einen Kurs, ausgehend von 100 %. Die Noten werden in Bereichen von 10 % gruppiert."
   Course Enrollment: Kursanmeldung
+  Course Dashboard: Kurs-Dashboard
+  Current Enrollees: Aktuell eingeschriebene Teilnehmende
+  At-Risk Learners Dashboard: Dashboard für gefährdete Lernende
+  Individual Learner Dashboard: Dashboard für einzelne Lernende
+  Enrollment: Einschreibung
+  Engagement: Engagement
+  Performance: Leistung
+  Reports: Berichte
+  View dashboards in Superset: Dashboards in Superset anzeigen
   Video Event: Video-Event
   Problem Name: Fragestellung Name
   Superset: Obermenge

@@ -29,8 +29,8 @@
   "discussions.sidebar.removeFilters": "Versuchen Sie, einige Filter zu entfernen",
   "discussions.empty.iconAlt": "Leer",
   "discussions.authors.label.staff": "Betreuung",
-  "discussions.authors.label.moderator": "",
-  "discussions.authors.label.ta": "",
+  "discussions.authors.label.moderator": "Tutor/in",
+  "discussions.authors.label.ta": "Assistenz",
   "discussions.learner.loadMostPosts": "Mehr Beiträge laden",
   "discussions.post.anonymous.author": "Anonym",
   "discussion.blackoutBanner.information": "",
@@ -64,7 +64,7 @@
   "discussions.learner.mostActivity": "Die meisten Aktivitäten",
   "discussions.learner.reportedActivity": "Gemeldete Aktivität",
   "discussions.learner.recentActivity": "Letzte Aktivität",
-  "discussions.learner.sortFilterStatus": "",
+  "discussions.learner.sortFilterStatus": "Alle Lernenden sortiert nach {sort, select,\n      flagged {gemeldeter Aktivität}\n      activity {höchster Aktivität}\n      other {{sort}}\n    }",
   "discussion.learner.allActivity": "Alle Aktivitäten",
   "discussion.learner.posts": "Beiträge",
   "discussions.comments.comment.addComment": "Kommentar hinzufügen",
@@ -119,9 +119,9 @@
   "learn.course.tabs.navigation.overflow.menu": "Mehr...",
   "discussions.navigation.breadcrumbMenu.allTopics": "Themen",
   "discussions.navigation.breadcrumbMenu.showAll": "Alles anzeigen",
-  "discussions.navigation.navigationBar.allPosts": "Alle Artikel",
+  "discussions.navigation.navigationBar.allPosts": "Alle Beiträge",
   "discussions.navigation.navigationBar.allTopics": "Themen",
-  "discussions.navigation.navigationBar.myPosts": "Meine Posts",
+  "discussions.navigation.navigationBar.myPosts": "Meine Beiträge",
   "discussions.navigation.navigationBar.learners": "Lernende",
   "discussions.post.author.anonymous": "Anonym",
   "discussions.post.addResponse": "Antwort hinzufügen",
@@ -216,5 +216,5 @@
   "discussions.posts.sort.lastActivity": "Letzte Aktivität",
   "discussions.posts.sort.commentCount": "Die meisten Aktivitäten",
   "discussions.posts.sort.voteCount": "Die meisten Likes",
-  "discussions.posts.sort-filter.sortFilterStatus": ""
+  "discussions.posts.sort-filter.sortFilterStatus": "{own, select,\n      false {Alle}\n      true {Eigene}\n      other {{own}}\n    } {status, select,\n      statusAll {}\n      statusUnread {ungelesen}\n      statusFollowing {abonniert}\n      statusReported {gemeldet}\n      statusUnanswered {unbeantwortet}\n      statusUnresponded {ohne Antwort}\n      other {{status}}\n    } {type, select,\n      discussion {Diskussionen}\n      question {Fragen}\n      all {Beiträge}\n      other {{type}}\n    } {cohortType, select,\n        all {}\n        group {in {cohort}}\n        other {{cohortType}}\n    } sortiert nach {sort, select,\n      lastActivityAt {neuesten Aktivitäten}\n      commentCount {meisten Aktivitäten}\n      voteCount {meisten Likes}\n      other {{sort}}\n    }"
 }
