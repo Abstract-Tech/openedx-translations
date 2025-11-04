@@ -50,7 +50,7 @@
   "token.validation.internal.sever.error": "Ein Fehler ist aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
   "internal.server.error": "Ein Fehler ist aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
   "account.activation.error.message": "Etwas ist schief gelaufen, bitte {supportLink} um dieses Problem zu lösen.",
-  "login.inactive.user.error": "",
+  "login.inactive.user.error": "Um sich anzumelden, müssen Sie Ihr Konto aktivieren.{lineBreak}{lineBreak}Wir haben gerade einen Aktivierungslink an {email} gesendet. Wenn Sie keine E-Mail erhalten, prüfen Sie Ihren Spam-Ordner oder {supportLink}.",
   "allowed.domain.login.error": "Als {allowedDomain}-Benutzer müssen Sie sich mit Ihrem {allowedDomain} {tpaLink} anmelden.",
   "login.incorrect.credentials.error.attempts.text.1": "",
   "login.incorrect.credentials.error.attempts.text.2": "Wenn Sie Ihr Passwort vergessen haben, {resetLink}",
