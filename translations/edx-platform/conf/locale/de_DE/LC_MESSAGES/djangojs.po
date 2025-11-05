@@ -10917,3 +10917,6 @@ msgstr ""
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "Es wurden leider keine Ergebnisse gefunden."
+
+msgid "Already Enrolled"
+msgstr "Bereits eingeschrieben"

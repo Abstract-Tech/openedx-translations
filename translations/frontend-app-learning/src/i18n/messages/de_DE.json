@@ -80,6 +80,7 @@
   "learning.dates.badge.unreleased": "Noch nicht veröffentlicht",
   "learning.dates.badge.verifiedOnly": "Nur für Verifizierte",
   "learning.dates.title": "Wichtige Termine",
+  "learning.dates.courseStartTitle": "Kursbeginn",
   "learning.outline.dates": "Wichtige Termine",
   "learning.outline.dates.all": "Alle Kurstermine anzeigen",
   "progress.certificateBody.notAvailable.endDate": "Endnoten und Zertifikate stehen voraussichtlich nach dem {endDate} zur Verfügung.",

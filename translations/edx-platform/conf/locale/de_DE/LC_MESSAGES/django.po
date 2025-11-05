@@ -22909,3 +22909,6 @@ msgstr ""
 "aktivieren und auf die vielseitigen, hochwertigen %(platform_name)s-Kurse "
 "zuzugreifen. Beachten Sie, dass Sie sich erst wieder anmelden können, "
 "nachdem Ihr Konto aktiviert wurde."
+
+msgid "Already Enrolled"
+msgstr "Bereits eingeschrieben"
