@@ -8,7 +8,7 @@
   "profile.viewMyRecords": "Meine Aufzeichnungen anzeigen",
   "profile.loading": "Profil lädt...",
   "profile.username.description": "Ihre Profilinformationen sind nur für Sie sichtbar. Nur Ihr Benutzername ist für andere auf {siteName} sichtbar.",
-  "profile.bio.empty": "Fügen Sie Ihre Kurzbiografie hinzu",
+  "profile.bio.empty": "Kurzbiografie hinzufügen",
   "profile.bio.about.me": "Über mich",
   "profile.certificate.organization.label": "Von",
   "profile.certificate.completion.date.label": "Abgeschlossen am {date}",

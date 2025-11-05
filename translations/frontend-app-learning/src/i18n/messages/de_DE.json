@@ -240,5 +240,8 @@
   "calculator.instruction.table.to.use.scientific.notation.type2": "{notationSyntax}-Notation",
   "calculator.instruction.table.to.use.scientific.notation.type3": "{notationSyntax} und der Exponent",
   "learn.honorCode.content": "Ehrlichkeit und akademische Integrität sind wichtig für {siteName} und die Institutionen, die Kurse und Programme auf der {siteName}-Website anbieten. Indem ich unten auf „Ich stimme zu“ klicke, bestätige ich, dass ich die {link} für die {siteName}-Site gelesen und verstanden habe und mich daran halten werde.",
-  "learn.course.sequence.navigation.mobile.menu": "{current} von {total}"
+  "learn.course.sequence.navigation.mobile.menu": "{current} von {total}",
+  "instructor.toolbar.view.as": "Sehen Sie sich diesen Kurs an als:",
+  "instructor.toolbar.view.course": "Kurs ansehen in:",
+  "instructor.toolbar.staff": "Mitarbeiterin"
 }
