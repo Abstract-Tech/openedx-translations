@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 00:45+0000\n"
+"POT-Creation-Date: 2025-11-26 01:47+0000\n"
 "PO-Revision-Date: 2014-06-04 15:41-0400\n"
 "Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
@@ -544,7 +544,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:31
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:31
-#: templates/legacy/staff_area/oa_staff_area.html:119
+#: templates/legacy/staff_area/oa_staff_area.html:121
 msgid "Due Date"
 msgstr ""
 
@@ -964,7 +964,7 @@ msgstr ""
 #: templates/legacy/instructor_dashboard/oa_grade_available_responses.html:15
 #: templates/legacy/staff_area/oa_staff_area.html:16
 #: templates/legacy/staff_area/oa_staff_area.html:18
-#: templates/legacy/staff_area/oa_staff_area.html:153
+#: templates/legacy/staff_area/oa_staff_area.html:155
 msgid "Grade Available Responses"
 msgstr ""
 
@@ -1790,7 +1790,7 @@ msgid "Staff Grade"
 msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_area.html:8
-#: templates/legacy/staff_area/oa_staff_area.html:35
+#: templates/legacy/staff_area/oa_staff_area.html:37
 msgid "Manage Individual Learners"
 msgstr ""
 
@@ -1799,7 +1799,7 @@ msgid "Manage Team Responses"
 msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_area.html:13
-#: templates/legacy/staff_area/oa_staff_area.html:71
+#: templates/legacy/staff_area/oa_staff_area.html:73
 msgid "View Assignment Statistics"
 msgstr ""
 
@@ -1807,63 +1807,63 @@ msgstr ""
 msgid "Demo the new Grading Experience"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:26
+#: templates/legacy/staff_area/oa_staff_area.html:27
 msgid "View ORA in Studio"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:31
-#: templates/legacy/staff_area/oa_staff_area.html:69
-#: templates/legacy/staff_area/oa_staff_area.html:151
+#: templates/legacy/staff_area/oa_staff_area.html:33
+#: templates/legacy/staff_area/oa_staff_area.html:71
+#: templates/legacy/staff_area/oa_staff_area.html:153
 msgid "Close"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:37
+#: templates/legacy/staff_area/oa_staff_area.html:39
 msgid "Manage Teams"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:50
+#: templates/legacy/staff_area/oa_staff_area.html:52
 msgid "Enter an individual learner's username or email"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:52
+#: templates/legacy/staff_area/oa_staff_area.html:54
 msgid "Enter a team member's username or edX email"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:56
+#: templates/legacy/staff_area/oa_staff_area.html:58
 msgid "Submit"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:78
+#: templates/legacy/staff_area/oa_staff_area.html:80
 msgid "Response total"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:84
+#: templates/legacy/staff_area/oa_staff_area.html:86
 msgid "Location"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:90
+#: templates/legacy/staff_area/oa_staff_area.html:92
 msgid "Learner Progress"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:94
-#: templates/legacy/staff_area/oa_staff_area.html:117
+#: templates/legacy/staff_area/oa_staff_area.html:96
+#: templates/legacy/staff_area/oa_staff_area.html:119
 msgid "Problem Step"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:95
+#: templates/legacy/staff_area/oa_staff_area.html:97
 msgid "Active Learners in Step"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:113
+#: templates/legacy/staff_area/oa_staff_area.html:115
 msgid "Dates"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:118
+#: templates/legacy/staff_area/oa_staff_area.html:120
 msgid "Release Date"
 msgstr ""
 
-#: templates/legacy/staff_area/oa_staff_area.html:131
-#: templates/legacy/staff_area/oa_staff_area.html:137
+#: templates/legacy/staff_area/oa_staff_area.html:133
+#: templates/legacy/staff_area/oa_staff_area.html:139
 msgid "N/A"
 msgstr ""
 
@@ -2382,19 +2382,19 @@ msgstr ""
 msgid "Self Assessment to Staff Assessment"
 msgstr ""
 
-#: xblock/openassessmentblock.py:1365
+#: xblock/openassessmentblock.py:1369
 msgid "You can't reset your submission."
 msgstr ""
 
-#: xblock/openassessmentblock.py:1378
+#: xblock/openassessmentblock.py:1382
 msgid "The user does not exist."
 msgstr ""
 
-#: xblock/openassessmentblock.py:1381
+#: xblock/openassessmentblock.py:1385
 msgid "There is no submission to reset."
 msgstr ""
 
-#: xblock/openassessmentblock.py:1383
+#: xblock/openassessmentblock.py:1387
 msgid "Submission reset successfully."
 msgstr ""
 
