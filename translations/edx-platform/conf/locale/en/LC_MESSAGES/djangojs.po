@@ -28,14 +28,14 @@ msgstr ""
 "#-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-19 00:44+0000\n"
+"POT-Creation-Date: 2025-11-26 01:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: cms/static/cms/js/main.js:38
 #: cms/static/js/views/active_video_upload_list.js:36
@@ -61,7 +61,7 @@ msgstr ""
 #: cms/static/js/views/course_info_update.js:170
 #: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
-#: cms/static/js/views/modals/edit_xblock.js:216 cms/static/js/views/tabs.js:86
+#: cms/static/js/views/modals/edit_xblock.js:211 cms/static/js/views/tabs.js:86
 #: cms/static/js/views/tabs.js:118
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
@@ -69,11 +69,11 @@ msgstr ""
 msgid "Saving"
 msgstr ""
 
-#: cms/static/js/base.js:113
+#: cms/static/js/base.js:101
 msgid "This link will open in a new browser window/tab"
 msgstr ""
 
-#: cms/static/js/base.js:120
+#: cms/static/js/base.js:108
 msgid "This link will open in a modal window"
 msgstr ""
 
@@ -180,7 +180,7 @@ msgstr ""
 #: cms/static/js/views/course_info_update.js:267
 #: cms/static/js/views/export.js:360
 #: cms/static/js/views/manage_users_and_roles.js:33
-#: cms/static/js/views/modals/base_modal.js:157
+#: cms/static/js/views/modals/base_modal.js:136
 #: cms/static/js/views/modals/course_outline_modals.js:219
 #: cms/static/js/views/modals/course_outline_modals.js:260
 #: cms/static/js/views/modals/preview_v2_library_changes.js:37
@@ -508,7 +508,7 @@ msgstr ""
 msgid "This component has validation issues."
 msgstr ""
 
-#: cms/static/js/utils/copy_to_clipboard.js:24
+#: cms/static/js/utils/copy_to_clipboard.js:23
 msgid "Copied"
 msgstr ""
 
@@ -522,9 +522,8 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/active_video_upload.js:46
 #: cms/static/js/views/modals/course_outline_modals.js:351
-#: cms/static/js/views/modals/edit_xblock.js:151
+#: cms/static/js/views/modals/edit_xblock.js:146
 #: cms/static/js/views/video_transcripts.js:325
-#: lms/static/js/student_account/enrollment.js:87
 #: lms/static/js/student_account/tos_modal.js:48
 #: xmodule/js/src/html/edit.js:370
 #: cms/templates/js/course-video-settings.underscore:6
@@ -657,9 +656,9 @@ msgstr ""
 msgid "Add library content"
 msgstr ""
 
-#: cms/static/js/views/components/add_xblock.js:120
-#: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:652
+#: cms/static/js/views/components/add_xblock.js:78
+#: cms/static/js/views/components/add_xblock.js:89
+#: cms/static/js/views/pages/container.js:547
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr ""
@@ -676,10 +675,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/course_info_update.js:241
-#: cms/static/js/views/course_outline.js:390
-#: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:424
-#: cms/static/js/views/pages/container.js:436 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/course_outline.js:397
+#: cms/static/js/views/course_outline.js:409
+#: cms/static/js/views/pages/container.js:340
+#: cms/static/js/views/pages/container.js:352 cms/static/js/views/tabs.js:164
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -689,67 +688,67 @@ msgid "OK"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:779
+#: cms/static/js/views/pages/container.js:692
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:331
-msgid "Copy of \"{componentDisplayName}\""
+#: cms/static/js/views/course_outline.js:336
+msgid "Copy of '{componentDisplayName}'"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:395
+#: cms/static/js/views/course_outline.js:372
+#: cms/static/js/views/pages/container.js:314
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:419
+#: cms/static/js/views/course_outline.js:392
+#: cms/static/js/views/pages/container.js:335
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:421
+#: cms/static/js/views/course_outline.js:394
+#: cms/static/js/views/pages/container.js:337
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:429
+#: cms/static/js/views/course_outline.js:402
+#: cms/static/js/views/pages/container.js:345
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:432
+#: cms/static/js/views/course_outline.js:405
+#: cms/static/js/views/pages/container.js:348
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version "
 "used by the component you pasted:"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:441
+#: cms/static/js/views/course_outline.js:414
+#: cms/static/js/views/pages/container.js:357
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:443
+#: cms/static/js/views/course_outline.js:416
+#: cms/static/js/views/pages/container.js:359
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:448
+#: cms/static/js/views/course_outline.js:421
+#: cms/static/js/views/pages/container.js:364
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr ""
 
-#: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:457
+#: cms/static/js/views/course_outline.js:430
+#: cms/static/js/views/pages/container.js:373
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr ""
@@ -789,7 +788,7 @@ msgid "Select language"
 msgstr ""
 
 #: cms/static/js/views/course_video_settings.js:474
-#: cms/static/js/views/metadata.js:362
+#: cms/static/js/views/metadata.js:357
 #: cms/static/js/views/previous_video_upload.js:78
 #: cms/static/js/views/video_transcripts.js:270
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
@@ -1063,7 +1062,7 @@ msgstr ""
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr ""
 
-#: cms/static/js/views/metadata.js:615 lms/static/js/views/file_uploader.js:47
+#: cms/static/js/views/metadata.js:610 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr ""
 
@@ -1161,23 +1160,23 @@ msgstr ""
 msgid "Editing: {title}"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:124
+#: cms/static/js/views/modals/edit_xblock.js:119
 msgid "Plugins"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:159
+#: cms/static/js/views/modals/edit_xblock.js:154
 #: cms/static/js/views/modals/preview_v2_library_changes.js:76
 #: lms/templates/ccx/schedule.underscore:13
 #: lms/templates/ccx/schedule.underscore:83
 msgid "Unit"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:161
+#: cms/static/js/views/modals/edit_xblock.js:156
 #: cms/static/js/views/modals/preview_v2_library_changes.js:78
 msgid "Component"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:207
+#: cms/static/js/views/modals/edit_xblock.js:202
 msgid "Studio's having trouble parsing the problem component's content"
 msgstr ""
 
@@ -1276,7 +1275,7 @@ msgstr ""
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:731
+#: cms/static/js/views/pages/container.js:642
 msgid "Editing access for: {title}"
 msgstr ""
 
@@ -1795,7 +1794,6 @@ msgstr ""
 
 #: cms/static/js/views/video_transcripts.js:228
 #: cms/templates/js/video-transcripts.underscore:27
-#, python-brace-format
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 msgstr ""
 
@@ -1841,7 +1839,7 @@ msgstr ""
 #: common/static/common/js/discussion/views/discussion_thread_view.js:233
 #: common/static/common/js/discussion/views/response_comment_view.js:121
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:33
-#: lms/static/js/student_account/views/FinishAuthView.js:84
+#: lms/static/js/student_account/views/FinishAuthView.js:82
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:43
 msgid "Error"
@@ -2331,6 +2329,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:53
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:18
+#: lms/templates/student_account/account_settings.underscore:15
 msgid "Account Settings"
 msgstr ""
 
@@ -2481,6 +2480,8 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:62
+#: lms/static/js/student_account/views/account_settings_factory.js:183
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:139
 msgid "Language"
 msgstr ""
 
@@ -2491,6 +2492,7 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:74
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:127
 msgid "Country"
 msgstr ""
 
@@ -3544,62 +3546,56 @@ msgstr ""
 msgid "Error getting issued certificates list."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:124
+#: lms/static/js/instructor_dashboard/data_download.js:123
 msgid "Error generating anonymous IDs. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:150
+#: lms/static/js/instructor_dashboard/data_download.js:149
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:176
+#: lms/static/js/instructor_dashboard/data_download.js:175
 #: lms/static/js/instructor_dashboard/data_download_2.js:48
 msgid "Error generating survey results. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:202
+#: lms/static/js/instructor_dashboard/data_download.js:201
 #: lms/static/js/instructor_dashboard/data_download_2.js:47
 msgid "Error generating student profile information. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:228
+#: lms/static/js/instructor_dashboard/data_download.js:227
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
 #: cms/templates/js/move-xblock-modal.underscore:6
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
 msgid "Loading"
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:236
+#: lms/static/js/instructor_dashboard/data_download.js:235
 msgid "Error getting student list."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:302
+#: lms/static/js/instructor_dashboard/data_download.js:301
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:327
-msgid ""
-"Error generating list of inactive students who are enrolled in a course. "
-"Please try again."
-msgstr ""
-
-#: lms/static/js/instructor_dashboard/data_download.js:359
+#: lms/static/js/instructor_dashboard/data_download.js:333
 msgid "Error retrieving grading configuration."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:384
+#: lms/static/js/instructor_dashboard/data_download.js:358
 #: lms/static/js/instructor_dashboard/data_download_2.js:156
 msgid "Error generating grades. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:386
+#: lms/static/js/instructor_dashboard/data_download.js:360
 #: lms/static/js/instructor_dashboard/data_download_2.js:46
 msgid "Error generating problem grade report. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js:388
+#: lms/static/js/instructor_dashboard/data_download.js:362
 #: lms/static/js/instructor_dashboard/data_download_2.js:45
 msgid "Error generating ORA data report. Please try again."
 msgstr ""
@@ -3629,6 +3625,8 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js:112
 #: lms/static/js/instructor_dashboard/membership.js:117
+#: lms/static/js/student_account/views/account_settings_factory.js:157
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:92
 #: cms/templates/js/transcript-organization-credentials.underscore:33
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:9
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:20
@@ -3780,8 +3778,8 @@ msgstr ""
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:792
 msgid ""
-"Email was sent to the following users. They will be allowed to enroll once "
-"they register:"
+"Email cannot be sent to the following users via batch enrollment. They will "
+"be allowed to enroll once they register:"
 msgstr ""
 
 #. Translators: A list of users appears after this sentence;
@@ -3792,8 +3790,8 @@ msgstr ""
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:816
 msgid ""
-"Email was sent to the following users. They will be enrolled once they "
-"register:"
+"Email cannot be sent to the following users via batch enrollment. They will "
+"be enrolled once they register:"
 msgstr ""
 
 #. Translators: A list of users appears after this sentence;
@@ -4353,27 +4351,29 @@ msgstr ""
 msgid "Could not override problem score for {user}."
 msgstr ""
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:92
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
 msgid "Enter and confirm your new password."
 msgstr ""
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:98
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:99
 msgid "New Password"
 msgstr ""
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:107
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:108
 msgid "Confirm Password"
 msgstr ""
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:110
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:111
 msgid "Passwords do not match."
 msgstr ""
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:141
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
 msgid "Reset My Password"
 msgstr ""
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:143
+#: lms/static/js/student_account/views/account_settings_factory.js:171
+#: lms/static/js/student_account/views/account_settings_factory.js:175
 msgid "Reset Your Password"
 msgstr ""
 
@@ -4437,6 +4437,7 @@ msgid "We’re sorry to see you go!"
 msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:125
+#: lms/static/js/student_account/views/account_settings_factory.js:352
 msgid "Delete My Account"
 msgstr ""
 
@@ -4501,39 +4502,19 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr ""
 
-#: lms/static/js/student_account/views/FinishAuthView.js:71
-msgid "query param next is provide"
-msgstr ""
-
-#: lms/static/js/student_account/views/FinishAuthView.js:73
-msgid "query param next is internal"
-msgstr ""
-
-#: lms/static/js/student_account/views/FinishAuthView.js:111
+#: lms/static/js/student_account/views/FinishAuthView.js:109
 msgid "Saving your email preference"
 msgstr ""
 
-#: lms/static/js/student_account/views/FinishAuthView.js:129
+#: lms/static/js/student_account/views/FinishAuthView.js:127
 msgid "Enrolling you in the selected course"
 msgstr ""
 
-#: lms/static/js/student_account/views/FinishAuthView.js:140
-msgid "course mode param is not provided"
-msgstr ""
-
-#: lms/static/js/student_account/views/FinishAuthView.js:148
-msgid "course mode param is provided"
-msgstr ""
-
-#: lms/static/js/student_account/views/FinishAuthView.js:163
+#: lms/static/js/student_account/views/FinishAuthView.js:159
 msgid "Adding the selected course to your cart"
 msgstr ""
 
-#: lms/static/js/student_account/views/FinishAuthView.js:167
-msgid " redirect the user to the next page"
-msgstr ""
-
-#: lms/static/js/student_account/views/FinishAuthView.js:177
+#: lms/static/js/student_account/views/FinishAuthView.js:172
 msgid "Loading your courses"
 msgstr ""
 
@@ -4620,6 +4601,262 @@ msgstr ""
 msgid ""
 "We just need a little more information before you start learning with "
 "%(platformName)s."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:58
+msgid ""
+"Your profile settings are managed by {enterprise_name}. Contact your "
+"administrator or {link_start}edX Support{link_end} for help."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:75
+msgid "Email Address (Sign In)"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:78
+msgid ""
+"You receive messages from {platform_name} and course teams at this address."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:95
+msgid "Recovery Email Address"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:97
+msgid ""
+"You may access your account with this address if single-sign on or access to "
+"your primary email is not available."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:103
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:99
+msgid "Full Name"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:105
+msgid ""
+"The name that is used for ID verification and that appears on your "
+"certificates."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:121
+msgid "Country or Region of Residence"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:125
+msgid "The country or region where you live."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:147
+#: lms/static/js/student_account/views/account_settings_factory.js:369
+msgid "Basic Account Information"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:148
+msgid "These settings include basic information about your account."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:160
+msgid ""
+"The name that identifies you on {platform_name}. You cannot change your "
+"username."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:170
+#: lms/templates/student_account/account.underscore:6
+msgid "Password"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:177
+msgid "Check your email account for instructions to reset your password."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:188
+msgid ""
+"The language used throughout this site. This site is currently available in "
+"a limited number of languages. Changing the value of this field will cause "
+"the page to refresh."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:201
+msgid "Time Zone"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:203
+msgid ""
+"Select the time zone for displaying course dates. If you do not specify a "
+"time zone, course dates, including assignment deadlines, will be displayed "
+"in your browser's local time zone."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:205
+msgid "All Time Zones"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:207
+msgid "Default (Local Time Zone)"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:215
+msgid "Additional Information"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:220
+msgid "Education Completed"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:229
+msgid "Gender"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:238
+msgid "Year of Birth"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:247
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:142
+msgid "Preferred Language"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:272
+msgid ""
+"We've sent a confirmation message to {new_secondary_email_address}. Click "
+"the link in the message to update your secondary email address."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:320
+msgid "Social Media Links"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:321
+msgid ""
+"Optionally, link your personal accounts to the social media icons on your "
+"edX profile."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:332
+msgid "{platform_display_name} Link"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:337
+msgid ""
+"Enter your {platform_display_name} username or the URL to your "
+"{platform_display_name} page. Delete the URL to remove the link."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:377
+#: lms/static/js/student_account/views/account_settings_view.js:45
+msgid "Linked Accounts"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:379
+msgid ""
+"You can link your social media accounts to simplify signing in to "
+"{platform_name}."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:401
+msgid "ORDER NAME"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:402
+msgid "ORDER PLACED"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:403
+msgid "TOTAL"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:404
+msgid "ORDER NUMBER"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:410
+msgid "My Orders"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:412
+msgid ""
+"This page contains information about orders that you have placed with "
+"{platform_name}."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:47
+msgid ""
+"We've sent a confirmation message to {new_email_address}. Click the link in "
+"the message to update your email address."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:90
+msgid ""
+"You must sign out and sign back in before your language changes take effect."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:211
+msgid ""
+"We've sent a message to {email}. Click the link in the message to reset your "
+"password. Didn't receive the message? Contact {anchorStart}technical "
+"support{anchorEnd}."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:356
+msgid "Link your {accountName} account"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:360
+msgid "Unlink This Account"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:363
+msgid ""
+"You can use your {accountName} account to sign in to your {platformName} "
+"account."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:367
+msgid "Unlink your {accountName} account"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:371
+msgid "Link Your Account"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:374
+msgid ""
+"Link your {accountName} account to your {platformName} account and use "
+"{accountName} to sign in to {platformName}."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:431
+msgid "Unlinking"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:431
+msgid "Linking"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_fields.js:435
+msgid "Successfully unlinked."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_view.js:36
+msgid "Account Information"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_view.js:55
+msgid "Order History"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_view.js:64
+msgid ""
+"You have set your language to {beta_language}, which is currently not fully "
+"translated. You can help us translate this language fully by joining the "
+"Transifex community and adding translations from English for learners that "
+"speak {beta_language}."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_view.js:70
+msgid "Help Translate into {beta_language}"
 msgstr ""
 
 #: lms/static/js/verify_student/views/image_input_view.js:93
@@ -4828,7 +5065,7 @@ msgid "Bookmark this page"
 msgstr ""
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
-#: xmodule/js/src/sequence/display.js:521
+#: xmodule/js/src/sequence/display.js:445
 msgid "Bookmarked"
 msgstr ""
 
@@ -4837,6 +5074,80 @@ msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
 msgstr[0] ""
 msgstr[1] ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:68
+msgid "Profile Visibility:"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:71
+msgid "Limited Profile"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:72
+msgid "Full Profile"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:112
+msgid "Joined"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:115
+msgid "Joined Date"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:124
+msgid "Location"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:131
+msgid "Add Country"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:146
+msgid "Add language"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:159
+msgid "About me"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:161
+msgid ""
+"Tell other learners a little about yourself: where you live, what your "
+"interests are, why you're taking courses, or what you hope to learn."
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:38
+msgid "Account Settings page."
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:44
+msgid ""
+"You must specify your birth year before you can share your full profile. To "
+"specify your birth year, go to the {account_settings_page_link}"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:51
+msgid ""
+"You must be over 13 to share a full profile. If you are over 13, make sure "
+"that you have specified a birth year on the {account_settings_page_link}"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:74
+msgid "Profile Image"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:82
+msgid "Profile image for {username}"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:65
+msgid "About Me"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:71
+msgid "Profile"
+msgstr ""
 
 #: xmodule/assets/library_content/public/js/library_content_edit.js:16
 #: xmodule/js/public/js/library_content_edit.js:16
@@ -4940,48 +5251,48 @@ msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/js/src/capa/display.js:356
+#: xmodule/js/src/capa/display.js:349
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:465
+#: xmodule/js/src/capa/display.js:458
 msgid "Could not grade your answer. The submission was aborted."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:529
+#: xmodule/js/src/capa/display.js:522
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
 "file uploads."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:555
+#: xmodule/js/src/capa/display.js:548
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:568
+#: xmodule/js/src/capa/display.js:561
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:584
+#: xmodule/js/src/capa/display.js:577
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:594
+#: xmodule/js/src/capa/display.js:587
 msgid "You did not select any files to submit."
 msgstr ""
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:688
+#: xmodule/js/src/capa/display.js:681
 msgid "{label}: {status}"
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:719
+#: xmodule/js/src/capa/display.js:712
 msgid "This problem has been reset."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:1025
+#: xmodule/js/src/capa/display.js:1018
 msgid "unsubmitted"
 msgstr ""
 
@@ -6248,7 +6559,7 @@ msgstr ""
 msgid "Explanation"
 msgstr ""
 
-#: xmodule/js/src/sequence/display.js:406
+#: xmodule/js/src/sequence/display.js:330
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
@@ -6429,52 +6740,52 @@ msgstr ""
 msgid "Open language menu"
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:630
+#: xmodule/js/src/video/09_video_caption.js:589
 msgid "Transcript will be displayed when you start playing the video."
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:878
+#: xmodule/js/src/video/09_video_caption.js:837
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:881
+#: xmodule/js/src/video/09_video_caption.js:840
 msgid "Video transcript"
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:884
+#: xmodule/js/src/video/09_video_caption.js:843
 msgid "Start of transcript. Skip to the end."
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:888
+#: xmodule/js/src/video/09_video_caption.js:847
 msgid "End of transcript. Skip to the start."
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:892
+#: xmodule/js/src/video/09_video_caption.js:851
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow "
 "keys to navigate language options. Press ENTER to change to the selected "
 "language."
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:1248
+#: xmodule/js/src/video/09_video_caption.js:1205
 msgid "Hide closed captions"
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:1266
+#: xmodule/js/src/video/09_video_caption.js:1223
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:1273
+#: xmodule/js/src/video/09_video_caption.js:1230
 msgid "Turn on closed captioning"
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:1381
+#: xmodule/js/src/video/09_video_caption.js:1338
 msgid "Turn on transcripts"
 msgstr ""
 
-#: xmodule/js/src/video/09_video_caption.js:1396
+#: xmodule/js/src/video/09_video_caption.js:1353
 msgid "Turn off transcripts"
 msgstr ""
 
@@ -6741,12 +7052,10 @@ msgid "component"
 msgstr ""
 
 #: cms/templates/js/container-access.underscore:16
-#, python-brace-format
 msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
 msgstr ""
 
 #: cms/templates/js/container-access.underscore:26
-#, python-brace-format
 msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
@@ -6958,7 +7267,6 @@ msgid "Unpublished changes to content that will release in the future"
 msgstr ""
 
 #: cms/templates/js/course-outline.underscore:83
-#, python-brace-format
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr ""
 
@@ -7261,7 +7569,6 @@ msgid "Warning: "
 msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:40
-#, python-brace-format
 msgid ""
 "The number of {type} assignments defined here does not match the current "
 "number of {type} assignments in the course:"
@@ -7272,12 +7579,10 @@ msgid "There are no assignments of this type in the course."
 msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:51
-#, python-brace-format
 msgid "{assignment_count} {type} assignment(s) found:"
 msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:71
-#, python-brace-format
 msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
@@ -7344,7 +7649,6 @@ msgid "Chapter Name"
 msgstr ""
 
 #: cms/templates/js/edit-chapter.underscore:4
-#, python-brace-format
 msgid "Chapter {order}"
 msgstr ""
 
@@ -7357,7 +7661,6 @@ msgid "Chapter Asset"
 msgstr ""
 
 #: cms/templates/js/edit-chapter.underscore:10
-#, python-brace-format
 msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
 msgstr ""
 
@@ -7461,7 +7764,6 @@ msgid "This Group Configuration is used in:"
 msgstr ""
 
 #: cms/templates/js/group-configuration-details.underscore:84
-#, python-brace-format
 msgid ""
 "This Group Configuration is not in use. Start by adding a content experiment "
 "to any Unit via the {linkStart}Course Outline{linkEnd}."
@@ -7527,7 +7829,6 @@ msgstr ""
 
 #: cms/templates/js/highlights-editor.underscore:36
 #: cms/templates/js/highlights-editor.underscore:49
-#, python-brace-format
 msgid "Highlight {highlight_index}"
 msgstr ""
 
@@ -7540,17 +7841,14 @@ msgid "License Type"
 msgstr ""
 
 #: cms/templates/js/license-selector.underscore:18
-#, python-brace-format
 msgid "Learn more about {license_name}"
 msgstr ""
 
 #: cms/templates/js/license-selector.underscore:34
-#, python-brace-format
 msgid "Options for {license_name}"
 msgstr ""
 
 #: cms/templates/js/license-selector.underscore:37
-#, python-brace-format
 msgid "The following options are available for the {license_name} license."
 msgstr ""
 
@@ -7609,7 +7907,6 @@ msgid "Download"
 msgstr ""
 
 #: cms/templates/js/move-xblock-list.underscore:7
-#, python-brace-format
 msgid "{categoryText} in {parentDisplayname}"
 msgstr ""
 
@@ -7640,7 +7937,6 @@ msgid "This group controls access to:"
 msgstr ""
 
 #: cms/templates/js/partition-group-details.underscore:59
-#, python-brace-format
 msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
@@ -7682,7 +7978,6 @@ msgid "Remove this video"
 msgstr ""
 
 #: cms/templates/js/previous-video-upload.underscore:15
-#, python-brace-format
 msgid "Remove {video_name} video"
 msgstr ""
 
@@ -7729,14 +8024,12 @@ msgid "Publishing Status"
 msgstr ""
 
 #: cms/templates/js/publish-xblock.underscore:31
-#, python-brace-format
 msgid ""
 "Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by {editedByStart}"
 "{editedBy}{editedByEnd}"
 msgstr ""
 
 #: cms/templates/js/publish-xblock.underscore:43
-#, python-brace-format
 msgid ""
 "Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by "
 "{publishedByStart}{publishedBy}{publishedByEnd}"
@@ -7807,7 +8100,6 @@ msgid "weeks from learner enrollment date"
 msgstr ""
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:14
-#, python-brace-format
 msgid ""
 "If a learner starts on {startDate}, this subsection will be due on "
 "{projectedDueIn}."
@@ -8005,7 +8297,6 @@ msgid "You!"
 msgstr ""
 
 #: cms/templates/js/team-member.underscore:19
-#, python-brace-format
 msgid "send an email message to {email}"
 msgstr ""
 
@@ -8014,17 +8305,14 @@ msgid "Promote another member to Admin to remove your admin rights"
 msgstr ""
 
 #: cms/templates/js/team-member.underscore:35
-#, python-brace-format
 msgid "Add {role} Access"
 msgstr ""
 
 #: cms/templates/js/team-member.underscore:35
-#, python-brace-format
 msgid "Remove {role} Access"
 msgstr ""
 
 #: cms/templates/js/team-member.underscore:44
-#, python-brace-format
 msgid "Delete the user, {username}"
 msgstr ""
 
@@ -8113,7 +8401,6 @@ msgid "Review Rules"
 msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:86
-#, python-brace-format
 msgid ""
 "Specify any rules or rule exceptions that the proctoring review team should "
 "enforce when reviewing the videos. For example, you could specify that "
@@ -8139,7 +8426,6 @@ msgid "Account"
 msgstr ""
 
 #: cms/templates/js/transcript-organization-credentials.underscore:5
-#, python-brace-format
 msgid ""
 "This action updates the {provider} information for your entire organization."
 msgstr ""
@@ -8212,7 +8498,6 @@ msgid ""
 msgstr ""
 
 #: cms/templates/js/video-thumbnail.underscore:17
-#, python-brace-format
 msgid ""
 "Recommended image resolution is {imageResolution}, maximum image file size "
 "should be {maxFileSize} and format must be one of {supportedImageFormats}."
@@ -8227,7 +8512,6 @@ msgid "No transcript uploaded."
 msgstr ""
 
 #: cms/templates/js/video-transcripts.underscore:17
-#, python-brace-format
 msgid "Show transcripts ({totalTranscripts})"
 msgstr ""
 
@@ -8247,7 +8531,6 @@ msgid ""
 msgstr ""
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
-#, python-brace-format
 msgid ""
 "The published branch version, {published}, was reset to the draft branch "
 "version, {draft}."
@@ -8600,7 +8883,6 @@ msgid "Community TA"
 msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore:379
-#, python-brace-format
 msgid "{unread_comments_count} new"
 msgstr ""
 
@@ -9155,7 +9437,6 @@ msgid "Hide Timer"
 msgstr ""
 
 #: lms/templates/courseware/proctored-exam-status.underscore:30
-#, python-brace-format
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr ""
 
@@ -9260,7 +9541,6 @@ msgid "Product Name"
 msgstr ""
 
 #: lms/templates/fields/field_textarea.underscore:52
-#, python-brace-format
 msgid ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
 "{maxCharacters}"
@@ -9276,7 +9556,6 @@ msgid "Profile Information"
 msgstr ""
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:16
-#, python-brace-format
 msgid ""
 "The following information is already a part of your {platform} profile and "
 "is required for your application. To edit this information go to "
@@ -9303,7 +9582,6 @@ msgid "Submit Application"
 msgstr ""
 
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore:3
-#, python-brace-format
 msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
@@ -9520,14 +9798,12 @@ msgid "Deleted Content Group"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:104
-#, python-brace-format
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The previously selected "
 "content group was deleted. Select another content group."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:123
-#, python-brace-format
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
 msgstr ""
@@ -9588,7 +9864,6 @@ msgid "Assign learners to cohorts by uploading a CSV file"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
-#, python-brace-format
 msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
@@ -9649,7 +9924,6 @@ msgid "Change or Leave Session"
 msgstr ""
 
 #: lms/templates/learner_dashboard/course_card.underscore:29
-#, python-brace-format
 msgid "You must select a session by {expiration_date} to access the course."
 msgstr ""
 
@@ -9658,7 +9932,6 @@ msgid "You can no longer change sessions."
 msgstr ""
 
 #: lms/templates/learner_dashboard/course_card.underscore:35
-#, python-brace-format
 msgid "You can change sessions until {expiration_date}."
 msgstr ""
 
@@ -9683,11 +9956,11 @@ msgstr ""
 msgid "Coming Soon"
 msgstr ""
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:48
+#: lms/templates/learner_dashboard/course_enroll.underscore:47
 msgid "Enrollment Opens on"
 msgstr ""
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:56
+#: lms/templates/learner_dashboard/course_enroll.underscore:54
 msgid "Not Currently Available"
 msgstr ""
 
@@ -9704,17 +9977,14 @@ msgid "To access the course, select a session."
 msgstr ""
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:15
-#, python-brace-format
 msgid "Session Selection Dropdown for {courseName}"
 msgstr ""
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:19
-#, python-brace-format
 msgid "{sessionDates} - Currently Selected"
 msgstr ""
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:21
-#, python-brace-format
 msgid "{sessionDates} (Open until {enrollmentEnd})"
 msgstr ""
 
@@ -9767,7 +10037,6 @@ msgid "%(programName)s Home Page."
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
-#, python-brace-format
 msgid "Your {program} Certificate"
 msgstr ""
 
@@ -9842,13 +10111,11 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
 #: lms/templates/learner_dashboard/program_details_view.underscore:32
-#, python-brace-format
 msgid "${listPrice}"
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:62
 #: lms/templates/learner_dashboard/program_details_view.underscore:38
-#, python-brace-format
 msgid " ${price} {currency} )"
 msgstr ""
 
@@ -9900,7 +10167,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
-#, python-brace-format
 msgid "{organization}\\'s logo"
 msgstr ""
 
@@ -9920,16 +10186,20 @@ msgstr ""
 msgid "New Address"
 msgstr ""
 
-#: lms/templates/student_account/account.underscore:6
-msgid "Password"
-msgstr ""
-
 #: lms/templates/student_account/account.underscore:11
 msgid "Change My Email Address"
 msgstr ""
 
 #: lms/templates/student_account/account.underscore:16
 msgid "Reset Password"
+msgstr ""
+
+#: lms/templates/student_account/account_settings.underscore:8
+msgid "Switch Language Back"
+msgstr ""
+
+#: lms/templates/student_account/account_settings_section.underscore:27
+msgid "An error occurred. Please reload the page."
 msgstr ""
 
 #: lms/templates/student_account/form_field.underscore:139
@@ -10007,7 +10277,6 @@ msgid "Create an Account."
 msgstr ""
 
 #: lms/templates/student_account/login.underscore:14
-#, python-brace-format
 msgid "Sign in to continue learning as {email}"
 msgstr ""
 
@@ -10016,20 +10285,17 @@ msgid "Sign in to continue learning"
 msgstr ""
 
 #: lms/templates/student_account/login.underscore:19
-#, python-brace-format
 msgid ""
 "You already have an edX account with your {enterprise_name} email address."
 msgstr ""
 
 #: lms/templates/student_account/login.underscore:21
-#, python-brace-format
 msgid ""
 "Going forward, your account information will be updated and maintained by "
 "{enterprise_name}."
 msgstr ""
 
 #: lms/templates/student_account/login.underscore:23
-#, python-brace-format
 msgid ""
 "You can view your information or unlink from {enterprise_name} anytime in "
 "your Account Settings."
@@ -10086,7 +10352,6 @@ msgid "Recover my password"
 msgstr ""
 
 #: lms/templates/student_account/register.underscore:6
-#, python-brace-format
 msgid "Already have an {platformName} account?"
 msgstr ""
 
@@ -10181,7 +10446,6 @@ msgid "Take Your Photo"
 msgstr ""
 
 #: lms/templates/verify_student/face_photo_step.underscore:19
-#, python-brace-format
 msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
@@ -10200,7 +10464,6 @@ msgid "Your entire face fits inside the frame."
 msgstr ""
 
 #: lms/templates/verify_student/face_photo_step.underscore:33
-#, python-brace-format
 msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
@@ -10319,7 +10582,6 @@ msgid "Make sure your ID is well-lit"
 msgstr ""
 
 #: lms/templates/verify_student/id_photo_step.underscore:22
-#, python-brace-format
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
 
@@ -10373,7 +10635,6 @@ msgid "Be sure your entire face is inside the frame"
 msgstr ""
 
 #: lms/templates/verify_student/incourse_reverify.underscore:20
-#, python-brace-format
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
 msgstr ""
@@ -10399,7 +10660,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/verify_student/intro_step.underscore:6
-#, python-brace-format
 msgid "Thanks for returning to verify your ID in: {courseName}"
 msgstr ""
 
@@ -10433,12 +10693,10 @@ msgstr ""
 
 #: lms/templates/verify_student/make_payment_step.underscore:6
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
-#, python-brace-format
 msgid "You are enrolling in: {courseName}"
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step.underscore:17
-#, python-brace-format
 msgid "You are upgrading your enrollment for: {courseName}"
 msgstr ""
 
@@ -10448,7 +10706,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step.underscore:37
-#, python-brace-format
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these by {date} to qualify to earn a Verified "
@@ -10456,7 +10713,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step.underscore:44
-#, python-brace-format
 msgid ""
 "An email has been sent to {userEmail} with a link for you to activate your "
 "account."
@@ -10497,7 +10753,6 @@ msgid "You have already verified your ID!"
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step.underscore:100
-#, python-brace-format
 msgid "Your verification status is good until {verificationGoodUntil}."
 msgstr ""
 
@@ -10510,7 +10765,6 @@ msgid "Account Not Activated"
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
-#, python-brace-format
 msgid "Upgrade to a Verified Certificate for {courseName}"
 msgstr ""
 
@@ -10528,17 +10782,14 @@ msgid "Total"
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
-#, python-brace-format
 msgid "Professional Certificate for {courseName}"
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
-#, python-brace-format
 msgid "Verified Certificate for {courseName}"
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
-#, python-brace-format
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
 msgstr ""
@@ -10671,7 +10922,6 @@ msgstr ""
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
-#, python-brace-format
 msgid "Load next {num_items} result"
 msgid_plural "Load next {num_items} results"
 msgstr[0] ""
@@ -10680,4 +10930,12 @@ msgstr[1] ""
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:5
+msgid "You are currently sharing a limited profile."
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
+msgid "This learner is currently sharing a limited profile."
 msgstr ""
