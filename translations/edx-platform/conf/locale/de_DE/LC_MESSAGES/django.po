@@ -5260,6 +5260,15 @@ msgstr ""
 "                  Dies kann eine Minute dauern. Wenn Sie nicht weitergeleitet werden, gehen Sie zur Startseite.\n"
 "                "
 
+msgid ""
+"If you are not redirected within 5 seconds, "
+"{start_anchor}%(target)s{middle_anchor}click here to go to the home "
+"page{end_anchor}."
+msgstr ""
+"Wenn Sie nicht innerhalb von 5 Sekunden weitergeleitet werden, "
+"{start_anchor}%(target)s{middle_anchor}klicken Sie hier, um zur Startseite zu gelangen{end_anchor}."
+
+
 #: lms/templates/main_django.html:50 cms/templates/base.html:102
 #: cms/templates/container_chromeless.html:112 lms/templates/main.html:203
 msgid "Skip to main content"
@@ -9905,7 +9914,7 @@ msgstr ""
 
 #: xmodule/course_block.py:1110
 msgid "General"
-msgstr "Allgemein"
+msgstr "Allgemeines"
 
 #: xmodule/discussion_block.py:55
 msgid "Category"
@@ -16411,7 +16420,7 @@ msgstr "Einstellungen speichern"
 #: lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html:29
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:54
 msgid "Unenroll"
-msgstr "Ausschreiben"
+msgstr "Abmelden"
 
 #: lms/templates/email_change_failed.html:11
 #: lms/templates/email_exists.html:11
@@ -22118,6 +22127,10 @@ msgstr ""
 msgid "Password reset successful"
 msgstr "Passwort erfolgreich zurückgesetzt"
 
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:10
+msgid "Password reset success"
+msgstr "Passwort erfolgreich zurückgesetzt"
+
 #: lms/templates/registration/password_reset_done.html:8
 msgid ""
 "We've e-mailed you instructions for setting your password to the e-mail "
@@ -22126,6 +22139,15 @@ msgstr ""
 "Wir haben Ihnen eine E-Mail mit Anweisungen, wie Sie Ihr Passwort für die "
 "eingereichte E-Mail-Adresse festlegen, geschickt. Diese Nachricht sollten "
 "Sie in Kürze erhalten."
+
+msgid "Hello %(name)s,"
+msgstr "Hallo %(name)s ,"
+
+msgid ""
+"This is to confirm that you have successfully changed your password "
+"associated with %(platform_name)s account. Please sign-in to your account."
+msgstr ""
+"Dies bestätigt, dass Sie Ihr Passwort für Ihr %(platform_name)s-Konto erfolgreich geändert haben. Bitte melden Sie sich bei Ihrem Konto an."
 
 #: lms/templates/static_templates/404.html:21
 #, python-brace-format
