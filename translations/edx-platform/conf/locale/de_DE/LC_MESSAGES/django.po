@@ -2058,9 +2058,11 @@ msgid ""
 "{start_anchor_web}%(support_url)s{end_anchor} or email "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 msgstr ""
-"Wenn Sie Hilfe benötigen, verwenden Sie bitte unser Webformular auf "
-"{start_anchor_web}%(support_url)s{end_anchor} oder senden Sie eine E-Mail an"
-" {start_anchor_email}%(support_email)s{end_anchor}."
+"Wenn Sie Hilfe benötigen, verwenden Sie bitte unser "
+"{start_anchor_portal}Service Portal{end_anchor} "
+"oder senden Sie eine E-Mail an "
+"{start_anchor_email}no-reply@academy.impower.de{end_anchor}."
+
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:64
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:10
