@@ -6596,6 +6596,26 @@ msgstr "Blacklist {country} für {course}"
 msgid "Never"
 msgstr "Nie"
 
+#: openedx/core/djangoapps/notifications/base_notification.py:238
+msgid ""
+"Notifications for responses and comments on your posts, and the ones you’re "
+"following, including endorsements to your responses and on your posts."
+msgstr ""
+"Benachrichtigungen zu Antworten und Kommentaren auf Ihren Beiträgen sowie zu "
+"Beiträgen, denen Sie folgen, einschließlich Empfehlungen zu Ihren Antworten "
+"und Ihren Beiträgen."
+
+#: openedx/core/djangoapps/notifications/base_notification.py:257
+msgid "Notifications for submission grading."
+msgstr "Benachrichtigungen zur Bewertung von Einreichungen."
+
+msgid ""
+"Notifications for when a submission is made for ORA that includes staff "
+"grading step."
+msgstr ""
+"Benachrichtigungen, wenn eine Einreichung für ORA erfolgt, die einen "
+"Bewertungsschritt durch Mitarbeitende enthält."
+
 #: openedx/core/djangoapps/oauth_dispatch/models.py:81
 msgid ""
 "Comma-separated list of scopes that this application will be allowed to "
