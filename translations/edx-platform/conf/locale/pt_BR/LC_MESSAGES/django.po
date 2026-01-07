@@ -13516,3 +13516,42 @@ msgstr ""
 "Recebemos um pedido para alterar o e-mail associado à sua conta do "
 "{platform_name} de {old_email} para {new_email}. Caso isso esteja correto, "
 "por favor confirme o seu novo endereço de e-mail acessando:"
+
+msgid "Powered by:"
+msgstr "Desenvolvido por:"
+
+msgid "Runs on Tutor"
+msgstr "Executado no Tutor"
+
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Direitos autorais ©{year}. Todos os direitos reservados."
+
+msgid "Course Summary"
+msgstr "Resumo do curso"
+
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Desbloqueie seu potencial: descubra novos cursos hoje!"
+
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Explore um mundo de conhecimento e aprimore suas habilidades com nossa ampla variedade de cursos"
+
+msgid "Filters"
+msgstr "Filtros"
+
+msgid "Content"
+msgstr "Conteúdo"
+
+msgid "YouTube Video"
+msgstr "Vídeo do YouTube"
+
+msgid "Switch to Dark Mode"
+msgstr "Mudar para modo escuro"
+
+msgid "About Us"
+msgstr "Sobre nós"
+
+msgid "Contact Us"
+msgstr "Fale conosco"
+
+msgid "The place for all your online learning"
+msgstr "O lugar para todo o seu aprendizado online"

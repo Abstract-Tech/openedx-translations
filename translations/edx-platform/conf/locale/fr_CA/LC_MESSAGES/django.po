@@ -26858,3 +26858,33 @@ msgstr "Placer votre texte de droits d'auteur ici!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Éditeur de code"
+
+msgid "Powered by:"
+msgstr "Propulsé par :"
+
+msgid "Runs on Tutor"
+msgstr "Fonctionne avec Tutor"
+
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Droits d’auteur ©{year}. Tous droits réservés."
+
+msgid "Course Summary"
+msgstr "Résumé du cours"
+
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Libérez votre potentiel : découvrez de nouveaux cours dès aujourd’hui !"
+
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Explorez un monde de connaissances et améliorez vos compétences grâce à notre large éventail de cours"
+
+msgid "Filters"
+msgstr "Filtres"
+
+msgid "Switch to Dark Mode"
+msgstr "Passer en mode sombre"
+
+msgid "About Us"
+msgstr "À propos de nous"
+
+msgid "The place for all your online learning"
+msgstr "L'endroit pour tout votre apprentissage en ligne"
