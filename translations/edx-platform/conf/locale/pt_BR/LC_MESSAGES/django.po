@@ -13585,3 +13585,221 @@ msgstr "Fale conosco"
 
 msgid "The place for all your online learning"
 msgstr "O lugar para todo o seu aprendizado online"
+
+msgid "Course starts"
+msgstr "O curso começa"
+
+msgid "Course Run"
+msgstr "Edição do curso"
+
+msgid "Course Run:"
+msgstr "Edição do curso:"
+
+msgid "No end date set"
+msgstr "Nenhuma data de término definida"
+
+msgid "Enroll"
+msgstr "Inscrever"
+
+msgid ""
+"In this section, you have the ability to grant extensions on specific "
+"subsections to individual students. Please note that the latest date is "
+"always taken; you cannot use this tool to make an assignment due earlier for "
+"a particular student."
+msgstr ""
+"Nesta seção, você pode conceder prorrogações em subseções específicas para "
+"estudantes individuais. Observe que a data mais recente é sempre "
+"considerada; você não pode usar esta ferramenta para antecipar a data de "
+"entrega de uma tarefa para um estudante específico."
+
+msgid ""
+"Specify the {platform_name} email address or username of a student here:"
+msgstr ""
+"Informe aqui o e-mail ou nome de usuário do aluno no {platform_name}:"
+
+msgid "Student Email or Username"
+msgstr "E-mail ou nome de usuário do aluno"
+
+msgid "Choose the graded subsection:"
+msgstr "Escolha a subseção avaliada:"
+
+msgid ""
+"Specify the extension due date and time (in UTC; please specify "
+"{format_string})."
+msgstr ""
+"Informe a data e hora da prorrogação (em UTC; por favor, informe "
+"{format_string})."
+
+msgid "Reason for extension"
+msgstr "Motivo da prorrogação"
+
+msgid "Change due date for student"
+msgstr "Alterar data de entrega para o estudante"
+
+msgid "Viewing granted extensions"
+msgstr "Visualizando prorrogações concedidas"
+
+msgid ""
+"Here you can see what extensions have been granted on particular subsection "
+"or for a particular student."
+msgstr ""
+"Aqui você pode ver quais prorrogações foram concedidas para uma subseção "
+"específica ou para um estudante específico."
+
+msgid ""
+"Choose a graded subsection and click the button to obtain a list of all "
+"students who have extensions for the given subsection."
+msgstr ""
+"Escolha uma subseção avaliada e clique no botão para obter uma lista de "
+"todos os estudantes que têm prorrogações para essa subseção."
+
+msgid "List all students with due date extensions"
+msgstr "Listar todos os estudantes com prorrogações de data de entrega"
+
+msgid "Specify a student to see all of that student's extensions."
+msgstr "Informe um estudante para ver todas as prorrogações desse estudante."
+
+msgid "List date extensions for student"
+msgstr "Listar prorrogações de data para o estudante"
+
+msgid "Resetting extensions"
+msgstr "Redefinindo prorrogações"
+
+msgid ""
+"Resetting a problem's due date rescinds a due date extension for a student "
+"on a particular subsection. This will revert the due date for the student "
+"back to the problem's original due date."
+msgstr ""
+"Redefinir a data de entrega de um problema revoga a prorrogação para um "
+"estudante em uma subseção específica. Isso fará com que a data de entrega "
+"volte à data original do problema."
+
+msgid "Reason for reset"
+msgstr "Motivo da redefinição"
+
+msgid "Reset due date for student"
+msgstr "Redefinir data de entrega para o estudante"
+
+msgid ""
+"Course team members with the Staff role help you manage your course. Staff "
+"can enroll and unenroll learners, as well as modify their grades and access "
+"all course data. Staff also have access to your course in Studio and "
+"Insights. Any users not yet enrolled in the course will be automatically "
+"enrolled when added as Staff."
+msgstr ""
+"Membros da equipe do curso com a função de Staff ajudam você a gerenciar seu "
+"curso. Staff pode inscrever e cancelar a inscrição de alunos, além de "
+"modificar suas notas e acessar todos os dados do curso. Staff também tem "
+"acesso ao seu curso no Studio e no Insights. Qualquer usuário que ainda não "
+"esteja inscrito no curso será automaticamente inscrito ao ser adicionado "
+"como Staff."
+
+msgid "View gradebook for enrolled learners"
+msgstr "Ver boletim de notas dos alunos inscritos"
+
+msgid "View Gradebook"
+msgstr "Ver boletim de notas"
+
+msgid ""
+"Note: This feature is available only to courses with a small number of "
+"enrolled learners."
+msgstr ""
+"Nota: Este recurso está disponível apenas para cursos com um pequeno número "
+"de alunos inscritos."
+
+msgid "View a specific learner's enrollment status"
+msgstr "Ver o status de inscrição de um aluno específico"
+
+msgid "Learner's {platform_name} email address or username *"
+msgstr "E-mail ou nome de usuário do aluno no {platform_name} *"
+
+msgid "Learner email address or username"
+msgstr "E-mail ou nome de usuário do aluno"
+
+msgid "View Enrollment Status"
+msgstr "Ver status de inscrição"
+
+msgid "View a specific learner's grades and progress"
+msgstr "Ver notas e progresso de um aluno específico"
+
+msgid "Learner's {platform_name} email address or username"
+msgstr "E-mail ou nome de usuário do aluno no {platform_name}"
+
+msgid "View Progress Page"
+msgstr "Ver página de progresso"
+
+msgid "Adjust a learner's grade for a specific problem"
+msgstr "Ajustar a nota de um aluno para um problema específico"
+
+msgid "Location of problem in course"
+msgstr "Localização do problema no curso"
+
+msgid "Example"
+msgstr "Exemplo"
+
+msgid "Problem location"
+msgstr "Localização do problema"
+
+msgid "Attempts"
+msgstr "Tentativas"
+
+msgid ""
+"Allow a learner who has used up all attempts to work on the problem again."
+msgstr ""
+"Permitir que um aluno que usou todas as tentativas trabalhe no problema "
+"novamente."
+
+msgid "Reset Attempts to Zero"
+msgstr "Redefinir tentativas para zero"
+
+msgid "Rescore"
+msgstr "Reavaliar"
+
+msgid ""
+"For the specified problem, rescore the learner's responses. The 'Rescore "
+"Only If Score Improves' option updates the learner's score only if it "
+"improves in the learner's favor."
+msgstr ""
+"Para o problema especificado, reavalie as respostas do aluno. A opção "
+"\"Reavaliar apenas se a pontuação melhorar\" atualiza a pontuação do aluno "
+"somente se ela melhorar a seu favor."
+
+msgid "Score Override"
+msgstr "Sobrescrever nota"
+
+msgid "For the specified problem, override the learner's score."
+msgstr "Para o problema especificado, sobrescreva a nota do aluno."
+
+msgid ""
+"New score for problem, out of the total points available for the problem"
+msgstr ""
+"Nova nota para o problema, do total de pontos disponíveis para o problema"
+
+msgid "Score"
+msgstr "Nota"
+
+msgid "Override Learner's Score"
+msgstr "Sobrescrever nota do aluno"
+
+msgid "Problem History"
+msgstr "Histórico do problema"
+
+msgid ""
+"For the specified problem, permanently and completely delete the learner's "
+"answers and scores from the database."
+msgstr ""
+"Para o problema especificado, exclua permanentemente e completamente as "
+"respostas e notas do aluno do banco de dados."
+
+msgid "Task Status"
+msgstr "Status da tarefa"
+
+msgid ""
+"Show the status for the rescoring tasks that you submitted for this learner "
+"and problem."
+msgstr ""
+"Mostrar o status das tarefas de reavaliação que você enviou para este aluno "
+"e problema."
+
+msgid "Show Task Status"
+msgstr "Mostrar status da tarefa"

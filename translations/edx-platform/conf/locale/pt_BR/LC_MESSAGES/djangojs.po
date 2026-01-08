@@ -1376,6 +1376,9 @@ msgstr "Ocorreu um erro. Verifique sua conexão de internet e tente novamente."
 msgid "Choose one"
 msgstr "Escolha um"
 
+msgid "Learn More"
+msgstr "Saiba mais"
+
 #: lms/static/js/groups/views/cohort_editor.js:63
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
 msgid "Selected tab"
