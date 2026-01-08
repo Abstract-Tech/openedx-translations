@@ -4514,6 +4514,19 @@ msgstr "Tirar foto"
 msgid "Bookmarked on"
 msgstr "Adicionado aos favoritos em"
 
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
+msgid "You have not bookmarked any courseware pages yet"
+msgstr "Você ainda não marcou nenhuma página do conteúdo do curso"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
+msgid ""
+"Use bookmarks to help you easily return to courseware pages. To bookmark a "
+"page, click \"Bookmark this page\" under the page title."
+msgstr ""
+"Use os marcadores para voltar facilmente às páginas do conteúdo do curso. "
+"Para marcar uma página, clique em \"Marcar esta página\" abaixo do título da "
+"página."
+
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."

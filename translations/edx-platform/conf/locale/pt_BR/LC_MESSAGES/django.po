@@ -13547,6 +13547,30 @@ msgstr "Vídeo do YouTube"
 msgid "Switch to Dark Mode"
 msgstr "Mudar para modo escuro"
 
+msgid "Switch to Light Mode"
+msgstr "Mudar para modo claro"
+
+msgid "Discover"
+msgstr "Descobrir"
+
+msgid "Discover courses"
+msgstr "Descobrir cursos"
+
+msgid "Choose Language"
+msgstr "Escolher idioma"
+
+msgid "Register for free"
+msgstr "Cadastre-se gratuitamente"
+
+msgid "Sign in"
+msgstr "Entrar"
+
+msgid "Enroll Now"
+msgstr "Inscreva-se agora"
+
+msgid "This page left intentionally blank. Feel free to add your own content."
+msgstr "Esta página foi deixada intencionalmente em branco. Sinta-se à vontade para adicionar seu próprio conteúdo."
+
 msgid "About Us"
 msgstr "Sobre nós"
 

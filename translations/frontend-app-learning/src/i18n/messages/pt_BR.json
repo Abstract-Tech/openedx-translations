@@ -6,6 +6,8 @@
   "learning.logistration.register": "inscrever",
   "learning.logistration.login": "entrar",
   "general.signIn.sentenceCase": "Entrar",
+  "instructor.toolbar.view.course": "Ver curso em:",
+  "instructor.toolbar.view.as": "Ver este curso como:",
   "tours.abandonTour.launchTourCheckpoint.body": "Se sentindo perdido? Inicie o passeio a qualquer momento para obter algumas dicas rápidas para aproveitar ao máximo a experiência.",
   "tours.sequenceNavigationCheckpoint.body": "A barra superior do seu curso permite que você pule facilmente para diferentes seções e mostra o que está por vir.",
   "tours.existingUserTour.launchTourCheckpoint.body": "Recentemente, adicionamos alguns novos recursos à experiência do curso. Quer ajuda para olhar ao redor? Faça um tour para saber mais.",

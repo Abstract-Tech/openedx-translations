@@ -26883,6 +26883,15 @@ msgstr "Filtres"
 msgid "Switch to Dark Mode"
 msgstr "Passer en mode sombre"
 
+msgid "Switch to Light Mode"
+msgstr "Passer en mode clair"
+
+msgid "Discover"
+msgstr "Découvrir"
+
+msgid "Discover courses"
+msgstr "Découvrir des cours"
+
 msgid "About Us"
 msgstr "À propos de nous"
 
