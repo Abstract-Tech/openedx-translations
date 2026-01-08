@@ -13556,6 +13556,12 @@ msgstr "Descobrir"
 msgid "Discover courses"
 msgstr "Descobrir cursos"
 
+msgid "Explore courses"
+msgstr "Explorar cursos"
+
+msgid "Explore course"
+msgstr "Explorar curso"
+
 msgid "Choose Language"
 msgstr "Escolher idioma"
 

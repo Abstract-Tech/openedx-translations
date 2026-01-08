@@ -26892,6 +26892,9 @@ msgstr "Découvrir"
 msgid "Discover courses"
 msgstr "Découvrir des cours"
 
+msgid "Explore course"
+msgstr "Explorer un cours"
+
 msgid "About Us"
 msgstr "À propos de nous"
 
