@@ -13612,32 +13612,13 @@ msgstr ""
 "considerada; você não pode usar esta ferramenta para antecipar a data de "
 "entrega de uma tarefa para um estudante específico."
 
-msgid ""
-"Specify the {platform_name} email address or username of a student here:"
-msgstr ""
-"Informe aqui o e-mail ou nome de usuário do aluno no {platform_name}:"
-
-msgid "Student Email or Username"
-msgstr "E-mail ou nome de usuário do aluno"
 
 msgid "Choose the graded subsection:"
 msgstr "Escolha a subseção avaliada:"
 
-msgid ""
-"Specify the extension due date and time (in UTC; please specify "
-"{format_string})."
-msgstr ""
-"Informe a data e hora da prorrogação (em UTC; por favor, informe "
-"{format_string})."
-
 msgid "Reason for extension"
 msgstr "Motivo da prorrogação"
 
-msgid "Change due date for student"
-msgstr "Alterar data de entrega para o estudante"
-
-msgid "Viewing granted extensions"
-msgstr "Visualizando prorrogações concedidas"
 
 msgid ""
 "Here you can see what extensions have been granted on particular subsection "
@@ -13653,17 +13634,6 @@ msgstr ""
 "Escolha uma subseção avaliada e clique no botão para obter uma lista de "
 "todos os estudantes que têm prorrogações para essa subseção."
 
-msgid "List all students with due date extensions"
-msgstr "Listar todos os estudantes com prorrogações de data de entrega"
-
-msgid "Specify a student to see all of that student's extensions."
-msgstr "Informe um estudante para ver todas as prorrogações desse estudante."
-
-msgid "List date extensions for student"
-msgstr "Listar prorrogações de data para o estudante"
-
-msgid "Resetting extensions"
-msgstr "Redefinindo prorrogações"
 
 msgid ""
 "Resetting a problem's due date rescinds a due date extension for a student "
@@ -13677,8 +13647,6 @@ msgstr ""
 msgid "Reason for reset"
 msgstr "Motivo da redefinição"
 
-msgid "Reset due date for student"
-msgstr "Redefinir data de entrega para o estudante"
 
 msgid ""
 "Course team members with the Staff role help you manage your course. Staff "
@@ -13697,8 +13665,6 @@ msgstr ""
 msgid "View gradebook for enrolled learners"
 msgstr "Ver boletim de notas dos alunos inscritos"
 
-msgid "View Gradebook"
-msgstr "Ver boletim de notas"
 
 msgid ""
 "Note: This feature is available only to courses with a small number of "
@@ -13737,8 +13703,6 @@ msgstr "Localização do problema no curso"
 msgid "Example"
 msgstr "Exemplo"
 
-msgid "Problem location"
-msgstr "Localização do problema"
 
 msgid "Attempts"
 msgstr "Tentativas"
