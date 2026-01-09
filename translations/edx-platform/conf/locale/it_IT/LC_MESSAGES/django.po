@@ -2769,6 +2769,24 @@ msgstr "Blog"
 msgid "Contact Us"
 msgstr "Contattaci"
 
+msgid "About Us"
+msgstr "Chi siamo"
+
+msgid "Discover"
+msgstr "Scopri"
+
+msgid "Discover courses"
+msgstr "Scopri i corsi"
+
+msgid "The place for all your online learning"
+msgstr "Il posto per tutto il tuo apprendimento online"
+
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Sblocca il tuo potenziale: scopri nuovi corsi oggi!"
+
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Esplora un mondo di conoscenza e migliora le tue competenze con la nostra ampia gamma di corsi"
+
 #: lms/djangoapps/branding/api.py:256 lms/djangoapps/branding/api.py:292
 msgid "Help Center"
 msgstr "Centro assistenza"
