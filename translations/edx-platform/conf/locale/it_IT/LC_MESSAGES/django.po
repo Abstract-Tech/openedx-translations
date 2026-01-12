@@ -2778,8 +2778,17 @@ msgstr "Scopri"
 msgid "Discover courses"
 msgstr "Scopri i corsi"
 
+msgid "Explore course"
+msgstr "Esplora il corso"
+
 msgid "The place for all your online learning"
 msgstr "Il posto per tutto il tuo apprendimento online"
+
+msgid "Powered by:"
+msgstr "Offerto da:"
+
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Copyright ©{year}. Tutti i diritti riservati."
 
 msgid "Unlock Your Potential: Discover New Courses Today!"
 msgstr "Sblocca il tuo potenziale: scopri nuovi corsi oggi!"
@@ -22907,6 +22916,11 @@ msgstr "Come Funziona"
 #: lms/templates/navigation/navbar-not-authenticated.html:24
 msgid "Schools"
 msgstr "Scuole"
+
+#: lms/templates/header/navbar-not-authenticated.html:53
+#: lms/templates/header/navbar-not-authenticated.html:57
+msgid "Register for free"
+msgstr "Registrati gratuitamente"
 
 #: lms/templates/header/user_dropdown.html:47
 msgid "Profile"
