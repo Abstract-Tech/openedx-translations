@@ -124,6 +124,7 @@
   "registration.password.label": "Senha",
   "registration.country.label": "País/Região",
   "registration.opt.in.label": "Eu concordo que {siteName} pode me enviar mensagens de marketing.",
+  "registration.email.text": "O e-mail de ativação deverá chegar à sua caixa de entrada em breve. Se não o encontrar, verifique a pasta de spam ou lixo eletrónico. Após ativar o seu e-mail, poderá aceder aos seus cursos gratuitos.",
   "help.text.name": "Esse nome será usado por todos os certificados que você ganhar.",
   "help.text.username.1": "O nome que o identificará em seus cursos.",
   "help.text.username.2": "Isso não poderá ser alterado mais tarde.",
