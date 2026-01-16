@@ -13767,3 +13767,15 @@ msgstr ""
 
 msgid "Show Task Status"
 msgstr "Mostrar status da tarefa"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:228
+msgid "in Low Resource Settings"
+msgstr "em contextos de recursos limitados"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:230
+msgid "Just in Time Training in Disaster Medicine for healthcare professionals"
+msgstr "Treinamento Just in Time em medicina de desastres para profissionais de saúde"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:236
+msgid "Certificate of Attendance"
+msgstr "Certificado de participação"

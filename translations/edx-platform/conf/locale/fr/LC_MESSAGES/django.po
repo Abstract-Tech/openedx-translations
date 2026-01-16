@@ -26900,3 +26900,15 @@ msgstr "À propos de nous"
 
 msgid "The place for all your online learning"
 msgstr "L'endroit pour tout votre apprentissage en ligne"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:228
+msgid "in Low Resource Settings"
+msgstr "dans des contextes à faibles ressources"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:230
+msgid "Just in Time Training in Disaster Medicine for healthcare professionals"
+msgstr "Formation Just in Time en médecine des catastrophes pour les professionnels de santé"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:236
+msgid "Certificate of Attendance"
+msgstr "Certificat de participation"

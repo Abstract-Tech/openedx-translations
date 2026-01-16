@@ -25488,3 +25488,15 @@ msgstr "Inserire qui il testo del Copyright! "
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Editor di codice "
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:228
+msgid "in Low Resource Settings"
+msgstr "in contesti a risorse limitate"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:230
+msgid "Just in Time Training in Disaster Medicine for healthcare professionals"
+msgstr "Formazione Just in Time in medicina dei disastri per professionisti sanitari"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:236
+msgid "Certificate of Attendance"
+msgstr "Certificato di partecipazione"
