@@ -124,7 +124,7 @@
   "registration.password.label": "Mot de passe",
   "registration.country.label": "Pays/Région",
   "registration.opt.in.label": "{siteName} peux m'envoyer des messages de marketing.",
-  "registration.email.text": "L’e-mail d’activation devrait arriver dans votre boîte de réception dans quelques instants. Si vous ne le trouvez pas, veuillez vérifier votre dossier spam ou courrier indésirable. Une fois votre adresse e-mail activée, vous pourrez accéder à vos cours gratuits.",
+  "registration.email.text": "L’e-mail d’activation dovrebbe arrivare nella vostra casella di posta tra pochi istanti. Si vous ne le trouvez pas, veuillez vérifier votre dossier spam ou courrier indésirable.",
   "help.text.name": "Ce nom sera utilisé pour toutes les attestations que vous obtiendrez.",
   "help.text.username.1": "Le nom qui vous identifiera dans vos cours.",
   "help.text.username.2": "Cela ne peut pas être modifié ultérieurement.",
