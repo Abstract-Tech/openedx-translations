@@ -22955,3 +22955,9 @@ msgstr ""
 
 msgid "Already Enrolled"
 msgstr "Bereits eingeschrieben"
+
+#: lms/djangoapps/course_home_api/outline/serializers.py:33
+msgid "({number} Question)"
+msgid_plural "({number} Questions)"
+msgstr[0] "({number} Frage)"
+msgstr[1] "({number} Fragen)"
