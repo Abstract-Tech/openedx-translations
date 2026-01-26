@@ -42,7 +42,7 @@
   "cert.alert.earned.unavailable.header.v2": "Deine Noten und Zertifikate werden bald verfügbar sein.",
   "cert.alert.notPassing.button": "Noten aufrufen",
   "cert.alert.notPassing.header": "Du bist für dieses Zertifikat nicht berechtigt.",
-  "courseCelebration.certificateBody.available": "",
+  "courseCelebration.certificateBody.available": "Präsentieren Sie Ihre Leistung noch heute auf LinkedIn oder in Ihrem Lebenslauf. Sie können Ihr Zertifikat jetzt herunterladen und jederzeit über Ihr {dashboardLink} und {profileLink} darauf zugreifen.",
   "courseCelebration.certificateBody.notAvailable.accessCertificate": "Wenn Sie eine bestandene Note erreicht haben, wird Ihr Zertifikat automatisch ausgestellt.",
   "courseCelebration.certificateBody.notAvailable.endDate": "Endnoten und Zertifikate werden nach dem {endDate} verfügbar sein.",
   "courseCelebration.certificateBody.notAvailable.endDate.v2": "",
