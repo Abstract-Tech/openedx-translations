@@ -25132,6 +25132,21 @@ msgstr "Kostenlos registrieren"
 msgid "Profile"
 msgstr "Profil"
 
+msgid "Discover courses"
+msgstr "Kursübersicht"
+
+msgid "Discover"
+msgstr "Kursübersicht"
+
+msgid "Filters"
+msgstr "Filter"
+
+msgid "Already Enrolled"
+msgstr "Bereits eingeschrieben"
+
+msgid "Course Summary"
+msgstr "Kursübersicht"
+
 #: lms/templates/header/user_dropdown.html:50
 msgid "Order History"
 msgstr "Bestellverlauf"

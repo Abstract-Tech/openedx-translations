@@ -108,7 +108,7 @@
   "discussion.thread.notFound": "Thread not found",
   "discussions.comment.sortFilterStatus": "{sort, select,\n      false {Oldest first}\n      true {Newest first}\n      other {{sort}}\n    }",
   "discussions.app.title": "Discussions",
-  "discussions.posts.actionBar.searchAllPosts": "Search all posts",
+  "discussions.posts.actionBar.searchAllPosts": "Alle Beiträge durchsuchen",
   "discussions.posts.actionBar.search": "{page, select,\n      topics {Search topics}\n      posts {Search all posts}\n      learners {Search learners}\n      myPosts {Search all posts}\n      other {{page}}\n    }",
   "discussions.actionBar.searchInfo": "Showing {count} results for \"{text}\"",
   "discussions.actionBar.searchRewriteInfo": "No results found for \"{searchString}\". Showing {count} results for \"{textSearchRewrite}\".",

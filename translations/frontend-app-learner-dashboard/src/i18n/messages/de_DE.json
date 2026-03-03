@@ -82,7 +82,7 @@
   "leanerDashboard.confirmEmailImageAlt": "E-Mail-Hintergrund bestätigen",
   "learner-dash.unenrollConfirm.confirm.header": "Bestätigung der Abmeldung",
   "learner-dash.unenrollConfirm.confirm.text": "Bist du sicher, dass du dich vom Kurs {courseTitle} abmelden möchtest?",
-  "learner-dash.unenrollConfirm.confirm.cancel": "Löschen",
+  "learner-dash.unenrollConfirm.confirm.cancel": "Abbrechen",
   "learner-dash.unenrollConfirm.confirm.unenroll": "Ausschreiben",
   "learner-dash.unenrollConfirm.confirm.reason.heading": "Warum melden Sie sich ab?",
   "learner-dash.unenrollConfirm.confirm.reason.skip": "Umfrage überspringen",

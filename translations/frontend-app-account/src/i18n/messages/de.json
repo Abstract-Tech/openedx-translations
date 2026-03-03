@@ -139,7 +139,7 @@
   "account.settings.delete.account.modal.text.2": "If you proceed, you will be unable to use this account to take courses on {siteName}.",
   "account.settings.delete.account.modal.text.2.edX": "If you proceed, you will be unable to use this account to take courses on the edX app, edx.org, or any other site hosted by edX. This includes access to edx.org from your employer's or university's system and access to private sites offered by MIT Open Learning, Wharton Executive Education, and Harvard Medical School.",
   "account.settings.delete.account.modal.enter.password": "If you still wish to continue and delete your account, please enter your account password:",
-  "account.settings.delete.account.modal.confirm.delete": "Yes, Delete",
+  "account.settings.delete.account.modal.confirm.delete": "Ja, Löschen",
   "account.settings.delete.account.modal.confirm.cancel": "Abbrechen",
   "account.settings.delete.account.error.unable.to.delete": "Unable to delete account",
   "account.settings.delete.account.error.no.password": "A password is required",
