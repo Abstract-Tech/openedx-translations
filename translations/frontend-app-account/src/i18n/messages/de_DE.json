@@ -89,7 +89,7 @@
   "account.settings.field.gender.options.f": "Weiblich",
   "account.settings.field.gender.options.m": "Männlich",
   "account.settings.field.gender.options.o": "Anderer Abschluss",
-  "account.settings.field.language.proficiencies": "Sprachenkenntnisse",
+  "account.settings.field.language.proficiencies": "Sprache",
   "account.settings.field.language.proficiencies.empty": "Gesprochene Sprache hinzufügen",
   "account.settings.field.language_proficiencies.options.empty": "Gesprochene Sprache auswählen",
   "account.settings.field.time.zone": "Zeitzone",

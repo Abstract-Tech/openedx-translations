@@ -2828,7 +2828,7 @@ msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
 msgid "Activate your account"
-msgstr "Aktivieren Sie Ihr Benutzerkonto."
+msgstr "Konto aktivieren."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:42
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
@@ -2858,18 +2858,6 @@ msgstr ""
 "Diese E-Mail-Nachricht wurde automatisch von %(lms_url)s gesendet, weil "
 "jemand versucht hat, ein %(platform_name)s Konto mit dieser E-Mail-Adresse "
 "zu erstellen."
-
-#: common/templates/student/edx_ace/accountactivation/email/body.txt:2
-#, python-format
-msgid ""
-"You’re almost there! Use the link below to activate your account to access "
-"engaging, high-quality %(platform_name)s courses. Note that you will not be "
-"able to log back into your account until you have activated it."
-msgstr ""
-"Du bist fast da! Verwenden Sie den unten stehenden Link, um Ihr Konto zu "
-"aktivieren und auf ansprechende, qualitativ hochwertige "
-"%(platform_name)s-Kurse zuzugreifen. Beachten Sie, dass Sie sich nicht "
-"wieder bei Ihrem Konto anmelden können, bis Sie es aktiviert haben."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:8
 #, python-format
@@ -3793,7 +3781,7 @@ msgstr "Überprüfen Sie dieses Zertifikat selbst"
 #, python-brace-format
 msgid "{platform_name} offers interactive online classes and MOOCs."
 msgstr ""
-"Die {platform_name} bietet interaktive online Workshops zur Medienkompetenz "
+"Die {platform_name} bietet Fachwissen für Immobilienverwalter "
 "an."
 
 #: lms/djangoapps/certificates/views/webview.py:227
@@ -13501,7 +13489,7 @@ msgstr ""
 
 #: xmodule/course_block.py:1110
 msgid "General"
-msgstr "Allgemein"
+msgstr "Allgemeines"
 
 #: xmodule/discussion_block.py:55
 msgid "Category"
@@ -20784,7 +20772,7 @@ msgstr "Einstellungen speichern"
 #: lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html:29
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:54
 msgid "Unenroll"
-msgstr "Ausschreiben"
+msgstr "Abmelden"
 
 #: lms/templates/email_change_failed.html:11
 #: lms/templates/email_exists.html:11
@@ -27934,3 +27922,83 @@ msgstr "Geben Sie hier Ihren Copyright-Text ein!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Code Editor"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index.html:23
+msgid "View Schedule"
+msgstr "Zu den Terminen"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index.html:38
+msgid "Our Webinars"
+msgstr "Unsere Webinare"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index_overlay.html:6
+msgid "Learn from the"
+msgstr "Lernen Sie von den"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/index_overlay.html:8
+msgid "Industry Experts"
+msgstr "Experten aus der Branche"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Kursübersicht"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Entfalte dein Potenzial: Entdecke noch heute neue Kurse!"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid ""
+"Explore a world of knowledge and enhance your skills with our diverse range "
+"of courses"
+msgstr ""
+"Entdecke eine Welt voller Wissen und erweitere deine Fähigkeiten mit unserem "
+"vielfältigen Kursangebot."
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filter"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:67
+msgid "course"
+msgstr "Kurs"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/header/theme-toggle-button.html:13
+msgid "Switch to Dark Mode"
+msgstr "Zum Dunkelmodus wechseln"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:98
+msgid "Powered by:"
+msgstr "Bereitgestellt von:"
+
+msgid "Runs on Tutor"
+msgstr "Läuft auf Tutor"
+
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:57
+#: impower-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:123
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Urheberrecht ©{year}. Alle Rechte vorbehalten."
+
+msgid "Discover courses"
+msgstr "Entdecken Sie Kurse"
+
+msgid "Discover"
+msgstr "Entdecken Sie Kurse"
+
+msgid "Explore course"
+msgstr "Kursübersicht"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:2
+msgid ""
+"You’re almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"Fast geschafft! Nutzen Sie den untenstehenden Link, um Ihr Konto zu "
+"aktivieren und auf die vielseitigen, hochwertigen %(platform_name)s-Kurse "
+"zuzugreifen. Beachten Sie, dass Sie sich erst wieder anmelden können, "
+"nachdem Ihr Konto aktiviert wurde."
+
+msgid "Already Enrolled"
+msgstr "Bereits eingeschrieben"

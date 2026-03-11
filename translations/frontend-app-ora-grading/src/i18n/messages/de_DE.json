@@ -20,7 +20,7 @@
   "ora-grading.ReviewModal.demoHeading": "Demo-Modus",
   "ora-grading.ReviewModal.demoMessage": "Sie demonstrieren das neue ORA-Bewertungserlebnis für Mitarbeiter. Sie können keine Noten abgeben, bis Sie die Funktion aktiviert haben. Dies wird am 9. Mai (05.09.2022) zum Standardbewertungserlebnis. Um sich frühzeitig anzumelden oder abzumelden, wenden Sie sich bitte an den Partner-Support.",
   "ora-grading.ListView.ListViewBreadcrumbs.backToResponses": "Zurück zu allen offenen Antworten",
-  "ora-grading.ListView.noResultsFoundTitle": "Hier noch nichts",
+  "ora-grading.ListView.noResultsFoundTitle": "Hier ist noch nichts",
   "ora-grading.ListView.noResultsFoundBody": "Wenn Lernende Antworten einreichen, werden diese hier angezeigt",
   "ora-grading.ListView.viewAllResponses": "Alle Antworten anzeigen",
   "ora-grading.ListView.viewSelectedResponses": "Ausgewählte Antworten anzeigen ( {value} )",
