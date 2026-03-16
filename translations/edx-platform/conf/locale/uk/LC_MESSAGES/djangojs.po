@@ -6684,7 +6684,7 @@ msgstr "Нове вікно"
 #: common/static/common/templates/components/paging-footer.underscore:19
 #: common/static/common/templates/discussion/templates.underscore:610
 msgid "Next"
-msgstr "Наступний"
+msgstr "Далі"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
