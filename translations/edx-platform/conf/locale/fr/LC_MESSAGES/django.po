@@ -26912,3 +26912,18 @@ msgstr "Formation Just in Time en médecine des catastrophes pour les profession
 #: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:236
 msgid "Certificate of Attendance"
 msgstr "Certificat de participation"
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/index_overlay.html:12
+msgid "Empowering excellence where resources are limited"
+msgstr "L'excellence au service du terrain, là où les ressources sont limitées."
+
+#: cuamm-indigo/tutorindigo/templates/indigo/lms/templates/index_overlay.html:15
+msgid ""
+"Welcome to Just in Time, a learning platform by Doctors with Africa CUAMM, "
+"designed to provide healthcare professionals, students and health managers "
+"with the right knowledge, exactly when and where it is needed most."
+msgstr ""
+"Bienvenue sur \"Juste à Temps\", la plateforme d'apprentissage de Médecins "
+"avec l'Afrique CUAMM. Conçue pour les professionnels de santé, les étudiants "
+"et les gestionnaires de santé, elle offre les connaissances essentielles, "
+"exactement quand et là où elles sont le plus nécessaires."
