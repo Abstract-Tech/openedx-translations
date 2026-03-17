@@ -378,7 +378,7 @@ msgstr "Пошук..."
 #: ecommerce/static/js/views/coupon_list_view.js:107
 #: ecommerce/static/js/views/course_list_view.js:52
 msgid "Next"
-msgstr "Наступний"
+msgstr "Далі"
 
 #: ecommerce/static/js/views/coupon_list_view.js:108
 #: ecommerce/static/js/views/course_list_view.js:53
