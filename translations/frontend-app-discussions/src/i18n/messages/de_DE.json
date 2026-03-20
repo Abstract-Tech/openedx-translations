@@ -73,7 +73,7 @@
   "discussions.learner.mostActivity": "Die meisten Aktivitäten",
   "discussions.learner.reportedActivity": "Gemeldete Aktivität",
   "discussions.learner.recentActivity": "neuesten Aktivitäten",
-  "discussions.learner.sortFilterStatus": "Alle Lernenden sortiert nach {sortieren, auswählen, markiert {gemeldete Aktivität} Aktivität {größte Aktivität} andere { {sort} } }",
+  "discussions.learner.sortFilterStatus": "Alle Beiträge der Lernenden, sortiert nach {sort, select, flagged {gemeldeter Aktivität} activity {Aktivität} other {{sort}} }.",
   "discussion.learner.allActivity": "Alle Aktivitäten",
   "discussion.learner.posts": "Beiträge",
   "discussions.comments.comment.addComment": "Kommentar hinzufügen",
