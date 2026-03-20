@@ -2111,7 +2111,7 @@ msgstr "Gesamte Antworten"
 
 #: templates/legacy/staff_area/oa_staff_area.html:84
 msgid "Location"
-msgstr "Ort"
+msgstr "Land"
 
 #: templates/legacy/staff_area/oa_staff_area.html:90
 msgid "Learner Progress"

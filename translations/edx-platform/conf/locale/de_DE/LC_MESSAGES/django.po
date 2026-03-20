@@ -4782,7 +4782,7 @@ msgstr "Nutzer existiert nicht."
 
 #: lms/djangoapps/courseware/views/views.py:1247
 msgid "Invalid location."
-msgstr "Ungültiger Ort."
+msgstr "Ungültiger Land."
 
 #: lms/djangoapps/courseware/views/views.py:1261
 #, python-brace-format
@@ -5293,7 +5293,7 @@ msgstr "Sprache"
 
 #: lms/djangoapps/instructor/views/api.py:1508
 msgid "Location"
-msgstr "Ort"
+msgstr "Land"
 
 #: lms/djangoapps/instructor/views/api.py:1509
 msgid "Birth Year"
@@ -17067,7 +17067,7 @@ msgstr "Organisiere deinen Kurs neu"
 #: cms/templates/course_outline.html:304
 msgid "Drag sections, subsections, and units to new locations in the outline."
 msgstr ""
-"Ziehe Abschnitte, Unterabschnitte und Lerneinheiten an einen neuen Ort in "
+"Ziehe Abschnitte, Unterabschnitte und Lerneinheiten an einen neuen Land in "
 "der Kursübersicht."
 
 #: cms/templates/course_outline.html:306
