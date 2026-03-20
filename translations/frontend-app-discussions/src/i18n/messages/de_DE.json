@@ -72,7 +72,7 @@
   "discussions.learner.activityForLearner": "Aktivität für {username}",
   "discussions.learner.mostActivity": "Die meisten Aktivitäten",
   "discussions.learner.reportedActivity": "Gemeldete Aktivität",
-  "discussions.learner.recentActivity": "Letzte Aktivität",
+  "discussions.learner.recentActivity": "neuesten Aktivitäten",
   "discussions.learner.sortFilterStatus": "Alle Lernenden sortiert nach {sortieren, auswählen, markiert {gemeldete Aktivität} Aktivität {größte Aktivität} andere { {sort} } }",
   "discussion.learner.allActivity": "Alle Aktivitäten",
   "discussion.learner.posts": "Beiträge",
@@ -116,7 +116,7 @@
   "discussions.comment.sortFilterStatus": "{sort, select, falsch {Älteste zuerst} Wahr {Neueste zuerst} other { {sort} } }",
   "discussions.captcha.verification.label": "Die CAPTCHA-Überprüfung ist fehlgeschlagen.",
   "discussions.topics.sort.message": "Sortiert nach {sortBy}",
-  "discussions.topics.sort.lastActivity": "Letzte Aktivität",
+  "discussions.topics.sort.lastActivity": "neuesten Aktivitäten",
   "discussions.topics.sort.commentCount": "Die meisten Aktivitäten",
   "discussions.topics.sort.courseStructure": "Kursstruktur",
   "discussions.topics.unnamed.label": "Unbenannte Kategorie",
@@ -230,8 +230,8 @@
   "discussions.posts.filter.myDiscussions": "Meine Diskussionen",
   "discussions.posts.filter.myQuestions": "Meine Fragen",
   "discussions.posts.sort.message": "Sortiert nach {sortBy}",
-  "discussions.posts.sort.lastActivity": "Letzte Aktivität",
+  "discussions.posts.sort.lastActivity": "neuesten Aktivitäten",
   "discussions.posts.sort.commentCount": "Die meisten Aktivitäten",
   "discussions.posts.sort.voteCount": "Die meisten Likes",
-  "discussions.posts.sort-filter.sortFilterStatus": "{own, select, falsch {All} Wahr {Own} other { {own} } } {status, select, statusAll {} statusUnread {unread} statusFollowing {followed} statusReported {reported} statusUnanswered {unanswered} statusUnresponded {unresponded} other { {status} } } {type, select, Diskussion { Diskussionen } Frage {questions} all {posts} other { {type} } } {cohortType, select, all {} group {in {cohort} } other { {cohortType} } } sortiert nach {sort, select, lastActivityAt { Letzte Aktivität} commentCount {die meisten Aktivitäten} voteCount {die meisten Likes} other { {sort} } }"
+  "discussions.posts.sort-filter.sortFilterStatus": "{own, select, falsch {All} Wahr {Own} other { {own} } } {status, select, statusAll {} statusUnread {unread} statusFollowing {followed} statusReported {reported} statusUnanswered {unanswered} statusUnresponded {unresponded} other { {status} } } {type, select, Diskussion { Diskussionen } Frage {questions} all {posts} other { {type} } } {cohortType, select, all {} group {in {cohort} } other { {cohortType} } } sortiert nach {sort, select, lastActivityAt { neuesten Aktivitäten} commentCount {die meisten Aktivitäten} voteCount {die meisten Likes} other { {sort} } }"
 }
