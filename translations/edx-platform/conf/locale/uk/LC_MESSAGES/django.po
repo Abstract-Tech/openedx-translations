@@ -12130,6 +12130,49 @@ msgstr "Неправильно"
 msgid "Correct"
 msgstr "Правильно"
 
+#: xmodule/capa_block.py:1387
+#, python-brace-format
+msgid "Incorrect ({progress} point)"
+msgid_plural "Incorrect ({progress} points)"
+msgstr[0] "Неправильно ({progress} бал)"
+msgstr[1] "Неправильно ({progress} бали)"
+msgstr[2] "Неправильно ({progress} балів)"
+msgstr[3] "Неправильно ({progress} балів)"
+
+#: xmodule/capa_block.py:1396
+#, python-brace-format
+msgid "Correct ({progress} point)"
+msgid_plural "Correct ({progress} points)"
+msgstr[0] "Правильно ({progress} бал)"
+msgstr[1] "Правильно ({progress} бали)"
+msgstr[2] "Правильно ({progress} балів)"
+msgstr[3] "Правильно ({progress} балів)"
+
+#: xmodule/capa_block.py:1405
+#, python-brace-format
+msgid "Partially correct ({progress} point)"
+msgid_plural "Partially correct ({progress} points)"
+msgstr[0] "Частково правильно ({progress} бал)"
+msgstr[1] "Частково правильно ({progress} бали)"
+msgstr[2] "Частково правильно ({progress} балів)"
+msgstr[3] "Частково правильно ({progress} балів)"
+
+#: xmodule/capa_block.py:1410
+msgid "Partially Correct"
+msgstr "Частково правильно"
+
+#: xmodule/capa_block.py:1412
+msgid "Answer submitted."
+msgstr "Відповідь надіслано."
+
+#: xmodule/capa/responsetypes.py:361
+msgid "Correct:"
+msgstr "Правильно:"
+
+#: xmodule/capa/responsetypes.py:363
+msgid "Incorrect:"
+msgstr "Неправильно:"
+
 #: xmodule/capa/inputtypes.py:455 wiki/forms.py:162
 msgid "Select an option"
 msgstr "Виберіть варіант"
