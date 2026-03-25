@@ -7170,16 +7170,16 @@ msgstr ""
 
 #: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
 msgid "incorrect"
-msgstr "неправильно"
+msgstr "Неправильно"
 
 #: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
 #: xmodule/js/src/problem/edit.js:47
 msgid "correct"
-msgstr "правильно"
+msgstr "Правильно"
 
 #: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
 msgid "answer"
-msgstr "відповідь"
+msgstr "Відповідь"
 
 #: xmodule/js/src/problem/edit.js:53
 msgid "Short explanation"
@@ -7418,7 +7418,7 @@ msgstr "Транскрипт вiдео"
 
 #: xmodule/js/src/video/09_video_caption.js:815
 msgid "Start of transcript. Skip to the end."
-msgstr "Почати тексту. Перейти в кінець."
+msgstr "Початок тексту. Перейти в кінець."
 
 #: xmodule/js/src/video/09_video_caption.js:819
 msgid "End of transcript. Skip to the start."
@@ -12121,6 +12121,46 @@ msgstr "Прогрес"
 
 msgid "Dates"
 msgstr "дати"
+
+#: xmodule/capa/capa_problem.py:745 xmodule/capa_block.py:1375
+msgid "Incorrect"
+msgstr "Неправильно"
+
+#: xmodule/capa/capa_problem.py:750 xmodule/capa_block.py:1384
+msgid "Correct"
+msgstr "Правильно"
+
+#: xmodule/capa/inputtypes.py:455 wiki/forms.py:162
+msgid "Select an option"
+msgstr "Виберіть варіант"
+
+#: xmodule/capa/responsetypes.py:407 xmodule/capa_block.py:778
+#: xmodule/capa_block.py:794
+msgid "Answer"
+msgstr "Відповідь"
+
+#: xmodule/capa_block.py:228 xmodule/modulestore/inheritance.py:89
+msgid "Show Answer"
+msgstr "Показати відповідь"
+
+#: cms/templates/maintenance/_force_publish_course.html:27
+#: lms/templates/problem.html:45
+#: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:33
+#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
+msgid "Reset"
+msgstr "Скинути"
+
+#: lms/templates/problem.html:32
+msgid "Hint"
+msgstr "Підказка"
+
+#: lms/templates/problem.html:50
+msgid "Show answer"
+msgstr "Показати відповідь"
+
+#: lms/templates/problem.html:152
+msgid "Answers are displayed within the problem"
+msgstr "Відповіді відображаються в завданні"
 
 msgid "Instructor"
 msgstr "Інструктор"

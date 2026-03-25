@@ -7170,16 +7170,16 @@ msgstr ""
 
 #: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
 msgid "incorrect"
-msgstr "неправильно"
+msgstr "Неправильно"
 
 #: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
 #: xmodule/js/src/problem/edit.js:47
 msgid "correct"
-msgstr "правильно"
+msgstr "Правильно"
 
 #: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
 msgid "answer"
-msgstr "відповідь"
+msgstr "Відповідь"
 
 #: xmodule/js/src/problem/edit.js:53
 msgid "Short explanation"
@@ -7418,7 +7418,7 @@ msgstr "Транскрипт вiдео"
 
 #: xmodule/js/src/video/09_video_caption.js:815
 msgid "Start of transcript. Skip to the end."
-msgstr "Почати тексту. Перейти в кінець."
+msgstr "Початок тексту. Перейти в кінець."
 
 #: xmodule/js/src/video/09_video_caption.js:819
 msgid "End of transcript. Skip to the start."
