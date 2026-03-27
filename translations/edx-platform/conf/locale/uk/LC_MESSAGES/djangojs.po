@@ -6684,7 +6684,7 @@ msgstr "Нове вікно"
 #: common/static/common/templates/components/paging-footer.underscore:19
 #: common/static/common/templates/discussion/templates.underscore:610
 msgid "Next"
-msgstr "Далі"
+msgstr "Вперед"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6766,7 +6766,7 @@ msgstr "Попередньо"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:940
 msgid "Prev"
-msgstr "Попередній"
+msgstr "Назад"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -8634,7 +8634,7 @@ msgstr "Додати перший підручник"
 #: common/static/common/templates/components/paging-footer.underscore:2
 #: common/static/common/templates/discussion/templates.underscore:586
 msgid "Previous"
-msgstr "Попередній"
+msgstr "Назад"
 
 #: cms/templates/js/partition-group-details.underscore:47
 msgid "This group controls access to:"
