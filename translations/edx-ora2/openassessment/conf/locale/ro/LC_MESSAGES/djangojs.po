@@ -25,13 +25,13 @@ msgstr ""
 #: xblock/static/js/src/lms/oa_course_items_listing.js:137
 #: xblock/static/js/src/lms/oa_course_items_listing.js:138
 msgid "Self"
-msgstr "Personal"
+msgstr "Auto"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:153
 #: xblock/static/js/src/lms/oa_course_items_listing.js:154
 msgid "Staff"
-msgstr "Personal"
+msgstr "Facilitator curs"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_confirmation_alert.js:7

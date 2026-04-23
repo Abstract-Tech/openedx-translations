@@ -26,11 +26,11 @@ msgstr "Închis"
 
 #: drag_and_drop_v2.py:156
 msgid "Past Due"
-msgstr "Termen limită expirat"
+msgstr "Depășit"
 
 #: templates/html/drag_and_drop_edit.html:240
 msgid "Items"
-msgstr "Articole"
+msgstr "Elemente"
 
 #: templates/html/drag_and_drop_edit.html:288
 msgid "Continue"
@@ -42,11 +42,11 @@ msgstr "Anulează"
 
 #: public/js/drag_and_drop.js:48 public/js/drag_and_drop.js:399
 msgid "Submitting"
-msgstr "Trimitere"
+msgstr "Se trimite"
 
 #: public/js/drag_and_drop.js:357 public/js/drag_and_drop.js:547
 msgid "Close"
-msgstr "Închideți"
+msgstr "Închide"
 
 #: public/js/drag_and_drop.js:412
 msgid "Submit"
@@ -58,15 +58,15 @@ msgstr "Resetează"
 
 #: public/js/drag_and_drop.js:577
 msgid "Correct"
-msgstr "Corect/ă"
+msgstr "Corect"
 
 #: public/js/drag_and_drop.js:577
 msgid "Incorrect"
-msgstr "Incorect/ă"
+msgstr "Incorect"
 
 #: public/js/drag_and_drop.js:662
 msgid "Problem"
-msgstr "Problemă"
+msgstr "Exercițiu"
 
 #: public/js/drag_and_drop_edit.js:748
 msgid "Saving"

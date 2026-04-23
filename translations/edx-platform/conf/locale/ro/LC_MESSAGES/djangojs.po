@@ -428,7 +428,7 @@ msgstr "Grupuri"
 #: cms/templates/js/group-configuration-details.underscore:88
 #: cms/templates/js/partition-group-details.underscore:63
 msgid "Course Outline"
-msgstr "Programa cursului "
+msgstr "Structura cursului"
 
 #: cms/static/js/views/paged_container.js:260
 msgid "Date added"
@@ -523,7 +523,7 @@ msgstr "În acest câmp nu se poate folosi spațiu sau caractere speciale."
 
 #: common/static/common/js/utils/edx.utils.validate.js:28
 msgid "The email address you've provided isn't formatted correctly."
-msgstr "Adresa de e-mail pe care ai furnizat-o nu este formatată corect."
+msgstr "Adresa de e-mail introdusă nu are formatul corect."
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:128
 msgid "(Optional)"
@@ -565,7 +565,7 @@ msgstr "Țară"
 
 #: lms/static/js/Markdown.Editor.js:37
 msgid "Image Description"
-msgstr "Descrierea Imaginii"
+msgstr "Descrierea imaginii"
 
 #: lms/static/js/ccx/schedule.js:267 lms/static/js/ccx/schedule.js:278
 msgid "Save changes"
@@ -592,7 +592,7 @@ msgstr "Grupuri"
 
 #: lms/static/js/edxnotes/views/tabs/recent_activity.js:30
 msgid "Recent Activity"
-msgstr "Data ultimei activități"
+msgstr "Postări recente"
 
 #: lms/static/js/instructor_dashboard/data_download.js:228
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
@@ -626,19 +626,19 @@ msgstr "Intră în Pagina cursantului"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:284
 #: lms/templates/learner_dashboard/course_entitlement.underscore:34
 msgid "Select Session"
-msgstr "Selectează Sesiune"
+msgstr "Selectează sesiune"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:92
 msgid "Enter and confirm your new password."
-msgstr "Introdu și confirmă noua parolă."
+msgstr "Introduceți și confirmați noua parolă."
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:98
 msgid "New Password"
-msgstr "Parola nouă"
+msgstr "Parolă nouă"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:107
 msgid "Confirm Password"
-msgstr "Confirmă parola"
+msgstr "Confirmați parola"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:110
 msgid "Passwords do not match."
@@ -671,12 +671,12 @@ msgstr "Termeni și condiții și Angajament de Integritate"
 
 #: lms/static/js/student_account/views/LoginView.js:39
 msgid "We couldn't sign you in."
-msgstr "Nu v-am putut conecta."
+msgstr "Nu te-am putut autentifica."
 
 #: lms/static/js/student_account/views/LoginView.js:171
 #: lms/templates/verify_student/intro_step.underscore:38
 msgid "Check Your Email"
-msgstr "Verifică-ți emailul"
+msgstr "Verifică e-mail-ul"
 
 #: lms/static/js/student_account/views/RegisterView.js:45
 msgid "We couldn't create your account."
@@ -685,7 +685,7 @@ msgstr "Nu ți-am putut crea contul."
 #: lms/static/js/student_account/views/RegisterView.js:66
 #: lms/templates/student_account/register.underscore:69
 msgid "Create Account"
-msgstr "Creează cont"
+msgstr "Creeaza Cont"
 
 #: lms/static/js/views/image_field.js:25
 msgid "Image"
@@ -752,7 +752,7 @@ msgstr "Antet"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:670
 msgid "Height"
-msgstr "Inaltime"
+msgstr "Înălțime"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -767,7 +767,7 @@ msgstr "Următor"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:940
 msgid "Prev"
-msgstr "Pre"
+msgstr "Prev"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -798,7 +798,7 @@ msgstr "Vizualizează"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:1225
 msgid "Width"
-msgstr "Latime"
+msgstr "Lățime"
 
 #. Translators: Volume level in range ]20,40]%
 #: xmodule/js/src/video/00_i18n.js:29
@@ -833,7 +833,7 @@ msgstr "Acţiuni"
 
 #: cms/templates/js/asset-upload-modal.underscore:2
 msgid "close"
-msgstr "închide"
+msgstr "Închide"
 
 #: cms/templates/js/certificate-editor.underscore:31
 msgid "Course title"
@@ -931,7 +931,7 @@ msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:15
 msgid "Weight of Total Grade"
-msgstr "Pondere în punctajul total"
+msgstr "Pondere notă finală"
 
 #: cms/templates/js/course_grade_policy.underscore:17
 msgid ""
@@ -951,7 +951,7 @@ msgstr ""
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
-msgstr "Resurse la îndemână"
+msgstr "Notițele Cursului"
 
 #: cms/templates/js/course_info_update.underscore:5
 msgid "Date"
@@ -1055,7 +1055,7 @@ msgstr "Caută"
 
 #: common/static/common/templates/discussion/templates.underscore:15
 msgid "Add a Response"
-msgstr "Adaugă un răspuns"
+msgstr "Adăugați Răspuns"
 
 #: common/static/common/templates/discussion/templates.underscore:33
 #: common/static/common/templates/discussion/templates.underscore:168
@@ -1070,7 +1070,7 @@ msgstr "Închis"
 
 #: common/static/common/templates/discussion/templates.underscore:337
 msgid "Following"
-msgstr "Urmărite"
+msgstr "Următorul"
 
 #: common/static/common/templates/discussion/templates.underscore:425
 #: common/static/common/templates/discussion/templates.underscore:559
@@ -1079,7 +1079,7 @@ msgstr "Adaugă o postare"
 
 #: common/static/common/templates/discussion/templates.underscore:477
 msgid "follow this post"
-msgstr "urmărește postarea"
+msgstr "urmărește acest post"
 
 #: common/static/common/templates/discussion/templates.underscore:572
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
@@ -1098,7 +1098,7 @@ msgstr "Urmărește"
 
 #: common/static/common/templates/discussion/templates.underscore:763
 msgid "Unfollow"
-msgstr "Nu mai urmăresc"
+msgstr "Anulați urmărirea"
 
 #: common/static/common/templates/discussion/templates.underscore:823
 msgid "Open"
@@ -1106,7 +1106,7 @@ msgstr "Deschide"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
 msgid "Grade"
-msgstr "Punctaj"
+msgstr "Notă"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
 msgid "Course ID"
@@ -1125,7 +1125,7 @@ msgstr "Donează"
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
-msgstr "Extinde conținutul"
+msgstr "Extinde totul"
 
 #: lms/templates/ccx/schedule.underscore:6
 msgid "Collapse All"
@@ -1145,7 +1145,7 @@ msgstr "Sub-secțiune"
 
 #: lms/templates/discovery/filter_bar.underscore:3
 msgid "Clear All"
-msgstr "Șterge tot"
+msgstr "Ștergeți tot"
 
 #: lms/templates/edxnotes/note-item.underscore:17
 msgid "Note"
@@ -1157,7 +1157,7 @@ msgstr "Detalii Comandă"
 
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore:7
 msgid "Go to Dashboard"
-msgstr "Intră în Pagina cursantului"
+msgstr "Accesați Tabloul de bord"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:28
 msgid "Student"
@@ -1173,7 +1173,7 @@ msgstr "Vezi cursul arhivat"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:7
 msgid "View Course"
-msgstr "Vezi cursul"
+msgstr "Vizualizați cursul"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:34
 #: lms/templates/learner_dashboard/course_enroll.underscore:38
@@ -1195,7 +1195,7 @@ msgstr "Felicitări!"
 
 #: lms/templates/student_account/account.underscore:16
 msgid "Reset Password"
-msgstr "Schimbă parola"
+msgstr "Resetează parola"
 
 #: lms/templates/student_account/form_field.underscore:139
 msgid "Need help signing in?"
@@ -1217,7 +1217,7 @@ msgstr "Creează un cont"
 #: lms/templates/student_account/hinted_login.underscore:4
 #: lms/templates/student_account/login.underscore:56
 msgid "Sign in"
-msgstr "Conectați-vă"
+msgstr "Intră în cont"
 
 #: lms/templates/student_account/institution_login.underscore:4
 msgid "Sign in with Institution/Campus Credentials"
@@ -1235,11 +1235,11 @@ msgstr "Înregistrați-vă la acreditările instituției / campusului"
 #: lms/templates/student_account/institution_register.underscore:28
 #: lms/templates/student_account/register.underscore:50
 msgid "Create an Account"
-msgstr "Creeaza un Cont"
+msgstr "Creează cont"
 
 #: lms/templates/student_account/login.underscore:27
 msgid "Sign In"
-msgstr "Autentificare"
+msgstr "Intră în cont"
 
 #: lms/templates/student_account/login.underscore:43
 msgid "Use my university info"
@@ -1248,27 +1248,25 @@ msgstr "Folosește informațiile mele universitare"
 #: lms/templates/student_account/login.underscore:48
 #: lms/templates/student_account/login.underscore:63
 msgid "or sign in with"
-msgstr "sau conectați-vă cu"
+msgstr "sau autentifică-te cu"
 
 #: lms/templates/student_account/password_reset.underscore:4
 msgid "Password assistance"
-msgstr "Asistență prin parolă"
+msgstr "Asistență parolă"
 
 #: lms/templates/student_account/password_reset.underscore:8
 msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
-msgstr ""
-"Te rugăm să introduci mai jos adresa de e-mail a contului sau adresa de "
-"e-mail de recuperare și îți vom trimite un e-mail cu instrucțiuni."
+msgstr "Te rugăm să introduci adresa de e-mail de conectare sau de recuperare mai jos și îți vom trimite un e-mail cu instrucțiuni."
 
 #: lms/templates/student_account/password_reset.underscore:12
 msgid "Recover my password"
-msgstr "Recuperați-mi parola"
+msgstr "Vreau să-mi recuperez parola"
 
 #: lms/templates/student_account/register.underscore:18
 msgid "Create an account using"
-msgstr "Creați un cont folosind"
+msgstr "Creează un cont folosind"
 
 #: lms/templates/student_account/register.underscore:38
 msgid "Use my institution/campus credentials"
@@ -1280,15 +1278,15 @@ msgstr "sau creați unul nou aici"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
 msgid "You are now enrolled as a verified student for:"
-msgstr "Acum ești înscris/ă ca cursant verificat pentru:"
+msgstr "Ești cursant aprobat înscris pentru:"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
 msgid "A list of courses you have just enrolled in as a verified student"
-msgstr "O listă de cursuri la care tocmai te-ai înscris ca cursant verificat"
+msgstr "O listă de cursuri la care tocmai te-ai înscris ca și cursant aprobat"
 
 #: lms/templates/verify_student/face_photo_step.underscore:29
 msgid "Your face is well-lit."
-msgstr "Fața dumneavoastră este luminată bine."
+msgstr "Fața ta este luminată bine."
 
 #: lms/templates/verify_student/intro_step.underscore:31
 msgid "Activate Your Account"

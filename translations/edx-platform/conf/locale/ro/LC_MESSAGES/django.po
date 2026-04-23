@@ -50,7 +50,7 @@ msgstr "Secțiune"
 #: cms/djangoapps/contentstore/helpers.py:211
 #: lms/templates/ccx/schedule.html:90
 msgid "Subsection"
-msgstr "Sub-secțiune"
+msgstr "Subsecțiune"
 
 #: cms/djangoapps/contentstore/helpers.py:213
 #: lms/djangoapps/instructor/views/tools.py:241
@@ -58,7 +58,7 @@ msgstr "Sub-secțiune"
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:106
 #: lms/templates/seq_block.html:114
 msgid "Unit"
-msgstr "Unitate"
+msgstr "Componentă"
 
 #: cms/djangoapps/contentstore/helpers.py:220
 #: cms/djangoapps/contentstore/views/component.py:283
@@ -123,7 +123,7 @@ msgstr "Cheia `upstream_key` legată nu este o cheie validă"
 
 #: common/djangoapps/course_modes/helpers.py:42
 msgid "You're enrolled as a verified student"
-msgstr "Ești înscris/ă ca cursant verificat"
+msgstr "Ești înscris ca un cursant verificat"
 
 #: common/djangoapps/course_modes/helpers.py:48
 #: lms/djangoapps/branding/api.py:329 lms/djangoapps/branding/api.py:404
@@ -138,7 +138,7 @@ msgstr "Cod de distincție"
 
 #: common/djangoapps/course_modes/helpers.py:50
 msgid "You're enrolled as a professional education student"
-msgstr "Ești înscris/ă ca cursant la educație profesională"
+msgstr "Ești înscris ca un cursant cu educație profesională"
 
 #: common/djangoapps/course_modes/models.py:69
 #: lms/templates/courseware/course_about.html:225
@@ -338,7 +338,7 @@ msgstr "Apr"
 #: common/djangoapps/util/date_utils.py:352
 msgctxt "abbreviated month name"
 msgid "May"
-msgstr "May"
+msgstr "Mai"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jul 10, 2014". It is used for the %b
@@ -418,7 +418,7 @@ msgstr "Aprilie"
 #: common/djangoapps/util/date_utils.py:403
 msgctxt "month name"
 msgid "May"
-msgstr "May"
+msgstr "Mai"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "July 10, 2014". It is used for the %B directive in
@@ -480,11 +480,11 @@ msgstr "Noiembrie"
 #: lms/templates/modal/_modal-settings-language.html:15
 #: lms/templates/signup_modal.html:20
 msgid "Close"
-msgstr "Închide"
+msgstr "Închideți"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:23
 msgid "Account activation"
-msgstr "Activează-ți contul"
+msgstr "Activare cont"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:27
 #, python-format
@@ -492,16 +492,13 @@ msgid ""
 "You're almost there! Use the link below to activate your account to access "
 "engaging, high-quality %(platform_name)s courses. Note that you will not be "
 "able to log back into your account until you have activated it."
-msgstr ""
-"Încă un pas! Dă click pe butonul de mai jos pentru a-ți activa contul "
-"%(platform_name)s și a accesa cursurile. Activarea contului este obligatorie"
-" pentru a avea acces la toate resursele."
+msgstr "Aproape ai terminat! Utilizează linkul de mai jos pentru a îți activa contul și avea acces la cursurile %(platform_name)s. Reține că nu te vei mai putea conecta din nou la contul tău până când nu îl vei activa."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:42
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
-msgstr "Te așteptăm în %(platform_name)s!"
+msgstr "Bucură-te de experiențele de învățare de pe %(platform_name)s."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:50
 #, python-format, python-brace-format
@@ -509,11 +506,7 @@ msgid ""
 "If you need help, please use our web form at "
 "{start_anchor_web}%(support_url)s{end_anchor} or email "
 "{start_anchor_email}%(support_email)s{end_anchor}."
-msgstr ""
-"Dacă ai nevoie de sprijin, te invităm să utilizezi formularul nostru de "
-"contact de pe platformă sau scrie-ne direct la {start_anchor_web} "
-"%(support_url)s {end_anchor}or email "
-"{start_anchor_email}%(support_email)s{end_anchor}."
+msgstr "Dacă ai nevoie de ajutor, te rugăm să utilizezi formularul nostru de la {start_anchor_web}%(support_url)s{end_anchor} sau e-mail {start_anchor_email}%(support_email)s{end_anchor}."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:2
 #, python-format
@@ -532,9 +525,7 @@ msgstr ""
 msgid ""
 "You're receiving this e-mail because you requested to create a password for "
 "your user account at %(platform_name)s."
-msgstr ""
-"Primești acest e-mail deoarece ai solicitat crearea unei parole pentru "
-"contul tău pe %(platform_name)s."
+msgstr "Primiți acest e-mail deoarece ați solicitat să creați o parolă pentru contul de utilizator creat pe %(platform_name)s."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:34
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:8
@@ -543,29 +534,25 @@ msgstr ""
 msgid ""
 "If you didn't request this change, you can disregard this email - we have "
 "not yet reset your password."
-msgstr ""
-"Dacă nu ai solicitat această modificare, poți ignora acest e-mail - parola "
-"nu a fost schimbată încă."
+msgstr "Dacă nu ați solicitat această modificare, puteți ignora acest e-mail. Nu v-am resetat încă parola."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:13
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt:17
 #, python-format
 msgid "The %(platform_name)s Team"
-msgstr " %(platform_name)sEchipei "
+msgstr "Echipa %(platform_name)s"
 
 #: common/templates/student/edx_ace/emailchange/email/subject.txt:3
 #, python-format
 msgid "Request to change %(platform_name)s account e-mail"
-msgstr "Solicită schimbarea e-mailului contului %(platform_name)s"
+msgstr "Cerere de a schimba contul personal de pe platforma %(platform_name)s"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html:18
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt:4
 msgid ""
 "If you set this email address, click \"confirm email.\"  If you didn't "
 "request this change, you can disregard this email."
-msgstr ""
-"Dacă setezi această adresă de e-mail, dă click pe „confirmă e-mail”. Dacă nu"
-" ai solicitat această modificare, poți ignora acest e-mail."
+msgstr "Dacă setați această adresă de e-mail, faceți clic pe „confirmați e-mail”. Dacă nu ați solicitat această modificare, puteți ignora acest e-mail."
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: 'Open edX' is a trademark, please keep this untranslated.
@@ -656,15 +643,13 @@ msgstr "Sarcină de lucru"
 
 #: lms/djangoapps/courseware/date_summary.py:273
 msgid "Course starts"
-msgstr "Start curs"
+msgstr "Cursul începe"
 
 #: lms/djangoapps/courseware/date_summary.py:304
 msgid ""
 "This course is archived, which means you can review course content but it is"
 " no longer active."
-msgstr ""
-"Acest curs este arhivat, ceea ce înseamnă că poți urmări conținutul "
-"cursului, dar nu mai este activ pentru evaluări / absolvire."
+msgstr "Acest curs este arhivat, ceea ce înseamnă că puteți revizui conținutul cursului, dar nu mai este activ."
 
 #: lms/djangoapps/courseware/plugins.py:27
 #: lms/djangoapps/courseware/tabs.py:81
@@ -699,13 +684,13 @@ msgstr "Curs"
 
 #: lms/djangoapps/courseware/views/views.py:222
 msgid "Congratulations, you qualified for a certificate!"
-msgstr "Felicitări, v-ați calificat pentru un Certificat!"
+msgstr "Felicitări, te-ai calificat pentru a primi un certificat!"
 
 #: lms/djangoapps/courseware/views/views.py:580
 #: lms/djangoapps/courseware/views/views.py:595
 #: xmodule/discussion_block.py:191
 msgid "register"
-msgstr "creează cont"
+msgstr "Înscriere"
 
 #: lms/djangoapps/courseware/views/views.py:591
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
@@ -714,11 +699,11 @@ msgstr "creează cont"
 #: lms/templates/lti_provider/user-auth-error.html:30
 #: lms/templates/navigation/navbar-not-authenticated.html:49
 msgid "Sign in"
-msgstr "Conectați-vă"
+msgstr "INTRĂ ÎN CONT"
 
 #: lms/djangoapps/courseware/views/views.py:618
 msgid "You must be enrolled in the course to see course content."
-msgstr "Trebuie să fii înscris/ă la curs pentru a vedea conținutul cursului."
+msgstr "Trebuie să fiți înscris/ă la curs pentru a vedea conținutul cursului."
 
 #: lms/djangoapps/instructor/views/api.py:1504
 #: lms/djangoapps/instructor/views/tools.py:221
@@ -745,7 +730,7 @@ msgstr "Locație"
 #: lms/templates/signup_modal.html:94
 #: themes/stanford-style/lms/templates/register-form.html:193
 msgid "Gender"
-msgstr "Sex"
+msgstr "Gen"
 
 #: lms/djangoapps/instructor/views/api.py:1513
 msgid "Goals"
@@ -753,7 +738,7 @@ msgstr "Obiective"
 
 #: lms/djangoapps/instructor/views/api.py:1527
 msgid "Cohort"
-msgstr "Grup"
+msgstr "Cohortă"
 
 #: lms/djangoapps/instructor/views/api.py:1537
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:103
@@ -773,18 +758,18 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:2909
 #: lms/djangoapps/instructor_task/api_helper.py:116
 msgid "grade"
-msgstr "punctaj"
+msgstr "notă"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:374
 #: lms/djangoapps/support/views/index.py:15 cms/templates/certificates.html:57
 #: cms/templates/certificates.html:67 cms/templates/certificates.html:90
 #: cms/templates/export.html:217 cms/templates/widgets/header.html:219
 msgid "Certificates"
-msgstr "Certificări"
+msgstr "Certificate"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:532
 msgid "Cohorts"
-msgstr "Grupuri"
+msgstr "Cohorte"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:551
 #: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:29
@@ -871,7 +856,7 @@ msgstr "Trimite"
 #: lms/templates/instructor/edx_ace/enrollenrolled/push/title.txt:3
 #, python-format
 msgid "You have been enrolled in %(course_name)s"
-msgstr "Ai fost înscris/ă în cursul %(course_name)s"
+msgstr "Te-ai înscris la %(course_name)s."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:12
 #, python-format
@@ -879,10 +864,7 @@ msgid ""
 "\n"
 "                    You have been invited to be a beta tester for %(course_name)s at %(site_name)s\n"
 "                "
-msgstr ""
-"\n"
-"                    Ai fost invitat/ă să testezi varianta beta (preliminară) a cursului %(course_name)s pe %(site_name)s\n"
-"                "
+msgstr "\nAi fost invitat/ă să testezi varianta beta a cursului %(course_name)spe%(site_name)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:28
 msgid "To start accessing course materials, please visit:"
@@ -893,20 +875,18 @@ msgstr "Pentru a accesa materialele cursului, intră pe:"
 msgid ""
 "You have been invited to be a beta tester for %(course_name)s at "
 "%(site_name)s by a member of the course staff."
-msgstr ""
-"Ai fost invitat/ă să testezi varianta beta (preliminară) a cursului "
-"%(course_name)s pe %(site_name)s de către un membru din echipa cursului."
+msgstr "Ai fost invitat/ă de către un membru din echipa cursului să testezi varianta beta a cursului %(course_name)spe %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:5
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:5
 #, python-format
 msgid "To start accessing course materials, please visit %(course_url)s"
-msgstr "Pentru a accesa materialele cursului, intră pe: %(course_url)s"
+msgstr "Pentru a accesa materialele cursului, intră aici %(course_url)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/subject.txt:3
 #, python-format
 msgid "You have been invited to a beta test for %(course_name)s"
-msgstr "Ai fost invitat/ă să testezi varianta beta pentru %(course_name)s"
+msgstr "Ai fost invitat/ă la un test beta pentru cursul %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/push/body.txt:4
 #, python-format
@@ -928,7 +908,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:12
 #, python-format
 msgid "You have been invited to %(course_name)s"
-msgstr "Ai fost înscris/ă în cursul %(course_name)s"
+msgstr "Ai fost invitat/ă în cursul %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:19
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:3
@@ -936,23 +916,18 @@ msgstr "Ai fost înscris/ă în cursul %(course_name)s"
 msgid ""
 "You have been invited to join %(course_name)s at %(site_name)s by a member "
 "of the course staff."
-msgstr ""
-"Invitația în cursul %(course_name)s pe %(site_name)s de un membru din echipa"
-" cursului."
+msgstr "Ai fost invitat/ă să te alături cursului %(course_name)spe%(site_name)s de către un membru din echipa cursului."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:47
 #, python-format
 msgid ""
 "Please finish your registration and fill out the registration form making "
 "sure to use %(email_address)s in the Email field:"
-msgstr ""
-"Tot ce trebuie să faci pentru a avea acces la curs este să creezi contul. "
-"Completează formularul și asigură-te că folosești %(email_address)s în "
-"câmpul e-mail."
+msgstr "Te rugăm să finalizezi înregistrarea și să completezi formularul de înregistrare. Asigură-te că folosești %(email_address)s în câmpul E-mail."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:52
 msgid "Finish Your Registration"
-msgstr "Creează contul pentru acces la curs"
+msgstr "Finalizează înregistrarea"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:59
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:9
@@ -960,20 +935,18 @@ msgstr "Creează contul pentru acces la curs"
 msgid ""
 "Once you have registered and activated your account, you will see "
 "%(course_name)s listed on your dashboard."
-msgstr ""
-"După ce ai creat și activat contul, vei vedea %(course_name)s în Pagina "
-"cursantului."
+msgstr "Odată ce te-ai înregistrat și ți-ai activat contul, vei vedea %(course_name)slistat în Dashboard."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:63
 msgid ""
 "Once you have registered and activated your account, you will be able to "
 "access this course:"
-msgstr "După ce ți-ai creat și activat contul, vei putea accesa acest curs:"
+msgstr "Odată ce te-ai înregistrat și ți-ai activat contul, vei putea accesa cursul:"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/subject.txt:3
 #, python-format
 msgid "You have been invited to register for %(course_name)s"
-msgstr "Invitație: Ai fost invitat/ă în cursul %(course_name)s"
+msgstr "Ai fost invitat/ă să te înregistrezi în %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/push/title.txt:3
 #, python-format
@@ -989,7 +962,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/enrolledunenroll/push/title.txt:3
 #, python-format
 msgid "You have been unenrolled from %(course_name)s"
-msgstr "Nu mai sunteți înscris/ă în cursul %(course_name)s"
+msgstr "Nu mai ești înscris/ă în cursul %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:35
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:8
@@ -997,12 +970,11 @@ msgstr "Nu mai sunteți înscris/ă în cursul %(course_name)s"
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:8
 #, python-format
 msgid "This email was automatically sent from %(site_name)s to %(full_name)s"
-msgstr ""
-"Acest e-mail a fost trimis automat de la %(site_name)s la %(full_name)s."
+msgstr "Acest e-mail a fost trimis automat de la %(site_name)s către %(full_name)s"
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:27
 msgid "Access the Course Materials Now"
-msgstr "Intră în curs acum"
+msgstr "Accesează materialele din curs acum"
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/push/body.txt:4
 #, python-format
@@ -1014,9 +986,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been removed as a beta tester for %(course_name)s at %(site_name)s"
-msgstr ""
-"Rolul tău de tester beta pentru cursul %(course_name)s pe %(site_name)s s-a "
-"încheiat. "
+msgstr "Ai fost retras ca tester beta în %(course_name)s din%(site_name)s."
 
 #: lms/templates/instructor/edx_ace/removebetatester/push/title.txt:3
 #, python-format
@@ -1029,7 +999,7 @@ msgstr ""
 #: lms/templates/main_django.html:50 cms/templates/base.html:102
 #: cms/templates/container_chromeless.html:112 lms/templates/main.html:203
 msgid "Skip to main content"
-msgstr "Sari la conținutul principal"
+msgstr "Mergi direct la conținutul principal"
 
 #: lms/templates/oauth2_provider/authorize.html:48
 #: openedx/core/djangoapps/user_api/admin.py:111
@@ -1136,7 +1106,7 @@ msgstr "Respins"
 #: openedx/features/course_bookmarks/templates/course_bookmarks/course-bookmarks.html:43
 #: openedx/features/course_bookmarks/templates/course_bookmarks/course-bookmarks.html:50
 msgid "Bookmarks"
-msgstr "Lecții salvate"
+msgstr "Adrese favorite"
 
 #: openedx/core/djangoapps/config_model_utils/models.py:65
 msgid "Enabled"
@@ -1158,7 +1128,7 @@ msgstr "Se încarcă"
 
 #: openedx/core/djangoapps/django_comment_common/models.py:29
 msgid "Student"
-msgstr "Student"
+msgstr "Cursant/ă"
 
 #: openedx/core/djangoapps/notifications/email/utils.py:441
 #: openedx/features/course_experience/plugins.py:34
@@ -1178,7 +1148,7 @@ msgstr "Vizualizează"
 
 #: openedx/core/djangoapps/schedules/admin.py:81
 msgid "Course Id"
-msgstr "Id curs"
+msgstr "ID curs"
 
 #: openedx/core/djangoapps/schedules/admin.py:112
 msgid "All"
@@ -1193,12 +1163,12 @@ msgstr "ID-ul cursului"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.html:39
 msgid "Resume your course now"
-msgstr "Continuă cursul acum"
+msgstr "Reia cursul acum"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:35
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:112
 msgid "Upgrade now"
-msgstr "Actualizează acum"
+msgstr "Actualizați acum"
 
 #. Translators: These messages are shown to users who do not enter information
 #. into the required field or enter it incorrectly.
@@ -1247,7 +1217,7 @@ msgstr "Nume"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html:10
 msgid "Password reset"
-msgstr "Schimbă parola"
+msgstr "Resetare parolă"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html:14
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt:2
@@ -1255,9 +1225,7 @@ msgstr "Schimbă parola"
 msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
 " user account at %(platform_name)s."
-msgstr ""
-"Primești acest e-mail deoarece ai solicitat schimbarea parolei pentru contul"
-" tău pe %(platform_name)s."
+msgstr "Primești acest e-mail deoarece ai solicitat o resetare a parolei pentru contul tău de utilizator pe %(platform_name)s."
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html:28
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt:7
@@ -1266,43 +1234,40 @@ msgstr "Dacă nu ai solicitat această modificare, poți ignora acest e-mail."
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html:37
 msgid "Reset my password"
-msgstr "Reseteaza-mi parola"
+msgstr "Resetează parola"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/subject.txt:3
 #, python-format
 msgid "Password reset on %(platform_name)s"
-msgstr "Schimbă parola pe %(platform_name)s"
+msgstr "Schimbă parola pentru %(platform_name)s"
 
 #: openedx/core/djangoapps/user_authn/views/login.py:102
 #: lms/templates/navigation/navbar-not-authenticated.html:38
 #: themes/stanford-style/lms/templates/register-form.html:272
 msgid "Register"
-msgstr "Creează cont"
+msgstr "Înregistrare"
 
 #: openedx/core/djangoapps/user_authn/views/login.py:243
 msgid "Too many failed login attempts. Try again later."
-msgstr ""
-"Prea multe încercări eșuate de autentificare în cont. Încearcă din nou mai "
-"târziu."
+msgstr "Prea multe încercări de autentificare eșuate. Încearcă din nou mai târziu."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:185
 msgid ""
 "The user account associated with this e-mail address cannot reset the "
 "password."
-msgstr "Contul asociat cu această adresă de e-mail nu poate reseta parola."
+msgstr "Parola nu poate fi resetată pentru contul de utilizator asociat cu această adresă de e-mail."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:186
 #, python-brace-format
 msgid "Registration using {provider} has timed out."
-msgstr "Înregistrarea utilizând {provider} a expirat."
+msgstr "Înregistrarea cu utilizarea {provider} a expirat."
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:560
 msgid "This name will be used on any certificates that you earn."
-msgstr ""
-"Acest nume complet va fi folosit pentru certificatele pe care le obții."
+msgstr "Acest nume va fi folosit pe toate certificatele obținute."
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
@@ -1312,7 +1277,7 @@ msgstr ""
 #: themes/stanford-style/lms/templates/register-form.html:93
 #: themes/stanford-style/lms/templates/register-shib.html:126
 msgid "Public Username"
-msgstr "Nume public de utilizator"
+msgstr "Nume de utilizator public"
 
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
@@ -1328,7 +1293,7 @@ msgstr "Termeni și condiții și Angajament de Integritate"
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1098
 #, python-brace-format
 msgid "You must agree to the {platform_name} {terms_of_service}"
-msgstr "Trebuie să fii de acord cu {platform_name} {terms_of_service}"
+msgstr "Este necesar să îți dai acordul pentru {terms_of_service} din {platform_name}"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1045
 #, python-brace-format
@@ -1338,15 +1303,11 @@ msgid ""
 "                   and you acknowledge that {platform_name} and each Member "
 "process your personal data in accordance                   with the "
 "{privacy_policy_link_start}Privacy Policy{privacy_policy_link_end}."
-msgstr ""
-"Prin crearea unui cont, ești de acord cu {terms_of_service_link_start} "
-"{terms_of_service} {terms_of_service_link_end} și iau la cunoștință că "
-"{platform_name} prelucrează datele personale în conformitate cu Politica "
-"{privacy_policy_link_end} {privacy_policy_link_start}"
+msgstr "Prin crearea acestui cont, ești de acord cu {terms_of_service_link_start}{terms_of_service}{terms_of_service_link_end} și iei la cunoștință faptul că {platform_name} și orice partener procesează datele personale așa cum este specificat în {privacy_policy_link_start}Privacy Policy{privacy_policy_link_end}."
 
 #: openedx/core/djangoapps/user_authn/views/utils.py:53
 msgid "Create Account"
-msgstr "Creează cont"
+msgstr "Creează contul"
 
 #: openedx/core/djangoapps/util/user_messages.py:256
 #: cms/templates/course_outline.html:61 cms/templates/course_outline.html:99
@@ -1363,9 +1324,7 @@ msgstr "Continuă"
 #: openedx/features/personalized_learner_schedules/call_to_action.py:150
 #, python-brace-format
 msgid "You have used {attempts} of {max_attempts} attempts for this problem."
-msgstr ""
-"Ai folosit {attempts} din {max_attempts} încercări posibile pentru această "
-"evaluare."
+msgstr "Ai folosit {attempts} din {max_attempts} încercări alocate acestei sarcini."
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:155
 msgid "Try again (unlimited attempts)"
@@ -1374,13 +1333,12 @@ msgstr "Încearcă din nou (încercări nelimitate)"
 #: openedx/features/personalized_learner_schedules/call_to_action.py:156
 #, python-brace-format
 msgid "You have used {attempts} of unlimited attempts for this problem."
-msgstr ""
-"Ai folosit {attempts} din încercările nelimitate pentru această evaluare."
+msgstr "Ai folosit {attempts} din încercările nelimitate alocate acestei sarcini."
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:70
 #: cms/templates/widgets/header.html:386
 msgid "Sign In"
-msgstr "Autentificare"
+msgstr "INTRĂ ÎN CONT"
 
 #: xmodule/capa/capa_problem.py:747 xmodule/capa_block.py:1398
 msgid "Incorrect"
@@ -1396,7 +1354,7 @@ msgstr "Alege o opțiune"
 
 #: xmodule/capa_block.py:225 xmodule/capa_block.py:241
 msgid "Past Due"
-msgstr "Termen limită expirat"
+msgstr "Restant"
 
 #: xmodule/capa_block.py:238
 msgid "Closed"
@@ -1404,7 +1362,7 @@ msgstr "Închis"
 
 #: xmodule/capa_block.py:318
 msgid "Problem Weight"
-msgstr "Ponderea problemei"
+msgstr "Dificultatea Problemei"
 
 #: xmodule/capa_block.py:1037
 msgid "Submitting"
@@ -1416,25 +1374,20 @@ msgstr "Date de Întrerupere a Discuțiilor"
 
 #: xmodule/course_block.py:536
 msgid "Allow Anonymous Discussion Posts"
-msgstr "Permiteți Postările Anonime"
+msgstr "Permiteți postările anonime"
 
 #: xmodule/course_block.py:537
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
-msgstr ""
-"Selectați adevărat sau fals. Dacă selectați adevărat, elevii pot crea "
-"postări care sunt anonime tuturor utilizatorilor."
+msgstr "Selectați adevărat sau fals. Dacă selectați adevărat, cursanții pot crea postări care sunt anonime tuturor utilizatorilor."
 
 #: xmodule/course_block.py:543
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to other students. This setting does not make posts anonymous to "
 "course staff."
-msgstr ""
-"Selectați adevărat sau fals. Dacă selectați adevărat, elevii pot pot posta "
-"în cadrul discuțiilor, în mod anonim. Această setare nu permite personalului"
-" cursului de a posta anonim."
+msgstr "Selectați adevărat sau fals. Dacă selectați adevărat, cusanții pot pot posta în cadrul discuțiilor, în mod anonim. Această setare nu permite personalului cursului de a posta anonim."
 
 #: xmodule/course_block.py:852
 msgid "Enable Proctored Exams"
@@ -1454,7 +1407,7 @@ msgstr "Conținut HTML upstream pentru a stoca câmpul de dată upstream"
 
 #: xmodule/lti_block.py:198
 msgid "Weight"
-msgstr "Pondere"
+msgstr "Greutate"
 
 #: xmodule/modulestore/inheritance.py:162 cms/templates/certificates.html:119
 #: cms/templates/group_configurations.html:17
@@ -1626,7 +1579,7 @@ msgstr "Unelte"
 #: cms/templates/component.html:17
 #: cms/templates/studio_xblock_wrapper.html:208
 msgid "Duplicate"
-msgstr "Dublează"
+msgstr "Dublură"
 
 #: cms/templates/container.html:208
 msgid "Collapse All"
@@ -1741,7 +1694,7 @@ msgstr "Politica de notare"
 #: cms/templates/howitworks.html:20
 #, python-brace-format
 msgid "Welcome to {studio_name}"
-msgstr "Bine ați venit în {studio_name}"
+msgstr "Bine ai venit la {studio_name}"
 
 #: cms/templates/import.html:165
 msgid ""
@@ -1814,7 +1767,7 @@ msgstr ""
 
 #: cms/templates/settings.html:206
 msgid "Self-Paced"
-msgstr "Cursuri individuale"
+msgstr "În ritm propriu"
 
 #: cms/templates/settings.html:242
 msgid "Last day your course is active"
@@ -1883,7 +1836,7 @@ msgstr "Provenit dintr-o bibliotecă - dar a fost modificat local."
 #: cms/templates/studio_xblock_wrapper.html:144
 #: cms/templates/studio_xblock_wrapper.html:146
 msgid "Edit Title"
-msgstr "Editați titlul"
+msgstr "Editează titlu"
 
 #: cms/templates/studio_xblock_wrapper.html:219
 msgid "Unlink from Library"
@@ -1891,7 +1844,7 @@ msgstr "Deconectare de la bibliotecă"
 
 #: cms/templates/registration/activation_complete.html:24
 msgid "This account has already been activated."
-msgstr "Acest cont a fost deja luat."
+msgstr "Contul a fost deja activat."
 
 #: cms/templates/widgets/footer.html:45 lms/templates/footer.html:50
 #: lms/templates/footer.html:127 themes/red-theme/lms/templates/footer.html:78
@@ -1931,7 +1884,7 @@ msgstr "Înregistrat ca:"
 #: lms/templates/user_dropdown.html:32 lms/templates/user_dropdown.html:40
 #: lms/templates/user_dropdown.html:59
 msgid "Sign Out"
-msgstr "Ieși din cont"
+msgstr "Deconectare"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:37
 msgid "Add a Post"
@@ -1947,7 +1900,7 @@ msgstr "Conținut blocat"
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:32
 #: lms/templates/navigation/navbar-authenticated.html:16
 msgid "Explore courses"
-msgstr "Explorează cursurile"
+msgstr "Descoperă cursuri noi"
 
 #: lms/templates/dashboard.html:315
 msgid "Activate your account so you can log back in"
@@ -1963,28 +1916,26 @@ msgstr "Salvează setările"
 #: lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html:29
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:54
 msgid "Unenroll"
-msgstr "Da - Vreau să renunț"
+msgstr "Renunță la curs"
 
 #: lms/templates/forgot_password_modal.html:10
 #: lms/templates/forgot_password_modal.html:22
 msgid "Password Reset"
-msgstr "Schimbă parola"
+msgstr "Resetare parolă"
 
 #: lms/templates/forgot_password_modal.html:26
 msgid ""
 "Please enter your e-mail address below, and we will e-mail instructions for "
 "setting a new password."
-msgstr ""
-"Introdu mai jos adresa de e-mail cu care ți-ai creat cont și îți vom trimite"
-" un e-mail cu instrucțiuni despre cum să schimbi parola."
+msgstr "Te rugăm să introduci adresa de e-mail mai jos, și vom trimite instrucțiunile pentru resetarea parolei."
 
 #: lms/templates/forgot_password_modal.html:35
 msgid "Your E-mail Address"
-msgstr "Adresa ta de e-mail"
+msgstr "Adresă de e-mail"
 
 #: lms/templates/hidden_content.html:12
 msgid "The due date for this assignment has passed."
-msgstr "Data limită pentru această temă a fost depășită."
+msgstr "Data limită pentru această sarcină a fost depășită."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:169
 #: lms/templates/module-error.html:20
@@ -2037,7 +1988,7 @@ msgstr "Pagină"
 
 #: lms/templates/vert_module.html:30
 msgid "Past due"
-msgstr "Termen limită expirat"
+msgstr "Ulterior"
 
 #: lms/templates/video.html:111
 msgid "Copy"
@@ -2045,7 +1996,7 @@ msgstr "Copiază"
 
 #: lms/templates/video.html:139
 msgid "Handouts"
-msgstr "Resurse la îndemână"
+msgstr "Fișe"
 
 #: lms/templates/calculator/toggle_calculator.html:50
 msgid "Type"
@@ -2063,7 +2014,7 @@ msgstr "(Opțional)"
 #: lms/templates/courseware/course_about.html:109
 #: lms/templates/dashboard/_dashboard_course_resume.html:21
 msgid "View Course"
-msgstr "Vezi cursul"
+msgstr "Vizualizează curs"
 
 #: lms/templates/courseware/course_about.html:124
 msgid "Enroll Now"
@@ -2071,16 +2022,16 @@ msgstr "Înscrie-te acum"
 
 #: lms/templates/courseware/course_about.html:217
 msgid "Estimated Effort"
-msgstr "Efort estimat (ore)"
+msgstr "Efort estimat"
 
 #: lms/templates/courseware/course_about.html:297
 msgctxt "self"
 msgid "enroll"
-msgstr "înscrie"
+msgstr "înscrie-te"
 
 #: lms/templates/courseware/course_navigation.html:76
 msgid "Course Material"
-msgstr "Material de curs"
+msgstr "Material de Curs"
 
 #: lms/templates/courseware/course_updates.html:10
 #: lms/templates/courseware/course_updates.html:40
@@ -2114,11 +2065,11 @@ msgstr "Viitoare"
 
 #: lms/templates/courseware/progress.html:155
 msgid "Less"
-msgstr "Mai Puțin"
+msgstr "Mai puțin"
 
 #: lms/templates/courseware/progress.html:217
 msgid "Section grade has been overridden."
-msgstr "Secția de note a fost asuprată."
+msgstr "Secția de note a fost înlocuită."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:193
 msgid "You can no longer change sessions."
@@ -2127,12 +2078,12 @@ msgstr "Nu mai poți schimba sesiunile."
 #: lms/templates/dashboard/_dashboard_course_listing.html:213
 #, python-brace-format
 msgid "I'm taking {course_name} online with {facebook_brand}. Check it out!"
-msgstr "Urmez {course_name} online cu {facebook_brand}. Află mai multe!"
+msgstr "Urmez {course_name} online cu {facebook_brand}. Află și tu detalii!"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:235
 #, python-brace-format
 msgid "I'm taking {course_name} online with {twitter_brand}. Check it out!"
-msgstr "Urmez {course_name} online cu {twitter_brand}. Află mai multe!"
+msgstr "Urmez {course_name} online cu {twitter_brand}. Află și tu detalii!"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:298
 #: lms/templates/dashboard/_dashboard_entitlement_actions.html:56
@@ -2141,15 +2092,15 @@ msgstr "Setări e-mail"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:313
 msgid "View Archived Course"
-msgstr "Vezi cursul arhivat"
+msgstr "Vizualizează curs arhivat"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:352
 msgid "Related Programs"
-msgstr "Programe conexe"
+msgstr "Programe Asociate"
 
 #: lms/templates/dashboard/_dashboard_course_resume.html:12
 msgid "Resume Course"
-msgstr "Continuă cursul"
+msgstr "Reia Cursul"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:49
 msgid "View Details"
@@ -2158,51 +2109,51 @@ msgstr "Vezi detalii"
 #: lms/templates/dashboard/_entitlement_reason_survey.html:142
 #: lms/templates/dashboard/_reason_survey.html:28
 msgid "Return To Dashboard"
-msgstr "Revino în Pagina cursantului"
+msgstr "Revino la tabloul de bord"
 
 #: lms/templates/dashboard/_reason_survey.html:9
 msgid "I just wanted to browse the material"
-msgstr "Am vrut doar să răsfoiesc conținutul"
+msgstr "Voiam doar să răsfoiesc materialul"
 
 #: lms/templates/dashboard/_reason_survey.html:10
 msgid "This won't help me reach my goals"
-msgstr "Cursul nu se potrivește și nu mă ajută să îmi ating obiectivele"
+msgstr "Acest lucru nu mă va ajuta să-mi ating obiectivele"
 
 #: lms/templates/dashboard/_reason_survey.html:11
 msgid "I don't have the time"
-msgstr "Lipsa de timp, program aglomerat"
+msgstr "Nu am timpul necesar"
 
 #: lms/templates/dashboard/_reason_survey.html:12
 msgid "I don't have the academic or language prerequisites"
-msgstr "Nu îndeplinesc condițiile academice necesare"
+msgstr "Nu dețin cerințele prealabile, academice sau lingvistice"
 
 #: lms/templates/dashboard/_reason_survey.html:13
 msgid "I don't have enough support"
-msgstr "Nu am primit sprijin suficient"
+msgstr "Nu am suficient sprijin"
 
 #: lms/templates/dashboard/_reason_survey.html:14
 msgid "I am not happy with the quality of the content"
-msgstr "Nu sunt mulțumit(ă) de calitatea conținutului"
+msgstr "Nu sunt mulțumit/ă de calitatea conținutului"
 
 #: lms/templates/dashboard/_reason_survey.html:15
 msgid "The course material was too hard"
-msgstr "Conținutul cursului este prea dificil"
+msgstr "Materialul de curs a fost prea greu"
 
 #: lms/templates/dashboard/_reason_survey.html:16
 msgid "The course material was too easy"
-msgstr "Conținutul cursului este prea ușor"
+msgstr "Materialul de curs a fost prea ușor"
 
 #: lms/templates/dashboard/_reason_survey.html:17
 msgid "Something was broken"
-msgstr "Au apărut erori, ceva nu a funcționat pe platformă"
+msgstr "Ceva nu a funcționat"
 
 #: lms/templates/dashboard/_reason_survey.html:18
 msgid "Other"
-msgstr "Alt răspuns"
+msgstr "Altă ocupație"
 
 #: lms/templates/header/navbar-authenticated.html:51
 msgid "Discover New"
-msgstr "Descoperă cursuri"
+msgstr "Descoperă cursuri noi"
 
 #: lms/templates/header/user_dropdown.html:50
 msgid "Order History"
@@ -2232,7 +2183,7 @@ msgstr "Stat / Provincie"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:108
 msgid "Score"
-msgstr "Puncte"
+msgstr "Scor"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/certificates.html:10
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/grading.html:11
@@ -2242,30 +2193,28 @@ msgstr "Notă"
 
 #: lms/templates/navigation/navbar-not-authenticated.html:33
 msgid "Explore Courses"
-msgstr "Explorează cursurile"
+msgstr "Descoperă cursuri noi"
 
 #: lms/templates/peer_grading/peer_grading.html:40
 msgid "Required"
-msgstr "Necesar"
+msgstr "Obligatoriu"
 
 #: lms/templates/registration/password_reset_complete.html:35
 #, python-brace-format
 msgid ""
 "Your password has been reset. {start_link}Sign-in to your account.{end_link}"
-msgstr "Parola ta a fost schimbată. {start_link} Intră în cont {end_link}"
+msgstr "Parola a fost resetată. {start_link} Autentifică-te în cont. {end_link}"
 
 #: lms/templates/registration/password_reset_confirm.html:15
 #, python-brace-format
 msgid "Reset Your {platform_name} Password"
-msgstr "Schimbă parola ta pe {platform_name}"
+msgstr "Resetează parola {platform_name}"
 
 #: lms/templates/registration/password_reset_done.html:8
 msgid ""
 "We've e-mailed you instructions for setting your password to the e-mail "
 "address you submitted. You should be receiving it shortly."
-msgstr ""
-"Ți-am trimis pe e-mail instrucțiuni pentru schimbarea parolei. Ar trebui "
-"să-l primești în curând."
+msgstr "V-am trimis pe adresa de e-mail indicată instrucțiuni pentru setarea parolei. Ar trebui să îl primiți în scurt timp."
 
 #: lms/templates/verify_student/reverify_not_allowed.html:8
 #: lms/templates/verify_student/reverify_not_allowed.html:12
@@ -2274,7 +2223,7 @@ msgstr "Verficarea indentității"
 
 #: lms/templates/verify_student/reverify_not_allowed.html:25
 msgid "Return to Your Dashboard"
-msgstr "Revino în Pagina cursantului"
+msgstr "Mergi înapoi la Tabloul de bord."
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
@@ -2282,7 +2231,7 @@ msgstr "Află mai multe"
 
 #: openedx/core/lib/license/templates/license.html:28
 msgid "All Rights Reserved"
-msgstr "Toate drepturile rezervate"
+msgstr "Toate Drepturile Rezervate"
 
 #: openedx/core/lib/license/templates/license.html:34
 msgid "Share Alike"
@@ -2290,9 +2239,9 @@ msgstr "Împărțit egal"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:18
 msgid "View all course dates"
-msgstr "Vezi datele importante"
+msgstr "Vezi toate datele importante"
 
 #: themes/stanford-style/lms/templates/register-form.html:49
 #, python-brace-format
 msgid "Create your own {platform_name} account below"
-msgstr "Creează-ți cont pe {platform_name} mai jos"
+msgstr "Crează-ți propriul cont pe platforma {platform_name} mai jos"
