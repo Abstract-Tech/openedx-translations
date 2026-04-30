@@ -71,7 +71,7 @@
   "bulk.email.task.history.table.column.header.taskRequester": "Solicitantul",
   "bulk.email.task.history.table.column.header.taskSubmittedDate": "Trimis",
   "bulk.email.task.history.table.column.header.taskDuration": "Durata (secunde)",
-  "bulk.email.task.history.table.column.header.taskState": "",
+  "bulk.email.task.history.table.column.header.taskState": "Stare",
   "bulk.email.task.history.table.column.header.taskStatus": "Stare",
   "bulk.email.task.history.table.column.header.taskProgress": "Progresul sarcinii",
   "bulk.email.scheduled.emails.table.header": "E-mailuri programate",
