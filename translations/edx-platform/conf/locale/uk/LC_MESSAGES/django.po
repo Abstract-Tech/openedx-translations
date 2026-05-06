@@ -12197,6 +12197,14 @@ msgstr "Скинути"
 msgid "Hint"
 msgstr "Підказка"
 
+#: xmodule/capa_block.py:1229
+msgid "Hint ({hint_num} of {hints_count}): "
+msgstr "Підказка ({hint_num} з {hints_count}): "
+
+#: lms/templates/problem_notifications.html:1
+msgid "Next Hint"
+msgstr "Наступна підказка"
+
 #: lms/templates/problem.html:50
 msgid "Show answer"
 msgstr "Показати відповідь"
