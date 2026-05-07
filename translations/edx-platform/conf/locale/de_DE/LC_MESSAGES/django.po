@@ -20418,7 +20418,7 @@ msgstr "Einfügen einer Antwort aus dem Dropdown-Listenfeld"
 #: cms/templates/widgets/problem-edit.html:70
 #: cms/templates/widgets/problem-edit.html:156
 msgid "Explanation"
-msgstr "Erläuterung"
+msgstr "Erklärung"
 
 #: cms/templates/widgets/problem-edit.html:68
 #: cms/templates/widgets/problem-edit.html:155
