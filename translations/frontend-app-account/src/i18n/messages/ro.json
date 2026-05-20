@@ -330,5 +330,11 @@
   "id.verification.requirements.card.device.text": "Aveți nevoie de un dispozitiv încorporat cu camera. Dacă primiți o solicitare din browser pentru acces la camera, vă rugăm să apăsați butonul [Deschideți].",
   "id.verification.account.name.summary.alert": "Setările contului dvs. sunt gestionate de {managerTitle}. Dacă numele de pe actul de identitate cu fotografie nu se potrivește cu numele de pe contul dvs., vă rugăm să contactați administratorul {profileDataManager} sau {support} pentru ajutor.",
   "idv.submission.alert.error": "Am întâmpinat o eroare tehnică în timp ce încercam să trimitem verificarea ID. Aceasta poate fi o problemă temporară, așa că vă rugăm să încercați din nou peste câteva minute. Dacă problema persistă, accesați {support_link} pentru ajutor.",
-  "id.verification.account.name.edit": "Editați {sr}"
+  "id.verification.account.name.edit": "Editați {sr}",
+  "account.settings.field.additional.information": "Informații Suplimentare",
+  "account.settings.field.sex": "Sex",
+  "account.settings.field.year.of.birth": "Anul Nașterii",
+  "account.settings.field.phone.number": "Numărul de telefon",
+  "account.settings.field.country": "Țară",
+  "account.settings.field.not.set": "Nu a fost setat"
 }

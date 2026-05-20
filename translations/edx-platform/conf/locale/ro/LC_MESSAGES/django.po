@@ -2245,3 +2245,54 @@ msgstr "Vezi toate datele importante"
 #, python-brace-format
 msgid "Create your own {platform_name} account below"
 msgstr "Crează-ți propriul cont pe platforma {platform_name} mai jos"
+
+#: lms/templates/courseware/courses.html
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Instructor Dashboard"
+msgstr "Tabloul de Bord al Instructorului"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Course Info"
+msgstr "Informații despre Curs"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Membership"
+msgstr "Apartenența"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Enrollment Information"
+msgstr "Informații despre Înregistrare"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Verified"
+msgstr "Verificat"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Audit"
+msgstr "Audit"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Honor"
+msgstr "Onoare"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Professional"
+msgstr "Profesional"
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:0
+msgid "Instructor"
+msgstr "Instructor"
+msgid "Search for a course"
+msgstr "Caută un curs"
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:0
+msgid "Course Run"
+msgstr "Rulajul Cursului"
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:0
+msgid "Course Number"
+msgstr "Numărul Cursului"
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:0
+msgid "Course Start Date"
+msgstr "Data de Începere a Cursului"
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:0
+msgid "Course End Date"
+msgstr "Data de Terminare a Cursului"
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:0
+msgid "Basic Course Information"
+msgstr "Informații de Bază despre Curs"
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:0
+msgid "No end date set"
+msgstr "Nicio dată de terminare stabilită"
+
