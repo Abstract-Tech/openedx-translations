@@ -1295,3 +1295,10 @@ msgstr "Activează-ți contul"
 #: lms/templates/verify_student/reverify_success_step.underscore:9
 msgid "Return to Your Dashboard"
 msgstr "Revino în Pagina cursantului"
+
+#: lms/static/js/discovery/views/search_form.js
+msgid "Viewing %s course"
+msgid_plural "Viewing %s courses"
+msgstr[0] "Vizualizezi %s curs"
+msgstr[1] "Vizualizezi %s cursuri"
+msgstr[2] "Vizualizezi %s de cursuri"

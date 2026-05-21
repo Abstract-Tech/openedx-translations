@@ -2296,3 +2296,5 @@ msgstr "Informații de Bază despre Curs"
 msgid "No end date set"
 msgstr "Nicio dată de terminare stabilită"
 
+msgid "My Courses"
+msgstr "Cursuri"
