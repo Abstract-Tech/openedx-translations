@@ -2298,3 +2298,99 @@ msgstr "Nicio dată de terminare stabilită"
 
 msgid "My Courses"
 msgstr "Cursuri"
+
+msgid "Year of birth"
+msgstr "Anul nașterii"
+
+msgid "Work info"
+msgstr "Informații profesionale"
+
+msgid "Educational institution / School (where do you teach)"
+msgstr "Instituția de învățământ / Școala la care predai (unde este încadrarea)"
+
+msgid "Teaching since"
+msgstr "În ce an ai început să predai"
+
+msgid "Grade level"
+msgstr "Nivelul de învățământ în care ești încadrat"
+
+msgid "Main curricular area"
+msgstr "Aria curriculară principală"
+
+msgid "If you teach any of the disciplines mentioned below, please choose it from the list below. If you don't teach any, please choose the option 'none of the above.'"
+msgstr "Dacă predai oricare dintre disciplinele menționate mai jos, te rugăm să o alegi din lista de mai jos. Dacă nu predai niciuna, te rugăm să alegi opțiunea „niciuna dintre cele de mai sus”."
+
+msgid "Ante-preschool"
+msgstr "Antepreșcolar"
+
+msgid "Preschool"
+msgstr "Preșcolar"
+
+msgid "Primary"
+msgstr "Primar"
+
+msgid "Gymnasium"
+msgstr "Gimnazial"
+
+msgid "High-school"
+msgstr "Liceal"
+
+msgid "Post-high-school"
+msgstr "Postliceal"
+
+msgid "Special needs"
+msgstr "Special"
+
+msgid "Informatics"
+msgstr "Informatică"
+
+msgid "ICT"
+msgstr "TIC"
+
+msgid "Technical disciplines"
+msgstr "Discipline de specialitate la profil tehnic - energetic"
+
+msgid "Maths"
+msgstr "Matematică"
+
+msgid "Pedagogical disciplines"
+msgstr "Discipline de specialitate la profil vocațional – pedagogic"
+
+msgid "Social / Civic education"
+msgstr "Educație socială / civică"
+
+msgid "History"
+msgstr "Istorie"
+
+msgid "None of the above"
+msgstr "Niciuna dintre cele de mai sus"
+
+msgid "Language and communication"
+msgstr "Limbă și comunicare"
+
+msgid "Maths and science"
+msgstr "Matematică și științe ale naturii"
+
+msgid "Human and society"
+msgstr "Om și societate"
+
+msgid "Technologies"
+msgstr "Tehnologii"
+
+msgid "Arts"
+msgstr "Arte"
+
+msgid "Sports"
+msgstr "Educație fizică și sport"
+
+msgid "Counselling"
+msgstr "Consiliere și orientare"
+
+msgid "Ante-preschool and Preschool disciplines"
+msgstr "Învățământ antepreșcolar și preșcolar"
+
+msgid "Primary-school disciplines"
+msgstr "Învățământ primar"
+
+msgid "Special needs disciplines"
+msgstr "Învățământ special"
