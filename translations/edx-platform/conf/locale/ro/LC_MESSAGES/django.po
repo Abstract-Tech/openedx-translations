@@ -2394,3 +2394,96 @@ msgstr "Învățământ primar"
 
 msgid "Special needs disciplines"
 msgstr "Învățământ special"
+
+msgid "High-school profile"
+msgstr "Profilul liceului / colegiului"
+
+msgid "Human"
+msgstr "Uman"
+
+msgid "STEM"
+msgstr "Real"
+
+msgid "Technical"
+msgstr "Tehnic"
+
+msgid "Services"
+msgstr "Servicii"
+
+msgid "Natural resources"
+msgstr "Resurse naturale și protecția mediului"
+
+msgid "Military"
+msgstr "Militar"
+
+msgid "Theological"
+msgstr "Teologic"
+
+msgid "Pedagogy"
+msgstr "Pedagogic"
+
+msgid "Qualification"
+msgstr "Calificare"
+
+msgid "Graduated studies"
+msgstr "Studii finalizate"
+
+msgid "Pedagogical high-school"
+msgstr "Colegiu/Liceu pedagogic"
+
+msgid "College degree"
+msgstr "Facultate"
+
+msgid "Master degree"
+msgstr "Masterat"
+
+msgid "Phd"
+msgstr "Doctorat"
+
+msgid "Professional conversion"
+msgstr "Reconversie profesională"
+
+msgid "University (last graduated)"
+msgstr "Universitate (ultima absolvită)"
+
+msgid "Select University"
+msgstr "Selectează Universitatea"
+
+msgid "Student's info"
+msgstr "Informații despre elevi"
+
+msgid "Number of students you teach this year"
+msgstr "Numărul de elevi cărora le predai"
+
+msgid "Rural students"
+msgstr "Elevi din mediu rural"
+
+msgid "Girls"
+msgstr "Fete"
+
+msgid "Minority students"
+msgstr "Elevi care aparțin unor minorități"
+
+msgid "none"
+msgstr "niciunul"
+
+msgid "under 20%"
+msgstr "sub 20%"
+
+msgid "between 21-49%"
+msgstr "între 21-49%"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "between 51-74%"
+msgstr "între 51-74%"
+
+msgid "above 75%"
+msgstr "peste 75%"
+
+msgid "all"
+msgstr "toți"
+
+msgid "Another university"
+msgstr "Altă universitate"
