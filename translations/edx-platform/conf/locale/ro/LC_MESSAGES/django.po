@@ -2487,3 +2487,12 @@ msgstr "toți"
 
 msgid "Another university"
 msgstr "Altă universitate"
+
+msgid "Teacher"
+msgstr "Profesor învățământ preuniversitar"
+
+msgid "High-school student"
+msgstr "Elev la profil vocațional - pedagogic"
+
+msgid "College student"
+msgstr "Student științele educației"
