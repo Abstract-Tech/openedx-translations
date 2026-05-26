@@ -1867,6 +1867,9 @@ msgstr "Alege limba"
 msgid "Account"
 msgstr "Cont"
 
+msgid "Profile"
+msgstr "Profil"
+
 #: cms/templates/widgets/header.html:382
 msgid "Sign Up"
 msgstr "Înregistrare"
@@ -2502,3 +2505,8 @@ msgstr "Selectează-ți anul nașterii"
 
 msgid "Select your gender"
 msgstr "Selectează-ți sexul"
+
+#: lms/templates/support/certificates.html:21
+#: lms/templates/support/index.html:12 lms/templates/support/index.html:17
+msgid "Student Support"
+msgstr "Suport pentru cursanți"
