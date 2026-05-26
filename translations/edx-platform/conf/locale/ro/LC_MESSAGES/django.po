@@ -2496,3 +2496,9 @@ msgstr "Elev la profil vocațional - pedagogic"
 
 msgid "College student"
 msgstr "Student științele educației"
+
+msgid "Select your year of birth"
+msgstr "Selectează-ți anul nașterii"
+
+msgid "Select your gender"
+msgstr "Selectează-ți sexul"
