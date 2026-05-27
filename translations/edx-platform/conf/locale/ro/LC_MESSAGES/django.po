@@ -2510,3 +2510,53 @@ msgstr "Selectează-ți sexul"
 #: lms/templates/support/index.html:12 lms/templates/support/index.html:17
 msgid "Student Support"
 msgstr "Suport pentru cursanți"
+
+msgid "Preferable email for communication"
+msgstr "Email preferat pentru comunicare"
+
+msgid "Contact Us"
+msgstr "Contactează-ne"
+
+msgid "Subject"
+msgstr "Subiect"
+
+msgid "Thank you! Your request has been successfully sent."
+msgstr ""
+"Solicitarea ta de suport a fost trimisă către echipa noastră. Te vom "
+"contacta prin email în cel mai scurt timp posibil în următoarele 48 de ore."
+
+msgid "Send"
+msgstr "Trimite"
+
+msgid "Subject*"
+msgstr "Subiect*"
+
+msgid "Description*"
+msgstr "Descriere*"
+
+msgid "Enter the subject of your request"
+msgstr "Introdu subiectul solicitării tale"
+
+msgid "Enter the description of your request"
+msgstr "Introdu descrierea solicitării tale"
+
+msgid "Preferable email for communication*"
+msgstr "Email preferat pentru comunicare*"
+
+msgid "Enter your email"
+msgstr "Introdu emailul tău"
+
+msgid "Please fill in all required fields."
+msgstr "Te rugăm să completezi toate câmpurile obligatorii."
+
+msgid "Sending..."
+msgstr "Se trimite..."
+
+msgid "Your message has been sent successfully! We will contact you soon."
+msgstr "Mesajul tău a fost trimis cu succes! Te vom contacta în curând."
+
+msgid "Failed to send message. Please try again."
+msgstr "Trimiterea mesajului a eșuat. Te rugăm să încerci din nou."
+
+msgid "An unexpected error occurred. Please try again later."
+msgstr "A apărut o eroare neașteptată. Te rugăm să încerci din nou mai târziu."

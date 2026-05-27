@@ -1302,3 +1302,20 @@ msgid_plural "Viewing %s courses"
 msgstr[0] "Vizualizezi %s curs"
 msgstr[1] "Vizualizezi %s cursuri"
 msgstr[2] "Vizualizezi %s de cursuri"
+
+msgid "Thank you! Your request has been successfully sent."
+msgstr ""
+"Solicitarea ta de suport a fost trimisă către echipa noastră. Te vom "
+"contacta prin email în cel mai scurt timp posibil în următoarele 48 de ore."
+
+msgid "Subject"
+msgstr "Subiect"
+
+msgid "Contact us"
+msgstr "Contactează-ne"
+
+msgid "Preferable email for communication"
+msgstr "Email preferat pentru comunicare"
+
+msgid "Send"
+msgstr "Trimite"
