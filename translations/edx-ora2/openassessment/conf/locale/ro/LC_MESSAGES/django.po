@@ -3,10 +3,10 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
@@ -15,29 +15,26 @@ msgstr ""
 "PO-Revision-Date: 2025-11-17 07:23+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/open-edx/teams/6205/ro/)\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 #: assessment/api/student_training.py:179
 msgid "Could not parse serialized rubric"
-msgstr "Nu s-a putut analiza rubrica serializată"
+msgstr ""
 
 #: assessment/api/student_training.py:191
 msgid ""
 "If your assignment includes a learner training step, the rubric must have at"
 " least one criterion, and that criterion must have at least one option."
 msgstr ""
-"Dacă sarcina dvs. include o etapă de formare a cursanților, rubrica trebuie "
-"să aibă cel puțin un criteriu, iar acel criteriu trebuie să aibă cel puțin o"
-" opțiune."
 
 #: assessment/api/student_training.py:203
 #, python-brace-format
 msgid "Example {example_number} has a validation error: {error}"
-msgstr "Exemplul {example_number} are o eroare de validare: {error}"
+msgstr ""
 
 #: assessment/api/student_training.py:217
 #, python-brace-format
@@ -45,21 +42,16 @@ msgid ""
 "Example {example_number} has an invalid option for \"{criterion_name}\": "
 "\"{option_name}\""
 msgstr ""
-"Exemplul {example_number} are o opțiune nevalidă pentru „{criterion_name}”: "
-"„{option_name}”"
 
 #: assessment/api/student_training.py:227
 #, python-brace-format
 msgid "Example {example_number} has an extra option for \"{criterion_name}\""
 msgstr ""
-"Exemplul {example_number} are o opțiune suplimentară pentru "
-"„{criterion_name}”"
 
 #: assessment/api/student_training.py:240
 #, python-brace-format
 msgid "Example {example_number} is missing an option for \"{criterion_name}\""
 msgstr ""
-"Exemplul {example_number} lipsește o opțiune pentru „{criterion_name}”"
 
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
@@ -80,7 +72,7 @@ msgstr "Necunoscut"
 #: data.py:584
 #, python-brace-format
 msgid "Criterion {number}: {label}"
-msgstr "Criteriul {number}: {label}"
+msgstr ""
 
 #: data.py:586
 #, python-brace-format
@@ -99,15 +91,15 @@ msgstr "Feedback {number}"
 
 #: data.py:917
 msgid "Item ID"
-msgstr "ID-ul articolului"
+msgstr ""
 
 #: data.py:918
 msgid "Submission ID"
-msgstr "ID-ul trimiterii"
+msgstr ""
 
 #: data.py:930
 msgid "Anonymized Student ID"
-msgstr "ID de student anonimizat"
+msgstr ""
 
 #: data.py:961
 msgid "Assessment ID"
@@ -127,7 +119,7 @@ msgstr "Tipul de evaluare"
 
 #: data.py:965
 msgid "Anonymous Scorer Id"
-msgstr "Id marcator anonim"
+msgstr ""
 
 #: data.py:967
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:59
@@ -190,14 +182,10 @@ msgid ""
 " can be enabled, disable, and ordered for a flexible set of pedagogical "
 "needs."
 msgstr ""
-"Evaluările răspunsului deschis vă permit să configurați pașii unici sau mai "
-"mulți într-o secvență de evaluare a răspunsului deschis bazată pe rubrici. "
-"Pașii disponibili mai jos pot fi activați, dezactivați și comandați pentru "
-"un set flexibil de nevoi pedagogice."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:5
 msgid "Display Name "
-msgstr "Nume afișat "
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:8
 msgid "The display name for this component."
@@ -212,8 +200,6 @@ msgid ""
 "Specify whether learners must include a text based response to this "
 "problem's prompt."
 msgstr ""
-"Specificați dacă cursanții trebuie să includă un răspuns bazat pe text la "
-"solicitarea acestei probleme."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:25
 msgid "Response Editor"
@@ -224,8 +210,6 @@ msgid ""
 "Select which editor learners will use to include a text based response to "
 "this problem's prompt."
 msgstr ""
-"Selectați ce editor vor folosi cursanții pentru a include un răspuns bazat "
-"pe text la solicitarea acestei probleme."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:38
 msgid "File Uploads Response"
@@ -236,11 +220,10 @@ msgid ""
 "Specify whether learners are able to upload files as a part of their "
 "response."
 msgstr ""
-"Specificați dacă cursanții pot încărca fișiere ca parte a răspunsului lor."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:50
 msgid "Allow Multiple Files"
-msgstr "Permiteți mai multe fișiere"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:52
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:93
@@ -266,9 +249,6 @@ msgid ""
 "if File Uploads Response is set to None. This is automatically set to True "
 "for Team Assignments. "
 msgstr ""
-"Specificați dacă cursanții pot încărca mai multe fișiere. Acest lucru nu are"
-" efect dacă Răspunsul încărcărilor de fișiere este setat la Niciuna. Aceasta"
-" este setată automat la True pentru Atribuțiile de echipă. "
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:58
 msgid "File Upload Types"
@@ -284,14 +264,12 @@ msgstr "Fișiere imagine"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:62
 msgid "Custom File Types"
-msgstr "Tipuri de fișiere personalizate"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:66
 msgid ""
 "Specify whether learners can submit files along with their text responses."
 msgstr ""
-"Specificați dacă cursanții pot trimite fișiere împreună cu răspunsurile lor "
-"text."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:70
 msgid "File Types"
@@ -302,25 +280,20 @@ msgid ""
 "Enter the file extensions, separated by commas, that you want learners to be"
 " able to upload. For example: pdf,doc,docx."
 msgstr ""
-"Introduceți extensiile de fișiere, separate prin virgule, pe care doriți ca "
-"cursanții să le poată încărca. De exemplu: pdf, doc, docx."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:84
 msgid ""
 "To add more file extensions, select Custom File Types and enter the full "
 "list of acceptable file extensions to be included."
 msgstr ""
-"Pentru a adăuga mai multe extensii de fișiere, selectați Tipuri de fișiere "
-"personalizate și introduceți lista completă a extensiilor de fișiere "
-"acceptabile care trebuie incluse."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:91
 msgid "Allow LaTeX Responses"
-msgstr "Permiteți răspunsurile LaTeX"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:97
 msgid "Specify whether learners can write LaTeX formatted strings"
-msgstr "Specificați dacă cursanții pot scrie șiruri formatate LaTeX"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:102
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:8
@@ -345,8 +318,6 @@ msgstr ""
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:122
 msgid "When Teams Enabled is set to true, Top Responses will be disabled."
 msgstr ""
-"Când Teams Enabled este setată la true, răspunsurile de top vor fi "
-"dezactivate."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:129
 msgid "Teams Enabled"
@@ -355,7 +326,6 @@ msgstr "Echipe active"
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:136
 msgid "Specify whether team submissions are allowed for this response."
 msgstr ""
-"Specificați dacă trimiterile echipei sunt permise pentru acest răspuns."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:141
 msgid "Select Team-Set"
@@ -363,15 +333,13 @@ msgstr "Selectează subiectul echipei"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:155
 msgid "Show Rubric During Response"
-msgstr "Afișați rubrica în timpul răspunsului"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:162
 msgid ""
 "Specify whether learners can see the rubric while they are working on their "
 "response."
 msgstr ""
-"Specificați dacă cursanții pot vedea rubrica în timp ce lucrează la "
-"răspunsul lor."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:167
 msgid "Allow Learner Resubmissions"
@@ -405,11 +373,11 @@ msgstr ""
 #: templates/legacy/staff_area/oa_student_info.html:122
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:25
 msgid "Criterion"
-msgstr "Criteriu"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_criterion.html:7
 msgid "You cannot delete a criterion after the assignment has been released."
-msgstr "Nu puteți șterge un criteriu după eliberarea atribuirii."
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_criterion.html:9
 #: templates/legacy/edit/oa_edit_option.html:7
@@ -420,15 +388,15 @@ msgstr "Elimină"
 
 #: templates/legacy/edit/oa_edit_criterion.html:17
 msgid "Criterion Name"
-msgstr "Denumirea criteriului"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_criterion.html:29
 msgid "Criterion Prompt"
-msgstr "Prompt de criteriu"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_criterion.html:44
 msgid "Add Option"
-msgstr "Adaugă Opțiune"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_criterion.html:52
 msgid "Feedback for This Criterion"
@@ -450,8 +418,6 @@ msgid ""
 "Select one of the options above. This describes whether or not the reviewer "
 "will have to provide criterion feedback."
 msgstr ""
-"Selectați una dintre opțiunile de mai sus. Aceasta descrie dacă recenzorul "
-"va trebui sau nu să furnizeze feedback de criteriu."
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:3
 msgid "Open Response Assessment"
@@ -503,7 +469,10 @@ msgid ""
 "Peer Assessment allows students to provide feedback to other students and "
 "also receive feedback from others in their final grade. Often, though not "
 "always, this step is preceded by Self Assessment or Learner Training steps."
-msgstr "Evaluarea între cursanți le permite cursanților să își ofere feedback unii altora. Uneori, acest pas de evaluare este precedat de antrenamentul pentru evaluare sau de o autoevaluare."
+msgstr ""
+"Evaluarea între cursanți le permite cursanților să își ofere feedback unii "
+"altora. Uneori, acest pas de evaluare este precedat de antrenamentul pentru "
+"evaluare sau de o autoevaluare."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:18
 msgid ""
@@ -511,26 +480,20 @@ msgid ""
 " peer reviews a student will be assessed with, and the number of peer a "
 "student must grade. Additional options can be specified."
 msgstr ""
-"Configurare: Pentru ca acest pas să fie configurat, trebuie să specificați "
-"numărul de evaluări inter pares cu care va fi evaluat un student și numărul "
-"de colegi pe care trebuie să-i noteze un student. Pot fi specificate opțiuni"
-" suplimentare."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:23
 msgid "View Options & Configuration"
-msgstr "Vizualizați opțiunile și configurarea"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:29
 msgid "Must Grade"
-msgstr "Grad trebuie"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:32
 msgid ""
 "Specify the number of peer assessments that each learner must complete. "
 "Valid numbers are 1 to 99."
 msgstr ""
-"Specificați numărul de evaluări inter pares pe care fiecare cursant trebuie "
-"să le completeze. Numerele valide sunt de la 1 la 99."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:36
 msgid "Graded By"
@@ -541,20 +504,16 @@ msgid ""
 "Specify the number of learners that each response must be assessed by. Valid"
 " numbers are 1 to 99."
 msgstr ""
-"Specificați numărul de cursanți prin care trebuie evaluat fiecare răspuns. "
-"Numerele valide sunt de la 1 la 99."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:43
 msgid "Enable Flexible Peer Grade Averaging"
-msgstr "Activați medierea flexibilă a gradelor de la egal la egal"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:49
 #, python-format
 msgid ""
 "When enabled, learners who have received at least 30%% of the required \\"
 msgstr ""
-"Când este activată, cursanții care au primit cel puțin 30%% din valoarea "
-"necesară\\"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:53
 msgid ""
@@ -605,7 +564,9 @@ msgstr "Ora de începere"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:27
 msgid "The date and time when learners can begin assessing peer responses."
-msgstr "Data și ora la care cursanții pot începe să evalueze rezolvările altor cursanți."
+msgstr ""
+"Data și ora la care cursanții pot începe să evalueze rezolvările altor "
+"cursanți."
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:31
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:31
@@ -620,23 +581,22 @@ msgstr "Ora limită"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:48
 msgid "The date and time when all peer assessments must be complete."
-msgstr "Data și ora la care toate evaluările între cursanți trebuie finalizate."
+msgstr ""
+"Data și ora la care toate evaluările între cursanți trebuie finalizate."
 
 #: templates/legacy/edit/oa_edit_prompt.html:8
 msgid "You cannot delete a prompt after the assignment has been released."
-msgstr "Nu puteți șterge o solicitare după ce atribuirea a fost eliberată."
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_prompts.html:10
 msgid ""
 "Prompts. Replace the sample text with your own text. For more information, "
 "see the ORA documentation."
 msgstr ""
-"Solicitări. Înlocuiți textul eșantion cu propriul text. Pentru mai multe "
-"informații, consultați documentația ORA."
 
 #: templates/legacy/edit/oa_edit_prompts.html:22
 msgid "Add Prompt"
-msgstr "Adaugă Prompt"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_rubric.html:14
 msgid ""
@@ -645,14 +605,10 @@ msgid ""
 "and their options. Replace the sample text with your own text. For more "
 "information, see the ORA documentation."
 msgstr ""
-"Rubricile sunt alcătuite din criterii, care conțin de obicei una sau mai "
-"multe opțiuni. Fiecare opțiune are o valoare punctuală. Acest șablon conține"
-" două criterii de eșantion și opțiunile acestora. Înlocuiți textul eșantion "
-"cu propriul text. Pentru mai multe informații, consultați documentația ORA."
 
 #: templates/legacy/edit/oa_edit_rubric.html:29
 msgid "Add Criterion"
-msgstr "Adăugați criteriu"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_rubric.html:35
 msgid "Feedback for This Response"
@@ -667,21 +623,16 @@ msgid ""
 "Encourage learners to provide feedback on the response they have graded. You"
 " can replace the sample text with your own."
 msgstr ""
-"Încurajați elevii să ofere feedback cu privire la răspunsul pe care l-au "
-"notat. Puteți înlocui textul eșantion cu al dvs."
 
 #: templates/legacy/edit/oa_edit_rubric.html:49
 msgid "Default Feedback Text"
-msgstr "Text de feedback implicit"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_rubric.html:53
 msgid ""
 "Enter feedback text that learners will see before they enter their own "
 "feedback. Use this text to show learners a good example peer assessment."
 msgstr ""
-"Introduceți un text de feedback pe care cursanții îl vor vedea înainte de "
-"a-și introduce propriul feedback. Utilizați acest text pentru a arăta "
-"cursanților un bun exemplu de evaluare de la egal la egal la egal."
 
 #: templates/legacy/edit/oa_edit_schedule.html:5
 msgid "Deadlines Configuration"
@@ -739,7 +690,9 @@ msgstr "Pas: Autoevaluare"
 msgid ""
 "Self Assessment asks learners to grade their own submissions against the "
 "rubric."
-msgstr "În pasul de Autoevaluare cursanții își acordă singuri punctajul pentru rezolvarea lor pe baza grilei de evaluare."
+msgstr ""
+"În pasul de Autoevaluare cursanții își acordă singuri punctajul pentru "
+"rezolvarea lor pe baza grilei de evaluare."
 
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:5
 msgid "Self Assessment Deadlines"
@@ -747,7 +700,8 @@ msgstr "Termenele limită pentru autoevaluare"
 
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:27
 msgid "The date and time when learners can begin assessing their responses."
-msgstr "Data și ora la care cursanții pot începe să-și autoevalueze rezolvările."
+msgstr ""
+"Data și ora la care cursanții pot începe să-și autoevalueze rezolvările."
 
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:48
 msgid "The date and time when all self assessments must be complete."
@@ -762,9 +716,6 @@ msgid ""
 "Staff Assessment gates sets the final grade for students if enabled with "
 "other steps, though it can also be used as a standalone step."
 msgstr ""
-"Porțile de evaluare a personalului stabilește nota finală pentru studenți "
-"dacă este activată cu alți pași, deși poate fi utilizată și ca pas "
-"independent."
 
 #: templates/legacy/edit/oa_edit_student_training.html:9
 msgid "Step: Learner Training"
@@ -775,7 +726,11 @@ msgid ""
 "Learner Training is used to help students practice grading a simulated peer "
 "submission in order to train them on the rubric and ensure learner's "
 "understand the rubric for either Self or Peer Assessment steps."
-msgstr "Antrenamentul pentru evaluare îi ajută pe cursanți să simuleze evaluarea unei rezolvări, cu scopul de a se antrena în aplicarea grilei de evaluare. Astfel cursantul înțelege grila de evaluare și o poate aplica mai departe în curs atât pentru o autoevaluare, cât și pentru o evaluare între cursanți."
+msgstr ""
+"Antrenamentul pentru evaluare îi ajută pe cursanți să simuleze evaluarea "
+"unei rezolvări, cu scopul de a se antrena în aplicarea grilei de evaluare. "
+"Astfel cursantul înțelege grila de evaluare și o poate aplica mai departe în"
+" curs atât pentru o autoevaluare, cât și pentru o evaluare între cursanți."
 
 #: templates/legacy/edit/oa_edit_student_training.html:17
 msgid ""
@@ -784,23 +739,18 @@ msgid ""
 " to advance and are provided feedback when their score doesn't match the "
 "sample response."
 msgstr ""
-"Configurare: Pentru ca acest pas să fie complet configurat, trebuie să "
-"furnizați unul sau mai multe exemple de răspunsuri clasificate. Cursanții "
-"trebuie apoi să potrivească acest scor de instructor pentru a avansa și li "
-"se oferă feedback atunci când scorul lor nu se potrivește cu răspunsul "
-"eșantionului."
 
 #: templates/legacy/edit/oa_edit_student_training.html:22
 msgid "View / Add Sample Responses"
-msgstr "Vizualizare/Adăugați exemple de răspunsuri"
+msgstr ""
 
 #: templates/legacy/edit/oa_edit_student_training.html:32
 msgid "Add Sample Response"
-msgstr "Adăugați un eșantion de răspuns"
+msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:4
 msgid "Clone Rubric"
-msgstr "Rubrica clonă"
+msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:7
 msgid ""
@@ -809,31 +759,26 @@ msgid ""
 "after cloning will only affect the rubric being modified, and will not "
 "modify any rubric it was cloned from."
 msgstr ""
-"Pentru a clona o rubrică dintr-o schiță publicată sau nepublicată existentă,"
-" puteți căuta după ID-ul blocului. Rețineți că clonarea este "
-"unidirecțională, ceea ce înseamnă că modificările făcute după clonare vor "
-"afecta doar rubrica modificată și nu vor modifica nicio rubrică din care a "
-"fost clonată."
 
 #: templates/legacy/edit/oa_rubric_reuse.html:9
 msgid "Block ID For this ORA:"
-msgstr "ID-ul blocului pentru acest ORA:"
+msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:19
 msgid "Block ID"
-msgstr "ID-ul blocului"
+msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr "Nu au fost găsite alte evaluări de răspuns deschis în curs"
+msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
-msgstr "Clonă"
+msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:37
 msgid "Rubric Successfully Cloned from Block ID: "
-msgstr "Rubrica Clonată cu succes din ID-ul blocului: "
+msgstr ""
 
 #: templates/legacy/edit/oa_training_example.html:7
 msgid "Scored Response"
@@ -863,7 +808,10 @@ msgid ""
 "\n"
 "                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
 "              "
-msgstr "\n                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/grade/oa_assessment_title.html:7
 #, python-format
@@ -877,15 +825,15 @@ msgid_plural ""
 "                  "
 msgstr[0] ""
 "\n"
-"%(assessment_title)s - %(points)s punct\n"
-"                  "
+"                      %(assessment_title)s - %(points)s punct\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 msgstr[1] ""
 "\n"
-"%(assessment_title)s - %(points)s puncte\n"
-"                  "
+"                      %(assessment_title)s - %(points)s puncte\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 msgstr[2] ""
 "\n"
-"%(assessment_title)s - %(points)s puncte\n"
+"                      %(assessment_title)s - %(points)s de puncte\n"
 "                  "
 
 #: templates/legacy/grade/oa_assessment_title.html:24
@@ -908,7 +856,10 @@ msgid ""
 "\n"
 "                                        %(points_earned)s out of %(points_possible)s\n"
 "                                    "
-msgstr "\n                                        %(points_earned)s din %(points_possible)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                        %(points_earned)s din %(points_possible)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/grade/oa_grade_cancelled.html:38
 msgid "Your submission has been cancelled."
@@ -920,7 +871,10 @@ msgid ""
 "\n"
 "                                            %(points_earned)s out of %(points_possible)s\n"
 "                                        "
-msgstr "\n                                            %(points_earned)s din %(points_possible)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                            %(points_earned)s din %(points_possible)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/grade/oa_grade_complete.html:38
 #: templates/legacy/response/oa_response.html:29
@@ -982,19 +936,25 @@ msgstr "Trimiterea feedback-ului"
 msgid ""
 "Your feedback has been submitted. Course staff will be able to see this "
 "feedback when they review course records."
-msgstr "Feedback-ul tău a fost trimis. Facilitatorul cursului va vedea feedback-ul tău atunci când verifică activitățile din curs."
+msgstr ""
+"Feedback-ul tău a fost trimis. Facilitatorul cursului va vedea feedback-ul "
+"tău atunci când verifică activitățile din curs."
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
 "Course staff will be able to see any feedback that you provide here when "
 "they review course records."
-msgstr "Facilitatorul cursului va vedea feedback-ul tău atunci când verifică activitățile din curs."
+msgstr ""
+"Facilitatorul cursului va vedea feedback-ul tău atunci când verifică "
+"activitățile din curs."
 
 #: templates/legacy/grade/oa_grade_complete.html:146
 msgid ""
 "Select the statements below that best reflect your experience with peer "
 "assessments."
-msgstr "Alege dintre afirmațiile de mai jos pe cele care descriu cel mai bine experiența ta cu evaluarea între cursanți."
+msgstr ""
+"Alege dintre afirmațiile de mai jos pe cele care descriu cel mai bine "
+"experiența ta cu evaluarea între cursanți."
 
 #: templates/legacy/grade/oa_grade_complete.html:155
 msgid "These assessments were useful."
@@ -1006,7 +966,9 @@ msgstr "Aceste evaluări nu au fost utile."
 
 #: templates/legacy/grade/oa_grade_complete.html:173
 msgid "I disagree with one or more of the peer assessments of my response."
-msgstr "Nu sunt de acord cu una sau mai multe dintre evaluările rezolvării mele, primite de la alți cursanți."
+msgstr ""
+"Nu sunt de acord cu una sau mai multe dintre evaluările rezolvării mele, "
+"primite de la alți cursanți."
 
 #: templates/legacy/grade/oa_grade_complete.html:182
 msgid "Some comments I received were inappropriate."
@@ -1015,7 +977,9 @@ msgstr "Unele observații pe care le-am primit au fost nepotrivite."
 #: templates/legacy/grade/oa_grade_complete.html:187
 msgid ""
 "Provide feedback on the grade or comments that you received from your peers."
-msgstr "Oferă feedback despre punctajul sau observațiile pe care le-ai primit de la alți cursanți."
+msgstr ""
+"Oferă feedback despre punctajul sau observațiile pe care le-ai primit de la "
+"alți cursanți."
 
 #: templates/legacy/grade/oa_grade_complete.html:190
 msgid "I feel the feedback I received was..."
@@ -1055,7 +1019,10 @@ msgid ""
 "need to be done on your response. When the assessments of your response are "
 "complete, you will see feedback from everyone who assessed your response, "
 "and you will receive your final grade."
-msgstr "Ai finalizat pașii tăi pentru această activitate, dar evaluările rezolvării tale nu au fost încă finalizate. Vei primi punctajul de îndată ce evaluările rezolvării tale vor fi finalizate."
+msgstr ""
+"Ai finalizat pașii tăi pentru această activitate, dar evaluările rezolvării "
+"tale nu au fost încă finalizate. Vei primi punctajul de îndată ce evaluările"
+" rezolvării tale vor fi finalizate."
 
 #: templates/legacy/instructor_dashboard/oa_grade_available_responses.html:15
 #: templates/legacy/staff_area/oa_staff_area.html:16
@@ -1069,8 +1036,6 @@ msgid ""
 "Grade Available Responses is unavailable. This item is not configured for "
 "Staff Assessment."
 msgstr ""
-"Răspunsurile disponibile pentru grad nu sunt disponibile. Acest element nu "
-"este configurat pentru Evaluarea personalului."
 
 #: templates/legacy/instructor_dashboard/oa_listing.html:6
 msgid "Please wait"
@@ -1085,8 +1050,6 @@ msgid ""
 "Waiting Step details view is unavailable. This item is not configured for "
 "peer assessments."
 msgstr ""
-"Vizualizarea detaliilor pasului de așteptare nu este disponibilă. Acest "
-"element nu este configurat pentru evaluări inter pares."
 
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:20
 #, python-format
@@ -1103,63 +1066,87 @@ msgstr "Rezolvarea unui alt cursant la cerințele temei de mai sus"
 msgid ""
 "After you complete all the steps of this assignment, you can see the top-"
 "scoring responses from your peers."
-msgstr "După ce finalizezi toți pașii acestei activități, poți vedea câteva rezolvări ale altor cursanți care au obținut cele mai bune punctaje."
+msgstr ""
+"După ce finalizezi toți pașii acestei activități, poți vedea câteva "
+"rezolvări ale altor cursanți care au obținut cele mai bune punctaje."
 
 #: templates/legacy/message/oa_message_cancelled.html:8
 msgid ""
 "Your team’s submission has been cancelled. Your team will receive a grade of"
 " zero unless course staff resets your assessment to allow the team to "
 "resubmit a response."
-msgstr "Rezolvarea echipei tale a fost anulată. Echipa ta va primi punctaj 0 / zero dacă facilitatorul cursului nu va reseta evaluarea pentru a vă permite să trimiteți rezolvarea din nou."
+msgstr ""
+"Rezolvarea echipei tale a fost anulată. Echipa ta va primi punctaj 0 / zero "
+"dacă facilitatorul cursului nu va reseta evaluarea pentru a vă permite să "
+"trimiteți rezolvarea din nou."
 
 #: templates/legacy/message/oa_message_cancelled.html:10
 msgid ""
 "Your submission has been cancelled. You will receive a grade of zero unless "
 "course staff resets your assessment to allow you to resubmit a response."
-msgstr "Rezolvarea ta a fost anulată. Vei primi punctaj 0 / zero dacă facilitatorul cursului nu va reseta evaluarea pentru a-ți permite să trimiți rezolvarea din nou."
+msgstr ""
+"Rezolvarea ta a fost anulată. Vei primi punctaj 0 / zero dacă facilitatorul "
+"cursului nu va reseta evaluarea pentru a-ți permite să trimiți rezolvarea "
+"din nou."
 
 #: templates/legacy/message/oa_message_closed.html:8
 msgid ""
 "This task is not yet available. Check back to complete the assignment once "
 "this section has opened."
-msgstr "Această activitate nu este încă disponibilă. Revino pentru a finaliza activitatea de îndată ce acest pas va fi deschis."
+msgstr ""
+"Această activitate nu este încă disponibilă. Revino pentru a finaliza "
+"activitatea de îndată ce acest pas va fi deschis."
 
 #: templates/legacy/message/oa_message_closed.html:10
 msgid ""
 "This assignment has closed. One or more deadlines for this assignment have "
 "passed. You will receive an incomplete grade for this assignment."
-msgstr "Această activitate s-a încheiat. Unul sau mai multe termene limită au expirat. Punctajul pe care îl vei primi pentru această activitate va fi incomplet."
+msgstr ""
+"Această activitate s-a încheiat. Unul sau mai multe termene limită au "
+"expirat. Punctajul pe care îl vei primi pentru această activitate va fi "
+"incomplet."
 
 #: templates/legacy/message/oa_message_complete.html:8
 msgid ""
 "You have completed this assignment. Your final grade will be available when "
 "the assessments of your response are complete."
-msgstr "Ai finalizat această activitate. Punctajul tău va fi disponibil de îndată ce evaluările rezolvării tale vor fi finalizate."
+msgstr ""
+"Ai finalizat această activitate. Punctajul tău va fi disponibil de îndată ce"
+" evaluările rezolvării tale vor fi finalizate."
 
 #: templates/legacy/message/oa_message_complete.html:10
 msgid ""
 "You have completed this assignment. Review your grade and your assessment "
 "details."
-msgstr "Ai finalizat această activitate. Verifică mai jos detaliile despre evaluare și despre punctajul obținut."
+msgstr ""
+"Ai finalizat această activitate. Verifică mai jos detaliile despre evaluare "
+"și despre punctajul obținut."
 
 #: templates/legacy/message/oa_message_incomplete.html:9
 msgid ""
 "This assignment is in progress. Learner training will close soon. Complete "
 "the learner training step to move on."
-msgstr "Această activitate este în curs de realizare. Antrenamentul pentru evaluare al cursanților se va încheia în curând. Finalizează antrenamentul pentru a merge mai departe."
+msgstr ""
+"Această activitate este în curs de realizare. Antrenamentul pentru evaluare "
+"al cursanților se va încheia în curând. Finalizează antrenamentul pentru a "
+"merge mai departe."
 
 #: templates/legacy/message/oa_message_incomplete.html:11
 msgid ""
 "This assignment is in progress. Complete the learner training step to move "
 "on."
-msgstr "Această activitate este în curs de realizare. Finalizează pasul de antrenament pentru evaluare ca să treci mai departe."
+msgstr ""
+"Această activitate este în curs de realizare. Finalizează pasul de "
+"antrenament pentru evaluare ca să treci mai departe."
 
 #: templates/legacy/message/oa_message_incomplete.html:15
 #: templates/legacy/message/oa_message_incomplete.html:33
 msgid ""
 "This assignment is in progress. Check back later when the assessment period "
 "has started."
-msgstr "Această activitate este în curs de realizare. Revino la acest pas în perioada următoare, când e planificată să înceapă evaluarea."
+msgstr ""
+"Această activitate este în curs de realizare. Revino la acest pas în "
+"perioada următoare, când e planificată să înceapă evaluarea."
 
 #: templates/legacy/message/oa_message_incomplete.html:20
 #, python-format
@@ -1167,7 +1154,10 @@ msgid ""
 "\n"
 "                                    %(start_strong)sThis assignment is in progress. The self assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
-msgstr "\n                                    %(start_strong)sAceastă activitate este în curs de realizare. Pasul de autoevaluare se va încheia în curând.%(end_strong)s Mai este nevoie să finalizezi pasul de %(start_link)sautoevaluare%(end_link)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                    %(start_strong)sAceastă activitate este în curs de realizare. Pasul de autoevaluare se va încheia în curând.%(end_strong)s Mai este nevoie să finalizezi pasul de %(start_link)sautoevaluare%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_incomplete.html:24
 #, python-format
@@ -1175,7 +1165,10 @@ msgid ""
 "\n"
 "                                    This assignment is in progress. You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
-msgstr "\n                                    Această activitate este în curs de realizare. Mai este nevoie să finalizezi pasul de %(start_link)sautoevaluare%(end_link)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                    Această activitate este în curs de realizare. Mai este nevoie să finalizezi pasul de %(start_link)sautoevaluare%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_incomplete.html:38
 #, python-format
@@ -1183,7 +1176,10 @@ msgid ""
 "\n"
 "                                    This assignment is in progress.%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
-msgstr "\n                                    Această activitate este în curs de realizare.%(start_strong)sPasul de evaluare între cursanți se va încheia în curând.%(end_strong)s Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                    Această activitate este în curs de realizare.%(start_strong)sPasul de evaluare între cursanți se va încheia în curând.%(end_strong)s Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_incomplete.html:42
 #, python-format
@@ -1191,7 +1187,10 @@ msgid ""
 "\n"
 "                                    This assignment is in progress. All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
-msgstr "\n                                    Această activitate este în curs de realizare. Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                    Această activitate este în curs de realizare. Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_incomplete.html:46
 #, python-format
@@ -1199,7 +1198,10 @@ msgid ""
 "\n"
 "                                    This assignment is in progress. %(start_strong)sThe peer assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
-msgstr "\n                                    Această activitate este în curs de realizare. %(start_strong)sPasul de evaluare între cursanți se va încheia în curând.%(end_strong)s Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                    Această activitate este în curs de realizare. %(start_strong)sPasul de evaluare între cursanți se va încheia în curând.%(end_strong)s Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_incomplete.html:50
 #, python-format
@@ -1207,7 +1209,10 @@ msgid ""
 "\n"
 "                                    This assignment is in progress. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
-msgstr "\n                                    Această activitate este în curs de realizare. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                    Această activitate este în curs de realizare. Mai este nevoie să finalizezi pasul de %(start_link)sevaluare între cursanți%(end_link)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_no_team.html:4
 msgid "Team membership is required to view this assignment"
@@ -1221,7 +1226,12 @@ msgid ""
 "            You are currently not on a team in team-set \"%(teamset_name)s\".\n"
 "            You must be on a team in team-set \"%(teamset_name)s\" to access this team assignment.\n"
 "            "
-msgstr "\n            Aceasta este o activitate de echipă în cadrul subiectului \"%(teamset_name)s\".\n            Momentan nu faci parte dintr-o echipă din cadrul subiectului \"%(teamset_name)s\".\n            Este nevoie să fii într-o echipă din cadrul subiectului \"%(teamset_name)s\" pentru a avea acces la aceasta activitate a echipei.\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            Aceasta este o activitate de echipă în cadrul subiectului \"%(teamset_name)s\".\n"
+"            Momentan nu faci parte dintr-o echipă din cadrul subiectului \"%(teamset_name)s\".\n"
+"            Este nevoie să fii într-o echipă din cadrul subiectului \"%(teamset_name)s\" pentru a avea acces la aceasta activitate a echipei.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_open.html:7
 #, python-format
@@ -1229,7 +1239,10 @@ msgid ""
 "\n"
 "                    Assignment submissions will close soon. To receive a grade, first provide a response to the prompt, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
-msgstr "\n                    Perioada de trimitere a rezolvărilor pentru această activitate se va încheia în curând. Pentru a obține un punctaj, trimite Rezolvarea ta la Cerințele temei, apoi finalizează pașii care urmează sub %(start_tag)sRezolvarea ta%(end_tag)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                    Perioada de trimitere a rezolvărilor pentru această activitate se va încheia în curând. Pentru a obține un punctaj, trimite Rezolvarea ta la Cerințele temei, apoi finalizează pașii care urmează sub %(start_tag)sRezolvarea ta%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_open.html:11
 #, python-format
@@ -1237,7 +1250,10 @@ msgid ""
 "\n"
 "                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
-msgstr "\n                    Această activitate se realizează în mai mulți pași. În primul pas, vei trimite Rezolvarea ta la Cerințele temei. Ceilalți pași apar mai jos sub %(start_tag)sRezolvarea ta%(end_tag)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                    Această activitate se realizează în mai mulți pași. În primul pas, vei trimite Rezolvarea ta la Cerințele temei. Ceilalți pași apar mai jos sub %(start_tag)sRezolvarea ta%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/message/oa_message_unavailable.html:4
 msgid "Instructions Unavailable"
@@ -1252,7 +1268,10 @@ msgid ""
 "This assignment has several steps. In the first step, you'll provide a "
 "response to the prompt. The other steps appear below the Your Response "
 "field."
-msgstr "Această activitate se realizează în mai mulți pași. În primul pas, vei trimite Rezolvarea ta la Cerințele temei de mai jos. Ceilalți pași apar mai jos și pot fi parcurși pe măsură ce devin disponibili."
+msgstr ""
+"Această activitate se realizează în mai mulți pași. În primul pas, vei "
+"trimite Rezolvarea ta la Cerințele temei de mai jos. Ceilalți pași apar mai "
+"jos și pot fi parcurși pe măsură ce devin disponibili."
 
 #: templates/legacy/oa_base.html:37 templates/openassessmentblock/base.html:56
 #: templates/openassessmentblock/base.html:105
@@ -1261,11 +1280,11 @@ msgstr "Se încarcă"
 
 #: templates/legacy/oa_latex_preview.html:6
 msgid "Preview in LaTeX"
-msgstr "Previzualizare în LaTeX"
+msgstr ""
 
 #: templates/legacy/oa_latex_preview.html:9
 msgid "Click to preview your submission in LaTeX."
-msgstr "Faceți clic pentru a previzualiza trimiterea în LaTeX."
+msgstr ""
 
 #: templates/legacy/oa_latex_preview.html:14
 msgid "Preview Response"
@@ -1301,7 +1320,10 @@ msgid ""
 "Caution: These files were uploaded by another course learner and have not "
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
-msgstr "Atenție: Aceste fișiere au fost încărcate de un alt cursant și NU au fost verificate, scanate, analizate sau aprobate de facilitatorul cursului. Accesarea fișierelor se face pe proprie răspundere."
+msgstr ""
+"Atenție: Aceste fișiere au fost încărcate de un alt cursant și NU au fost "
+"verificate, scanate, analizate sau aprobate de facilitatorul cursului. "
+"Accesarea fișierelor se face pe proprie răspundere."
 
 #: templates/legacy/peer/oa_peer_assessment.html:36
 msgid "Assess Peers"
@@ -1316,7 +1338,10 @@ msgid ""
 "\n"
 "            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
-msgstr "\n            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days
@@ -1327,7 +1352,10 @@ msgid ""
 "\n"
 "            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
-msgstr "\n            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/peer/oa_peer_assessment.html:61
 #, python-format
@@ -1335,7 +1363,10 @@ msgid ""
 "\n"
 "                    In Progress (%(review_number)s of %(num_must_grade)s)\n"
 "                "
-msgstr "\n                    În lucru (%(review_number)s din %(num_must_grade)s)\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                    În lucru (%(review_number)s din %(num_must_grade)s)\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/peer/oa_peer_assessment.html:75
 #: templates/legacy/peer/oa_peer_turbo_mode.html:45
@@ -1372,14 +1403,20 @@ msgid ""
 "\n"
 "            Incomplete (%(num_graded)s of %(num_must_grade)s)\n"
 "        "
-msgstr "\n            Nefinalizat (%(num_graded)s din %(num_must_grade)s)\n␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            Nefinalizat (%(num_graded)s din %(num_must_grade)s)\n"
+"␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/peer/oa_peer_closed.html:35
 msgid ""
 "The due date for this step has passed. This step is now closed. You can no "
 "longer complete peer assessments or continue with this assignment, and you "
 "will receive a grade of Incomplete."
-msgstr "Termenul limită pentru acest pas a expirat. Acest pas este acum închis. Deoarece nu mai poți finaliza evaluarea între cursanți și nu poți continua această activitate, punctajul tău va fi Incomplet."
+msgstr ""
+"Termenul limită pentru acest pas a expirat. Acest pas este acum închis. "
+"Deoarece nu mai poți finaliza evaluarea între cursanți și nu poți continua "
+"această activitate, punctajul tău va fi Incomplet."
 
 #: templates/legacy/peer/oa_peer_complete.html:13
 msgid "Completed"
@@ -1392,7 +1429,10 @@ msgid ""
 "You have successfully completed all of the required peer assessments for "
 "this assignment. You may assess additional peer responses if you want to. "
 "Completing additional assessments will not affect your final grade."
-msgstr "Ai finalizat de evaluat toate rezolvările necesare pentru această activitate. Opțional, poți evalua suplimentar și alte rezolvări. Evaluarea suplimentară nu va influența în niciun fel punctajul tău final."
+msgstr ""
+"Ai finalizat de evaluat toate rezolvările necesare pentru această "
+"activitate. Opțional, poți evalua suplimentar și alte rezolvări. Evaluarea "
+"suplimentară nu va influența în niciun fel punctajul tău final."
 
 #: templates/legacy/peer/oa_peer_complete.html:36
 msgid "We could not retrieve additional submissions for assessment"
@@ -1409,13 +1449,19 @@ msgid ""
 "\n"
 "        Complete (%(num_graded)s)\n"
 "      "
-msgstr "\n        Finalizat (%(num_graded)s)\n␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"        Finalizat (%(num_graded)s)\n"
+"␣␣␣␣␣␣"
 
 #: templates/legacy/peer/oa_peer_turbo_mode_waiting.html:38
 msgid ""
 "All submitted peer responses have been assessed. Check back later to see if "
 "more learners have submitted responses."
-msgstr "Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat."
+msgstr ""
+"Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. "
+"Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări "
+"noi de evaluat."
 
 #: templates/legacy/peer/oa_peer_unavailable.html:16
 #: templates/legacy/response/oa_response_unavailable.html:17
@@ -1430,7 +1476,10 @@ msgid ""
 "\n"
 "          In Progress (%(review_number)s of %(num_must_grade)s)\n"
 "        "
-msgstr "\n          În lucru (%(review_number)s din %(num_must_grade)s)\n␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"          În lucru (%(review_number)s din %(num_must_grade)s)\n"
+"␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/peer/oa_peer_waiting.html:37
 msgid ""
@@ -1438,7 +1487,12 @@ msgid ""
 "more learners have submitted responses. You will receive your grade after "
 "you've completed all the steps for this problem and your peers have assessed"
 " your response."
-msgstr "Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări noi de evaluat. Vei primi punctajul după ce finalizezi toți pașii din activitate și rezolvarea ta este evaluată complet de numărul necesar de cursanți."
+msgstr ""
+"Toate rezolvările altor cursanți trimise până acum au fost deja evaluate. "
+"Revino la acest pas în zilele următoare pentru a vedea dacă apar rezolvări "
+"noi de evaluat. Vei primi punctajul după ce finalizezi toți pașii din "
+"activitate și rezolvarea ta este evaluată complet de numărul necesar de "
+"cursanți."
 
 #: templates/legacy/response/oa_response.html:27
 msgid "Your Team's Response"
@@ -1453,7 +1507,10 @@ msgid ""
 "\n"
 "            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
-msgstr "\n            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1464,7 +1521,10 @@ msgid ""
 "\n"
 "            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
-msgstr "\n            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response.html:54
 #: templates/legacy/self/oa_self_assessment.html:56
@@ -1566,7 +1626,12 @@ msgid ""
 "                                              have/has already submitted a response to this assignment with another team,\n"
 "                                              and will not be a part of your team's submission or assignment grade.\n"
 "                                          "
-msgstr "\n                                              %(team_members_with_external_submissions)s\n                                              a/au trimis deja o rezolvare la această activitate cu o altă echipă,\n                                              astfel că nu va/vor contribui la rezolvarea sau punctajul echipei tale.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                              %(team_members_with_external_submissions)s\n"
+"                                              a/au trimis deja o rezolvare la această activitate cu o altă echipă,\n"
+"                                              astfel că nu va/vor contribui la rezolvarea sau punctajul echipei tale.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response.html:171
 msgid "Team Response "
@@ -1595,7 +1660,14 @@ msgid ""
 "                                              please coordinate with them to decide on the final response the designated team\n"
 "                                              member should submit.\n"
 "                                          "
-msgstr "\n                                              Echipele ar trebui să desemneze un membru al echipei care să trimită rezolvarea din partea\n                                              întregii echipe. Fiecare membru din echipă poate folosi acest spațiu pentru a lucra la rezolvările intermediare /draft,\n                                              însă nu veți putea vedea ce ați lucrat fiecare. De aceea, este\n                                              nevoie să vă coordonați pentru a stabili cine este persoana desemnată să trimită o singură rezolvare finală\n                                              din partea echipei.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                              Echipele ar trebui să desemneze un membru al echipei care să trimită rezolvarea din partea\n"
+"                                              întregii echipe. Fiecare membru din echipă poate folosi acest spațiu pentru a lucra la rezolvările intermediare /draft,\n"
+"                                              însă nu veți putea vedea ce ați lucrat fiecare. De aceea, este\n"
+"                                              nevoie să vă coordonați pentru a stabili cine este persoana desemnată să trimită o singură rezolvare finală\n"
+"                                              din partea echipei.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response.html:197
 msgid "Enter your response to the prompt above."
@@ -1611,7 +1683,14 @@ msgid ""
 "                                      You will not be part of Team %(team_name)s’s submission for this assignment and will not\n"
 "                                      receive a grade for their submission.\n"
 "                                  "
-msgstr "\n                                      Acum ești membru în Echipa %(team_name)s. Deoarece făceai parte din Echipa %(previous_team_name)s\n                                      atunci când s-a trimis rezolvarea pentru această activitate, vezi în continuare rezolvarea Echipei %(previous_team_name)s\n                                      și vei primi același punctaj ca foștii tăi colegi.\n                                      Nu vei putea participa la rezolvarea Echipei %(team_name)s pentru această activitate\n                                      și nu vei primi punctaj aferent acesteia.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                      Acum ești membru în Echipa %(team_name)s. Deoarece făceai parte din Echipa %(previous_team_name)s\n"
+"                                      atunci când s-a trimis rezolvarea pentru această activitate, vezi în continuare rezolvarea Echipei %(previous_team_name)s\n"
+"                                      și vei primi același punctaj ca foștii tăi colegi.\n"
+"                                      Nu vei putea participa la rezolvarea Echipei %(team_name)s pentru această activitate\n"
+"                                      și nu vei primi punctaj aferent acesteia.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response.html:224
 msgid "We could not save your progress"
@@ -1631,7 +1710,11 @@ msgid ""
 "                                  Upload files and review files uploaded by you and your teammates below. Be sure to add\n"
 "                                  descriptions to your files to help your teammates identify them.\n"
 "                              "
-msgstr "\n                                  Încarcă fișierele tale și ale colegilor tăi de echipă mai jos apoi verifică-le. Asigură-te că adaugi descrieri sugestive \n                                  pentru fișierele tale pentru a-i ajuta pe colegii tăi să le identifice, de exemplu: Proiect de lectie - tema modul 5 etc.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                  Încarcă fișierele tale și ale colegilor tăi de echipă mai jos apoi verifică-le. Asigură-te că adaugi descrieri sugestive \n"
+"                                  pentru fișierele tale pentru a-i ajuta pe colegii tăi să le identifice, de exemplu: Proiect de lectie - tema modul 5 etc.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response.html:261
 msgid "We could not upload files"
@@ -1643,11 +1726,14 @@ msgstr "Nu am putut șterge fișierele"
 
 #: templates/legacy/response/oa_response.html:274
 msgid "Select one or more files to upload for this submission."
-msgstr "Selectează unul sau mai multe fișiere pe care vrei să le încarci pentru această rezolvare."
+msgstr ""
+"Selectează unul sau mai multe fișiere pe care vrei să le încarci pentru "
+"această rezolvare."
 
 #: templates/legacy/response/oa_response.html:276
 msgid "Select a file to upload for this submission."
-msgstr "Selectează un fișier pe care vrei să îl încarci pentru această rezolvare."
+msgstr ""
+"Selectează un fișier pe care vrei să îl încarci pentru această rezolvare."
 
 #: templates/legacy/response/oa_response.html:280
 msgid "Supported file types: "
@@ -1669,22 +1755,30 @@ msgstr "Aceasta este o rezolvare de echipă."
 msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
-msgstr "Un membru al echipei trebuie să trimită o rezolvare care să conțină toate fișierele și răspunsul text, din partea întregii echipe."
+msgstr ""
+"Un membru al echipei trebuie să trimită o rezolvare care să conțină toate "
+"fișierele și răspunsul text, din partea întregii echipe."
 
 #: templates/legacy/response/oa_response.html:309
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
-msgstr "Un membru al echipei trebuie să trimită o rezolvare care să conțină toate fișierele, din partea întregii echipe."
+msgstr ""
+"Un membru al echipei trebuie să trimită o rezolvare care să conțină toate "
+"fișierele, din partea întregii echipe."
 
 #: templates/legacy/response/oa_response.html:311
 msgid ""
 "One team member should submit a text response on behalf of the entire team."
-msgstr "Un membru al echipei trebuie să trimită un răspuns text din partea întregii echipe."
+msgstr ""
+"Un membru al echipei trebuie să trimită un răspuns text din partea întregii "
+"echipe."
 
 #: templates/legacy/response/oa_response.html:313
 msgid "One team member should submit on behalf of the entire team."
-msgstr "Un membru al echipei trebuie să trimită o rezolvare din partea întregii echipe."
+msgstr ""
+"Un membru al echipei trebuie să trimită o rezolvare din partea întregii "
+"echipe."
 
 #: templates/legacy/response/oa_response.html:315
 msgid ""
@@ -1714,7 +1808,10 @@ msgid ""
 "\n"
 "                                Your submission has been cancelled by %(removed_by_username)s on %(removed_datetime)s\n"
 "                            "
-msgstr "\n                                Rezolvarea ta a fost anulată de %(removed_by_username)s pe %(removed_datetime)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                Rezolvarea ta a fost anulată de %(removed_by_username)s pe %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response_cancelled.html:41
 #, python-format
@@ -1722,7 +1819,10 @@ msgid ""
 "\n"
 "                               Your submission was cancelled on %(removed_datetime)s\n"
 "                            "
-msgstr "\n                               Rezolvarea ta a fost anulată pe %(removed_datetime)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                               Rezolvarea ta a fost anulată pe %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response_cancelled.html:48
 #, python-format
@@ -1730,7 +1830,10 @@ msgid ""
 "\n"
 "                            Comments: %(comments)s\n"
 "                        "
-msgstr "\n                            Observații: %(comments)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                            Observații: %(comments)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response_closed.html:19
 #: templates/legacy/self/oa_self_closed.html:20
@@ -1744,7 +1847,9 @@ msgid ""
 "longer submit a response or continue with this problem, and you will receive"
 " a grade of Incomplete. If you saved but did not submit a response, the "
 "response appears in the course records."
-msgstr "Termenul limită pentru acest pas a expirat. Acest pas este acum închis. \nDeoarece nu mai poți trimite rezolvarea ta și nu poți continua această activitate, punctajul tău va fi Incomplet. Dacă ai salvat, dar nu ai trimis rezolvarea, aceasta apare înregistrată în curs."
+msgstr ""
+"Termenul limită pentru acest pas a expirat. Acest pas este acum închis. \n"
+"Deoarece nu mai poți trimite rezolvarea ta și nu poți continua această activitate, punctajul tău va fi Incomplet. Dacă ai salvat, dar nu ai trimis rezolvarea, aceasta apare înregistrată în curs."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
@@ -1768,7 +1873,9 @@ msgstr "Fișierele tale încărcate"
 msgid ""
 "Your response has been submitted. You will receive your grade after all "
 "steps are complete and your response is fully assessed."
-msgstr "Rezolvarea ta a fost trimisă. Vei primi punctajul după ce finalizezi toți pașii din activitate și rezolvarea ta este evaluată complet."
+msgstr ""
+"Rezolvarea ta a fost trimisă. Vei primi punctajul după ce finalizezi toți "
+"pașii din activitate și rezolvarea ta este evaluată complet."
 
 #: templates/legacy/response/oa_response_submitted.html:34
 #, python-format
@@ -1776,7 +1883,10 @@ msgid ""
 "\n"
 "                        You still need to complete the %(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself assessment%(end_tag)s steps.\n"
 "                    "
-msgstr "\n                        Mai trebuie să finalizezi pașii de %(peer_start_tag)sevaluare între cursanți%(end_tag)s și %(self_start_tag)sautoevaluare%(end_tag)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                        Mai trebuie să finalizezi pașii de %(peer_start_tag)sevaluare între cursanți%(end_tag)s și %(self_start_tag)sautoevaluare%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response_submitted.html:38
 #, python-format
@@ -1784,7 +1894,10 @@ msgid ""
 "\n"
 "                        You still need to complete the %(start_tag)speer assessment%(end_tag)s step.\n"
 "                    "
-msgstr "\n                        Mai trebuie să finalizezi pasul de %(start_tag)sevaluare între cursanți%(end_tag)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                        Mai trebuie să finalizezi pasul de %(start_tag)sevaluare între cursanți%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response_submitted.html:42
 #, python-format
@@ -1792,7 +1905,10 @@ msgid ""
 "\n"
 "                        You still need to complete the %(start_tag)sself assessment%(end_tag)s step.\n"
 "                    "
-msgstr "\n                        Mai trebuie să finalizezi pasul de %(start_tag)sautoevaluare%(end_tag)s.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                        Mai trebuie să finalizezi pasul de %(start_tag)sautoevaluare%(end_tag)s.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"
@@ -1815,7 +1931,13 @@ msgid ""
 "                            a response to this assignment with another team. Please contact course staff to discuss your\n"
 "                            options for this assignment.\n"
 "                        "
-msgstr "\n                            Te-ai alăturat Echipei %(team_name)s după ce a fost trimisă rezolvarea pentru această activitate,\n                            astfel că nu vei putea primi punctajul pentru rezolvarea lor. De asemenea, observăm că nu ai trimis anterior\n                            nicio altă rezolvare alături de o altă echipă. Te rugăm să iei legătura cu echipa cursului pentru a verifica opțiunile rămase pentru \n                            această activitate.\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                            Te-ai alăturat Echipei %(team_name)s după ce a fost trimisă rezolvarea pentru această activitate,\n"
+"                            astfel că nu vei putea primi punctajul pentru rezolvarea lor. De asemenea, observăm că nu ai trimis anterior\n"
+"                            nicio altă rezolvare alături de o altă echipă. Te rugăm să iei legătura cu echipa cursului pentru a verifica opțiunile rămase pentru \n"
+"                            această activitate.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
@@ -1830,7 +1952,10 @@ msgid ""
 "\n"
 "               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
-msgstr "\n               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1841,7 +1966,10 @@ msgid ""
 "\n"
 "               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
-msgstr "\n               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/self/oa_self_assessment.html:88
 msgid "Submit your assessment"
@@ -1852,7 +1980,10 @@ msgid ""
 "The due date for this step has passed. This step is now closed. You can no "
 "longer complete a self assessment or continue with this assignment, and you "
 "will receive a grade of Incomplete."
-msgstr "Termenul limită pentru acest pas a trecut. Acest pas este acum închis. Deoarece nu mai poți finaliza autoevaluarea, nu poți continua această activitate. Punctajul tău va fi Incomplet."
+msgstr ""
+"Termenul limită pentru acest pas a trecut. Acest pas este acum închis. "
+"Deoarece nu mai poți finaliza autoevaluarea, nu poți continua această "
+"activitate. Punctajul tău va fi Incomplet."
 
 #: templates/legacy/staff/oa_staff_grade.html:13 xblock/grade_mixin.py:369
 msgid "Staff Grade"
@@ -1870,7 +2001,7 @@ msgstr "Gestionează rezolvările echipei"
 #: templates/legacy/staff_area/oa_staff_area.html:13
 #: templates/legacy/staff_area/oa_staff_area.html:71
 msgid "View Assignment Statistics"
-msgstr "Vizualizați statisticile atribuirii"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_area.html:22
 msgid "Demo the new Grading Experience"
@@ -1878,7 +2009,7 @@ msgstr "Demonstraţi noua experienţă de notare"
 
 #: templates/legacy/staff_area/oa_staff_area.html:26
 msgid "View ORA in Studio"
-msgstr "Vizualizați ORA în Studio"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_area.html:31
 #: templates/legacy/staff_area/oa_staff_area.html:69
@@ -1888,19 +2019,15 @@ msgstr "Închide"
 
 #: templates/legacy/staff_area/oa_staff_area.html:37
 msgid "Manage Teams"
-msgstr "Gestionați echipele"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_area.html:50
 msgid "Enter an individual learner's username or email"
 msgstr ""
-"Introduceți numele de utilizator sau adresa de e-mail a unui cursant "
-"individual"
 
 #: templates/legacy/staff_area/oa_staff_area.html:52
 msgid "Enter a team member's username or edX email"
 msgstr ""
-"Introduceți numele de utilizator al unui membru al echipei sau adresa de "
-"e-mail edX"
 
 #: templates/legacy/staff_area/oa_staff_area.html:56
 msgid "Submit"
@@ -1912,7 +2039,7 @@ msgstr "Total rezolvări"
 
 #: templates/legacy/staff_area/oa_staff_area.html:84
 msgid "Location"
-msgstr "Locație"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_area.html:90
 msgid "Learner Progress"
@@ -1925,7 +2052,7 @@ msgstr "Pasul activității"
 
 #: templates/legacy/staff_area/oa_staff_area.html:95
 msgid "Active Learners in Step"
-msgstr "Cursanți activi în pas"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_area.html:113
 msgid "Dates"
@@ -1946,11 +2073,13 @@ msgstr "Evaluare de la facilitatorul cursului"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:14
 msgid "Give this team a grade using the problem's rubric."
-msgstr "Acordă acestei echipe un punctaj folosind grila de evaluare a activității."
+msgstr ""
+"Acordă acestei echipe un punctaj folosind grila de evaluare a activității."
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:16
 msgid "Give this learner a grade using the problem's rubric."
-msgstr "Acordă acestui cursant un punctaj folosind grila de evaluare a activității."
+msgstr ""
+"Acordă acestui cursant un punctaj folosind grila de evaluare a activității."
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:26
 #, python-format
@@ -1958,7 +2087,10 @@ msgid ""
 "\n"
 "                                        Response for: %(team_name)s with %(team_usernames)s\n"
 "                                    "
-msgstr "\n                                        Rezolvare pentru: %(team_name)s cu %(team_usernames)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                        Rezolvare pentru: %(team_name)s cu %(team_usernames)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:30
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:20
@@ -1967,7 +2099,10 @@ msgid ""
 "\n"
 "                                        Response for: %(student_username)s\n"
 "                                    "
-msgstr "\n                                        Rezolvare pentru: %(student_username)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                        Rezolvare pentru: %(student_username)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:34
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:24
@@ -1999,7 +2134,10 @@ msgid ""
 "\n"
 "                %(ungraded)s Available and %(in_progress)s Checked Out\n"
 "            "
-msgstr "\n                %(ungraded)s Disponibile și %(in_progress)s În curs de verificare\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                %(ungraded)s Disponibile și %(in_progress)s În curs de verificare\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:7
 msgid "Override this learner's current grade using the problem's rubric."
@@ -2025,9 +2163,6 @@ msgid ""
 "                    Viewing learner: %(learner)s\n"
 "                "
 msgstr ""
-"\n"
-"Vizualizarea cursantului: %(learner)s\n"
-"                "
 
 #: templates/legacy/staff_area/oa_student_info.html:15
 #, python-format
@@ -2036,9 +2171,6 @@ msgid ""
 "                    Viewing team: %(team)s\n"
 "                "
 msgstr ""
-"\n"
-"Echipa de vizionare: %(team)s\n"
-"                "
 
 #: templates/legacy/staff_area/oa_student_info.html:28
 msgid "Learner's Response"
@@ -2054,7 +2186,10 @@ msgid ""
 "\n"
 "                            Learner submission removed by %(removed_by_username)s on %(removed_datetime)s\n"
 "                        "
-msgstr "\n                            Rezolvarea cursantului a fost eliminată de %(removed_by_username)s la %(removed_datetime)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                            Rezolvarea cursantului a fost eliminată de %(removed_by_username)s la %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_student_info.html:43
 #, python-format
@@ -2062,7 +2197,10 @@ msgid ""
 "\n"
 "                            Learner submission removed on %(removed_datetime)s\n"
 "                        "
-msgstr "\n                            Rezolvarea cursantului a fost eliminată la %(removed_datetime)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                            Rezolvarea cursantului a fost eliminată la %(removed_datetime)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_student_info.html:50
 #, python-format
@@ -2070,15 +2208,18 @@ msgid ""
 "\n"
 "                        Comments: %(comments)s\n"
 "                    "
-msgstr "\n                        Observații: %(comments)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                        Observații: %(comments)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_student_info.html:71
 msgid "Peer Assessments for This Learner"
-msgstr "Evaluări de la egal la egal pentru acest cursant"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:76
 msgid "Peer Assessments Completed by This Learner"
-msgstr "Evaluări de la egal la egal finalizate de acest cursant"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:81
 msgid "Learner's Self Assessment"
@@ -2106,7 +2247,10 @@ msgid ""
 "\n"
 "                            Final grade: %(points_earned)s out of %(points_possible)s\n"
 "                        "
-msgstr "\n                            Punctaj final: %(points_earned)s din %(points_possible)s\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                            Punctaj final: %(points_earned)s din %(points_possible)s\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_student_info.html:119
 msgid "Final Grade Details"
@@ -2124,15 +2268,15 @@ msgid_plural ""
 "                                    "
 msgstr[0] ""
 "\n"
-"%(assessment_label)s - %(points)s punct\n"
+"                                        %(assessment_label)s - %(points)s punct\n"
 "                                    "
 msgstr[1] ""
 "\n"
-"%(assessment_label)s - %(points)s puncte\n"
+"                                        %(assessment_label)s - %(points)s puncte\n"
 "                                    "
 msgstr[2] ""
 "\n"
-"%(assessment_label)s - %(points)s puncte\n"
+"                                        %(assessment_label)s - %(points)s puncte\n"
 "                                    "
 
 #: templates/legacy/staff_area/oa_student_info.html:154
@@ -2149,9 +2293,6 @@ msgid ""
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
 msgstr ""
-"Trimiterea cursantului a fost eliminată din evaluarea inter pares. Cursantul"
-" primește nota zero, cu excepția cazului în care ștergeți starea cursantului"
-" pentru problemă pentru a-i permite să trimită din nou un răspuns."
 
 #: templates/legacy/staff_area/oa_student_info.html:172
 msgid ""
@@ -2159,9 +2300,6 @@ msgid ""
 "grade of zero unless you delete the a team member’s state for the problem to"
 " allow the team to resubmit a response."
 msgstr ""
-"Trimiterea echipei a fost eliminată din notare. Echipa primește o notă de "
-"zero, cu excepția cazului în care ștergeți starea unui membru al echipei "
-"pentru problemă pentru a permite echipei să trimită din nou un răspuns."
 
 #: templates/legacy/staff_area/oa_student_info.html:177
 msgid "The problem has not been started."
@@ -2188,8 +2326,6 @@ msgid ""
 "Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
 msgstr ""
-"Gradele sunt înghețate. Notele sunt înghețate automat la 30 de zile de la "
-"data încheierii cursului."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2197,17 +2333,14 @@ msgid ""
 "documentation for how to delete the learner’s state for this problem to "
 "allow them to resubmit."
 msgstr ""
-"Această trimitere a fost anulată și nu poate primi o notă. Consultați "
-"documentația pentru a afla cum să ștergeți starea cursanților pentru această"
-" problemă pentru a le permite să trimită din nou."
 
 #: templates/legacy/staff_area/oa_student_info.html:230
 msgid "Remove Submission From Peer Grading"
-msgstr "Eliminați trimiterea din evaluarea inter pares"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:232
 msgid "Remove Team Submission from Grading"
-msgstr "Eliminați trimiterea echipei din notare"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:242
 msgid "Caution: This Action Cannot Be Undone"
@@ -2218,16 +2351,12 @@ msgid ""
 "Removing a learner's submission cannot be undone and should be done with "
 "caution."
 msgstr ""
-"Eliminarea trimiterii unui cursant nu poate fi anulată și trebuie făcută cu "
-"prudență."
 
 #: templates/legacy/staff_area/oa_student_info.html:246
 msgid ""
 "Removing a team's submission cannot be undone and should be done with "
 "caution."
 msgstr ""
-"Eliminarea trimiterii unei echipe nu poate fi anulată și trebuie făcută cu "
-"prudență."
 
 #: templates/legacy/staff_area/oa_student_info.html:252
 msgid "Comments:"
@@ -2235,11 +2364,11 @@ msgstr "Observații:"
 
 #: templates/legacy/staff_area/oa_student_info.html:261
 msgid "Remove submission"
-msgstr "Eliminați trimiterea"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:276
 msgid "A response was not found for this learner."
-msgstr "Nu a fost găsit un răspuns pentru acest cursant."
+msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:16
 #, python-format
@@ -2247,7 +2376,10 @@ msgid ""
 "\n"
 "                            Assessment %(assessment_num)s:\n"
 "                        "
-msgstr "\n                            Evaluare %(assessment_num)s:\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                            Evaluare %(assessment_num)s:\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:22
 msgid "Assessment Details"
@@ -2255,7 +2387,7 @@ msgstr "Detaliile evaluării"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:26
 msgid "Selected Option"
-msgstr "Opțiunea selectată"
+msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:27
 msgid "Feedback"
@@ -2275,7 +2407,10 @@ msgid ""
 "\n"
 "                      In Progress (%(current_progress_num)s of %(training_available_num)s)\n"
 "                  "
-msgstr "\n                                    În lucru (%(current_progress_num)s din %(training_available_num)s)\n␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"                                    În lucru (%(current_progress_num)s din %(training_available_num)s)\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "available August 13th, 2014 (in 5 days and
@@ -2286,7 +2421,10 @@ msgid ""
 "\n"
 "            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
-msgstr "\n            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"disponibil din {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -2297,7 +2435,10 @@ msgid ""
 "\n"
 "            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
-msgstr "\n            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n␣␣␣␣␣␣␣␣␣␣␣␣"
+msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"termen limită {date} (în %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣"
 
 #: templates/legacy/student_training/student_training.html:58
 #: templates/legacy/student_training/student_training.html:66
@@ -2311,14 +2452,23 @@ msgid ""
 "already assessed. If you select the same options for the response that the "
 "instructor selected, you'll move to the next step. If you don't select the "
 "same options, you'll review the response and try again."
-msgstr "Înainte să evaluezi rezolvările altor cursanți, te vei antrena pentru evaluare. Vei începe prin a evalua o rezolvare care în prealabil a fost evaluată de facilitatorul cursului. Dacă vei evalua fiecare criteriu la fel ca facilitatorul cursului, vei trece mai departe. În schimb, dacă evaluarea ta și a facilitatorului sunt diferite, vei evalua din nou până când evaluările voastre se potrivesc."
+msgstr ""
+"Înainte să evaluezi rezolvările altor cursanți, te vei antrena pentru "
+"evaluare. Vei începe prin a evalua o rezolvare care în prealabil a fost "
+"evaluată de facilitatorul cursului. Dacă vei evalua fiecare criteriu la fel "
+"ca facilitatorul cursului, vei trece mai departe. În schimb, dacă evaluarea "
+"ta și a facilitatorului sunt diferite, vei evalua din nou până când "
+"evaluările voastre se potrivesc."
 
 #: templates/legacy/student_training/student_training.html:69
 msgid ""
 "Your assessment differs from the instructor's assessment of this response. "
 "Review the response and consider why the instructor may have assessed it "
 "differently. Then, try the assessment again."
-msgstr "Pentru această rezolvare, evaluarea făcută de tine nu se potrivește cu cea a facilitatorului cursului. Verifică rezolvarea din nou și reflectează la de ce facilitatorul a evaluat diferit de tine. Apoi, evaluează din nou."
+msgstr ""
+"Pentru această rezolvare, evaluarea făcută de tine nu se potrivește cu cea a"
+" facilitatorului cursului. Verifică rezolvarea din nou și reflectează la de "
+"ce facilitatorul a evaluat diferit de tine. Apoi, evaluează din nou."
 
 #: templates/legacy/student_training/student_training.html:76
 msgid "The response to the prompt above:"
@@ -2354,7 +2504,9 @@ msgid ""
 "The due date for this step has passed. This step is now closed. You can no "
 "longer continue with this assignment, and you will receive a grade of "
 "Incomplete."
-msgstr "Termenul limită pentru acest pas a expirat. Acest pas este acum închis. Deoarece nu poți continua această activitate, punctajul tău va fi Incomplet."
+msgstr ""
+"Termenul limită pentru acest pas a expirat. Acest pas este acum închis. "
+"Deoarece nu poți continua această activitate, punctajul tău va fi Incomplet."
 
 #: templates/legacy/student_training/student_training_error.html:18
 msgid "Error Loading Learner Training Examples"
@@ -2362,7 +2514,9 @@ msgstr "Eroare la încărcarea exemplelor de antrenament pentru evaluare"
 
 #: templates/legacy/student_training/student_training_error.html:21
 msgid "The Learner Training Step of this assignment could not be loaded."
-msgstr "Pasul de antrenament pentru evaluare al acestei activități nu a putut fi încărcat."
+msgstr ""
+"Pasul de antrenament pentru evaluare al acestei activități nu a putut fi "
+"încărcat."
 
 #: templates/openassessmentblock/base.html:69
 msgid "Loading Open Response Assessment..."
@@ -2427,30 +2581,40 @@ msgstr "În așteptarea evaluărilor de la alți cursanți"
 
 #: xblock/grade_mixin.py:677
 msgid "The grade for this problem is determined by your Staff Grade."
-msgstr "Punctajul pentru această activitate este determinat de punctajul pe care l-ai obținut de la facilitatorul cursului."
+msgstr ""
+"Punctajul pentru această activitate este determinat de punctajul pe care "
+"l-ai obținut de la facilitatorul cursului."
 
 #: xblock/grade_mixin.py:681
 msgid "The grade for this problem is determined by your Self Assessment."
-msgstr "Punctajul pentru această activitate este determinat de punctajul tău de la autoevaluare."
+msgstr ""
+"Punctajul pentru această activitate este determinat de punctajul tău de la "
+"autoevaluare."
 
 #: xblock/grade_mixin.py:687
 #, python-brace-format
 msgid ""
 "You have successfully completed this problem and received a "
 "{earned_points}/{total_points}."
-msgstr "Ai finalizat această activitate și ai obținut {earned_points}/{total_points} punct/e."
+msgstr ""
+"Ai finalizat această activitate și ai obținut {earned_points}/{total_points}"
+" punct/e."
 
 #: xblock/grade_mixin.py:695
 msgid ""
 "You have not yet received all necessary peer reviews to determine your final"
 " grade."
-msgstr "Nu ai primit încă toate evaluările din partea altor cursanți necesare pentru a determina punctajul tău final."
+msgstr ""
+"Nu ai primit încă toate evaluările din partea altor cursanți necesare pentru"
+" a determina punctajul tău final."
 
 #: xblock/grade_mixin.py:710
 msgid ""
 "The grade for this problem is determined by the median score of your Peer "
 "Assessments."
-msgstr "Punctajul pentru această activitate este determinat de mediana punctajelor obținute de la cursanții care au evaluat rezolvarea ta."
+msgstr ""
+"Punctajul pentru această activitate este determinat de mediana punctajelor "
+"obținute de la cursanții care au evaluat rezolvarea ta."
 
 #: xblock/grade_mixin.py:715
 msgid ""
@@ -2498,39 +2662,37 @@ msgstr "Trimiterea a fost resetată cu succes."
 
 #: xblock/rubric_reuse_mixin.py:62
 msgid "You must specify a block id from which to copy a rubric."
-msgstr "Trebuie să specificați un ID de bloc din care să copiați o rubrică."
+msgstr ""
 
 #: xblock/rubric_reuse_mixin.py:66
 msgid "Invalid block id."
-msgstr "ID-ul blocului nevalid."
+msgstr ""
 
 #: xblock/rubric_reuse_mixin.py:72
 #, python-brace-format
 msgid ""
 "No Open Response Assessment found in {course_id} with block id {block_id}"
 msgstr ""
-"Nu a fost găsită nicio evaluare a răspunsului deschis în {course_id} cu "
-"blocul id {block_id}"
 
 #: xblock/staff_area_mixin.py:42
 msgid "You do not have permission to schedule training"
-msgstr "Nu aveți permisiunea de a programa instruire"
+msgstr ""
 
 #: xblock/staff_area_mixin.py:43
 msgid "You do not have permission to reschedule tasks."
-msgstr "Nu aveți permisiunea de a reprograma sarcinile."
+msgstr ""
 
 #: xblock/staff_area_mixin.py:69
 msgid "You do not have permission to access the ORA staff area"
-msgstr "Nu aveți permisiunea de a accesa zona de personal ORA"
+msgstr ""
 
 #: xblock/staff_area_mixin.py:70
 msgid "You do not have permission to access ORA learner information."
-msgstr "Nu aveți permisiunea de a accesa informațiile cursanților ORA."
+msgstr ""
 
 #: xblock/staff_area_mixin.py:71
 msgid "You do not have permission to access ORA staff grading."
-msgstr "Nu aveți permisiunea de a accesa notarea personalului ORA."
+msgstr ""
 
 #: xblock/staff_area_mixin.py:241
 msgid "Pending"
@@ -2554,37 +2716,37 @@ msgstr "Trimis"
 
 #: xblock/staff_area_mixin.py:341
 msgid "Error getting learner information."
-msgstr "Eroare la obținerea informațiilor despre cursant."
+msgstr ""
 
 #: xblock/staff_area_mixin.py:384
 msgid "Error loading the checked out learner response."
-msgstr "Eroare la încărcarea răspunsului elevului verificat."
+msgstr ""
 
 #: xblock/staff_area_mixin.py:385
 msgid "No other learner responses are available for grading at this time."
-msgstr "În acest moment, nu sunt disponibile pentru evaluare rezolvări ale altor cursanți."
+msgstr ""
+"În acest moment, nu sunt disponibile pentru evaluare rezolvări ale altor "
+"cursanți."
 
 #: xblock/staff_area_mixin.py:387
 msgid "Error getting staff grade information."
-msgstr "Eroare la primirea informațiilor despre gradul personalului."
+msgstr ""
 
 #: xblock/staff_area_mixin.py:408
 msgid "Error getting staff grade ungraded and checked out counts."
 msgstr ""
-"Eroare la obținerea notelor personalului fără notare și numărări verificate."
 
 #: xblock/staff_area_mixin.py:703
 msgid "Please enter valid reason to remove the submission."
-msgstr "Vă rugăm să introduceți un motiv valid pentru a elimina trimiterea."
+msgstr ""
 
 #: xblock/staff_area_mixin.py:714
 msgid "Submission not found"
-msgstr "Trimiterea nu a fost găsită"
+msgstr ""
 
 #: xblock/staff_area_mixin.py:725
 msgid "Submission for team assignment has no associated team submission"
 msgstr ""
-"Depunerea pentru atribuirea echipei nu are nicio trimitere asociată echipei"
 
 #: xblock/staff_area_mixin.py:754
 msgid ""
@@ -2592,9 +2754,6 @@ msgid ""
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
 msgstr ""
-"Trimiterea cursantului a fost eliminată din evaluarea inter pares. Cursantul"
-" primește nota zero, cu excepția cazului în care ștergeți starea cursantului"
-" pentru problemă pentru a-i permite să trimită din nou un răspuns."
 
 #: xblock/staff_area_mixin.py:789
 msgid ""
@@ -2602,33 +2761,24 @@ msgid ""
 "grade of zero unless you delete a team member’s state for the problem to "
 "allow the team to resubmit a response."
 msgstr ""
-"Trimiterea echipei a fost eliminată din notare. Echipa primește o notă de "
-"zero, cu excepția cazului în care ștergeți starea unui membru al echipei "
-"pentru problemă pentru a permite echipei să trimită din nou un răspuns."
 
 #: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
 msgid "Error updating XBlock configuration"
-msgstr "Eroare la actualizarea configurației xBlock"
+msgstr ""
 
 #: xblock/studio_mixin.py:264
 msgid "Error: Text Response and File Upload Response cannot both be disabled"
 msgstr ""
-"Eroare: Răspunsul text și răspunsul la încărcarea fișierelor nu pot fi "
-"dezactivate"
 
 #: xblock/studio_mixin.py:268
 msgid ""
 "Error: When Text Response is disabled, File Upload Response must be Required"
 msgstr ""
-"Eroare: Când răspunsul text este dezactivat, răspunsul la încărcarea "
-"fișierului trebuie să fie obligatoriu"
 
 #: xblock/studio_mixin.py:271
 msgid ""
 "Error: When File Upload Response is disabled, Text Response must be Required"
 msgstr ""
-"Eroare: Când răspunsul la încărcarea fișierelor este dezactivat, răspunsul "
-"text trebuie să fie obligatoriu"
 
 #: xblock/studio_mixin.py:295
 #, python-brace-format
@@ -2637,7 +2787,7 @@ msgstr "Eroare de validare: {error}"
 
 #: xblock/studio_mixin.py:329
 msgid "Successfully updated OpenAssessment XBlock"
-msgstr "Actualizat cu succes OpenAssessment xBlock"
+msgstr ""
 
 #: xblock/utils/data_conversion.py:315
 msgid "You must provide options selected in the assessment."
@@ -2657,13 +2807,11 @@ msgid ""
 "'{date}' is an invalid date format. Make sure the date is formatted as YYYY-"
 "MM-DDTHH:MM:SS."
 msgstr ""
-"„{date}” este un format de dată nevalid. Asigurați-vă că data este formatată"
-" ca AAAA-MM-DDTHH:MM:SS."
 
 #: xblock/utils/resolve_dates.py:57
 #, python-brace-format
 msgid "'{date}' must be a date string or datetime"
-msgstr "„{date}” trebuie să fie un șir de date sau o dată"
+msgstr ""
 
 #: xblock/utils/resolve_dates.py:210
 #, python-brace-format
@@ -2671,8 +2819,6 @@ msgid ""
 "This step's start date '{start}' cannot be earlier than the previous step's "
 "start date '{prev}'."
 msgstr ""
-"Data de începere a acestui pas „{start}” nu poate fi mai devreme decât data "
-"de începere a pasului anterior „{prev}”."
 
 #: xblock/utils/resolve_dates.py:218
 #, python-brace-format
@@ -2680,14 +2826,11 @@ msgid ""
 "This step's due date '{due}' cannot be later than the next step's due date "
 "'{prev}'."
 msgstr ""
-"Data scadentă a acestui pas „{due}” nu poate fi mai târziu de data scadentă "
-"a pasului următor „{prev}”."
 
 #: xblock/utils/resolve_dates.py:234
 #, python-brace-format
 msgid "The start date '{start}' cannot be later than the due date '{due}'"
 msgstr ""
-"Data de începere „{start}” nu poate fi ulterioară datei scadenței „{due}”"
 
 #: xblock/utils/validation.py:120
 msgid "This problem must include at least one assessment."
@@ -2700,52 +2843,39 @@ msgstr "Ordinea evaluărilor pe care le-ai ales nu este corectă."
 #: xblock/utils/validation.py:134
 msgid "In peer assessment, the \"Must Grade\" value must be a positive integer."
 msgstr ""
-"În evaluarea inter pares, valoarea „Trebuie notat” trebuie să fie un număr "
-"întreg pozitiv."
 
 #: xblock/utils/validation.py:137
 msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
 msgstr ""
-"În evaluarea inter pares, valoarea „Graded By” trebuie să fie un număr "
-"întreg pozitiv."
 
 #: xblock/utils/validation.py:141
 msgid ""
 "In peer assessment, the \"Must Grade\" value must be greater than or equal "
 "to the \"Graded By\" value."
 msgstr ""
-"În evaluarea inter pares, valoarea „Trebuie notat” trebuie să fie mai mare "
-"sau egală cu valoarea „Gradat după”."
 
 #: xblock/utils/validation.py:150
 msgid "You must provide at least one example response for learner training."
 msgstr ""
-"Trebuie să oferiți cel puțin un exemplu de răspuns pentru formarea "
-"cursanților."
 
 #: xblock/utils/validation.py:153
 msgid "Each example response for learner training must be unique."
 msgstr ""
-"Fiecare exemplu de răspuns pentru formarea cursanților trebuie să fie unic."
 
 #: xblock/utils/validation.py:160
 msgid "The \"required\" value must be true if staff assessment is the only step."
 msgstr ""
-"Valoarea „necesară” trebuie să fie adevărată dacă evaluarea personalului "
-"este singurul pas."
 
 #: xblock/utils/validation.py:164
 msgid ""
 "The number of assessments cannot be changed after the problem has been "
 "released."
 msgstr ""
-"Numărul de evaluări nu poate fi modificat după ce problema a fost lansată."
 
 #: xblock/utils/validation.py:169
 msgid ""
 "The assessment type cannot be changed after the problem has been released."
 msgstr ""
-"Tipul de evaluare nu poate fi modificat după ce problema a fost eliberată."
 
 #: xblock/utils/validation.py:176
 msgid ""
@@ -2757,7 +2887,7 @@ msgstr ""
 
 #: xblock/utils/validation.py:200
 msgid "This rubric definition is not valid."
-msgstr "Această definiție a rubricii nu este valabilă."
+msgstr ""
 
 #: xblock/utils/validation.py:203
 msgid "You must provide at least one prompt."
@@ -2766,44 +2896,296 @@ msgstr "Trebuie să furnizați cel puțin o solicitare."
 #: xblock/utils/validation.py:209
 #, python-brace-format
 msgid "Options in '{criterion}' have duplicate name(s): {duplicates}"
-msgstr "Opțiunile din „{criterion}” au nume duplicate: {duplicates}"
+msgstr ""
 
 #: xblock/utils/validation.py:217
 msgid "Criteria with no options must require written feedback."
-msgstr "Criteriile fără opțiuni trebuie să necesite feedback scris."
+msgstr ""
 
 #: xblock/utils/validation.py:226
 msgid "Prompts cannot be created or deleted after a problem is released."
 msgstr ""
-"Solicitările nu pot fi create sau șterse după eliberarea unei probleme."
 
 #: xblock/utils/validation.py:230
 msgid "The number of criteria cannot be changed after a problem is released."
 msgstr ""
-"Numărul de criterii nu poate fi modificat după eliberarea unei probleme."
 
 #: xblock/utils/validation.py:243
 msgid "Criteria names cannot be changed after a problem is released"
-msgstr "Numele criteriilor nu pot fi modificate după eliberarea unei probleme"
+msgstr ""
 
 #: xblock/utils/validation.py:248
 msgid "The number of options cannot be changed after a problem is released."
 msgstr ""
-"Numărul de opțiuni nu poate fi modificat după eliberarea unei probleme."
 
 #: xblock/utils/validation.py:253
 msgid "Point values cannot be changed after a problem is released."
 msgstr ""
-"Valorile punctelor nu pot fi modificate după eliberarea unei probleme."
 
 #: xblock/utils/validation.py:304
 msgid "Learner training must have at least one training example."
-msgstr "Formarea cursanților trebuie să aibă cel puțin un exemplu de formare."
+msgstr ""
 
 #: xblock/utils/validation.py:369
 msgid "Leaderboard number is invalid."
-msgstr "Numărul clasamentului nu este valid."
+msgstr ""
 
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."
 msgstr "Formatul rezolvării nu este valid."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:117
+msgid ""
+"Specify the number of top scoring responses to display. Valid numbers are 0 "
+"to 99. If the number is 0, the Top Responses section does not appear to "
+"learners."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_schedule.html:5
+msgid "Course Deadlines"
+msgstr "Termenele limită ale cursului"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:68
+msgid ""
+"\n"
+"                        You can save your progress and return to complete your team's response at any time before the due date\n"
+"                      "
+msgstr ""
+"\n"
+"                        Poți salva ce ai lucrat, apoi poți reveni pentru a finaliza rezolvarea echipei tale oricând până la termenul limită\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:81
+msgid ""
+"\n"
+"                        You can save your progress and return to complete your team's response at any time.\n"
+"                      "
+msgstr ""
+"\n"
+"                        Poți salva ce ai lucrat, apoi poți reveni oricând pentru a finaliza rezolvarea echipei tale.\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:86
+msgid ""
+"After you submit a response on behalf of your team, it cannot be edited"
+msgstr ""
+"După ce trimiți o rezolvare din partea echipei tale, aceasta nu mai poate fi"
+" modificată"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:91
+msgid ""
+"\n"
+"                        You can save your progress and return to complete your response at any time before the due date\n"
+"                      "
+msgstr ""
+"\n"
+"                        Poți salva ce ai lucrat, apoi poți reveni pentru a finaliza rezolvarea ta oricând până la termenul limită\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:104
+msgid ""
+"You can save your progress and return to complete your response at any time."
+msgstr ""
+"Poți salva ce ai lucrat, apoi poți reveni oricând pentru a finaliza "
+"rezolvarea ta."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:228
+msgid "Save your progress"
+msgstr "Salvează ce ai lucrat"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:232
+msgid "Your Submission Status"
+msgstr "Statusul rezolvării tale"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:300
+msgid "You may continue to work on your response until you submit it."
+msgstr "Poți continua să lucrezi la rezolvarea ta până o trimiți."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:316
+msgid ""
+"\n"
+"                  Learn more about team assignments here: (<a href=\"\" >link</a>)\n"
+"                  "
+msgstr ""
+"\n"
+"                  Descoperă mai multe despre activitățile echipei aici: (<a href=\"\" >link</a>)\n"
+"␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣␣"
+
+#: openassessment/xblock/data_conversion.py:249
+msgid "Assessment data must be a dictionary/object"
+msgstr ""
+
+#: openassessment/xblock/data_conversion.py:301
+msgid "This view takes only a list as a parameter"
+msgstr ""
+
+#: openassessment/xblock/peer_assessment_mixin.py:61
+msgid "You must submit a response before you can perform a peer assessment."
+msgstr ""
+"Trebuie să trimiți o rezolvare înainte să poți face evaluarea altor "
+"cursanți."
+
+#: openassessment/xblock/peer_assessment_mixin.py:73
+msgid ""
+"This feedback has already been submitted or the submission has been "
+"cancelled."
+msgstr "Acest feedback a fost deja trimis sau trimiterea a fost anulată."
+
+#: openassessment/xblock/peer_assessment_mixin.py:99
+#: openassessment/xblock/peer_assessment_mixin.py:105
+msgid "Your peer assessment could not be submitted."
+msgstr "Evaluarea între cursanți nu a putut fi trimisă."
+
+#: openassessment/xblock/peer_assessment_mixin.py:120
+#: openassessment/xblock/student_training_mixin.py:270
+msgid "Could not update workflow status."
+msgstr "Nu s-a putut actualiza statusul procedurii de lucru."
+
+#: openassessment/xblock/peer_assessment_mixin.py:128
+msgid "Could not load peer assessment."
+msgstr "Nu s-a putut încărca evaluarea altor cursanți."
+
+#: openassessment/xblock/peer_assessment_mixin.py:215
+msgid "Submit your assessment and review another response"
+msgstr "Trimite evaluarea și verifică o altă rezolvare"
+
+#: openassessment/xblock/peer_assessment_mixin.py:219
+msgid "Submit your assessment and move to next step"
+msgstr "Trimite evaluarea și mergi la pasul următor"
+
+#: openassessment/xblock/peer_assessment_mixin.py:223
+msgid "Submit your assessment and move to response #{response_number}"
+msgstr "Trimite evaluarea și mergi la rezolvarea #{response_number}"
+
+#: openassessment/xblock/self_assessment_mixin.py:142
+msgid "You must submit a response before you can perform a self-assessment."
+msgstr "Trebuie să trimiți o rezolvare înainte să poți face autoevaluarea."
+
+#: openassessment/xblock/self_assessment_mixin.py:165
+#: openassessment/xblock/self_assessment_mixin.py:173
+msgid "Your self assessment could not be submitted."
+msgstr "Autoevaluarea ta nu a putut fi trimisă."
+
+#: openassessment/xblock/staff_assessment_mixin.py:48
+msgid "The submission ID of the submission being assessed was not found."
+msgstr "ID-ul rezolvării în curs de evaluare nu a fost găsit."
+
+#: openassessment/xblock/staff_assessment_mixin.py:75
+#: openassessment/xblock/staff_assessment_mixin.py:83
+msgid "Your staff assessment could not be submitted."
+msgstr "Evaluarea facilitatorului nu a putut fi trimisă."
+
+#: openassessment/xblock/staff_assessment_mixin.py:132
+msgid "There were one or more errors submitting the requested assessments"
+msgstr "Au apărut una sau mai multe erori la trimiterea evaluărilor necesare"
+
+#: openassessment/xblock/staff_assessment_mixin.py:168
+#: openassessment/xblock/staff_assessment_mixin.py:176
+msgid "Your team assessment could not be submitted."
+msgstr "Evaluarea echipei nu a putut fi trimisă."
+
+#: openassessment/xblock/staff_assessment_mixin.py:228
+msgid "Waiting for a Staff Grade"
+msgstr "În așteptarea punctajului de la facilitatorul cursului"
+
+#: openassessment/xblock/staff_assessment_mixin.py:229
+msgid ""
+"Check back later to see if a course staff member has assessed your response."
+" You will receive your grade after the assessment is complete."
+msgstr ""
+"Revino la acest pas în zilele următoare pentru a vedea dacă facilitatorul "
+"cursului ți-a evaluat rezolvarea. Vei primi punctajul după ce evaluarea este"
+" finalizată."
+
+#: openassessment/xblock/staff_assessment_mixin.py:242
+msgid "You Must Complete the Steps Above to View Your Grade"
+msgstr "Trebuie să finalizezi pașii de mai sus pentru a vedea punctajul tău"
+
+#: openassessment/xblock/staff_assessment_mixin.py:243
+msgid ""
+"Although a course staff member has assessed your response, you will receive "
+"your grade only after you have completed all the required steps of this "
+"problem."
+msgstr ""
+"Deși facilitatorul cursului a evaluat rezolvarea ta, vei primi punctajul "
+"doar după ce finalizezi toți pașii necesari pentru această activitate."
+
+#: openassessment/xblock/student_training_mixin.py:227
+msgid "Missing options_selected key in request"
+msgstr ""
+
+#: openassessment/xblock/student_training_mixin.py:229
+msgid "options_selected must be a dictionary"
+msgstr ""
+
+#: openassessment/xblock/student_training_mixin.py:254
+#: openassessment/xblock/student_training_mixin.py:259
+msgid "Your scores could not be checked."
+msgstr "Punctajele tale nu au putut fi verificate."
+
+#: openassessment/xblock/submission_mixin.py:118
+msgid "\"submission\" required to submit answer."
+msgstr "\"trimitere\" necesară pentru a trimite rezolvarea."
+
+#: openassessment/xblock/submission_mixin.py:139
+msgid "To submit a response, view this component in Preview or Live mode."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:145
+msgid "Multiple submissions are not allowed."
+msgstr "Nu sunt permise trimiteri multiple."
+
+#: openassessment/xblock/submission_mixin.py:190
+msgid "Submission cannot be empty. Please refresh the page and try again."
+msgstr ""
+"Rezolvarea trebuie completată. Te rugăm reîncarcă pagina și încearcă din "
+"nou."
+
+#: openassessment/xblock/submission_mixin.py:200
+msgid "API returned unclassified exception."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:251
+msgid "This response could not be saved."
+msgstr "Rezolvarea nu a putut fi salvată."
+
+#: openassessment/xblock/submission_mixin.py:255
+msgid "This response was not submitted."
+msgstr "Rezolvarea nu a fost trimisă."
+
+#: openassessment/xblock/submission_mixin.py:271
+msgid "Files descriptions were not submitted."
+msgstr "Nu au fost trimise descrierile fișierelor."
+
+#: openassessment/xblock/submission_mixin.py:310
+msgid "Files metadata could not be saved."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:456
+msgid "There was an error uploading your file."
+msgstr "A apărut o eroare la încărcarea fișierului tău."
+
+#: openassessment/xblock/submission_mixin.py:468
+msgid "Only a single file upload is allowed for this assessment."
+msgstr "Pentru această evaluare este permisă încărcarea unui singur fișier."
+
+#: openassessment/xblock/submission_mixin.py:479
+msgid ""
+"File upload failed: unsupported file type.Only the supported file types can "
+"be uploaded.If you have questions, please reach out to the course team."
+msgstr ""
+"Eroare la încărcarea fișierului: format fișier incompatibil. Doar fișierele "
+"în formatele menționate pot fi încărcate. Dacă apar întrebări suplimentare, "
+"te rugăm să ne scrii pe adresa de suport."
+
+#: openassessment/xblock/submission_mixin.py:492
+msgid "Error retrieving upload URL."
+msgstr ""
+
+#: openassessment/xblock/submission_mixin.py:767
+msgid "This response has been saved but not submitted."
+msgstr "Rezolvarea a fost salvată, dar nu trimisă."
+
+#: openassessment/xblock/submission_mixin.py:768
+msgid "This response has not been saved."
+msgstr "Rezolvarea nu a fost salvată."
