@@ -393,5 +393,13 @@
   "account.settings.field.demographics.future_work_sector": "Viitorul sector de lucru",
   "account.settings.field.demographics.future_work_sector.empty": "Adăugați sectorul",
   "account.settings.field.demographics.work_sector.options.empty": "Selectați sectorul ocupațional",
-  "account.settings.section.demographics.why": "De ce {siteName} colectează aceste informații?"
+  "account.settings.section.demographics.why": "De ce {siteName} colectează aceste informații?",
+  "rg.account.extras.occupationchange.heading": "Ești sigur că vrei să schimbi ocupația aleasă?",
+  "rg.account.extras.occupationchange.message": "Alegerea unei alte ocupații va reseta contul tău. Va fi nevoie să actualizezi informațiile completate deja.",
+  "rg.account.extras.occupationchange.cancel": "Anulează",
+  "rg.account.extras.occupationchange.change": "Schimbă",
+  "rg.account.extras.countrychange.heading": "Ești sigur că vrei să schimbi țara în care predai sau studiezi?",
+  "rg.account.extras.countrychange.message": "Alegerea unei alte țări va reseta datele contului tău. Va fi nevoie să completezi din nou informațiile actualizate.",
+  "rg.account.extras.countrychange.cancel": "Anulează",
+  "rg.account.extras.countrychange.change": "Schimbă"
 }
