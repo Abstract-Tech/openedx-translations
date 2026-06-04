@@ -16897,7 +16897,11 @@ msgstr "Adăugați la Mozilla Backpack"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print Certificate"
-msgstr "Printați Certificatul"
+msgstr "Descarcă Certificatul"
+
+#: indigo/lms/templates/certificates/_accomplishment-banner.html
+msgid "Download Certificate"
+msgstr "Descarcă Certificatul"
 
 #: lms/templates/certificates/_accomplishment-header.html
 msgid "{platform_name} Home"
