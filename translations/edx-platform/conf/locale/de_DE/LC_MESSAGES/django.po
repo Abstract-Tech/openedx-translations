@@ -3875,7 +3875,7 @@ msgstr ""
 #: lms/djangoapps/certificates/views/webview.py:338
 #, python-brace-format
 msgid "More about {fullname}'s accomplishment"
-msgstr "Mehr über die Zertifikate von {fullname}"
+msgstr "Mehr über {fullname}'s Zertifikat"
 
 #: lms/djangoapps/commerce/api/v1/serializers.py:50
 #, python-brace-format
