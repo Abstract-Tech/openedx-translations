@@ -3314,7 +3314,7 @@ msgstr "Neues"
 #: lms/djangoapps/branding/api.py:317 lms/djangoapps/branding/api.py:391
 #: lms/djangoapps/certificates/views/webview.py:187
 msgid "Terms of Service & Honor Code"
-msgstr "Nutzungsbedingungen & Verhaltenskodex"
+msgstr "Nutzungsbedingungen"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: A 'Privacy Policy' is a legal document/statement describing a
@@ -3792,7 +3792,7 @@ msgstr "Über {platform_name}"
 #: lms/djangoapps/certificates/views/webview.py:229
 #, python-brace-format
 msgid "Learn more about {platform_name}"
-msgstr "Erfahre mehr über {platform_name}"
+msgstr "Bleib im Flow: Entdecke alle Lerninhalte der {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:231
 #, python-brace-format
@@ -3815,8 +3815,8 @@ msgstr "Kontakt {platform_name}"
 #, python-brace-format
 msgid "{platform_name} acknowledges the following student accomplishment"
 msgstr ""
-"{platform_name} bestätigt dem folgenden Teilnehmer die erfolgreiche "
-"Teilnahme an folgendem Workshop"
+"Herzlichen Glückwunsch zum Erfolg! Die {platform_name} bescheinigt hiermit den erfolgreichen "
+"Abschluss der unten aufgeführten Weiterbildung.”
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:256
