@@ -3816,7 +3816,7 @@ msgstr "Kontakt {platform_name}"
 msgid "{platform_name} acknowledges the following student accomplishment"
 msgstr ""
 "Herzlichen Glückwunsch zum Erfolg! Die {platform_name} bescheinigt hiermit den erfolgreichen "
-"Abschluss der unten aufgeführten Weiterbildung.”
+"Abschluss der unten aufgeführten Weiterbildung."
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:256
