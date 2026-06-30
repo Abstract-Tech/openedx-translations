@@ -3792,7 +3792,7 @@ msgstr "Über {platform_name}"
 #: lms/djangoapps/certificates/views/webview.py:229
 #, python-brace-format
 msgid "Learn more about {platform_name}"
-msgstr "Bleib im Flow: Entdecke alle Lerninhalte der {platform_name}"
+msgstr "Bleib im Flow: Entdecke weitere Lerninhalte der {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:231
 #, python-brace-format
