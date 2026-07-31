@@ -28002,3 +28002,44 @@ msgstr ""
 
 msgid "Already Enrolled"
 msgstr "Bereits eingeschrieben"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:312
+msgid "What would you like to learn?"
+msgstr "Was möchten Sie lernen?"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:314
+msgid "Course overview"
+msgstr "Kursüberblick"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:318
+msgid "Course view controls"
+msgstr "Steuerelemente der Kursansicht"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:320
+msgid "Filter courses"
+msgstr "Kurse filtern"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:328
+msgid "All categories"
+msgstr "Alle Kategorien"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:344
+msgid "Sort courses"
+msgstr "Kurse sortieren"
+
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:369
+msgid "Card layout"
+msgstr "Kartenlayout"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:370
+msgid "Square cards"
+msgstr "Quadratische Karten"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:379
+msgid "Horizontal cards"
+msgstr "Horizontale Karten"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:401
+msgid "Search by course title, category, etc."
+msgstr "Nach Kurstitel, Kategorie usw. suchen"
