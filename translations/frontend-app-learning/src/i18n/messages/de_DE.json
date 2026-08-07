@@ -409,7 +409,7 @@
   "learn.sequence.no.content": "Hier gibt es keinen Inhalt .",
   "learning.outline.alert.cert.earnedNotAvailable": "Dieser Kurs endet am {courseEndDateFormatted} . Die endgültigen Noten und alle erworbenen Zertifikate werden voraussichtlich nach {certificateAvailableDate} verfügbar sein.",
   "cert.alert.earned.unavailable.header.v2": "Ihre Note und Ihr Zertifikat werden in Kürze verfügbar sein.",
-  "cert.alert.earned.ready.header": "Herzlichen Glückwunsch! Ihr Zertifikat ist fertig.",
+  "cert.alert.earned.ready.header": "Herzlichen Glückwunsch! Ihr Weiterbildungsnachweis ist fertig.",
   "cert.alert.notPassing.header": "Sie haben noch keinen Anspruch auf ein Zertifikat",
   "cert.alert.notPassing.button": "Noten anzeigen",
   "learning.outline.alert.end.short": "Dieser Kurs endet in {timeRemaining} um {courseEndTime}.",
