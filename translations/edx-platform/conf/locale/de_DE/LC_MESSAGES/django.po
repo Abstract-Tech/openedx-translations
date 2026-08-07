@@ -751,12 +751,12 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:115
 msgid "must have name of the certificate"
-msgstr "muss den Namen des Zertifikats haben"
+msgstr "muss den Namen des Weiterbildungsnachweises haben"
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:200
 #, python-brace-format
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr "Certificate dict {0} missing value key '{1}'"
+msgstr "Weiterbildungsnachweis dict {0} missing value key '{1}'"
 
 #: cms/djangoapps/contentstore/views/certificates.py:148
 #, python-brace-format
@@ -1700,18 +1700,18 @@ msgstr "Sonstige Bildung"
 #: common/djangoapps/student/models/user.py:1364
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr "{platform_name} Teilnehmerzertifikat für {course_name}"
+msgstr "{platform_name} Teilnehmerweiterbildungsnachweis für {course_name}"
 
 #: common/djangoapps/student/models/user.py:1365
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr "{platform_name} Verifiziertes Zertifikat für {course_name}"
+msgstr "{platform_name} Verifiziertes Weiterbildungsnachweis für {course_name}"
 
 #: common/djangoapps/student/models/user.py:1366
 #: common/djangoapps/student/models/user.py:1367
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
-msgstr "{platform_name} Professionelles Zertifikat für {course_name}"
+msgstr "{platform_name} Professionelles Weiterbildungsnachweis für {course_name}"
 
 #: common/djangoapps/student/models/user.py:1373
 msgid ""
@@ -1726,7 +1726,7 @@ msgstr ""
 #: common/djangoapps/student/models/user.py:1429
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
-msgstr "{platform_name} Zertifikat für {course_name}"
+msgstr "{platform_name} Weiterbildungsnachweis für {course_name}"
 
 #: common/djangoapps/student/models/user.py:1506
 #: common/djangoapps/student/models/user.py:1538
@@ -1888,7 +1888,7 @@ msgstr "Sie sind nicht in diesen Kurs eingeschrieben"
 #: common/djangoapps/student/views/management.py:458
 msgid "Your certificate prevents you from unenrolling from this course"
 msgstr ""
-"Ihr Zertifikat verhindert, dass Sie aus dem Kurs ausgeschrieben werden "
+"Ihr Weiterbildungsnachweis verhindert, dass Sie aus dem Kurs ausgeschrieben werden "
 "können."
 
 #: common/djangoapps/student/views/management.py:469
@@ -3469,9 +3469,9 @@ msgid ""
 "A human-readable description of the example certificate.  For example, "
 "'verified' or 'honor' to differentiate between two types of certificates."
 msgstr ""
-"Eine menschenlesbare Beschreibung des Beispielzertifikats. Zum Beispiel "
+"Eine menschenlesbare Beschreibung des Beispielweiterbildungsnachweises. Zum Beispiel "
 "\"verifiziert\" oder \"Auszeichnung\", um zwischen zwei Arten von "
-"Zertifikaten zu unterscheiden."
+"Weiterbildungsnachweisen zu unterscheiden."
 
 #: lms/djangoapps/certificates/models.py:847
 msgid ""
@@ -3479,9 +3479,9 @@ msgid ""
 "receive a response from the queue to determine which example certificate was"
 " processed."
 msgstr ""
-"Eine eindeutige Kennung für das Beispielzertifikat. Diese wird verwendet, "
+"Eine eindeutige Kennung für das Beispielweiterbildungsnachweis. Diese wird verwendet, "
 "wenn wir eine Antwort aus der Warteschlange erhalten, um festzustellen, "
-"welches Beispielzertifikat verarbeitet wurde."
+"welches Beispielweiterbildungsnachweis verarbeitet wurde."
 
 #: lms/djangoapps/certificates/models.py:858
 msgid ""
@@ -3489,30 +3489,30 @@ msgid ""
 "response from the queue to validate that the sender is the same entity we "
 "asked to generate the certificate."
 msgstr ""
-"Ein Zugriffsschlüssel für das Beispielzertifikat. Dies wird verwendet, wenn "
+"Ein Zugriffsschlüssel für das Beispielweiterbildungsnachweis. Dies wird verwendet, wenn "
 "wir eine Antwort aus der Warteschlange erhalten, um zu überprüfen, ob der "
-"Absender die gleiche Entität ist, die wir zur Generierung des Zertifikats "
+"Absender die gleiche Entität ist, die wir zur Generierung des Weiterbildungsnachweises "
 "angefordert haben."
 
 #: lms/djangoapps/certificates/models.py:868
 msgid "The full name that will appear on the certificate."
-msgstr "Der vollständige Name wird im Zertifikat erscheinen."
+msgstr "Der vollständige Name wird im Weiterbildungsnachweis erscheinen."
 
 #: lms/djangoapps/certificates/models.py:873
 msgid "The template file to use when generating the certificate."
-msgstr "Dieses Template müssen Sie benutzen, um Zertifikate zu generieren."
+msgstr "Dieses Template müssen Sie benutzen, um Weiterbildungsnachweise zu generieren."
 
 #: lms/djangoapps/certificates/models.py:885
 msgid "The status of the example certificate."
-msgstr "Status des Beispielzertifikates"
+msgstr "Status des Beispielweiterbildungsnachweises"
 
 #: lms/djangoapps/certificates/models.py:891
 msgid "The reason an error occurred during certificate generation."
-msgstr "Der Grund für den Prozessfehler beim generieren des Zertifikates."
+msgstr "Der Grund für den Prozessfehler beim generieren des Weiterbildungsnachweises."
 
 #: lms/djangoapps/certificates/models.py:898
 msgid "The download URL for the generated certificate."
-msgstr "Die Download URL für das generierte Zertifikat"
+msgstr "Die Download URL für das generierte Weiterbildungsnachweis"
 
 #: lms/djangoapps/certificates/models.py:1137
 msgid "Name of template."
@@ -3597,7 +3597,7 @@ msgstr "Benutzer {user_id} ist nicht im Kurs {course_key} eingeschrieben"
 #: lms/djangoapps/certificates/views/support.py:218
 msgid "An unexpected error occurred while regenerating certificates."
 msgstr ""
-"Es ist ein unerwarteter Fehler beim generieren des Zertifikates aufgetreten."
+"Es ist ein unerwarteter Fehler beim generieren des Weiterbildungsnachweises aufgetreten."
 
 #: lms/djangoapps/certificates/views/support.py:262
 #, python-brace-format
@@ -3613,7 +3613,7 @@ msgid ""
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
 msgstr ""
-"Ein {cert_type} Zertifikat bedeutet, dass sich ein Lernender bereit erklärt "
+"Ein {cert_type} Weiterbildungsnachweis bedeutet, dass sich ein Lernender bereit erklärt "
 "hat, den von {platform_name} festgelegten Verhaltenskodex einzuhalten und "
 "alle erforderlichen Aufgaben für diesen Kurs gemäß seinen Richtlinien "
 "erledigt hat."
@@ -3629,7 +3629,7 @@ msgid ""
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines. "
 msgstr ""
-"Ein {cert_type}-Zertifikat bedeutet, dass ein Lernender zugestimmt hat, sich"
+"Ein {cert_type}-Weiterbildungsnachweis bedeutet, dass ein Lernender zugestimmt hat, sich"
 " an den von {platform_name} festgelegten Ehrenkodex zu halten und alle "
 "erforderlichen Aufgaben für diesen Kurs gemäß seinen Richtlinien "
 "abgeschlossen hat."
@@ -3640,7 +3640,7 @@ msgid ""
 "A {cert_type} certificate also indicates that the identity of the learner "
 "has been checked and is valid."
 msgstr ""
-"Ein {cert_type}-Zertifikat zeigt auch an, dass die Identität des Lernenden "
+"Ein {cert_type}-Weiterbildungsnachweis zeigt auch an, dass die Identität des Lernenden "
 "überprüft wurde und gültig ist."
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
@@ -3653,7 +3653,7 @@ msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
 msgstr ""
-"Ein {cert_type} Zertifikat weist ein hohes Leistungsniveau in einem "
+"Ein {cert_type} Weiterbildungsnachweis weist ein hohes Leistungsniveau in einem "
 "Studiengang nach und beinhaltet die Verifikation der Identität des "
 "Teilnehmers."
 
@@ -3664,7 +3664,7 @@ msgid ""
 "This is a valid {platform_name} certificate for {user_name}, who "
 "participated in {partner_short_name} {course_number}"
 msgstr ""
-"Dies ist ein gültiges Zertifikat der {platform_name} für {user_name}, für "
+"Dies ist ein gültiges Weiterbildungsnachweis der {platform_name} für {user_name}, für "
 "Absolvieren des Kurses {partner_short_name} {course_number}."
 
 #. Translators:  This text is bound to the HTML 'title' element of the page
@@ -3672,7 +3672,7 @@ msgstr ""
 #: lms/djangoapps/certificates/views/webview.py:136
 #, python-brace-format
 msgid "{partner_short_name} {course_number} Certificate | {platform_name}"
-msgstr "{partner_short_name} {course_number} Zertifikat | {platform_name}"
+msgstr "{partner_short_name} {course_number} Weiterbildungsnachweis | {platform_name}"
 
 #. Translators:  This text fragment appears after the student's name
 #. (displayed in a large font) on the certificate
@@ -3696,7 +3696,7 @@ msgid ""
 "awarded for course activities that {platform_name} students complete."
 msgstr ""
 "Die {platform_name} erteilt bei erfolgreicher Absolvierung, der auf der "
-"Plattform der {platform_name} angebotenen Onlinekurse, Teilnahmezertifikate."
+"Plattform der {platform_name} angebotenen Onlinekurse, Teilnahmeweiterbildungsnachweise."
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
@@ -3715,20 +3715,20 @@ msgstr "Alle Rechte vorbehalten"
 #. recognized
 #: lms/djangoapps/certificates/views/webview.py:185
 msgid "Invalid Certificate"
-msgstr "Ungültiges Zertifikat"
+msgstr "Ungültiges Weiterbildungsnachweis"
 
 #. Translators: This line appears as a byline to a header image and describes
 #. the purpose of the page
 #: lms/djangoapps/certificates/views/webview.py:193
 msgid "Certificate Validation"
-msgstr "Validierung des Zertifikats"
+msgstr "Validierung des Weiterbildungsnachweises"
 
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
 #: lms/djangoapps/certificates/views/webview.py:196
 #, python-brace-format
 msgid "About {platform_name} Accomplishments"
-msgstr "Über die Zertifikate der {platform_name} "
+msgstr "Über die Weiterbildungsnachweise der {platform_name} "
 
 #. Translators:  This line appears on the page just before the generation date
 #. for the certificate
@@ -3740,7 +3740,7 @@ msgstr "Erhalten am:"
 #. each individual certificate
 #: lms/djangoapps/certificates/views/webview.py:204
 msgid "Certificate ID Number"
-msgstr "Zertifikat-Nummer"
+msgstr "Weiterbildungsnachweis-Nummer"
 
 #: lms/djangoapps/certificates/views/webview.py:206
 #: lms/templates/certificates/invalid.html:15
@@ -3748,12 +3748,12 @@ msgstr "Zertifikat-Nummer"
 #: lms/templates/certificates/valid.html:12
 #, python-brace-format
 msgid "About {platform_name} Certificates"
-msgstr "Über {platform_name} Zertifikate"
+msgstr "Über {platform_name} Weiterbildungsnachweise"
 
 #: lms/djangoapps/certificates/views/webview.py:210
 #, python-brace-format
 msgid "How {platform_name} Validates Student Certificates"
-msgstr "Wie {platform_name} Studierenden Zertifikate validiert"
+msgstr "Wie {platform_name} Studierenden Weiterbildungsnachweise validiert"
 
 #. Translators:  This text describes the validation mechanism for a
 #. certificate file (known as GPG security)
@@ -3765,7 +3765,7 @@ msgid ""
 "key. For independent verification, {platform_name} uses what is called a "
 "\"detached signature\"&quot;\"."
 msgstr ""
-"Zertifikate, die von {platform_name} ausgestellt werden, werden mit einem "
+"Weiterbildungsnachweise, die von {platform_name} ausgestellt werden, werden mit einem "
 "gpg-Schlüssel signiert, so dass sie von jedem mit dem öffentlichen "
 "{platform_name} Schlüssel unabhängig validiert werden können. Für die "
 "unabhängige Verifikation verwendet {platform_name} eine so genannte "
@@ -3773,7 +3773,7 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views/webview.py:221
 msgid "Validate this certificate for yourself"
-msgstr "Überprüfen Sie dieses Zertifikat selbst"
+msgstr "Überprüfen Sie dieses Weiterbildungsnachweis selbst"
 
 #. Translators:  This text describes (at a high level) the mission and charter
 #. the edX platform and organization
@@ -3844,20 +3844,20 @@ msgstr "Ich habe den Kurs {course_title} auf der {platform_name} beendet."
 msgid ""
 "I completed a course at {platform_name}. Take a look at my certificate."
 msgstr ""
-"Ich habe bei {platform_name} einen Kurs abgeschlossen und ein Zertifikat "
+"Ich habe bei {platform_name} einen Kurs abgeschlossen und ein Weiterbildungsnachweis "
 "erhalten. "
 
 #: lms/djangoapps/certificates/views/webview.py:324
 #, python-brace-format
 msgid "More Information About {user_name}'s Certificate:"
-msgstr "Mehr Informationen über {user_name}'s Zertifikat:"
+msgstr "Mehr Informationen über {user_name}'s Weiterbildungsnachweis:"
 
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
 #: lms/djangoapps/certificates/views/webview.py:328
 #, python-brace-format
 msgid "{fullname}, you earned a certificate!"
-msgstr "{fullname} Sie haben ein Zertifikat erhalten!"
+msgstr "{fullname} Sie haben ein Weiterbildungsnachweis erhalten!"
 
 #. Translators: This line congratulates the user and instructs them to share
 #. their accomplishment on social networks
@@ -3866,7 +3866,7 @@ msgid ""
 "Congratulations! This page summarizes what you accomplished. Show it off to "
 "family, friends, and colleagues in your social and professional networks."
 msgstr ""
-"Herzlichen Glückwunsch! Hier finden Sie Ihr Zertifikat. Teilen Sie Ihren "
+"Herzlichen Glückwunsch! Hier finden Sie Ihr Weiterbildungsnachweis. Teilen Sie Ihren "
 "Erfolg mit Ihrer Familie, Ihren Freunden und Kollegen oder in Ihren sozialen"
 " und beruflichen Netzwerken."
 
@@ -3875,7 +3875,7 @@ msgstr ""
 #: lms/djangoapps/certificates/views/webview.py:338
 #, python-brace-format
 msgid "More about {fullname}'s accomplishment"
-msgstr "Mehr über {fullname}'s Zertifikat"
+msgstr "Mehr über {fullname}'s Weiterbildungsnachweis"
 
 #: lms/djangoapps/commerce/api/v1/serializers.py:50
 #, python-brace-format
@@ -4379,7 +4379,7 @@ msgid ""
 msgstr ""
 "Nach diesem Datum wird der Kurs archiviert, d. h. Sie können die Kursinhalte"
 " überprüfen, aber nicht mehr an benoteten Aufgaben teilnehmen oder auf den "
-"Erwerb eines Zertifikats hinarbeiten."
+"Erwerb eines Weiterbildungsnachweises hinarbeiten."
 
 #: lms/djangoapps/courseware/date_summary.py:302
 msgid ""
@@ -4408,16 +4408,16 @@ msgstr "Prüfungszugriff läuft ab"
 
 #: lms/djangoapps/courseware/date_summary.py:420
 msgid "Certificate Available"
-msgstr "Zertifikat erhältlich"
+msgstr "Weiterbildungsnachweis erhältlich"
 
 #: lms/djangoapps/courseware/date_summary.py:432
 msgid "Day certificates will become available for passing verified learners."
-msgstr "Tag, ab dem die Zertifikate freigeschaltet werden."
+msgstr "Tag, ab dem die Weiterbildungsnachweise freigeschaltet werden."
 
 #: lms/djangoapps/courseware/date_summary.py:457
 #: lms/djangoapps/courseware/date_summary.py:486
 msgid "Upgrade to Verified Certificate"
-msgstr "Upgrade auf ein verifiziertes Zertifikat"
+msgstr "Upgrade auf ein verifizierter Weiterbildungsnachweis"
 
 #: lms/djangoapps/courseware/date_summary.py:488
 msgid "Verification Upgrade Deadline"
@@ -4429,7 +4429,7 @@ msgid ""
 "earning a verified certificate."
 msgstr ""
 "Verpassen Sie nicht die Gelegenheit, Ihre neuen Kenntnisse und Fähigkeiten "
-"hervorzuheben, indem Sie ein verifiziertes Zertifikat erwerben."
+"hervorzuheben, indem Sie ein verifizierter Weiterbildungsnachweis erwerben."
 
 #: lms/djangoapps/courseware/date_summary.py:503
 msgid ""
@@ -4438,7 +4438,7 @@ msgid ""
 msgstr ""
 "Sie sind aktuell Gasthörer in diesem Kurs. Sie können jederzeit zum "
 "verifizierten Modus wechseln und somit nach Abschluss dieses Kurses ein "
-"Zertifikat erhalten! "
+"Weiterbildungsnachweis erhalten! "
 
 #. Translators: This describes the time by which the user
 #. should upgrade to the verified track. 'date' will be
@@ -4483,7 +4483,7 @@ msgid ""
 "a Verified Certificate."
 msgstr ""
 "Sie müssen die Verifikation vor diesem Datum erfolgreich abschließen, um "
-"sich für ein verifiziertes Zertifikat zu qualifizieren."
+"sich für ein verifizierter Weiterbildungsnachweis zu qualifizieren."
 
 #: lms/djangoapps/courseware/masquerade.py:188
 #, python-brace-format
@@ -4651,7 +4651,7 @@ msgid ""
 "not include a certificate."
 msgstr ""
 "Sie sind im Gasthörer Modus eingeschrieben. Im Gasthörer Modus werden Ihnen "
-"keine Zertifikate ausgestellt."
+"keine Weiterbildungsnachweise ausgestellt."
 
 #: lms/djangoapps/courseware/views/views.py:187
 msgid "Your enrollment: Honor track"
@@ -4663,7 +4663,7 @@ msgid ""
 "not include a certificate."
 msgstr ""
 "Sie sind im Honor Modus eingeschrieben. Im Honor Modus werden Ihnen keine "
-"Zertifikate ausgestellt."
+"Weiterbildungsnachweise ausgestellt."
 
 #: lms/djangoapps/courseware/views/views.py:201
 msgid "We're working on it..."
@@ -4674,13 +4674,13 @@ msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
 msgstr ""
-"Wir erstellen Ihr Zertifikat. Sie können in Ihren Kursen weiterlernen. Ein "
-"Link zum Zertifikat wird hier und auf der Seite \"Meine Kurse\" erscheinen, "
+"Wir erstellen Ihr Weiterbildungsnachweis. Sie können in Ihren Kursen weiterlernen. Ein "
+"Link zum Weiterbildungsnachweis wird hier und auf der Seite \"Meine Kurse\" erscheinen, "
 "sobald es erstellt ist."
 
 #: lms/djangoapps/courseware/views/views.py:213
 msgid "Your certificate has been invalidated"
-msgstr "Ihr Zertifikat wurde entwertet und ist somit ungültig."
+msgstr "Ihr Weiterbildungsnachweis wurde entwertet und ist somit ungültig."
 
 #: lms/djangoapps/courseware/views/views.py:214
 msgid "Please contact your course team if you have any questions."
@@ -4688,16 +4688,16 @@ msgstr "Bei Fragen wenden Sie sich bitte an Ihr Kursteam."
 
 #: lms/djangoapps/courseware/views/views.py:222
 msgid "Congratulations, you qualified for a certificate!"
-msgstr "Gratulation, du hast Dich für ein Zertifikat qualifiziert!"
+msgstr "Gratulation, du hast Dich für ein Weiterbildungsnachweis qualifiziert!"
 
 #: lms/djangoapps/courseware/views/views.py:223
 #: lms/djangoapps/courseware/views/views.py:256
 msgid "You've earned a certificate for this course."
-msgstr "Sie haben ein Zertifikat für diesen Kurs erhalten."
+msgstr "Sie haben ein Weiterbildungsnachweis für diesen Kurs erhalten."
 
 #: lms/djangoapps/courseware/views/views.py:233
 msgid "Your certificate will be available soon!"
-msgstr "Dein Zertifikat wird bald verfügbar sein!"
+msgstr "Dein Weiterbildungsnachweis wird bald verfügbar sein!"
 
 #: lms/djangoapps/courseware/views/views.py:234
 #: lms/djangoapps/courseware/views/views.py:245
@@ -4706,19 +4706,19 @@ msgid ""
 "with your certificate."
 msgstr ""
 "Sobald der Kurs offiziell endet, erhalten Sie eine E-Mail mit Ihrem "
-"Zertifikat."
+"Weiterbildungsnachweis."
 
 #: lms/djangoapps/courseware/views/views.py:244
 msgid "Your certificate will be available after the indicated date"
-msgstr "Ihr Zertifikat ist ab dem angegebenen Datum verfügbar"
+msgstr "Ihr Weiterbildungsnachweis ist ab dem angegebenen Datum verfügbar"
 
 #: lms/djangoapps/courseware/views/views.py:255
 msgid "Your certificate is available"
-msgstr "Dein Zertifikat ist verfügbar"
+msgstr "Dein Weiterbildungsnachweis ist verfügbar"
 
 #: lms/djangoapps/courseware/views/views.py:269
 msgid "Certificate unavailable"
-msgstr "Zertifikat nicht verfügbar"
+msgstr "Weiterbildungsnachweis nicht verfügbar"
 
 #: lms/djangoapps/courseware/views/views.py:271
 #, python-brace-format
@@ -4726,7 +4726,7 @@ msgid ""
 "You have not received a certificate because you do not have a current "
 "{platform_name} verified identity."
 msgstr ""
-"Sie können keine Zertifikate erhalten, da Ihr Konto bei der {platform_name} "
+"Sie können keine Weiterbildungsnachweise erhalten, da Ihr Konto bei der {platform_name} "
 "noch nicht verifiziert wurde."
 
 #: lms/djangoapps/courseware/views/views.py:574
@@ -4794,7 +4794,7 @@ msgstr ""
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
 msgstr ""
-"Du must eingeloggt sein bei {platform_name}, um ein Zertifikat zu erstellen."
+"Du must eingeloggt sein bei {platform_name}, um ein Weiterbildungsnachweis zu erstellen."
 
 #: lms/djangoapps/courseware/views/views.py:1468
 msgid "Course is not valid"
@@ -4803,15 +4803,15 @@ msgstr "Kurs ist nicht gültig"
 #: lms/djangoapps/courseware/views/views.py:1484
 msgid "Your certificate will be available when you pass the course."
 msgstr ""
-"Dein Zertifikat wird verfügbar sein, sobald Du den Kurs bestanden hast. "
+"Dein Weiterbildungsnachweis wird verfügbar sein, sobald Du den Kurs bestanden hast. "
 
 #: lms/djangoapps/courseware/views/views.py:1497
 msgid "Certificate has already been created."
-msgstr "Zertifikate wurden bereits erstellt."
+msgstr "Weiterbildungsnachweise wurden bereits erstellt."
 
 #: lms/djangoapps/courseware/views/views.py:1499
 msgid "Certificate is being created."
-msgstr "Zertifikate wurden erstellt."
+msgstr "Weiterbildungsnachweise wurden erstellt."
 
 #: lms/djangoapps/courseware/views/views.py:2051
 msgid ""
@@ -4823,9 +4823,9 @@ msgid ""
 "3. Check your email, please allow 4 weeks for your application to be processed."
 msgstr ""
 "Wir beabsichtigen, diese Informationen zu nutzen, um Ihren Antrag auf finanzielle Unterstützung zu bewerten und unser Programm zur finanziellen Unterstützung weiterzuentwickeln.\n"
-" Bitte beachten Sie, dass für die meisten Kurse, die verifizierte Zertifikate anbieten, Unterstützung verfügbar ist, für einige Kurse und Programme jedoch keine Unterstützung möglich ist. Sie müssen für jeden Kurs, den Sie belegen, einen separaten Antrag ausfüllen. Sie können fünf (5) Mal pro Jahr finanzielle Unterstützung erhalten (basierend auf einem Zeitraum von 12 Monaten ab Ihrer ersten Genehmigung).\n"
+" Bitte beachten Sie, dass für die meisten Kurse, die verifizierte Weiterbildungsnachweise anbieten, Unterstützung verfügbar ist, für einige Kurse und Programme jedoch keine Unterstützung möglich ist. Sie müssen für jeden Kurs, den Sie belegen, einen separaten Antrag ausfüllen. Sie können fünf (5) Mal pro Jahr finanzielle Unterstützung erhalten (basierend auf einem Zeitraum von 12 Monaten ab Ihrer ersten Genehmigung).\n"
 " So beantragen Sie finanzielle Unterstützung:\n"
-" 1. Melden Sie sich für den Audit Track eines qualifizierten Kurses an, der verifizierte Zertifikate anbietet.\n"
+" 1. Melden Sie sich für den Audit Track eines qualifizierten Kurses an, der verifizierte Weiterbildungsnachweise anbietet.\n"
 " 2. Füllen Sie diesen Antrag aus.\n"
 " 3. Prüfen Sie Ihre E-Mails. Bitte rechnen Sie mit einer Bearbeitungszeit von 4 Wochen."
 
@@ -4835,7 +4835,7 @@ msgid ""
 "course does not appear in the list, make sure that you have enrolled in the "
 "audit track for the course."
 msgstr ""
-"Wählen Sie den Kurs, für welchen Sie ein verifiziertes Zertifikat erhalten "
+"Wählen Sie den Kurs, für welchen Sie ein verifizierter Weiterbildungsnachweis erhalten "
 "wollen. Wenn dieser Kurs nicht in Ihrer Liste erscheint, stellen Sie sicher,"
 " dass Sie im Gasthörermodus eingeschrieben sind."
 
@@ -4848,7 +4848,7 @@ msgid ""
 "Paying the verified certificate fee for the above course would cause me "
 "economic hardship"
 msgstr ""
-"Die Zahlung der verifizierten Zertifikat für den oben genannten Kurs würde "
+"Die Zahlung der verifizierten Weiterbildungsnachweis für den oben genannten Kurs würde "
 "für mich eine wirtschaftliche Not bedeuten"
 
 #: lms/djangoapps/courseware/views/views.py:2272
@@ -4856,7 +4856,7 @@ msgid ""
 "I will work diligently to complete the course work and receive a certificate"
 msgstr ""
 "Ich werde fleißig daran arbeiten, die Kursarbeit abzuschließen und ein "
-"Zertifikat zu erhalten"
+"Weiterbildungsnachweis zu erhalten"
 
 #: lms/djangoapps/courseware/views/views.py:2284
 #, python-brace-format
@@ -5240,11 +5240,11 @@ msgstr "Kurs-ID"
 
 #: lms/djangoapps/instructor/views/api.py:1427
 msgid "Certificate Type"
-msgstr "Art des Zertifikates"
+msgstr "Art des Weiterbildungsnachweises"
 
 #: lms/djangoapps/instructor/views/api.py:1428
 msgid "Total Certificates Issued"
-msgstr "Gesamtzahl der ausgegebenen Zertifikate"
+msgstr "Gesamtzahl der ausgegebenen Weiterbildungsnachweise"
 
 #: lms/djangoapps/instructor/views/api.py:1429
 msgid "Date Report Run"
@@ -5625,20 +5625,20 @@ msgid ""
 "started. You can view the status of the generation task in the \"Pending "
 "Tasks\" section."
 msgstr ""
-"Die Erstellung von Zertifikaten für alle Studenten dieses Kurses wurde "
+"Die Erstellung von Weiterbildungsnachweisen für alle Studenten dieses Kurses wurde "
 "gestartet. Den Status der Erstellung können Sie im Abschnitt \"Offene "
 "Aufgaben\" einsehen."
 
 #: lms/djangoapps/instructor/views/api.py:3509
 msgid "Please select certificate statuses from the list only."
-msgstr "Bitte wählen Sie nur Zertifikatsstati aus der Liste aus."
+msgstr "Bitte wählen Sie nur Weiterbildungsnachweisesstati aus der Liste aus."
 
 #: lms/djangoapps/instructor/views/api.py:3516
 msgid ""
 "Certificate regeneration task has been started. You can view the status of "
 "the generation task in the \"Pending Tasks\" section."
 msgstr ""
-"Die Regeneration des Zertifikats wurde gestartet. Den Status der "
+"Die Regeneration des Weiterbildungsnachweises wurde gestartet. Den Status der "
 "Regeneration können Sie im Abschnitt \"Offene Aufgaben\" einsehen."
 
 #: lms/djangoapps/instructor/views/api.py:3562
@@ -5666,14 +5666,14 @@ msgid ""
 " added to the certificate exception list."
 msgstr ""
 "Der Teilnehmer {user} befindet sich derzeit auf der "
-"Zertifikatsendgültigkeitsliste und kann nicht zur Ausnahmeliste hinzugefügt "
+"Weiterbildungsnachweisesendgültigkeitsliste und kann nicht zur Ausnahmeliste hinzugefügt "
 "werden."
 
 #: lms/djangoapps/instructor/views/api.py:3641
 #, python-brace-format
 msgid "Student (username/email={user}) already in certificate exception list."
 msgstr ""
-"Teilnehmer (username/email={user}) bereits auf der Zertifikatsausnahmeliste."
+"Teilnehmer (username/email={user}) bereits auf der Weiterbildungsnachweisesausnahmeliste."
 
 #: lms/djangoapps/instructor/views/api.py:3677
 #, python-brace-format
@@ -5709,7 +5709,7 @@ msgstr "Ungültige Daten, generate_for muss \"neu\" oder \"alle\" sein."
 #: lms/djangoapps/instructor/views/api.py:3778
 msgid "Certificate generation started for students on the allowlist."
 msgstr ""
-"Zertifikatserstellung für Studenten auf der Zulassungsliste gestartet."
+"Weiterbildungsnachweiseserstellung für Studenten auf der Zulassungsliste gestartet."
 
 #: lms/djangoapps/instructor/views/api.py:3831
 #, python-brace-format
@@ -5729,8 +5729,8 @@ msgid ""
 "attempting to invalidate their certificate."
 msgstr ""
 "Der Teilnehmer {student} befindet sich derzeit auf der "
-"Zertifikatsausnahmeliste für den Kurs {course}. Bitte entfernen Sie den "
-"Teilnehmer zunächst von der Liste der Ausnahmen, bevor Sie das Zertifikat "
+"Weiterbildungsnachweisesausnahmeliste für den Kurs {course}. Bitte entfernen Sie den "
+"Teilnehmer zunächst von der Liste der Ausnahmen, bevor Sie das Weiterbildungsnachweis "
 "für ungültig erklären."
 
 #: lms/djangoapps/instructor/views/api.py:4003
@@ -5739,7 +5739,7 @@ msgid ""
 "Certificate of {user} has already been invalidated. Please check your "
 "spelling and retry."
 msgstr ""
-"Das Zertifikat für den Benutzer {user} wurde bereits entwertet. Bitte "
+"Das Weiterbildungsnachweis für den Benutzer {user} wurde bereits entwertet. Bitte "
 "kontrollieren Sie Ihre Eingabe."
 
 #: lms/djangoapps/instructor/views/api.py:4011
@@ -5748,8 +5748,8 @@ msgid ""
 "Certificate for student {user} is already invalid, kindly verify that "
 "certificate was generated for this student and then proceed."
 msgstr ""
-"Zertifikat für Teilnehmer {user} ist bereits ungültig, bitte überprüfen Sie,"
-" ob das Zertifikat für diesen Teilnehmer erstellt wurde und fahren Sie dann "
+"Weiterbildungsnachweis für Teilnehmer {user} ist bereits ungültig, bitte überprüfen Sie,"
+" ob das Weiterbildungsnachweis für diesen Teilnehmer erstellt wurde und fahren Sie dann "
 "fort."
 
 #: lms/djangoapps/instructor/views/api.py:4048
@@ -5757,7 +5757,7 @@ msgid ""
 "Certificate Invalidation does not exist, Please refresh the page and try "
 "again."
 msgstr ""
-"Zertifikatsinvalidierung existiert nicht, bitte aktualisieren Sie die Seite "
+"Weiterbildungsnachweisesinvalidierung existiert nicht, bitte aktualisieren Sie die Seite "
 "und versuchen Sie es erneut."
 
 #: lms/djangoapps/instructor/views/api.py:4084
@@ -5776,7 +5776,7 @@ msgid ""
 "Kindly verify student username/email and the selected course are correct and"
 " try again."
 msgstr ""
-"Der Teilnehmer {student} hat kein Zertifikat für den Kurs {course}. Bitte "
+"Der Teilnehmer {student} hat kein Weiterbildungsnachweis für den Kurs {course}. Bitte "
 "überprüfen Sie Benutzernamen/E-Mail des Teilnehmers und den ausgewählten "
 "Kurs auf Richtigkeit und versuchen Sie es erneut."
 
@@ -5803,7 +5803,7 @@ msgstr "Spezielle Prüfungen"
 #: cms/templates/certificates.html:67 cms/templates/certificates.html:90
 #: cms/templates/export.html:217 cms/templates/widgets/header.html:219
 msgid "Certificates"
-msgstr "Zertifikate"
+msgstr "Weiterbildungsnachweise"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:419
 msgid "Please Enter the numeric value for the course price"
@@ -6108,7 +6108,7 @@ msgstr "Punkteverteilung auf die Aufgaben"
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:295
 msgid "certificates generated"
-msgstr "Zertifikate erstellt"
+msgstr "Weiterbildungsnachweise erstellt"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -6461,7 +6461,7 @@ msgstr "Einer von Benutzer oder externaö_user_key darf nicht null sein."
 
 #: lms/djangoapps/support/views/index.py:16
 msgid "View and regenerate certificates."
-msgstr "Zertifikate anzeigen und neu erstellen "
+msgstr "Weiterbildungsnachweise anzeigen und neu erstellen "
 
 #: lms/djangoapps/support/views/index.py:20
 #: lms/templates/ccx/coach_dashboard.html:60
@@ -6730,7 +6730,7 @@ msgstr "Ausgewählter Preis ist keine gültige Zahl."
 
 #: lms/djangoapps/verify_student/views.py:788
 msgid "This course doesn't support paid certificates"
-msgstr "Dieser Kurs unterstützt keine bezahlten Zertifikate."
+msgstr "Dieser Kurs unterstützt keine bezahlten Weiterbildungsnachweise."
 
 #: lms/djangoapps/verify_student/views.py:794
 msgid "No selected price or selected price is below minimum."
@@ -7457,7 +7457,7 @@ msgid ""
 "upon successful completion."
 msgstr ""
 "Sie haben die Möglichkeit, diesen Kurs zu wiederholen und erhalten nach "
-"erfolgreichem Abschluss ein verifiziertes Zertifikat."
+"erfolgreichem Abschluss ein verifizierter Weiterbildungsnachweis."
 
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:31
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:6
@@ -7520,7 +7520,7 @@ msgid ""
 "for certificates."
 msgstr ""
 "Sie müssen über eine gültige ID-Verifikation verfügen, um an beaufsichtigten"
-" Prüfungen teilnehmen und sich für Zertifikate qualifizieren zu können."
+" Prüfungen teilnehmen und sich für Weiterbildungsnachweise qualifizieren zu können."
 
 #: lms/templates/verify_student/edx_ace/verificationexpiry/email/body.html:24
 #: lms/templates/verify_student/edx_ace/verificationexpiry/email/body.txt:6
@@ -8124,7 +8124,7 @@ msgid ""
 "%(user_schedule_upgrade_deadline_time)s."
 msgstr ""
 "Verpassen Sie nicht die Gelegenheit, Ihre neuen Kenntnisse und Fähigkeiten "
-"hervorzuheben, indem Sie ein verifiziertes Zertifikat erwerben. Upgraden Sie"
+"hervorzuheben, indem Sie ein verifizierter Weiterbildungsnachweis erwerben. Upgraden Sie"
 " bis zum %(user_schedule_upgrade_deadline_time)s."
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.html:26
@@ -9874,8 +9874,8 @@ msgid ""
 "by %(user_schedule_upgrade_deadline_time)s."
 msgstr ""
 "Wir hoffen Ihnen gefällt bisher das Lernen mit uns auf %(platform_name)s! "
-"Ein verifiziertes Zertifikat ermöglicht es Ihnen, Ihre neuen Kenntnisse und "
-"Fähigkeiten hervorzuheben. Ein %(platform_name)s Zertifikat ist offiziell "
+"Ein verifizierter Weiterbildungsnachweis ermöglicht es Ihnen, Ihre neuen Kenntnisse und "
+"Fähigkeiten hervorzuheben. Ein %(platform_name)s Weiterbildungsnachweis ist offiziell "
 "und leicht zu teilen. Upgraden Sie bis zum "
 "%(user_schedule_upgrade_deadline_time)s."
 
@@ -9889,8 +9889,8 @@ msgid ""
 "by %(user_schedule_upgrade_deadline_time)s."
 msgstr ""
 "Wir hoffen Ihnen gefällt bisher das Lernen mit uns in %(first_course_name)s!"
-" Ein verifiziertes Zertifikat ermöglicht es Ihnen, Ihre neuen Kenntnisse und"
-" Fähigkeiten hervorzuheben. Ein %(platform_name)s Zertifikat ist offiziell "
+" Ein verifizierter Weiterbildungsnachweis ermöglicht es Ihnen, Ihre neuen Kenntnisse und"
+" Fähigkeiten hervorzuheben. Ein %(platform_name)s Weiterbildungsnachweis ist offiziell "
 "und leicht zu teilen. Upgraden Sie bis zum "
 "%(user_schedule_upgrade_deadline_time)s."
 
@@ -9909,8 +9909,8 @@ msgid ""
 msgstr ""
 "Wir hoffen, dass Ihnen das Lernen mit uns bisher auf "
 "{start_strong}%(platform_name)s{end_strong} Freude bereitet! Ein "
-"verifiziertes Zertifikat ermöglicht es Ihnen, Ihre neuen Kenntnisse und "
-"Fähigkeiten hervorzuheben. Ein %(platform_name)s Zertifikat ist offiziell "
+"verifizierter Weiterbildungsnachweis ermöglicht es Ihnen, Ihre neuen Kenntnisse und "
+"Fähigkeiten hervorzuheben. Ein %(platform_name)s Weiterbildungsnachweis ist offiziell "
 "und leicht zu teilen."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:46
@@ -9922,9 +9922,9 @@ msgid ""
 "certificate is official and easily shareable."
 msgstr ""
 "Wir hoffen Ihnen gefällt bisher das Lernen mit uns in "
-"{start_strong}{first_course_name}{end_strong}! Ein verifiziertes Zertifikat "
+"{start_strong}{first_course_name}{end_strong}! Ein verifizierter Weiterbildungsnachweis "
 "ermöglicht es Ihnen, Ihre neuen Kenntnisse und Fähigkeiten hervorzuheben. "
-"Ein {platform_name} Zertifikat ist offiziell und leicht zu teilen."
+"Ein {platform_name} Weiterbildungsnachweis ist offiziell und leicht zu teilen."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:55
 #, python-format, python-brace-format
@@ -9942,7 +9942,7 @@ msgstr "Sie können Ihren Gasthörermodus in folgenden Kursen upgraden:"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:76
 #: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html:21
 msgid "Example of a verified certificate"
-msgstr "Beispiel eines verifizierten Zertifikates"
+msgstr "Beispiel eines verifizierten Weiterbildungsnachweises"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:19
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:29
@@ -9953,13 +9953,13 @@ msgstr "Jetzt aktualisieren unter"
 #, python-format
 msgid "Upgrade to earn a verified certificate on %(platform_name)s"
 msgstr ""
-"Upgrade, um ein verifiziertes Zertifikat von %(platform_name)s zu erhalten"
+"Upgrade, um ein verifizierter Weiterbildungsnachweis von %(platform_name)s zu erhalten"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:7
 #, python-format
 msgid "Upgrade to earn a verified certificate in %(first_course_name)s"
 msgstr ""
-"Upgrade, um ein verifiziertes Zertifikat nach Abschkuss des Kurses "
+"Upgrade, um ein verifizierter Weiterbildungsnachweis nach Abschkuss des Kurses "
 "%(first_course_name)s zu erhalten."
 
 #: openedx/core/djangoapps/theming/views.py:78
@@ -10786,7 +10786,7 @@ msgstr "Die, die Sie zum Einloggen benutzen."
 #. below a field meant to hold the user's full name.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:560
 msgid "This name will be used on any certificates that you earn."
-msgstr "Dieser Name erscheint auf allen Zertifikaten, die Sie erwerben."
+msgstr "Dieser Name erscheint auf allen Weiterbildungsnachweisen, die Sie erwerben."
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
@@ -12486,7 +12486,7 @@ msgstr "Datum an dem die Klasse endet"
 
 #: xmodule/course_block.py:350
 msgid "Date that certificates become available to learners"
-msgstr "Datum, ab welchem Zertifikate erhältlich sind"
+msgstr "Datum, ab welchem Weiterbildungsnachweise erhältlich sind"
 
 #: xmodule/course_block.py:354
 msgid "Cosmetic Course Display Price"
@@ -12863,7 +12863,7 @@ msgstr ""
 
 #: xmodule/course_block.py:575
 msgid "Certificates Downloadable Before End"
-msgstr "Zertifikate sind herunterladbar vor Ende"
+msgstr "Weiterbildungsnachweise sind herunterladbar vor Ende"
 
 #: xmodule/course_block.py:577
 msgid ""
@@ -12871,20 +12871,20 @@ msgid ""
 "course ends, if they've met certificate requirements."
 msgstr ""
 "Gib \"Wahr\" oder \"Falsch\" ein. Falls \"Wahr\", können die Teilnehmer "
-"bereits vor Kursende die Zertifikate herunterladen, wenn sie die "
-"Anforderungen für den Zertifikatserhalt bereits erfüllt haben."
+"bereits vor Kursende die Weiterbildungsnachweise herunterladen, wenn sie die "
+"Anforderungen für den Weiterbildungsnachweiseserhalt bereits erfüllt haben."
 
 #: xmodule/course_block.py:586 cms/templates/settings.html:257
 msgid "Certificates Display Behavior"
-msgstr "Verhalten für Zertifikatsanzeige"
+msgstr "Verhalten für Weiterbildungsnachweisesanzeige"
 
 #: xmodule/course_block.py:588
 msgid ""
 "This field, together with certificate_available_date will determine when a "
 "user can see their certificate for the course"
 msgstr ""
-"Dieses Feld bestimmt zusammen mit certificate_available_date, wann ein "
-"Benutzer sein Zertifikat für den Kurs sehen kann"
+"Dieses Feld bestimmt zusammen mit Weiterbildungsnachweis_available_date, wann ein "
+"Benutzer sein Weiterbildungsnachweis für den Kurs sehen kann"
 
 #: xmodule/course_block.py:595
 msgid "Course About Page Image"
@@ -12932,14 +12932,14 @@ msgid ""
 "marks, enter the short name of the type of certificate that students receive"
 " when they complete the course. For instance, \"Certificate\"."
 msgstr ""
-"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Zertifikaten."
-" Geben Sie in Anführungszeichen den Kurznamen der Art des Zertifikats ein, "
+"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Weiterbildungsnachweisen."
+" Geben Sie in Anführungszeichen den Kurznamen der Art des Weiterbildungsnachweises ein, "
 "das die Teilnehmer nach Abschluss des Kurses erhalten. Zum Beispiel "
-"\"Zertifikat\"."
+"\"Weiterbildungsnachweis\"."
 
 #: xmodule/course_block.py:632
 msgid "Certificate Name (Short)"
-msgstr "Zertifikatsname (kurz)"
+msgstr "Weiterbildungsnachweisesname (kurz)"
 
 #: xmodule/course_block.py:638
 msgid ""
@@ -12947,30 +12947,30 @@ msgid ""
 "marks, enter the long name of the type of certificate that students receive "
 "when they complete the course. For instance, \"Certificate of Achievement\"."
 msgstr ""
-"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Zertifikaten."
-" Geben Sie in Anführungszeichen den langen Namen der Art des Zertifikats "
+"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Weiterbildungsnachweisen."
+" Geben Sie in Anführungszeichen den langen Namen der Art des Weiterbildungsnachweises "
 "ein, das die Teilnehmer nach Abschluss des Kurses erhalten. Zum Beispiel "
 "\"Leistungsnachweis\"."
 
 #: xmodule/course_block.py:642
 msgid "Certificate Name (Long)"
-msgstr "Zertifikatsname (lang)"
+msgstr "Weiterbildungsnachweisesname (lang)"
 
 #: xmodule/course_block.py:647
 msgid "Certificate Web/HTML View Enabled"
-msgstr "Web/HTML Ansicht für Zertifikate aktiviert"
+msgstr "Web/HTML Ansicht für Weiterbildungsnachweise aktiviert"
 
 #: xmodule/course_block.py:648
 msgid "If true, certificate Web/HTML views are enabled for the course."
 msgstr ""
-"Wenn \"true\", sind für den Kurs Web/HTML-Ansichten des Zertifikats "
+"Wenn \"true\", sind für den Kurs Web/HTML-Ansichten des Weiterbildungsnachweises "
 "aktiviert."
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
 #: xmodule/course_block.py:655
 msgid "Certificate Web/HTML View Overrides"
-msgstr "Web/HTML Ansicht des Zertifikates"
+msgstr "Web/HTML Ansicht des Weiterbildungsnachweises"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -12986,7 +12986,7 @@ msgstr ""
 #. configuration values
 #: xmodule/course_block.py:664
 msgid "Certificate Configuration"
-msgstr "Zertifikat Konfiguration"
+msgstr "Weiterbildungsnachweis Konfiguration"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -16447,7 +16447,7 @@ msgstr "Inhalt"
 
 #: cms/templates/certificates.html:15
 msgid "Course Certificates"
-msgstr "Kurs Zertifikate"
+msgstr "Kurs Weiterbildungsnachweise"
 
 #: cms/templates/certificates.html:71
 msgid "This module is not enabled."
@@ -16456,18 +16456,18 @@ msgstr "Dieses Modul ist nicht aktiviert."
 #: cms/templates/certificates.html:77
 msgid "This course does not use a mode that offers certificates."
 msgstr ""
-"Dieser Kurs bietet keinen Modus an, in dem Zertifikate angeboten werden. "
+"Dieser Kurs bietet keinen Modus an, in dem Weiterbildungsnachweise angeboten werden. "
 
 #: cms/templates/certificates.html:91
 msgid "Working with Certificates"
-msgstr "Mit Zertifikaten arbeiten"
+msgstr "Mit Weiterbildungsnachweisen arbeiten"
 
 #: cms/templates/certificates.html:92
 msgid ""
 "Specify a course title to use on the certificate if the course's official "
 "title is too long to be displayed well."
 msgstr ""
-"Spezifiziere einen Kurs Titel, der auf dem Zertifikat  benutzt werden soll, "
+"Spezifiziere einen Kurs Titel, der auf dem Weiterbildungsnachweis  benutzt werden soll, "
 "falls der offizielle Titel zu lang zum anzeigen ist."
 
 #: cms/templates/certificates.html:93
@@ -16475,7 +16475,7 @@ msgid ""
 "For verified certificates, specify between one and four signatories and "
 "upload the associated images."
 msgstr ""
-"Legen Sie für verifizierte Zertifikate zwischen einem und vier "
+"Legen Sie für verifizierte Weiterbildungsnachweise zwischen einem und vier "
 "Unterzeichnern fest und laden Sie die zugehörigen Bilder hoch."
 
 #: cms/templates/certificates.html:94
@@ -16485,7 +16485,7 @@ msgid ""
 "right corner of the form and select {em_start}Edit{em_end} or the delete "
 "icon."
 msgstr ""
-"Um ein Zertifikat zu bearbeiten oder zu löschen bevor es aktiviert wird, "
+"Um ein Weiterbildungsnachweis zu bearbeiten oder zu löschen bevor es aktiviert wird, "
 "bewegen Sie die den Zeiger in die obere rechte Ecke des Formulars und wählen"
 " Sie {em_start}Bearbeiten{em_end} oder das Löschen-Symbol ."
 
@@ -16495,12 +16495,12 @@ msgid ""
 "To view a sample certificate, choose a course mode and select "
 "{em_start}Preview Certificate{em_end}."
 msgstr ""
-"Um ein Beispielzertifikat anzuzeigen, wählen Sie den Kursmodus und drücken "
-"auf  {em_start}Zertifikat-Vorschau{em_end}."
+"Um ein Beispielweiterbildungsnachweis anzuzeigen, wählen Sie den Kursmodus und drücken "
+"auf  {em_start}Weiterbildungsnachweis-Vorschau{em_end}."
 
 #: cms/templates/certificates.html:97
 msgid "Issuing Certificates to Learners"
-msgstr "Gebe Zertifikate an Teilnehmer aus..."
+msgstr "Gebe Weiterbildungsnachweise an Teilnehmer aus..."
 
 #: cms/templates/certificates.html:98
 #, python-brace-format
@@ -16509,10 +16509,10 @@ msgid ""
 "Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
 "members with these roles can edit or delete an activated certificate."
 msgstr ""
-"Um die Ausgabe der Kurszertifikate zu starten, muss ein Kursmitglied, "
+"Um die Ausgabe der Kursweiterbildungsnachweise zu starten, muss ein Kursmitglied, "
 "welches die Rolle Mitarbeiter oder Administrator inne hat "
 "{em_start}Aktivieren{em_end} wählen. Nur Kursmitglieder in diesen Rollen "
-"können aktivierte Zertifikate bearbeiten oder löschen. "
+"können aktivierte Weiterbildungsnachweise bearbeiten oder löschen. "
 
 #: cms/templates/certificates.html:99
 #, python-brace-format
@@ -16521,13 +16521,13 @@ msgid ""
 "learners who have already earned certificates will no longer be able to "
 "access them."
 msgstr ""
-"Löschen Sie Zertifikate {em_start}NICHT{em_end} nachdem ein Kurs begonnen "
-"hat; denn dann können Teilnehmer, die dieses Zertifikat bereits erworben "
+"Löschen Sie Weiterbildungsnachweise {em_start}NICHT{em_end} nachdem ein Kurs begonnen "
+"hat; denn dann können Teilnehmer, die dieses Weiterbildungsnachweis bereits erworben "
 "haben, nicht mehr darauf zugreifen."
 
 #: cms/templates/certificates.html:100
 msgid "Learn more about certificates"
-msgstr "Erfahre mehr über Zertifikate"
+msgstr "Erfahre mehr über Weiterbildungsnachweise"
 
 #: cms/templates/certificates.html:115
 #: cms/templates/group_configurations.html:126
@@ -19219,7 +19219,7 @@ msgstr "Ein Datum nach dem Enddatum des Kurses"
 
 #: cms/templates/settings.html:263
 msgid "Certificates are awarded at the end of a course run"
-msgstr "Zertifikate werden am Ende eines Kursdurchlaufs verliehen"
+msgstr "Weiterbildungsnachweise werden am Ende eines Kursdurchlaufs verliehen"
 
 #: cms/templates/settings.html:270
 msgid "Read more about this setting"
@@ -19231,7 +19231,7 @@ msgid ""
 "learners as soon as they achieve the passing threshold in the course (which "
 "can occur before a final assignment based on course design)"
 msgstr ""
-"In allen Konfigurationen dieser Einstellung werden Zertifikate für Lernende "
+"In allen Konfigurationen dieser Einstellung werden Weiterbildungsnachweise für Lernende "
 "generiert, sobald sie die Bestehensschwelle im Kurs erreichen (was vor einer"
 " Abschlussaufgabe basierend auf dem Kursdesign erfolgen kann)."
 
@@ -19241,7 +19241,7 @@ msgid ""
 "grade above the course grade threshold. Note: learners can achieve a passing"
 " grade before encountering all assignments in some course configurations."
 msgstr ""
-"Lernende können auf ihr Zertifikat zugreifen, sobald sie eine bestandene "
+"Lernende können auf ihr Weiterbildungsnachweis zugreifen, sobald sie eine bestandene "
 "Note über der Kursnotenschwelle erreichen. Hinweis: In einigen "
 "Kurskonfigurationen können die Lernenden eine Bestehensnote erreichen, bevor"
 " sie alle Aufgaben erfüllen."
@@ -19255,7 +19255,7 @@ msgid ""
 "Learners with passing grades can access their certificate once the end date "
 "of the course has elapsed."
 msgstr ""
-"Lernende mit bestandenen Noten können auf ihr Zertifikat zugreifen, sobald "
+"Lernende mit bestandenen Noten können auf ihr Weiterbildungsnachweis zugreifen, sobald "
 "das Enddatum des Kurses verstrichen ist."
 
 #: cms/templates/settings.html:285
@@ -19264,11 +19264,11 @@ msgid ""
 "that you set has elapsed."
 msgstr ""
 "Lernende mit bestandenen Noten können nach Ablauf des von Ihnen festgelegten"
-" Datums auf ihr Zertifikat zugreifen."
+" Datums auf ihr Weiterbildungsnachweis zugreifen."
 
 #: cms/templates/settings.html:292
 msgid "Certificates Available Date"
-msgstr "Datum, ab dem die Zertifikate verfügbar sind"
+msgstr "Datum, ab dem die Weiterbildungsnachweise verfügbar sind"
 
 #: cms/templates/settings.html:303
 msgid "Enrollment Start Date"
@@ -21317,7 +21317,7 @@ msgstr "z.B. deinname (wird in Foren angezeigt)"
 
 #: lms/templates/signup_modal.html:51 lms/templates/signup_modal.html:70
 msgid "e.g. Your Name (for certificates)"
-msgstr "z.B. Max Mustermann (für Zertifikate)"
+msgstr "z.B. Max Mustermann (für Weiterbildungsnachweise)"
 
 #: lms/templates/signup_modal.html:53
 #, python-brace-format
@@ -23120,7 +23120,7 @@ msgstr "Laden Sie die Noten der Teilnehmer "
 
 #: lms/templates/certificates/_accomplishment-banner.html:50
 msgid "Print or share your certificate:"
-msgstr "Zertifikat drucken oder teilen:"
+msgstr "Weiterbildungsnachweis drucken oder teilen:"
 
 #: lms/templates/certificates/_accomplishment-banner.html:56
 msgid "Post on Facebook"
@@ -23148,7 +23148,7 @@ msgstr "Zu Mozilla Backpack hinzufügen"
 
 #: lms/templates/certificates/_accomplishment-banner.html:86
 msgid "Print Certificate"
-msgstr "Zertifikat drucken"
+msgstr "Weiterbildungsnachweis drucken"
 
 #: lms/templates/certificates/_accomplishment-header.html:9
 #, python-brace-format
@@ -23173,12 +23173,12 @@ msgid ""
 "For tips and tricks on printing your certificate, view the {link_start}Web "
 "Certificates help documentation{link_end}."
 msgstr ""
-"Für Tipps und Tricks zum Ausdrucken Ihres Zertifikates, besuchen Sie "
-"{link_start}Zertifikats-Hilfe{link_end}."
+"Für Tipps und Tricks zum Ausdrucken Ihres Weiterbildungsnachweises, besuchen Sie "
+"{link_start}Weiterbildungsnachweises-Hilfe{link_end}."
 
 #: lms/templates/certificates/invalid.html:9
 msgid "Cannot Find Certificate"
-msgstr "Zertifikat nicht auffindbar"
+msgstr "Weiterbildungsnachweis nicht auffindbar"
 
 #: lms/templates/certificates/invalid.html:11
 msgid ""
@@ -23186,18 +23186,18 @@ msgid ""
 "to validate a certificate, make sure that the URL or ID number is correct. "
 "If you are sure that the URL or ID number is correct, contact support."
 msgstr ""
-"Wir können ein Zertifikat mit dieser URL oder ID-Nummer nicht finden. Wenn "
-"Sie versuchen, ein Zertifikat zu validieren, stellen Sie sicher, dass die "
+"Wir können ein Weiterbildungsnachweis mit dieser URL oder ID-Nummer nicht finden. Wenn "
+"Sie versuchen, ein Weiterbildungsnachweis zu validieren, stellen Sie sicher, dass die "
 "URL oder ID-Nummer korrekt ist. Wenn Sie sicher sind, dass die URL oder ID-"
 "Nummer korrekt ist, wenden Sie sich an den Support."
 
 #: lms/templates/certificates/server-error.html:5
 msgid "Invalid Certificate Configuration."
-msgstr "Ungültige Zertifikatkonfiguration"
+msgstr "Ungültige Weiterbildungsnachweiskonfiguration"
 
 #: lms/templates/certificates/server-error.html:9
 msgid "There is a problem with this certificate."
-msgstr "Es gab ein Problem mit diesem Zertifikat."
+msgstr "Es gab ein Problem mit diesem Weiterbildungsnachweis."
 
 #: lms/templates/certificates/server-error.html:14
 msgid ""
@@ -23239,9 +23239,9 @@ msgid ""
 "else's certificate, please contact them to get an updated link."
 msgstr ""
 "Dieser Link ist nicht mehr gültig. Aber keine Sorge - dieses verifizierte "
-"Zertifikat ist immer noch gültig und zum Teilen verfügbar. Wenn dies Ihr "
-"Zertifikat ist, besuchen Sie bitte Ihr Dashboard, um einen neuen teilbaren "
-"Link zu erhalten. Wenn Sie das Zertifikat einer anderen Person anzeigen, "
+"Weiterbildungsnachweis ist immer noch gültig und zum Teilen verfügbar. Wenn dies Ihr "
+"Weiterbildungsnachweis ist, besuchen Sie bitte Ihr Dashboard, um einen neuen teilbaren "
+"Link zu erhalten. Wenn Sie das Weiterbildungsnachweis einer anderen Person anzeigen, "
 "kontaktieren Sie sie bitte, um einen aktualisierten Link zu erhalten."
 
 #: lms/templates/course_modes/error.html:13
@@ -23268,7 +23268,7 @@ msgid ""
 "Showcase a {link_start}verified certificate{link_end} of completion on your "
 "resumé to advance your career"
 msgstr ""
-"Präsentieren Sie ein {link_start}bestätigtes Abschlusszertifikat{link_end} "
+"Präsentieren Sie ein {link_start}bestätigtes Abschlussweiterbildungsnachweis{link_end} "
 "in Ihrem Lebenslauf, um Ihre Karriere voranzutreiben"
 
 #: lms/templates/course_modes/fbe.html:20
@@ -23347,7 +23347,7 @@ msgstr "Wählen Sie einen Pfad für Ihren Kurs in"
 
 #: lms/templates/course_modes/track_selection.html:114
 msgid "Earn a certificate"
-msgstr "Erhalten Sie ein Zertifikat"
+msgstr "Erhalten Sie ein Weiterbildungsnachweis"
 
 #: lms/templates/course_modes/track_selection.html:142
 #, python-brace-format
@@ -23707,7 +23707,7 @@ msgstr "Kursfortschritt für '{username}' ({email})"
 
 #: lms/templates/courseware/progress.html:85
 msgid "View Certificate"
-msgstr "Zertifikat anschauen"
+msgstr "Weiterbildungsnachweis anschauen"
 
 #: lms/templates/courseware/progress.html:85
 msgid "Opens in a new browser window"
@@ -23716,7 +23716,7 @@ msgstr "In einem neuen Browser Fenster öffnen"
 #: lms/templates/courseware/progress.html:87
 #: lms/templates/dashboard/_dashboard_certificate_information.html:97
 msgid "Request Certificate"
-msgstr "Zertifikat anfordern"
+msgstr "Weiterbildungsnachweis anfordern"
 
 #: lms/templates/courseware/progress.html:102
 msgid "Requirements for Course Credit"
@@ -23946,11 +23946,11 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_certificate_information.html:52
 #, python-brace-format
 msgid "Your grade and certificate will be ready after {date}."
-msgstr "Ihre Note und Ihr Zertifikat sind nach {date} fertig."
+msgstr "Ihre Note und Ihr Weiterbildungsnachweis sind nach {date} fertig."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:62
 msgid "Congratulations! Your certificate is ready."
-msgstr "Herzliche Glückwünsche! Ihr Zertifikat ist fertig."
+msgstr "Herzliche Glückwünsche! Ihr Weiterbildungsnachweis ist fertig."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:65
 #, python-brace-format
@@ -23959,7 +23959,7 @@ msgstr "Für ein {cert_name_short} benötigte Note:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:67
 msgid "Grade required to pass this course:"
-msgstr "Für ein Zertifikat benötigte Note:"
+msgstr "Für ein Weiterbildungsnachweis benötigte Note:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:72
 #, python-brace-format
@@ -24001,7 +24001,7 @@ msgid ""
 "Your certificate was not issued because you do not have a current verified "
 "identity with {platform_name}. "
 msgstr ""
-"Ihr Zertifikat konnte nicht ausgestellt werden, da Ihre Identität noch nicht"
+"Ihr Weiterbildungsnachweis konnte nicht ausgestellt werden, da Ihre Identität noch nicht"
 " auf {platform_name} verifiziert wurde."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:91
@@ -24011,7 +24011,7 @@ msgstr "Ihr {cert_name_short} wird erzeugt"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:103
 msgid "This link will open the certificate web view"
-msgstr "Dieser Link öffnet das Zertifikat in der Webansicht. "
+msgstr "Dieser Link öffnet das Weiterbildungsnachweis in der Webansicht. "
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:104
 #, python-brace-format
@@ -24024,7 +24024,7 @@ msgstr "Vervollständigen Sie unsere Kursrückmeldungsumfrage."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:123
 msgid "Add Certificate to LinkedIn Profile"
-msgstr "Zertifikat zum LinkedIn Profil hinzufügen"
+msgstr "Weiterbildungsnachweis zum LinkedIn Profil hinzufügen"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:129
 msgid "Share on LinkedIn"
@@ -24032,7 +24032,7 @@ msgstr "Auf LinkedIn teilen"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:142
 msgid "You are not yet eligible for a certificate."
-msgstr "Sie haben noch keinen Anspruch auf ein Zertifikat."
+msgstr "Sie haben noch keinen Anspruch auf ein Weiterbildungsnachweis."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:148
 msgid "This link will open the course progress page"
@@ -24180,7 +24180,7 @@ msgstr ""
 "{start_bold}Holen Sie das Beste aus Ihrem Kurs!{end_bold} Führen Sie ein "
 "Upgrade durch, um vollen Zugriff auf das Kursmaterial zu erhalten, benotete "
 "und nicht benotete Aufgaben freizuschalten und ein {link_start}verifiziertes"
-" Zertifikat{link_end} zu erhalten, das Sie in Ihrem Lebenslauf präsentieren "
+" Weiterbildungsnachweis{link_end} zu erhalten, das Sie in Ihrem Lebenslauf präsentieren "
 "können."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:396
@@ -24190,7 +24190,7 @@ msgid ""
 "{link_start}verified certificate{link_end} to showcase on your resumé."
 msgstr ""
 "{start_bold}Holen Sie das Beste aus Ihrem Kurs!{end_bold} Führen Sie ein "
-"Upgrade durch, um ein {link_start}verifiziertes Zertifikat{link_end} zu "
+"Upgrade durch, um ein {link_start}verifizierter Weiterbildungsnachweis{link_end} zu "
 "erhalten, das Sie in Ihrem Lebenslauf präsentieren können."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:411
@@ -25012,7 +25012,7 @@ msgid ""
 msgstr ""
 "EdX Financial Assistance ist ein Programm, das wir geschaffen haben, um "
 "Lernenden in allen finanziellen Situationen die Möglichkeit zu geben, nach "
-"erfolgreichem Abschluss eines edX-Kurses ein verifiziertes Zertifikat zu "
+"erfolgreichem Abschluss eines edX-Kurses ein verifizierter Weiterbildungsnachweis zu "
 "erhalten."
 
 #. Translators: This string will not be used in Open edX installations.
@@ -25022,7 +25022,7 @@ msgid ""
 "afford to pay the fee, please apply now. Please note that financial "
 "assistance is limited and may not be awarded to all eligible candidates."
 msgstr ""
-"Wenn Sie an einem verifizierten Zertifikat interessiert sind, es sich aber "
+"Wenn Sie an einem verifizierten Weiterbildungsnachweis interessiert sind, es sich aber "
 "nicht leisten können, die Gebühr zu bezahlen, bewerben Sie sich jetzt. Bitte"
 " beachten Sie, dass die finanzielle Unterstützung begrenzt ist und nicht "
 "allen geeigneten Kandidaten gewährt werden kann."
@@ -25047,7 +25047,7 @@ msgid ""
 msgstr ""
 "EdX ist bestrebt, es Ihnen zu ermöglichen, unabhängig von Ihrer finanziellen"
 " Situation qualitativ hochwertige Kurse von führenden Institutionen zu "
-"besuchen, ein verifiziertes Zertifikat zu erwerben und Ihren Erfolg mit "
+"besuchen, ein verifizierter Weiterbildungsnachweis zu erwerben und Ihren Erfolg mit "
 "anderen zu teilen."
 
 #. Translators: This string will not be used in Open edX installations. Do not
@@ -25148,20 +25148,20 @@ msgstr "Auslaufdatum hinzufügen"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:21
 msgid "Example Certificates"
-msgstr "Beispiel-Zertifikate"
+msgstr "Beispiel-Weiterbildungsnachweise"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:25
 msgid ""
 "This course is configured to generate PDF certificates and this certificate "
 "type is no longer supported. Example certificates cannot be generated."
 msgstr ""
-"Dieser Kurs ist zum Generieren von PDF-Zertifikaten konfiguriert und dieser "
-"Zertifikatstyp wird nicht mehr unterstützt. Beispielzertifikate können nicht"
+"Dieser Kurs ist zum Generieren von PDF-Weiterbildungsnachweisen konfiguriert und dieser "
+"Weiterbildungsnachweisestyp wird nicht mehr unterstützt. Beispielweiterbildungsnachweise können nicht"
 " generiert werden."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:32
 msgid "Generate Example Certificates"
-msgstr "Beispiel-Zertifikat für diesen Kurs erstellen"
+msgstr "Beispiel-Weiterbildungsnachweis für diesen Kurs erstellen"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:38
 msgid "Status:"
@@ -25170,17 +25170,17 @@ msgstr "Status:"
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:42
 #, python-brace-format
 msgid "Generating example {name} certificate"
-msgstr "Beispiel-Zertifikat {name}  wird generiert."
+msgstr "Beispiel-Weiterbildungsnachweis {name}  wird generiert."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:44
 #, python-brace-format
 msgid "Error generating example {name} certificate: {error}"
-msgstr "Fehler beim generieren des Beispiel-Zertifikates {name}: {error}"
+msgstr "Fehler beim generieren des Beispiel-Weiterbildungsnachweises {name}: {error}"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:46
 #, python-brace-format
 msgid "View {name} certificate"
-msgstr "{name} Zertifikat ansehen"
+msgstr "{name} Weiterbildungsnachweis ansehen"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:51
 msgid "Refresh Status"
@@ -25188,38 +25188,38 @@ msgstr "Status aktualisieren"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:60
 msgid "Student-Generated Certificates"
-msgstr "Generierte Zertifikate der Teilnehmer"
+msgstr "Generierte Weiterbildungsnachweise der Teilnehmer"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:65
 msgid "Disable Student-Generated Certificates"
-msgstr "Teilnehmer nicht erlauben Zertifikate zu generieren"
+msgstr "Teilnehmer nicht erlauben Weiterbildungsnachweise zu generieren"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:71
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:77
 msgid "Enable Student-Generated Certificates"
-msgstr "Teilnehmer erlauben Zertifikate zu generieren"
+msgstr "Teilnehmer erlauben Weiterbildungsnachweise zu generieren"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:75
 msgid ""
 "You must successfully generate example certificates before you enable "
 "student-generated certificates."
 msgstr ""
-"Sie müssen Musterzertifikate erfolgreich generieren, bevor Sie von Studenten"
-" generierte Zertifikate aktivieren können."
+"Sie müssen Musterweiterbildungsnachweise erfolgreich generieren, bevor Sie von Studenten"
+" generierte Weiterbildungsnachweise aktivieren können."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:86
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:90
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:95
 msgid "Generate Certificates"
-msgstr "Generiere Zertifikate"
+msgstr "Generiere Weiterbildungsnachweise"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:89
 msgid ""
 "Course certificate generation requires an activated web certificate "
 "configuration."
 msgstr ""
-"Die Generierung von Kurszertifikaten erfordert die Aktivierung der "
-"Zertifikat-Konfiguration."
+"Die Generierung von Kursweiterbildungsnachweisen erfordert die Aktivierung der "
+"Weiterbildungsnachweis-Konfiguration."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:93
 msgid ""
@@ -25227,9 +25227,9 @@ msgid ""
 "Certificates. You do not need to do this if you have set the certificate "
 "mode to on-demand generation."
 msgstr ""
-"Wenn Sie bereit sind, Zertifikate für Ihren Kurs zu generieren, klicken Sie "
-"auf Zertifikate generieren. Dies ist nicht erforderlich, wenn Sie den "
-"Zertifikatsmodus auf On-Demand-Generierung eingestellt haben."
+"Wenn Sie bereit sind, Weiterbildungsnachweise für Ihren Kurs zu generieren, klicken Sie "
+"auf Weiterbildungsnachweise generieren. Dies ist nicht erforderlich, wenn Sie den "
+"Weiterbildungsnachweisesmodus auf On-Demand-Generierung eingestellt haben."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:104
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:142
@@ -25258,7 +25258,7 @@ msgid ""
 "To regenerate certificates for your course, choose the learners who will "
 "receive regenerated certificates and click Regenerate Certificates."
 msgstr ""
-"Wählen Sie Teilnehmer aus, welche ein Zertifikat erhalten sollen und klicken"
+"Wählen Sie Teilnehmer aus, welche ein Weiterbildungsnachweis erhalten sollen und klicken"
 " Sie auf den untenstehenden Button."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:123
@@ -25270,40 +25270,40 @@ msgstr "Lerntypen für die Erneuerung auswählen"
 msgid ""
 "Regenerate for learners who have already received certificates. ({count})"
 msgstr ""
-"Zertifikate erneut für die Teilnehmer erstellen, welche bereits eins "
+"Weiterbildungsnachweise erneut für die Teilnehmer erstellen, welche bereits eins "
 "erhalten haben.  ({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:133
 #, python-brace-format
 msgid "Regenerate for learners who have not received certificates. ({count})"
 msgstr ""
-"Zertifikate erneut für die Teilnehmer erstellen, welche bisher noch keins "
+"Weiterbildungsnachweise erneut für die Teilnehmer erstellen, welche bisher noch keins "
 "erhalten haben. ({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:139
 #, python-brace-format
 msgid "Regenerate for learners with audit passing state. ({count})"
 msgstr ""
-"Zertifikate erneut für die Teilnehmer erstellen, welche als Gasthörer "
+"Weiterbildungsnachweise erneut für die Teilnehmer erstellen, welche als Gasthörer "
 "eingeschrieben sind. ({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:145
 #, python-brace-format
 msgid "Regenerate for learners with audit not passing state. ({count})"
 msgstr ""
-"Zertifikate erneut für die Teilnehmer erstellen, welche als Gasthörer "
+"Weiterbildungsnachweise erneut für die Teilnehmer erstellen, welche als Gasthörer "
 "eingeschrieben sind und nicht bestanden haben. ({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:151
 #, python-brace-format
 msgid "Regenerate for learners in an error state. ({count})"
 msgstr ""
-"Zertifikate erneut für die Teilnehmer erstellen, welche im Fehler-Modus "
+"Weiterbildungsnachweise erneut für die Teilnehmer erstellen, welche im Fehler-Modus "
 "sind. ({count}) "
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:162
 msgid "Certificate Generation History"
-msgstr "Historie der bisher erstellten Zertifikate"
+msgstr "Historie der bisher erstellten Weiterbildungsnachweise"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:167
 msgid "Task name"
@@ -25321,14 +25321,14 @@ msgid ""
 "Certificates below."
 msgstr ""
 "Hier können Sie Ausnahmen festlegen, beispielsweise für Teilnehmer Ihres "
-"Kurses, welche sich nicht für ein Zertifikat qualifizieren konnten oder im "
+"Kurses, welche sich nicht für ein Weiterbildungsnachweis qualifizieren konnten oder im "
 "Gasthörer-Modus eingeschrieben sind. Nachdem Sie die jeweiligen Teilnehmer "
 "über die Eingabefelder unten hinzugefügt haben, klicken Sie auf den "
 "untenstehenden Button."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:209
 msgid "Invalidate Certificates"
-msgstr "Zertifikate entwerten"
+msgstr "Weiterbildungsnachweise entwerten"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:8
 msgid "Enrollment Information"
@@ -25579,16 +25579,16 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/certificates.html:31
 msgid "Click to list certificates that are issued for this course:"
 msgstr ""
-"Klicken Sie hier für eine Liste aller ausgegebenen Zertifikate für diesen "
+"Klicken Sie hier für eine Liste aller ausgegebenen Weiterbildungsnachweise für diesen "
 "Kurs: "
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:86
 msgid "View Certificates Issued"
-msgstr "Ausgegebene Zertifikate anschauen"
+msgstr "Ausgegebene Weiterbildungsnachweise anschauen"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:87
 msgid "Download CSV of Certificates Issued"
-msgstr "Download CSV ausgestellter Zertifikate"
+msgstr "Download CSV ausgestellter Weiterbildungsnachweise"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:94
 msgid ""
@@ -27310,7 +27310,7 @@ msgstr "Teilnehmer Support"
 
 #: lms/templates/support/certificates.html:26
 msgid "Student Support: Certificates"
-msgstr "Teilnehmer Support: Zertifikate"
+msgstr "Teilnehmer Support: Weiterbildungsnachweise"
 
 #: lms/templates/support/contact_us.html:16
 #, python-brace-format
@@ -27428,7 +27428,7 @@ msgid ""
 "Please read {a_start}our FAQs to view common questions about our "
 "certificates{a_end}."
 msgstr ""
-"Bitte lesen Sie {a_start}unsere FAQs, um allgemeine Fragen zu Zertifikaten "
+"Bitte lesen Sie {a_start}unsere FAQs, um allgemeine Fragen zu Weiterbildungsnachweisen "
 "anzuschauen{a_end}."
 
 #: lms/templates/verify_student/incourse_reverify.html:11
@@ -27458,7 +27458,7 @@ msgid ""
 "The deadline to upgrade to a verified certificate for this course has "
 "passed."
 msgstr ""
-"Die Frist für ein Upgrade auf ein verifiziertes Zertifikat für diesen Kurs "
+"Die Frist für ein Upgrade auf ein verifizierter Weiterbildungsnachweis für diesen Kurs "
 "ist bereits abgelaufen."
 
 #: lms/templates/verify_student/pay_and_verify.html:16
@@ -27697,7 +27697,7 @@ msgstr "Beispiel: Susi Sorglos"
 #: themes/stanford-style/lms/templates/register-form.html:144
 msgid "Your legal name, used for any certificates you earn."
 msgstr ""
-"Ihr vollständiger Name, der auch auf den Teilnahmezertifikaten erscheinen "
+"Ihr vollständiger Name, der auch auf den Teilnahmeweiterbildungsnachweisen erscheinen "
 "wird."
 
 #: themes/stanford-style/lms/templates/register-form.html:94

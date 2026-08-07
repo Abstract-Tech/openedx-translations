@@ -74,7 +74,7 @@ msgstr "Dieser Link wird in einem Dialogfenster geöffnet"
 
 #: cms/static/js/certificates/models/certificate.js:78
 msgid "Certificate name is required."
-msgstr "Zertifikatname wird benötigt."
+msgstr "Weiterbildungsnachweisname wird benötigt."
 
 #: cms/static/js/certificates/models/certificate.js:87
 msgid "Signatory field(s) has invalid data."
@@ -82,26 +82,26 @@ msgstr "Signaturfeld(er) mit ungültigen Daten."
 
 #: cms/static/js/certificates/views/certificate_details.js:46
 msgid "Edit this certificate?"
-msgstr "Dieses Zertifikat bearbeiten?"
+msgstr "Dieses Weiterbildungsnachweis bearbeiten?"
 
 #: cms/static/js/certificates/views/certificate_details.js:47
 msgid ""
 "This certificate has already been activated and is live. Are you sure you "
 "want to continue editing?"
 msgstr ""
-"Dieses Zertifikat wurde bereits aktiviert und wird verwendet. Bist Du "
+"Dieses Weiterbildungsnachweis wurde bereits aktiviert und wird verwendet. Bist Du "
 "sicher, dass Du mit der Bearbeitung fortsetzen willst?"
 
 #: cms/static/js/certificates/views/certificate_details.js:48
 msgid "Yes, allow edits to the active Certificate"
-msgstr "Ja, erlaube das Editieren von aktiven Zertifikaten"
+msgstr "Ja, erlaube das Editieren von aktiven Weiterbildungsnachweisen"
 
 #. Translators: This field pertains to the custom label for a certificate.
 #. Translators: this refers to a collection of certificates.
 #: cms/static/js/certificates/views/certificate_item.js:22
 #: cms/static/js/certificates/views/certificates_list.js:17
 msgid "certificate"
-msgstr "Zertifikat"
+msgstr "Weiterbildungsnachweis"
 
 #: cms/static/js/certificates/views/certificate_preview.js:42
 msgid "Deactivating"
@@ -109,13 +109,13 @@ msgstr "Deaktivieren"
 
 #: cms/static/js/certificates/views/certificates_list.js:19
 msgid "Set up your certificate"
-msgstr "Richten Sie sich Ihr Zertifikat ein"
+msgstr "Richten Sie sich Ihr Weiterbildungsnachweis ein"
 
 #. Translators: This line refers to the initial state of the form when no data
 #. has been inserted
 #: cms/static/js/certificates/views/certificates_list.js:22
 msgid "You have not created any certificates yet."
-msgstr "Sie haben bislang keine Zertifikate erhalten."
+msgstr "Sie haben bislang keine Weiterbildungsnachweise erhalten."
 
 #: cms/static/js/certificates/views/signatory_editor.js:134
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
@@ -443,13 +443,13 @@ msgstr ""
 #: cms/static/js/models/settings/course_details.js:83
 msgid "The certificate available date must be later than the course end date."
 msgstr ""
-"Das Austellungsdatum des Zertifikates muss später gesetzt werden als das "
+"Das Austellungsdatum des Weiterbildungsnachweises muss später gesetzt werden als das "
 "Enddatum des Kurses."
 
 #: cms/static/js/models/settings/course_details.js:93
 msgid "The certificate display behavior must be one of: {behavior_options}"
 msgstr ""
-"Das Anzeigeverhalten des Zertifikats muss eines der folgenden sein: "
+"Das Anzeigeverhalten des Weiterbildungsnachweises muss eines der folgenden sein: "
 "{behavior_options}"
 
 #: cms/static/js/models/settings/course_details.js:108
@@ -457,8 +457,8 @@ msgid ""
 "The certificates display behavior must be {valid_option} if certificate "
 "available date is set."
 msgstr ""
-"Das Anzeigeverhalten der Zertifikate muss {valid_option} sein, wenn das "
-"Verfügbarkeitsdatum des Zertifikats festgelegt ist."
+"Das Anzeigeverhalten der Weiterbildungsnachweise muss {valid_option} sein, wenn das "
+"Verfügbarkeitsdatum des Weiterbildungsnachweises festgelegt ist."
 
 #: cms/static/js/models/settings/course_details.js:118
 msgid "Key should only contain letters, numbers, _, or -"
@@ -2541,7 +2541,7 @@ msgstr "Rechnungsstellung / Zahlungsoptionen"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:55
 msgid "Certificates"
-msgstr "Zertifikate"
+msgstr "Weiterbildungsnachweise"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:56
 msgid "Course Content"
@@ -3274,14 +3274,14 @@ msgstr ""
 #: lms/static/js/certificates/views/certificate_allowlist.js:59
 msgid "Student Removed from certificate allowlist successfully."
 msgstr ""
-"Student wurde erfolgreich von der Zulassungsliste für Zertifikate entfernt."
+"Student wurde erfolgreich von der Zulassungsliste für Weiterbildungsnachweise entfernt."
 
 #: lms/static/js/certificates/views/certificate_allowlist.js:69
 msgid ""
 "Could not find Certificate Exception in the allowlist. Please refresh the "
 "page and try again"
 msgstr ""
-"Zertifikatsausnahme konnte nicht in der Zulassungsliste gefunden werden. "
+"Weiterbildungsnachweisesausnahme konnte nicht in der Zulassungsliste gefunden werden. "
 "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut"
 
 #: lms/static/js/certificates/views/certificate_allowlist.js:106
@@ -3302,7 +3302,7 @@ msgid ""
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
 "<%- user %> wurde erfolgreich in die Ausnahmeliste aufgenommen. Klicken Sie "
-"unten auf Ausnahmezertifikat generieren, um das Zertifikat zu senden."
+"unten auf Ausnahmeweiterbildungsnachweis generieren, um das Weiterbildungsnachweis zu senden."
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
 msgid " learners were successfully added to exception list"
@@ -3373,7 +3373,7 @@ msgid ""
 " learners have an active certificate invalidation in this course and have "
 "not been added to the exception list"
 msgstr ""
-"Lernende haben in diesem Kurs eine aktive Zertifikatsentwertung und wurden "
+"Lernende haben in diesem Kurs eine aktive Weiterbildungsnachweisesentwertung und wurden "
 "nicht zur Ausnahmeliste hinzugefügt"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
@@ -3381,7 +3381,7 @@ msgid ""
 " learner has an active certificate invalidation in this course and has not "
 "been added to the exception list"
 msgstr ""
-"Der Lernende hat in diesem Kurs eine aktive Zertifikatsentwertung und wurde "
+"Der Lernende hat in diesem Kurs eine aktive Weiterbildungsnachweisesentwertung und wurde "
 "nicht zur Ausnahmeliste hinzugefügt"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
@@ -3401,20 +3401,20 @@ msgid ""
 "Certificate of <%= user %> has already been invalidated. Please check your "
 "spelling and retry."
 msgstr ""
-"Das Zertifikat für den Benutzer <%= user %> wurde bereits entwertet. Bitte "
+"Das Weiterbildungsnachweis für den Benutzer <%= user %> wurde bereits entwertet. Bitte "
 "kontrollieren Sie Ihre Eingabe."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:59
 msgid "Certificate has been successfully invalidated for <%= user %>."
 msgstr ""
-"Das Zertifikat für den Benutzer <%= user %> wurde erfolgreich entwertet."
+"Das Weiterbildungsnachweis für den Benutzer <%= user %> wurde erfolgreich entwertet."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:88
 msgid ""
 "The certificate for this learner has been re-validated and the system is re-"
 "running the grade for this learner."
 msgstr ""
-"Das Zertifikat für diesen Lerner wurde erneut validiert und das System führt"
+"Das Weiterbildungsnachweis für diesen Lerner wurde erneut validiert und das System führt"
 " die Note für diesen Lerner erneut durch."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:107
@@ -3422,7 +3422,7 @@ msgid ""
 "Could not find Certificate Invalidation in the list. Please refresh the page"
 " and try again"
 msgstr ""
-"Die Zertifikatsinvalidierung konnte in der Liste nicht gefunden werden. "
+"Die Weiterbildungsnachweisesinvalidierung konnte in der Liste nicht gefunden werden. "
 "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
 
 #: lms/static/js/course_survey.js:76
@@ -3859,34 +3859,34 @@ msgstr "Kohort nicht ausgewählt"
 #: lms/static/js/instructor_dashboard/certificates.js:20
 msgid "Allow students to generate certificates for this course?"
 msgstr ""
-"Dürfen Teilnehmer sich selbst Zertifikate für diesen Kurs ausstellen? "
+"Dürfen Teilnehmer sich selbst Weiterbildungsnachweise für diesen Kurs ausstellen? "
 
 #: lms/static/js/instructor_dashboard/certificates.js:22
 msgid "Prevent students from generating certificates in this course?"
 msgstr ""
-"Möchten Sie die Teilnehmer daran hindern Zertifikate für diesen Kurs zu "
+"Möchten Sie die Teilnehmer daran hindern Weiterbildungsnachweise für diesen Kurs zu "
 "generieren?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:45
 msgid "Start generating certificates for all students in this course?"
 msgstr ""
-"Möchten Sie damit beginnen, Zertifikate für alle Teilnehmer dieses Kurses zu"
+"Möchten Sie damit beginnen, Weiterbildungsnachweise für alle Teilnehmer dieses Kurses zu"
 " erstellen?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:61
 msgid "Error while generating certificates. Please try again."
 msgstr ""
-"Fehler bei der Erstellung der Zertifikate. Bitte versuchen Sie es noch "
+"Fehler bei der Erstellung der Weiterbildungsnachweise. Bitte versuchen Sie es noch "
 "einmal."
 
 #: lms/static/js/instructor_dashboard/certificates.js:71
 msgid "Start regenerating certificates for students in this course?"
-msgstr "Möchten Sie Zertifikate für Teilnehmer dieses Kurses Regenerieren?"
+msgstr "Möchten Sie Weiterbildungsnachweise für Teilnehmer dieses Kurses Regenerieren?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:98
 msgid "Error while regenerating certificates. Please try again."
 msgstr ""
-"Fehler bei der Neugenerierung von Zertifikaten. Bitte versuchen Sie es "
+"Fehler bei der Neugenerierung von Weiterbildungsnachweisen. Bitte versuchen Sie es "
 "erneut."
 
 #: lms/static/js/instructor_dashboard/data_download.js:31
@@ -3897,7 +3897,7 @@ msgstr "Daten werden geladen..."
 #: lms/static/js/instructor_dashboard/data_download.js:38
 #: lms/static/js/instructor_dashboard/data_download_2.js:51
 msgid "Error getting issued certificates list."
-msgstr "Fehler bei der Ausgabe der Zertifikatsliste."
+msgstr "Fehler bei der Ausgabe der Weiterbildungsnachweisesliste."
 
 #: lms/static/js/instructor_dashboard/data_download.js:124
 msgid "Error generating anonymous IDs. Please try again."
@@ -4791,7 +4791,7 @@ msgstr "{type} Fortschritt"
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:65
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:83
 msgid "Earned Certificates"
-msgstr "Erhaltene Zertifikate"
+msgstr "Erhaltene Weiterbildungsnachweise"
 
 #: lms/static/js/learner_dashboard/views/program_details_view.js:142
 msgid "Enrolled"
@@ -4877,7 +4877,7 @@ msgid ""
 "credentials. You can make a copy of these for your records before proceeding"
 " with deletion."
 msgstr ""
-"Sie verlieren möglicherweise auch den Zugriff auf verifizierte Zertifikate "
+"Sie verlieren möglicherweise auch den Zugriff auf verifizierte Weiterbildungsnachweise "
 "und andere Programmanmeldeinformationen. Sie können diese für Ihre "
 "Unterlagen kopieren, bevor Sie mit dem Löschen fortfahren."
 
@@ -5188,7 +5188,7 @@ msgstr "Fotos konnten nicht eingereicht werden"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:50
 msgid "Professional Education Verified Certificate"
-msgstr "Berufsbildendes verifiziertes Zertifikat"
+msgstr "Berufsbildendes verifizierter Weiterbildungsnachweis"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:52
 msgid "Professional Education"
@@ -5196,11 +5196,11 @@ msgstr "Berufsbildung"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:55
 msgid "Verified Certificate upgrade"
-msgstr "Upgrade verifizierter Zertifikate"
+msgstr "Upgrade verifizierter Weiterbildungsnachweise"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:57
 msgid "Verified Certificate"
-msgstr "Verifiziertes Zertifikat"
+msgstr "Verifiziertes Weiterbildungsnachweis"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:64
 msgid "Checkout"
@@ -7266,7 +7266,7 @@ msgstr "ID"
 #: cms/templates/js/certificate-details.underscore:18
 #: cms/templates/js/certificate-editor.underscore:23
 msgid "Certificate Details"
-msgstr "Zertifikat Details"
+msgstr "Weiterbildungsnachweis Details"
 
 #: cms/templates/js/certificate-details.underscore:23
 #: cms/templates/js/certificate-editor.underscore:26
@@ -7289,7 +7289,7 @@ msgstr "Kursnummer Überschreibung"
 #: cms/templates/js/certificate-details.underscore:53
 #: cms/templates/js/certificate-editor.underscore:36
 msgid "Certificate Signatories"
-msgstr "Zertifikatsunterzeichner"
+msgstr "Weiterbildungsnachweisesunterzeichner"
 
 #: cms/templates/js/certificate-details.underscore:55
 #: cms/templates/js/certificate-editor.underscore:38
@@ -7300,26 +7300,26 @@ msgid ""
 msgstr ""
 "Es wird dringend empfohlen, dass Sie vier oder weniger Unterzeichner "
 "festlegen. Wenn Sie weitere Unterzeichner hinzufügen, beachten Sie die "
-"Vorschau des Ausdrucks des Zertifikats. Gehen Sie sicher, dass das "
-"Zertifikat richtig, passend, auf einer Seite ausgedruckt wird."
+"Vorschau des Ausdrucks des Weiterbildungsnachweises. Gehen Sie sicher, dass das "
+"Weiterbildungsnachweis richtig, passend, auf einer Seite ausgedruckt wird."
 
 #: cms/templates/js/certificate-editor.underscore:11
 msgid "Certificate Information"
-msgstr "Zertifikatinformationen"
+msgstr "Weiterbildungsnachweisinformationen"
 
 #: cms/templates/js/certificate-editor.underscore:13
 msgid "Certificate Name"
-msgstr "Zertifikatname"
+msgstr "Weiterbildungsnachweisname"
 
 #: cms/templates/js/certificate-editor.underscore:14
 #: cms/templates/js/certificate-editor.underscore:15
 msgid "Name of the certificate"
-msgstr "Name des Zertifikats"
+msgstr "Name des Weiterbildungsnachweises"
 
 #: cms/templates/js/certificate-editor.underscore:19
 #: cms/templates/js/certificate-editor.underscore:20
 msgid "Description of the certificate"
-msgstr "Beschreibung des Zertifikats"
+msgstr "Beschreibung des Weiterbildungsnachweises"
 
 #: cms/templates/js/certificate-editor.underscore:31
 msgid "Course title"
@@ -7330,7 +7330,7 @@ msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
 msgstr ""
-"Legen Sie einen alternativen Kurstitel fest der auf den Zertifikaten "
+"Legen Sie einen alternativen Kurstitel fest der auf den Weiterbildungsnachweisen "
 "erscheint. Lassen Sie dieses Feld leer, falls Sie den offiziellen Kurstitel "
 "nutzen wollen."
 
@@ -7340,7 +7340,7 @@ msgstr "Weitere Unterzeichner hinzufügen"
 
 #: cms/templates/js/certificate-editor.underscore:42
 msgid "(Add signatories for a certificate)"
-msgstr "(Füge Unterzeichner für ein Zertifikat hinzu)"
+msgstr "(Füge Unterzeichner für ein Weiterbildungsnachweis hinzu)"
 
 #: cms/templates/js/certificate-web-preview.underscore:1
 msgid "Choose mode"
@@ -7348,7 +7348,7 @@ msgstr "Modus auswählen"
 
 #: cms/templates/js/certificate-web-preview.underscore:8
 msgid "Preview Certificate"
-msgstr "Vorschau des Zertifikats"
+msgstr "Vorschau des Weiterbildungsnachweises"
 
 #: cms/templates/js/certificate-web-preview.underscore:13
 msgid "Activate"
@@ -8606,7 +8606,7 @@ msgstr "Bild der Unterschrift"
 
 #: cms/templates/js/signatory-editor.underscore:11
 msgid "Certificate Signatory Configuration"
-msgstr "Zertifikats-Unterzeichner-Konfiguration"
+msgstr "Weiterbildungsnachweises-Unterzeichner-Konfiguration"
 
 #: cms/templates/js/signatory-editor.underscore:13
 msgid "Name "
@@ -8618,7 +8618,7 @@ msgstr "Name des Unterzeichners"
 
 #: cms/templates/js/signatory-editor.underscore:15
 msgid "The name of this signatory as it should appear on certificates."
-msgstr "Der Name des Unterzeichners soll auf dem Zertifikat erscheinen."
+msgstr "Der Name des Unterzeichners soll auf dem Weiterbildungsnachweis erscheinen."
 
 #: cms/templates/js/signatory-editor.underscore:21
 msgid "Title "
@@ -8633,7 +8633,7 @@ msgid ""
 "Titles more than 100 characters may prevent students from printing their "
 "certificate on a single page."
 msgstr ""
-"Titel mit mehr als 100 Zeichen können dazu führen, dass Zertifikate später "
+"Titel mit mehr als 100 Zeichen können dazu führen, dass Weiterbildungsnachweise später "
 "nicht auf eine DINA4 Seite passen."
 
 #: cms/templates/js/signatory-editor.underscore:29
@@ -8650,7 +8650,7 @@ msgid ""
 "certificates."
 msgstr ""
 "Die Organisation, zu welcher der Unterzeichner gehört, soll auf dem "
-"Zertifikat erscheinen."
+"Weiterbildungsnachweis erscheinen."
 
 #: cms/templates/js/signatory-editor.underscore:43
 msgid "Path to Signature Image"
@@ -9700,7 +9700,7 @@ msgstr "Erneuern"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:29
 msgid "Regenerate the user's certificate"
-msgstr "Zertifikat für den Nutzer erneut generieren"
+msgstr "Weiterbildungsnachweis für den Nutzer erneut generieren"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:35
 msgid "Generate"
@@ -9708,7 +9708,7 @@ msgstr "Erstellen"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:36
 msgid "Generate the user's certificate"
-msgstr "Zertifikat für den Nutzer erstellen"
+msgstr "Weiterbildungsnachweis für den Nutzer erstellen"
 
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:4
 msgid "Current enrollment mode:"
@@ -10212,16 +10212,16 @@ msgstr "Zur Ausnahmeliste hinzufügen"
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:1
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:13
 msgid "Generate Exception Certificates"
-msgstr "Ausnahmezertifikate erstellen"
+msgstr "Ausnahmeweiterbildungsnachweise erstellen"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:3
 msgid "Certificate exceptions group selection"
-msgstr "Auswahl der Zertifikatsausnahmegruppe"
+msgstr "Auswahl der Weiterbildungsnachweisesausnahmegruppe"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:6
 msgid "All users on the Exception list who do not yet have a certificate"
 msgstr ""
-"Alle Teilnehmer der Ausnahmeliste, welche bisher noch kein Zertifikat "
+"Alle Teilnehmer der Ausnahmeliste, welche bisher noch kein Weiterbildungsnachweis "
 "erhalten haben."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:10
@@ -10238,7 +10238,7 @@ msgstr "Ausnahmegenehmigung"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:23
 msgid "Certificate Generated"
-msgstr "Zertifikat erstellt"
+msgstr "Weiterbildungsnachweis erstellt"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:24
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:31
@@ -10276,18 +10276,18 @@ msgid ""
 "email address below."
 msgstr ""
 "Fügen Sie über die untenstehenden Eingabefelder den Benutzername oder die "
-"E-Mail Adresse des Teilnehmers hinzu, für welchen Sie die Zertifikate "
+"E-Mail Adresse des Teilnehmers hinzu, für welchen Sie die Weiterbildungsnachweise "
 "ungültig machen möchten."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:11
 msgid "Add notes about this learner"
 msgstr ""
-"Fügen Sie den Grund ein, warum der Teilnehmer ein ungültiges Zertifikat "
+"Fügen Sie den Grund ein, warum der Teilnehmer ein ungültiges Weiterbildungsnachweis "
 "erhalten soll."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:16
 msgid "Invalidate Certificate"
-msgstr "Zertifikat entwerten"
+msgstr "Weiterbildungsnachweis entwerten"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:28
 msgid "Student"
@@ -10541,11 +10541,11 @@ msgstr "Gültig"
 #: lms/templates/learner_dashboard/certificate_status.underscore:2
 #: lms/templates/learner_dashboard/upgrade_message.underscore:2
 msgid "Certificate Status:"
-msgstr "Zertifikat Status:"
+msgstr "Weiterbildungsnachweis Status:"
 
 #: lms/templates/learner_dashboard/certificate_status.underscore:4
 msgid "Certificate Purchased"
-msgstr "Zertifikat gekauft"
+msgstr "Weiterbildungsnachweis gekauft"
 
 #: lms/templates/learner_dashboard/course_card.underscore:21
 msgid "Change or Leave Session"
@@ -10676,13 +10676,13 @@ msgstr "%(programName)s Home Page."
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
 #, python-brace-format
 msgid "Your {program} Certificate"
-msgstr "Ihr {program} Zertifikat"
+msgstr "Ihr {program} Weiterbildungsnachweis"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
 #, python-format
 msgid "Open the certificate you earned for the %(title)s program."
 msgstr ""
-"Öffnen Sie das Zertifikat, welches Sie für den Kurs %(title)s erhalten "
+"Öffnen Sie das Weiterbildungsnachweis, welches Sie für den Kurs %(title)s erhalten "
 "haben."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
@@ -10751,7 +10751,7 @@ msgid ""
 msgstr ""
 "Verfolgen und planen Sie Ihren Fortschritt durch die %(count)s-Kurse in "
 "diesem Programm. Um das Programm abzuschließen, müssen Sie für jeden Kurs "
-"ein verifiziertes Zertifikat erwerben."
+"ein verifizierter Weiterbildungsnachweis erwerben."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
 #: lms/templates/learner_dashboard/program_details_view.underscore:28
@@ -10812,7 +10812,7 @@ msgid ""
 "towards flexible, rigorous, and affordable masters degrees from the world’s "
 "leading universities."
 msgstr ""
-"Der erfolgreiche Abschluss des %(org)s %(program)s-Zertifikats kann für "
+"Der erfolgreiche Abschluss des %(org)s %(program)s-Weiterbildungsnachweises kann für "
 "flexible, anspruchsvolle und erschwingliche Masterabschlüsse an den weltweit"
 " führenden Universitäten angewendet werden."
 
@@ -10825,7 +10825,7 @@ msgid ""
 msgstr ""
 "Verfolgen und planen Sie Ihre Fortschritte in den %(count)s-Kursen dieses "
 "Programms. Um das Programm abzuschließen, müssen Sie für jeden Kurs ein "
-"verifiziertes Zertifikat erwerben."
+"verifizierter Weiterbildungsnachweis erwerben."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
 #, python-brace-format
@@ -10838,7 +10838,7 @@ msgstr "Meine Programme"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:3
 msgid "Needs verified certificate "
-msgstr "Benötigt ein verifiziertes Zertifikat"
+msgstr "Benötigt ein verifizierter Weiterbildungsnachweis"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:9
 msgid "Upgrade to Verified"
@@ -11096,7 +11096,7 @@ msgid ""
 msgstr ""
 "Danke für das Einsenden ihre Fotos. Wir werden diese zeitnah prüfen. Sie "
 "können sich jetzt für jeden von %(platformName)s Kurse mit geprüftem "
-"Zertifikat anmelden. Ihre Überprüfung ist gültig für ein Jahr. Nach einem "
+"Weiterbildungsnachweis anmelden. Ihre Überprüfung ist gültig für ein Jahr. Nach einem "
 "Jahr müssen Sie ihre Fotos wieder zur Überprüfungeinsenden. "
 
 #: lms/templates/verify_student/error.underscore:6
@@ -11185,7 +11185,7 @@ msgid ""
 "validity of your certificate."
 msgstr ""
 "Wir nutzen Ihre Fotos , um Ihre Identität zu bestätigen und die Gültigkeit "
-"Ihres Zertifikates zu grantieren."
+"Ihres Weiterbildungsnachweises zu grantieren."
 
 #: lms/templates/verify_student/face_photo_step.underscore:46
 #: lms/templates/verify_student/id_photo_step.underscore:41
@@ -11480,7 +11480,7 @@ msgid ""
 msgstr ""
 "Sie können jetzt bezahlen, auch wenn Sie die folgenden Elemente nicht zur "
 "Verfügung haben, aber Sie müssen diese bis zum {date} haben, um sich für ein"
-" verifiziertes Zertifikat zu qualifizieren."
+" verifizierter Weiterbildungsnachweis zu qualifizieren."
 
 #: lms/templates/verify_student/make_payment_step.underscore:44
 #, python-brace-format
@@ -11509,7 +11509,7 @@ msgid ""
 "you will need to have these to qualify to earn a Verified Certificate."
 msgstr ""
 "Sie können jetzt zahlen, auch wenn Sie nicht die folgenden Elemente zur "
-"Verfügung haben, aber Sie werden sie brauche um ein geprüftes Zertifikat zu "
+"Verfügung haben, aber Sie werden sie brauche um ein geprüftes Weiterbildungsnachweis zu "
 "erwerben."
 
 #: lms/templates/verify_student/make_payment_step.underscore:65
@@ -11549,7 +11549,7 @@ msgstr "Konto nicht aktiviert"
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
 #, python-brace-format
 msgid "Upgrade to a Verified Certificate for {courseName}"
-msgstr "Upgrade auf ein verifiziertes Zertifikat für {courseName}"
+msgstr "Upgrade auf ein verifizierter Weiterbildungsnachweis für {courseName}"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
 msgid ""
@@ -11569,25 +11569,25 @@ msgstr "Gesamt"
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
 #, python-brace-format
 msgid "Professional Certificate for {courseName}"
-msgstr "Professionelles Zertifikat für {courseName}"
+msgstr "Professionelles Weiterbildungsnachweis für {courseName}"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
 #, python-brace-format
 msgid "Verified Certificate for {courseName}"
-msgstr "Verifiziertes Zertifikat für {courseName}"
+msgstr "Verifiziertes Weiterbildungsnachweis für {courseName}"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
 #, python-brace-format
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
 msgstr ""
-"Um ein Zertifikat zu erhalten, müssen Sie auch Ihre Identität verifizieren "
+"Um ein Weiterbildungsnachweis zu erhalten, müssen Sie auch Ihre Identität verifizieren "
 "vor dem {date}."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
 msgid "To receive a certificate, you must also verify your identity."
 msgstr ""
-"Um ein Zertifikat zu erhalten, müssen Sie auch Ihre Identität verifizieren."
+"Um ein Weiterbildungsnachweis zu erhalten, müssen Sie auch Ihre Identität verifizieren."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
 msgid ""
