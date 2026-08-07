@@ -751,7 +751,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:115
 msgid "must have name of the certificate"
-msgstr "muss den Namen des Weiterbildungsnachweises haben"
+msgstr "muss den Namen des Weiterbildungsnachweise haben"
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:200
 #, python-brace-format
@@ -3471,7 +3471,7 @@ msgid ""
 msgstr ""
 "Eine menschenlesbare Beschreibung des Beispielweiterbildungsnachweises. Zum Beispiel "
 "\"verifiziert\" oder \"Auszeichnung\", um zwischen zwei Arten von "
-"Weiterbildungsnachweisen zu unterscheiden."
+"Weiterbildungsnachweise zu unterscheiden."
 
 #: lms/djangoapps/certificates/models.py:847
 msgid ""
@@ -3491,7 +3491,7 @@ msgid ""
 msgstr ""
 "Ein Zugriffsschlüssel für das Beispielweiterbildungsnachweis. Dies wird verwendet, wenn "
 "wir eine Antwort aus der Warteschlange erhalten, um zu überprüfen, ob der "
-"Absender die gleiche Entität ist, die wir zur Generierung des Weiterbildungsnachweises "
+"Absender die gleiche Entität ist, die wir zur Generierung des Weiterbildungsnachweise "
 "angefordert haben."
 
 #: lms/djangoapps/certificates/models.py:868
@@ -3508,7 +3508,7 @@ msgstr "Status des Beispielweiterbildungsnachweises"
 
 #: lms/djangoapps/certificates/models.py:891
 msgid "The reason an error occurred during certificate generation."
-msgstr "Der Grund für den Prozessfehler beim generieren des Weiterbildungsnachweises."
+msgstr "Der Grund für den Prozessfehler beim generieren des Weiterbildungsnachweise."
 
 #: lms/djangoapps/certificates/models.py:898
 msgid "The download URL for the generated certificate."
@@ -3597,7 +3597,7 @@ msgstr "Benutzer {user_id} ist nicht im Kurs {course_key} eingeschrieben"
 #: lms/djangoapps/certificates/views/support.py:218
 msgid "An unexpected error occurred while regenerating certificates."
 msgstr ""
-"Es ist ein unerwarteter Fehler beim generieren des Weiterbildungsnachweises aufgetreten."
+"Es ist ein unerwarteter Fehler beim generieren des Weiterbildungsnachweise aufgetreten."
 
 #: lms/djangoapps/certificates/views/support.py:262
 #, python-brace-format
@@ -3721,7 +3721,7 @@ msgstr "Ungültiges Weiterbildungsnachweis"
 #. the purpose of the page
 #: lms/djangoapps/certificates/views/webview.py:193
 msgid "Certificate Validation"
-msgstr "Validierung des Weiterbildungsnachweises"
+msgstr "Validierung des Weiterbildungsnachweise"
 
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
@@ -4379,7 +4379,7 @@ msgid ""
 msgstr ""
 "Nach diesem Datum wird der Kurs archiviert, d. h. Sie können die Kursinhalte"
 " überprüfen, aber nicht mehr an benoteten Aufgaben teilnehmen oder auf den "
-"Erwerb eines Weiterbildungsnachweises hinarbeiten."
+"Erwerb eines Weiterbildungsnachweise hinarbeiten."
 
 #: lms/djangoapps/courseware/date_summary.py:302
 msgid ""
@@ -5240,7 +5240,7 @@ msgstr "Kurs-ID"
 
 #: lms/djangoapps/instructor/views/api.py:1427
 msgid "Certificate Type"
-msgstr "Art des Weiterbildungsnachweises"
+msgstr "Art des Weiterbildungsnachweise"
 
 #: lms/djangoapps/instructor/views/api.py:1428
 msgid "Total Certificates Issued"
@@ -5625,20 +5625,20 @@ msgid ""
 "started. You can view the status of the generation task in the \"Pending "
 "Tasks\" section."
 msgstr ""
-"Die Erstellung von Weiterbildungsnachweisen für alle Studenten dieses Kurses wurde "
+"Die Erstellung von Weiterbildungsnachweise für alle Studenten dieses Kurses wurde "
 "gestartet. Den Status der Erstellung können Sie im Abschnitt \"Offene "
 "Aufgaben\" einsehen."
 
 #: lms/djangoapps/instructor/views/api.py:3509
 msgid "Please select certificate statuses from the list only."
-msgstr "Bitte wählen Sie nur Weiterbildungsnachweisesstati aus der Liste aus."
+msgstr "Bitte wählen Sie nur Weiterbildungsnachweis Status aus der Liste aus."
 
 #: lms/djangoapps/instructor/views/api.py:3516
 msgid ""
 "Certificate regeneration task has been started. You can view the status of "
 "the generation task in the \"Pending Tasks\" section."
 msgstr ""
-"Die Regeneration des Weiterbildungsnachweises wurde gestartet. Den Status der "
+"Die Regeneration des Weiterbildungsnachweise wurde gestartet. Den Status der "
 "Regeneration können Sie im Abschnitt \"Offene Aufgaben\" einsehen."
 
 #: lms/djangoapps/instructor/views/api.py:3562
@@ -5666,14 +5666,14 @@ msgid ""
 " added to the certificate exception list."
 msgstr ""
 "Der Teilnehmer {user} befindet sich derzeit auf der "
-"Weiterbildungsnachweisesendgültigkeitsliste und kann nicht zur Ausnahmeliste hinzugefügt "
+"Weiterbildungsnachweiseendgültigkeitsliste und kann nicht zur Ausnahmeliste hinzugefügt "
 "werden."
 
 #: lms/djangoapps/instructor/views/api.py:3641
 #, python-brace-format
 msgid "Student (username/email={user}) already in certificate exception list."
 msgstr ""
-"Teilnehmer (username/email={user}) bereits auf der Weiterbildungsnachweisesausnahmeliste."
+"Teilnehmer (username/email={user}) bereits auf der Weiterbildungsnachweiseausnahmeliste."
 
 #: lms/djangoapps/instructor/views/api.py:3677
 #, python-brace-format
@@ -5709,7 +5709,7 @@ msgstr "Ungültige Daten, generate_for muss \"neu\" oder \"alle\" sein."
 #: lms/djangoapps/instructor/views/api.py:3778
 msgid "Certificate generation started for students on the allowlist."
 msgstr ""
-"Weiterbildungsnachweiseserstellung für Studenten auf der Zulassungsliste gestartet."
+"Weiterbildungsnachweiseerstellung für Studenten auf der Zulassungsliste gestartet."
 
 #: lms/djangoapps/instructor/views/api.py:3831
 #, python-brace-format
@@ -5729,7 +5729,7 @@ msgid ""
 "attempting to invalidate their certificate."
 msgstr ""
 "Der Teilnehmer {student} befindet sich derzeit auf der "
-"Weiterbildungsnachweisesausnahmeliste für den Kurs {course}. Bitte entfernen Sie den "
+"Weiterbildungsnachweiseausnahmeliste für den Kurs {course}. Bitte entfernen Sie den "
 "Teilnehmer zunächst von der Liste der Ausnahmen, bevor Sie das Weiterbildungsnachweis "
 "für ungültig erklären."
 
@@ -5757,7 +5757,7 @@ msgid ""
 "Certificate Invalidation does not exist, Please refresh the page and try "
 "again."
 msgstr ""
-"Weiterbildungsnachweisesinvalidierung existiert nicht, bitte aktualisieren Sie die Seite "
+"Weiterbildungsnachweiseinvalidierung existiert nicht, bitte aktualisieren Sie die Seite "
 "und versuchen Sie es erneut."
 
 #: lms/djangoapps/instructor/views/api.py:4084
@@ -9942,7 +9942,7 @@ msgstr "Sie können Ihren Gasthörermodus in folgenden Kursen upgraden:"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:76
 #: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html:21
 msgid "Example of a verified certificate"
-msgstr "Beispiel eines verifizierten Weiterbildungsnachweises"
+msgstr "Beispiel eines verifizierten Weiterbildungsnachweise"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:19
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:29
@@ -10786,7 +10786,7 @@ msgstr "Die, die Sie zum Einloggen benutzen."
 #. below a field meant to hold the user's full name.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:560
 msgid "This name will be used on any certificates that you earn."
-msgstr "Dieser Name erscheint auf allen Weiterbildungsnachweisen, die Sie erwerben."
+msgstr "Dieser Name erscheint auf allen Weiterbildungsnachweise, die Sie erwerben."
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
@@ -12872,11 +12872,11 @@ msgid ""
 msgstr ""
 "Gib \"Wahr\" oder \"Falsch\" ein. Falls \"Wahr\", können die Teilnehmer "
 "bereits vor Kursende die Weiterbildungsnachweise herunterladen, wenn sie die "
-"Anforderungen für den Weiterbildungsnachweiseserhalt bereits erfüllt haben."
+"Anforderungen für den Weiterbildungsnachweiseerhalt bereits erfüllt haben."
 
 #: xmodule/course_block.py:586 cms/templates/settings.html:257
 msgid "Certificates Display Behavior"
-msgstr "Verhalten für Weiterbildungsnachweisesanzeige"
+msgstr "Verhalten für Weiterbildungsnachweiseanzeige"
 
 #: xmodule/course_block.py:588
 msgid ""
@@ -12932,14 +12932,14 @@ msgid ""
 "marks, enter the short name of the type of certificate that students receive"
 " when they complete the course. For instance, \"Certificate\"."
 msgstr ""
-"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Weiterbildungsnachweisen."
-" Geben Sie in Anführungszeichen den Kurznamen der Art des Weiterbildungsnachweises ein, "
+"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Weiterbildungsnachweise."
+" Geben Sie in Anführungszeichen den Kurznamen der Art des Weiterbildungsnachweise ein, "
 "das die Teilnehmer nach Abschluss des Kurses erhalten. Zum Beispiel "
 "\"Weiterbildungsnachweis\"."
 
 #: xmodule/course_block.py:632
 msgid "Certificate Name (Short)"
-msgstr "Weiterbildungsnachweisesname (kurz)"
+msgstr "Weiterbildungsnachweiseame (kurz)"
 
 #: xmodule/course_block.py:638
 msgid ""
@@ -12947,14 +12947,14 @@ msgid ""
 "marks, enter the long name of the type of certificate that students receive "
 "when they complete the course. For instance, \"Certificate of Achievement\"."
 msgstr ""
-"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Weiterbildungsnachweisen."
-" Geben Sie in Anführungszeichen den langen Namen der Art des Weiterbildungsnachweises "
+"Verwenden Sie diese Einstellung nur bei der Erstellung von PDF-Weiterbildungsnachweise."
+" Geben Sie in Anführungszeichen den langen Namen der Art des Weiterbildungsnachweise "
 "ein, das die Teilnehmer nach Abschluss des Kurses erhalten. Zum Beispiel "
 "\"Leistungsnachweis\"."
 
 #: xmodule/course_block.py:642
 msgid "Certificate Name (Long)"
-msgstr "Weiterbildungsnachweisesname (lang)"
+msgstr "Weiterbildungsnachweiseame (lang)"
 
 #: xmodule/course_block.py:647
 msgid "Certificate Web/HTML View Enabled"
@@ -12963,14 +12963,14 @@ msgstr "Web/HTML Ansicht für Weiterbildungsnachweise aktiviert"
 #: xmodule/course_block.py:648
 msgid "If true, certificate Web/HTML views are enabled for the course."
 msgstr ""
-"Wenn \"true\", sind für den Kurs Web/HTML-Ansichten des Weiterbildungsnachweises "
+"Wenn \"true\", sind für den Kurs Web/HTML-Ansichten des Weiterbildungsnachweise "
 "aktiviert."
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
 #: xmodule/course_block.py:655
 msgid "Certificate Web/HTML View Overrides"
-msgstr "Web/HTML Ansicht des Weiterbildungsnachweises"
+msgstr "Web/HTML Ansicht des Weiterbildungsnachweise"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -16460,7 +16460,7 @@ msgstr ""
 
 #: cms/templates/certificates.html:91
 msgid "Working with Certificates"
-msgstr "Mit Weiterbildungsnachweisen arbeiten"
+msgstr "Mit Weiterbildungsnachweise arbeiten"
 
 #: cms/templates/certificates.html:92
 msgid ""
@@ -23173,8 +23173,8 @@ msgid ""
 "For tips and tricks on printing your certificate, view the {link_start}Web "
 "Certificates help documentation{link_end}."
 msgstr ""
-"Für Tipps und Tricks zum Ausdrucken Ihres Weiterbildungsnachweises, besuchen Sie "
-"{link_start}Weiterbildungsnachweises-Hilfe{link_end}."
+"Für Tipps und Tricks zum Ausdrucken Ihres Weiterbildungsnachweise, besuchen Sie "
+"{link_start}Weiterbildungsnachweise-Hilfe{link_end}."
 
 #: lms/templates/certificates/invalid.html:9
 msgid "Cannot Find Certificate"
@@ -25155,8 +25155,8 @@ msgid ""
 "This course is configured to generate PDF certificates and this certificate "
 "type is no longer supported. Example certificates cannot be generated."
 msgstr ""
-"Dieser Kurs ist zum Generieren von PDF-Weiterbildungsnachweisen konfiguriert und dieser "
-"Weiterbildungsnachweisestyp wird nicht mehr unterstützt. Beispielweiterbildungsnachweise können nicht"
+"Dieser Kurs ist zum Generieren von PDF-Weiterbildungsnachweise konfiguriert und dieser "
+"Weiterbildungsnachweisetyp wird nicht mehr unterstützt. Beispielweiterbildungsnachweise können nicht"
 " generiert werden."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:32
@@ -25175,7 +25175,7 @@ msgstr "Beispiel-Weiterbildungsnachweis {name}  wird generiert."
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:44
 #, python-brace-format
 msgid "Error generating example {name} certificate: {error}"
-msgstr "Fehler beim generieren des Beispiel-Weiterbildungsnachweises {name}: {error}"
+msgstr "Fehler beim generieren des Beispiel-Weiterbildungsnachweise {name}: {error}"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:46
 #, python-brace-format
@@ -25229,7 +25229,7 @@ msgid ""
 msgstr ""
 "Wenn Sie bereit sind, Weiterbildungsnachweise für Ihren Kurs zu generieren, klicken Sie "
 "auf Weiterbildungsnachweise generieren. Dies ist nicht erforderlich, wenn Sie den "
-"Weiterbildungsnachweisesmodus auf On-Demand-Generierung eingestellt haben."
+"Weiterbildungsnachweisemodus auf On-Demand-Generierung eingestellt haben."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:104
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:142
@@ -27428,7 +27428,7 @@ msgid ""
 "Please read {a_start}our FAQs to view common questions about our "
 "certificates{a_end}."
 msgstr ""
-"Bitte lesen Sie {a_start}unsere FAQs, um allgemeine Fragen zu Weiterbildungsnachweisen "
+"Bitte lesen Sie {a_start}unsere FAQs, um allgemeine Fragen zu Weiterbildungsnachweise "
 "anzuschauen{a_end}."
 
 #: lms/templates/verify_student/incourse_reverify.html:11
@@ -28043,3 +28043,12 @@ msgstr "Horizontale Karten"
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:401
 msgid "Search by course title, category, etc."
 msgstr "Nach Kurstitel, Kategorie usw. suchen"
+
+msgid "Certificate"
+msgstr "Weiterbildungsnachweis"
+
+msgid "certificate"
+msgstr "Weiterbildungsnachweis"
+
+msgid "certificates"
+msgstr "Weiterbildungsnachweise"

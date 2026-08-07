@@ -124,7 +124,7 @@
   "registration.password.label": "Passwort",
   "registration.country.label": "Land/Region",
   "registration.opt.in.label": "Für die Registrierung bei der Impower Academy ist Ihre Einwilligung in den Newsletter und die Zustimmung zu den folgenden Bedingungen notwendig.\n\n<optInDetails>Mit Klick auf 'Registrieren':\n• willigen Sie ein, dass wir Sie per E-Mail über die Impower Academy (Kurse, Lerninhalte, Veranstaltungen von Impower und Dritten) sowie über Produkte, Dienstleistungen und Angebote der Impower GmbH und Dritten (Partnern) informieren dürfen. Die Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen.\n• erklären Sie, dass Sie die {nutzungsbedingungen} und die {datenschutzerklärung} der Impower Academy zur Kenntnis genommen haben und mit ihnen einverstanden sind.</optInDetails>",
-  "help.text.name": "Dieser Name wird von allen Weiterbildungsnachweisen verwendet, die Sie erwerben.",
+  "help.text.name": "Dieser Name wird für alle Weiterbildungsnachweise verwendet, die Sie erwerben.",
   "help.text.username.1": "Der Name, der Sie in Ihren Kursen identifiziert.",
   "help.text.username.2": "Dies kann später nicht mehr geändert werden.",
   "help.text.email": "Für die Kontoaktivierung und wichtige Updates",

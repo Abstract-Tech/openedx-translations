@@ -616,7 +616,7 @@
   "advance.analytics.engagements.tab.table.header.course.subject": "Kursthema",
   "advance.analytics.engagements.tab.table.header.learning.hours": "Unterrichtsstunden",
   "advance.analytics.enrollment.tab.chart.enrollments.over.time.title": "Einschreibungen im Zeitverlauf",
-  "advance.analytics.enrollment.tab.chart.enrollments.over.time.subtitle": "Sehen Sie sich die Audit- und Weiterbildungsnachweisesanmeldungen im Zeitverlauf an.",
+  "advance.analytics.enrollment.tab.chart.enrollments.over.time.subtitle": "Sehen Sie sich die Audit- und Weiterbildungsnachweiseanmeldungen im Zeitverlauf an.",
   "advance.analytics.enrollments.tab.chart.enrollments.over.time.loading.message": "Diagrammdaten zu Registrierungen im Zeitverlauf laden",
   "advance.analytics.enrollment.tab.chart.top.10.courses.by.enrollment.title": "Top 10 Kurse nach Einschreibung",
   "advance.analytics.enrollment.tab.chart.top.10.courses.by.enrollment.subtitle": "Sehen Sie sich die beliebtesten Kurse in Ihrer Organisation an.",

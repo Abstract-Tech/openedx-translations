@@ -94,7 +94,7 @@ msgstr ""
 
 #: cms/static/js/certificates/views/certificate_details.js:48
 msgid "Yes, allow edits to the active Certificate"
-msgstr "Ja, erlaube das Editieren von aktiven Weiterbildungsnachweisen"
+msgstr "Ja, erlaube das Editieren von aktiven Weiterbildungsnachweise"
 
 #. Translators: This field pertains to the custom label for a certificate.
 #. Translators: this refers to a collection of certificates.
@@ -443,13 +443,13 @@ msgstr ""
 #: cms/static/js/models/settings/course_details.js:83
 msgid "The certificate available date must be later than the course end date."
 msgstr ""
-"Das Austellungsdatum des Weiterbildungsnachweises muss später gesetzt werden als das "
+"Das Austellungsdatum des Weiterbildungsnachweise muss später gesetzt werden als das "
 "Enddatum des Kurses."
 
 #: cms/static/js/models/settings/course_details.js:93
 msgid "The certificate display behavior must be one of: {behavior_options}"
 msgstr ""
-"Das Anzeigeverhalten des Weiterbildungsnachweises muss eines der folgenden sein: "
+"Das Anzeigeverhalten des Weiterbildungsnachweise muss eines der folgenden sein: "
 "{behavior_options}"
 
 #: cms/static/js/models/settings/course_details.js:108
@@ -458,7 +458,7 @@ msgid ""
 "available date is set."
 msgstr ""
 "Das Anzeigeverhalten der Weiterbildungsnachweise muss {valid_option} sein, wenn das "
-"Verfügbarkeitsdatum des Weiterbildungsnachweises festgelegt ist."
+"Verfügbarkeitsdatum des Weiterbildungsnachweise festgelegt ist."
 
 #: cms/static/js/models/settings/course_details.js:118
 msgid "Key should only contain letters, numbers, _, or -"
@@ -3281,7 +3281,7 @@ msgid ""
 "Could not find Certificate Exception in the allowlist. Please refresh the "
 "page and try again"
 msgstr ""
-"Weiterbildungsnachweisesausnahme konnte nicht in der Zulassungsliste gefunden werden. "
+"Weiterbildungsnachweiseausnahme konnte nicht in der Zulassungsliste gefunden werden. "
 "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut"
 
 #: lms/static/js/certificates/views/certificate_allowlist.js:106
@@ -3373,7 +3373,7 @@ msgid ""
 " learners have an active certificate invalidation in this course and have "
 "not been added to the exception list"
 msgstr ""
-"Lernende haben in diesem Kurs eine aktive Weiterbildungsnachweisesentwertung und wurden "
+"Lernende haben in diesem Kurs eine aktive Weiterbildungsnachweiseentwertung und wurden "
 "nicht zur Ausnahmeliste hinzugefügt"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
@@ -3381,7 +3381,7 @@ msgid ""
 " learner has an active certificate invalidation in this course and has not "
 "been added to the exception list"
 msgstr ""
-"Der Lernende hat in diesem Kurs eine aktive Weiterbildungsnachweisesentwertung und wurde "
+"Der Lernende hat in diesem Kurs eine aktive Weiterbildungsnachweiseentwertung und wurde "
 "nicht zur Ausnahmeliste hinzugefügt"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
@@ -3422,7 +3422,7 @@ msgid ""
 "Could not find Certificate Invalidation in the list. Please refresh the page"
 " and try again"
 msgstr ""
-"Die Weiterbildungsnachweisesinvalidierung konnte in der Liste nicht gefunden werden. "
+"Die Weiterbildungsnachweiseinvalidierung konnte in der Liste nicht gefunden werden. "
 "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
 
 #: lms/static/js/course_survey.js:76
@@ -3886,7 +3886,7 @@ msgstr "Möchten Sie Weiterbildungsnachweise für Teilnehmer dieses Kurses Regen
 #: lms/static/js/instructor_dashboard/certificates.js:98
 msgid "Error while regenerating certificates. Please try again."
 msgstr ""
-"Fehler bei der Neugenerierung von Weiterbildungsnachweisen. Bitte versuchen Sie es "
+"Fehler bei der Neugenerierung von Weiterbildungsnachweise. Bitte versuchen Sie es "
 "erneut."
 
 #: lms/static/js/instructor_dashboard/data_download.js:31
@@ -3897,7 +3897,7 @@ msgstr "Daten werden geladen..."
 #: lms/static/js/instructor_dashboard/data_download.js:38
 #: lms/static/js/instructor_dashboard/data_download_2.js:51
 msgid "Error getting issued certificates list."
-msgstr "Fehler bei der Ausgabe der Weiterbildungsnachweisesliste."
+msgstr "Fehler bei der Ausgabe der Weiterbildungsnachweiseliste."
 
 #: lms/static/js/instructor_dashboard/data_download.js:124
 msgid "Error generating anonymous IDs. Please try again."
@@ -7289,7 +7289,7 @@ msgstr "Kursnummer Überschreibung"
 #: cms/templates/js/certificate-details.underscore:53
 #: cms/templates/js/certificate-editor.underscore:36
 msgid "Certificate Signatories"
-msgstr "Weiterbildungsnachweisesunterzeichner"
+msgstr "Weiterbildungsnachweiseunterzeichner"
 
 #: cms/templates/js/certificate-details.underscore:55
 #: cms/templates/js/certificate-editor.underscore:38
@@ -7300,7 +7300,7 @@ msgid ""
 msgstr ""
 "Es wird dringend empfohlen, dass Sie vier oder weniger Unterzeichner "
 "festlegen. Wenn Sie weitere Unterzeichner hinzufügen, beachten Sie die "
-"Vorschau des Ausdrucks des Weiterbildungsnachweises. Gehen Sie sicher, dass das "
+"Vorschau des Ausdrucks des Weiterbildungsnachweise. Gehen Sie sicher, dass das "
 "Weiterbildungsnachweis richtig, passend, auf einer Seite ausgedruckt wird."
 
 #: cms/templates/js/certificate-editor.underscore:11
@@ -7314,12 +7314,12 @@ msgstr "Weiterbildungsnachweisname"
 #: cms/templates/js/certificate-editor.underscore:14
 #: cms/templates/js/certificate-editor.underscore:15
 msgid "Name of the certificate"
-msgstr "Name des Weiterbildungsnachweises"
+msgstr "Name des Weiterbildungsnachweise"
 
 #: cms/templates/js/certificate-editor.underscore:19
 #: cms/templates/js/certificate-editor.underscore:20
 msgid "Description of the certificate"
-msgstr "Beschreibung des Weiterbildungsnachweises"
+msgstr "Beschreibung des Weiterbildungsnachweise"
 
 #: cms/templates/js/certificate-editor.underscore:31
 msgid "Course title"
@@ -7330,7 +7330,7 @@ msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
 msgstr ""
-"Legen Sie einen alternativen Kurstitel fest der auf den Weiterbildungsnachweisen "
+"Legen Sie einen alternativen Kurstitel fest der auf den Weiterbildungsnachweise "
 "erscheint. Lassen Sie dieses Feld leer, falls Sie den offiziellen Kurstitel "
 "nutzen wollen."
 
@@ -7348,7 +7348,7 @@ msgstr "Modus auswählen"
 
 #: cms/templates/js/certificate-web-preview.underscore:8
 msgid "Preview Certificate"
-msgstr "Vorschau des Weiterbildungsnachweises"
+msgstr "Vorschau des Weiterbildungsnachweise"
 
 #: cms/templates/js/certificate-web-preview.underscore:13
 msgid "Activate"
@@ -8606,7 +8606,7 @@ msgstr "Bild der Unterschrift"
 
 #: cms/templates/js/signatory-editor.underscore:11
 msgid "Certificate Signatory Configuration"
-msgstr "Weiterbildungsnachweises-Unterzeichner-Konfiguration"
+msgstr "Weiterbildungsnachweise-Unterzeichner-Konfiguration"
 
 #: cms/templates/js/signatory-editor.underscore:13
 msgid "Name "
@@ -10216,7 +10216,7 @@ msgstr "Ausnahmeweiterbildungsnachweise erstellen"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:3
 msgid "Certificate exceptions group selection"
-msgstr "Auswahl der Weiterbildungsnachweisesausnahmegruppe"
+msgstr "Auswahl der Weiterbildungsnachweiseausnahmegruppe"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:6
 msgid "All users on the Exception list who do not yet have a certificate"
@@ -10812,7 +10812,7 @@ msgid ""
 "towards flexible, rigorous, and affordable masters degrees from the world’s "
 "leading universities."
 msgstr ""
-"Der erfolgreiche Abschluss des %(org)s %(program)s-Weiterbildungsnachweises kann für "
+"Der erfolgreiche Abschluss des %(org)s %(program)s-Weiterbildungsnachweise kann für "
 "flexible, anspruchsvolle und erschwingliche Masterabschlüsse an den weltweit"
 " führenden Universitäten angewendet werden."
 
@@ -11185,7 +11185,7 @@ msgid ""
 "validity of your certificate."
 msgstr ""
 "Wir nutzen Ihre Fotos , um Ihre Identität zu bestätigen und die Gültigkeit "
-"Ihres Weiterbildungsnachweises zu grantieren."
+"Ihres Weiterbildungsnachweise zu grantieren."
 
 #: lms/templates/verify_student/face_photo_step.underscore:46
 #: lms/templates/verify_student/id_photo_step.underscore:41
