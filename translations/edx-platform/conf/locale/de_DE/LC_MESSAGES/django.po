@@ -20675,7 +20675,7 @@ msgstr "MEHR ERFAHREN"
 #: lms/templates/course.html:29 lms/templates/course.html:39
 #: lms/templates/course.html:41
 msgid "Starts"
-msgstr "Beginnt"
+msgstr "Veröffentlicht"
 
 #: lms/templates/course.html:31
 #, python-brace-format
@@ -28052,6 +28052,3 @@ msgstr "Weiterbildungsnachweis"
 
 msgid "certificates"
 msgstr "Weiterbildungsnachweise"
-
-msgid "Starts"
-msgstr "Veröffentlicht"
