@@ -9568,7 +9568,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:702
 #, python-brace-format
-msgid "I agree that {platform_name} may send me marketing messages."
+msgid "I would like to receive information from Axim Collaborative, a nonprofit organization that manages the {platform_name} project, community, and providers."
 msgstr ""
 
 #. Translators: This label appears above a dropdown menu on the registration
