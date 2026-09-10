@@ -28,6 +28,7 @@
   "category.course-about.course-intro.enroll-now-btn-pending": "Iscrizione...",
   "category.course-about.course-intro.status-message.enrollment-error": "Si è verificato un errore. Si prega di riprovare più tardi.",
   "generic.course-card.start-date": "Inizia: {startDate}",
+  "generic.course-card.preview-label": "Anteprima",
   "category.generic.loading": "Caricamento...",
   "catalog.home-page.video-modal-title": "Modalità video",
   "catalog.home-page.video-iframe-title": "Lettore video di YouTube",
