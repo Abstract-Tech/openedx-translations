@@ -20,7 +20,7 @@
   "record.table.header.status": "Stato",
   "no.public.record.link": "Non esiste alcuna istanza pubblica per questo record. Gli studenti devono creare autonomamente un collegamento pubblico.",
   "no.records.found": "Nessun risultato trovato per nome utente",
-  "supportTools.accountActions.cancelRetirement": "Ciò annullerà il ritiro per l&#39;utente richiesto. Vuoi procedere?",
+  "supportTools.accountActions.cancelRetirement": "Ciò annullerà il ritiro per l'utente richiesto. Vuoi procedere?",
   "supportTools.accountActions.resetPassword": "Invieremo un messaggio con le istruzioni per il recupero della password all'indirizzo email {email}. Vuoi procedere?",
   "supportTools.accountActions.retireUser": "Stai per ritirare {username} con l'indirizzo email: {email}.{br}{br} Questa è un'azione seria che revocherà l'accesso di questo utente a edX e ai certificati ottenuti. Inoltre, l'indirizzo email associato all'account ritirato non potrà essere utilizzato per creare un nuovo account.",
   "configuration.customersPage.otherSubsidiesColumn": "Altri sussidi",

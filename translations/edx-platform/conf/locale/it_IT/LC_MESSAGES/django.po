@@ -145,7 +145,7 @@ msgstr "ID Utente: {0} sconosciuto"
 
 #: cms/djangoapps/contentstore/errors.py:17
 msgid "Unsafe archive file. Aborting import."
-msgstr "File di archivio non sicuro. Interruzione dell&#39;importazione."
+msgstr "File di archivio non sicuro. Interruzione dell'importazione."
 
 #: cms/djangoapps/contentstore/errors.py:18
 msgid "User permission denied."
@@ -401,7 +401,7 @@ msgstr "True la scheda è nascosta per il corso"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:25
 msgid "True if it's possible to reorder the tab in the list of tabs"
-msgstr "Vero se è possibile riordinare la scheda nell&#39;elenco delle schede"
+msgstr "Vero se è possibile riordinare la scheda nell'elenco delle schede"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:29
 msgid "True if this tab should be displayed only for instructors"
@@ -804,7 +804,7 @@ msgid ""
 "User does not have the permission to create courses in this organization or "
 "course creation is disabled"
 msgstr ""
-"L&#39;utente non dispone dell&#39;autorizzazione per creare corsi in questa "
+"L'utente non dispone dell'autorizzazione per creare corsi in questa "
 "organizzazione o la creazione del corso è disabilitata"
 
 #: cms/djangoapps/contentstore/views/course.py:967
@@ -875,7 +875,7 @@ msgid ""
 "User does not have the permission to create library in this organization or "
 "course creation is disabled"
 msgstr ""
-"L&#39;utente non dispone dell&#39;autorizzazione per creare una libreria in "
+"L'utente non dispone dell'autorizzazione per creare una libreria in "
 "questa organizzazione o la creazione del corso è disabilitata"
 
 #: cms/djangoapps/contentstore/views/library.py:247
@@ -918,7 +918,7 @@ msgstr "Accesso limitato a: {list_of_groups}"
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:195
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:527
 msgid "Transcripts are supported only for \"video\" blocks."
-msgstr "Le trascrizioni sono supportate solo per i blocchi &quot;video&quot;."
+msgstr "Le trascrizioni sono supportate solo per i blocchi \"video\"."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:198
 msgid "Cannot find item by locator."
@@ -1030,7 +1030,7 @@ msgstr "Dati non validi ({details})"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:656
 msgid "There was a problem pasting your component."
-msgstr "Si è verificato un problema durante l&#39;incollaggio del componente."
+msgstr "Si è verificato un problema durante l'incollaggio del componente."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:660
 msgid "Your clipboard is empty or invalid."
@@ -1134,12 +1134,12 @@ msgstr ""
 
 #: cms/djangoapps/course_creators/models.py:54
 msgid "Organizations under which the user is allowed to create courses."
-msgstr "Organizzazioni in cui l&#39;utente è autorizzato a creare corsi."
+msgstr "Organizzazioni in cui l'utente è autorizzato a creare corsi."
 
 #: cms/djangoapps/course_creators/models.py:57
 msgid "Grant the user the permission to create courses in ALL organizations"
 msgstr ""
-"Concedi all&#39;utente il permesso di creare corsi in TUTTE le "
+"Concedi all'utente il permesso di creare corsi in TUTTE le "
 "organizzazioni"
 
 #: cms/djangoapps/models/settings/course_metadata.py:235
@@ -1275,7 +1275,7 @@ msgstr "Contenuto non è collegato a una libreria di contenuto."
 
 #: cms/lib/xblock/upstream_sync.py:255
 msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
-msgstr "Downstream non è un XBlock o manca l&#39;UpstreamSyncMixin richiesto"
+msgstr "Downstream non è un XBlock o manca l'UpstreamSyncMixin richiesto"
 
 #: cms/lib/xblock/upstream_sync.py:259
 msgid "Cannot update content because it does not belong to a course."
@@ -1283,15 +1283,15 @@ msgstr "Impossibile aggiornare contenuto perché non appartiene a un corso."
 
 #: cms/lib/xblock/upstream_sync.py:269
 msgid "Reference to linked library item is malformed"
-msgstr "Il riferimento all&#39;elemento della libreria collegata è malformato"
+msgstr "Il riferimento all'elemento della libreria collegata è malformato"
 
 #: cms/lib/xblock/upstream_sync.py:275
 msgid ""
 "Updating content with children is not yet supported unless the upstream is a"
 " container."
 msgstr ""
-"L&#39;aggiornamento del contenuto con elementi figlio non è ancora "
-"supportato, a meno che l&#39;upstream non sia un contenitore."
+"L'aggiornamento del contenuto con elementi figlio non è ancora "
+"supportato, a meno che l'upstream non sia un contenitore."
 
 #: cms/lib/xblock/upstream_sync.py:281
 msgid "Linked upstream library block was not found in the system"
@@ -1319,7 +1319,7 @@ msgstr ""
 
 #: cms/lib/xblock/upstream_sync_block.py:108
 msgid "Linked library item could not be loaded: {}"
-msgstr "Impossibile caricare l&#39;elemento della libreria collegata: {}"
+msgstr "Impossibile caricare l'elemento della libreria collegata: {}"
 
 #: cms/templates/admin/base_site.html:4 lms/templates/admin/base_site.html:3
 msgid "Django site admin"
@@ -1427,7 +1427,7 @@ msgstr ""
 
 #: common/djangoapps/course_modes/models.py:94
 msgid "Lock upgrade deadline date"
-msgstr "Blocca la data di scadenza dell&#39;aggiornamento"
+msgstr "Blocca la data di scadenza dell'aggiornamento"
 
 #: common/djangoapps/course_modes/models.py:96
 msgid ""
@@ -1436,9 +1436,9 @@ msgid ""
 "upgrade deadline."
 msgstr ""
 "FACOLTATIVO: impostare su True per bloccare la data di scadenza "
-"dell&#39;aggiornamento definita in modo esplicito. Impostare su False se non"
-" esiste una scadenza per l&#39;aggiornamento o per utilizzare la scadenza "
-"per l&#39;aggiornamento predefinita."
+"dell'aggiornamento definita in modo esplicito. Impostare su False se non"
+" esiste una scadenza per l'aggiornamento o per utilizzare la scadenza "
+"per l'aggiornamento predefinita."
 
 #: common/djangoapps/course_modes/models.py:121
 msgid ""
@@ -1467,7 +1467,7 @@ msgid ""
 "course.  Leave this blank if the course has not yet been migrated to the "
 "ecommerce service."
 msgstr ""
-"FACOLTATIVO: Questo è lo SKU iOS registrato sull&#39;app store per questa "
+"FACOLTATIVO: Questo è lo SKU iOS registrato sull'app store per questa "
 "modalità del corso. Lascia vuoto questo campo se il corso non è ancora stato"
 " migrato al servizio di e-commerce."
 
@@ -3632,7 +3632,7 @@ msgid ""
 "required tasks for this course under its guidelines. "
 msgstr ""
 "Un certificato {cert_type} significa che uno studente ha accettato di "
-"rispettare il codice d&#39;onore stabilito da {platform_name} e ha "
+"rispettare il codice d'onore stabilito da {platform_name} e ha "
 "completato tutte le attività richieste per questo corso secondo le sue linee"
 " guida."
 
@@ -3642,7 +3642,7 @@ msgid ""
 "A {cert_type} certificate also indicates that the identity of the learner "
 "has been checked and is valid."
 msgstr ""
-"Un certificato {cert_type} indica anche che l&#39;identità dello studente è "
+"Un certificato {cert_type} indica anche che l'identità dello studente è "
 "stata verificata ed è valida."
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
@@ -3772,7 +3772,7 @@ msgstr ""
 " modo che possano essere convalidati indipendentemente da chiunque disponga "
 "della chiave pubblica {platform_name}. Per la verifica indipendente, "
 "{platform_name} utilizza quella che viene definita una \"firma "
-"separata\"&quot;\"."
+"separata\"\"\"."
 
 #: lms/djangoapps/certificates/views/webview.py:221
 msgid "Validate this certificate for yourself"
@@ -4007,7 +4007,7 @@ msgstr ""
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:98
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:117
 msgid "Remember: the best goal is one that you can stick to. "
-msgstr "Ricorda: l&#39;obiettivo migliore è quello che riesci a raggiungere. "
+msgstr "Ricorda: l'obiettivo migliore è quello che riesci a raggiungere. "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:99
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:118
@@ -4117,7 +4117,7 @@ msgstr "Scarica l'app Android da Google Play Store"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/footer.html:174
 msgid "edX is the trusted platform for education and learning"
 msgstr ""
-"edX è la piattaforma affidabile per l&#39;istruzione e l&#39;apprendimento"
+"edX è la piattaforma affidabile per l'istruzione e l'apprendimento"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/footer.html:180
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:240
@@ -4141,12 +4141,12 @@ msgid ""
 "more specific context overrides the more general context."
 msgstr ""
 "Questi definiscono il contesto per disabilitare la pagina di avanzamento "
-"dell&#39;apprendimento dell&#39;app frontend. Se non vengono impostati "
+"dell'apprendimento dell'app frontend. Se non vengono impostati "
 "valori, la configurazione viene applicata a livello globale. Se viene "
 "impostato un valore singolo, la configurazione si applica a tutti i corsi "
-"all&#39;interno di quel contesto. È possibile impostare al massimo un valore"
+"all'interno di quel contesto. È possibile impostare al massimo un valore"
 " alla volta.<br> Se a un corso si applicano più contesti (ad esempio, se la "
-"configurazione è specificata per il corso e per l&#39;organizzazione in cui "
+"configurazione è specificata per il corso e per l'organizzazione in cui "
 "si trova il corso, il contesto più specifico ha la precedenza sul contesto "
 "più generale."
 
@@ -4183,7 +4183,7 @@ msgid ""
 "Please contact your degree administrator or {platform_name} Support if you "
 "have questions."
 msgstr ""
-"Se hai domande, contatta il tuo amministratore di laurea o l&#39;assistenza "
+"Se hai domande, contatta il tuo amministratore di laurea o l'assistenza "
 "{platform_name}."
 
 #: lms/djangoapps/course_home_api/outline/views.py:300
@@ -4520,7 +4520,7 @@ msgstr "URL di base API interna"
 
 #: lms/djangoapps/courseware/models.py:564
 msgid "Financial Assistance Backend API Base URL."
-msgstr "URL di base dell&#39;API back-end di assistenza finanziaria."
+msgstr "URL di base dell'API back-end di assistenza finanziaria."
 
 #: lms/djangoapps/courseware/models.py:572
 msgid ""
@@ -4533,7 +4533,7 @@ msgstr ""
 #: lms/djangoapps/courseware/models.py:577
 msgid "Percentage of courses allowed to use edx-financial-assistance"
 msgstr ""
-"Percentuale di corsi autorizzati a usufruire dell&#39;assistenza finanziaria"
+"Percentuale di corsi autorizzati a usufruire dell'assistenza finanziaria"
 " edx"
 
 #: lms/djangoapps/courseware/plugins.py:27
@@ -4788,7 +4788,7 @@ msgid ""
 "3. Check your email, please allow 4 weeks for your application to be processed."
 msgstr ""
 "Abbiamo intenzione di utilizzare queste informazioni per valutare la tua applicazione di assistenza finanziaria e per sviluppare ulteriormente il nostro programma di assistenza finanziaria. \n"
-"Si prega di notare che, mentre l&#39;assistenza è disponibile nella maggior parte dei corsi che offrono Certificati verificati, alcuni corsi e programmi non sono ammissibili. È necessario completare un'applicazione separata per ogni corso che si segue. È possibile ottenere l&#39;approvazione per l&#39;assistenza finanziaria cinque (5) volte all&#39;anno (in base al periodo di 12 mesi dalla prima approvazione). \n"
+"Si prega di notare che, mentre l'assistenza è disponibile nella maggior parte dei corsi che offrono Certificati verificati, alcuni corsi e programmi non sono ammissibili. È necessario completare un'applicazione separata per ogni corso che si segue. È possibile ottenere l'approvazione per l'assistenza finanziaria cinque (5) volte all'anno (in base al periodo di 12 mesi dalla prima approvazione). \n"
 "Per richiedere assistenza finanziaria: \n"
 "1. Iscriviti al percorso di verifica per un corso idoneo che offre Certificati verificati. \n"
 "2. Completa questa applicazione. \n"
@@ -5080,7 +5080,7 @@ msgid ""
 "Course is not cohorted but cohort provided. Ignoring cohort assignment for "
 "all users."
 msgstr ""
-"Il corso non è di coorte ma di coorte. Ignorando l&#39;assegnazione della "
+"Il corso non è di coorte ma di coorte. Ignorando l'assegnazione della "
 "coorte per tutti gli utenti."
 
 #: lms/djangoapps/instructor/views/api.py:406
@@ -5088,7 +5088,7 @@ msgstr ""
 msgid ""
 "Cohort name not found: {cohort}. Ignoring cohort assignment for all users."
 msgstr ""
-"Nome coorte non trovato: {cohort}. Ignorando l&#39;assegnazione della coorte"
+"Nome coorte non trovato: {cohort}. Ignorando l'assegnazione della coorte"
 " per tutti gli utenti."
 
 #: lms/djangoapps/instructor/views/api.py:423
@@ -5098,7 +5098,7 @@ msgid ""
 "the current mode in case the user is already enrolled."
 msgstr ""
 "Modalità corso non valida: {mode}. Ritornare alla modalità predefinita o "
-"mantenere la modalità corrente nel caso in cui l&#39;utente sia già "
+"mantenere la modalità corrente nel caso in cui l'utente sia già "
 "registrato."
 
 #: lms/djangoapps/instructor/views/api.py:429
@@ -5108,7 +5108,7 @@ msgid ""
 "to {default_mode} in case the user is already enrolled."
 msgstr ""
 "Modalità corso non valida: {mode}. Ritorno a {default_mode} o ripristino a "
-"{default_mode} nel caso in cui l&#39;utente sia già registrato."
+"{default_mode} nel caso in cui l'utente sia già registrato."
 
 #: lms/djangoapps/instructor/views/api.py:447
 #: lms/djangoapps/instructor/views/api.py:509
@@ -5576,14 +5576,14 @@ msgstr "Tutti i campi devono essere compilati"
 #, python-brace-format
 msgid "Could not find student matching identifier: {student}"
 msgstr ""
-"Impossibile trovare lo studente corrispondente all&#39;identificativo: "
+"Impossibile trovare lo studente corrispondente all'identificativo: "
 "{student}"
 
 #: lms/djangoapps/instructor/views/api.py:3220
 #: lms/djangoapps/instructor/views/serializers_v2.py:417
 msgid "The extension due date and time format is incorrect"
 msgstr ""
-"Il formato della data e dell&#39;ora di scadenza dell&#39;estensione non è "
+"Il formato della data e dell'ora di scadenza dell'estensione non è "
 "corretto"
 
 #: lms/djangoapps/instructor/views/api.py:3231
@@ -6688,7 +6688,7 @@ msgstr "Mostra nuovo tour utente"
 
 #: lms/djangoapps/user_tours/models.py:21
 msgid "Do not show user tour"
-msgstr "Non mostrare il tour dell&#39;utente"
+msgstr "Non mostrare il tour dell'utente"
 
 #: lms/djangoapps/verify_student/api.py:42
 #, python-brace-format
@@ -6807,7 +6807,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Ricevi questa email all&#39;indirizzo %(email)s perché sei iscritto a"
+"Ricevi questa email all'indirizzo %(email)s perché sei iscritto a"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
 msgid ""
@@ -6824,7 +6824,7 @@ msgstr "qui"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:34
 msgid "unsubscribe"
-msgstr "Annulla l&#39;iscrizione"
+msgstr "Annulla l'iscrizione"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:7
 #, python-format
@@ -6837,7 +6837,7 @@ msgid ""
 "You are receiving this email at address %(email)s because you are enrolled "
 "in %(course_title)s."
 msgstr ""
-"Hai ricevuto questa email all&#39;indirizzo %(email)s perché sei iscritto a "
+"Hai ricevuto questa email all'indirizzo %(email)s perché sei iscritto a "
 "%(course_title)s."
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
@@ -7135,7 +7135,7 @@ msgid ""
 "%(site_name)s."
 msgstr ""
 "Sei stato invitato a diventare un beta tester per %(course_name)s "
-"all&#39;indirizzo %(site_name)s ."
+"all'indirizzo %(site_name)s ."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:12
 #, python-format
@@ -7370,7 +7370,7 @@ msgstr "Accedi ora ai materiali del corso"
 #, python-format
 msgid "You have been invited to join %(course_name)s at %(site_name)s."
 msgstr ""
-"Sei stato invitato a unirti al corso %(course_name)s all&#39;indirizzo "
+"Sei stato invitato a unirti al corso %(course_name)s all'indirizzo "
 "%(site_name)s ."
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:12
@@ -8612,7 +8612,7 @@ msgstr "ID del corso importato."
 #. Translators: 'Open edX' is a trademark, please keep this untranslated
 #: openedx/core/djangoapps/content_libraries/models.py:353
 msgid "open edx user"
-msgstr "aprire l&#39;utente edx"
+msgstr "aprire l'utente edx"
 
 #: openedx/core/djangoapps/content_libraries/models.py:358
 msgid "lti platform identifier"
@@ -8621,7 +8621,7 @@ msgstr "Identificatore della piattaforma lti"
 #: openedx/core/djangoapps/content_libraries/models.py:359
 msgid "The LTI platform identifier to which this profile belongs to."
 msgstr ""
-"L&#39;identificatore della piattaforma LTI a cui appartiene questo profilo."
+"L'identificatore della piattaforma LTI a cui appartiene questo profilo."
 
 #: openedx/core/djangoapps/content_libraries/models.py:365
 msgid "client identifier"
@@ -8629,7 +8629,7 @@ msgstr "identificatore del cliente"
 
 #: openedx/core/djangoapps/content_libraries/models.py:366
 msgid "The LTI client identifier generated by the LTI platform."
-msgstr "L&#39;identificatore del client LTI generato dalla piattaforma LTI."
+msgstr "L'identificatore del client LTI generato dalla piattaforma LTI."
 
 #: openedx/core/djangoapps/content_libraries/models.py:371
 msgid "subject identifier"
@@ -8639,7 +8639,7 @@ msgstr "identificatore del soggetto"
 msgid ""
 "Identifies the entity that initiated the launch request, commonly a user."
 msgstr ""
-"Identifica l&#39;entità che ha avviato la richiesta di avvio, in genere un "
+"Identifica l'entità che ha avviato la richiesta di avvio, in genere un "
 "utente."
 
 #: openedx/core/djangoapps/content_libraries/models.py:475
@@ -8647,7 +8647,7 @@ msgid ""
 "The authorized LTI profile that launched the resource (identifies the user)."
 msgstr ""
 "Il profilo LTI autorizzato che ha lanciato la risorsa (identifica "
-"l&#39;utente)."
+"l'utente)."
 
 #: openedx/core/djangoapps/content_libraries/models.py:480
 msgid ""
@@ -8662,7 +8662,7 @@ msgid ""
 "\"resource link id\"."
 msgstr ""
 "Identificatore univoco della piattaforma LTI di questa risorsa, noto anche "
-"come &quot;resource link id&quot;."
+"come \"resource link id\"."
 
 #: openedx/core/djangoapps/content_libraries/models.py:493
 msgid "The LTI platform descriptive title for this resource."
@@ -8672,7 +8672,7 @@ msgstr "Il titolo descrittivo della piattaforma LTI per questa risorsa."
 msgid "If AGS was enabled during launch, this should hold the lineitem ID."
 msgstr ""
 "Se AGS è stato abilitato durante il lancio, questo dovrebbe contenere "
-"l&#39;ID dell&#39;elemento pubblicitario."
+"l'ID dell'elemento pubblicitario."
 
 #: openedx/core/djangoapps/content_libraries/rest_api/libraries.py:340
 msgid "We could not find a user with that email address."
@@ -8718,7 +8718,7 @@ msgstr "I tag di Contenuto sono applicati a questi blocchi"
 #: openedx/core/djangoapps/content_staging/models.py:116
 msgid "Original usage key/ID of the thing that is in the clipboard."
 msgstr ""
-"Chiave/ID di utilizzo originale dell&#39;oggetto che si trova negli appunti."
+"Chiave/ID di utilizzo originale dell'oggetto che si trova negli appunti."
 
 #: openedx/core/djangoapps/content_tagging/models/base.py:24
 msgid "owner"
@@ -8770,7 +8770,7 @@ msgstr "Una coorte con lo stesso nome esiste già."
 
 #: openedx/core/djangoapps/course_live/models.py:21
 msgid "If disabled, the LTI in the associated course will be disabled."
-msgstr "Se disabilitato, l&#39;LTI nel corso associato sarà disabilitato."
+msgstr "Se disabilitato, l'LTI nel corso associato sarà disabilitato."
 
 #: openedx/core/djangoapps/course_live/models.py:28
 msgid "The LTI configuration data for this course/provider."
@@ -8784,12 +8784,12 @@ msgstr "fornitore LTI"
 #: openedx/core/djangoapps/course_live/models.py:34
 #: openedx/core/djangoapps/programs/models.py:58
 msgid "The LTI provider's id"
-msgstr "L&#39;ID del provider LTI"
+msgstr "L'ID del provider LTI"
 
 #: openedx/core/djangoapps/course_live/models.py:38
 msgid "True, if LTI credential are provided by Org globally"
 msgstr ""
-"Vero, se le credenziali LTI sono fornite dall&#39;organizzazione a livello "
+"Vero, se le credenziali LTI sono fornite dall'organizzazione a livello "
 "globale"
 
 #: openedx/core/djangoapps/course_live/plugins.py:25
@@ -9063,7 +9063,7 @@ msgid ""
 "the course. A UI for discussions will show up with each unit."
 msgstr ""
 "Se abilitato, verranno creati argomenti di discussione per ciascuna unità "
-"non valutata nel corso. Un&#39;interfaccia utente per le discussioni verrà "
+"non valutata nel corso. Un'interfaccia utente per le discussioni verrà "
 "visualizzata con ciascuna unità."
 
 #: openedx/core/djangoapps/discussions/models.py:453
@@ -9501,7 +9501,7 @@ msgstr "Impostazioni di notifica"
 #: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:46
 msgid "Unsubscribe from email digest for learning activity"
 msgstr ""
-"Annulla l&#39;iscrizione al riepilogo via email per l&#39;attività di "
+"Annulla l'iscrizione al riepilogo via email per l'attività di "
 "apprendimento"
 
 #: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:25
@@ -9535,8 +9535,8 @@ msgstr "Abbiamo aggiornato le preferenze di riepilogo e-mail."
 msgid ""
 "You have successfully unsubscribed from email digest for learning activity"
 msgstr ""
-"Hai annullato con successo l&#39;iscrizione al riepilogo e-mail per "
-"l&#39;attività di apprendimento"
+"Hai annullato con successo l'iscrizione al riepilogo e-mail per "
+"l'attività di apprendimento"
 
 #: openedx/core/djangoapps/notifications/views.py:174
 msgid "Invalid app name."
@@ -9672,7 +9672,7 @@ msgstr "UUID programma"
 
 #: openedx/core/djangoapps/programs/models.py:45
 msgid "If disabled, the LTI in the associated program will be disabled."
-msgstr "Se disabilitato, l&#39;LTI nel programma associato sarà disabilitato."
+msgstr "Se disabilitato, l'LTI nel programma associato sarà disabilitato."
 
 #: openedx/core/djangoapps/programs/models.py:52
 msgid "The LTI configuration data for this program/provider."
@@ -10245,7 +10245,7 @@ msgid ""
 "this field blank."
 msgstr ""
 "Assicurati di fornire un nome utente valido o un URL che contenga "
-"&quot;{url_stub}&quot;. Per rimuovere il link dal tuo profilo "
+"\"{url_stub}\". Per rimuovere il link dal tuo profilo "
 "{platform_name}, lascia vuoto questo campo."
 
 #: openedx/core/djangoapps/user_api/accounts/views.py:637
@@ -12030,7 +12030,7 @@ msgid ""
 "the last submission made by the student."
 msgstr ""
 "Definire il metodo di valutazione per questo problema. Per impostazione "
-"predefinita, è il punteggio dell&#39;ultimo invio effettuato dallo studente."
+"predefinita, è il punteggio dell'ultimo invio effettuato dallo studente."
 
 #: xmodule/capa_block.py:215 xmodule/capa_block.py:505
 msgid "Last Score"
@@ -12290,8 +12290,8 @@ msgid ""
 "Indicates if the problem was edited using the Markdown editor in the "
 "Authoring MFE."
 msgstr ""
-"Indica se il problema è stato modificato utilizzando l&#39;editor Markdown "
-"nell&#39;MFE di creazione."
+"Indica se il problema è stato modificato utilizzando l'editor Markdown "
+"nell'MFE di creazione."
 
 #: xmodule/capa_block.py:433
 msgid ""
@@ -12515,7 +12515,7 @@ msgid ""
 msgstr ""
 "Gli ID di posizione dei componenti di tutti i componenti di origine "
 "utilizzati per determinare se a uno studente viene mostrato il contenuto di "
-"questo blocco condizionale. Copia l&#39;ID posizione componente di un "
+"questo blocco condizionale. Copia l'ID posizione componente di un "
 "componente dalla finestra di dialogo Impostazioni in Studio."
 
 #: xmodule/conditional_block.py:108
@@ -12527,7 +12527,7 @@ msgid ""
 "The attribute of the source components that determines whether a learner is "
 "shown the content of this conditional block."
 msgstr ""
-"L&#39;attributo dei componenti di origine che determina se a uno studente "
+"L'attributo dei componenti di origine che determina se a uno studente "
 "viene mostrato il contenuto di questo blocco condizionale."
 
 #: xmodule/conditional_block.py:118
@@ -12539,7 +12539,7 @@ msgid ""
 "The value that the conditional attribute of the source components must match"
 " before a learner is shown the content of this conditional block."
 msgstr ""
-"Il valore che l&#39;attributo condizionale dei componenti di origine deve "
+"Il valore che l'attributo condizionale dei componenti di origine deve "
 "corrispondere prima che a uno studente venga mostrato il contenuto di questo"
 " blocco condizionale."
 
@@ -13294,7 +13294,7 @@ msgstr "ID dell'esame di ammissione"
 #: xmodule/course_block.py:839
 msgid "Content block identifier (location) of entrance exam."
 msgstr ""
-"Identificatore del blocco di Contenuto (posizione) dell&#39;esame di "
+"Identificatore del blocco di Contenuto (posizione) dell'esame di "
 "ammissione."
 
 #: xmodule/course_block.py:845
@@ -13334,7 +13334,7 @@ msgid ""
 " configuration documentation</a> for help and examples."
 msgstr ""
 "Configura i set di team, limita le dimensioni del team e imposta le "
-"impostazioni di visibilità utilizzando JSON. Vedere <a target=\"&#95;blank\""
+"impostazioni di visibilità utilizzando JSON. Vedere <a target=\"_blank\""
 " "
 "href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html>teams"
 " configuration documentation</a> per aiuto ed esempi."
@@ -13504,8 +13504,8 @@ msgid ""
 "default."
 msgstr ""
 "Specifica le opzioni di condivisione video per il corso. Questo può essere "
-"impostato su uno dei tre valori: &#39;all-on&#39;, &#39;all-off&#39; e "
-"&#39;per-video&#39;. con &quot;per video&quot; come impostazione "
+"impostato su uno dei tre valori: 'all-on', 'all-off' e "
+"'per-video'. con \"per video\" come impostazione "
 "predefinita."
 
 #: xmodule/course_block.py:1019
@@ -13517,7 +13517,7 @@ msgid ""
 "Setting this flag will force on the flexible grading option for all peer-"
 "graded ORAs in this course."
 msgstr ""
-"L&#39;impostazione di questo flag imporrà l&#39;opzione di valutazione "
+"L'impostazione di questo flag imporrà l'opzione di valutazione "
 "flessibile per tutti gli ORA valutati tra pari in questo corso."
 
 #: xmodule/course_block.py:1040
@@ -13758,7 +13758,7 @@ msgid ""
 "Determines whether a 'Reset Problems' button is shown, so users may reset "
 "their answers and reshuffle selected items."
 msgstr ""
-"Determina se viene visualizzato un pulsante &quot;Ripristina problemi&quot;,"
+"Determina se viene visualizzato un pulsante \"Ripristina problemi\","
 " in modo che gli utenti possano reimpostare le risposte e rimescolare gli "
 "elementi selezionati."
 
@@ -14403,7 +14403,7 @@ msgstr ""
 #: xmodule/modulestore/inheritance.py:224
 msgid "Tag this block as part of an Entrance Exam section"
 msgstr ""
-"Contrassegna questo blocco come parte di una sezione dell&#39;esame di "
+"Contrassegna questo blocco come parte di una sezione dell'esame di "
 "ammissione"
 
 #: xmodule/modulestore/inheritance.py:225
@@ -14412,8 +14412,8 @@ msgid ""
 "considered in the Entrance Exam scoring/gating algorithm."
 msgstr ""
 "Inserisci vero o falso. Se vero, le risposte inviate per blocchi di problemi"
-" verranno prese in considerazione nell&#39;algoritmo di punteggio/gating "
-"dell&#39;esame di ammissione."
+" verranno prese in considerazione nell'algoritmo di punteggio/gating "
+"dell'esame di ammissione."
 
 #: xmodule/modulestore/inheritance.py:243
 msgid "Hide from Table of Contents"
