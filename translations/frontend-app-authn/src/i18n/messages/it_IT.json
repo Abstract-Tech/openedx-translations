@@ -151,7 +151,8 @@
   "registration.forbidden.username": "I nomi utente non possono includere parole che potrebbero essere scambiate per ruoli del corso. Si prega di scegliere un nome utente diverso.",
   "registration.tpa.authentication.failure": "Siamo spiacenti, non sei autorizzato ad accedere a {platform_name} tramite questo canale. Contatta il tuo amministratore o responsabile dell'apprendimento per accedere a {platform_name}.{lineBreak}{lineBreak}Dettagli errore:{lineBreak}{errorMessage}",
   "terms.of.service.and.honor.code": "Termini e Condizioni del Servizio",
-  "privacy.policy": "Informativa sulla privacy",
+  "privacy.policy": "Polizza Privata",
+  "registration.additional.details.opt.in.label": "Completa la registrazione aggiungendo ulteriori dettagli",
   "honor.code": "Codice d'Onore",
   "terms.of.service": "Termini di Servizio",
   "registration.username.suggestion.label": "Suggerito:",
@@ -177,7 +178,7 @@
   "welcome.to.platform": "Benvenuto in {siteName}, {fullName}!",
   "complete.your.profile.1": "Completata",
   "complete.your.profile.2": "Il tuo profilo",
-  "register.page.terms.of.service.and.honor.code": "Creando un account, accetti il {tosAndHonorCode} e riconosci che {platformName} e ciascun Membro trattano i tuoi dati personali in conformità con il {privacyPolicy}.",
+  "register.page.terms.of.service.and.honor.code": "Effettuando la registrazione, dichiara di accettare le {tosAndHonorCode} e l'inoltro dei suoi dati {platformName} come da {privacyPolicy}.",
   "register.page.honor.code": "Accetto il {platformName}&nbsp;{tosAndHonorCode}",
   "register.page.terms.of.service": "Accetto il {platformName}&nbsp;{termsOfService}",
   "error.notfound.page.title": "Pagina non trovata | {siteName}"
