@@ -33,7 +33,7 @@
   "profile.education.levels.jhs": "Scuole Medie",
   "profile.education.levels.el": "Scuola Primaria/Elementare",
   "profile.education.levels.none": "Nessun livello educativo formale",
-  "profile.education.levels.o": "Altro tipo di formazione",
+  "profile.education.levels.o": "Altro livello educativo",
   "profile.name.full.name": "Nome e Cognome",
   "profile.name.empty": "Aggiungi il nome completo",
   "profile.name.tooltip": "Il nome utilizzato per la verifica dell'identità e che appare sui tuoi certificati",
