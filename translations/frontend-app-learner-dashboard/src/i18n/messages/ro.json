@@ -144,5 +144,13 @@
   "learner-dash.courseCard.banners.credit.requestCredit": "Solicitați credit",
   "learner-dash.courseCard.banners.credit.viewCredit": "Vedeți credit",
   "learner-dash.courseCard.banners.credit.viewDetails": "Vezi detalii",
-  "learner-dash.page.title": "Pagina principală a cursantului | {siteName}"
+  "learner-dash.page.title": "Pagina principală a cursantului | {siteName}",
+  "learnerDashboard.welcomeBanner.greeting": "Bine ai venit!",
+  "learnerDashboard.courseList.activeCourses": "Cursuri active",
+  "learnerDashboard.courseList.completedCourses": "Cursuri finalizate",
+  "learnerDashboard.courseList.allCourses": "Toate cursurile",
+  "learnerDashboard.courseList.noActiveCourses": "Nu ai niciun curs activ.",
+  "learnerDashboard.courseList.noCompletedCourses": "Nu ai niciun curs finalizat.",
+  "learnerDashboard.courseRecommendations.heading": "Descoperă mai multe cursuri!",
+  "learnerDashboard.courseRecommendations.showAllCourses": "Afișează toate cursurile"
 }

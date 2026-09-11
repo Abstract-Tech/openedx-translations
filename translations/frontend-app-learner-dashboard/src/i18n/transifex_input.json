@@ -144,5 +144,13 @@
   "learner-dash.courseCard.banners.credit.requestCredit": "Request Credit",
   "learner-dash.courseCard.banners.credit.viewCredit": "View Credit",
   "learner-dash.courseCard.banners.credit.viewDetails": "View Details",
-  "learner-dash.page.title": "Learner Home | {siteName}"
+  "learner-dash.page.title": "Learner Home | {siteName}",
+  "learnerDashboard.welcomeBanner.greeting": "Welcome!",
+  "learnerDashboard.courseList.activeCourses": "Active courses",
+  "learnerDashboard.courseList.completedCourses": "Completed courses",
+  "learnerDashboard.courseList.allCourses": "All courses",
+  "learnerDashboard.courseList.noActiveCourses": "You don't have any active courses.",
+  "learnerDashboard.courseList.noCompletedCourses": "You don't have any completed courses.",
+  "learnerDashboard.courseRecommendations.heading": "Discover more courses!",
+  "learnerDashboard.courseRecommendations.showAllCourses": "Show all courses"
 }

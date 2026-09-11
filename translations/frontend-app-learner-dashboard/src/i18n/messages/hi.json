@@ -144,5 +144,13 @@
   "learner-dash.courseCard.banners.credit.requestCredit": "क्रेडिट का अनुरोध करें",
   "learner-dash.courseCard.banners.credit.viewCredit": "क्रेडिट देखें",
   "learner-dash.courseCard.banners.credit.viewDetails": "विवरण देखें",
-  "learner-dash.page.title": ""
+  "learner-dash.page.title": "",
+  "learnerDashboard.welcomeBanner.greeting": "स्वागत है!",
+  "learnerDashboard.courseList.activeCourses": "सक्रिय पाठ्यक्रम",
+  "learnerDashboard.courseList.completedCourses": "पूर्ण किए गए पाठ्यक्रम",
+  "learnerDashboard.courseList.allCourses": "सभी पाठ्यक्रम",
+  "learnerDashboard.courseList.noActiveCourses": "आपके पास कोई सक्रिय पाठ्यक्रम नहीं है।",
+  "learnerDashboard.courseList.noCompletedCourses": "आपके पास कोई पूर्ण किया गया पाठ्यक्रम नहीं है।",
+  "learnerDashboard.courseRecommendations.heading": "और पाठ्यक्रम खोजें!",
+  "learnerDashboard.courseRecommendations.showAllCourses": "सभी पाठ्यक्रम दिखाएँ"
 }

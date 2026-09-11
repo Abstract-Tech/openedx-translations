@@ -144,5 +144,13 @@
   "learner-dash.courseCard.banners.credit.requestCredit": "Запросить зачётные единицы",
   "learner-dash.courseCard.banners.credit.viewCredit": "Посмотреть зачётные единицы",
   "learner-dash.courseCard.banners.credit.viewDetails": "Смотреть подробнее",
-  "learner-dash.page.title": "Главная страница слушателя | {siteName}"
+  "learner-dash.page.title": "Главная страница слушателя | {siteName}",
+  "learnerDashboard.welcomeBanner.greeting": "Добро пожаловать!",
+  "learnerDashboard.courseList.activeCourses": "Активные курсы",
+  "learnerDashboard.courseList.completedCourses": "Завершённые курсы",
+  "learnerDashboard.courseList.allCourses": "Все курсы",
+  "learnerDashboard.courseList.noActiveCourses": "У вас нет активных курсов.",
+  "learnerDashboard.courseList.noCompletedCourses": "У вас нет завершённых курсов.",
+  "learnerDashboard.courseRecommendations.heading": "Откройте для себя новые курсы!",
+  "learnerDashboard.courseRecommendations.showAllCourses": "Показать все курсы"
 }
