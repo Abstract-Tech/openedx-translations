@@ -1,7 +1,7 @@
 {
   "bulk.email.send.email.header": "Invia un'e-mail",
   "bulk.email.form.recipients.myself": "Me stesso",
-  "bulk.email.recipients.staff.label": "",
+  "bulk.email.recipients.staff.label": "Staff e istruttori",
   "bulk.email.recipients.learners.label": "Tutti gli studenti",
   "bulk.email.back.to.instructorDashboard": "Torna alla dashboard dell'Istruttore",
   "bulk.email.form.schedule.date": "Data di invio",
