@@ -144,5 +144,13 @@
   "learner-dash.courseCard.banners.credit.requestCredit": "Pedido de crédito",
   "learner-dash.courseCard.banners.credit.viewCredit": "Visualizar crédito",
   "learner-dash.courseCard.banners.credit.viewDetails": "Visualizar detalhes",
-  "learner-dash.page.title": "Página inicial do Estudante | {siteName}"
+  "learner-dash.page.title": "Página inicial do Estudante | {siteName}",
+  "learnerDashboard.welcomeBanner.greeting": "Boas-vindas!",
+  "learnerDashboard.courseList.activeCourses": "Cursos ativos",
+  "learnerDashboard.courseList.completedCourses": "Cursos concluídos",
+  "learnerDashboard.courseList.allCourses": "Todos os cursos",
+  "learnerDashboard.courseList.noActiveCourses": "Você não tem nenhum curso ativo.",
+  "learnerDashboard.courseList.noCompletedCourses": "Você não tem nenhum curso concluído.",
+  "learnerDashboard.courseRecommendations.heading": "Descubra mais cursos!",
+  "learnerDashboard.courseRecommendations.showAllCourses": "Mostrar todos os cursos"
 }
