@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "Это работает! На платформе Open edX®",
   "catalog.home-page.search-placeholder": "Поиск курсов",
   "catalog.home-page.video-button": "Просмотреть промо-видео",
-  "catalog.home-page.video-button-alt": "кнопка поиска"
+  "catalog.home-page.video-button-alt": "кнопка поиска",
+  "catalog.course-about.sidebar-details.info": "Информация"
 }

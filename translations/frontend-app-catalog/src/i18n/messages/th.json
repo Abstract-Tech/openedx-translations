@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "มันใช้งานได้! ขับเคลื่อนโดยแพลตฟอร์ม Open edX®",
   "catalog.home-page.search-placeholder": "ค้นหาหลักสูตร",
   "catalog.home-page.video-button": "ดูวิดีโอโฆษณา",
-  "catalog.home-page.video-button-alt": "ปุ่มค้นหา"
+  "catalog.home-page.video-button-alt": "ปุ่มค้นหา",
+  "catalog.course-about.sidebar-details.info": "ข้อมูล"
 }

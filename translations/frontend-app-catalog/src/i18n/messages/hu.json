@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "Működik! Az Open edX® Platform hajtja",
   "catalog.home-page.search-placeholder": "Kurzus keresés",
   "catalog.home-page.video-button": "Nézd meg a promóciós videót",
-  "catalog.home-page.video-button-alt": "keresés gomb"
+  "catalog.home-page.video-button-alt": "keresés gomb",
+  "catalog.course-about.sidebar-details.info": "Információ"
 }

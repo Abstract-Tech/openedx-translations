@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "Çalışıyor! İçinde Open edX® Platformu var",
   "catalog.home-page.search-placeholder": "Bir ders ara",
   "catalog.home-page.video-button": "Tanıtım videosunu izle",
-  "catalog.home-page.video-button-alt": "arama düğmesi"
+  "catalog.home-page.video-button-alt": "arama düğmesi",
+  "catalog.course-about.sidebar-details.info": "Bilgi"
 }

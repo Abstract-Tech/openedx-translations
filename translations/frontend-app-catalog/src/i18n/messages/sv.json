@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "Det fungerar! Drivs av Open edX®-plattformen",
   "catalog.home-page.search-placeholder": "Sök kurs",
   "catalog.home-page.video-button": "Se promotionsvideo",
-  "catalog.home-page.video-button-alt": "sökknapp"
+  "catalog.home-page.video-button-alt": "sökknapp",
+  "catalog.course-about.sidebar-details.info": "Info"
 }
