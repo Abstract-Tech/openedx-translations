@@ -54,5 +54,6 @@
   "catalog.home-page.subtitle": "It works! Powered by the Open edX® Platform",
   "catalog.home-page.search-placeholder": "Search for a course",
   "catalog.home-page.video-button": "View promo video",
-  "catalog.home-page.video-button-alt": "search button"
+  "catalog.home-page.video-button-alt": "search button",
+  "catalog.course-about.sidebar-details.info": "Info"
 }

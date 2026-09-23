@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "İşləyir! Open edX® Platforması ilə təmin edilir",
   "catalog.home-page.search-placeholder": "Bir kurs axtarın",
   "catalog.home-page.video-button": "Promo videonu izləyin",
-  "catalog.home-page.video-button-alt": "axtarış düyməsi"
+  "catalog.home-page.video-button-alt": "axtarış düyməsi",
+  "catalog.course-about.sidebar-details.info": "Məlumat"
 }

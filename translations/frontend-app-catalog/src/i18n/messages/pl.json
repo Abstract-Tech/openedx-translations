@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "Działa! Zasilane przez platformę Open edX®",
   "catalog.home-page.search-placeholder": "Wyszukaj kurs",
   "catalog.home-page.video-button": "Obejrzyj film promocyjny",
-  "catalog.home-page.video-button-alt": "przycisk wyszukiwania"
+  "catalog.home-page.video-button-alt": "przycisk wyszukiwania",
+  "catalog.course-about.sidebar-details.info": "Informacje"
 }

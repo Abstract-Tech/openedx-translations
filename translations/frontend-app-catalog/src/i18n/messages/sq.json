@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "Funksionon! Mundësuar nga Platforma Open edX®",
   "catalog.home-page.search-placeholder": "Kërkoni për një kurs",
   "catalog.home-page.video-button": "Shikoni videon promovuese",
-  "catalog.home-page.video-button-alt": "butoni kërkues"
+  "catalog.home-page.video-button-alt": "butoni kërkues",
+  "catalog.course-about.sidebar-details.info": "Informacion"
 }

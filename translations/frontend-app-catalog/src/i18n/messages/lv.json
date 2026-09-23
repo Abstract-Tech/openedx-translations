@@ -53,5 +53,6 @@
   "catalog.home-page.subtitle": "Tas darbojas! Darbina Open edX® platforma",
   "catalog.home-page.search-placeholder": "Meklējiet kursu",
   "catalog.home-page.video-button": "Skatīt reklāmas video",
-  "catalog.home-page.video-button-alt": "meklēšanas poga"
+  "catalog.home-page.video-button-alt": "meklēšanas poga",
+  "catalog.course-about.sidebar-details.info": "Informācija"
 }
