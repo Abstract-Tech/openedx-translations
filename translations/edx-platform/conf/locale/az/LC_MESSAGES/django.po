@@ -27375,3 +27375,12 @@ msgstr "Müəllif hüquqları mətnini bura yerləşdirin!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Kod redaktoru"
+
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Potensialınızı üzə çıxarın: Bu gün yeni kursları kəşf edin!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Bilik dünyasını kəşf edin və müxtəlif kurslarımızla bacarıqlarınızı inkişaf etdirin."

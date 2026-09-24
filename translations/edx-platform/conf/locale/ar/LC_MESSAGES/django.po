@@ -26726,3 +26726,12 @@ msgstr "ضع نصّ حقوق النشر والطبع الخاصة بك هنا!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "محرر الرمز"
+
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "أطلق العنان لإمكاناتك: اكتشف دورات جديدة اليوم!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "استكشف عالمًا من المعرفة وعزّز مهاراتك من خلال مجموعتنا المتنوعة من الدورات."
