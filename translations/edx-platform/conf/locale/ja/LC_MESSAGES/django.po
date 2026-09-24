@@ -13484,3 +13484,15 @@ msgstr "可能性を解き放とう：今日から新しいコースを見つけ
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "知識の世界を探求し、多彩なコースでスキルを高めましょう。"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "フィルター"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "コース概要"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "提供元:"

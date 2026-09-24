@@ -14798,3 +14798,15 @@ msgstr "अपनी क्षमता को उजागर करें: आ
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "ज्ञान की दुनिया का अन्वेषण करें और हमारे विविध पाठ्यक्रमों के माध्यम से अपने कौशल को निखारें।"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "फ़िल्टर"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "पाठ्यक्रम सारांश"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "द्वारा संचालित:"

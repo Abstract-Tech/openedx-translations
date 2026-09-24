@@ -13169,3 +13169,15 @@ msgstr "Unlock Your Potential: Discover New Courses Today!"
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filters"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Course Summary"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Powered by:"

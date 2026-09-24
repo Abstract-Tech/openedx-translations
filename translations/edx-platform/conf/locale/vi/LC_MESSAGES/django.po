@@ -14147,3 +14147,15 @@ msgstr "Khai phá tiềm năng của bạn: Khám phá các khóa học mới ng
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "Khám phá thế giới tri thức và nâng cao kỹ năng của bạn với đa dạng các khóa học của chúng tôi."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Bộ lọc"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Tóm tắt khóa học"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Được cung cấp bởi:"

@@ -14837,3 +14837,15 @@ msgstr "Potansiyelinizi Ortaya Çıkarın: Bugün Yeni Kursları Keşfedin!"
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "Bilgi dünyasını keşfedin ve çeşitli kurs yelpazemizle becerilerinizi geliştirin."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filtreler"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Kurs Özeti"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Destekleyen:"
