@@ -27943,3 +27943,16 @@ msgstr "TALENTBRÜCKE Academy: Discover Your Potential!"
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "Entdecken Sie eine Welt des Wissens und erweitern Sie Ihre Fähigkeiten mit unserem vielfältigen Kursangebot."
+
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filter"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Kursübersicht"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Bereitgestellt von:"
