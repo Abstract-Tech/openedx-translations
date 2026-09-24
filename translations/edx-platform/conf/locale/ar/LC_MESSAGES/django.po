@@ -14285,3 +14285,11 @@ msgid ""
 msgstr ""
 "{display_name} متاح فقط للمتعلمين المسجلين. قم بتسجيل الدخول أو التسجيل ، "
 "والتسجيل في هذا المساق لمشاهدته."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "أطلق العنان لإمكاناتك: اكتشف دورات جديدة اليوم!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "استكشف عالمًا من المعرفة وعزّز مهاراتك من خلال مجموعتنا المتنوعة من الدورات."

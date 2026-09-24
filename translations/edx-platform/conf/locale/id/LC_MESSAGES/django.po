@@ -14428,3 +14428,11 @@ msgid ""
 msgstr ""
 "{display_name} hanya dapat diakses peserta yang terdaftar. Masuk atau "
 "registrasi, dan daftar ke kursus ini untuk melihat."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Wujudkan Potensi Anda: Temukan Kursus Baru Hari Ini!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Jelajahi dunia pengetahuan dan tingkatkan keterampilan Anda dengan beragam pilihan kursus kami."

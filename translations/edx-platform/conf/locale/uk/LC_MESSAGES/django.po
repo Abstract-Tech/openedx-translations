@@ -11496,3 +11496,11 @@ msgid ""
 msgstr ""
 "{display_name} доступний лише для зареєстрованих учнів. Увійдіть або "
 "зареєструйтеся та запишіться на  цей курс, щоб переглянути його."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Розкрийте свій потенціал: відкрийте для себе нові курси вже сьогодні!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Досліджуйте світ знань і розвивайте свої навички завдяки нашому різноманітному вибору курсів."

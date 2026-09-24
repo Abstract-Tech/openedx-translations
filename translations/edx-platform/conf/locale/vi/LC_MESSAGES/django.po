@@ -14139,3 +14139,11 @@ msgid ""
 msgstr ""
 "{display_name} chỉ có thể truy cập được đối với những người học đã đăng ký. "
 "Đăng nhập hoặc đăng ký và đăng ký khóa học này để xem nó."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Khai phá tiềm năng của bạn: Khám phá các khóa học mới ngay hôm nay!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Khám phá thế giới tri thức và nâng cao kỹ năng của bạn với đa dạng các khóa học của chúng tôi."

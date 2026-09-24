@@ -14944,3 +14944,11 @@ msgstr ""
 "{display_name} csak a beiratkozott tanulók számára hozzáférhető. "
 "Jelentkezzen be vagy regisztráljon, és iratkozzon be erre a kurzusra, hogy "
 "megtekinthesse."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Bontakoztassa ki a benne rejlő lehetőségeket: fedezzen fel új kurzusokat még ma!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Fedezze fel a tudás világát, és fejlessze készségeit változatos kurzuskínálatunkkal."

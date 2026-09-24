@@ -14790,3 +14790,11 @@ msgid ""
 msgstr ""
 "{display_name} केवल नामांकित शिक्षार्थियों के लिए सुलभ है। इसे देखने के लिए "
 "साइन इन या रजिस्टर करें, और इस कोर्स में दाखिला लें।"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "अपनी क्षमता को उजागर करें: आज ही नए पाठ्यक्रम खोजें!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "ज्ञान की दुनिया का अन्वेषण करें और हमारे विविध पाठ्यक्रमों के माध्यम से अपने कौशल को निखारें।"

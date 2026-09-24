@@ -13269,3 +13269,11 @@ msgstr "כל המילים האפשריות מכל הלומדים."
 #: xmodule/word_cloud_block.py:110
 msgid "Top num_top_words words for word cloud."
 msgstr "מילות num_top_words מובילות עבור ענן המילים."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "ממשו את הפוטנציאל שלכם: גלו קורסים חדשים עוד היום!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "גלו עולם של ידע ושפרו את המיומנויות שלכם באמצעות מגוון הקורסים שלנו."

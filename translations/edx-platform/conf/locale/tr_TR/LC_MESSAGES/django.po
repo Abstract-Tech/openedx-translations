@@ -14829,3 +14829,11 @@ msgid ""
 msgstr ""
 "{display_name} sadece kayıtlanmış öğrencilere görünür. Görmek için, bu derse"
 " giriş yapın ve derse kayıtlanın."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Potansiyelinizi Ortaya Çıkarın: Bugün Yeni Kursları Keşfedin!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Bilgi dünyasını keşfedin ve çeşitli kurs yelpazemizle becerilerinizi geliştirin."

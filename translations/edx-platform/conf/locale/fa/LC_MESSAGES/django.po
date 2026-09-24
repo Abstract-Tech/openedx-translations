@@ -14017,3 +14017,11 @@ msgid ""
 msgstr ""
 "{display_name} فقط برای زبان آموزان ثبت نام شده قابل دسترسی است. وارد شوید "
 "یا ثبت نام کنید و برای مشاهده در این دوره ثبت نام کنید."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "توانایی‌های خود را شکوفا کنید: امروز دوره‌های جدید را کشف کنید!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "دنیایی از دانش را کاوش کنید و با مجموعه متنوع دوره‌های ما مهارت‌های خود را ارتقا دهید."

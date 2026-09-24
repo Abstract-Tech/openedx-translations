@@ -14519,3 +14519,11 @@ msgid ""
 msgstr ""
 "{display_name} ხელმისაწვდომია მხოლოდ ჩარიცხული მოსწავლეებისთვის. შედით ან "
 "დარეგისტრირდით და დარეგისტრირდით ამ კურსზე მის სანახავად."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "აღმოაჩინეთ თქვენი პოტენციალი: იპოვეთ ახალი კურსები დღესვე!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "აღმოაჩინეთ ცოდნის სამყარო და განივითარეთ უნარები ჩვენი მრავალფეროვანი კურსების საშუალებით."

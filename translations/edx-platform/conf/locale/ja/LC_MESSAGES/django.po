@@ -13476,3 +13476,11 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr "{display_name}は登録した学習者のみがアクセスできます。サインインまたは登録して、このコースに登録し、内容を表示してください。"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "可能性を解き放とう：今日から新しいコースを見つけよう！"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "知識の世界を探求し、多彩なコースでスキルを高めましょう。"
