@@ -8250,12 +8250,3 @@ msgstr "ཁྱེད་ཀྱི་བདག་དབང་གི་ལག་ད
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "ཨང་བརྡ་རྩོམ་སྒྲིག་བྱེད་ས།"
-
-
-#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
-msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "ཁྱེད་ཀྱི་ནུས་པ་སྒོ་འབྱེད། དེ་རིང་སློབ་ཚན་གསར་པ་རྙེད་པར་བྱོས།"
-
-#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
-msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "ཤེས་ཡོན་གྱི་འཛམ་གླིང་ཞིག་ལ་ཞུགས་ནས་ང་ཚོའི་སློབ་ཚན་སྣ་ཚོགས་ཀྱིས་ཁྱེད་ཀྱི་རྩལ་རྣམས་མཐོ་རུ་གཏོང་།"
