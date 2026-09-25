@@ -14484,3 +14484,23 @@ msgid ""
 msgstr ""
 "{display_name} n'est accessible qu'aux apprenants inscrits. Connectez-vous "
 "ou inscrivez-vous à ce cours pour le voir."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Libérez votre potentiel : découvrez de nouveaux cours dès aujourd’hui !"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Explorez un monde de connaissances et développez vos compétences grâce à notre vaste choix de cours."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filtres"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Résumé du cours"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Propulsé par :"

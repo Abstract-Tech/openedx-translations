@@ -14730,3 +14730,23 @@ msgid ""
 msgstr ""
 "{display_name} är endast tillgängligt för inskrivna elever. Logga in eller "
 "registrera dig och anmäl dig till den här kursen för att se den."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Frigör din potential: upptäck nya kurser i dag!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Utforska en värld av kunskap och utveckla dina färdigheter med vårt mångsidiga kursutbud."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filter"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Kurssammanfattning"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Drivs av:"

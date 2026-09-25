@@ -14849,3 +14849,23 @@ msgid ""
 msgstr ""
 "{display_name} yalnız qeydiyyatdan keçmiş tələbələrə açıqdır. Ona baxmaq "
 "üçün daxil olun və ya qeydiyyatdan keçərək kursa yazılın."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Potensialınızı üzə çıxarın: Bu gün yeni kursları kəşf edin!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Bilik dünyasını kəşf edin və müxtəlif kurslarımızla bacarıqlarınızı inkişaf etdirin."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filtrlər"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Kursun xülasəsi"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Təqdim edir:"

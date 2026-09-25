@@ -14752,3 +14752,23 @@ msgid ""
 msgstr ""
 "{display_name} është i aksesueshëm vetëm për nxënësit e regjistruar. "
 "Identifikohu ose regjistrohu dhe përfshihu në këtë kurs për ta parë atë."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Zhbllokoni potencialin tuaj: zbuloni kurse të reja sot!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Eksploroni një botë njohurish dhe përmirësoni aftësitë tuaja me gamën tonë të larmishme të kurseve."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filtrat"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Përmbledhje e kursit"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Mundësuar nga:"

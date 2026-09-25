@@ -13954,3 +13954,23 @@ msgid ""
 msgstr ""
 "{display_name} ir pieejama tikai reģistrētiem kursa dalībniekiem. Lai to "
 "apskatītu, pierakstieties vai reģistrējieties un reģistrējieties šajā kursā."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Atklājiet savu potenciālu: atrodiet jaunus kursus jau šodien!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Iepazīstiet zināšanu pasauli un pilnveidojiet savas prasmes, izmantojot mūsu daudzveidīgo kursu klāstu."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filtri"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Kursa kopsavilkums"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Nodrošina:"
