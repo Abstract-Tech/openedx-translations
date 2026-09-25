@@ -8259,16 +8259,3 @@ msgstr "ཁྱེད་ཀྱི་ནུས་པ་སྒོ་འབྱེད
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "ཤེས་ཡོན་གྱི་འཛམ་གླིང་ཞིག་ལ་ཞུགས་ནས་ང་ཚོའི་སློབ་ཚན་སྣ་ཚོགས་ཀྱིས་ཁྱེད་ཀྱི་རྩལ་རྣམས་མཐོ་རུ་གཏོང་།"
-
-
-#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
-msgid "Filters"
-msgstr "ཚགས་སྒྲིག"
-
-#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
-msgid "Course Summary"
-msgstr "སློབ་ཚན་གྱི་སྙིང་བསྡུས།"
-
-#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
-msgid "Powered by:"
-msgstr "དབང་སྤྲོད་པ།"
