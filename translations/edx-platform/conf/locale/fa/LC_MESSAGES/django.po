@@ -26319,3 +26319,23 @@ msgstr "متن کپی‌رایت خود را این‌جا قرار دهید!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "ویرایش‌گر کد"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "توانایی‌های خود را شکوفا کنید: امروز دوره‌های جدید را کشف کنید!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "دنیایی از دانش را کاوش کنید و با مجموعه متنوع دوره‌های ما مهارت‌های خود را ارتقا دهید."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "فیلترها"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "خلاصه دوره"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "ارائه‌شده توسط:"
