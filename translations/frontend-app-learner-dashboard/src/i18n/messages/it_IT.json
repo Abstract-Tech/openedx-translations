@@ -90,7 +90,7 @@
   "learner-dash.unenrollConfirm.confirm.finish.text": "Sei stato disiscritto dal corso {courseTitle}",
   "learner-dash.unenrollConfirm.confirm.finish.return": "Ok",
   "learner-dash.courseCard.actions.beginCourse": "Inizia il Corso",
-  "learner-dash.courseCard.actions.resume": "Riprendere",
+  "learner-dash.courseCard.actions.resume": "Vai al corso o Vedi il Corso Archiviato",
   "learner-dash.courseCard.actions.viewCourse": "Vai al corso",
   "learner-dash.courseCard.actions.selectSession": "Seleziona sessione",
   "learner-dash.courseCard.banners.auditAccessExpired": "Il tuo accesso di verifica a questo corso è scaduto.",
