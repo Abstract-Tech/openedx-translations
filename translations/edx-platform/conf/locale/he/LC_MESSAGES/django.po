@@ -15844,3 +15844,23 @@ msgstr "מקם כאן את טקסט זכויות היוצרים שלך!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "עורך קוד"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "ממשו את הפוטנציאל שלכם: גלו קורסים חדשים עוד היום!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "גלו עולם של ידע ושפרו את המיומנויות שלכם באמצעות מגוון הקורסים שלנו."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "מסננים"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "סיכום הקורס"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "מופעל על ידי:"

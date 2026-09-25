@@ -17292,3 +17292,23 @@ msgstr "Tuliskan Hak Cipta anda disini!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Kode Editor"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Wujudkan Potensi Anda: Temukan Kursus Baru Hari Ini!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Jelajahi dunia pengetahuan dan tingkatkan keterampilan Anda dengan beragam pilihan kursus kami."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Filter"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Ringkasan Kursus"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "Didukung oleh:"

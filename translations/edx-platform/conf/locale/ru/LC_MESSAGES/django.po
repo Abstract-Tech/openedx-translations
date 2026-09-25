@@ -19834,3 +19834,23 @@ msgstr "Добавьте сюда ваш текст об авторских пр
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Редактор кода"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Раскройте свой потенциал: откройте для себя новые курсы уже сегодня!"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Исследуйте мир знаний и развивайте свои навыки с помощью нашего разнообразного выбора курсов."
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
+msgid "Filters"
+msgstr "Фильтры"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:155
+msgid "Course Summary"
+msgstr "Обзор курса"
+
+#: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/footer.html:32
+msgid "Powered by:"
+msgstr "При поддержке:"
