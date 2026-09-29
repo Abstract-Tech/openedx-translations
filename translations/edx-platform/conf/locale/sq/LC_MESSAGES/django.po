@@ -27176,11 +27176,11 @@ msgstr "Redaktori i kodit"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Zhbllokoni potencialin tuaj: zbuloni kurse të reja sot!"
+msgstr "Akademia TALENTBRÜCKE: Çlironi potencialin tuaj!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "Eksploroni një botë njohurish dhe përmirësoni aftësitë tuaja me gamën tonë të larmishme të kurseve."
+msgstr "Zhyteni në një botë njohurish dhe çojini aftësitë tuaja në nivelin tjetër me ofertën tonë të larmishme dhe praktike të kurseve."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

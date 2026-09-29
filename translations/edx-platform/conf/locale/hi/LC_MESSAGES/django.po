@@ -22171,11 +22171,11 @@ msgstr "कोड संपादक"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "अपनी क्षमता को उजागर करें: आज ही नए पाठ्यक्रम खोजें!"
+msgstr "TALENTBRÜCKE अकादमी: अपनी क्षमता को मुक्त करें!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "ज्ञान की दुनिया का अन्वेषण करें और हमारे विविध पाठ्यक्रमों के माध्यम से अपने कौशल को निखारें।"
+msgstr "ज्ञान की दुनिया में डूब जाएँ और हमारे विविध, व्यावहारिक पाठ्यक्रमों के साथ अपने कौशल को अगले स्तर तक ले जाएँ।"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

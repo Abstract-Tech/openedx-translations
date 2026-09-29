@@ -22433,11 +22433,11 @@ msgstr "クーポンコードを更新"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "可能性を解き放とう：今日から新しいコースを見つけよう！"
+msgstr "TALENTBRÜCKEアカデミー：可能性を解き放とう！"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "知識の世界を探求し、多彩なコースでスキルを高めましょう。"
+msgstr "知識の世界に飛び込み、多彩で実践的なコースを通じてスキルを次のレベルへ引き上げましょう。"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

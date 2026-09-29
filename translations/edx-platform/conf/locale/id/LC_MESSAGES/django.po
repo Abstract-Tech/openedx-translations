@@ -17295,11 +17295,11 @@ msgstr "Kode Editor"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Wujudkan Potensi Anda: Temukan Kursus Baru Hari Ini!"
+msgstr "Akademi TALENTBRÜCKE: Lepaskan Potensi Anda!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "Jelajahi dunia pengetahuan dan tingkatkan keterampilan Anda dengan beragam pilihan kursus kami."
+msgstr "Selami dunia pengetahuan dan tingkatkan keterampilan Anda ke level berikutnya dengan pilihan kursus kami yang beragam dan praktis."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

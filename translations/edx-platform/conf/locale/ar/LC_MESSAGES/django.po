@@ -26729,11 +26729,11 @@ msgstr "محرر الرمز"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "أطلق العنان لإمكاناتك: اكتشف دورات جديدة اليوم!"
+msgstr "أكاديمية TALENTBRÜCKE: أطلق العنان لإمكاناتك!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "استكشف عالمًا من المعرفة وعزّز مهاراتك من خلال مجموعتنا المتنوعة من الدورات."
+msgstr "انغمس في عالم من المعرفة وارتقِ بمهاراتك إلى المستوى التالي مع مجموعتنا المتنوعة والعملية من الدورات."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

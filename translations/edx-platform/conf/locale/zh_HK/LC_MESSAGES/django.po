@@ -21421,11 +21421,11 @@ msgstr "您的{platform_name}身分證件驗證照片已獲得批准。"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "釋放你的潛能：今天就探索新課程！"
+msgstr "TALENTBRÜCKE 學院：釋放你的潛能！"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "探索知識的世界，透過我們豐富多元的課程提升你的技能。"
+msgstr "沉浸於知識的世界，透過我們豐富多元、注重實踐的課程，將你的技能提升至新水平。"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"
