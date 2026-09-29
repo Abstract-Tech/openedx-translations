@@ -26546,11 +26546,11 @@ msgstr "Koda redaktors"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Atklājiet savu potenciālu: atrodiet jaunus kursus jau šodien!"
+msgstr "TALENTBRÜCKE akadēmija: Atbrīvojiet savu potenciālu!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "Iepazīstiet zināšanu pasauli un pilnveidojiet savas prasmes, izmantojot mūsu daudzveidīgo kursu klāstu."
+msgstr "Iegremdējieties zināšanu pasaulē un paceliet savas prasmes nākamajā līmenī ar mūsu daudzveidīgo un praktisko kursu piedāvājumu."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

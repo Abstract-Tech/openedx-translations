@@ -134,11 +134,11 @@ msgstr "Dissocier de la bibliothèque"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Libérez votre potentiel : découvrez de nouveaux cours dès aujourd’hui !"
+msgstr "Académie TALENTBRÜCKE : libérez votre potentiel !"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "Explorez un monde de connaissances et développez vos compétences grâce à notre large choix de cours."
+msgstr "Plongez dans un monde de connaissances et faites passer vos compétences au niveau supérieur grâce à notre offre variée et pratique de cours."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

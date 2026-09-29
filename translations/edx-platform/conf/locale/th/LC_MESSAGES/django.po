@@ -7993,11 +7993,11 @@ msgstr "เพิ่มนโยบายความเป็นส่วนต
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "ปลดล็อกศักยภาพของคุณ: ค้นพบหลักสูตรใหม่วันนี้!"
+msgstr "TALENTBRÜCKE Academy: ปลดปล่อยศักยภาพของคุณ!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "สำรวจโลกแห่งความรู้และพัฒนาทักษะของคุณด้วยหลักสูตรที่หลากหลายของเรา"
+msgstr "ดื่มด่ำกับโลกแห่งความรู้และยกระดับทักษะของคุณไปอีกขั้นด้วยหลักสูตรที่หลากหลายและเน้นการปฏิบัติของเรา"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

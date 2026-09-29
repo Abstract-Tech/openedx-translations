@@ -26737,11 +26737,11 @@ msgstr "Kod Düzenleyicisi"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Potansiyelinizi Ortaya Çıkarın: Bugün Yeni Kursları Keşfedin!"
+msgstr "TALENTBRÜCKE Akademi: Potansiyelinizi Ortaya Çıkarın!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "Bilgi dünyasını keşfedin ve çeşitli kurs yelpazemizle becerilerinizi geliştirin."
+msgstr "Bilgi dünyasına dalın ve çeşitli, uygulamaya yönelik kurs seçeneklerimizle becerilerinizi bir üst seviyeye taşıyın."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

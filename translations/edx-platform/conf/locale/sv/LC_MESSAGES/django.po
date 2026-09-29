@@ -26134,11 +26134,11 @@ msgstr "Verifiera för {course_name}"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Frigör din potential: upptäck nya kurser i dag!"
+msgstr "TALENTBRÜCKE Akademi: Frigör din potential!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "Utforska en värld av kunskap och utveckla dina färdigheter med vårt mångsidiga kursutbud."
+msgstr "Fördjupa dig i en värld av kunskap och ta dina färdigheter till nästa nivå med vårt mångsidiga och praktiska kursutbud."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

@@ -26322,11 +26322,11 @@ msgstr "ویرایش‌گر کد"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "توانایی‌های خود را شکوفا کنید: امروز دوره‌های جدید را کشف کنید!"
+msgstr "آکادمی TALENTBRÜCKE: پتانسیل خود را شکوفا کنید!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "دنیایی از دانش را کاوش کنید و با مجموعه متنوع دوره‌های ما مهارت‌های خود را ارتقا دهید."
+msgstr "در دنیایی از دانش غوطه‌ور شوید و با مجموعه متنوع و کاربردی دوره‌های ما مهارت‌های خود را به سطح بعدی ببرید."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

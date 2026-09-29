@@ -26243,11 +26243,11 @@ msgstr "Kód szerkesztő"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Bontakoztassa ki a benne rejlő lehetőségeket: fedezzen fel új kurzusokat még ma!"
+msgstr "TALENTBRÜCKE Akadémia: Szabadítsa fel a benne rejlő lehetőségeket!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "Fedezze fel a tudás világát, és fejlessze készségeit változatos kurzuskínálatunkkal."
+msgstr "Merüljön el a tudás világában, és emelje készségeit a következő szintre sokszínű, gyakorlatorientált kurzuskínálatunkkal."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"

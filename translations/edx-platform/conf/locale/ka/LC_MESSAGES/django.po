@@ -27397,11 +27397,11 @@ msgstr "კოდის რედაქტორი"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "აღმოაჩინეთ თქვენი პოტენციალი: იპოვეთ ახალი კურსები დღესვე!"
+msgstr "TALENTBRÜCKE აკადემია: გამოავლინეთ თქვენი პოტენციალი!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
-msgstr "აღმოაჩინეთ ცოდნის სამყარო და განივითარეთ უნარები ჩვენი მრავალფეროვანი კურსების საშუალებით."
+msgstr "ჩაეფლეთ ცოდნის სამყაროში და აიყვანეთ თქვენი უნარები შემდეგ დონეზე ჩვენი მრავალფეროვანი და პრაქტიკული კურსების დახმარებით."
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:53
 msgid "Filters"
