@@ -24162,7 +24162,7 @@ msgstr ""
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:42
 msgid "Unlock Your Potential: Discover New Courses Today!"
-msgstr "Unlock Your Potential: Discover New Courses Today!"
+msgstr "TALENTBRÜCKE Academy: Discover Your Potential!"
 
 #: talentbruecke-indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html:43
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
