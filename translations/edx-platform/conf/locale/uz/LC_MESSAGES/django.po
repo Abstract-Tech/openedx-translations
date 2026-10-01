@@ -14502,3 +14502,12 @@ msgstr "Biz haqimizda"
 
 msgid "Help"
 msgstr "Yordam"
+
+msgid "Performance"
+msgstr "Samaradorlik"
+
+msgid "Leaderboard"
+msgstr "Yetakchilar jadvali"
+
+msgid "Gamification Settings"
+msgstr "Oʻyinlashtirish sozlamalari"

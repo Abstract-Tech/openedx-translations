@@ -5969,3 +5969,15 @@ msgstr "ང་ཚོའི་སྐོར།"
 
 msgid "Help"
 msgstr "རོགས་རམ།"
+
+msgid "Courses"
+msgstr "སློབ་ཚན།"
+
+msgid "Performance"
+msgstr "འཇོན་ནུས།"
+
+msgid "Leaderboard"
+msgstr "གོ་རིམ་རེའུ་མིག"
+
+msgid "Gamification Settings"
+msgstr "རྩེད་འགྲན་ཅན་གྱི་སྒྲིག་འགོད།"

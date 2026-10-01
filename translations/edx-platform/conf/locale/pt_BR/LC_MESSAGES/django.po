@@ -14815,7 +14815,7 @@ msgstr ""
 "se e matricule-se neste curso para visualizá-lo."
 
 msgid "Dashboard"
-msgstr "Painel"
+msgstr "Painel De Controle"
 
 msgid "Catalog"
 msgstr "Catálogo"
@@ -14837,3 +14837,12 @@ msgstr "Sobre nós"
 
 msgid "Help"
 msgstr "Ajuda"
+
+msgid "Performance"
+msgstr "Desempenho"
+
+msgid "Leaderboard"
+msgstr "Classificação"
+
+msgid "Gamification Settings"
+msgstr "Configurações de gamificação"

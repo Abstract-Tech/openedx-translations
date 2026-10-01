@@ -14853,3 +14853,12 @@ msgstr "Hakkımızda"
 
 msgid "Help"
 msgstr "Yardım"
+
+msgid "Performance"
+msgstr "Performans"
+
+msgid "Leaderboard"
+msgstr "Liderlik Tablosu"
+
+msgid "Gamification Settings"
+msgstr "Oyunlaştırma Ayarları"

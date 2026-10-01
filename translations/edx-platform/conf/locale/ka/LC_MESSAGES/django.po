@@ -14543,3 +14543,12 @@ msgstr "ჩვენ შესახებ"
 
 msgid "Help"
 msgstr "დახმარება"
+
+msgid "Performance"
+msgstr "წარმადობა"
+
+msgid "Leaderboard"
+msgstr "ლიდერბორდი"
+
+msgid "Gamification Settings"
+msgstr "თამაშიფიკაციის პარამეტრები"

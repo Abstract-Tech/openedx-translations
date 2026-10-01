@@ -14309,3 +14309,12 @@ msgstr "من نحن"
 
 msgid "Help"
 msgstr "مساعدة"
+
+msgid "Performance"
+msgstr "الأداء"
+
+msgid "Leaderboard"
+msgstr "لوحة المتصدرين"
+
+msgid "Gamification Settings"
+msgstr "إعدادات التلعيب"

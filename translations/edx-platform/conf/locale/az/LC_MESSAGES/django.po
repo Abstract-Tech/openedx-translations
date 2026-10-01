@@ -14873,3 +14873,12 @@ msgstr "Haqqımızda"
 
 msgid "Help"
 msgstr "Kömək"
+
+msgid "Performance"
+msgstr "Performans"
+
+msgid "Leaderboard"
+msgstr "Liderlər lövhəsi"
+
+msgid "Gamification Settings"
+msgstr "Oyunlaşdırma parametrləri"

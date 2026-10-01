@@ -14041,3 +14041,12 @@ msgstr "درباره ما"
 
 msgid "Help"
 msgstr "راهنما"
+
+msgid "Performance"
+msgstr "عملکرد"
+
+msgid "Leaderboard"
+msgstr "جدول رتبه‌بندی"
+
+msgid "Gamification Settings"
+msgstr "تنظیمات بازی‌سازی"

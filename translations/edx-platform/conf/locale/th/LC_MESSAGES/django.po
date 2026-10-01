@@ -8015,3 +8015,15 @@ msgstr "นโยบายความเป็นส่วนตัว"
 
 msgid "Contact Us"
 msgstr "ติดต่อเรา"
+
+msgid "Courses"
+msgstr "หลักสูตร"
+
+msgid "Performance"
+msgstr "ประสิทธิภาพ"
+
+msgid "Leaderboard"
+msgstr "กระดานผู้นำ"
+
+msgid "Gamification Settings"
+msgstr "การตั้งค่าการเล่นเกม"

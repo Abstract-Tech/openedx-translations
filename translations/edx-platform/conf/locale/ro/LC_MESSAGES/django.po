@@ -1,0 +1,29 @@
+# Romanian translations for the LMS header.
+# Copyright (C) 2026
+# This file is distributed under the same license as the openedx-platform project.
+msgid ""
+msgstr ""
+"Project-Id-Version: openedx-platform\n"
+"PO-Revision-Date: 2026-10-01 00:00+0000\n"
+"Last-Translator: Abstract Tech\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0 : (n == 0 || (n % 100 > 0 && n % 100 < 20) ? 1 : 2));\n"
+
+msgid "Dashboard"
+msgstr "Panoul de control"
+
+msgid "Courses"
+msgstr "Cursuri"
+
+msgid "Performance"
+msgstr "Performanță"
+
+msgid "Leaderboard"
+msgstr "Clasament"
+
+msgid "Gamification Settings"
+msgstr "Setări de gamificare"

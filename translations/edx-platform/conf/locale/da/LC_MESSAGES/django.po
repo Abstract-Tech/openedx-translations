@@ -14766,3 +14766,12 @@ msgstr "Om os"
 
 msgid "Help"
 msgstr "Hjælp"
+
+msgid "Performance"
+msgstr "Ydeevne"
+
+msgid "Leaderboard"
+msgstr "Rangliste"
+
+msgid "Gamification Settings"
+msgstr "Indstillinger for spilificering"

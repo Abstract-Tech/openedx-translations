@@ -14776,3 +14776,12 @@ msgstr "Rreth nesh"
 
 msgid "Help"
 msgstr "Ndihmë"
+
+msgid "Performance"
+msgstr "Performanca"
+
+msgid "Leaderboard"
+msgstr "Tabela e renditjes"
+
+msgid "Gamification Settings"
+msgstr "Cilësimet e gamifikimit"

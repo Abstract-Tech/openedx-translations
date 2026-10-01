@@ -13293,3 +13293,12 @@ msgstr "אודותינו"
 
 msgid "Help"
 msgstr "עזרה"
+
+msgid "Performance"
+msgstr "ביצועים"
+
+msgid "Leaderboard"
+msgstr "לוח המובילים"
+
+msgid "Gamification Settings"
+msgstr "הגדרות משחקיות"

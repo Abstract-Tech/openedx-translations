@@ -15088,3 +15088,12 @@ msgstr "O nas"
 
 msgid "Help"
 msgstr "Pomoc"
+
+msgid "Performance"
+msgstr "Wydajność"
+
+msgid "Leaderboard"
+msgstr "Tabela wyników"
+
+msgid "Gamification Settings"
+msgstr "Ustawienia grywalizacji"

@@ -12902,3 +12902,12 @@ msgstr "關於我們"
 
 msgid "Help"
 msgstr "幫助"
+
+msgid "Performance"
+msgstr "表現"
+
+msgid "Leaderboard"
+msgstr "排行榜"
+
+msgid "Gamification Settings"
+msgstr "遊戲化設定"
