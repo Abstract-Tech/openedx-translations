@@ -10211,3 +10211,12 @@ msgstr "Помощь"
 
 msgid "Courses"
 msgstr "Курсы"
+
+msgid "Performance"
+msgstr "Производительность"
+
+msgid "Leaderboard"
+msgstr "Таблица лидеров"
+
+msgid "Gamification Settings"
+msgstr "Настройки геймификации"

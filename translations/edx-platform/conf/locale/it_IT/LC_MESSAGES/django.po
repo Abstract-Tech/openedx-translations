@@ -15186,3 +15186,12 @@ msgstr "Chi siamo"
 
 msgid "Help"
 msgstr "Aiuto"
+
+msgid "Performance"
+msgstr "Prestazioni"
+
+msgid "Leaderboard"
+msgstr "Classifica"
+
+msgid "Gamification Settings"
+msgstr "Impostazioni di gamification"

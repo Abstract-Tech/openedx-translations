@@ -13978,3 +13978,12 @@ msgstr "Par mums"
 
 msgid "Help"
 msgstr "Palīdzība"
+
+msgid "Performance"
+msgstr "Veiktspēja"
+
+msgid "Leaderboard"
+msgstr "Līderu saraksts"
+
+msgid "Gamification Settings"
+msgstr "Spēļošanas iestatījumi"

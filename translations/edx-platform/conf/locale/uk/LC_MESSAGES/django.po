@@ -11520,3 +11520,12 @@ msgstr "Про нас"
 
 msgid "Help"
 msgstr "Допомога"
+
+msgid "Performance"
+msgstr "Продуктивність"
+
+msgid "Leaderboard"
+msgstr "Таблиця лідерів"
+
+msgid "Gamification Settings"
+msgstr "Налаштування гейміфікації"

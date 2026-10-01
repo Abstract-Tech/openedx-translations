@@ -14163,3 +14163,12 @@ msgstr "Về chúng tôi"
 
 msgid "Help"
 msgstr "Trợ giúp"
+
+msgid "Performance"
+msgstr "Hiệu suất"
+
+msgid "Leaderboard"
+msgstr "Bảng xếp hạng"
+
+msgid "Gamification Settings"
+msgstr "Cài đặt trò chơi hóa"

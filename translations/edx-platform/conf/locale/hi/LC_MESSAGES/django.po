@@ -14814,3 +14814,12 @@ msgstr "हमारे बारे में"
 
 msgid "Help"
 msgstr "सहायता"
+
+msgid "Performance"
+msgstr "प्रदर्शन"
+
+msgid "Leaderboard"
+msgstr "लीडरबोर्ड"
+
+msgid "Gamification Settings"
+msgstr "गेमीफिकेशन सेटिंग्स"

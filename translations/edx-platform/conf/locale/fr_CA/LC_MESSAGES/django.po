@@ -14508,3 +14508,12 @@ msgstr "À propos de nous"
 
 msgid "Help"
 msgstr "Aide"
+
+msgid "Performance"
+msgstr "Performance"
+
+msgid "Leaderboard"
+msgstr "Classement"
+
+msgid "Gamification Settings"
+msgstr "Paramètres de ludification"

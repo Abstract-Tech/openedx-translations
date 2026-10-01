@@ -15214,3 +15214,12 @@ msgstr "Über uns"
 
 msgid "Help"
 msgstr "Hilfe"
+
+msgid "Performance"
+msgstr "Leistung"
+
+msgid "Leaderboard"
+msgstr "Bestenliste"
+
+msgid "Gamification Settings"
+msgstr "Gamification-Einstellungen"

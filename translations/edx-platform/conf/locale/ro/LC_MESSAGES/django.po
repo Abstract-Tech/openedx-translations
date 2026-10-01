@@ -18,3 +18,12 @@ msgstr "Panoul de control"
 
 msgid "Courses"
 msgstr "Cursuri"
+
+msgid "Performance"
+msgstr "Performanță"
+
+msgid "Leaderboard"
+msgstr "Clasament"
+
+msgid "Gamification Settings"
+msgstr "Setări de gamificare"

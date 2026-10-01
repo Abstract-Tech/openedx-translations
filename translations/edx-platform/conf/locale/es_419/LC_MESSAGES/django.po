@@ -15015,3 +15015,12 @@ msgstr "Sobre nosotros"
 
 msgid "Help"
 msgstr "Ayuda"
+
+msgid "Performance"
+msgstr "Rendimiento"
+
+msgid "Leaderboard"
+msgstr "Clasificación"
+
+msgid "Gamification Settings"
+msgstr "Configuración de gamificación"

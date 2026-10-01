@@ -14902,3 +14902,12 @@ msgstr "Oor ons"
 
 msgid "Help"
 msgstr "Hulp"
+
+msgid "Performance"
+msgstr "Prestasie"
+
+msgid "Leaderboard"
+msgstr "Ranglys"
+
+msgid "Gamification Settings"
+msgstr "Speletjie-instellings"

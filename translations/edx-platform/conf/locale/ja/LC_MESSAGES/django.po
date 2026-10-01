@@ -13500,3 +13500,12 @@ msgstr "私たちについて"
 
 msgid "Help"
 msgstr "ヘルプ"
+
+msgid "Performance"
+msgstr "パフォーマンス"
+
+msgid "Leaderboard"
+msgstr "リーダーボード"
+
+msgid "Gamification Settings"
+msgstr "ゲーミフィケーション設定"

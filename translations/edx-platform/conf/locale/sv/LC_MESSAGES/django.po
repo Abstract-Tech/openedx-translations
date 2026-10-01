@@ -14754,3 +14754,12 @@ msgstr "Om oss"
 
 msgid "Help"
 msgstr "Hjälp"
+
+msgid "Performance"
+msgstr "Prestanda"
+
+msgid "Leaderboard"
+msgstr "Topplista"
+
+msgid "Gamification Settings"
+msgstr "Inställningar för spelifiering"

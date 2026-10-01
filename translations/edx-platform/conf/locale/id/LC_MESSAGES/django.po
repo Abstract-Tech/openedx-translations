@@ -14452,3 +14452,12 @@ msgstr "Tentang Kami"
 
 msgid "Help"
 msgstr "Bantuan"
+
+msgid "Performance"
+msgstr "Performa"
+
+msgid "Leaderboard"
+msgstr "Papan peringkat"
+
+msgid "Gamification Settings"
+msgstr "Pengaturan gamifikasi"

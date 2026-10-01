@@ -13185,3 +13185,12 @@ msgstr ""
 
 msgid "Help"
 msgstr ""
+
+msgid "Performance"
+msgstr ""
+
+msgid "Leaderboard"
+msgstr ""
+
+msgid "Gamification Settings"
+msgstr ""

@@ -14837,3 +14837,12 @@ msgstr "Sobre nós"
 
 msgid "Help"
 msgstr "Ajuda"
+
+msgid "Performance"
+msgstr "Desempenho"
+
+msgid "Leaderboard"
+msgstr "Classificação"
+
+msgid "Gamification Settings"
+msgstr "Configurações de gamificação"

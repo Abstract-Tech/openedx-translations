@@ -13348,3 +13348,12 @@ msgstr "关于我们"
 
 msgid "Help"
 msgstr "帮助"
+
+msgid "Performance"
+msgstr "表现"
+
+msgid "Leaderboard"
+msgstr "排行榜"
+
+msgid "Gamification Settings"
+msgstr "游戏化设置"

@@ -14968,3 +14968,12 @@ msgstr "Rólunk"
 
 msgid "Help"
 msgstr "Súgó"
+
+msgid "Performance"
+msgstr "Teljesítmény"
+
+msgid "Leaderboard"
+msgstr "Ranglista"
+
+msgid "Gamification Settings"
+msgstr "Gamifikációs beállítások"
