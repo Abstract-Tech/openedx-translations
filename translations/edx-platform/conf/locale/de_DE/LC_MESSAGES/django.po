@@ -15190,3 +15190,27 @@ msgstr ""
 "{display_name} ist nur für eingeschriebene Lernende zugänglich. Melden Sie "
 "sich an oder registrieren Sie sich, und schreiben Sie sich für diesen Kurs "
 "ein, um ihn anzuschauen."
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Order History"
+msgstr "Bestellverlauf"
+
+msgid "About Us"
+msgstr "Über uns"
+
+msgid "Help"
+msgstr "Hilfe"

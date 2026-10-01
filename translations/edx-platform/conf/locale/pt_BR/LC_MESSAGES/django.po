@@ -14813,3 +14813,27 @@ msgid ""
 msgstr ""
 "{display_name} só é acessível a estudantes matriculados. Entre ou registre-"
 "se e matricule-se neste curso para visualizá-lo."
+
+msgid "Dashboard"
+msgstr "Painel"
+
+msgid "Catalog"
+msgstr "Catálogo"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Account"
+msgstr "Conta"
+
+msgid "Logout"
+msgstr "Sair"
+
+msgid "Order History"
+msgstr "Histórico de pedidos"
+
+msgid "About Us"
+msgstr "Sobre nós"
+
+msgid "Help"
+msgstr "Ajuda"

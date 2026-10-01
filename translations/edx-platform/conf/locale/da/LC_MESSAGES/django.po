@@ -14742,3 +14742,27 @@ msgid ""
 msgstr ""
 "{display_name} er kun tilgængelig for tilmeldte elever. Log ind eller "
 "tilmeld dig, og tilmeld dig dette kursus for at se det."
+
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Logout"
+msgstr "Log ud"
+
+msgid "Order History"
+msgstr "Ordrehistorik"
+
+msgid "About Us"
+msgstr "Om os"
+
+msgid "Help"
+msgstr "Hjælp"

@@ -14790,3 +14790,27 @@ msgid ""
 msgstr ""
 "{display_name} केवल नामांकित शिक्षार्थियों के लिए सुलभ है। इसे देखने के लिए "
 "साइन इन या रजिस्टर करें, और इस कोर्स में दाखिला लें।"
+
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+msgid "Catalog"
+msgstr "कैटलॉग"
+
+msgid "Profile"
+msgstr "प्रोफ़ाइल"
+
+msgid "Account"
+msgstr "खाता"
+
+msgid "Logout"
+msgstr "लॉग आउट"
+
+msgid "Order History"
+msgstr "ऑर्डर इतिहास"
+
+msgid "About Us"
+msgstr "हमारे बारे में"
+
+msgid "Help"
+msgstr "सहायता"

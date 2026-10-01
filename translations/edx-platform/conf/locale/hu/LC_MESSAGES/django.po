@@ -14944,3 +14944,27 @@ msgstr ""
 "{display_name} csak a beiratkozott tanulók számára hozzáférhető. "
 "Jelentkezzen be vagy regisztráljon, és iratkozzon be erre a kurzusra, hogy "
 "megtekinthesse."
+
+msgid "Dashboard"
+msgstr "Vezérlőpult"
+
+msgid "Catalog"
+msgstr "Katalógus"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Fiók"
+
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+msgid "Order History"
+msgstr "Rendelési előzmények"
+
+msgid "About Us"
+msgstr "Rólunk"
+
+msgid "Help"
+msgstr "Súgó"

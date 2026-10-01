@@ -13161,3 +13161,27 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Catalog"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Order History"
+msgstr ""
+
+msgid "About Us"
+msgstr ""
+
+msgid "Help"
+msgstr ""

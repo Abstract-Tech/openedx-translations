@@ -14829,3 +14829,27 @@ msgid ""
 msgstr ""
 "{display_name} sadece kayıtlanmış öğrencilere görünür. Görmek için, bu derse"
 " giriş yapın ve derse kayıtlanın."
+
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Hesap"
+
+msgid "Logout"
+msgstr "Çıkış yap"
+
+msgid "Order History"
+msgstr "Sipariş Geçmişi"
+
+msgid "About Us"
+msgstr "Hakkımızda"
+
+msgid "Help"
+msgstr "Yardım"

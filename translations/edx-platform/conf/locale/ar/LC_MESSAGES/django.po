@@ -14285,3 +14285,27 @@ msgid ""
 msgstr ""
 "{display_name} متاح فقط للمتعلمين المسجلين. قم بتسجيل الدخول أو التسجيل ، "
 "والتسجيل في هذا المساق لمشاهدته."
+
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+msgid "Catalog"
+msgstr "الفهرس"
+
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+msgid "Account"
+msgstr "الحساب"
+
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+msgid "Order History"
+msgstr "سجل الطلبات"
+
+msgid "About Us"
+msgstr "من نحن"
+
+msgid "Help"
+msgstr "مساعدة"

@@ -13954,3 +13954,27 @@ msgid ""
 msgstr ""
 "{display_name} ir pieejama tikai reģistrētiem kursa dalībniekiem. Lai to "
 "apskatītu, pierakstieties vai reģistrējieties un reģistrējieties šajā kursā."
+
+msgid "Dashboard"
+msgstr "Informācijas panelis"
+
+msgid "Catalog"
+msgstr "Katalogs"
+
+msgid "Profile"
+msgstr "Profils"
+
+msgid "Account"
+msgstr "Konts"
+
+msgid "Logout"
+msgstr "Izrakstīties"
+
+msgid "Order History"
+msgstr "Pasūtījumu vēsture"
+
+msgid "About Us"
+msgstr "Par mums"
+
+msgid "Help"
+msgstr "Palīdzība"

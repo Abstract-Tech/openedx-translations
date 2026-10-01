@@ -12878,3 +12878,27 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr "{display_name} 僅供註冊的學員使用。 登入或註冊，並註冊此課程以查看它。"
+
+msgid "Dashboard"
+msgstr "儀表板"
+
+msgid "Catalog"
+msgstr "目錄"
+
+msgid "Profile"
+msgstr "個人資料"
+
+msgid "Account"
+msgstr "帳戶"
+
+msgid "Logout"
+msgstr "登出"
+
+msgid "Order History"
+msgstr "訂單記錄"
+
+msgid "About Us"
+msgstr "關於我們"
+
+msgid "Help"
+msgstr "幫助"

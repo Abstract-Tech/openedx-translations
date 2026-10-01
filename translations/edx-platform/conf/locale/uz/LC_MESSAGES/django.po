@@ -14478,3 +14478,27 @@ msgid ""
 msgstr ""
 "{display_name} faqat ro'yxatdan o'tgan talabalar uchun ochiq. Tizimga kiring"
 " yoki roʻyxatdan oʻting va uni koʻrish uchun ushbu kursga yoziling."
+
+msgid "Dashboard"
+msgstr "Boshqaruv paneli"
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Hisob"
+
+msgid "Logout"
+msgstr "Chiqish"
+
+msgid "Order History"
+msgstr "Buyurtmalar tarixi"
+
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+msgid "Help"
+msgstr "Yordam"

@@ -15095,3 +15095,27 @@ msgid ""
 msgstr ""
 "{display_name} solo es accesible para los estudiantes inscritos. Inicie "
 "sesión o regístrese e inscríbase en este curso para verlo."
+
+msgid "Dashboard"
+msgstr "Panel"
+
+msgid "Catalog"
+msgstr "Catálogo"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Account"
+msgstr "Cuenta"
+
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+msgid "Order History"
+msgstr "Historial de pedidos"
+
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+msgid "Help"
+msgstr "Ayuda"

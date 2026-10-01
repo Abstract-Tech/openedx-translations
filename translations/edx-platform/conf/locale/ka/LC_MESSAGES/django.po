@@ -14519,3 +14519,27 @@ msgid ""
 msgstr ""
 "{display_name} ხელმისაწვდომია მხოლოდ ჩარიცხული მოსწავლეებისთვის. შედით ან "
 "დარეგისტრირდით და დარეგისტრირდით ამ კურსზე მის სანახავად."
+
+msgid "Dashboard"
+msgstr "მართვის პანელი"
+
+msgid "Catalog"
+msgstr "კატალოგი"
+
+msgid "Profile"
+msgstr "პროფილი"
+
+msgid "Account"
+msgstr "ანგარიში"
+
+msgid "Logout"
+msgstr "გასვლა"
+
+msgid "Order History"
+msgstr "შეკვეთების ისტორია"
+
+msgid "About Us"
+msgstr "ჩვენ შესახებ"
+
+msgid "Help"
+msgstr "დახმარება"

@@ -5945,3 +5945,27 @@ msgid ""
 msgstr ""
 "{button_start}ནང་དོན་ཚོགས་མཛོད་ནས་ཆ་ཤས་ཁ་སྐོང་བྱེད་{button_end} "
 "འདི་རིམ་ལུགས་ཀྱི་སྒེའུ་ཁུང་ལ་བཙུགས།."
+
+msgid "Dashboard"
+msgstr "འཛིན་སྐྱོང་འཆར་ངོས།"
+
+msgid "Catalog"
+msgstr "དཀར་ཆག"
+
+msgid "Profile"
+msgstr "སྒེར་གྱི་གསལ་ཆ།"
+
+msgid "Account"
+msgstr "ཐོ་ཁོངས།"
+
+msgid "Logout"
+msgstr "ཕྱིར་འཐོན།"
+
+msgid "Order History"
+msgstr "མངག་ཐོའི་ལོ་རྒྱུས།"
+
+msgid "About Us"
+msgstr "ང་ཚོའི་སྐོར།"
+
+msgid "Help"
+msgstr "རོགས་རམ།"

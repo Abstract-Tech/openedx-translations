@@ -14139,3 +14139,27 @@ msgid ""
 msgstr ""
 "{display_name} chỉ có thể truy cập được đối với những người học đã đăng ký. "
 "Đăng nhập hoặc đăng ký và đăng ký khóa học này để xem nó."
+
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+msgid "Catalog"
+msgstr "Danh mục"
+
+msgid "Profile"
+msgstr "Hồ sơ"
+
+msgid "Account"
+msgstr "Tài khoản"
+
+msgid "Logout"
+msgstr "Đăng xuất"
+
+msgid "Order History"
+msgstr "Lịch sử đơn hàng"
+
+msgid "About Us"
+msgstr "Về chúng tôi"
+
+msgid "Help"
+msgstr "Trợ giúp"
