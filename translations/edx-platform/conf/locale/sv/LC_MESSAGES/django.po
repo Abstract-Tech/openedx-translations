@@ -14730,3 +14730,27 @@ msgid ""
 msgstr ""
 "{display_name} är endast tillgängligt för inskrivna elever. Logga in eller "
 "registrera dig och anmäl dig till den här kursen för att se den."
+
+msgid "Dashboard"
+msgstr "Instrumentpanel"
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Logout"
+msgstr "Logga ut"
+
+msgid "Order History"
+msgstr "Orderhistorik"
+
+msgid "About Us"
+msgstr "Om oss"
+
+msgid "Help"
+msgstr "Hjälp"

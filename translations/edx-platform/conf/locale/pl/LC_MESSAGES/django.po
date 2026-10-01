@@ -15064,3 +15064,27 @@ msgid ""
 msgstr ""
 "{display_name} jest dostępny tylko dla zapisanych studentów. Zaloguj się lub"
 " zarejestruj i zapisz się na ten kurs, aby go zobaczyć."
+
+msgid "Dashboard"
+msgstr "Panel"
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Logout"
+msgstr "Wyloguj się"
+
+msgid "Order History"
+msgstr "Historia zamówień"
+
+msgid "About Us"
+msgstr "O nas"
+
+msgid "Help"
+msgstr "Pomoc"

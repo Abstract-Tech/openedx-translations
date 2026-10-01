@@ -15063,3 +15063,27 @@ msgid ""
 msgstr ""
 "{display_name} est accessible uniquement aux apprenants inscrits. Connectez-"
 "vous ou inscrivez-vous, et s'inscrire à ce cours pour le voir."
+
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgid "Catalog"
+msgstr "Catalogue"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Compte"
+
+msgid "Logout"
+msgstr "Se déconnecter"
+
+msgid "Order History"
+msgstr "Historique des commandes"
+
+msgid "About Us"
+msgstr "À propos de nous"
+
+msgid "Help"
+msgstr "Aide"

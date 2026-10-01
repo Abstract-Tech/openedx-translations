@@ -13269,3 +13269,27 @@ msgstr "כל המילים האפשריות מכל הלומדים."
 #: xmodule/word_cloud_block.py:110
 msgid "Top num_top_words words for word cloud."
 msgstr "מילות num_top_words מובילות עבור ענן המילים."
+
+msgid "Dashboard"
+msgstr "לוח מחוונים"
+
+msgid "Catalog"
+msgstr "קטלוג"
+
+msgid "Profile"
+msgstr "פרופיל"
+
+msgid "Account"
+msgstr "חשבון"
+
+msgid "Logout"
+msgstr "התנתקות"
+
+msgid "Order History"
+msgstr "היסטוריית הזמנות"
+
+msgid "About Us"
+msgstr "אודותינו"
+
+msgid "Help"
+msgstr "עזרה"

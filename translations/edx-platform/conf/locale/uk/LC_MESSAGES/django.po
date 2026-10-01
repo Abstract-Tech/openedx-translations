@@ -11496,3 +11496,27 @@ msgid ""
 msgstr ""
 "{display_name} доступний лише для зареєстрованих учнів. Увійдіть або "
 "зареєструйтеся та запишіться на  цей курс, щоб переглянути його."
+
+msgid "Dashboard"
+msgstr "Панель керування"
+
+msgid "Catalog"
+msgstr "Каталог"
+
+msgid "Profile"
+msgstr "Профіль"
+
+msgid "Account"
+msgstr "Обліковий запис"
+
+msgid "Logout"
+msgstr "Вийти"
+
+msgid "Order History"
+msgstr "Історія замовлень"
+
+msgid "About Us"
+msgstr "Про нас"
+
+msgid "Help"
+msgstr "Допомога"

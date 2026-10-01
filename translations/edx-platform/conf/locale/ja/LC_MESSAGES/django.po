@@ -13476,3 +13476,27 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr "{display_name}は登録した学習者のみがアクセスできます。サインインまたは登録して、このコースに登録し、内容を表示してください。"
+
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+msgid "Catalog"
+msgstr "カタログ"
+
+msgid "Profile"
+msgstr "プロフィール"
+
+msgid "Account"
+msgstr "アカウント"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Order History"
+msgstr "注文履歴"
+
+msgid "About Us"
+msgstr "私たちについて"
+
+msgid "Help"
+msgstr "ヘルプ"

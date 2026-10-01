@@ -14878,3 +14878,27 @@ msgid ""
 msgstr ""
 "{display_name} is slegs toeganklik vir ingeskrewe leerders. Meld aan of "
 "registreer, en skryf in vir hierdie kursus om dit te sien."
+
+msgid "Dashboard"
+msgstr "Paneelbord"
+
+msgid "Catalog"
+msgstr "Katalogus"
+
+msgid "Profile"
+msgstr "Profiel"
+
+msgid "Account"
+msgstr "Rekening"
+
+msgid "Logout"
+msgstr "Meld af"
+
+msgid "Order History"
+msgstr "Bestelgeskiedenis"
+
+msgid "About Us"
+msgstr "Oor ons"
+
+msgid "Help"
+msgstr "Hulp"

@@ -15033,3 +15033,27 @@ msgstr ""
 "{display_name} apenas está acessível a estudantes matriculados. Inicie "
 "sessão ou registe-se na plataforma, e inscreva-se neste curso para o "
 "conseguir ver."
+
+msgid "Dashboard"
+msgstr "Painel de controlo"
+
+msgid "Catalog"
+msgstr "Catálogo"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Account"
+msgstr "Conta"
+
+msgid "Logout"
+msgstr "Terminar sessão"
+
+msgid "Order History"
+msgstr "Histórico de encomendas"
+
+msgid "About Us"
+msgstr "Sobre nós"
+
+msgid "Help"
+msgstr "Ajuda"

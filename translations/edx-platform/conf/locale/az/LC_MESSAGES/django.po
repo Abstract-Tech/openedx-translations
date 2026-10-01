@@ -14849,3 +14849,27 @@ msgid ""
 msgstr ""
 "{display_name} yalnız qeydiyyatdan keçmiş tələbələrə açıqdır. Ona baxmaq "
 "üçün daxil olun və ya qeydiyyatdan keçərək kursa yazılın."
+
+msgid "Dashboard"
+msgstr "İdarəetmə paneli"
+
+msgid "Catalog"
+msgstr "Kataloq"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Account"
+msgstr "Hesab"
+
+msgid "Logout"
+msgstr "Çıxış"
+
+msgid "Order History"
+msgstr "Sifariş tarixçəsi"
+
+msgid "About Us"
+msgstr "Haqqımızda"
+
+msgid "Help"
+msgstr "Kömək"

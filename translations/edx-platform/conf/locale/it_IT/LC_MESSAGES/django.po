@@ -15162,3 +15162,27 @@ msgid ""
 msgstr ""
 "{display_name} è solo accessibile agli studenti iscritti. Eseguire l'accesso"
 " o la registrazione, quindi iscriversi a questo corso per visualizzarlo."
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Catalog"
+msgstr "Catalogo"
+
+msgid "Profile"
+msgstr "Profilo"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Logout"
+msgstr "Esci"
+
+msgid "Order History"
+msgstr "Cronologia ordini"
+
+msgid "About Us"
+msgstr "Chi siamo"
+
+msgid "Help"
+msgstr "Aiuto"

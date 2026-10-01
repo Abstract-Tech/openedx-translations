@@ -14017,3 +14017,27 @@ msgid ""
 msgstr ""
 "{display_name} فقط برای زبان آموزان ثبت نام شده قابل دسترسی است. وارد شوید "
 "یا ثبت نام کنید و برای مشاهده در این دوره ثبت نام کنید."
+
+msgid "Dashboard"
+msgstr "داشبورد"
+
+msgid "Catalog"
+msgstr "فهرست"
+
+msgid "Profile"
+msgstr "نمایه"
+
+msgid "Account"
+msgstr "حساب"
+
+msgid "Logout"
+msgstr "خروج"
+
+msgid "Order History"
+msgstr "تاریخچه سفارش‌ها"
+
+msgid "About Us"
+msgstr "درباره ما"
+
+msgid "Help"
+msgstr "راهنما"

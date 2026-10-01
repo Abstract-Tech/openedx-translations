@@ -14752,3 +14752,27 @@ msgid ""
 msgstr ""
 "{display_name} është i aksesueshëm vetëm për nxënësit e regjistruar. "
 "Identifikohu ose regjistrohu dhe përfshihu në këtë kurs për ta parë atë."
+
+msgid "Dashboard"
+msgstr "Paneli"
+
+msgid "Catalog"
+msgstr "Katalogu"
+
+msgid "Profile"
+msgstr "Profili"
+
+msgid "Account"
+msgstr "Llogaria"
+
+msgid "Logout"
+msgstr "Dil"
+
+msgid "Order History"
+msgstr "Historiku i porosive"
+
+msgid "About Us"
+msgstr "Rreth nesh"
+
+msgid "Help"
+msgstr "Ndihmë"
