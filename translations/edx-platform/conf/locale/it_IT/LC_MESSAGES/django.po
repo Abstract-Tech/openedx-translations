@@ -15164,7 +15164,7 @@ msgstr ""
 " o la registrazione, quindi iscriversi a questo corso per visualizzarlo."
 
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Pannello di controllo"
 
 msgid "Catalog"
 msgstr "Catalogo"

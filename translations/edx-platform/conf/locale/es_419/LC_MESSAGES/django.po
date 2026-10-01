@@ -14993,7 +14993,7 @@ msgstr ""
 "sesión o regístrese, e inscríbase en el curso para verlo."
 
 msgid "Dashboard"
-msgstr "Panel"
+msgstr "Panel principal"
 
 msgid "Catalog"
 msgstr "Catálogo"

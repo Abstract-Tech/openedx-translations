@@ -7957,7 +7957,7 @@ msgstr "ऐस कॉमन"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:97
 msgid "Courses"
-msgstr "कौरसेस "
+msgstr "पाठ्यक्रम"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"

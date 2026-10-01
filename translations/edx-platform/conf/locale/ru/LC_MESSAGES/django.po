@@ -10208,3 +10208,6 @@ msgstr "О нас"
 
 msgid "Help"
 msgstr "Помощь"
+
+msgid "Courses"
+msgstr "Курсы"

@@ -15192,7 +15192,7 @@ msgstr ""
 "ein, um ihn anzuschauen."
 
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Meine Kurse"
 
 msgid "Catalog"
 msgstr "Katalog"

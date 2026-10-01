@@ -8015,3 +8015,6 @@ msgstr "นโยบายความเป็นส่วนตัว"
 
 msgid "Contact Us"
 msgstr "ติดต่อเรา"
+
+msgid "Courses"
+msgstr "หลักสูตร"
