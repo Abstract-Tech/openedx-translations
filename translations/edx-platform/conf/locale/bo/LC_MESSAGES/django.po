@@ -5973,6 +5973,9 @@ msgstr "རོགས་རམ།"
 msgid "Courses"
 msgstr "སློབ་ཚན།"
 
+msgid "Learning paths"
+msgstr "སློབ་སྦྱོང་ལམ་ཁ"
+
 msgid "Performance"
 msgstr "འཇོན་ནུས།"
 

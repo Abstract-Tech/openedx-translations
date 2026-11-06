@@ -7380,6 +7380,9 @@ msgstr "ACE Common"
 msgid "Courses"
 msgstr "講座"
 
+msgid "Learning paths"
+msgstr "学習パス"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "マイアカウント"

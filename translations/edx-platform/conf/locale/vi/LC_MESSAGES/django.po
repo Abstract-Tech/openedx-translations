@@ -7576,6 +7576,9 @@ msgstr "ACE chung"
 msgid "Courses"
 msgstr "Khóa học"
 
+msgid "Learning paths"
+msgstr "Lộ trình học tập"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "Tài khoản của tôi"

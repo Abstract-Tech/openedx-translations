@@ -6997,6 +6997,9 @@ msgstr "ACE 共享"
 msgid "Courses"
 msgstr "課程"
 
+msgid "Learning paths"
+msgstr "學習路徑"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "我的帳戶"

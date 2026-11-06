@@ -7959,6 +7959,9 @@ msgstr "ऐस कॉमन"
 msgid "Courses"
 msgstr "पाठ्यक्रम"
 
+msgid "Learning paths"
+msgstr "शिक्षण पथ"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "मेरा खाता"

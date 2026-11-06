@@ -7955,6 +7955,9 @@ msgstr "ACE E zakonshme"
 msgid "Courses"
 msgstr "Kurse"
 
+msgid "Learning paths"
+msgstr "Rrugët e të mësuarit"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "Llogaria ime"

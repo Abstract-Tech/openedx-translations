@@ -8124,6 +8124,9 @@ msgstr "ACE Wspólne"
 msgid "Courses"
 msgstr "Kursy"
 
+msgid "Learning paths"
+msgstr "Ścieżki edukacyjne"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "Moje konto"
