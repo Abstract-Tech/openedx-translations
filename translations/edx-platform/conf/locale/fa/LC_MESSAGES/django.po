@@ -7536,6 +7536,9 @@ msgstr "ACE مشترک"
 msgid "Courses"
 msgstr "دوره های آموزشی"
 
+msgid "Learning paths"
+msgstr "مسیرهای یادگیری"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "حساب من"

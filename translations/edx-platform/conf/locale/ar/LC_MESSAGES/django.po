@@ -7701,6 +7701,9 @@ msgstr "ACE Common"
 msgid "Courses"
 msgstr "مساقات"
 
+msgid "Learning paths"
+msgstr "مسارات التعلم"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "حسابي"

@@ -8019,6 +8019,9 @@ msgstr "ติดต่อเรา"
 msgid "Courses"
 msgstr "หลักสูตร"
 
+msgid "Learning paths"
+msgstr "เส้นทางการเรียนรู้"
+
 msgid "Performance"
 msgstr "ประสิทธิภาพ"
 

@@ -19,6 +19,9 @@ msgstr "Panoul de control"
 msgid "Courses"
 msgstr "Cursuri"
 
+msgid "Learning paths"
+msgstr "Trasee de învățare"
+
 msgid "Performance"
 msgstr "Performanță"
 

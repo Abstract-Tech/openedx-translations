@@ -8063,6 +8063,9 @@ msgstr "ACE Közös"
 msgid "Courses"
 msgstr "Kurzusok"
 
+msgid "Learning paths"
+msgstr "Tanulási utak"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
 msgstr "Fiók"
