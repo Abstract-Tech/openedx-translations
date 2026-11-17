@@ -14885,3 +14885,11 @@ msgstr "Liderlər lövhəsi"
 
 msgid "Gamification Settings"
 msgstr "Oyunlaşdırma parametrləri"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "İki faktorlu autentifikasiya"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Hesab təhlükəsizliyi"

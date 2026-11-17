@@ -15226,3 +15226,11 @@ msgstr "Bestenliste"
 
 msgid "Gamification Settings"
 msgstr "Gamification-Einstellungen"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "Zwei-Faktor-Authentifizierung"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Kontosicherheit"

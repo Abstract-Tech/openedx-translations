@@ -14321,3 +14321,11 @@ msgstr "لوحة المتصدرين"
 
 msgid "Gamification Settings"
 msgstr "إعدادات التلعيب"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "المصادقة الثنائية"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "أمان الحساب"

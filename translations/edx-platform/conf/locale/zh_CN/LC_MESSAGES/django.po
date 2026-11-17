@@ -13360,3 +13360,11 @@ msgstr "排行榜"
 
 msgid "Gamification Settings"
 msgstr "游戏化设置"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "双因素身份验证"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "帐户安全"

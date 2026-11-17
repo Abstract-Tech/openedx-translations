@@ -15198,3 +15198,11 @@ msgstr "Classifica"
 
 msgid "Gamification Settings"
 msgstr "Impostazioni di gamification"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "Autenticazione a due fattori"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Sicurezza dell'account"

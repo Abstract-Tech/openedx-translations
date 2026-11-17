@@ -11532,3 +11532,11 @@ msgstr "Таблиця лідерів"
 
 msgid "Gamification Settings"
 msgstr "Налаштування гейміфікації"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "Двофакторна автентифікація"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Безпека облікового запису"

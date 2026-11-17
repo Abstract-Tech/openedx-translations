@@ -14788,3 +14788,11 @@ msgstr "Tabela e renditjes"
 
 msgid "Gamification Settings"
 msgstr "Cilësimet e gamifikimit"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "Autentifikimi me dy faktorë"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Siguria e llogarisë"

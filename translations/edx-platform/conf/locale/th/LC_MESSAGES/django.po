@@ -8030,3 +8030,11 @@ msgstr "กระดานผู้นำ"
 
 msgid "Gamification Settings"
 msgstr "การตั้งค่าการเล่นเกม"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "การตรวจสอบสิทธิ์แบบสองปัจจัย"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "ความปลอดภัยของบัญชี"

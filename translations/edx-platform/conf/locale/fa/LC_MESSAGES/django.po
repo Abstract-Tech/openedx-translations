@@ -14053,3 +14053,11 @@ msgstr "جدول رتبه‌بندی"
 
 msgid "Gamification Settings"
 msgstr "تنظیمات بازی‌سازی"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "احراز هویت دوعاملی"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "امنیت حساب کاربری"
