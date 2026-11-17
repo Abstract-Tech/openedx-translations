@@ -14552,3 +14552,11 @@ msgstr "ლიდერბორდი"
 
 msgid "Gamification Settings"
 msgstr "თამაშიფიკაციის პარამეტრები"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "ორფაქტორიანი ავთენტიფიკაცია"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "ანგარიშის უსაფრთხოება"

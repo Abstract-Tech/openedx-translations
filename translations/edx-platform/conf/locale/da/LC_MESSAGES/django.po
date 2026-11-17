@@ -14775,3 +14775,11 @@ msgstr "Rangliste"
 
 msgid "Gamification Settings"
 msgstr "Indstillinger for spilificering"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "Tofaktorgodkendelse"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Kontosikkerhed"

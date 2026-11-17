@@ -12911,3 +12911,11 @@ msgstr "排行榜"
 
 msgid "Gamification Settings"
 msgstr "遊戲化設定"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "雙重驗證"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "帳戶安全"

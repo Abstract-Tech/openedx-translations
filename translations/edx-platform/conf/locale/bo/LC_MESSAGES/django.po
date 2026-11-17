@@ -5981,3 +5981,11 @@ msgstr "གོ་རིམ་རེའུ་མིག"
 
 msgid "Gamification Settings"
 msgstr "རྩེད་འགྲན་ཅན་གྱི་སྒྲིག་འགོད།"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "རྒྱུ་རྐྱེན་གཉིས་ཀྱི་བདེན་དཔང་།"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "ཐོ་ཁོངས་ཀྱི་བདེ་འཇགས།"

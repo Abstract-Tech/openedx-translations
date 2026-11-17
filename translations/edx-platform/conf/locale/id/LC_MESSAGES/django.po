@@ -14461,3 +14461,11 @@ msgstr "Papan peringkat"
 
 msgid "Gamification Settings"
 msgstr "Pengaturan gamifikasi"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "Autentikasi dua faktor"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Keamanan akun"

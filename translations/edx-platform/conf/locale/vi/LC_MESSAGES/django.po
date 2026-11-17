@@ -14172,3 +14172,11 @@ msgstr "Bảng xếp hạng"
 
 msgid "Gamification Settings"
 msgstr "Cài đặt trò chơi hóa"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Two-factor authentication"
+msgstr "Xác thực hai yếu tố"
+
+#: tutor-contrib-2fa/tutor2fa/backend/openedx_two_factor/templates/two_factor/_base.html:6
+msgid "Account security"
+msgstr "Bảo mật tài khoản"
